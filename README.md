@@ -81,7 +81,7 @@ For more information about Docker, please check the following links:
 ## Execution environment
 
 All experiments run on an Ubuntu 16.04 Linux Docker image of APIARTy
-deployed on a 2-core PC with 8GB RAM and 3,1GHz Intel Core i5 processor.
+deployed on a 2-core PC with 8GB RAM and 3,1 GHz Intel Core i5 processor.
 We used Java 1.8 (amd64) ofthe OpenJDK, allocating up to 4GB for the JVM.
 
 ## Repository structure
