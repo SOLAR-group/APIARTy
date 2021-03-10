@@ -1,0 +1,209 @@
+TernarySplitter  in 640ms
+boolean wrap = (ctxt == null) || ctxt.isEnabled(DeserializationFeature.WRAP_EXCEPTIONS)
+return (_objectIdReader == null) || (_idValue != null)
+return (_objectIdReader == null) || (_idValue != null)
+return other.schema == null
+super(prop == null ? PropertyMetadata.STD_REQUIRED_OR_OPTIONAL : prop.getMetadata())
+boolean usingIdentityInfo = (_objectIdInfo != null) || (_valueDeserializer.getObjectIdReader() != null)
+boolean usingIdentityInfo = (_objectIdInfo != null) || (_valueDeserializer.getObjectIdReader() != null)
+return _match != null
+return (_elementDeserializer == null) && (_elementTypeDeserializer == null)
+return (_elementDeserializer == null) && (_elementTypeDeserializer == null)
+boolean canWrap = (_unwrapSingle == Boolean.TRUE) || ((_unwrapSingle == null) && ctxt.isEnabled(DeserializationFeature.ACCEPT_SINGLE_VALUE_AS_ARRAY))
+boolean override = gen.getCharacterEscapes() == null
+boolean wrap = (ctxt == null) || ctxt.isEnabled(DeserializationFeature.WRAP_EXCEPTIONS)
+return _objectIdWriter != null
+return String.format("Object id [%s] (for %s) at %s", _id, _type == null ? "NULL" : _type.getName(), _location)
+super(owner == null ? null : owner.getTypeContext(), annotations)
+b = type.getAnnotation(JacksonAnnotationsInside.class) != null
+return (ann != null) && ann.value()
+return (_annotationIntrospector != null) && _annotationIntrospector.isAnnotationBundle(ann)
+return (value == null) || value.isEmpty()
+return _simpleName == null
+return _namespace != null
+return (_namespace == null) && _simpleName.isEmpty()
+return null == other._namespace
+return deser != null
+return (ct.getValueHandler() != null) || (ct.getTypeHandler() != null)
+return (ct.getValueHandler() != null) || (ct.getTypeHandler() != null)
+@SuppressWarnings("deprecation")
+boolean trimEmptyArray = (provider != null) && (!provider.isEnabled(SerializationFeature.WRITE_EMPTY_JSON_ARRAYS))
+@SuppressWarnings("deprecation")
+boolean trimEmptyArray = (provider != null) && (!provider.isEnabled(SerializationFeature.WRITE_EMPTY_JSON_ARRAYS))
+return _put(fieldName, v == null ? nullNode() : numberNode(v.shortValue()))
+return _put(fieldName, v == null ? nullNode() : numberNode(v.intValue()))
+return _put(fieldName, v == null ? nullNode() : numberNode(v.longValue()))
+return _put(fieldName, v == null ? nullNode() : numberNode(v.floatValue()))
+return _put(fieldName, v == null ? nullNode() : numberNode(v.doubleValue()))
+return _put(fieldName, v == null ? nullNode() : numberNode(v))
+return _put(fieldName, v == null ? nullNode() : textNode(v))
+return _put(fieldName, v == null ? nullNode() : booleanNode(v.booleanValue()))
+return _put(fieldName, v == null ? nullNode() : binaryNode(v))
+boolean hasName = pn != null
+boolean visible = pn != null
+boolean ignored = (ai != null) && ai.hasIgnoreMarker(f)
+boolean expl = (pn != null) && (!pn.isEmpty())
+boolean nameExplicit = pn != null
+boolean nameExplicit = pn != null
+_nonStandardCreation = ((((_unwrappedPropertyHandler != null) || _valueInstantiator.canCreateUsingDelegate()) || _valueInstantiator.canCreateUsingArrayDelegate()) || _valueInstantiator.canCreateFromObjectWith()) || (!_valueInstantiator.canCreateUsingDefault())
+_vanillaProcessing = (((!_nonStandardCreation) && (_injectables == null)) && (!_needViewProcesing)) && (_objectIdReader == null)
+_vanillaProcessing = (((!_nonStandardCreation) && (_injectables == null)) && (!_needViewProcesing)) && (_objectIdReader == null)
+_ignoreAllUnknown = (unwrapper != null) || src._ignoreAllUnknown
+return _beanProperties.find(propertyName) != null
+boolean wrap = (ctxt == null) || ctxt.isEnabled(DeserializationFeature.WRAP_EXCEPTIONS)
+boolean wrap = (ctxt == null) || ctxt.isEnabled(DeserializationFeature.WRAP_EXCEPTIONS)
+return (n != null) && n.hasSimpleName()
+return (value == null) || value.isEmpty()
+return _getters != null
+return _setters != null
+return _fields != null
+return _ctorParameters != null
+return ((_ctorParameters != null) || (_setters != null)) || (_fields != null)
+return ((_ctorParameters != null) || (_setters != null)) || (_fields != null)
+return ((_ctorParameters != null) || (_setters != null)) || (_fields != null)
+return (_getters != null) || (_fields != null)
+return (_getters != null) || (_fields != null)
+return (b != null) && b.booleanValue()
+return next != null
+return ser != null
+return (value == null) || (!value.hasNext())
+boolean wrap = (provider == null) || provider.isEnabled(SerializationFeature.WRAP_EXCEPTIONS)
+boolean wrap = (provider == null) || provider.isEnabled(SerializationFeature.WRAP_EXCEPTIONS)
+return _newWriter(getSerializationConfig(), rootType == null ? null : _typeFactory.constructType(rootType), null)
+return _newWriter(getSerializationConfig(), rootType == null ? null : _typeFactory.constructType(rootType), null)
+return _newWriter(getSerializationConfig(), rootType == null ? null : _typeFactory.constructType(rootType), null)
+return _newWriter(getSerializationConfig(), rootType == null ? null : _typeFactory.constructType(rootType), null)
+return (_valueDeserializer != null) && (_valueDeserializer != SettableBeanProperty.MISSING_VALUE_DESERIALIZER)
+return _valueTypeDeserializer != null
+return (_viewMatcher == null) || _viewMatcher.isVisibleForView(activeView)
+return _viewMatcher != null
+return new ObjectWriter.GeneratorSettings(prettyPrinter, schema, characterEscapes, sep == null ? null : new SerializedString(sep))
+boolean noType = (newType == null) || newType.isJavaLangObject()
+return (valueSerializer != null) || (typeSerializer != null)
+return (valueSerializer != null) || (typeSerializer != null)
+return _serializer != null
+return _nullSerializer != null
+return (_properties != null) && (_properties.size() > 0)
+return _name != null
+return ((("[NamedType, class " + _class.getName()) + ", name: ") + (_name == null ? "null" : ("'" + _name) + "'")) + "]"
+return (value == null) || (value.size() == 0)
+return value == null
+sb.append("[ClassStack (self-refs: ").append(_selfRefs == null ? "0" : String.valueOf(_selfRefs.size())).append(')')
+boolean canWrap = (_unwrapSingle == Boolean.TRUE) || ((_unwrapSingle == null) && ctxt.isEnabled(DeserializationFeature.ACCEPT_SINGLE_VALUE_AS_ARRAY))
+_staticTyping = staticTyping || ((et != null) && et.isFinal())
+_staticTyping = staticTyping || ((et != null) && et.isFinal())
+return (_valueDeserializer == null) && (_delegateDeserializer == null)
+return (_valueDeserializer == null) && (_delegateDeserializer == null)
+boolean canWrap = (_unwrapSingle == Boolean.TRUE) || ((_unwrapSingle == null) && ctxt.isEnabled(DeserializationFeature.ACCEPT_SINGLE_VALUE_AS_ARRAY))
+boolean canWrap = (_unwrapSingle == Boolean.TRUE) || ((_unwrapSingle == null) && ctxt.isEnabled(DeserializationFeature.ACCEPT_SINGLE_VALUE_AS_ARRAY))
+return (value == null) || (value.length == 0)
+return getDefaultCreator() != null
+return _creators[CreatorCollector.C_DEFAULT] != null
+return _creators[CreatorCollector.C_DELEGATE] != null
+return _creators[CreatorCollector.C_PROPS] != null
+return _nativeIds != null
+return _fromStringCreator != null
+return _fromIntCreator != null
+return _fromLongCreator != null
+return _fromDoubleCreator != null
+return _fromBooleanCreator != null
+return _defaultCreator != null
+return _delegateType != null
+return _arrayDelegateType != null
+return _withArgsCreator != null
+boolean canWrap = (_unwrapSingle == Boolean.TRUE) || ((_unwrapSingle == null) && ctxt.isEnabled(DeserializationFeature.ACCEPT_SINGLE_VALUE_AS_ARRAY))
+return get(fieldName) != null
+return get(index) != null
+return (n != null) && (!n.isNull())
+return (n != null) && (!n.isNull())
+return (((_valueDeserializer == null) && (_keyDeserializer == null)) && (_valueTypeDeserializer == null)) && (_ignorableProperties == null)
+return (((_valueDeserializer == null) && (_keyDeserializer == null)) && (_valueTypeDeserializer == null)) && (_ignorableProperties == null)
+return (((_valueDeserializer == null) && (_keyDeserializer == null)) && (_valueTypeDeserializer == null)) && (_ignorableProperties == null)
+return (((_valueDeserializer == null) && (_keyDeserializer == null)) && (_valueTypeDeserializer == null)) && (_ignorableProperties == null)
+boolean useObjectId = valueDes.getObjectIdReader() != null
+boolean useObjectId = valueDes.getObjectIdReader() != null
+return value == null
+return _defaultValue != null
+return (_required != null) && _required.booleanValue()
+return _index != null
+return (value == null) || (value.length == 0)
+return (str == null) || (str.length() == 0)
+return (str == null) || (str.length() == 0)
+staticValueType = (valueType != null) && valueType.isFinal()
+sortKeys = (b != null) && b.booleanValue()
+return (_value != null) && _value.equals(other._value)
+return String.format("[RawValue of type %s]", _value == null ? "NULL" : _value.getClass().getName())
+return value.get() == null
+return (value == null) || (value.length == 0)
+return findProperty(propertyName) != null
+return (previous == null) || (!previous.equals(ann))
+return (value == null) || (_timestamp(value) == 0L)
+return (value == null) || (_timestamp(value) == 0L)
+return getMutator() != null
+return getAccessor() != null
+return (md != null) && md.isRequired()
+return (value == null) || (value.length == 0)
+return (value == null) || (value.length == 0)
+return (value == null) || (value.length == 0)
+return (value == null) || (value.length == 0)
+return (value == null) || (value.length == 0)
+return (value == null) || (value.length == 0)
+return (value == null) || (value.length == 0)
+return (_referringProperties != null) && (!_referringProperties.isEmpty())
+return (value == null) || value.isEmpty()
+return other._value == null
+return (ClassUtil.canBeABeanType(type) == null) && (!ClassUtil.isProxyType(type))
+boolean hasPrefix = (prefix != null) && (prefix.length() > 0)
+boolean hasSuffix = (suffix != null) && (suffix.length() > 0)
+return _valueDeserializer != null
+return ((_valueDeserializer == null) && (_keyDeserializer == null)) && (_valueTypeDeserializer == null)
+return ((_valueDeserializer == null) && (_keyDeserializer == null)) && (_valueTypeDeserializer == null)
+return ((_valueDeserializer == null) && (_keyDeserializer == null)) && (_valueTypeDeserializer == null)
+return (value == null) || (!value.iterator().hasNext())
+return (impl != null) && ClassUtil.isJacksonStdImpl(impl.getClass())
+return implClass.getAnnotation(JacksonStdImpl.class) != null
+return (!Modifier.isStatic(cls.getModifiers())) && (ClassUtil.getEnclosingClass(cls) != null)
+return (!ClassUtil.isObjectOrPrimitive(cls)) && (cls.getEnclosingMethod() != null)
+return findProperty(name) != null
+return _valueHandler != null
+return (_typeHandler != null) || (_valueHandler != null)
+return (_typeHandler != null) || (_valueHandler != null)
+boolean canDeserialize = (bean != null) && (_tokens[index] != null)
+boolean canDeserialize = (bean != null) && (_tokens[index] != null)
+canDeserialize = (bean != null) && (_tokens[index] != null)
+canDeserialize = (bean != null) && (_tokens[index] != null)
+canDeserialize = (bean != null) && (_typeIds[index] != null)
+canDeserialize = (bean != null) && (_typeIds[index] != null)
+return _typeDeserializer.getDefaultImpl() != null
+return ((_valueDeserializer == null) && (_valueTypeDeserializer == null)) && (_delegateDeserializer == null)
+return ((_valueDeserializer == null) && (_valueTypeDeserializer == null)) && (_delegateDeserializer == null)
+return ((_valueDeserializer == null) && (_valueTypeDeserializer == null)) && (_delegateDeserializer == null)
+boolean wrap = (ctxt == null) || ctxt.isEnabled(DeserializationFeature.WRAP_EXCEPTIONS)
+boolean canWrap = (_unwrapSingle == Boolean.TRUE) || ((_unwrapSingle == null) && ctxt.isEnabled(DeserializationFeature.ACCEPT_SINGLE_VALUE_AS_ARRAY))
+return (_pushbackToken != null) || super.hasMoreTokens()
+this(member, fullName, intr, metadata, (inclusion == null) || (inclusion == JsonInclude.Include.USE_DEFAULTS) ? BeanPropertyDefinition.EMPTY_INCLUDE : JsonInclude.Value.construct(inclusion, null))
+return new SimpleBeanPropertyDefinition(member, PropertyName.construct(member.getName()), config == null ? null : config.getAnnotationIntrospector(), null, BeanPropertyDefinition.EMPTY_INCLUDE)
+return new SimpleBeanPropertyDefinition(member, PropertyName.construct(name), config == null ? null : config.getAnnotationIntrospector(), null, BeanPropertyDefinition.EMPTY_INCLUDE)
+return new SimpleBeanPropertyDefinition(member, name, config == null ? null : config.getAnnotationIntrospector(), metadata, inclusion)
+return new SimpleBeanPropertyDefinition(member, name, config == null ? null : config.getAnnotationIntrospector(), metadata, inclusion)
+return getGetter() != null
+return getSetter() != null
+return (_methods == null) || (_methods.size() == 0)
+return (((((("ObjectIdInfo: propName=" + _propertyName) + ", scope=") + (_scope == null ? "null" : _scope.getName())) + ", generatorType=") + (_generator == null ? "null" : _generator.getName())) + ", alwaysAsId=") + _alwaysAsId
+return (((((("ObjectIdInfo: propName=" + _propertyName) + ", scope=") + (_scope == null ? "null" : _scope.getName())) + ", generatorType=") + (_generator == null ? "null" : _generator.getName())) + ", alwaysAsId=") + _alwaysAsId
+return _unwrapper != null
+return value == null
+final boolean hasCreatorProps = creatorProps != null
+return _timeZone != null
+throw new IllegalArgumentException("Unrecognized Type: " + (type == null ? "[null]" : type.toString()))
+CheckNotNull  in 5272ms
+ForceNullInit in 734ms
+AddImplicitCastChecker --> 0 in 746ms
+BeforeDeref --> 8573 (failed:0) in 1790ms
+target--> 10352 (failed:0) in 5709ms
+TryRegister # Try: 256 in 386ms
+Assign --> 6090 (failed: 0) in 8195ms
+VarInit --> 1761 in 2043ms
+MethodEncapsulation # Method: 5637 in 29708ms
+ConstructorEncapsulation # Constructor: 786 in 4158ms
+VariableFor in 1073ms

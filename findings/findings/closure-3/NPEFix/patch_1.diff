@@ -1,0 +1,17 @@
+--- a/src/com/google/javascript/jscomp/TypeCheck.java
++++ b/src/com/google/javascript/jscomp/TypeCheck.java
+@@ -1657,7 +1657,9 @@
+             = new HashMap<String, ObjectType>();
+-        for (ObjectType interfaceType : functionType.getExtendedInterfaces()) {
+-          currentProperties.clear();
+-          checkInterfaceConflictProperties(t, n, functionPrivateName,
+-              properties, currentProperties, interfaceType);
+-          properties.putAll(currentProperties);
++        if (this.typedCount != 0) {
++          for (ObjectType interfaceType : functionType.getExtendedInterfaces()) {
++            currentProperties.clear();
++            checkInterfaceConflictProperties(t, n, functionPrivateName,
++            properties, currentProperties, interfaceType);
++            properties.putAll(currentProperties);
++          }
+         }

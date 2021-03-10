@@ -1,0 +1,14 @@
+1 Delete /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 57
+Faulty:
+speedAngle=calculateSpeedometer(0);
+Seed:
+setLayout(null);
+**************************************************
+2 Delete /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 59
+Faulty:
+paintComponent(getGraphics());
+Seed:
+setBackground(new Color(backgroundColor));
+**************************************************
+Evaluations: 287
+EstimatedTime: 310998

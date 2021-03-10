@@ -1,0 +1,26 @@
+1 InsertBefore /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 94
+Faulty:
+progressBarsPanel.add(breakProgressBar);
+Seed:
+progressBarsPanel.add(gasLabel);
+**************************************************
+2 Replace /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 59
+Faulty:
+paintComponent(getGraphics());
+Seed:
+gasProgressBar.setStringPainted(true);
+**************************************************
+3 InsertBefore /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 122
+Faulty:
+final int maxRpmValue=10000;
+Seed:
+progressBarsPanel.add(gasLabel);
+**************************************************
+4 Delete /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 79
+Faulty:
+progressBarsPanel.setBounds(progressBarsPanelX,progressBarsPanelY,progressBarsPanelWidth,progressBarsPanelHeight);
+Seed:
+speedAngle=calculateSpeedometer(0);
+**************************************************
+Evaluations: 1640
+EstimatedTime: 2081497

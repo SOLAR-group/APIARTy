@@ -1,0 +1,14 @@
+1 Replace /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 93
+Faulty:
+progressBarsPanel.add(breakLabel);
+Seed:
+breakProgressBar.setStringPainted(true);
+**************************************************
+2 Delete /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 59
+Faulty:
+paintComponent(getGraphics());
+Seed:
+progressBarsPanel.add(gasProgressBar);
+**************************************************
+Evaluations: 1192
+EstimatedTime: 1389329

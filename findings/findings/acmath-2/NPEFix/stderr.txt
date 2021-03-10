@@ -1,0 +1,40 @@
+spoon.support.compiler.SnippetCompilationError: RegionFactory<Euclidean1D> cannot be resolved to a type at [C@44dcc0e4:40
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.reportProblemsWhenCompiling(JDTBasedSpoonCompiler.java:590)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.compile(JDTBasedSpoonCompiler.java:160)
+	at fr.inria.spirals.npefix.main.all.Launcher.instrument(Launcher.java:109)
+	at fr.inria.spirals.npefix.main.run.Main.run(Main.java:70)
+	at fr.inria.spirals.npefix.main.run.Main.main(Main.java:50)
+
+Usage: java -jar npefix.jar
+                          (-s|--source) source1:source2:...:sourceN  (-c|--classpath) <classpath> (-t|--test) test1:test2:...:testN  [--complianceLevel <complianceLevel>] [(-i|--iteration) <iteration>] [(-w|--workingdirectory) <workingdirectory>] [--repairStrategy <repairStrategy>]
+
+  (-s|--source) source1:source2:...:sourceN 
+        Define the path to the source code of the project.
+
+  (-c|--classpath) <classpath>
+        Define the classpath of the project.
+
+  (-t|--test) test1:test2:...:testN 
+        Define the tests of the project (both failing and passing),
+        fully-qualified, separated with ':' (even if the classpath contains
+        other tests, only those are considered.
+
+  [--complianceLevel <complianceLevel>]
+        The compliance level of the project. (default: 7)
+
+  [(-i|--iteration) <iteration>]
+        The maximum number of npefix iteration. (default: 100)
+
+  [(-w|--workingdirectory) <workingdirectory>]
+        Define the location where npefix will put its files. (default: .)
+
+  [--repairStrategy <repairStrategy>]
+        Define the repair strategy used by NPEFix. (default:
+        fr.inria.spirals.npefix.main.all.DefaultRepairStrategy)
+
+Exception in thread "main" spoon.support.compiler.SnippetCompilationError: RegionFactory<Euclidean1D> cannot be resolved to a type at [C@44dcc0e4:40
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.reportProblemsWhenCompiling(JDTBasedSpoonCompiler.java:590)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.compile(JDTBasedSpoonCompiler.java:160)
+	at fr.inria.spirals.npefix.main.all.Launcher.instrument(Launcher.java:109)
+	at fr.inria.spirals.npefix.main.run.Main.run(Main.java:70)
+	at fr.inria.spirals.npefix.main.run.Main.main(Main.java:50)

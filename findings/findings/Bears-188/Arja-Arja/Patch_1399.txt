@@ -1,0 +1,20 @@
+1 InsertBefore /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 144
+Faulty:
+return (newspeed - minSpeedValue) * (maxSpeedMeter - minSpeedMeter) / (maxSpeedValue - minSpeedValue) + minSpeedMeter;
+Seed:
+progressBarsPanel.setBackground(new Color(backgroundColor));
+**************************************************
+2 Replace /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 59
+Faulty:
+paintComponent(getGraphics());
+Seed:
+gasProgressBar.setStringPainted(true);
+**************************************************
+3 InsertBefore /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 85
+Faulty:
+gasLabel.setText("gas pedal");
+Seed:
+setLayout(null);
+**************************************************
+Evaluations: 1052
+EstimatedTime: 1205436

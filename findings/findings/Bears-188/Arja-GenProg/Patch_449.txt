@@ -1,0 +1,56 @@
+1 Replace /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 59
+Faulty:
+paintComponent(getGraphics());
+Seed:
+final int minSpeedMeter=-75;
+**************************************************
+2 InsertBefore /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 94
+Faulty:
+progressBarsPanel.add(breakProgressBar);
+Seed:
+add(progressBarsPanel);
+**************************************************
+3 InsertBefore /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 94
+Faulty:
+progressBarsPanel.add(breakProgressBar);
+Seed:
+add(progressBarsPanel);
+**************************************************
+4 InsertBefore /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 94
+Faulty:
+progressBarsPanel.add(breakProgressBar);
+Seed:
+add(progressBarsPanel);
+**************************************************
+5 Delete /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 85
+Faulty:
+gasLabel.setText("gas pedal");
+Seed:
+initializeProgressBars();
+**************************************************
+6 InsertBefore /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 142
+Faulty:
+int newspeed=maxSpeedValue - speed;
+Seed:
+progressBarsPanel.setBackground(new Color(backgroundColor));
+**************************************************
+7 Delete /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 92
+Faulty:
+progressBarsPanel.add(gasProgressBar);
+Seed:
+progressBarsPanel.add(gasProgressBar);
+**************************************************
+8 InsertBefore /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 87
+Faulty:
+gasProgressBar.setStringPainted(true);
+Seed:
+gasProgressBar.setStringPainted(true);
+**************************************************
+9 InsertBefore /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 139
+Faulty:
+final int maxSpeedValue=500;
+Seed:
+progressBarsPanel.add(breakLabel);
+**************************************************
+Evaluations: 600
+EstimatedTime: 447376

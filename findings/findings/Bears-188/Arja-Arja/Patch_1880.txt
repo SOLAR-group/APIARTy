@@ -1,0 +1,14 @@
+1 InsertBefore /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 91
+Faulty:
+progressBarsPanel.add(gasLabel);
+Seed:
+add(progressBarsPanel);
+**************************************************
+2 Delete /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 59
+Faulty:
+paintComponent(getGraphics());
+Seed:
+progressBarsPanel.add(gasProgressBar);
+**************************************************
+Evaluations: 1420
+EstimatedTime: 1768759

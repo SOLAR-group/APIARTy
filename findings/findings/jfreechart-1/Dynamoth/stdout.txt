@@ -1,0 +1,93 @@
+02:11:33.904 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/jfreechart-1/jfreechart/source, /apiarty/data/jfreechart-1/jfreechart/tests]
+02:11:33.916 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/jfreechart-1/jfreechart/build/, file:/apiarty/data/jfreechart-1/jfreechart/build-tests/, file:/apiarty/data/jfreechart-1/jfreechart/./lib/itext-2.0.6.jar, file:/apiarty/data/jfreechart-1/jfreechart/./lib/junit.jar, file:/apiarty/data/jfreechart-1/jfreechart/./lib/servlet.jar]
+02:11:33.917 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+02:11:33.919 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.jfree.chart.util.junit.ShapeUtilitiesTests]
+02:11:33.923 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=DYNAMOTH, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/jfreechart-1/jfreechart/source, /apiarty/data/jfreechart-1/jfreechart/tests], projectClasspath='[Ljava.net.URL;@3c5a99da', projectTests=[org.jfree.chart.util.junit.ShapeUtilitiesTests], complianceLevel=7, outputFolder=., json=false}
+02:11:33.925 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+02:11:33.942 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+02:11:33.944 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+02:11:33.945 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+02:11:33.946 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+02:11:33.950 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+02:11:33.951 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+02:12:38.850 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+02:12:38.852 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:295 which is executed by 2 tests
+1291016330
+02:12:45.900 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+02:12:45.903 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:294 which is executed by 2 tests
+1291016330
+02:12:52.104 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+02:12:52.105 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:293 which is executed by 2 tests
+1291016330
+02:12:57.552 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+02:13:05.046 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+02:13:05.050 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:292 which is executed by 2 tests
+1291016330
+02:13:11.637 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+02:13:17.065 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+02:13:17.066 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:291 which is executed by 2 tests
+1291016330
+02:13:26.013 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+02:13:33.494 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+02:13:33.495 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:288 which is executed by 2 tests
+1291016330
+02:13:42.732 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+02:13:51.605 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+02:13:59.354 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+02:13:59.355 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:285 which is executed by 2 tests
+1291016330
+02:14:04.278 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+02:14:09.785 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+02:14:18.368 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+02:14:18.369 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:284 which is executed by 2 tests
+1291016330
+02:14:23.008 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+02:14:23.009 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:283 which is executed by 2 tests
+1291016330
+02:14:28.116 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+02:14:28.117 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:280 which is executed by 2 tests
+1291016330
+02:14:34.800 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+02:14:40.944 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+02:14:49.723 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+02:14:49.724 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:279 which is executed by 2 tests
+1291016330
+02:14:58.617 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+02:15:07.170 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+02:15:07.172 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:278 which is executed by 2 tests
+1291016330
+02:15:17.324 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+02:15:17.325 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:277 which is executed by 2 tests
+1291016330
+02:15:25.380 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+02:15:25.381 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:276 which is executed by 2 tests
+1291016330
+02:15:31.232 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+02:15:31.233 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:275 which is executed by 2 tests
+1291016330
+02:15:36.252 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+02:15:36.253 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:274 which is executed by 2 tests
+1291016330
+02:15:41.363 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+02:15:41.364 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:271 which is executed by 2 tests
+1291016330
+02:15:49.506 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+02:15:59.214 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+02:16:07.954 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+02:16:07.955 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:268 which is executed by 2 tests
+1291016330
+02:16:15.806 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+02:16:25.251 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+02:16:32.633 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #19
+02:16:32.635 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:265 which is executed by 2 tests
+1291016330
+02:16:41.222 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+02:16:47.479 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+02:16:55.330 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+02:16:55.782 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 936
+02:16:55.783 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 8620
+02:16:55.783 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 16
+02:16:55.785 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+02:16:55.786 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 321432ms
+02:16:55.786 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+NO_ANGELIC_VALUE

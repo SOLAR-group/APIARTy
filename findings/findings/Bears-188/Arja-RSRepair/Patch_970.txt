@@ -1,0 +1,14 @@
+1 Delete /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 59
+Faulty:
+paintComponent(getGraphics());
+Seed:
+gasLabel.setText("gas pedal");
+**************************************************
+2 InsertBefore /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 91
+Faulty:
+progressBarsPanel.add(gasLabel);
+Seed:
+final int maxRpmValue=10000;
+**************************************************
+Evaluations: 1751
+EstimatedTime: 1381406

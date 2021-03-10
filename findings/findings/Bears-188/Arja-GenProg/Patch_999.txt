@@ -1,0 +1,98 @@
+1 InsertBefore /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 94
+Faulty:
+progressBarsPanel.add(breakProgressBar);
+Seed:
+add(progressBarsPanel);
+**************************************************
+2 Replace /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 59
+Faulty:
+paintComponent(getGraphics());
+Seed:
+final int minSpeedMeter=-75;
+**************************************************
+3 InsertBefore /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 94
+Faulty:
+progressBarsPanel.add(breakProgressBar);
+Seed:
+add(progressBarsPanel);
+**************************************************
+4 InsertBefore /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 94
+Faulty:
+progressBarsPanel.add(breakProgressBar);
+Seed:
+add(progressBarsPanel);
+**************************************************
+5 InsertBefore /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 55
+Faulty:
+gasProgressBar.setValue(inputPacket.getGasPedalPosition());
+Seed:
+progressBarsPanel.add(gasLabel);
+**************************************************
+6 Replace /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 68
+Faulty:
+setBackground(new Color(backgroundColor));
+Seed:
+progressBarsPanel.add(gasLabel);
+**************************************************
+7 InsertBefore /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 141
+Faulty:
+final int maxSpeedMeter=255;
+Seed:
+breakLabel.setText("break pedal");
+**************************************************
+8 Delete /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 103
+Faulty:
+super.paintComponent(g);
+Seed:
+speedAngle=calculateSpeedometer(0);
+**************************************************
+9 InsertBefore /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 123
+Faulty:
+final int minRpmMeter=-75;
+Seed:
+setBackground(new Color(backgroundColor));
+**************************************************
+10 Replace /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 93
+Faulty:
+progressBarsPanel.add(breakLabel);
+Seed:
+breakProgressBar.setStringPainted(true);
+**************************************************
+11 Replace /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 91
+Faulty:
+progressBarsPanel.add(gasLabel);
+Seed:
+setBounds(dashboardBoundsX,dashboardBoundsY,width,height);
+**************************************************
+12 InsertBefore /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 125
+Faulty:
+int newrpm=maxRpmValue - rpm;
+Seed:
+final int minSpeedValue=0;
+**************************************************
+13 Delete /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 87
+Faulty:
+gasProgressBar.setStringPainted(true);
+Seed:
+progressBarsPanel.add(breakProgressBar);
+**************************************************
+14 Delete /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 92
+Faulty:
+progressBarsPanel.add(gasProgressBar);
+Seed:
+breakLabel.setText("break pedal");
+**************************************************
+15 InsertBefore /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 124
+Faulty:
+final int maxRpmMeter=255;
+Seed:
+progressBarsPanel.setBackground(new Color(backgroundColor));
+**************************************************
+16 InsertBefore /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 122
+Faulty:
+final int maxRpmValue=10000;
+Seed:
+speedAngle=calculateSpeedometer(0);
+**************************************************
+Evaluations: 1237
+EstimatedTime: 974748

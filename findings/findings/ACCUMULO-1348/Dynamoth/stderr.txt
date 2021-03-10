@@ -1,0 +1,584 @@
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on
+usage: about [-?] [-v]
+description: displays information about this program
+  -?,--help        display this help
+  -v,--verbose     display detailed session information
+usage: setauths [-?] -c | -s <comma-separated-authorizations>  [-u <user>]
+description: sets the maximum scan authorizations for a user
+  -?,--help                                                     display this help
+  -c,--clear-authorizations                                     clear the scan authorizations
+  -s,--scan-authorizations <comma-separated-authorizations>     scan authorizations to set
+  -u,--user <user>                                              user to operate on

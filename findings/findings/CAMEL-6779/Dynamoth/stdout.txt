@@ -1,0 +1,274 @@
+12:09:24.696 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/CAMEL-6779/camel/camel-core/src/main/java, /apiarty/data/CAMEL-6779/camel/camel-core/src/test/java]
+12:09:24.709 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/CAMEL-6779/camel/camel-core/target/classes/, file:/apiarty/data/CAMEL-6779/camel/camel-core/target/test-classes/, file:/root/.m2/repository/org/apache/camel/spi-annotations/2.13-SNAPSHOT/spi-annotations-2.13-SNAPSHOT.jar, file:/root/.m2/repository/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4/concurrentlinkedhashmap-lru-1.4.jar, file:/root/.m2/repository/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar, file:/root/.m2/repository/org/osgi/org.osgi.core/4.3.1/org.osgi.core-4.3.1.jar, file:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/root/.m2/repository/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar, file:/root/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar, file:/root/.m2/repository/org/easymock/easymock/3.2/easymock-3.2.jar, file:/root/.m2/repository/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar, file:/root/.m2/repository/org/objenesis/objenesis/1.3/objenesis-1.3.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.2.2/jackson-databind-2.2.2.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.2.2/jackson-annotations-2.2.2.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.2.2/jackson-core-2.2.2.jar, file:/root/.m2/repository/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.jar, file:/root/.m2/repository/org/apache/camel/apt/2.13-SNAPSHOT/apt-2.13-SNAPSHOT.jar]
+12:09:24.710 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+12:09:24.711 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.camel.converter.jaxp.StaxConverterTest]
+12:09:24.717 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=DYNAMOTH, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/CAMEL-6779/camel/camel-core/src/main/java, /apiarty/data/CAMEL-6779/camel/camel-core/src/test/java], projectClasspath='[Ljava.net.URL;@3c5a99da', projectTests=[org.apache.camel.converter.jaxp.StaxConverterTest], complianceLevel=7, outputFolder=., json=false}
+12:09:24.720 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+12:09:24.741 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+12:09:24.742 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+12:09:24.743 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+12:09:24.745 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+12:09:24.749 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+12:09:24.750 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+12:13:53.316 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+12:13:53.321 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.support.EventNotifierSupport:63 which is executed by 2 tests
+1849428336
+12:14:39.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+12:14:39.364 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.support.EventNotifierSupport:62 which is executed by 2 tests
+1849428336
+12:15:27.015 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:16:41.317 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+12:16:41.323 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.support.EventNotifierSupport:55 which is executed by 2 tests
+1849428336
+12:17:50.863 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+12:17:50.871 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.support.EventNotifierSupport:54 which is executed by 2 tests
+1849428336
+12:19:01.679 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:20:20.340 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+12:20:20.344 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.support.EventNotifierSupport:47 which is executed by 2 tests
+1849428336
+12:21:11.385 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+12:21:11.387 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.support.EventNotifierSupport:46 which is executed by 2 tests
+1849428336
+12:22:12.644 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:23:11.485 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+12:23:11.489 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.support.EventNotifierSupport:42 which is executed by 2 tests
+1849428336
+12:23:57.736 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+12:23:57.737 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:140 which is executed by 2 tests
+1484498224
+12:24:36.342 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:25:37.806 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+12:25:37.807 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:139 which is executed by 2 tests
+1484498224
+12:26:23.471 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:27:25.995 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:28:26.225 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+12:28:26.228 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:138 which is executed by 2 tests
+1484498224
+12:29:12.011 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+12:29:12.014 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:136 which is executed by 2 tests
+1484498224
+12:29:54.555 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+12:29:54.557 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:118 which is executed by 2 tests
+1484498224
+12:30:46.211 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+12:30:46.214 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:114 which is executed by 2 tests
+1484498224
+12:31:42.769 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+12:31:42.770 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:93 which is executed by 2 tests
+1484498224
+12:32:32.650 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+12:32:32.657 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:78 which is executed by 2 tests
+1484498224
+12:33:20.525 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:34:17.630 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+12:34:17.632 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:77 which is executed by 2 tests
+1484498224
+12:35:19.745 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:36:33.843 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:37:39.644 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+12:37:39.647 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:76 which is executed by 2 tests
+1484498224
+12:38:31.256 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+12:38:31.258 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:74 which is executed by 2 tests
+1484498224
+12:39:30.528 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #19
+12:39:30.530 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:63 which is executed by 2 tests
+1484498224
+12:40:17.916 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #20
+12:40:17.916 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:58 which is executed by 2 tests
+1484498224
+12:41:08.350 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:42:00.519 [pool-56-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+DefaultFactoryFinder.java:32: error: missing return statement
+    }
+    ^
+12:42:00.534 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #21
+12:42:00.535 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:57 which is executed by 2 tests
+1484498224
+12:42:43.765 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #22
+12:42:43.766 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:56 which is executed by 2 tests
+1484498224
+12:43:25.132 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #23
+12:43:25.133 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:224 which is executed by 2 tests
+404826990
+12:44:13.802 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #24
+12:44:13.803 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:221 which is executed by 2 tests
+404826990
+12:45:00.903 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:45:55.980 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:46:57.212 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #25
+12:46:57.213 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:220 which is executed by 2 tests
+404826990
+12:47:44.723 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #26
+12:47:44.724 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:216 which is executed by 2 tests
+404826990
+12:48:37.361 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:49:43.789 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:50:41.380 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #27
+12:50:41.383 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:215 which is executed by 2 tests
+404826990
+12:51:41.222 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #28
+12:51:41.224 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:211 which is executed by 2 tests
+404826990
+12:52:31.202 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:53:42.293 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:54:48.674 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #29
+12:54:48.677 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:210 which is executed by 2 tests
+404826990
+12:56:03.832 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #30
+12:56:03.833 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:207 which is executed by 2 tests
+404826990
+12:57:02.956 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #31
+12:57:02.957 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:201 which is executed by 2 tests
+404826990
+12:57:57.359 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:59:00.389 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #32
+12:59:00.391 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:185 which is executed by 2 tests
+404826990
+13:00:09.446 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #33
+13:00:09.448 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:167 which is executed by 2 tests
+404826990
+13:01:06.554 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+13:02:09.869 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #34
+13:02:09.873 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:143 which is executed by 2 tests
+404826990
+13:03:25.189 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #35
+13:03:25.190 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:139 which is executed by 2 tests
+404826990
+13:04:30.730 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #36
+13:04:30.732 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:137 which is executed by 2 tests
+404826990
+13:05:35.728 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+13:06:43.180 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #37
+13:06:43.181 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:136 which is executed by 2 tests
+404826990
+13:07:35.652 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+13:08:46.021 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+13:10:07.105 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #38
+13:10:07.107 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:129 which is executed by 2 tests
+404826990
+13:11:08.621 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #39
+13:11:08.623 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:122 which is executed by 2 tests
+404826990
+13:12:09.604 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #40
+13:12:09.605 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:117 which is executed by 2 tests
+404826990
+13:13:16.174 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+13:14:12.243 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+13:15:24.706 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #41
+13:15:24.716 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:113 which is executed by 2 tests
+404826990
+13:16:19.127 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+13:17:30.863 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+13:18:33.016 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #42
+13:18:33.019 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:110 which is executed by 2 tests
+404826990
+13:19:29.116 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+13:20:43.272 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #43
+13:20:43.273 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:94 which is executed by 2 tests
+404826990
+13:21:41.316 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #44
+13:21:41.317 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:84 which is executed by 2 tests
+404826990
+13:22:43.568 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+13:24:14.906 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+13:25:30.793 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #45
+13:25:30.796 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:82 which is executed by 2 tests
+404826990
+13:26:56.774 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+13:28:32.426 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #46
+13:28:32.431 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:81 which is executed by 2 tests
+404826990
+13:30:05.333 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+13:31:16.440 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #47
+13:31:16.442 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:77 which is executed by 2 tests
+404826990
+13:32:30.579 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+13:33:34.788 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+13:34:47.594 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #48
+13:34:47.598 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:74 which is executed by 2 tests
+404826990
+13:35:43.369 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+13:36:59.749 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #49
+13:36:59.753 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:381 which is executed by 2 tests
+1406076367
+13:37:59.826 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #50
+13:37:59.827 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:380 which is executed by 2 tests
+1406076367
+13:38:57.102 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+13:40:18.424 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #51
+13:40:18.427 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:362 which is executed by 2 tests
+1406076367
+13:41:16.360 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #52
+13:41:16.361 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:361 which is executed by 2 tests
+1406076367
+13:42:19.343 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+13:43:57.239 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #53
+13:43:57.242 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:216 which is executed by 2 tests
+1406076367
+13:45:02.576 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #54
+13:45:02.577 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:202 which is executed by 2 tests
+1406076367
+13:46:07.371 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #55
+13:46:07.373 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:194 which is executed by 2 tests
+1406076367
+13:47:09.449 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #56
+13:47:09.450 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:190 which is executed by 2 tests
+1406076367
+13:47:46.040 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #57
+13:47:46.041 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:186 which is executed by 2 tests
+1406076367
+13:48:43.504 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #58
+13:48:43.504 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:185 which is executed by 2 tests
+1406076367
+13:49:29.314 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+13:50:34.872 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #59
+13:50:34.873 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:184 which is executed by 2 tests
+1406076367
+13:51:18.839 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #60
+13:51:18.840 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:180 which is executed by 2 tests
+1406076367
+13:52:06.797 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #61
+13:52:06.798 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:176 which is executed by 2 tests
+1406076367
+13:53:14.210 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #62
+13:53:14.211 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:174 which is executed by 2 tests
+1406076367
+13:54:03.840 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+13:55:23.687 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #63
+13:55:23.691 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:173 which is executed by 2 tests
+1406076367
+13:56:22.695 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+13:57:44.576 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+13:59:08.916 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #64
+13:59:08.919 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:172 which is executed by 2 tests
+1406076367
+14:00:31.917 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #65
+14:00:31.919 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:171 which is executed by 2 tests
+1406076367
+14:01:39.558 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:02:47.443 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+14:03:47.363 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #66
+14:03:47.365 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:168 which is executed by 2 tests
+1406076367
+14:04:33.354 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:05:37.534 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+14:06:33.529 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #67
+14:06:33.531 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:165 which is executed by 2 tests
+1406076367
+14:07:28.551 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #68
+14:07:28.553 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:162 which is executed by 2 tests
+1406076367
+14:08:12.420 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:09:31.301 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #69
+14:09:31.304 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:161 which is executed by 2 tests
+1406076367
+14:10:28.709 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:11:38.933 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+14:11:47.296 [main] ERROR fr.inria.lille.repair.Main - Timeout: execution time > 120 MINUTES
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205) ~[na:1.8.0_232]
+	at fr.inria.lille.repair.Main.main(Main.java:106) ~[nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:na]
+TIMEOUT

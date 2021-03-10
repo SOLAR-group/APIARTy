@@ -1,0 +1,14 @@
+1 Delete /apiarty/data/ivantrendafilov-confucius-101/Confucius/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java 226
+Faulty:
+parts.add(Short.parseShort(value.trim()));
+Seed:
+NULL
+**************************************************
+2 Delete /apiarty/data/ivantrendafilov-confucius-101/Confucius/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java 292
+Faulty:
+LOG.info("Configuration properties have been reset");
+Seed:
+NULL
+**************************************************
+Evaluations: 285
+EstimatedTime: 251018

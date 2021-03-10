@@ -1,0 +1,20 @@
+1 Replace /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 59
+Faulty:
+paintComponent(getGraphics());
+Seed:
+gasProgressBar.setStringPainted(true);
+**************************************************
+2 Replace /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 67
+Faulty:
+setLayout(null);
+Seed:
+breakLabel.setText("break pedal");
+**************************************************
+3 InsertBefore /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 90
+Faulty:
+add(progressBarsPanel);
+Seed:
+rpmAngle=calculateTachometer(0);
+**************************************************
+Evaluations: 343
+EstimatedTime: 371756

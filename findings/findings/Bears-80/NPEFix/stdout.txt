@@ -1,0 +1,71 @@
+TernarySplitter  in 169ms
+return (field.getAnnotation(Parameter.class) != null) || TemplateParameter.class.isAssignableFrom(field.getType())
+return replace(toBeReplaced, replacement == null ? Collections.<E>emptyList() : Collections.<E>singletonList(replacement))
+wildcard.setUpper((type.getUpperBounds() != null) && (!type.getUpperBounds()[0].equals(Object.class)))
+return ((getFile() == null ? s.getFile() == null : getFile().equals(s.getFile())) && (getLine() == s.getLine())) && (getColumn() == s.getColumn())
+return ((getFile() == null ? s.getFile() == null : getFile().equals(s.getFile())) && (getLine() == s.getLine())) && (getColumn() == s.getColumn())
+return parent != null
+assert executableJDT != null
+boolean isOtherBinding = (qualifiedNameReference.otherBindings == null) || (qualifiedNameReference.otherBindings.length == 0)
+p.getType().setImplicit(argument.type == null)
+((CtArrayTypeReference) (p.getType())).getComponentType().setImplicit(argument.type == null)
+return (added != null) && (!added.isEmpty())
+return (modified != null) && (!modified.isEmpty())
+return (removed != null) && (!removed.isEmpty())
+return includeSamePackage || ((getPackage() != null) && (!CtTypeImpl.getPackageReference(typeRef).equals(getPackage().getReference())))
+return (typeRef.getPackage() != null) && "java.lang".equals(typeRef.getPackage().toString())
+return (getDeclaringType() == null) && (getPackage() != null)
+return (getDeclaringType() == null) && (getPackage() != null)
+return super.matches(element) && (element.getAnnotation(annotationType) != null)
+environment.debugMessage((("    " + e.getClass().getSimpleName()) + " ") + (e.getPosition() == null ? "(?)" : "" + e.getPosition()))
+return (m != null) && Modifier.isFinal(m.getModifiers())
+return ((parent.defaultValue != null) && getFinalExpressionFromCast(parent.defaultValue).equals(childJDT)) && (!child.equals(ctVariable.getDefaultExpression()))
+return ((parent.initialization != null) && getFinalExpressionFromCast(parent.initialization).equals(childJDT)) && (!child.equals(ctVariable.getDefaultExpression()))
+return ((parent.returnType != null) && parent.returnType.equals(childJDT)) && (!child.equals(ctMethod.getType()))
+return ((parent.defaultValue != null) && parent.defaultValue.equals(childJDT)) && (!child.equals(ctAnnotationMethod.getDefaultExpression()))
+return ((parent.qualification != null) && getFinalExpressionFromCast(parent.qualification).equals(childJDT)) && (!child.equals(ctInvocation.getTarget()))
+return ((parent.receiver != null) && getFinalExpressionFromCast(parent.receiver).equals(childJDT)) && (!child.equals(ctInvocation.getTarget()))
+return ((parent.enclosingInstance != null) && getFinalExpressionFromCast(parent.enclosingInstance).equals(childJDT)) && (!child.equals(ctConstructorCall.getTarget()))
+return (parent.type != null) && parent.type.equals(childJDT)
+final boolean lookingForFields = (clazz == null) || coreFactory.createField().getClass().isAssignableFrom(clazz)
+return createReference(e.getParent(CtType.class).getReference(), lambdaMethod == null ? null : lambdaMethod.getType().clone(), executableName, refs)
+isGenericTypeExplicit = (typeArgument != null) && (typeArgument.length > 0)
+isNotInAnnotation = (newArray.getParent(CtAnnotationType.class) == null) && (newArray.getParent(CtAnnotation.class) == null)
+isNotInAnnotation = (newArray.getParent(CtAnnotationType.class) == null) && (newArray.getParent(CtAnnotation.class) == null)
+boolean isInner = ref.getDeclaringType() != null
+return (currentTypeRef != null) && typeRef.equals(currentTypeRef)
+final CtQuery q = ((CtQueryable) (input)).map(new SuperInheritanceHierarchyFunction(distinctSet == null ? new HashSet<String>() : distinctSet).includingSelf(true))
+return (element != null) && type.isAssignableFrom(element.getClass())
+return (null == inv) || inv.equals(o)
+new ReplacementVisitor(original, replace == null ? ReplacementVisitor.EMPTY : new CtElement[]{ replace }).scan(original.getParent())
+new ReplacementVisitor(original, replace == null ? ReplacementVisitor.EMPTY : new CtElement[]{ replace }).scan(original.getParent())
+CheckNotNull  in 1432ms
+ForceNullInit in 187ms
+AddImplicitCastChecker --> 1 in 304ms
+BeforeDeref --> 12752 (failed:4) in 2107ms
+target--> 14247 (failed:0) in 3936ms
+TryRegister # Try: 183 in 1080ms
+Assign --> 2369 (failed: 0) in 2160ms
+VarInit --> 1094 in 717ms
+MethodEncapsulation # Method: 5203 in 9015ms
+ConstructorEncapsulation # Constructor: 388 in 964ms
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+VariableFor in 779ms

@@ -1,0 +1,141 @@
+TernarySplitter  in 31ms
+return (context != null) && line.trim().equalsIgnoreCase((Parser.LEFT_CONTEXT + context) + Parser.RIGHT_CONTEXT)
+CheckNotNull  in 72ms
+ForceNullInit in 3ms
+AddImplicitCastChecker --> 0 in 60ms
+BeforeDeref --> 77 (failed:0) in 56ms
+target--> 107 (failed:0) in 250ms
+TryRegister # Try: 1 in 9ms
+Assign --> 25 (failed: 0) in 91ms
+VarInit --> 32 in 15ms
+MethodEncapsulation # Method: 107 in 213ms
+ConstructorEncapsulation # Constructor: 15 in 51ms
+VariableFor in 14ms
+RMI Selector (Host: 127.0.0.1, Port: 10000): KO
+org.trendafilov.confucius.ConfigurationTest#testCharDefaultReturn
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testDoubleDefaultReturn
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#sanityCheck
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testLongDefaultReturn
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testShortDefaultReturn
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testStringDefaultReturn
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testPropertySetAndGet
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testBooleanSetAndGet
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testByteSetAndGet
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testCharSetAndGet
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testDoubleSetAndGet
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testFloatSetAndGet
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testIntSetAndGet
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testLongSetAndGet
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testShortSetAndGet
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testStringSetAndGet
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testBooleanList
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testByteList
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testCharList
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testDoubleList
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testFloatList
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testIntList
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testLongList
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testShortList
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testStringList
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testGetProperties
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testMissingBooleanValueKey
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testMissingBooleanListKey
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testMissingByteValueKey
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testMissingByteListKey
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testMissingCharValueKey
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testMissingCharListKey
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testMissingDoubleValueKey
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testMissingDoubleListKey
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testMissingFloatValueKey
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testMissingFloatListKey
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testMissingIntValueKey
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testMissingIntListKey
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testLongShortValueKey
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testMissingShortListKey
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testLongStringValueKey
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testMissingStringListKey
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testLongBooleanValueKey
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testMissingLongListKey
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testSetProperties
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testClearProperty
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testClearMissingProperty
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testNotParsableLong
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testNotParsableLongList
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testNotParsableShort
+<No Strat> Status: Ko
+org.trendafilov.confucius.ConfigurationTest#testNotParsableShortList
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testNotParsableByte
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testNotParsableByteList
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testFloatDefaultReturn
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testIntDefaultReturn
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testBooleanDefaultReturn
+<No Strat> Status: Ok
+org.trendafilov.confucius.ConfigurationTest#testByteDefaultReturn
+<No Strat> Status: Ok
+Multirun 57/100 56%
+org.trendafilov.confucius.ConfigurationTest#testNotParsableShort
+<No Strat> Status: Ko
+org.trendafilov.confucius.ConfigurationTest#testNotParsableShort
+<No Strat> Status: Ko
+org.trendafilov.confucius.ConfigurationTest#testNotParsableShort
+<No Strat> Status: Ko
+org.trendafilov.confucius.ConfigurationTest#testNotParsableShort
+<No Strat> Status: Ko
+org.trendafilov.confucius.ConfigurationTest#testNotParsableShort
+<No Strat> Status: Ko
+org.trendafilov.confucius.ConfigurationTest#testNotParsableShort
+<No Strat> Status: Ko

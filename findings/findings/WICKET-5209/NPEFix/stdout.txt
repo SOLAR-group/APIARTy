@@ -1,0 +1,102 @@
+TernarySplitter  in 298ms
+return errors == null
+return ((((((classRef != null ? classRef.getName() : "null class") + ":") + locale) + ":") + style) + ":") + markupType
+return uploadedFiles != null
+return cache.remove(key) == null
+return "body".equalsIgnoreCase(tag.getName()) && (tag.getNamespace() == null)
+return ((((("[markup = " + String.valueOf(markup)) + ", index = ") + currentIndex) + ", current = ") + (current == null ? "null" : current.toUserDebugString())) + "]"
+return (requestLogger != null) && settings.isRequestLoggerEnabled()
+return findParent(Form.class) == null
+return (error != null) && error
+boolean renderTag = (openTag != null) && (!(openTag instanceof WicketTag))
+return (getMessage() + "\n MarkupStream: ") + (markupStream == null ? "[unknown]" : markupStream.toString())
+boolean noext = (extensions == null) || (!extensions.iterator().hasNext())
+return ((renderBase == null ? "null" : Classes.simpleName(renderBase.getClass())) + '@') + indexInRenderBase
+return ((items != null) && items.hasNext()) && (index < max)
+this.mode = (this.stack[this.top - 1] == null) ? 'a' : 'k'
+return matchedData(request) != null ? Integer.MAX_VALUE : 0
+return (superType != null) && superType.isAssignableFrom(type)
+return ((((("[FeedbackMessage message = \"" + getMessage()) + "\", reporter = ") + (getReporter() == null ? "null" : getReporter().getId())) + ", level = ") + getLevelAsString()) + ']'
+XForwardedRequestWrapperFactory.log.debug(((((((((((((((((((((((((((((((((("Incoming request " + request.getRequestURI()) + " with originalRemoteAddr '") + request.getRemoteAddr()) + "', originalRemoteHost='") + request.getRemoteHost()) + "', originalSecure='") + request.isSecure()) + "', originalScheme='") + request.getScheme()) + "', original[") + config.remoteIPHeader) + "]='") + request.getHeader(config.remoteIPHeader)) + ", original[") + config.protocolHeader) + "]='") + (config.protocolHeader == null ? null : request.getHeader(config.protocolHeader))) + "' will be seen as newRemoteAddr='") + xRequest.getRemoteAddr()) + "', newRemoteHost='") + xRequest.getRemoteHost()) + "', newScheme='") + xRequest.getScheme()) + "', newSecure='") + xRequest.isSecure()) + "', new[") + config.remoteIPHeader) + "]='") + xRequest.getHeader(config.remoteIPHeader)) + ", new[") + config.proxiesHeader) + "]='") + xRequest.getHeader(config.proxiesHeader)) + "'")
+return ((isStopped() == false) && isEnabled(getComponent())) && ((getComponent() instanceof Page) || (getComponent().findParent(Page.class) != null))
+return resourceReference != null
+boolean isNew = pageInstance == null
+return pageInstance != null
+return TagStack.doesNotRequireCloseTag.get(name.toLowerCase()) == null
+add(new Label("info", page == null ? "[Stateless Page]" : page.toString()))
+listItem.add(new Label("renderDuration", componentData.renderDuration != null ? componentData.renderDuration.toString() : "n/a"))
+return HtmlHandler.doesNotRequireCloseTag.get(name.toLowerCase()) == null
+cookiesEnabled = (cookies != null) && (cookies.size() > 0)
+return (((((("(" + getSegmentIndex()) + ") ") + getMinParameters()) + "-") + getMaxParameters()) + " ") + (getFixedPart() == null ? "(end)" : getFixedPart())
+return (getOptionalPlaceholder(segment) == null) && (getPlaceholder(segment) == null)
+return (getOptionalPlaceholder(segment) == null) && (getPlaceholder(segment) == null)
+return getMatchedSegmentSizes(url) != null
+Label label = new Label(id, serializable == null ? "" : serializable.toString())
+sb.append(XML.toString(ja.opt(i), tagName == null ? "array" : tagName))
+return pw == null
+return session != null
+return getId() == null
+return (getImageResource() == null) && localizedImageResource.isStateless()
+return (requestWindow.length > 0) && (requestWindow[requestWindow.length - 1] != null)
+return (attributes != null) && (attributes.size() > 0)
+return getAttributes().put(key, value != null ? value.toString() : null)
+throw new MissingResourceException(message.toString(), component != null ? component.getClass().getName() : "", key)
+Localizer.log.debug(((((("Property found in cache: '" + key) + "'; Component: '") + (component != null ? component.toString(false) : null)) + "'; value: '") + value) + '\'')
+Localizer.log.debug(((("Locate property: key: '" + key) + "'; Component: '") + (component != null ? component.toString(false) : null)) + '\'')
+Localizer.log.debug(((("Property not found; key: '" + key) + "'; Component: '") + (component != null ? component.toString(false) : null)) + '\'')
+return getRequestCycle().find(AjaxRequestTarget.class) != null
+return ((getImageResource() == null) || (getImageResource() == localizedImageResource.getResource())) && localizedImageResource.isStateless()
+boolean isResource = (method != null) && IResourceListener.class.isAssignableFrom(method.getDeclaringClass())
+final boolean assignBaseLocation = (lastRequest != null) && (lastRequest.getHeader("Wicket-Ajax") == null)
+final boolean assignBaseLocation = (lastRequest != null) && (lastRequest.getHeader("Wicket-Ajax") == null)
+return redirectUrl != null
+return (page != null) && checkPageClass(page.getClass())
+return ThreadContext.getApplication() != null
+boolean shouldProcess = "style".equals(openTag.getName()) || ((typeAttribute == null) || "text/javascript".equalsIgnoreCase(typeAttribute))
+return shouldProcess && (openTag.getUserData("STYLE_OR_SCRIPT") != null)
+return message.getReporter() != null
+return (message.getReporter() == null) && message.isRendered()
+return behaviors != null
+return markupCache != null
+return redirectLocation != null
+return (selected != null) && selected.equals(getChoiceRenderer().getIdValue(object, index))
+return (reporter != null) && (container.contains(reporter, true) || Objects.equal(container, reporter))
+return (parameter != null) && (parameter.trim().length() > 0)
+return next != null
+return Application.get().getResourceSettings().getResourceStreamLocator().locate(scope, absolutePath, style, variation, locale, null, false) != null
+return (obj != null) && getClass().equals(obj.getClass())
+return (object == null) || (object == this)
+boolean includeSuperClass = klass.getClassLoader() != null
+boolean isAjax = RequestCycle.get().find(AjaxRequestTarget.class) != null
+return component.getMetaData(FencedFeedbackPanel.FENCE_KEY) == null
+return component.getMetaData(FencedFeedbackPanel.FENCE_KEY) == null
+boolean isNull = getConvertedInput() == null
+stateless = statefulComponent == null
+return (renderedComponents != null) && renderedComponents.contains(component)
+return (contentType != null) && contentType.toLowerCase().contains("multipart")
+return ((errorAttributes != null) && (!Strings.isEmpty(errorAttributes.getRequestUri()))) || ((forwardAttributes != null) && (!Strings.isEmpty(forwardAttributes.getRequestUri())))
+return ((errorAttributes != null) && (!Strings.isEmpty(errorAttributes.getRequestUri()))) || ((forwardAttributes != null) && (!Strings.isEmpty(forwardAttributes.getRequestUri())))
+markupHighlight.setVisible(markupStream != null)
+return (ref != null) && (!ref.contains(":"))
+return (statusCode == null) || (((statusCode < 300) && (statusCode != HttpServletResponse.SC_NO_CONTENT)) && (statusCode != HttpServletResponse.SC_RESET_CONTENT))
+return (value == null) || (value.trim().length() == 0)
+return (flag != null) && flag
+DiskDataStore.log.debug("Returning data{} for page with id '{}' in session with id '{}'", new Object[]{ pageData != null ? "" : "(null)", id, sessionId })
+insert = (accept == null) || (accept.indexOf(MarkupType.XML_MIME) != (-1))
+return filterFactoryManager != null
+return null != _registerResourceReference(reference)
+return ThreadContext.get(false) != null
+boolean add = tag.getId() != null
+add = (tag.getOpenTag() != null) && (tag.getOpenTag().getId() != null)
+add = (tag.getOpenTag() != null) && (tag.getOpenTag().getId() != null)
+CheckNotNull  in 1881ms
+ForceNullInit in 192ms
+AddImplicitCastChecker --> 12 in 3047ms
+BeforeDeref --> 9694 (failed:3) in 1290ms
+target--> 11433 (failed:0) in 5159ms
+TryRegister # Try: 299 in 290ms
+Assign --> 4502 (failed: 0) in 3258ms
+VarInit --> 2241 in 997ms
+MethodEncapsulation # Method: 6300 in 13320ms
+ConstructorEncapsulation # Constructor: 1071 in 2263ms
+VariableFor in 855ms

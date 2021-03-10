@@ -1,0 +1,114 @@
+
+Usage: java -jar npefix.jar
+                          (-s|--source) source1:source2:...:sourceN  (-c|--classpath) <classpath> (-t|--test) test1:test2:...:testN  [--complianceLevel <complianceLevel>] [(-i|--iteration) <iteration>] [(-w|--workingdirectory) <workingdirectory>] [--repairStrategy <repairStrategy>]
+
+  (-s|--source) source1:source2:...:sourceN 
+        Define the path to the source code of the project.
+
+  (-c|--classpath) <classpath>
+        Define the classpath of the project.
+
+  (-t|--test) test1:test2:...:testN 
+        Define the tests of the project (both failing and passing),
+        fully-qualified, separated with ':' (even if the classpath contains
+        other tests, only those are considered.
+
+  [--complianceLevel <complianceLevel>]
+        The compliance level of the project. (default: 7)
+
+  [(-i|--iteration) <iteration>]
+        The maximum number of npefix iteration. (default: 100)
+
+  [(-w|--workingdirectory) <workingdirectory>]
+        Define the location where npefix will put its files. (default: .)
+
+  [--repairStrategy <repairStrategy>]
+        Define the repair strategy used by NPEFix. (default:
+        fr.inria.spirals.npefix.main.all.DefaultRepairStrategy)
+
+Exception in thread "main" java.lang.IllegalStateException: Element: boolean
+Signature: spoon.support.reflect.reference.CtTypeReferenceImpl@3db6c29
+Class: class spoon.support.reflect.reference.CtTypeReferenceImpl
+position: (/apiarty/data/OAK-3028/jackrabbit-oak/oak-core/src/main/java/org/apache/jackrabbit/oak/query/fulltext/SimpleExcerptProvider.java:49)
+ is set as child of
+Element: highlight
+Signature: spoon.support.reflect.reference.CtParameterReferenceImpl@d7658cb5
+Class: class spoon.support.reflect.reference.CtParameterReferenceImpl
+position: (unknown file)
+however it is visited as a child of
+Element: boolean highlight
+Signature: spoon.support.reflect.declaration.CtParameterImpl@d7658cb5
+Class: class spoon.support.reflect.declaration.CtParameterImpl
+position: (/apiarty/data/OAK-3028/jackrabbit-oak/oak-core/src/main/java/org/apache/jackrabbit/oak/query/fulltext/SimpleExcerptProvider.java:49)
+
+	at spoon.reflect.visitor.AstParentConsistencyChecker.scan(AstParentConsistencyChecker.java:23)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.visitCtParameter(CtScanner.java:655)
+	at spoon.support.reflect.declaration.CtParameterImpl.accept(CtParameterImpl.java:53)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.reflect.visitor.AstParentConsistencyChecker.scan(AstParentConsistencyChecker.java:27)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:139)
+	at spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:549)
+	at spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:56)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.reflect.visitor.AstParentConsistencyChecker.scan(AstParentConsistencyChecker.java:27)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:139)
+	at spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:330)
+	at spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:56)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.reflect.visitor.AstParentConsistencyChecker.scan(AstParentConsistencyChecker.java:27)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:139)
+	at spoon.reflect.visitor.CtScanner.visitCtPackage(CtScanner.java:641)
+	at spoon.support.reflect.declaration.CtPackageImpl.accept(CtPackageImpl.java:87)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.reflect.visitor.AstParentConsistencyChecker.scan(AstParentConsistencyChecker.java:27)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:139)
+	at spoon.reflect.visitor.CtScanner.visitCtPackage(CtScanner.java:640)
+	at spoon.support.reflect.declaration.CtPackageImpl.accept(CtPackageImpl.java:87)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.reflect.visitor.AstParentConsistencyChecker.scan(AstParentConsistencyChecker.java:27)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:139)
+	at spoon.reflect.visitor.CtScanner.visitCtPackage(CtScanner.java:640)
+	at spoon.support.reflect.declaration.CtPackageImpl.accept(CtPackageImpl.java:87)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.reflect.visitor.AstParentConsistencyChecker.scan(AstParentConsistencyChecker.java:27)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:139)
+	at spoon.reflect.visitor.CtScanner.visitCtPackage(CtScanner.java:640)
+	at spoon.support.reflect.declaration.CtPackageImpl.accept(CtPackageImpl.java:87)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.reflect.visitor.AstParentConsistencyChecker.scan(AstParentConsistencyChecker.java:27)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:139)
+	at spoon.reflect.visitor.CtScanner.visitCtPackage(CtScanner.java:640)
+	at spoon.support.reflect.declaration.CtPackageImpl.accept(CtPackageImpl.java:87)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.reflect.visitor.AstParentConsistencyChecker.scan(AstParentConsistencyChecker.java:27)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:139)
+	at spoon.reflect.visitor.CtScanner.visitCtPackage(CtScanner.java:640)
+	at spoon.support.reflect.declaration.CtPackageImpl.accept(CtPackageImpl.java:87)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.reflect.visitor.AstParentConsistencyChecker.scan(AstParentConsistencyChecker.java:27)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:139)
+	at spoon.reflect.visitor.CtScanner.visitCtPackage(CtScanner.java:640)
+	at spoon.support.reflect.declaration.CtPackageImpl.accept(CtPackageImpl.java:87)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.reflect.visitor.AstParentConsistencyChecker.scan(AstParentConsistencyChecker.java:27)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.visitCtModule(CtScanner.java:915)
+	at spoon.reflect.factory.ModuleFactory$CtUnnamedModule.accept(ModuleFactory.java:94)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.checkModel(JDTBasedSpoonCompiler.java:135)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:122)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:96)
+	at spoon.Launcher.buildModel(Launcher.java:766)
+	at fr.inria.spirals.npefix.main.all.Launcher.init(Launcher.java:201)
+	at fr.inria.spirals.npefix.main.all.Launcher.<init>(Launcher.java:85)
+	at fr.inria.spirals.npefix.main.run.Main.run(Main.java:68)
+	at fr.inria.spirals.npefix.main.run.Main.main(Main.java:50)

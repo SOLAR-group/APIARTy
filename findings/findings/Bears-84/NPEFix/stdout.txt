@@ -1,0 +1,66 @@
+TernarySplitter  in 149ms
+return idProperty != null
+return versionProperty != null
+return property == null
+href = (baseUri == null) ? ServletUriComponentsBuilder.fromCurrentRequest().build().toString() : baseUri.toString()
+Assert.isTrue(!((namePattern == null) && (typeName == null)), "Either name patter or type name must be given!")
+Assert.isTrue(!((namePattern == null) && (typeName == null)), "Either name patter or type name must be given!")
+return null != getParameter(position)
+return annotation != null
+nameEquals = that.name == null
+keyEquals = that.key == null
+entityEquals = that.entity == null
+return rootObjectInformation == null ? new EvaluationContextExtensionInformation.RootObjectInformation(target.getClass()) : rootObjectInformation
+return (!isSpecialParameter()) && (getName() != null)
+return AnnotationUtils.getAnnotation(field, annotationType) != null
+this(content, null, null == content ? 0 : content.size())
+return that.parent == null
+return ((T) (factory.getProxy(resourceLoader == null ? ClassUtils.getDefaultClassLoader() : resourceLoader.getClassLoader())))
+return cacheAndReturn(annotationType, field == null ? null : AnnotationUtils.getAnnotation(field, annotationType))
+return findAnnotation(annotationType) != null
+return null != ReflectionUtils.findField(type, StringUtils.uncapitalize(property))
+return AnnotationUtils.findAnnotation(method, QueryAnnotation.class) != null
+return getMaxResults() != null
+return String.format("%s%s", StringUtils.collectionToDelimitedString(predicate.nodes, " or "), orderBySource == null ? "" : " " + orderBySource)
+return (((createdByProperty != null) || (createdDateProperty != null)) || (lastModifiedByProperty != null)) || (lastModifiedDateProperty != null)
+return (((createdByProperty != null) || (createdDateProperty != null)) || (lastModifiedByProperty != null)) || (lastModifiedDateProperty != null)
+return (((createdByProperty != null) || (createdDateProperty != null)) || (lastModifiedByProperty != null)) || (lastModifiedDateProperty != null)
+return (((createdByProperty != null) || (createdDateProperty != null)) || (lastModifiedByProperty != null)) || (lastModifiedDateProperty != null)
+return id == null
+return value != null
+return value == null
+return (attribute != null) && Boolean.parseBoolean(attribute)
+return (this.method.hashCode() * 29) + (this.targetClass != null ? this.targetClass.hashCode() : 0)
+return getPropertyPath(propertyName) != null
+return AnnotationUtils.getAnnotation(field, Reference.class) != null
+return (!isTransient()) && (getTypeInformationIfEntityCandidate() != null)
+return saveMethod != null
+return findAllMethod != null
+return findOneMethod != null
+return this.deleteMethod != null
+this(direction, properties == null ? new ArrayList<String>() : Arrays.asList(properties))
+pageableEqual = that.pageable == null
+return String.format(MappingInstantiationException.TEXT_TEMPLATE, entity.getType().getName(), constructor == null ? "NO_CONSTRUCTOR" : constructor.getConstructor().toString(), StringUtils.collectionToCommaDelimitedString(arguments))
+Assert.isTrue((target != null) || Modifier.isStatic(method.getModifiers()), "Method must either be static or a non-static one with a target object!")
+types.add(ClassUtils.forName(definition.getBeanClassName(), resourceLoader == null ? null : resourceLoader.getClassLoader()))
+sortEqual = that.sort == null
+return (31 * super.hashCode()) + (null == sort ? 0 : sort.hashCode())
+return String.format("Page request [number: %d, size %d, sort: %s]", getPageNumber(), getPageSize(), sort == null ? null : sort.toString())
+this.predicateBuilder = new QuerydslPredicateBuilder(conversionService == null ? new DefaultConversionService() : conversionService, factory.getEntityPathResolver())
+return AnnotationUtils.findAnnotation(readMethod, Value.class) == null
+return this.username != null
+return this.password != null
+return next != null
+return current != null
+return this.factory.getRepositoryInformation(repositoryMetadata, customImplementation == null ? null : customImplementation.getClass())
+CheckNotNull  in 1005ms
+ForceNullInit in 57ms
+AddImplicitCastChecker --> 5 in 1356ms
+BeforeDeref --> 2411 (failed:0) in 350ms
+target--> 2751 (failed:0) in 2202ms
+TryRegister # Try: 65 in 85ms
+Assign --> 1245 (failed: 0) in 1108ms
+VarInit --> 425 in 374ms
+MethodEncapsulation # Method: 1738 in 2848ms
+ConstructorEncapsulation # Constructor: 303 in 901ms
+VariableFor in 271ms

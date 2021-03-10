@@ -1,0 +1,34 @@
+21:40:06.912 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/asterisk-java-194/asterisk-java/src/main/java, /apiarty/data/asterisk-java-194/asterisk-java/src/test/java]
+21:40:06.925 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/asterisk-java-194/asterisk-java/target/classes/, file:/apiarty/data/asterisk-java-194/asterisk-java/target/test-classes/, file:/root/.m2/repository/org/easymock/easymock/3.3/easymock-3.3.jar, file:/root/.m2/repository/cglib/cglib-nodep/3.1/cglib-nodep-3.1.jar, file:/root/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar, file:/root/.m2/repository/junit/junit/4.12/junit-4.12.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/root/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar, file:/root/.m2/repository/org/slf4j/slf4j-api/1.7.9/slf4j-api-1.7.9.jar, file:/root/.m2/repository/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar, file:/root/.m2/repository/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.jar]
+21:40:06.926 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+21:40:06.927 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.asteriskjava.manager.event.RtcpReceivedEventTest]
+21:40:06.933 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=DYNAMOTH, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/asterisk-java-194/asterisk-java/src/main/java, /apiarty/data/asterisk-java-194/asterisk-java/src/test/java], projectClasspath='[Ljava.net.URL;@3c5a99da', projectTests=[org.asteriskjava.manager.event.RtcpReceivedEventTest], complianceLevel=7, outputFolder=., json=false}
+21:40:06.938 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+21:40:06.964 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+21:40:06.965 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+21:40:06.966 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+21:40:06.967 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+21:40:06.972 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+21:40:06.973 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+21:40:54.096 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+21:40:54.099 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.asteriskjava.manager.event.RtcpReceivedEvent:156 which is executed by 1 tests
+1094106923
+21:40:59.071 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:41:06.346 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+21:41:06.347 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.asteriskjava.manager.event.RtcpReceivedEvent:150 which is executed by 1 tests
+1094106923
+21:41:10.111 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:41:15.349 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+21:41:20.420 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+21:41:20.423 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.asteriskjava.manager.event.RtcpReceivedEvent:144 which is executed by 1 tests
+1094106923
+21:41:23.975 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:41:28.538 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+21:41:32.718 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+21:41:32.973 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 583
+21:41:32.974 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 5066
+21:41:32.975 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 5
+21:41:32.977 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+21:41:32.978 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 85812ms
+21:41:32.980 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+NO_ANGELIC_VALUE

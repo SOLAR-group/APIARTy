@@ -1,0 +1,648 @@
+20:31:46.033 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/closure-2/closure-compiler/src, /apiarty/data/closure-2/closure-compiler/test]
+20:31:46.036 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/closure-2/closure-compiler/build/classes/, file:/apiarty/data/closure-2/closure-compiler/build/test/, file:/apiarty/data/closure-2/closure-compiler/./build/classes/, file:/apiarty/data/closure-2/closure-compiler/./lib/args4j.jar, file:/apiarty/data/closure-2/closure-compiler/./lib/guava.jar, file:/apiarty/data/closure-2/closure-compiler/./lib/jsr305.jar, file:/apiarty/data/closure-2/closure-compiler/./lib/libtrunk_rhino_parser_jarjared.jar, file:/apiarty/data/closure-2/closure-compiler/./lib/protobuf-java.jar, file:/apiarty/data/closure-2/closure-compiler/./lib/ant.jar, file:/apiarty/data/closure-2/closure-compiler/./lib/ant-launcher.jar, file:/apiarty/data/closure-2/closure-compiler/./lib/caja-r4314.jar, file:/apiarty/data/closure-2/closure-compiler/./lib/json.jar, file:/apiarty/data/closure-2/closure-compiler/./lib/junit.jar, file:/apiarty/data/closure-2/closure-compiler/./lib/nopol/nopol/target/nopol-0.2-SNAPSHOT-jar-with-dependencies.jar, file:/apiarty/data/closure-2/closure-compiler/./build/test/]
+20:31:46.037 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+20:31:46.038 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [com.google.javascript.jscomp.CommandLineRunnerTest]
+20:31:46.040 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=DYNAMOTH, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/closure-2/closure-compiler/src, /apiarty/data/closure-2/closure-compiler/test], projectClasspath='[Ljava.net.URL;@3c5a99da', projectTests=[com.google.javascript.jscomp.CommandLineRunnerTest], complianceLevel=7, outputFolder=., json=false}
+20:31:46.041 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+20:31:46.048 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+20:31:46.049 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+20:31:46.050 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+20:31:46.051 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+20:31:46.053 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+20:31:46.054 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+20:33:58.116 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+20:33:58.120 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:378 which is executed by 51 tests
+20:33:58.121 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:378
+20:33:58.121 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+20:33:58.122 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:402 which is executed by 51 tests
+20:33:58.123 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:402
+20:33:58.124 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+20:33:58.125 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:400 which is executed by 51 tests
+20:33:58.125 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:400
+20:33:58.126 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+20:33:58.128 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:397 which is executed by 51 tests
+20:33:58.129 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:397
+20:33:58.129 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+20:33:58.130 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:396 which is executed by 51 tests
+20:33:58.131 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:396
+20:33:58.132 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+20:33:58.132 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:392 which is executed by 51 tests
+20:33:58.133 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:392
+20:33:58.134 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+20:33:58.135 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:388 which is executed by 51 tests
+20:33:58.136 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:388
+20:33:58.136 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+20:33:58.137 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.CommandLineRunner:610 which is executed by 51 tests
+-1712894512
+20:34:36.736 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+20:34:36.738 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.CommandLineRunner:484 which is executed by 51 tests
+-1712894512
+20:35:16.520 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+20:35:16.522 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.CommandLineRunner:446 which is executed by 51 tests
+-1712894512
+20:35:51.069 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+20:37:08.833 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+20:38:00.390 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+20:38:00.391 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.CommandLineRunner:437 which is executed by 51 tests
+-1712894512
+20:38:30.752 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+20:39:28.313 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+20:40:17.253 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+20:40:17.254 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.CommandLineRunner:431 which is executed by 51 tests
+-1712894512
+20:40:44.897 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+20:41:28.659 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+20:41:28.660 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.CommandLineRunner:429 which is executed by 51 tests
+-1712894512
+20:42:03.248 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+20:42:53.385 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+20:42:53.386 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.CommandLineRunner:428 which is executed by 51 tests
+-1712894512
+20:43:18.764 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+20:43:18.765 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.CommandLineRunner:424 which is executed by 51 tests
+-1712894512
+20:43:45.192 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+20:44:53.333 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+20:44:53.334 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.CommandLineRunner:413 which is executed by 51 tests
+-1712894512
+20:45:26.861 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+20:46:19.441 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+20:47:14.964 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+20:47:14.965 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.CommandLineRunner:412 which is executed by 51 tests
+-1712894512
+20:47:37.634 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+20:47:37.635 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.CommandLineRunner:411 which is executed by 51 tests
+-1712894512
+20:48:18.633 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+20:49:19.535 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #19
+20:49:19.536 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.CommandLineRunner:410 which is executed by 51 tests
+-1712894512
+20:49:52.303 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #20
+20:49:52.304 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.CommandLineRunner:409 which is executed by 51 tests
+-1712894512
+20:50:34.238 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #21
+20:50:34.239 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.CommandLineRunner:408 which is executed by 51 tests
+-1712894512
+20:51:12.371 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #22
+20:51:12.372 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.OptionDef:44 which is executed by 51 tests
+20:51:12.373 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.OptionDef:44
+20:51:12.374 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #23
+20:51:12.375 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.NamedOptionDef:37 which is executed by 51 tests
+20:51:12.375 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.NamedOptionDef:37
+20:51:12.376 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #24
+20:51:12.378 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.NamedOptionDef:35 which is executed by 51 tests
+20:51:12.379 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.NamedOptionDef:35
+20:51:12.380 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #25
+20:51:12.380 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.NamedOptionDef:33 which is executed by 51 tests
+20:51:12.381 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.NamedOptionDef:33
+20:51:12.382 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #26
+20:51:12.383 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.NamedOptionDef:31 which is executed by 51 tests
+20:51:12.384 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.NamedOptionDef:31
+20:51:12.385 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #27
+20:51:12.385 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.NamedOptionDef:30 which is executed by 51 tests
+20:51:12.386 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.NamedOptionDef:30
+20:51:12.387 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #28
+20:51:12.388 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.NamedOptionDef:29 which is executed by 51 tests
+20:51:12.389 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.NamedOptionDef:29
+20:51:12.389 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #29
+20:51:12.390 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.NamedOptionDef:28 which is executed by 51 tests
+20:51:12.391 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.NamedOptionDef:28
+20:51:12.392 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #30
+20:51:12.393 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.NamedOptionDef:27 which is executed by 51 tests
+20:51:12.394 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.NamedOptionDef:27
+20:51:12.394 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #31
+20:51:12.395 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.NamedOptionDef:22 which is executed by 51 tests
+20:51:12.396 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.NamedOptionDef:22
+20:51:12.397 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #32
+20:51:12.397 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.NamedOptionDef:18 which is executed by 51 tests
+20:51:12.398 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.NamedOptionDef:18
+20:51:12.399 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #33
+20:51:12.400 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.spi.StringOptionHandler:20 which is executed by 51 tests
+20:51:12.400 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.spi.StringOptionHandler:20
+20:51:12.401 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #34
+20:51:12.402 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.spi.StringOptionHandler:19 which is executed by 51 tests
+20:51:12.403 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.spi.StringOptionHandler:19
+20:51:12.404 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #35
+20:51:12.405 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.CommandLineRunner$Flags:83 which is executed by 1571 tests
+-1712894512
+20:51:59.317 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #36
+20:51:59.318 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:550 which is executed by 51 tests
+20:51:59.320 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:550
+20:51:59.321 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #37
+20:51:59.324 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:512 which is executed by 51 tests
+20:51:59.325 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:512
+20:51:59.325 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #38
+20:51:59.326 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:494 which is executed by 51 tests
+20:51:59.327 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:494
+20:51:59.328 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #39
+20:51:59.328 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:493 which is executed by 51 tests
+20:51:59.329 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:493
+20:51:59.330 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #40
+20:51:59.331 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:489 which is executed by 51 tests
+20:51:59.333 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:489
+20:51:59.334 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #41
+20:51:59.339 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:488 which is executed by 51 tests
+20:51:59.341 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:488
+20:51:59.347 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #42
+20:51:59.348 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:486 which is executed by 51 tests
+20:51:59.349 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:486
+20:51:59.350 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #43
+20:51:59.351 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:485 which is executed by 51 tests
+20:51:59.351 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:485
+20:51:59.352 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #44
+20:51:59.353 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:484 which is executed by 51 tests
+20:51:59.354 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:484
+20:51:59.355 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #45
+20:51:59.356 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:483 which is executed by 51 tests
+20:51:59.356 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:483
+20:51:59.357 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #46
+20:51:59.358 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:454 which is executed by 51 tests
+20:51:59.360 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:454
+20:51:59.361 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #47
+20:51:59.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:453 which is executed by 51 tests
+20:51:59.363 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:453
+20:51:59.364 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #48
+20:51:59.365 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:452 which is executed by 51 tests
+20:51:59.365 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:452
+20:51:59.366 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #49
+20:51:59.367 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:451 which is executed by 51 tests
+20:51:59.368 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:451
+20:51:59.368 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #50
+20:51:59.369 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:440 which is executed by 51 tests
+20:51:59.370 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:440
+20:51:59.370 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #51
+20:51:59.371 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:439 which is executed by 51 tests
+20:51:59.372 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:439
+20:51:59.372 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #52
+20:51:59.373 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:433 which is executed by 51 tests
+20:51:59.374 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:433
+20:51:59.375 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #53
+20:51:59.375 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:431 which is executed by 51 tests
+20:51:59.376 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:431
+20:51:59.377 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #54
+20:51:59.377 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:429 which is executed by 51 tests
+20:51:59.378 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:429
+20:51:59.379 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #55
+20:51:59.380 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:428 which is executed by 51 tests
+20:51:59.380 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:428
+20:51:59.381 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #56
+20:51:59.382 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:427 which is executed by 51 tests
+20:51:59.382 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:427
+20:51:59.383 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #57
+20:51:59.384 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:426 which is executed by 51 tests
+20:51:59.385 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:426
+20:51:59.385 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #58
+20:51:59.387 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:424 which is executed by 51 tests
+20:51:59.387 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:424
+20:51:59.388 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #59
+20:51:59.389 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:423 which is executed by 51 tests
+20:51:59.390 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:423
+20:51:59.390 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #60
+20:51:59.391 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:421 which is executed by 51 tests
+20:51:59.391 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:421
+20:51:59.392 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #61
+20:51:59.393 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:193 which is executed by 51 tests
+20:51:59.394 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:193
+20:51:59.395 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #62
+20:51:59.396 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:189 which is executed by 51 tests
+20:51:59.397 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:189
+20:51:59.398 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #63
+20:51:59.399 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:188 which is executed by 51 tests
+20:51:59.400 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:188
+20:51:59.401 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #64
+20:51:59.401 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:186 which is executed by 51 tests
+20:51:59.402 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:186
+20:51:59.403 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #65
+20:51:59.403 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:185 which is executed by 51 tests
+20:51:59.404 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:185
+20:51:59.405 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #66
+20:51:59.405 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:183 which is executed by 51 tests
+20:51:59.406 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:183
+20:51:59.407 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #67
+20:51:59.407 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:182 which is executed by 51 tests
+20:51:59.408 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:182
+20:51:59.409 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #68
+20:51:59.409 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:181 which is executed by 51 tests
+20:51:59.410 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:181
+20:51:59.411 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #69
+20:51:59.411 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:177 which is executed by 51 tests
+20:51:59.412 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:177
+20:51:59.413 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #70
+20:51:59.414 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:176 which is executed by 51 tests
+20:51:59.414 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:176
+20:51:59.415 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #71
+20:51:59.416 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:167 which is executed by 51 tests
+20:51:59.416 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:167
+20:51:59.417 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #72
+20:51:59.418 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:164 which is executed by 51 tests
+20:51:59.418 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:164
+20:51:59.419 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #73
+20:51:59.419 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:161 which is executed by 51 tests
+20:51:59.420 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:161
+20:51:59.421 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #74
+20:51:59.421 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:160 which is executed by 51 tests
+20:51:59.422 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:160
+20:51:59.422 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #75
+20:51:59.423 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:158 which is executed by 51 tests
+20:51:59.424 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:158
+20:51:59.424 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #76
+20:51:59.425 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:157 which is executed by 51 tests
+20:51:59.426 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:157
+20:51:59.426 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #77
+20:51:59.427 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:156 which is executed by 51 tests
+20:51:59.427 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:156
+20:51:59.428 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #78
+20:51:59.429 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:155 which is executed by 51 tests
+20:51:59.429 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:155
+20:51:59.430 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #79
+20:51:59.431 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:138 which is executed by 51 tests
+20:51:59.432 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:138
+20:51:59.433 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #80
+20:51:59.433 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:135 which is executed by 51 tests
+20:51:59.434 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:135
+20:51:59.435 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #81
+20:51:59.435 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:134 which is executed by 51 tests
+20:51:59.436 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:134
+20:51:59.437 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #82
+20:51:59.438 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser:133 which is executed by 51 tests
+20:51:59.438 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser:133
+20:51:59.439 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #83
+20:51:59.440 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.FieldSetter:26 which is executed by 51 tests
+20:51:59.440 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.FieldSetter:26
+20:51:59.441 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #84
+20:51:59.442 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.FieldSetter:22 which is executed by 51 tests
+20:51:59.442 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.FieldSetter:22
+20:51:59.443 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #85
+20:51:59.444 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:68 which is executed by 51 tests
+20:51:59.444 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:68
+20:51:59.445 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #86
+20:51:59.446 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:67 which is executed by 51 tests
+20:51:59.446 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:67
+20:51:59.447 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #87
+20:51:59.448 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:64 which is executed by 51 tests
+20:51:59.448 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:64
+20:51:59.449 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #88
+20:51:59.450 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:60 which is executed by 51 tests
+20:51:59.450 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:60
+20:51:59.451 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #89
+20:51:59.452 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:59 which is executed by 51 tests
+20:51:59.453 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:59
+20:51:59.454 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #90
+20:51:59.454 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:56 which is executed by 51 tests
+20:51:59.455 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:56
+20:51:59.455 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #91
+20:51:59.456 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:54 which is executed by 51 tests
+20:51:59.456 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:54
+20:51:59.457 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #92
+20:51:59.458 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:51 which is executed by 51 tests
+20:51:59.458 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:51
+20:51:59.459 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #93
+20:51:59.459 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:49 which is executed by 51 tests
+20:51:59.462 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:49
+20:51:59.463 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #94
+20:51:59.463 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:46 which is executed by 51 tests
+20:51:59.464 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:46
+20:51:59.464 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #95
+20:51:59.465 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:39 which is executed by 51 tests
+20:51:59.466 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:39
+20:51:59.466 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #96
+20:51:59.467 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:38 which is executed by 51 tests
+20:51:59.467 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:38
+20:51:59.468 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #97
+20:51:59.469 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:37 which is executed by 51 tests
+20:51:59.469 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:37
+20:51:59.470 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #98
+20:51:59.471 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:36 which is executed by 51 tests
+20:51:59.471 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:36
+20:51:59.472 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #99
+20:51:59.473 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:35 which is executed by 51 tests
+20:51:59.474 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:35
+20:51:59.475 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #100
+20:51:59.475 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:34 which is executed by 51 tests
+20:51:59.476 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:34
+20:51:59.477 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #101
+20:51:59.477 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:29 which is executed by 51 tests
+20:51:59.478 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.MultiValueFieldSetter:29
+20:51:59.479 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #102
+20:51:59.479 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.SourceFile:40 which is executed by 49 tests
+881600600
+20:52:29.674 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #103
+20:52:29.676 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.SourceFile:257 which is executed by 49 tests
+881600600
+20:53:04.063 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #104
+20:53:04.064 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.SourceFile:136 which is executed by 49 tests
+881600600
+20:53:29.588 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #105
+20:53:29.589 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.SourceFile:119 which is executed by 49 tests
+881600600
+20:54:07.945 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #106
+20:54:07.946 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.SourceFile:118 which is executed by 49 tests
+881600600
+20:54:44.142 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+20:55:33.263 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #107
+20:55:33.265 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.SourceFile:111 which is executed by 49 tests
+881600600
+20:56:10.373 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #108
+20:56:10.374 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.SourceFile:110 which is executed by 49 tests
+881600600
+20:56:44.604 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+20:57:30.373 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #109
+20:57:30.374 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.CommandLineRunner:450 which is executed by 49 tests
+-1712894512
+20:58:08.005 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+20:58:57.105 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #110
+20:58:57.106 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.PhaseOptimizer:99 which is executed by 49 tests
+-1914542565
+20:59:30.958 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #111
+20:59:30.962 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.PhaseOptimizer:98 which is executed by 49 tests
+-1914542565
+20:59:59.215 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:00:59.319 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #112
+21:00:59.320 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$RunTimeStats:1134 which is executed by 49 tests
+-418265650
+21:01:36.902 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #113
+21:01:36.903 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$RunTimeStats:1146 which is executed by 49 tests
+-418265650
+21:02:19.915 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #114
+21:02:19.916 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$RunTimeStats:1145 which is executed by 49 tests
+-418265650
+21:03:07.522 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:04:05.907 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #115
+21:04:05.908 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$RunTimeStats:1144 which is executed by 49 tests
+-418265650
+21:04:50.318 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:05:58.316 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #116
+21:05:58.318 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.JSSourceFile:55 which is executed by 49 tests
+-1274287519
+21:06:28.814 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #117
+21:06:28.815 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner:562 which is executed by 49 tests
+-418265650
+21:07:01.938 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:07:52.229 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #118
+21:07:52.230 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner:277 which is executed by 49 tests
+-418265650
+21:08:24.151 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #119
+21:08:24.151 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner:273 which is executed by 49 tests
+-418265650
+21:09:07.213 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:09:52.386 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #120
+21:09:52.387 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner:272 which is executed by 49 tests
+-418265650
+21:10:21.634 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:11:17.543 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+21:12:04.322 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #121
+21:12:04.326 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner:268 which is executed by 49 tests
+-418265650
+21:12:45.686 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:13:37.965 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+21:14:39.204 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #122
+21:14:39.205 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner:265 which is executed by 49 tests
+-418265650
+21:15:16.314 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:16:16.272 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #123
+21:16:16.273 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner:264 which is executed by 49 tests
+-418265650
+21:16:54.870 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:17:51.819 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #124
+21:17:51.820 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner:257 which is executed by 49 tests
+-418265650
+21:18:16.572 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:19:30.737 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #125
+21:19:30.738 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner:256 which is executed by 49 tests
+-418265650
+21:20:03.772 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:20:58.115 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #126
+21:20:58.119 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner:255 which is executed by 49 tests
+-418265650
+21:21:51.798 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:22:41.985 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #127
+21:22:41.986 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner:250 which is executed by 49 tests
+-418265650
+21:23:17.018 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:24:07.974 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+21:25:04.388 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #128
+21:25:04.391 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner:249 which is executed by 49 tests
+-418265650
+21:25:44.671 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #129
+21:25:44.677 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner:248 which is executed by 49 tests
+-418265650
+21:26:19.423 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #130
+21:26:19.424 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner:240 which is executed by 49 tests
+-418265650
+21:26:45.740 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #131
+21:26:45.741 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner:155 which is executed by 49 tests
+-418265650
+21:27:18.895 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #132
+21:27:18.896 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner:142 which is executed by 49 tests
+-418265650
+21:27:50.101 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #133
+21:27:50.102 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner:141 which is executed by 49 tests
+-418265650
+21:28:34.977 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:29:26.352 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #134
+21:29:26.356 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner:140 which is executed by 49 tests
+-418265650
+21:30:11.488 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:31:05.009 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #135
+21:31:05.012 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner:139 which is executed by 49 tests
+-418265650
+21:31:42.113 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:32:34.484 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #136
+21:32:34.486 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner:138 which is executed by 49 tests
+-418265650
+21:33:12.810 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:34:03.041 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #137
+21:34:03.043 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner:137 which is executed by 49 tests
+-418265650
+21:34:31.580 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:35:34.995 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #138
+21:35:34.997 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner:135 which is executed by 49 tests
+-418265650
+21:36:07.530 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:36:58.960 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #139
+21:36:58.962 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1188 which is executed by 98 tests
+-418265650
+21:37:39.720 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #140
+21:37:39.721 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1573 which is executed by 49 tests
+-418265650
+21:38:21.727 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #141
+21:38:21.729 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1572 which is executed by 49 tests
+-418265650
+21:38:53.228 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:39:46.240 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #142
+21:39:46.243 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1563 which is executed by 49 tests
+-418265650
+21:40:24.877 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #143
+21:40:24.879 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1562 which is executed by 49 tests
+-418265650
+21:40:57.119 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:41:42.363 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #144
+21:41:42.364 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1561 which is executed by 49 tests
+-418265650
+21:42:09.767 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:42:57.214 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #145
+21:42:57.215 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1551 which is executed by 49 tests
+-418265650
+21:43:26.048 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #146
+21:43:26.049 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1550 which is executed by 49 tests
+-418265650
+21:44:09.285 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:45:01.124 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #147
+21:45:01.125 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1540 which is executed by 49 tests
+-418265650
+21:45:32.658 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #148
+21:45:32.659 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1539 which is executed by 49 tests
+-418265650
+21:46:03.633 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:47:02.072 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #149
+21:47:02.073 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1506 which is executed by 49 tests
+-418265650
+21:47:28.398 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #150
+21:47:28.399 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1505 which is executed by 49 tests
+-418265650
+21:48:07.118 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:48:56.233 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #151
+21:48:56.235 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1504 which is executed by 49 tests
+-418265650
+21:49:31.040 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:50:15.755 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #152
+21:50:15.756 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1491 which is executed by 49 tests
+-418265650
+21:50:47.075 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #153
+21:50:47.076 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1490 which is executed by 49 tests
+-418265650
+21:51:13.889 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:52:04.922 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #154
+21:52:04.923 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1489 which is executed by 49 tests
+-418265650
+21:52:42.751 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:53:44.439 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #155
+21:53:44.442 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1480 which is executed by 49 tests
+-418265650
+21:54:22.314 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #156
+21:54:22.315 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1479 which is executed by 49 tests
+-418265650
+21:54:57.731 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:55:53.648 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #157
+21:55:53.649 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1478 which is executed by 49 tests
+-418265650
+21:56:18.382 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:57:16.471 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #158
+21:57:16.474 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1469 which is executed by 49 tests
+-418265650
+21:58:02.400 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #159
+21:58:02.401 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1468 which is executed by 49 tests
+-418265650
+21:58:33.625 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+21:59:25.462 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #160
+21:59:25.464 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1467 which is executed by 49 tests
+-418265650
+22:00:13.423 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:01:10.941 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #161
+22:01:10.942 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1436 which is executed by 49 tests
+-418265650
+22:01:47.308 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #162
+22:01:47.309 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1435 which is executed by 49 tests
+-418265650
+22:02:15.534 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:03:14.293 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #163
+22:03:14.294 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1422 which is executed by 49 tests
+-418265650
+22:03:41.120 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #164
+22:03:41.121 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1421 which is executed by 49 tests
+-418265650
+22:04:16.977 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:05:09.723 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #165
+22:05:09.725 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1410 which is executed by 49 tests
+-418265650
+22:05:45.266 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #166
+22:05:45.266 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1409 which is executed by 49 tests
+-418265650
+22:06:16.554 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:07:03.357 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #167
+22:07:03.361 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1408 which is executed by 49 tests
+-418265650
+22:07:39.427 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:08:20.890 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #168
+22:08:20.891 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1396 which is executed by 49 tests
+-418265650
+22:08:57.083 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #169
+22:08:57.084 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1395 which is executed by 49 tests
+-418265650
+22:09:19.628 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:10:05.704 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #170
+22:10:05.705 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1385 which is executed by 49 tests
+-418265650
+22:10:43.943 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #171
+22:10:43.944 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1384 which is executed by 49 tests
+-418265650
+22:11:13.934 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:12:01.191 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #172
+22:12:01.194 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1374 which is executed by 49 tests
+-418265650
+22:12:33.217 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #173
+22:12:33.218 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1373 which is executed by 49 tests
+-418265650
+22:13:05.994 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:14:00.258 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #174
+22:14:00.261 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1360 which is executed by 49 tests
+-418265650
+22:14:29.070 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #175
+22:14:29.071 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1359 which is executed by 49 tests
+-418265650
+22:14:54.855 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:15:44.993 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #176
+22:15:44.994 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1350 which is executed by 49 tests
+-418265650
+22:16:21.599 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #177
+22:16:21.600 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1349 which is executed by 49 tests
+-418265650
+22:16:50.044 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:17:44.832 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #178
+22:17:44.833 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1339 which is executed by 49 tests
+-418265650
+22:18:16.438 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #179
+22:18:16.440 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1338 which is executed by 49 tests
+-418265650
+22:18:54.063 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:19:49.010 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #180
+22:19:49.011 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1325 which is executed by 49 tests
+-418265650
+22:20:39.529 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #181
+22:20:39.530 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1324 which is executed by 49 tests
+-418265650
+22:21:30.023 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:22:14.957 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #182
+22:22:14.959 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1314 which is executed by 49 tests
+-418265650
+22:22:57.484 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #183
+22:22:57.484 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1313 which is executed by 49 tests
+-418265650
+22:23:28.701 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:24:23.657 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #184
+22:24:23.658 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1303 which is executed by 49 tests
+-418265650
+22:24:52.338 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #185
+22:24:52.339 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1302 which is executed by 49 tests
+-418265650
+22:25:25.659 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:26:18.734 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #186
+22:26:18.735 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1292 which is executed by 49 tests
+-418265650
+22:26:48.088 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #187
+22:26:48.089 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1291 which is executed by 49 tests
+-418265650
+22:27:26.951 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:28:15.968 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #188
+22:28:15.969 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1290 which is executed by 49 tests
+-418265650
+22:28:52.002 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:29:45.024 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #189
+22:29:45.027 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1276 which is executed by 49 tests
+-418265650
+22:30:22.635 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #190
+22:30:22.637 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1275 which is executed by 49 tests
+-418265650
+22:30:58.250 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:31:41.707 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #191
+22:31:41.710 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig:1266 which is executed by 49 tests

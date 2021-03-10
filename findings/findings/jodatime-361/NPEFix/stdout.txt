@@ -1,0 +1,44 @@
+TernarySplitter  in 213ms
+return iPrinters != null
+return iParsers != null
+return (field != null) && (field.getUnitMillis() < (DateTimeConstants.MILLIS_PER_HOUR * 12))
+return getName() == null
+return ((((("LimitChronology[" + getBase().toString()) + ", ") + (getLowerLimit() == null ? "NoLimit" : getLowerLimit().toString())) + ", ") + (getUpperLimit() == null ? "NoLimit" : getUpperLimit().toString())) + ']'
+return ((((("LimitChronology[" + getBase().toString()) + ", ") + (getLowerLimit() == null ? "NoLimit" : getLowerLimit().toString())) + ", ") + (getUpperLimit() == null ? "NoLimit" : getUpperLimit().toString())) + ']'
+return ((iLowerLimit == other.getLowerLimit()) || ((iLowerLimit != null) && iLowerLimit.equals(other.getLowerLimit()))) && ((iUpperLimit == other.getUpperLimit()) || ((iUpperLimit != null) && iUpperLimit.equals(other.getUpperLimit())))
+return ((iLowerLimit == other.getLowerLimit()) || ((iLowerLimit != null) && iLowerLimit.equals(other.getLowerLimit()))) && ((iUpperLimit == other.getUpperLimit()) || ((iUpperLimit != null) && iUpperLimit.equals(other.getUpperLimit())))
+return (iLowerLimit == null ? 0 : iLowerLimit.hashCode()) + (123 * (iUpperLimit == null ? 0 : iUpperLimit.hashCode()))
+return (iLowerLimit == null ? 0 : iLowerLimit.hashCode()) + (123 * (iUpperLimit == null ? 0 : iUpperLimit.hashCode()))
+return ("DateTimeComparator[" + (iLowerLimit == null ? "" : iLowerLimit.getName())) + "]"
+return ((("DateTimeComparator[" + (iLowerLimit == null ? "" : iLowerLimit.getName())) + "-") + (iUpperLimit == null ? "" : iUpperLimit.getName())) + "]"
+return ((("DateTimeComparator[" + (iLowerLimit == null ? "" : iLowerLimit.getName())) + "-") + (iUpperLimit == null ? "" : iUpperLimit.getName())) + "]"
+return iPrinter != null
+return iParser != null
+InstantConverter converter = ((InstantConverter) (iInstantConverters.select(object == null ? null : object.getClass())))
+throw new IllegalArgumentException("No instant converter found for type: " + (object == null ? "null" : object.getClass().getName()))
+PartialConverter converter = ((PartialConverter) (iPartialConverters.select(object == null ? null : object.getClass())))
+throw new IllegalArgumentException("No partial converter found for type: " + (object == null ? "null" : object.getClass().getName()))
+DurationConverter converter = ((DurationConverter) (iDurationConverters.select(object == null ? null : object.getClass())))
+throw new IllegalArgumentException("No duration converter found for type: " + (object == null ? "null" : object.getClass().getName()))
+PeriodConverter converter = ((PeriodConverter) (iPeriodConverters.select(object == null ? null : object.getClass())))
+throw new IllegalArgumentException("No period converter found for type: " + (object == null ? "null" : object.getClass().getName()))
+IntervalConverter converter = ((IntervalConverter) (iIntervalConverters.select(object == null ? null : object.getClass())))
+throw new IllegalArgumentException("No interval converter found for type: " + (object == null ? "null" : object.getClass().getName()))
+return ("Converter[" + (getSupportedType() == null ? "null" : getSupportedType().getName())) + "]"
+return iPrinter != null
+return iParser != null
+iNotPrinter |= printer == null
+iNotParser |= parser == null
+this(field, field == null ? null : field.getType(), offset, Integer.MIN_VALUE, Integer.MAX_VALUE)
+return ((((getID().equals(other.getID()) && Arrays.equals(iTransitions, other.iTransitions)) && Arrays.equals(iNameKeys, other.iNameKeys)) && Arrays.equals(iWallOffsets, other.iWallOffsets)) && Arrays.equals(iStandardOffsets, other.iStandardOffsets)) && (iTailZone == null ? null == other.iTailZone : iTailZone.equals(other.iTailZone))
+return ((((getID().equals(other.getID()) && Arrays.equals(iTransitions, other.iTransitions)) && Arrays.equals(iNameKeys, other.iNameKeys)) && Arrays.equals(iWallOffsets, other.iWallOffsets)) && Arrays.equals(iStandardOffsets, other.iStandardOffsets)) && (iTailZone == null ? null == other.iTailZone : iTailZone.equals(other.iTailZone))
+out.writeBoolean(iTailZone != null)
+StringBuilder buf = new StringBuilder(40).append("Resource not found: \"").append(path).append("\" ClassLoader: ").append(iLoader != null ? iLoader.toString() : "system")
+CheckNotNull  in 2345ms
+ForceNullInit in 124ms
+AddImplicitCastChecker --> 7 in 432ms
+BeforeDeref --> 5261 (failed:0) in 902ms
+target--> 5768 (failed:0) in 14691ms
+TryRegister # Try: 74 in 248ms
+Assign --> 3109 (failed: 0) in 13693ms
+VarInit --> 1103 in 19416ms

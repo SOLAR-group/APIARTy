@@ -1,0 +1,813 @@
+23:23:36.868 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/MATH-1089/commons-math/src/main/java, /apiarty/data/MATH-1089/commons-math/src/test/java]
+23:23:36.890 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/MATH-1089/commons-math/target/classes/, file:/apiarty/data/MATH-1089/commons-math/target/test-classes/, file:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar]
+23:23:36.890 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+23:23:36.891 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.commons.math3.util.PrecisionTest]
+23:23:36.896 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/MATH-1089/commons-math/src/main/java, /apiarty/data/MATH-1089/commons-math/src/test/java], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[org.apache.commons.math3.util.PrecisionTest], complianceLevel=8, outputFolder=., json=false}
+23:23:36.897 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+23:23:36.918 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+23:23:36.919 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+23:23:36.919 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+23:23:36.920 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+23:23:36.923 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+23:23:36.926 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+23:25:47.268 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+23:25:47.274 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.Precision:403 which is executed by 1 tests
+627790943
+23:26:05.321 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+23:26:30.622 [pool-2-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+Precision.java:153: error: missing return statement
+    }
+    ^
+23:26:30.701 [pool-2-thread-1] ERROR f.i.l.r.n.s.ConstraintModelBuilder - Unable to compile the change: 
+public class Precision {
+    public static final double EPSILON;
+
+    public static final double SAFE_MIN;
+
+    private static final long EXPONENT_OFFSET = 1023L;
+
+    private static final long SGN_MASK = 0x8000000000000000L;
+
+    private static final int SGN_MASK_FLOAT = 0x80000000;
+
+    static {
+        EPSILON = java.lang.Double.longBitsToDouble((org.apache.commons.math3.util.Precision.EXPONENT_OFFSET - 53L) << 52);
+        SAFE_MIN = java.lang.Double.longBitsToDouble((org.apache.commons.math3.util.Precision.EXPONENT_OFFSET - 1022L) << 52);
+    }
+
+    private Precision() {
+    }
+
+    public static int compareTo(double x, double y, double eps) {
+        if (org.apache.commons.math3.util.Precision.equals(x, y, eps)) {
+            return 0;
+        } else
+            if (x < y) {
+                return -1;
+            }
+
+        return 1;
+    }
+
+    public static int compareTo(final double x, final double y, final int maxUlps) {
+        if (org.apache.commons.math3.util.Precision.equals(x, y, maxUlps)) {
+            return 0;
+        } else
+            if (x < y) {
+                return -1;
+            }
+
+        return 1;
+    }
+
+    public static boolean equals(float x, float y) {
+        return org.apache.commons.math3.util.Precision.equals(x, y, 1);
+    }
+
+    public static boolean equalsIncludingNaN(float x, float y) {
+        return (java.lang.Float.isNaN(x) && java.lang.Float.isNaN(y)) || org.apache.commons.math3.util.Precision.equals(x, y, 1);
+    }
+
+    public static boolean equals(float x, float y, float eps) {
+        return org.apache.commons.math3.util.Precision.equals(x, y, 1) || (org.apache.commons.math3.util.FastMath.abs(y - x) <= eps);
+    }
+
+    public static boolean equalsIncludingNaN(float x, float y, float eps) {
+        return org.apache.commons.math3.util.Precision.equalsIncludingNaN(x, y) || (org.apache.commons.math3.util.FastMath.abs(y - x) <= eps);
+    }
+
+    public static boolean equals(float x, float y, int maxUlps) {
+        int xInt = java.lang.Float.floatToIntBits(x);
+        int yInt = java.lang.Float.floatToIntBits(y);
+        if (xInt < 0) {
+            xInt = org.apache.commons.math3.util.Precision.SGN_MASK_FLOAT - xInt;
+        }
+        if (yInt < 0) {
+            yInt = org.apache.commons.math3.util.Precision.SGN_MASK_FLOAT - yInt;
+        }
+        final boolean isEqual = org.apache.commons.math3.util.FastMath.abs(xInt - yInt) <= maxUlps;
+        return (isEqual && (!java.lang.Float.isNaN(x))) && (!java.lang.Float.isNaN(y));
+    }
+
+    public static boolean equalsIncludingNaN(float x, float y, int maxUlps) {
+        return (java.lang.Float.isNaN(x) && java.lang.Float.isNaN(y)) || org.apache.commons.math3.util.Precision.equals(x, y, maxUlps);
+    }
+
+    public static boolean equals(double x, double y) {
+        return org.apache.commons.math3.util.Precision.equals(x, y, 1);
+    }
+
+    public static boolean equalsIncludingNaN(double x, double y) {
+        return (java.lang.Double.isNaN(x) && java.lang.Double.isNaN(y)) || org.apache.commons.math3.util.Precision.equals(x, y, 1);
+    }
+
+    public static boolean equals(double x, double y, double eps) {
+        return org.apache.commons.math3.util.Precision.equals(x, y, 1) || (org.apache.commons.math3.util.FastMath.abs(y - x) <= eps);
+    }
+
+    public static boolean equalsWithRelativeTolerance(double x, double y, double eps) {
+        if (org.apache.commons.math3.util.Precision.equals(x, y, 1)) {
+            return true;
+        }
+        final double absoluteMax = org.apache.commons.math3.util.FastMath.max(org.apache.commons.math3.util.FastMath.abs(x), org.apache.commons.math3.util.FastMath.abs(y));
+        final double relativeDifference = org.apache.commons.math3.util.FastMath.abs((x - y) / absoluteMax);
+        return relativeDifference <= eps;
+    }
+
+    public static boolean equalsIncludingNaN(double x, double y, double eps) {
+        return org.apache.commons.math3.util.Precision.equalsIncludingNaN(x, y) || (org.apache.commons.math3.util.FastMath.abs(y - x) <= eps);
+    }
+
+    public static boolean equals(double x, double y, int maxUlps) {
+        long xInt = java.lang.Double.doubleToLongBits(x);
+        long yInt = java.lang.Double.doubleToLongBits(y);
+        if (xInt < 0) {
+            xInt = org.apache.commons.math3.util.Precision.SGN_MASK - xInt;
+        }
+        if (yInt < 0) {
+            yInt = org.apache.commons.math3.util.Precision.SGN_MASK - yInt;
+        }
+        final boolean isEqual = org.apache.commons.math3.util.FastMath.abs(xInt - yInt) <= maxUlps;
+        return (isEqual && (!java.lang.Double.isNaN(x))) && (!java.lang.Double.isNaN(y));
+    }
+
+    public static boolean equalsIncludingNaN(double x, double y, int maxUlps) {
+        return (java.lang.Double.isNaN(x) && java.lang.Double.isNaN(y)) || org.apache.commons.math3.util.Precision.equals(x, y, maxUlps);
+    }
+
+    public static double round(double x, int scale) {
+        return org.apache.commons.math3.util.Precision.round(x, scale, java.math.BigDecimal.ROUND_HALF_UP);
+    }
+
+    public static double round(double x, int scale, int roundingMethod) {
+        try {
+            return new java.math.BigDecimal(java.lang.Double.toString(x)).setScale(scale, roundingMethod).doubleValue();
+        } catch (java.lang.NumberFormatException ex) {
+            if (java.lang.Double.isInfinite(x)) {
+                return x;
+            } else {
+                boolean spoonDefaultValue = false;
+                try {
+                    spoonDefaultValue = true;
+                } catch (java.lang.Exception __NopolProcessorException) {
+                }
+                boolean runtimeAngelicValue = fr.inria.lille.repair.nopol.synth.AngelicExecution.angelicValue(spoonDefaultValue);
+                if (fr.inria.lille.commons.trace.RuntimeValues.instance(0).isEnabled()) {
+                    fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectionStarts();
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.commons.math3.util.Precision.SGN_MASK_FLOAT",org.apache.commons.math3.util.Precision.SGN_MASK_FLOAT);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.commons.math3.util.Precision.EXPONENT_OFFSET",org.apache.commons.math3.util.Precision.EXPONENT_OFFSET);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.commons.math3.util.Precision.EPSILON",org.apache.commons.math3.util.Precision.EPSILON);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("x",x);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("scale",scale);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.commons.math3.util.Precision.SAFE_MIN",org.apache.commons.math3.util.Precision.SAFE_MIN);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.commons.math3.util.Precision.SGN_MASK",org.apache.commons.math3.util.Precision.SGN_MASK);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("roundingMethod",roundingMethod);} catch (Exception ex1) {ex1.printStackTrace();};
+                    fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectOutput(runtimeAngelicValue);
+                    fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectionEnds();
+                }
+                if (runtimeAngelicValue)
+                    return java.lang.Double.NaN;
+
+            }
+        }
+    }
+
+    public static float round(float x, int scale) {
+        return org.apache.commons.math3.util.Precision.round(x, scale, java.math.BigDecimal.ROUND_HALF_UP);
+    }
+
+    public static float round(float x, int scale, int roundingMethod) throws org.apache.commons.math3.exception.MathArithmeticException, org.apache.commons.math3.exception.MathIllegalArgumentException {
+        final float sign = org.apache.commons.math3.util.FastMath.copySign(1.0F, x);
+        final float factor = ((float) (org.apache.commons.math3.util.FastMath.pow(10.0F, scale))) * sign;
+        return ((float) (org.apache.commons.math3.util.Precision.roundUnscaled(x * factor, sign, roundingMethod))) / factor;
+    }
+
+    private static double roundUnscaled(double unscaled, double sign, int roundingMethod) throws org.apache.commons.math3.exception.MathArithmeticException, org.apache.commons.math3.exception.MathIllegalArgumentException {
+        switch (roundingMethod) {
+            case java.math.BigDecimal.ROUND_CEILING :
+                if (sign == (-1)) {
+                    unscaled = org.apache.commons.math3.util.FastMath.floor(org.apache.commons.math3.util.FastMath.nextAfter(unscaled, java.lang.Double.NEGATIVE_INFINITY));
+                } else {
+                    unscaled = org.apache.commons.math3.util.FastMath.ceil(org.apache.commons.math3.util.FastMath.nextAfter(unscaled, java.lang.Double.POSITIVE_INFINITY));
+                }
+                break;
+            case java.math.BigDecimal.ROUND_DOWN :
+                unscaled = org.apache.commons.math3.util.FastMath.floor(org.apache.commons.math3.util.FastMath.nextAfter(unscaled, java.lang.Double.NEGATIVE_INFINITY));
+                break;
+            case java.math.BigDecimal.ROUND_FLOOR :
+                if (sign == (-1)) {
+                    unscaled = org.apache.commons.math3.util.FastMath.ceil(org.apache.commons.math3.util.FastMath.nextAfter(unscaled, java.lang.Double.POSITIVE_INFINITY));
+                } else {
+                    unscaled = org.apache.commons.math3.util.FastMath.floor(org.apache.commons.math3.util.FastMath.nextAfter(unscaled, java.lang.Double.NEGATIVE_INFINITY));
+                }
+                break;
+            case java.math.BigDecimal.ROUND_HALF_DOWN :
+                {
+                    unscaled = org.apache.commons.math3.util.FastMath.nextAfter(unscaled, java.lang.Double.NEGATIVE_INFINITY);
+                    double fraction = unscaled - org.apache.commons.math3.util.FastMath.floor(unscaled);
+                    if (fraction > 0.5) {
+                        unscaled = org.apache.commons.math3.util.FastMath.ceil(unscaled);
+                    } else {
+                        unscaled = org.apache.commons.math3.util.FastMath.floor(unscaled);
+                    }
+                    break;
+                }
+            case java.math.BigDecimal.ROUND_HALF_EVEN :
+                {
+                    double fraction = unscaled - org.apache.commons.math3.util.FastMath.floor(unscaled);
+                    if (fraction > 0.5) {
+                        unscaled = org.apache.commons.math3.util.FastMath.ceil(unscaled);
+                    } else
+                        if (fraction < 0.5) {
+                            unscaled = org.apache.commons.math3.util.FastMath.floor(unscaled);
+                        } else {
+                            if ((org.apache.commons.math3.util.FastMath.floor(unscaled) / 2.0) == org.apache.commons.math3.util.FastMath.floor(org.apache.commons.math3.util.FastMath.floor(unscaled) / 2.0)) {
+                                unscaled = org.apache.commons.math3.util.FastMath.floor(unscaled);
+                            } else {
+                                unscaled = org.apache.commons.math3.util.FastMath.ceil(unscaled);
+                            }
+                        }
+
+                    break;
+                }
+            case java.math.BigDecimal.ROUND_HALF_UP :
+                {
+                    unscaled = org.apache.commons.math3.util.FastMath.nextAfter(unscaled, java.lang.Double.POSITIVE_INFINITY);
+                    double fraction = unscaled - org.apache.commons.math3.util.FastMath.floor(unscaled);
+                    if (fraction >= 0.5) {
+                        unscaled = org.apache.commons.math3.util.FastMath.ceil(unscaled);
+                    } else {
+                        unscaled = org.apache.commons.math3.util.FastMath.floor(unscaled);
+                    }
+                    break;
+                }
+            case java.math.BigDecimal.ROUND_UNNECESSARY :
+                if (unscaled != org.apache.commons.math3.util.FastMath.floor(unscaled)) {
+                    throw new org.apache.commons.math3.exception.MathArithmeticException();
+                }
+                break;
+            case java.math.BigDecimal.ROUND_UP :
+                if (unscaled != org.apache.commons.math3.util.FastMath.floor(unscaled)) {
+                    unscaled = org.apache.commons.math3.util.FastMath.ceil(org.apache.commons.math3.util.FastMath.nextAfter(unscaled, java.lang.Double.POSITIVE_INFINITY));
+                }
+                break;
+            default :
+                throw new org.apache.commons.math3.exception.MathIllegalArgumentException(org.apache.commons.math3.exception.util.LocalizedFormats.INVALID_ROUNDING_METHOD, roundingMethod, "ROUND_CEILING", java.math.BigDecimal.ROUND_CEILING, "ROUND_DOWN", java.math.BigDecimal.ROUND_DOWN, "ROUND_FLOOR", java.math.BigDecimal.ROUND_FLOOR, "ROUND_HALF_DOWN", java.math.BigDecimal.ROUND_HALF_DOWN, "ROUND_HALF_EVEN", java.math.BigDecimal.ROUND_HALF_EVEN, "ROUND_HALF_UP", java.math.BigDecimal.ROUND_HALF_UP, "ROUND_UNNECESSARY", java.math.BigDecimal.ROUND_UNNECESSARY, "ROUND_UP", java.math.BigDecimal.ROUND_UP);
+        }
+        return unscaled;
+    }
+
+    public static double representableDelta(double x, double originalDelta) {
+        return (x + originalDelta) - x;
+    }
+}
+23:26:30.706 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+23:26:30.714 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+23:26:30.715 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.Precision:401 which is executed by 1 tests
+627790943
+23:26:50.495 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+23:27:11.440 [pool-4-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+Precision.java:153: error: missing return statement
+    }
+    ^
+23:27:11.482 [pool-4-thread-1] ERROR f.i.l.r.n.s.ConstraintModelBuilder - Unable to compile the change: 
+public class Precision {
+    public static final double EPSILON;
+
+    public static final double SAFE_MIN;
+
+    private static final long EXPONENT_OFFSET = 1023L;
+
+    private static final long SGN_MASK = 0x8000000000000000L;
+
+    private static final int SGN_MASK_FLOAT = 0x80000000;
+
+    static {
+        EPSILON = java.lang.Double.longBitsToDouble((org.apache.commons.math3.util.Precision.EXPONENT_OFFSET - 53L) << 52);
+        SAFE_MIN = java.lang.Double.longBitsToDouble((org.apache.commons.math3.util.Precision.EXPONENT_OFFSET - 1022L) << 52);
+    }
+
+    private Precision() {
+    }
+
+    public static int compareTo(double x, double y, double eps) {
+        if (org.apache.commons.math3.util.Precision.equals(x, y, eps)) {
+            return 0;
+        } else
+            if (x < y) {
+                return -1;
+            }
+
+        return 1;
+    }
+
+    public static int compareTo(final double x, final double y, final int maxUlps) {
+        if (org.apache.commons.math3.util.Precision.equals(x, y, maxUlps)) {
+            return 0;
+        } else
+            if (x < y) {
+                return -1;
+            }
+
+        return 1;
+    }
+
+    public static boolean equals(float x, float y) {
+        return org.apache.commons.math3.util.Precision.equals(x, y, 1);
+    }
+
+    public static boolean equalsIncludingNaN(float x, float y) {
+        return (java.lang.Float.isNaN(x) && java.lang.Float.isNaN(y)) || org.apache.commons.math3.util.Precision.equals(x, y, 1);
+    }
+
+    public static boolean equals(float x, float y, float eps) {
+        return org.apache.commons.math3.util.Precision.equals(x, y, 1) || (org.apache.commons.math3.util.FastMath.abs(y - x) <= eps);
+    }
+
+    public static boolean equalsIncludingNaN(float x, float y, float eps) {
+        return org.apache.commons.math3.util.Precision.equalsIncludingNaN(x, y) || (org.apache.commons.math3.util.FastMath.abs(y - x) <= eps);
+    }
+
+    public static boolean equals(float x, float y, int maxUlps) {
+        int xInt = java.lang.Float.floatToIntBits(x);
+        int yInt = java.lang.Float.floatToIntBits(y);
+        if (xInt < 0) {
+            xInt = org.apache.commons.math3.util.Precision.SGN_MASK_FLOAT - xInt;
+        }
+        if (yInt < 0) {
+            yInt = org.apache.commons.math3.util.Precision.SGN_MASK_FLOAT - yInt;
+        }
+        final boolean isEqual = org.apache.commons.math3.util.FastMath.abs(xInt - yInt) <= maxUlps;
+        return (isEqual && (!java.lang.Float.isNaN(x))) && (!java.lang.Float.isNaN(y));
+    }
+
+    public static boolean equalsIncludingNaN(float x, float y, int maxUlps) {
+        return (java.lang.Float.isNaN(x) && java.lang.Float.isNaN(y)) || org.apache.commons.math3.util.Precision.equals(x, y, maxUlps);
+    }
+
+    public static boolean equals(double x, double y) {
+        return org.apache.commons.math3.util.Precision.equals(x, y, 1);
+    }
+
+    public static boolean equalsIncludingNaN(double x, double y) {
+        return (java.lang.Double.isNaN(x) && java.lang.Double.isNaN(y)) || org.apache.commons.math3.util.Precision.equals(x, y, 1);
+    }
+
+    public static boolean equals(double x, double y, double eps) {
+        return org.apache.commons.math3.util.Precision.equals(x, y, 1) || (org.apache.commons.math3.util.FastMath.abs(y - x) <= eps);
+    }
+
+    public static boolean equalsWithRelativeTolerance(double x, double y, double eps) {
+        if (org.apache.commons.math3.util.Precision.equals(x, y, 1)) {
+            return true;
+        }
+        final double absoluteMax = org.apache.commons.math3.util.FastMath.max(org.apache.commons.math3.util.FastMath.abs(x), org.apache.commons.math3.util.FastMath.abs(y));
+        final double relativeDifference = org.apache.commons.math3.util.FastMath.abs((x - y) / absoluteMax);
+        return relativeDifference <= eps;
+    }
+
+    public static boolean equalsIncludingNaN(double x, double y, double eps) {
+        return org.apache.commons.math3.util.Precision.equalsIncludingNaN(x, y) || (org.apache.commons.math3.util.FastMath.abs(y - x) <= eps);
+    }
+
+    public static boolean equals(double x, double y, int maxUlps) {
+        long xInt = java.lang.Double.doubleToLongBits(x);
+        long yInt = java.lang.Double.doubleToLongBits(y);
+        if (xInt < 0) {
+            xInt = org.apache.commons.math3.util.Precision.SGN_MASK - xInt;
+        }
+        if (yInt < 0) {
+            yInt = org.apache.commons.math3.util.Precision.SGN_MASK - yInt;
+        }
+        final boolean isEqual = org.apache.commons.math3.util.FastMath.abs(xInt - yInt) <= maxUlps;
+        return (isEqual && (!java.lang.Double.isNaN(x))) && (!java.lang.Double.isNaN(y));
+    }
+
+    public static boolean equalsIncludingNaN(double x, double y, int maxUlps) {
+        return (java.lang.Double.isNaN(x) && java.lang.Double.isNaN(y)) || org.apache.commons.math3.util.Precision.equals(x, y, maxUlps);
+    }
+
+    public static double round(double x, int scale) {
+        return org.apache.commons.math3.util.Precision.round(x, scale, java.math.BigDecimal.ROUND_HALF_UP);
+    }
+
+    public static double round(double x, int scale, int roundingMethod) {
+        try {
+            return new java.math.BigDecimal(java.lang.Double.toString(x)).setScale(scale, roundingMethod).doubleValue();
+        } catch (java.lang.NumberFormatException ex) {
+            if (java.lang.Double.isInfinite(x)) {
+                boolean spoonDefaultValue = false;
+                try {
+                    spoonDefaultValue = true;
+                } catch (java.lang.Exception __NopolProcessorException) {
+                }
+                boolean runtimeAngelicValue = fr.inria.lille.repair.nopol.synth.AngelicExecution.angelicValue(spoonDefaultValue);
+                if (fr.inria.lille.commons.trace.RuntimeValues.instance(1).isEnabled()) {
+                    fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectionStarts();
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("org.apache.commons.math3.util.Precision.SGN_MASK_FLOAT",org.apache.commons.math3.util.Precision.SGN_MASK_FLOAT);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("org.apache.commons.math3.util.Precision.EXPONENT_OFFSET",org.apache.commons.math3.util.Precision.EXPONENT_OFFSET);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("org.apache.commons.math3.util.Precision.EPSILON",org.apache.commons.math3.util.Precision.EPSILON);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("x",x);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("scale",scale);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("org.apache.commons.math3.util.Precision.SAFE_MIN",org.apache.commons.math3.util.Precision.SAFE_MIN);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("org.apache.commons.math3.util.Precision.SGN_MASK",org.apache.commons.math3.util.Precision.SGN_MASK);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("roundingMethod",roundingMethod);} catch (Exception ex1) {ex1.printStackTrace();};
+                    fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectOutput(runtimeAngelicValue);
+                    fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectionEnds();
+                }
+                if (runtimeAngelicValue)
+                    return x;
+
+            } else {
+                return java.lang.Double.NaN;
+            }
+        }
+    }
+
+    public static float round(float x, int scale) {
+        return org.apache.commons.math3.util.Precision.round(x, scale, java.math.BigDecimal.ROUND_HALF_UP);
+    }
+
+    public static float round(float x, int scale, int roundingMethod) throws org.apache.commons.math3.exception.MathArithmeticException, org.apache.commons.math3.exception.MathIllegalArgumentException {
+        final float sign = org.apache.commons.math3.util.FastMath.copySign(1.0F, x);
+        final float factor = ((float) (org.apache.commons.math3.util.FastMath.pow(10.0F, scale))) * sign;
+        return ((float) (org.apache.commons.math3.util.Precision.roundUnscaled(x * factor, sign, roundingMethod))) / factor;
+    }
+
+    private static double roundUnscaled(double unscaled, double sign, int roundingMethod) throws org.apache.commons.math3.exception.MathArithmeticException, org.apache.commons.math3.exception.MathIllegalArgumentException {
+        switch (roundingMethod) {
+            case java.math.BigDecimal.ROUND_CEILING :
+                if (sign == (-1)) {
+                    unscaled = org.apache.commons.math3.util.FastMath.floor(org.apache.commons.math3.util.FastMath.nextAfter(unscaled, java.lang.Double.NEGATIVE_INFINITY));
+                } else {
+                    unscaled = org.apache.commons.math3.util.FastMath.ceil(org.apache.commons.math3.util.FastMath.nextAfter(unscaled, java.lang.Double.POSITIVE_INFINITY));
+                }
+                break;
+            case java.math.BigDecimal.ROUND_DOWN :
+                unscaled = org.apache.commons.math3.util.FastMath.floor(org.apache.commons.math3.util.FastMath.nextAfter(unscaled, java.lang.Double.NEGATIVE_INFINITY));
+                break;
+            case java.math.BigDecimal.ROUND_FLOOR :
+                if (sign == (-1)) {
+                    unscaled = org.apache.commons.math3.util.FastMath.ceil(org.apache.commons.math3.util.FastMath.nextAfter(unscaled, java.lang.Double.POSITIVE_INFINITY));
+                } else {
+                    unscaled = org.apache.commons.math3.util.FastMath.floor(org.apache.commons.math3.util.FastMath.nextAfter(unscaled, java.lang.Double.NEGATIVE_INFINITY));
+                }
+                break;
+            case java.math.BigDecimal.ROUND_HALF_DOWN :
+                {
+                    unscaled = org.apache.commons.math3.util.FastMath.nextAfter(unscaled, java.lang.Double.NEGATIVE_INFINITY);
+                    double fraction = unscaled - org.apache.commons.math3.util.FastMath.floor(unscaled);
+                    if (fraction > 0.5) {
+                        unscaled = org.apache.commons.math3.util.FastMath.ceil(unscaled);
+                    } else {
+                        unscaled = org.apache.commons.math3.util.FastMath.floor(unscaled);
+                    }
+                    break;
+                }
+            case java.math.BigDecimal.ROUND_HALF_EVEN :
+                {
+                    double fraction = unscaled - org.apache.commons.math3.util.FastMath.floor(unscaled);
+                    if (fraction > 0.5) {
+                        unscaled = org.apache.commons.math3.util.FastMath.ceil(unscaled);
+                    } else
+                        if (fraction < 0.5) {
+                            unscaled = org.apache.commons.math3.util.FastMath.floor(unscaled);
+                        } else {
+                            if ((org.apache.commons.math3.util.FastMath.floor(unscaled) / 2.0) == org.apache.commons.math3.util.FastMath.floor(org.apache.commons.math3.util.FastMath.floor(unscaled) / 2.0)) {
+                                unscaled = org.apache.commons.math3.util.FastMath.floor(unscaled);
+                            } else {
+                                unscaled = org.apache.commons.math3.util.FastMath.ceil(unscaled);
+                            }
+                        }
+
+                    break;
+                }
+            case java.math.BigDecimal.ROUND_HALF_UP :
+                {
+                    unscaled = org.apache.commons.math3.util.FastMath.nextAfter(unscaled, java.lang.Double.POSITIVE_INFINITY);
+                    double fraction = unscaled - org.apache.commons.math3.util.FastMath.floor(unscaled);
+                    if (fraction >= 0.5) {
+                        unscaled = org.apache.commons.math3.util.FastMath.ceil(unscaled);
+                    } else {
+                        unscaled = org.apache.commons.math3.util.FastMath.floor(unscaled);
+                    }
+                    break;
+                }
+            case java.math.BigDecimal.ROUND_UNNECESSARY :
+                if (unscaled != org.apache.commons.math3.util.FastMath.floor(unscaled)) {
+                    throw new org.apache.commons.math3.exception.MathArithmeticException();
+                }
+                break;
+            case java.math.BigDecimal.ROUND_UP :
+                if (unscaled != org.apache.commons.math3.util.FastMath.floor(unscaled)) {
+                    unscaled = org.apache.commons.math3.util.FastMath.ceil(org.apache.commons.math3.util.FastMath.nextAfter(unscaled, java.lang.Double.POSITIVE_INFINITY));
+                }
+                break;
+            default :
+                throw new org.apache.commons.math3.exception.MathIllegalArgumentException(org.apache.commons.math3.exception.util.LocalizedFormats.INVALID_ROUNDING_METHOD, roundingMethod, "ROUND_CEILING", java.math.BigDecimal.ROUND_CEILING, "ROUND_DOWN", java.math.BigDecimal.ROUND_DOWN, "ROUND_FLOOR", java.math.BigDecimal.ROUND_FLOOR, "ROUND_HALF_DOWN", java.math.BigDecimal.ROUND_HALF_DOWN, "ROUND_HALF_EVEN", java.math.BigDecimal.ROUND_HALF_EVEN, "ROUND_HALF_UP", java.math.BigDecimal.ROUND_HALF_UP, "ROUND_UNNECESSARY", java.math.BigDecimal.ROUND_UNNECESSARY, "ROUND_UP", java.math.BigDecimal.ROUND_UP);
+        }
+        return unscaled;
+    }
+
+    public static double representableDelta(double x, double originalDelta) {
+        return (x + originalDelta) - x;
+    }
+}
+23:27:11.486 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+23:27:11.487 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+23:27:11.488 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.Precision:400 which is executed by 1 tests
+627790943
+23:27:31.133 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+23:27:48.098 [pool-6-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+Precision.java:151: error: missing return statement
+    }
+    ^
+23:27:48.129 [pool-6-thread-1] ERROR f.i.l.r.n.s.ConstraintModelBuilder - Unable to compile the change: 
+public class Precision {
+    public static final double EPSILON;
+
+    public static final double SAFE_MIN;
+
+    private static final long EXPONENT_OFFSET = 1023L;
+
+    private static final long SGN_MASK = 0x8000000000000000L;
+
+    private static final int SGN_MASK_FLOAT = 0x80000000;
+
+    static {
+        EPSILON = java.lang.Double.longBitsToDouble((org.apache.commons.math3.util.Precision.EXPONENT_OFFSET - 53L) << 52);
+        SAFE_MIN = java.lang.Double.longBitsToDouble((org.apache.commons.math3.util.Precision.EXPONENT_OFFSET - 1022L) << 52);
+    }
+
+    private Precision() {
+    }
+
+    public static int compareTo(double x, double y, double eps) {
+        if (org.apache.commons.math3.util.Precision.equals(x, y, eps)) {
+            return 0;
+        } else
+            if (x < y) {
+                return -1;
+            }
+
+        return 1;
+    }
+
+    public static int compareTo(final double x, final double y, final int maxUlps) {
+        if (org.apache.commons.math3.util.Precision.equals(x, y, maxUlps)) {
+            return 0;
+        } else
+            if (x < y) {
+                return -1;
+            }
+
+        return 1;
+    }
+
+    public static boolean equals(float x, float y) {
+        return org.apache.commons.math3.util.Precision.equals(x, y, 1);
+    }
+
+    public static boolean equalsIncludingNaN(float x, float y) {
+        return (java.lang.Float.isNaN(x) && java.lang.Float.isNaN(y)) || org.apache.commons.math3.util.Precision.equals(x, y, 1);
+    }
+
+    public static boolean equals(float x, float y, float eps) {
+        return org.apache.commons.math3.util.Precision.equals(x, y, 1) || (org.apache.commons.math3.util.FastMath.abs(y - x) <= eps);
+    }
+
+    public static boolean equalsIncludingNaN(float x, float y, float eps) {
+        return org.apache.commons.math3.util.Precision.equalsIncludingNaN(x, y) || (org.apache.commons.math3.util.FastMath.abs(y - x) <= eps);
+    }
+
+    public static boolean equals(float x, float y, int maxUlps) {
+        int xInt = java.lang.Float.floatToIntBits(x);
+        int yInt = java.lang.Float.floatToIntBits(y);
+        if (xInt < 0) {
+            xInt = org.apache.commons.math3.util.Precision.SGN_MASK_FLOAT - xInt;
+        }
+        if (yInt < 0) {
+            yInt = org.apache.commons.math3.util.Precision.SGN_MASK_FLOAT - yInt;
+        }
+        final boolean isEqual = org.apache.commons.math3.util.FastMath.abs(xInt - yInt) <= maxUlps;
+        return (isEqual && (!java.lang.Float.isNaN(x))) && (!java.lang.Float.isNaN(y));
+    }
+
+    public static boolean equalsIncludingNaN(float x, float y, int maxUlps) {
+        return (java.lang.Float.isNaN(x) && java.lang.Float.isNaN(y)) || org.apache.commons.math3.util.Precision.equals(x, y, maxUlps);
+    }
+
+    public static boolean equals(double x, double y) {
+        return org.apache.commons.math3.util.Precision.equals(x, y, 1);
+    }
+
+    public static boolean equalsIncludingNaN(double x, double y) {
+        return (java.lang.Double.isNaN(x) && java.lang.Double.isNaN(y)) || org.apache.commons.math3.util.Precision.equals(x, y, 1);
+    }
+
+    public static boolean equals(double x, double y, double eps) {
+        return org.apache.commons.math3.util.Precision.equals(x, y, 1) || (org.apache.commons.math3.util.FastMath.abs(y - x) <= eps);
+    }
+
+    public static boolean equalsWithRelativeTolerance(double x, double y, double eps) {
+        if (org.apache.commons.math3.util.Precision.equals(x, y, 1)) {
+            return true;
+        }
+        final double absoluteMax = org.apache.commons.math3.util.FastMath.max(org.apache.commons.math3.util.FastMath.abs(x), org.apache.commons.math3.util.FastMath.abs(y));
+        final double relativeDifference = org.apache.commons.math3.util.FastMath.abs((x - y) / absoluteMax);
+        return relativeDifference <= eps;
+    }
+
+    public static boolean equalsIncludingNaN(double x, double y, double eps) {
+        return org.apache.commons.math3.util.Precision.equalsIncludingNaN(x, y) || (org.apache.commons.math3.util.FastMath.abs(y - x) <= eps);
+    }
+
+    public static boolean equals(double x, double y, int maxUlps) {
+        long xInt = java.lang.Double.doubleToLongBits(x);
+        long yInt = java.lang.Double.doubleToLongBits(y);
+        if (xInt < 0) {
+            xInt = org.apache.commons.math3.util.Precision.SGN_MASK - xInt;
+        }
+        if (yInt < 0) {
+            yInt = org.apache.commons.math3.util.Precision.SGN_MASK - yInt;
+        }
+        final boolean isEqual = org.apache.commons.math3.util.FastMath.abs(xInt - yInt) <= maxUlps;
+        return (isEqual && (!java.lang.Double.isNaN(x))) && (!java.lang.Double.isNaN(y));
+    }
+
+    public static boolean equalsIncludingNaN(double x, double y, int maxUlps) {
+        return (java.lang.Double.isNaN(x) && java.lang.Double.isNaN(y)) || org.apache.commons.math3.util.Precision.equals(x, y, maxUlps);
+    }
+
+    public static double round(double x, int scale) {
+        return org.apache.commons.math3.util.Precision.round(x, scale, java.math.BigDecimal.ROUND_HALF_UP);
+    }
+
+    public static double round(double x, int scale, int roundingMethod) {
+        try {
+            return new java.math.BigDecimal(java.lang.Double.toString(x)).setScale(scale, roundingMethod).doubleValue();
+        } catch (java.lang.NumberFormatException ex) {
+            boolean spoonDefaultValue = false;
+            try {
+                spoonDefaultValue = true;
+            } catch (java.lang.Exception __NopolProcessorException) {
+            }
+            boolean runtimeAngelicValue = fr.inria.lille.repair.nopol.synth.AngelicExecution.angelicValue(spoonDefaultValue);
+            if (fr.inria.lille.commons.trace.RuntimeValues.instance(2).isEnabled()) {
+                fr.inria.lille.commons.trace.RuntimeValues.instance(2).collectionStarts();
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(2).collectInput("org.apache.commons.math3.util.Precision.SGN_MASK_FLOAT",org.apache.commons.math3.util.Precision.SGN_MASK_FLOAT);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(2).collectInput("org.apache.commons.math3.util.Precision.EXPONENT_OFFSET",org.apache.commons.math3.util.Precision.EXPONENT_OFFSET);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(2).collectInput("org.apache.commons.math3.util.Precision.EPSILON",org.apache.commons.math3.util.Precision.EPSILON);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(2).collectInput("x",x);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(2).collectInput("scale",scale);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(2).collectInput("org.apache.commons.math3.util.Precision.SAFE_MIN",org.apache.commons.math3.util.Precision.SAFE_MIN);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(2).collectInput("org.apache.commons.math3.util.Precision.SGN_MASK",org.apache.commons.math3.util.Precision.SGN_MASK);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(2).collectInput("roundingMethod",roundingMethod);} catch (Exception ex1) {ex1.printStackTrace();};
+                fr.inria.lille.commons.trace.RuntimeValues.instance(2).collectOutput(runtimeAngelicValue);
+                fr.inria.lille.commons.trace.RuntimeValues.instance(2).collectionEnds();
+            }
+            if (runtimeAngelicValue) if (java.lang.Double.isInfinite(x)) {
+                return x;
+            } else {
+                return java.lang.Double.NaN;
+            }
+        }
+    }
+
+    public static float round(float x, int scale) {
+        return org.apache.commons.math3.util.Precision.round(x, scale, java.math.BigDecimal.ROUND_HALF_UP);
+    }
+
+    public static float round(float x, int scale, int roundingMethod) throws org.apache.commons.math3.exception.MathArithmeticException, org.apache.commons.math3.exception.MathIllegalArgumentException {
+        final float sign = org.apache.commons.math3.util.FastMath.copySign(1.0F, x);
+        final float factor = ((float) (org.apache.commons.math3.util.FastMath.pow(10.0F, scale))) * sign;
+        return ((float) (org.apache.commons.math3.util.Precision.roundUnscaled(x * factor, sign, roundingMethod))) / factor;
+    }
+
+    private static double roundUnscaled(double unscaled, double sign, int roundingMethod) throws org.apache.commons.math3.exception.MathArithmeticException, org.apache.commons.math3.exception.MathIllegalArgumentException {
+        switch (roundingMethod) {
+            case java.math.BigDecimal.ROUND_CEILING :
+                if (sign == (-1)) {
+                    unscaled = org.apache.commons.math3.util.FastMath.floor(org.apache.commons.math3.util.FastMath.nextAfter(unscaled, java.lang.Double.NEGATIVE_INFINITY));
+                } else {
+                    unscaled = org.apache.commons.math3.util.FastMath.ceil(org.apache.commons.math3.util.FastMath.nextAfter(unscaled, java.lang.Double.POSITIVE_INFINITY));
+                }
+                break;
+            case java.math.BigDecimal.ROUND_DOWN :
+                unscaled = org.apache.commons.math3.util.FastMath.floor(org.apache.commons.math3.util.FastMath.nextAfter(unscaled, java.lang.Double.NEGATIVE_INFINITY));
+                break;
+            case java.math.BigDecimal.ROUND_FLOOR :
+                if (sign == (-1)) {
+                    unscaled = org.apache.commons.math3.util.FastMath.ceil(org.apache.commons.math3.util.FastMath.nextAfter(unscaled, java.lang.Double.POSITIVE_INFINITY));
+                } else {
+                    unscaled = org.apache.commons.math3.util.FastMath.floor(org.apache.commons.math3.util.FastMath.nextAfter(unscaled, java.lang.Double.NEGATIVE_INFINITY));
+                }
+                break;
+            case java.math.BigDecimal.ROUND_HALF_DOWN :
+                {
+                    unscaled = org.apache.commons.math3.util.FastMath.nextAfter(unscaled, java.lang.Double.NEGATIVE_INFINITY);
+                    double fraction = unscaled - org.apache.commons.math3.util.FastMath.floor(unscaled);
+                    if (fraction > 0.5) {
+                        unscaled = org.apache.commons.math3.util.FastMath.ceil(unscaled);
+                    } else {
+                        unscaled = org.apache.commons.math3.util.FastMath.floor(unscaled);
+                    }
+                    break;
+                }
+            case java.math.BigDecimal.ROUND_HALF_EVEN :
+                {
+                    double fraction = unscaled - org.apache.commons.math3.util.FastMath.floor(unscaled);
+                    if (fraction > 0.5) {
+                        unscaled = org.apache.commons.math3.util.FastMath.ceil(unscaled);
+                    } else
+                        if (fraction < 0.5) {
+                            unscaled = org.apache.commons.math3.util.FastMath.floor(unscaled);
+                        } else {
+                            if ((org.apache.commons.math3.util.FastMath.floor(unscaled) / 2.0) == org.apache.commons.math3.util.FastMath.floor(org.apache.commons.math3.util.FastMath.floor(unscaled) / 2.0)) {
+                                unscaled = org.apache.commons.math3.util.FastMath.floor(unscaled);
+                            } else {
+                                unscaled = org.apache.commons.math3.util.FastMath.ceil(unscaled);
+                            }
+                        }
+
+                    break;
+                }
+            case java.math.BigDecimal.ROUND_HALF_UP :
+                {
+                    unscaled = org.apache.commons.math3.util.FastMath.nextAfter(unscaled, java.lang.Double.POSITIVE_INFINITY);
+                    double fraction = unscaled - org.apache.commons.math3.util.FastMath.floor(unscaled);
+                    if (fraction >= 0.5) {
+                        unscaled = org.apache.commons.math3.util.FastMath.ceil(unscaled);
+                    } else {
+                        unscaled = org.apache.commons.math3.util.FastMath.floor(unscaled);
+                    }
+                    break;
+                }
+            case java.math.BigDecimal.ROUND_UNNECESSARY :
+                if (unscaled != org.apache.commons.math3.util.FastMath.floor(unscaled)) {
+                    throw new org.apache.commons.math3.exception.MathArithmeticException();
+                }
+                break;
+            case java.math.BigDecimal.ROUND_UP :
+                if (unscaled != org.apache.commons.math3.util.FastMath.floor(unscaled)) {
+                    unscaled = org.apache.commons.math3.util.FastMath.ceil(org.apache.commons.math3.util.FastMath.nextAfter(unscaled, java.lang.Double.POSITIVE_INFINITY));
+                }
+                break;
+            default :
+                throw new org.apache.commons.math3.exception.MathIllegalArgumentException(org.apache.commons.math3.exception.util.LocalizedFormats.INVALID_ROUNDING_METHOD, roundingMethod, "ROUND_CEILING", java.math.BigDecimal.ROUND_CEILING, "ROUND_DOWN", java.math.BigDecimal.ROUND_DOWN, "ROUND_FLOOR", java.math.BigDecimal.ROUND_FLOOR, "ROUND_HALF_DOWN", java.math.BigDecimal.ROUND_HALF_DOWN, "ROUND_HALF_EVEN", java.math.BigDecimal.ROUND_HALF_EVEN, "ROUND_HALF_UP", java.math.BigDecimal.ROUND_HALF_UP, "ROUND_UNNECESSARY", java.math.BigDecimal.ROUND_UNNECESSARY, "ROUND_UP", java.math.BigDecimal.ROUND_UP);
+        }
+        return unscaled;
+    }
+
+    public static double representableDelta(double x, double originalDelta) {
+        return (x + originalDelta) - x;
+    }
+}
+23:27:48.139 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+23:27:48.141 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+23:28:07.663 [pool-8-thread-1] DEBUG tests.output - Failing tests with false: 
+[testRoundDouble(org.apache.commons.math3.util.PrecisionTest): expected:<Infinity> but was:<NaN>]
+23:28:07.669 [pool-8-thread-1] DEBUG tests.output - Failing tests with true: 
+[testRoundDouble(org.apache.commons.math3.util.PrecisionTest): expected:<[-]0.0> but was:<[]0.0>]
+23:28:07.671 [pool-8-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.math3.util.Precision:400.
+23:28:07.672 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+23:28:07.674 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.Precision:399 which is executed by 1 tests
+627790943
+23:28:27.259 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+23:28:27.260 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.Precision:398 which is executed by 1 tests
+627790943
+23:28:44.510 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+23:28:44.520 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.Precision:397 which is executed by 1 tests
+627790943
+23:29:01.211 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+23:29:01.215 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.Precision:396 which is executed by 1 tests
+627790943
+23:29:20.787 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+23:29:20.794 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.Precision:395 which is executed by 1 tests
+627790943
+23:29:39.331 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+23:29:39.332 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.Precision:373 which is executed by 1 tests
+627790943
+23:29:57.761 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+23:29:57.764 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.TestUtils:56 which is executed by 2 tests
+814614304
+23:30:15.098 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+23:30:15.100 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.TestUtils:55 which is executed by 2 tests
+814614304
+23:30:34.424 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+23:30:51.992 [pool-12-thread-1] DEBUG tests.output - Failing tests with false: 
+[testRoundDouble(org.apache.commons.math3.util.PrecisionTest): expected:<[-]0.0> but was:<[]0.0>]
+23:30:51.993 [pool-12-thread-1] DEBUG tests.output - Failing tests with true: 
+[testRoundDouble(org.apache.commons.math3.util.PrecisionTest): expected:<[-]0.0> but was:<[]0.0>]
+23:30:51.994 [pool-12-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.math3.TestUtils:55.
+23:30:51.997 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+23:30:53.542 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 1323
+23:30:53.547 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 10340
+23:30:53.548 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 5
+23:30:53.549 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+23:30:53.550 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 0
+23:30:53.553 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 0
+23:30:53.554 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 0
+23:30:53.555 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 435135ms
+23:30:53.555 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+NO_ANGELIC_VALUE

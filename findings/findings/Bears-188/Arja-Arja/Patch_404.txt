@@ -1,0 +1,14 @@
+1 Replace /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 59
+Faulty:
+paintComponent(getGraphics());
+Seed:
+gasProgressBar.setStringPainted(true);
+**************************************************
+2 InsertBefore /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 138
+Faulty:
+final int minSpeedValue=0;
+Seed:
+gasProgressBar.setStringPainted(true);
+**************************************************
+Evaluations: 336
+EstimatedTime: 363944

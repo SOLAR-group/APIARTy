@@ -1,0 +1,477 @@
+14:45:22.597 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/visualee-32/visualee/src/main/java, /apiarty/data/visualee-32/visualee/src/test/java]
+14:45:22.606 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/visualee-32/visualee/target/classes/, file:/apiarty/data/visualee-32/visualee/target/test-classes/, file:/root/.m2/repository/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.jar, file:/root/.m2/repository/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.jar, file:/root/.m2/repository/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.jar, file:/root/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.jar, file:/root/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar, file:/root/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar, file:/root/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar, file:/root/.m2/repository/com/google/guava/guava/10.0.1/guava-10.0.1.jar, file:/root/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar, file:/root/.m2/repository/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar, file:/root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar, file:/root/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.jar, file:/root/.m2/repository/asm/asm/3.3.1/asm-3.3.1.jar, file:/root/.m2/repository/org/apache/maven/maven-core/3.1.0/maven-core-3.1.0.jar, file:/root/.m2/repository/org/apache/maven/maven-settings/3.1.0/maven-settings-3.1.0.jar, file:/root/.m2/repository/org/apache/maven/maven-settings-builder/3.1.0/maven-settings-builder-3.1.0.jar, file:/root/.m2/repository/org/apache/maven/maven-repository-metadata/3.1.0/maven-repository-metadata-3.1.0.jar, file:/root/.m2/repository/org/apache/maven/maven-model-builder/3.1.0/maven-model-builder-3.1.0.jar, file:/root/.m2/repository/org/apache/maven/maven-aether-provider/3.1.0/maven-aether-provider-3.1.0.jar, file:/root/.m2/repository/org/eclipse/aether/aether-spi/0.9.0.M2/aether-spi-0.9.0.M2.jar, file:/root/.m2/repository/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2.jar, file:/root/.m2/repository/org/eclipse/aether/aether-api/0.9.0.M2/aether-api-0.9.0.M2.jar, file:/root/.m2/repository/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.jar, file:/root/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.16/plexus-interpolation-1.16.jar, file:/root/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.jar, file:/root/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.4.2/plexus-classworlds-2.4.2.jar, file:/root/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar, file:/root/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar, file:/root/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar, file:/root/.m2/repository/org/glassfish/javax.json/1.0.3/javax.json-1.0.3.jar, file:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar]
+14:45:22.607 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+14:45:22.608 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [de.strullerbaumann.visualee.examiner.ExaminerTest]
+14:45:22.611 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=DYNAMOTH, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/visualee-32/visualee/src/main/java, /apiarty/data/visualee-32/visualee/src/test/java], projectClasspath='[Ljava.net.URL;@3c5a99da', projectTests=[de.strullerbaumann.visualee.examiner.ExaminerTest], complianceLevel=7, outputFolder=., json=false}
+14:45:22.612 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+14:45:22.625 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+14:45:22.626 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+14:45:22.627 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+14:45:22.627 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+14:45:22.630 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+14:45:22.631 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+14:45:34.171 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+14:45:34.173 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:144 which is executed by 3 tests
+2002016594
+14:45:36.222 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+14:45:36.224 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:142 which is executed by 3 tests
+2002016594
+14:45:36.845 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:45:39.080 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+14:45:39.082 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:141 which is executed by 3 tests
+2002016594
+14:45:39.750 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:45:41.022 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+14:45:41.024 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:140 which is executed by 3 tests
+2002016594
+14:45:41.893 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+14:45:41.895 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:136 which is executed by 3 tests
+2002016594
+14:45:42.750 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:45:44.208 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+14:45:45.808 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+14:45:45.810 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:134 which is executed by 3 tests
+2002016594
+14:45:46.901 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+14:45:46.915 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:133 which is executed by 3 tests
+2002016594
+14:45:47.641 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+14:45:47.643 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:113 which is executed by 5 tests
+2002016594
+14:45:48.497 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+14:45:48.498 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:110 which is executed by 5 tests
+2002016594
+14:45:49.051 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:45:50.305 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+14:45:50.306 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:109 which is executed by 5 tests
+2002016594
+14:45:50.854 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:45:52.036 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+14:45:53.128 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+14:45:53.129 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:108 which is executed by 5 tests
+2002016594
+14:45:53.713 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:45:54.989 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+14:45:54.993 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:107 which is executed by 5 tests
+2002016594
+14:45:55.459 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+14:45:55.460 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:83 which is executed by 6 tests
+2002016594
+14:45:55.970 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+14:45:55.972 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:82 which is executed by 6 tests
+2002016594
+14:45:56.671 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:45:57.692 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+14:45:57.693 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:81 which is executed by 6 tests
+2002016594
+14:45:58.361 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+14:45:58.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.source.entity.JavaSource:120 which is executed by 7 tests
+1277507838
+14:45:58.886 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+14:45:58.887 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.source.entity.JavaSource:119 which is executed by 7 tests
+1277507838
+14:45:59.342 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:46:00.421 [pool-38-thread-1] DEBUG f.i.l.r.n.s.d.DynamothSynthesizer - Ignore the test de.strullerbaumann.visualee.examiner.ExaminerTest#testJumpOverTokenInsufficientTokens
+java -cp /apiarty/data/visualee-32/visualee/target/classes:/apiarty/data/visualee-32/visualee/target/test-classes:/root/.m2/repository/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.jar:/root/.m2/repository/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.jar:/root/.m2/repository/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.jar:/root/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.jar:/root/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar:/root/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/root/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/root/.m2/repository/com/google/guava/guava/10.0.1/guava-10.0.1.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/root/.m2/repository/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar:/root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/root/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.jar:/root/.m2/repository/asm/asm/3.3.1/asm-3.3.1.jar:/root/.m2/repository/org/apache/maven/maven-core/3.1.0/maven-core-3.1.0.jar:/root/.m2/repository/org/apache/maven/maven-settings/3.1.0/maven-settings-3.1.0.jar:/root/.m2/repository/org/apache/maven/maven-settings-builder/3.1.0/maven-settings-builder-3.1.0.jar:/root/.m2/repository/org/apache/maven/maven-repository-metadata/3.1.0/maven-repository-metadata-3.1.0.jar:/root/.m2/repository/org/apache/maven/maven-model-builder/3.1.0/maven-model-builder-3.1.0.jar:/root/.m2/repository/org/apache/maven/maven-aether-provider/3.1.0/maven-aether-provider-3.1.0.jar:/root/.m2/repository/org/eclipse/aether/aether-spi/0.9.0.M2/aether-spi-0.9.0.M2.jar:/root/.m2/repository/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2.jar:/root/.m2/repository/org/eclipse/aether/aether-api/0.9.0.M2/aether-api-0.9.0.M2.jar:/root/.m2/repository/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.jar:/root/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.16/plexus-interpolation-1.16.jar:/root/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.jar:/root/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.4.2/plexus-classworlds-2.4.2.jar:/root/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/root/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/root/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/root/.m2/repository/org/glassfish/javax.json/1.0.3/javax.json-1.0.3.jar:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar:/nopol/nopol/target/nopol-0.2-SNAPSHOT-jar-with-dependencies.jar: fr.inria.lille.repair.MethodTestRunner de.strullerbaumann.visualee.examiner.ExaminerTest#testFindAndSetPackage de.strullerbaumann.visualee.examiner.ExaminerTest#testGetClassBody de.strullerbaumann.visualee.examiner.ExaminerTest#testJumpOverJavaToken de.strullerbaumann.visualee.examiner.ExaminerTest#testScanAfterClosedParenthesis de.strullerbaumann.visualee.examiner.ExaminerTest#testScanAfterQuote de.strullerbaumann.visualee.examiner.ExaminerTest#testScanAfterClosedParenthesisInsufficientTokens 
+14:46:02.726 [pool-38-thread-1] DEBUG f.i.l.r.s.DynamothCodeGenesisImpl - ClassPrepareEvent
+14:46:02.836 [pool-38-thread-1] DEBUG f.i.l.r.s.c.spoon.ClassCollector - [class] java.lang.String
+14:46:02.838 [pool-38-thread-1] DEBUG f.i.l.r.s.c.spoon.ClassCollector - [class] de.strullerbaumann.visualee.source.entity.JavaSource
+14:46:02.927 [pool-38-thread-1] DEBUG f.i.l.r.s.DynamothCodeGenesisImpl - BreakpointEvent
+14:46:02.942 [pool-38-thread-1] INFO  f.i.l.r.s.DynamothCodeGenesisImpl - [test] de.strullerbaumann.visualee.examiner.ExaminerTest#testFindAndSetPackage iteration 0
+14:46:02.963 [pool-38-thread-1] DEBUG f.i.l.r.s.c.SpoonElementsCollector - [data] sourceCode="package de.test1.test2.test3;
+public class MyTestClass {
+private Class<E> entityClass;
+}
+"
+14:46:02.968 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - Collect Level 1
+14:46:02.971 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this=instance of de.strullerbaumann.visualee.source.entity.JavaSource(id=402)
+14:46:02.976 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] sourceCode
+14:46:02.991 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.javaFile
+14:46:02.992 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.id
+14:46:02.993 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.group
+14:46:02.994 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.packagePath
+14:46:02.995 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.sourceCode
+14:46:02.997 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.name
+14:46:03.040 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.equals((java.lang.Object) this)
+14:46:03.046 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.equals((java.lang.Object) sourceCode)
+14:46:03.052 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getId()
+14:46:03.056 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getGroup()
+14:46:03.063 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getSourceCode()
+14:46:03.085 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getSourceCodeWithoutComments()
+14:46:03.093 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getEscapedSourceCode()
+14:46:03.097 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getFullClassName()
+14:46:03.100 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getName()
+14:46:03.122 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] sourceCode.length()
+14:46:03.133 [pool-38-thread-1] DEBUG f.i.l.r.s.DynamothCodeGenesisImpl - BreakpointEvent
+14:46:03.138 [pool-38-thread-1] INFO  f.i.l.r.s.DynamothCodeGenesisImpl - [test] de.strullerbaumann.visualee.examiner.ExaminerTest#testFindAndSetPackage iteration 1
+14:46:03.141 [pool-38-thread-1] DEBUG f.i.l.r.s.c.SpoonElementsCollector - [data] sourceCode="// package as a comment
+package de.test1.test2.test3.test4;
+public class MyTestClass {
+private Class<E> entityClass;
+}
+"
+14:46:03.142 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - Collect Level 1
+14:46:03.143 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this=instance of de.strullerbaumann.visualee.source.entity.JavaSource(id=564)
+14:46:03.145 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] sourceCode
+14:46:03.146 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.javaFile
+14:46:03.147 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.id
+14:46:03.148 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.group
+14:46:03.148 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.packagePath
+14:46:03.149 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.sourceCode
+14:46:03.150 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.name
+14:46:03.155 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.equals((java.lang.Object) this)
+14:46:03.159 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.equals((java.lang.Object) sourceCode)
+14:46:03.172 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getId()
+14:46:03.176 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getGroup()
+14:46:03.182 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getSourceCode()
+14:46:03.186 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getSourceCodeWithoutComments()
+14:46:03.190 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getEscapedSourceCode()
+14:46:03.193 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getFullClassName()
+14:46:03.196 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getName()
+14:46:03.202 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] sourceCode.length()
+14:46:03.227 [pool-38-thread-1] DEBUG f.i.l.r.s.DynamothCodeGenesisImpl - BreakpointEvent
+14:46:03.230 [pool-38-thread-1] INFO  f.i.l.r.s.DynamothCodeGenesisImpl - [test] de.strullerbaumann.visualee.examiner.ExaminerTest#testGetClassBody iteration 0
+14:46:03.232 [pool-38-thread-1] DEBUG f.i.l.r.s.c.SpoonElementsCollector - [data] sourceCode="/*
+ Copyright 2013 Thomas Struller-Baumann, struller-baumann.de
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ */
+package de.strullerbaumann.visualee.resources;
+
+import de.strullerbaumann.visualee.cdi.CDIDependency;
+import de.strullerbaumann.visualee.cdi.CDIType;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+/**
+ *
+ * @author Thomas Struller-Baumann <thomas at struller-baumann.de>
+ */
+public class JavaSourceExaminer {
+
+   private JavaSourceContainer javaSourceContainer;
+    private static class JavaSourceExaminerHolder {
+        private static final JavaSourceExaminer INSTANCE = new JavaSourceExaminer();
+    }
+    private JavaSourceExaminer() {
+    }
+    public static JavaSourceExaminer getInstance() {
+        return JavaSourceExaminerHolder.INSTANCE;
+    }
+}
+"
+14:46:03.233 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - Collect Level 1
+14:46:03.234 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this=instance of de.strullerbaumann.visualee.source.entity.JavaSource(id=575)
+14:46:03.235 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] sourceCode
+14:46:03.237 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.javaFile
+14:46:03.238 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.id
+14:46:03.238 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.group
+14:46:03.239 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.packagePath
+14:46:03.240 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.sourceCode
+14:46:03.241 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.name
+14:46:03.249 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.equals((java.lang.Object) this)
+14:46:03.254 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.equals((java.lang.Object) sourceCode)
+14:46:03.260 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getId()
+14:46:03.268 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getGroup()
+14:46:03.274 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getSourceCode()
+14:46:03.278 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getSourceCodeWithoutComments()
+14:46:03.283 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getEscapedSourceCode()
+14:46:03.288 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getFullClassName()
+14:46:03.294 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getName()
+14:46:03.305 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] sourceCode.length()
+14:46:03.325 [pool-38-thread-1] DEBUG f.i.l.r.s.DynamothCodeGenesisImpl - BreakpointEvent
+14:46:03.327 [pool-38-thread-1] INFO  f.i.l.r.s.DynamothCodeGenesisImpl - [test] de.strullerbaumann.visualee.examiner.ExaminerTest#testJumpOverJavaToken iteration 0
+14:46:03.332 [pool-38-thread-1] DEBUG f.i.l.r.s.c.SpoonElementsCollector - [data] sourceCode="@NotNull(groups = PersistenceConstraint.class)
+private Album album;
+"
+14:46:03.333 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - Collect Level 1
+14:46:03.333 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this=instance of de.strullerbaumann.visualee.source.entity.JavaSource(id=582)
+14:46:03.334 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] sourceCode
+14:46:03.337 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.javaFile
+14:46:03.338 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.id
+14:46:03.339 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.group
+14:46:03.340 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.packagePath
+14:46:03.340 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.sourceCode
+14:46:03.341 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.name
+14:46:03.346 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.equals((java.lang.Object) this)
+14:46:03.351 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.equals((java.lang.Object) sourceCode)
+14:46:03.357 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getId()
+14:46:03.361 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getGroup()
+14:46:03.367 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getSourceCode()
+14:46:03.371 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getSourceCodeWithoutComments()
+14:46:03.376 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getEscapedSourceCode()
+14:46:03.380 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getFullClassName()
+14:46:03.383 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getName()
+14:46:03.388 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] sourceCode.length()
+14:46:03.401 [pool-38-thread-1] DEBUG f.i.l.r.s.DynamothCodeGenesisImpl - BreakpointEvent
+14:46:03.409 [pool-38-thread-1] INFO  f.i.l.r.s.DynamothCodeGenesisImpl - [test] de.strullerbaumann.visualee.examiner.ExaminerTest#testJumpOverJavaToken iteration 1
+14:46:03.416 [pool-38-thread-1] DEBUG f.i.l.r.s.c.SpoonElementsCollector - [data] sourceCode="@NotNull((groups = PersistenceConstraint.class) saddas)
+protected Album2 album;
+"
+14:46:03.417 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - Collect Level 1
+14:46:03.417 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this=instance of de.strullerbaumann.visualee.source.entity.JavaSource(id=590)
+14:46:03.419 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] sourceCode
+14:46:03.420 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.javaFile
+14:46:03.421 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.id
+14:46:03.422 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.group
+14:46:03.422 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.packagePath
+14:46:03.423 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.sourceCode
+14:46:03.424 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.name
+14:46:03.429 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.equals((java.lang.Object) this)
+14:46:03.435 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.equals((java.lang.Object) sourceCode)
+14:46:03.442 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getId()
+14:46:03.445 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getGroup()
+14:46:03.450 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getSourceCode()
+14:46:03.454 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getSourceCodeWithoutComments()
+14:46:03.457 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getEscapedSourceCode()
+14:46:03.461 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getFullClassName()
+14:46:03.464 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getName()
+14:46:03.469 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] sourceCode.length()
+14:46:03.478 [pool-38-thread-1] DEBUG f.i.l.r.s.DynamothCodeGenesisImpl - BreakpointEvent
+14:46:03.481 [pool-38-thread-1] INFO  f.i.l.r.s.DynamothCodeGenesisImpl - [test] de.strullerbaumann.visualee.examiner.ExaminerTest#testScanAfterClosedParenthesis iteration 0
+14:46:03.483 [pool-38-thread-1] DEBUG f.i.l.r.s.c.SpoonElementsCollector - [data] sourceCode="@NotNull(groups = PersistenceConstraint.class)
+private Album album;
+"
+14:46:03.483 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - Collect Level 1
+14:46:03.484 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this=instance of de.strullerbaumann.visualee.source.entity.JavaSource(id=597)
+14:46:03.485 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] sourceCode
+14:46:03.487 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.javaFile
+14:46:03.488 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.id
+14:46:03.489 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.group
+14:46:03.490 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.packagePath
+14:46:03.490 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.sourceCode
+14:46:03.491 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.name
+14:46:03.501 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.equals((java.lang.Object) this)
+14:46:03.504 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.equals((java.lang.Object) sourceCode)
+14:46:03.509 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getId()
+14:46:03.511 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getGroup()
+14:46:03.516 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getSourceCode()
+14:46:03.519 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getSourceCodeWithoutComments()
+14:46:03.522 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getEscapedSourceCode()
+14:46:03.527 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getFullClassName()
+14:46:03.530 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getName()
+14:46:03.536 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] sourceCode.length()
+14:46:03.541 [pool-38-thread-1] DEBUG f.i.l.r.s.DynamothCodeGenesisImpl - BreakpointEvent
+14:46:03.544 [pool-38-thread-1] INFO  f.i.l.r.s.DynamothCodeGenesisImpl - [test] de.strullerbaumann.visualee.examiner.ExaminerTest#testScanAfterClosedParenthesis iteration 1
+14:46:03.546 [pool-38-thread-1] DEBUG f.i.l.r.s.c.SpoonElementsCollector - [data] sourceCode="@NotNull((groups = PersistenceConstraint.class) saddas)
+private Album2 album;
+"
+14:46:03.547 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - Collect Level 1
+14:46:03.548 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this=instance of de.strullerbaumann.visualee.source.entity.JavaSource(id=601)
+14:46:03.550 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] sourceCode
+14:46:03.551 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.javaFile
+14:46:03.552 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.id
+14:46:03.553 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.group
+14:46:03.554 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.packagePath
+14:46:03.554 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.sourceCode
+14:46:03.555 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.name
+14:46:03.561 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.equals((java.lang.Object) this)
+14:46:03.567 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.equals((java.lang.Object) sourceCode)
+14:46:03.574 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getId()
+14:46:03.577 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getGroup()
+14:46:03.583 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getSourceCode()
+14:46:03.587 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getSourceCodeWithoutComments()
+14:46:03.590 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getEscapedSourceCode()
+14:46:03.594 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getFullClassName()
+14:46:03.598 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getName()
+14:46:03.602 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] sourceCode.length()
+14:46:03.605 [pool-38-thread-1] DEBUG f.i.l.r.s.DynamothCodeGenesisImpl - BreakpointEvent
+14:46:03.608 [pool-38-thread-1] INFO  f.i.l.r.s.DynamothCodeGenesisImpl - [test] de.strullerbaumann.visualee.examiner.ExaminerTest#testScanAfterClosedParenthesis iteration 2
+14:46:03.611 [pool-38-thread-1] DEBUG f.i.l.r.s.c.SpoonElementsCollector - [data] sourceCode="@Resource(mappedName="java:global/jms/myQueue2")
+private Album2 album;
+"
+14:46:03.612 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - Collect Level 1
+14:46:03.612 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this=instance of de.strullerbaumann.visualee.source.entity.JavaSource(id=605)
+14:46:03.614 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] sourceCode
+14:46:03.616 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.javaFile
+14:46:03.617 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.id
+14:46:03.618 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.group
+14:46:03.618 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.packagePath
+14:46:03.619 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.sourceCode
+14:46:03.620 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.name
+14:46:03.625 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.equals((java.lang.Object) this)
+14:46:03.640 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.equals((java.lang.Object) sourceCode)
+14:46:03.649 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getId()
+14:46:03.653 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getGroup()
+14:46:03.667 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getSourceCode()
+14:46:03.674 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getSourceCodeWithoutComments()
+14:46:03.678 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getEscapedSourceCode()
+14:46:03.682 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getFullClassName()
+14:46:03.687 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getName()
+14:46:03.693 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] sourceCode.length()
+14:46:03.710 [pool-38-thread-1] DEBUG f.i.l.r.s.DynamothCodeGenesisImpl - BreakpointEvent
+14:46:03.713 [pool-38-thread-1] INFO  f.i.l.r.s.DynamothCodeGenesisImpl - [test] de.strullerbaumann.visualee.examiner.ExaminerTest#testScanAfterQuote iteration 0
+14:46:03.716 [pool-38-thread-1] DEBUG f.i.l.r.s.c.SpoonElementsCollector - [data] sourceCode="out.println("<h1>UserTransaction obtained using @Inject</h1>");
+mytoken"
+14:46:03.718 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - Collect Level 1
+14:46:03.719 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this=instance of de.strullerbaumann.visualee.source.entity.JavaSource(id=610)
+14:46:03.721 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] sourceCode
+14:46:03.724 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.javaFile
+14:46:03.725 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.id
+14:46:03.727 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.group
+14:46:03.728 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.packagePath
+14:46:03.729 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.sourceCode
+14:46:03.731 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.name
+14:46:03.741 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.equals((java.lang.Object) this)
+14:46:03.746 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.equals((java.lang.Object) sourceCode)
+14:46:03.754 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getId()
+14:46:03.760 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getGroup()
+14:46:03.770 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getSourceCode()
+14:46:03.774 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getSourceCodeWithoutComments()
+14:46:03.779 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getEscapedSourceCode()
+14:46:03.785 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getFullClassName()
+14:46:03.794 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getName()
+14:46:03.801 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] sourceCode.length()
+14:46:03.805 [pool-38-thread-1] DEBUG f.i.l.r.s.DynamothCodeGenesisImpl - BreakpointEvent
+14:46:03.809 [pool-38-thread-1] INFO  f.i.l.r.s.DynamothCodeGenesisImpl - [test] de.strullerbaumann.visualee.examiner.ExaminerTest#testScanAfterQuote iteration 1
+14:46:03.812 [pool-38-thread-1] DEBUG f.i.l.r.s.c.SpoonElementsCollector - [data] sourceCode="out.println("<title>UserTransaction obtained using @Inject</title>");
+out.println("<h1>UserTransaction obtained using @Inject</h1>);
+mytoken"
+14:46:03.813 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - Collect Level 1
+14:46:03.814 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this=instance of de.strullerbaumann.visualee.source.entity.JavaSource(id=615)
+14:46:03.815 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] sourceCode
+14:46:03.819 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.javaFile
+14:46:03.820 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.id
+14:46:03.822 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.group
+14:46:03.825 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.packagePath
+14:46:03.827 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.sourceCode
+14:46:03.829 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.name
+14:46:03.854 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.equals((java.lang.Object) this)
+14:46:03.868 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.equals((java.lang.Object) sourceCode)
+14:46:03.876 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getId()
+14:46:03.880 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getGroup()
+14:46:03.885 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getSourceCode()
+14:46:03.889 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getSourceCodeWithoutComments()
+14:46:03.895 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getEscapedSourceCode()
+14:46:03.907 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getFullClassName()
+14:46:03.913 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getName()
+14:46:03.917 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] sourceCode.length()
+14:46:03.919 [pool-38-thread-1] DEBUG f.i.l.r.s.DynamothCodeGenesisImpl - BreakpointEvent
+14:46:03.921 [pool-38-thread-1] INFO  f.i.l.r.s.DynamothCodeGenesisImpl - [test] de.strullerbaumann.visualee.examiner.ExaminerTest#testScanAfterQuote iteration 2
+14:46:03.925 [pool-38-thread-1] DEBUG f.i.l.r.s.c.SpoonElementsCollector - [data] sourceCode="@NotNull((groups = PersistenceConstraint.class) saddas)
+private Album2 album;
+"
+14:46:03.927 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - Collect Level 1
+14:46:03.928 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this=instance of de.strullerbaumann.visualee.source.entity.JavaSource(id=619)
+14:46:03.929 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] sourceCode
+14:46:03.932 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.javaFile
+14:46:03.933 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.id
+14:46:03.934 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.group
+14:46:03.935 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.packagePath
+14:46:03.936 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.sourceCode
+14:46:03.937 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.name
+14:46:03.943 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.equals((java.lang.Object) this)
+14:46:03.948 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.equals((java.lang.Object) sourceCode)
+14:46:03.953 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getId()
+14:46:03.956 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getGroup()
+14:46:03.961 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getSourceCode()
+14:46:03.968 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getSourceCodeWithoutComments()
+14:46:03.973 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getEscapedSourceCode()
+14:46:03.979 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getFullClassName()
+14:46:03.984 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getName()
+14:46:03.989 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] sourceCode.length()
+14:46:03.992 [pool-38-thread-1] DEBUG f.i.l.r.s.DynamothCodeGenesisImpl - BreakpointEvent
+14:46:03.995 [pool-38-thread-1] INFO  f.i.l.r.s.DynamothCodeGenesisImpl - [test] de.strullerbaumann.visualee.examiner.ExaminerTest#testScanAfterQuote iteration 3
+14:46:03.998 [pool-38-thread-1] DEBUG f.i.l.r.s.c.SpoonElementsCollector - [data] sourceCode="LOG.log(Level.FINE, "Added {0} to watch channel {1}", new Object[]{browserWindow.hashCode(), browserWindow.getChannel()});"
+14:46:03.999 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - Collect Level 1
+14:46:04.001 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this=instance of de.strullerbaumann.visualee.source.entity.JavaSource(id=622)
+14:46:04.002 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] sourceCode
+14:46:04.006 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.javaFile
+14:46:04.008 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.id
+14:46:04.010 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.group
+14:46:04.011 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.packagePath
+14:46:04.013 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.sourceCode
+14:46:04.014 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.name
+14:46:04.019 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.equals((java.lang.Object) this)
+14:46:04.024 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.equals((java.lang.Object) sourceCode)
+14:46:04.032 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getId()
+14:46:04.037 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getGroup()
+14:46:04.042 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getSourceCode()
+14:46:04.047 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getSourceCodeWithoutComments()
+14:46:04.055 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getEscapedSourceCode()
+14:46:04.058 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getFullClassName()
+14:46:04.061 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getName()
+14:46:04.065 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] sourceCode.length()
+14:46:04.071 [pool-38-thread-1] DEBUG f.i.l.r.s.DynamothCodeGenesisImpl - BreakpointEvent
+14:46:04.074 [pool-38-thread-1] INFO  f.i.l.r.s.DynamothCodeGenesisImpl - [test] de.strullerbaumann.visualee.examiner.ExaminerTest#testScanAfterClosedParenthesisInsufficientTokens iteration 0
+14:46:04.076 [pool-38-thread-1] DEBUG f.i.l.r.s.c.SpoonElementsCollector - [data] sourceCode="@NotNull(groups"
+14:46:04.078 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - Collect Level 1
+14:46:04.079 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this=instance of de.strullerbaumann.visualee.source.entity.JavaSource(id=627)
+14:46:04.080 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] sourceCode
+14:46:04.082 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.javaFile
+14:46:04.083 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.id
+14:46:04.084 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.group
+14:46:04.086 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.packagePath
+14:46:04.088 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.sourceCode
+14:46:04.089 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.name
+14:46:04.096 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.equals((java.lang.Object) this)
+14:46:04.102 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.equals((java.lang.Object) sourceCode)
+14:46:04.107 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getId()
+14:46:04.110 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getGroup()
+14:46:04.117 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getSourceCode()
+14:46:04.120 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getSourceCodeWithoutComments()
+14:46:04.123 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getEscapedSourceCode()
+14:46:04.126 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getFullClassName()
+14:46:04.129 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] this.getName()
+14:46:04.139 [pool-38-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] sourceCode.length()
+14:46:04.160 [pool-38-thread-1] DEBUG f.i.l.r.s.DynamothCodeGenesisImpl - Exit
+14:46:04.183 [pool-38-thread-1] DEBUG f.i.l.r.s.collect.DataCombiner - [combine] start on 21 elements
+14:46:05.074 [pool-38-thread-1] DEBUG f.i.l.r.s.collect.DataCombiner - [combine] end 136540 evaluated elements
+
+
+========= Info ==========
+Nb constants             14
+Nb method invocations    4
+Nb field access          1
+Nb variables             2
+Total                    21
+Nb evaluated expressions 67663
+Init Execution time      2461 ms
+Collect Execution time   1238 ms
+Combine Execution time   922.0 ms
+Nb Combination par sec   73387 combinations/sec
+Total Execution time     4623 ms
+Nb line execution        13
+Nb results               0
+
+Results:
+
+
+========================
+         Stat
+========================
+Operators: 
+Methods: 
+Variable: 
+sourceCode 2
+sourceCode 1
+
+ & 14 & 4 & 1 & 2 & 21 & 67663 & 4629 ms & 13 &
+14:46:05.093 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+14:46:05.094 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.source.entity.JavaSource:88 which is executed by 7 tests
+1277507838
+14:46:07.818 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+14:46:07.849 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 45
+14:46:07.850 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 256
+14:46:07.851 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 10
+14:46:07.852 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 1
+14:46:07.853 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 45227ms
+14:46:07.855 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+NO_ANGELIC_VALUE

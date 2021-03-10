@@ -1,0 +1,20 @@
+RMI Selector (Host: 127.0.0.1, Port: 10000): KO
+org.apache.wicket.request.mapper.parameter.PageParametersTest#getPosition
+<No Strat> Status: Ok
+org.apache.wicket.request.mapper.parameter.PageParametersTest#addStringArrayValue
+<No Strat> Status: Ok
+org.apache.wicket.request.mapper.parameter.PageParametersTest#set
+<No Strat> Status: Ko
+Multirun 3/100 3%
+org.apache.wicket.request.mapper.parameter.PageParametersTest#set
+<No Strat> Status: Ko
+org.apache.wicket.request.mapper.parameter.PageParametersTest#set
+<No Strat> Status: Ko
+org.apache.wicket.request.mapper.parameter.PageParametersTest#set
+<No Strat> Status: Ko
+org.apache.wicket.request.mapper.parameter.PageParametersTest#set
+<No Strat> Status: Ko
+org.apache.wicket.request.mapper.parameter.PageParametersTest#set
+<No Strat> Status: Ko
+org.apache.wicket.request.mapper.parameter.PageParametersTest#set
+<No Strat> Status: Ko

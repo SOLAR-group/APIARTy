@@ -1,0 +1,352 @@
+02:26:34.800 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/CAMEL-9238/camel/camel-core/src/main/java, /apiarty/data/CAMEL-9238/camel/camel-core/src/test/java]
+02:26:34.859 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/CAMEL-9238/camel/camel-core/target/classes/, file:/apiarty/data/CAMEL-9238/camel/camel-core/target/test-classes/, file:/root/.m2/repository/org/apache/camel/spi-annotations/2.17-SNAPSHOT/spi-annotations-2.17-SNAPSHOT.jar, file:/root/.m2/repository/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/concurrentlinkedhashmap-lru-1.4.2.jar, file:/root/.m2/repository/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar, file:/root/.m2/repository/org/osgi/org.osgi.core/4.3.1/org.osgi.core-4.3.1.jar, file:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/root/.m2/repository/org/slf4j/slf4j-log4j12/1.7.12/slf4j-log4j12-1.7.12.jar, file:/root/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar, file:/root/.m2/repository/org/easymock/easymock/3.2/easymock-3.2.jar, file:/root/.m2/repository/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar, file:/root/.m2/repository/org/objenesis/objenesis/1.3/objenesis-1.3.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.6.3/jackson-databind-2.6.3.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.6.3/jackson-core-2.6.3.jar, file:/root/.m2/repository/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.jar, file:/root/.m2/repository/org/apache/camel/apt/2.17-SNAPSHOT/apt-2.17-SNAPSHOT.jar, file:/root/.m2/repository/org/codehaus/woodstox/woodstox-core-asl/4.4.1/woodstox-core-asl-4.4.1.jar, file:/root/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar, file:/root/.m2/repository/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-core-2.2.11.jar, file:/root/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-impl-2.2.11.jar]
+02:26:34.863 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+02:26:34.866 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest]
+02:26:34.876 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/CAMEL-9238/camel/camel-core/src/main/java, /apiarty/data/CAMEL-9238/camel/camel-core/src/test/java], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest], complianceLevel=8, outputFolder=., json=false}
+02:26:34.878 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+02:26:34.898 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+02:26:34.900 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+02:26:34.901 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+02:26:34.902 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+02:26:34.905 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+02:26:34.907 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+02:31:47.436 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+02:31:47.439 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1678 which is executed by 2 tests
+-1446164498
+02:32:57.366 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+02:32:57.367 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1675 which is executed by 2 tests
+-1446164498
+02:34:04.818 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+02:36:03.546 [pool-2-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): Failed to create route route1: Route(route1)[[From[file:./target/input?move=${file:parent}.... because of Failed to resolve endpoint: file://./target/input?move=%24%7Bfile%3Aparent%7D.bak%2Fsomedate%2F%24%7Bfile%3Aonlyname%7D&moveFailed=%24%7Bfile%3Aparent%7D.err%2Fsomedate%2F%24%7Bfile%3Aonlyname%7D due to: Cannot auto create component: file, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): Failed to create route route1: Route(route1)[[From[file:./target/input?move=${file:parent}.... because of Failed to resolve endpoint: file://./target/input?move=%24%7Bfile%3Aparent%7D.bak%2Fsomedate%2F%24%7Bfile%3Aonlyname%7D&moveFailed=%24%7Bfile%3Aparent%7D.err%2Fsomedate%2F%24%7Bfile%3Aonlyname%7D due to: Cannot auto create component: file]
+02:36:03.548 [pool-2-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+02:36:03.550 [pool-2-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1675.
+02:36:03.551 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+02:36:03.552 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1674 which is executed by 2 tests
+-1446164498
+02:37:04.501 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+02:39:03.595 [pool-14-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): Failed to create route route1: Route(route1)[[From[file:./target/input?move=${file:parent}.... because of Failed to resolve endpoint: file://./target/input?move=%24%7Bfile%3Aparent%7D.bak%2Fsomedate%2F%24%7Bfile%3Aonlyname%7D&moveFailed=%24%7Bfile%3Aparent%7D.err%2Fsomedate%2F%24%7Bfile%3Aonlyname%7D due to: Cannot auto create component: file, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): Failed to create route route1: Route(route1)[[From[file:./target/input?move=${file:parent}.... because of Failed to resolve endpoint: file://./target/input?move=%24%7Bfile%3Aparent%7D.bak%2Fsomedate%2F%24%7Bfile%3Aonlyname%7D&moveFailed=%24%7Bfile%3Aparent%7D.err%2Fsomedate%2F%24%7Bfile%3Aonlyname%7D due to: Cannot auto create component: file]
+02:39:03.596 [pool-14-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+02:39:03.597 [pool-14-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1674.
+02:39:03.598 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+02:40:58.212 [pool-26-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): Failed to create route route1: Route(route1)[[From[file:./target/input?move=${file:parent}.... because of Failed to resolve endpoint: file://./target/input?move=%24%7Bfile%3Aparent%7D.bak%2Fsomedate%2F%24%7Bfile%3Aonlyname%7D&moveFailed=%24%7Bfile%3Aparent%7D.err%2Fsomedate%2F%24%7Bfile%3Aonlyname%7D due to: Cannot auto create component: file, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): Failed to create route route1: Route(route1)[[From[file:./target/input?move=${file:parent}.... because of Failed to resolve endpoint: file://./target/input?move=%24%7Bfile%3Aparent%7D.bak%2Fsomedate%2F%24%7Bfile%3Aonlyname%7D&moveFailed=%24%7Bfile%3Aparent%7D.err%2Fsomedate%2F%24%7Bfile%3Aonlyname%7D due to: Cannot auto create component: file]
+02:40:58.214 [pool-26-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+02:40:58.216 [pool-26-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1674.
+02:40:58.218 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+02:40:58.220 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1673 which is executed by 2 tests
+-1446164498
+02:41:50.368 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+02:43:43.064 [pool-38-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): Failed to create route route1: Route(route1)[[From[file:./target/input?move=${file:parent}.... because of Failed to resolve endpoint: file://./target/input?move=%24%7Bfile%3Aparent%7D.bak%2Fsomedate%2F%24%7Bfile%3Aonlyname%7D&moveFailed=%24%7Bfile%3Aparent%7D.err%2Fsomedate%2F%24%7Bfile%3Aonlyname%7D due to: Cannot auto create component: file, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): Failed to create route route1: Route(route1)[[From[file:./target/input?move=${file:parent}.... because of Failed to resolve endpoint: file://./target/input?move=%24%7Bfile%3Aparent%7D.bak%2Fsomedate%2F%24%7Bfile%3Aonlyname%7D&moveFailed=%24%7Bfile%3Aparent%7D.err%2Fsomedate%2F%24%7Bfile%3Aonlyname%7D due to: Cannot auto create component: file]
+02:43:43.065 [pool-38-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+02:43:43.066 [pool-38-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1673.
+02:43:43.067 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+02:43:43.068 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1672 which is executed by 2 tests
+-1446164498
+02:45:20.100 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+02:45:20.103 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1537 which is executed by 2 tests
+-1446164498
+02:46:22.193 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+02:46:22.194 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1074 which is executed by 2 tests
+-1446164498
+02:47:21.955 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+02:47:21.956 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1073 which is executed by 2 tests
+-1446164498
+02:48:36.146 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+02:50:39.939 [pool-50-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+02:50:39.944 [pool-50-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+02:50:39.945 [pool-50-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1073.
+02:50:39.946 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+02:50:39.948 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1068 which is executed by 2 tests
+-1446164498
+02:51:42.625 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+02:53:44.532 [pool-64-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+02:53:44.533 [pool-64-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+02:53:44.534 [pool-64-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1068.
+02:53:44.535 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+02:55:56.294 [pool-78-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+02:55:56.295 [pool-78-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): Failed to create route route1: Route(route1)[[From[file:./target/input?move=${file:parent}.... because of Failed to resolve endpoint: file://./target/input?move=%24%7Bfile%3Aparent%7D.bak%2Fsomedate%2F%24%7Bfile%3Aonlyname%7D&moveFailed=%24%7Bfile%3Aparent%7D.err%2Fsomedate%2F%24%7Bfile%3Aonlyname%7D due to: Cannot auto create component: file, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): Failed to create route route1: Route(route1)[[From[file:./target/input?move=${file:parent}.... because of Failed to resolve endpoint: file://./target/input?move=%24%7Bfile%3Aparent%7D.bak%2Fsomedate%2F%24%7Bfile%3Aonlyname%7D&moveFailed=%24%7Bfile%3Aparent%7D.err%2Fsomedate%2F%24%7Bfile%3Aonlyname%7D due to: Cannot auto create component: file]
+02:55:56.296 [pool-78-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1068.
+02:55:56.297 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+02:55:56.298 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1067 which is executed by 2 tests
+-1446164498
+02:57:12.578 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+02:59:12.982 [pool-90-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+02:59:12.983 [pool-90-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+02:59:12.984 [pool-90-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1067.
+02:59:12.985 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+02:59:12.986 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1054 which is executed by 2 tests
+-1446164498
+03:00:13.204 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+03:00:13.205 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1051 which is executed by 2 tests
+-1446164498
+03:01:27.366 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+03:03:17.330 [pool-104-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:03:17.331 [pool-104-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:03:17.332 [pool-104-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1051.
+03:03:17.333 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+03:05:09.488 [pool-118-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:05:09.489 [pool-118-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: char, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: char]
+03:05:09.489 [pool-118-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1051.
+03:05:09.491 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+03:05:09.492 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1049 which is executed by 2 tests
+-1446164498
+03:06:14.659 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+03:08:32.011 [pool-130-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:08:32.012 [pool-130-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:08:32.013 [pool-130-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1049.
+03:08:32.014 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+03:10:23.539 [pool-144-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:10:23.540 [pool-144-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: java.lang.Character, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: java.lang.Character]
+03:10:23.541 [pool-144-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1049.
+03:10:23.542 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+03:10:23.543 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1047 which is executed by 2 tests
+-1446164498
+03:11:27.464 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+03:13:35.545 [pool-156-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:13:35.546 [pool-156-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:13:35.547 [pool-156-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1047.
+03:13:35.548 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+03:15:27.684 [pool-170-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:15:27.685 [pool-170-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: double, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: double]
+03:15:27.686 [pool-170-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1047.
+03:15:27.687 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+03:15:27.688 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1045 which is executed by 2 tests
+-1446164498
+03:16:29.747 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+03:18:29.173 [pool-182-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:18:29.174 [pool-182-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:18:29.175 [pool-182-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1045.
+03:18:29.177 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+03:20:21.733 [pool-196-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:20:21.734 [pool-196-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: java.lang.Double, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: java.lang.Double]
+03:20:21.734 [pool-196-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1045.
+03:20:21.735 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+03:20:21.736 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1043 which is executed by 2 tests
+-1446164498
+03:21:28.000 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+03:23:28.061 [pool-208-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:23:28.063 [pool-208-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:23:28.064 [pool-208-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1043.
+03:23:28.065 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+03:25:23.804 [pool-222-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:25:23.804 [pool-222-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: float, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: float]
+03:25:23.805 [pool-222-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1043.
+03:25:23.806 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+03:25:23.807 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1041 which is executed by 2 tests
+-1446164498
+03:26:24.486 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+03:28:18.714 [pool-234-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:28:18.715 [pool-234-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:28:18.717 [pool-234-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1041.
+03:28:18.718 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+03:30:09.364 [pool-248-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:30:09.364 [pool-248-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: java.lang.Float, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: java.lang.Float]
+03:30:09.366 [pool-248-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1041.
+03:30:09.367 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+03:30:09.368 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1039 which is executed by 2 tests
+-1446164498
+03:31:24.252 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+03:33:25.661 [pool-260-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:33:25.662 [pool-260-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:33:25.662 [pool-260-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1039.
+03:33:25.663 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+03:35:41.571 [pool-274-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:35:41.572 [pool-274-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: byte, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: byte]
+03:35:41.573 [pool-274-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1039.
+03:35:41.574 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #19
+03:35:41.575 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1037 which is executed by 2 tests
+-1446164498
+03:36:41.820 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+03:38:45.734 [pool-286-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:38:45.735 [pool-286-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:38:45.735 [pool-286-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1037.
+03:38:45.736 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+03:40:29.606 [pool-300-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:40:29.608 [pool-300-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: java.lang.Byte, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: java.lang.Byte]
+03:40:29.610 [pool-300-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1037.
+03:40:29.612 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #20
+03:40:29.614 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1035 which is executed by 2 tests
+-1446164498
+03:41:35.985 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+03:43:27.767 [pool-312-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:43:27.771 [pool-312-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:43:27.772 [pool-312-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1035.
+03:43:27.774 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+03:45:07.485 [pool-326-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:45:07.488 [pool-326-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: short, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: short]
+03:45:07.489 [pool-326-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1035.
+03:45:07.492 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #21
+03:45:07.494 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1033 which is executed by 2 tests
+-1446164498
+03:46:13.810 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+03:48:24.684 [pool-338-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:48:24.687 [pool-338-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:48:24.688 [pool-338-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1033.
+03:48:24.689 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+03:50:15.166 [pool-352-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:50:15.167 [pool-352-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: java.lang.Short, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: java.lang.Short]
+03:50:15.168 [pool-352-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1033.
+03:50:15.169 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #22
+03:50:15.170 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1031 which is executed by 2 tests
+-1446164498
+03:51:21.255 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+03:53:23.518 [pool-364-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:53:23.519 [pool-364-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:53:23.520 [pool-364-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1031.
+03:53:23.521 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+03:55:28.821 [pool-378-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:55:28.822 [pool-378-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: long, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: long]
+03:55:28.822 [pool-378-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1031.
+03:55:28.823 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #23
+03:55:28.824 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1029 which is executed by 2 tests
+-1446164498
+03:56:48.390 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+03:58:46.693 [pool-390-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:58:46.694 [pool-390-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+03:58:46.696 [pool-390-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1029.
+03:58:46.697 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+04:00:36.816 [pool-404-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+04:00:36.818 [pool-404-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: java.lang.Long, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: java.lang.Long]
+04:00:36.819 [pool-404-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1029.
+04:00:36.819 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #24
+04:00:36.820 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1027 which is executed by 2 tests
+-1446164498
+04:01:21.681 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+04:03:33.305 [pool-416-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+04:03:33.309 [pool-416-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+04:03:33.310 [pool-416-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1027.
+04:03:33.311 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+04:05:15.772 [pool-430-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+04:05:15.773 [pool-430-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: int, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: int]
+04:05:15.774 [pool-430-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1027.
+04:05:15.775 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #25
+04:05:15.776 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1025 which is executed by 2 tests
+-1446164498
+04:06:22.007 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+04:08:14.455 [pool-442-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+04:08:14.457 [pool-442-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+04:08:14.458 [pool-442-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1025.
+04:08:14.460 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+04:10:04.844 [pool-456-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+04:10:04.845 [pool-456-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: java.lang.Integer, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: java.lang.Integer]
+04:10:04.845 [pool-456-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1025.
+04:10:04.846 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #26
+04:10:04.847 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1023 which is executed by 2 tests
+-1446164498
+04:11:04.974 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+04:13:13.902 [pool-468-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+04:13:13.905 [pool-468-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+04:13:13.906 [pool-468-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1023.
+04:13:13.907 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+04:15:17.161 [pool-482-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+04:15:17.163 [pool-482-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: boolean, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: boolean]
+04:15:17.164 [pool-482-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1023.
+04:15:17.165 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #27
+04:15:17.167 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1021 which is executed by 2 tests
+-1446164498
+04:16:30.795 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+04:18:46.374 [pool-494-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+04:18:46.375 [pool-494-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+04:18:46.376 [pool-494-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1021.
+04:18:46.377 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+04:20:46.479 [pool-508-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+04:20:46.480 [pool-508-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: java.lang.Boolean, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): java.lang.InstantiationException: java.lang.Boolean]
+04:20:46.481 [pool-508-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1021.
+04:20:46.482 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #28
+04:20:46.483 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1019 which is executed by 2 tests
+-1446164498
+04:21:56.275 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+04:23:49.641 [pool-520-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+04:23:49.642 [pool-520-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+04:23:49.642 [pool-520-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1019.
+04:23:49.643 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+04:25:22.795 [pool-534-thread-1] DEBUG tests.output - Failing tests with false: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.bak/somedate/hello.txt, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): mock://result The file should exists: target/input/target/input.err/somedate/bomb.txt]
+04:25:22.796 [pool-534-thread-1] DEBUG tests.output - Failing tests with true: 
+[testMove(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): Failed to create route route1: Route(route1)[[From[file:./target/input?move=${file:parent}.... because of Failed to resolve endpoint: file://./target/input?move=%24%7Bfile%3Aparent%7D.bak%2Fsomedate%2F%24%7Bfile%3Aonlyname%7D&moveFailed=%24%7Bfile%3Aparent%7D.err%2Fsomedate%2F%24%7Bfile%3Aonlyname%7D due to: Cannot auto create component: file, testMoveFailed(org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest): Failed to create route route1: Route(route1)[[From[file:./target/input?move=${file:parent}.... because of Failed to resolve endpoint: file://./target/input?move=%24%7Bfile%3Aparent%7D.bak%2Fsomedate%2F%24%7Bfile%3Aonlyname%7D&moveFailed=%24%7Bfile%3Aparent%7D.err%2Fsomedate%2F%24%7Bfile%3Aonlyname%7D due to: Cannot auto create component: file]
+04:25:22.797 [pool-534-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1019.
+04:25:22.798 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #29
+04:25:22.799 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1016 which is executed by 2 tests
+-1446164498
+04:26:21.434 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder

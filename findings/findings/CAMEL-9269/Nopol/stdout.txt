@@ -1,0 +1,424 @@
+23:08:42.993 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/CAMEL-9269/camel/camel-core/src/main/java, /apiarty/data/CAMEL-9269/camel/camel-core/src/test/java]
+23:08:43.059 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/CAMEL-9269/camel/camel-core/target/classes/, file:/apiarty/data/CAMEL-9269/camel/camel-core/target/test-classes/, file:/root/.m2/repository/org/apache/camel/spi-annotations/2.17-SNAPSHOT/spi-annotations-2.17-SNAPSHOT.jar, file:/root/.m2/repository/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/concurrentlinkedhashmap-lru-1.4.2.jar, file:/root/.m2/repository/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar, file:/root/.m2/repository/org/osgi/org.osgi.core/4.3.1/org.osgi.core-4.3.1.jar, file:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/root/.m2/repository/org/slf4j/slf4j-log4j12/1.7.12/slf4j-log4j12-1.7.12.jar, file:/root/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar, file:/root/.m2/repository/org/easymock/easymock/3.2/easymock-3.2.jar, file:/root/.m2/repository/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar, file:/root/.m2/repository/org/objenesis/objenesis/1.3/objenesis-1.3.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.6.3/jackson-databind-2.6.3.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.6.3/jackson-core-2.6.3.jar, file:/root/.m2/repository/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.jar, file:/root/.m2/repository/org/apache/camel/apt/2.17-SNAPSHOT/apt-2.17-SNAPSHOT.jar, file:/root/.m2/repository/org/codehaus/woodstox/woodstox-core-asl/4.4.1/woodstox-core-asl-4.4.1.jar, file:/root/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar, file:/root/.m2/repository/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-core-2.2.11.jar, file:/root/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-impl-2.2.11.jar]
+23:08:43.061 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+23:08:43.063 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.camel.builder.NotifyBuilderFromRouteTest]
+23:08:43.068 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/CAMEL-9269/camel/camel-core/src/main/java, /apiarty/data/CAMEL-9269/camel/camel-core/src/test/java], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[org.apache.camel.builder.NotifyBuilderFromRouteTest], complianceLevel=8, outputFolder=., json=false}
+23:08:43.070 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+23:08:43.089 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+23:08:43.090 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+23:08:43.091 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+23:08:43.092 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+23:08:43.095 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+23:08:43.096 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+23:13:21.417 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+23:13:21.421 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation ch.qos.logback.core.joran.event.SaxEvent:39 which is executed by 1 tests
+23:13:21.423 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation ch.qos.logback.core.joran.event.SaxEvent:39
+23:13:21.424 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+23:13:21.425 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation ch.qos.logback.core.joran.action.AppenderRefAction:80 which is executed by 1 tests
+23:13:21.426 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation ch.qos.logback.core.joran.action.AppenderRefAction:80
+23:13:21.427 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+23:13:21.428 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation ch.qos.logback.core.joran.action.AppenderRefAction:77 which is executed by 1 tests
+23:13:21.429 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation ch.qos.logback.core.joran.action.AppenderRefAction:77
+23:13:21.430 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+23:13:21.433 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation ch.qos.logback.core.joran.action.AppenderRefAction:76 which is executed by 1 tests
+23:13:21.434 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation ch.qos.logback.core.joran.action.AppenderRefAction:76
+23:13:21.435 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+23:13:21.437 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation ch.qos.logback.core.joran.action.AppenderRefAction:74 which is executed by 1 tests
+23:13:21.438 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation ch.qos.logback.core.joran.action.AppenderRefAction:74
+23:13:21.438 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+23:13:21.440 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation ch.qos.logback.core.joran.action.AppenderRefAction:64 which is executed by 1 tests
+23:13:21.440 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation ch.qos.logback.core.joran.action.AppenderRefAction:64
+23:13:21.442 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+23:13:21.443 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation ch.qos.logback.core.joran.action.AppenderRefAction:62 which is executed by 1 tests
+23:13:21.445 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation ch.qos.logback.core.joran.action.AppenderRefAction:62
+23:13:21.446 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+23:13:21.454 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation ch.qos.logback.core.joran.action.AppenderRefAction:60 which is executed by 1 tests
+23:13:21.454 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation ch.qos.logback.core.joran.action.AppenderRefAction:60
+23:13:21.455 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+23:13:21.456 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation ch.qos.logback.core.joran.action.AppenderRefAction:51 which is executed by 1 tests
+23:13:21.457 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation ch.qos.logback.core.joran.action.AppenderRefAction:51
+23:13:21.457 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+23:13:21.458 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation ch.qos.logback.core.joran.action.AppenderRefAction:49 which is executed by 1 tests
+23:13:21.459 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation ch.qos.logback.core.joran.action.AppenderRefAction:49
+23:13:21.460 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+23:13:21.461 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation ch.qos.logback.core.joran.action.AppenderRefAction:47 which is executed by 1 tests
+23:13:21.462 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation ch.qos.logback.core.joran.action.AppenderRefAction:47
+23:13:21.463 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+23:13:21.464 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation ch.qos.logback.core.joran.action.AppenderRefAction:39 which is executed by 1 tests
+23:13:21.464 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation ch.qos.logback.core.joran.action.AppenderRefAction:39
+23:13:21.465 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+23:13:21.466 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation ch.qos.logback.core.joran.action.AppenderRefAction:37 which is executed by 1 tests
+23:13:21.467 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation ch.qos.logback.core.joran.action.AppenderRefAction:37
+23:13:21.468 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+23:13:21.469 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation ch.qos.logback.core.joran.action.AppenderRefAction:33 which is executed by 1 tests
+23:13:21.469 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation ch.qos.logback.core.joran.action.AppenderRefAction:33
+23:13:21.470 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+23:13:21.471 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1678 which is executed by 1 tests
+-1446164498
+23:14:27.340 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+23:14:27.342 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1675 which is executed by 1 tests
+-1446164498
+23:15:27.057 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+23:16:59.370 [pool-2-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): Failed to create route foo: Route(foo)[[From[proxy:seda:foo]] -> [To[mock:foo]]] because of Failed to resolve endpoint: proxy://seda:foo due to: Failed to resolve endpoint: seda://foo due to: Cannot auto create component: seda]
+23:16:59.371 [pool-2-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+23:16:59.372 [pool-2-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1675.
+23:16:59.373 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+23:16:59.375 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1674 which is executed by 1 tests
+-1446164498
+23:18:02.001 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+23:19:32.394 [pool-10-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): Failed to create route foo: Route(foo)[[From[proxy:seda:foo]] -> [To[mock:foo]]] because of Failed to resolve endpoint: proxy://seda:foo due to: Failed to resolve endpoint: seda://foo due to: Cannot auto create component: seda]
+23:19:32.397 [pool-10-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+23:19:32.398 [pool-10-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1674.
+23:19:32.399 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+23:21:13.542 [pool-18-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): Failed to create route foo: Route(foo)[[From[proxy:seda:foo]] -> [To[mock:foo]]] because of Failed to resolve endpoint: proxy://seda:foo due to: Failed to resolve endpoint: seda://foo due to: Cannot auto create component: seda]
+23:21:13.545 [pool-18-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+23:21:13.546 [pool-18-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1674.
+23:21:13.547 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+23:21:13.548 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1673 which is executed by 1 tests
+-1446164498
+23:22:30.236 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+23:24:10.221 [pool-26-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): Failed to create route foo: Route(foo)[[From[proxy:seda:foo]] -> [To[mock:foo]]] because of Failed to resolve endpoint: proxy://seda:foo due to: Failed to resolve endpoint: seda://foo due to: Cannot auto create component: seda]
+23:24:10.224 [pool-26-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+23:24:10.225 [pool-26-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1673.
+23:24:10.226 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #19
+23:24:10.227 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1672 which is executed by 1 tests
+-1446164498
+23:25:12.756 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #20
+23:25:12.757 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1537 which is executed by 1 tests
+-1446164498
+23:26:12.863 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #21
+23:26:12.865 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1074 which is executed by 1 tests
+-1446164498
+23:27:37.063 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #22
+23:27:37.064 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1073 which is executed by 1 tests
+-1446164498
+23:28:48.201 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+23:30:45.048 [pool-34-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+23:30:45.051 [pool-34-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+23:30:45.052 [pool-34-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1073.
+23:30:45.054 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #23
+23:30:45.055 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1068 which is executed by 1 tests
+-1446164498
+23:32:00.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+23:33:44.682 [pool-44-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+23:33:44.686 [pool-44-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+23:33:44.688 [pool-44-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1068.
+23:33:44.689 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+23:35:28.642 [pool-54-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+23:35:28.646 [pool-54-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): Failed to create route foo: Route(foo)[[From[proxy:seda:foo]] -> [To[mock:foo]]] because of Failed to resolve endpoint: proxy://seda:foo due to: Failed to resolve endpoint: seda://foo due to: Cannot auto create component: seda]
+23:35:28.647 [pool-54-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1068.
+23:35:28.648 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #24
+23:35:28.649 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1067 which is executed by 1 tests
+-1446164498
+23:36:54.305 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+23:38:49.997 [pool-62-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+23:38:50.000 [pool-62-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+23:38:50.003 [pool-62-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1067.
+23:38:50.006 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #25
+23:38:50.009 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1054 which is executed by 1 tests
+-1446164498
+23:39:51.435 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #26
+23:39:51.436 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1051 which is executed by 1 tests
+-1446164498
+23:40:41.381 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+23:42:17.755 [pool-72-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+23:42:17.759 [pool-72-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+23:42:17.763 [pool-72-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1051.
+23:42:17.773 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+23:43:49.239 [pool-82-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+23:43:49.241 [pool-82-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): java.lang.InstantiationException: char]
+23:43:49.242 [pool-82-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1051.
+23:43:49.244 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #27
+23:43:49.245 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1049 which is executed by 1 tests
+-1446164498
+23:44:54.297 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+23:46:39.128 [pool-90-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+23:46:39.130 [pool-90-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+23:46:39.132 [pool-90-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1049.
+23:46:39.133 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+23:48:23.076 [pool-100-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+23:48:23.077 [pool-100-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): java.lang.InstantiationException: java.lang.Character]
+23:48:23.078 [pool-100-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1049.
+23:48:23.079 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #28
+23:48:23.080 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1047 which is executed by 1 tests
+-1446164498
+23:49:31.021 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+23:51:36.011 [pool-108-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+23:51:36.014 [pool-108-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+23:51:36.015 [pool-108-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1047.
+23:51:36.016 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+23:53:07.150 [pool-118-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+23:53:07.151 [pool-118-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): java.lang.InstantiationException: double]
+23:53:07.152 [pool-118-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1047.
+23:53:07.156 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #29
+23:53:07.158 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1045 which is executed by 1 tests
+-1446164498
+23:54:14.585 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+23:56:05.210 [pool-126-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+23:56:05.212 [pool-126-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+23:56:05.213 [pool-126-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1045.
+23:56:05.213 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+23:57:49.370 [pool-136-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+23:57:49.371 [pool-136-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): java.lang.InstantiationException: java.lang.Double]
+23:57:49.372 [pool-136-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1045.
+23:57:49.373 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #30
+23:57:49.374 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1043 which is executed by 1 tests
+-1446164498
+23:59:15.497 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+00:00:59.420 [pool-144-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:00:59.423 [pool-144-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:00:59.426 [pool-144-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1043.
+00:00:59.428 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:02:22.288 [pool-154-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:02:22.291 [pool-154-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): java.lang.InstantiationException: float]
+00:02:22.292 [pool-154-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1043.
+00:02:22.293 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #31
+00:02:22.293 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1041 which is executed by 1 tests
+-1446164498
+00:03:33.564 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+00:05:06.406 [pool-162-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:05:06.407 [pool-162-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:05:06.408 [pool-162-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1041.
+00:05:06.409 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:06:36.075 [pool-172-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:06:36.076 [pool-172-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): java.lang.InstantiationException: java.lang.Float]
+00:06:36.078 [pool-172-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1041.
+00:06:36.079 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #32
+00:06:36.080 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1039 which is executed by 1 tests
+-1446164498
+00:07:36.131 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+00:09:36.829 [pool-180-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:09:36.832 [pool-180-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:09:36.834 [pool-180-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1039.
+00:09:36.836 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:11:36.092 [pool-190-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:11:36.093 [pool-190-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): java.lang.InstantiationException: byte]
+00:11:36.094 [pool-190-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1039.
+00:11:36.095 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #33
+00:11:36.096 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1037 which is executed by 1 tests
+-1446164498
+00:12:44.091 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+00:14:29.089 [pool-198-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:14:29.092 [pool-198-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:14:29.094 [pool-198-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1037.
+00:14:29.095 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:16:02.195 [pool-208-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:16:02.197 [pool-208-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): java.lang.InstantiationException: java.lang.Byte]
+00:16:02.197 [pool-208-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1037.
+00:16:02.198 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #34
+00:16:02.199 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1035 which is executed by 1 tests
+-1446164498
+00:17:19.401 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+00:19:24.500 [pool-216-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:19:24.504 [pool-216-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:19:24.506 [pool-216-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1035.
+00:19:24.507 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:20:56.323 [pool-226-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:20:56.325 [pool-226-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): java.lang.InstantiationException: short]
+00:20:56.326 [pool-226-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1035.
+00:20:56.327 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #35
+00:20:56.328 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1033 which is executed by 1 tests
+-1446164498
+00:21:51.711 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+00:24:01.461 [pool-234-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:24:01.467 [pool-234-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:24:01.470 [pool-234-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1033.
+00:24:01.472 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:25:37.487 [pool-244-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:25:37.491 [pool-244-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): java.lang.InstantiationException: java.lang.Short]
+00:25:37.492 [pool-244-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1033.
+00:25:37.493 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #36
+00:25:37.494 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1031 which is executed by 1 tests
+-1446164498
+00:26:51.456 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+00:28:29.001 [pool-252-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:28:29.002 [pool-252-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:28:29.004 [pool-252-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1031.
+00:28:29.005 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:30:12.429 [pool-262-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:30:12.431 [pool-262-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): java.lang.InstantiationException: long]
+00:30:12.432 [pool-262-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1031.
+00:30:12.433 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #37
+00:30:12.434 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1029 which is executed by 1 tests
+-1446164498
+00:31:33.054 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+00:33:34.621 [pool-270-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:33:34.624 [pool-270-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:33:34.625 [pool-270-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1029.
+00:33:34.627 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:35:14.558 [pool-280-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:35:14.560 [pool-280-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): java.lang.InstantiationException: java.lang.Long]
+00:35:14.561 [pool-280-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1029.
+00:35:14.561 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #38
+00:35:14.562 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1027 which is executed by 1 tests
+-1446164498
+00:36:10.309 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+00:37:53.463 [pool-288-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:37:53.465 [pool-288-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:37:53.467 [pool-288-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1027.
+00:37:53.469 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:39:13.794 [pool-298-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:39:13.796 [pool-298-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): java.lang.InstantiationException: int]
+00:39:13.796 [pool-298-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1027.
+00:39:13.797 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #39
+00:39:13.798 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1025 which is executed by 1 tests
+-1446164498
+00:40:09.215 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+00:41:52.910 [pool-306-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:41:52.915 [pool-306-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:41:52.917 [pool-306-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1025.
+00:41:52.920 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:43:32.150 [pool-316-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:43:32.152 [pool-316-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): java.lang.InstantiationException: java.lang.Integer]
+00:43:32.152 [pool-316-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1025.
+00:43:32.153 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #40
+00:43:32.154 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1023 which is executed by 1 tests
+-1446164498
+00:44:35.658 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+00:46:43.870 [pool-324-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:46:43.875 [pool-324-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:46:43.877 [pool-324-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1023.
+00:46:43.878 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:48:18.472 [pool-334-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:48:18.474 [pool-334-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): java.lang.InstantiationException: boolean]
+00:48:18.475 [pool-334-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1023.
+00:48:18.476 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #41
+00:48:18.478 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1021 which is executed by 1 tests
+-1446164498
+00:49:34.010 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+00:51:16.965 [pool-342-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:51:16.968 [pool-342-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:51:16.969 [pool-342-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1021.
+00:51:16.970 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:52:47.301 [pool-352-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:52:47.302 [pool-352-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): java.lang.InstantiationException: java.lang.Boolean]
+00:52:47.303 [pool-352-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1021.
+00:52:47.304 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #42
+00:52:47.306 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1019 which is executed by 1 tests
+-1446164498
+00:54:06.384 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+00:56:03.400 [pool-360-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:56:03.404 [pool-360-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:56:03.405 [pool-360-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1019.
+00:56:03.406 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:57:52.723 [pool-370-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+00:57:52.726 [pool-370-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): Failed to create route foo: Route(foo)[[From[proxy:seda:foo]] -> [To[mock:foo]]] because of Failed to resolve endpoint: proxy://seda:foo due to: Failed to resolve endpoint: seda://foo due to: Cannot auto create component: seda]
+00:57:52.727 [pool-370-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1019.
+00:57:52.728 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #43
+00:57:52.728 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1016 which is executed by 1 tests
+-1446164498
+00:58:54.168 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+01:00:22.401 [pool-378-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+01:00:22.404 [pool-378-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+01:00:22.405 [pool-378-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1016.
+01:00:22.406 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+01:01:49.036 [pool-388-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+01:01:49.037 [pool-388-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): java.lang.InstantiationException: [Ljava.lang.String;]
+01:01:49.038 [pool-388-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1016.
+01:01:49.039 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #44
+01:01:49.040 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1014 which is executed by 1 tests
+-1446164498
+01:02:46.426 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+01:04:27.811 [pool-396-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+01:04:27.814 [pool-396-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+01:04:27.816 [pool-396-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1014.
+01:04:27.817 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+01:06:04.963 [pool-406-thread-1] DEBUG tests.output - Failing tests with false: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): null]
+01:06:04.964 [pool-406-thread-1] DEBUG tests.output - Failing tests with true: 
+[testDoneFromRoute(org.apache.camel.builder.NotifyBuilderFromRouteTest): java.lang.InstantiationException: [Ljava.lang.Object;]
+01:06:04.965 [pool-406-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1014.
+01:06:04.966 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #45
+01:06:04.967 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1012 which is executed by 1 tests
+-1446164498
+01:07:16.939 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder

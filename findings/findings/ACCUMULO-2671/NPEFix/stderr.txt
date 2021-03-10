@@ -1,0 +1,91 @@
+switch (errorcode == null ? SecurityErrorCode.DEFAULT_SECURITY_ERROR : errorcode) {
+    case BAD_CREDENTIALS :
+        return "Username or Password is Invalid";
+    case CONNECTION_ERROR :
+        return "Connection Error Occurred";
+    case PERMISSION_DENIED :
+        return "User does not have permission to perform this action";
+    case USER_DOESNT_EXIST :
+        return "The user does not exist";
+    case USER_EXISTS :
+        return "The user exists";
+    case GRANT_INVALID :
+        return "The GRANT permission cannot be granted or revoked";
+    case BAD_AUTHORIZATIONS :
+        return "The user does not have the specified authorizations assigned";
+    case UNSUPPORTED_OPERATION :
+        return "The configured security handler does not support this operation";
+    case INVALID_TOKEN :
+        return "The configured authenticator does not accept this type of token";
+    case AUTHENTICATOR_FAILED :
+        return "The configured authenticator failed for some reason";
+    case AUTHORIZOR_FAILED :
+        return "The configured authorizor failed for some reason";
+    case PERMISSIONHANDLER_FAILED :
+        return "The configured permission handler failed for some reason";
+    case TOKEN_EXPIRED :
+        return "The supplied token expired, please update and try again";
+    case INSUFFICIENT_PROPERTIES :
+        return "The login properties supplied are not sufficient for authentication. Please check the requested properties and try again";
+    case DEFAULT_SECURITY_ERROR :
+    default :
+        return "Unknown security exception";
+}
+
+Usage: java -jar npefix.jar
+                          (-s|--source) source1:source2:...:sourceN  (-c|--classpath) <classpath> (-t|--test) test1:test2:...:testN  [--complianceLevel <complianceLevel>] [(-i|--iteration) <iteration>] [(-w|--workingdirectory) <workingdirectory>] [--repairStrategy <repairStrategy>]
+
+  (-s|--source) source1:source2:...:sourceN 
+        Define the path to the source code of the project.
+
+  (-c|--classpath) <classpath>
+        Define the classpath of the project.
+
+  (-t|--test) test1:test2:...:testN 
+        Define the tests of the project (both failing and passing),
+        fully-qualified, separated with ':' (even if the classpath contains
+        other tests, only those are considered.
+
+  [--complianceLevel <complianceLevel>]
+        The compliance level of the project. (default: 7)
+
+  [(-i|--iteration) <iteration>]
+        The maximum number of npefix iteration. (default: 100)
+
+  [(-w|--workingdirectory) <workingdirectory>]
+        Define the location where npefix will put its files. (default: .)
+
+  [--repairStrategy <repairStrategy>]
+        Define the repair strategy used by NPEFix. (default:
+        fr.inria.spirals.npefix.main.all.DefaultRepairStrategy)
+
+Exception in thread "main" java.lang.RuntimeException: Other class spoon.support.reflect.code.CtSwitchImpl
+	at fr.inria.spirals.npefix.transformer.processors.TernarySplitter.process(TernarySplitter.java:219)
+	at fr.inria.spirals.npefix.transformer.processors.TernarySplitter.process(TernarySplitter.java:30)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:70)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.visitCtSwitch(CtScanner.java:686)
+	at spoon.support.reflect.code.CtSwitchImpl.accept(CtSwitchImpl.java:33)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:66)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:139)
+	at spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:294)
+	at spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:55)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:66)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:551)
+	at spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:56)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:66)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:139)
+	at spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:330)
+	at spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:56)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:66)
+	at spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)
+	at fr.inria.spirals.npefix.main.all.Launcher.instrument(Launcher.java:105)
+	at fr.inria.spirals.npefix.main.run.Main.run(Main.java:70)
+	at fr.inria.spirals.npefix.main.run.Main.main(Main.java:50)

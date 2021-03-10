@@ -1,0 +1,9 @@
+--- a/src/main/java/de/strullerbaumann/visualee/examiner/Examiner.java
++++ b/src/main/java/de/strullerbaumann/visualee/examiner/Examiner.java
+@@ -258,3 +258,5 @@
+          if (javaSource.getPackagePath() == null && token.equals("package")) {
+-            token = scanner.next();
++            if (scanner.hasNext()) {
++               token = scanner.next();
++            }
+             if (token.endsWith(";")) {

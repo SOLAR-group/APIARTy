@@ -1,0 +1,25 @@
+RMI Selector (Host: 127.0.0.1, Port: 10000): KO
+org.apache.wicket.request.mapper.HomePageMapperTest#testNoSegmentsNoQueryParameters
+<No Strat> Status: Ko
+org.apache.wicket.request.mapper.HomePageMapperTest#testWithQueryParameters
+<No Strat> Status: Ko
+org.apache.wicket.request.mapper.HomePageMapperTest#testNoSegmentsNoQueryParameters
+<No Strat> Status: Ko
+org.apache.wicket.request.mapper.HomePageMapperTest#testWithQueryParameters
+<No Strat> Status: Ko
+org.apache.wicket.request.mapper.HomePageMapperTest#testNoSegmentsNoQueryParameters
+<No Strat> Status: Ko
+org.apache.wicket.request.mapper.HomePageMapperTest#testWithQueryParameters
+<No Strat> Status: Ko
+org.apache.wicket.request.mapper.HomePageMapperTest#testNoSegmentsNoQueryParameters
+<No Strat> Status: Ko
+org.apache.wicket.request.mapper.HomePageMapperTest#testWithQueryParameters
+<No Strat> Status: Ko
+org.apache.wicket.request.mapper.HomePageMapperTest#testNoSegmentsNoQueryParameters
+<No Strat> Status: Ko
+org.apache.wicket.request.mapper.HomePageMapperTest#testWithQueryParameters
+<No Strat> Status: Ko
+org.apache.wicket.request.mapper.HomePageMapperTest#testNoSegmentsNoQueryParameters
+<No Strat> Status: Ko
+org.apache.wicket.request.mapper.HomePageMapperTest#testWithQueryParameters
+<No Strat> Status: Ko

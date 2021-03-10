@@ -1,0 +1,419 @@
+08:58:17.215 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/workspaces/APIARTy/data/Bears-80/spoon/src/main/java, /workspaces/APIARTy/data/Bears-80/spoon/src/test/java]
+08:58:17.229 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/workspaces/APIARTy/data/Bears-80/spoon/target/classes/, file:/workspaces/APIARTy/data/Bears-80/spoon/target/test-classes/, file:/root/.m2/repository/org/eclipse/tycho/org.eclipse.jdt.core/3.12.0.v20160516-2131/org.eclipse.jdt.core-3.12.0.v20160516-2131.jar, file:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/root/.m2/repository/com/github/stefanbirkner/system-rules/1.9.0/system-rules-1.9.0.jar, file:/root/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar, file:/root/.m2/repository/org/mockito/mockito-all/2.0.2-beta/mockito-all-2.0.2-beta.jar, file:/root/.m2/repository/com/martiansoftware/jsap/2.1/jsap-2.1.jar, file:/root/.m2/repository/ant/ant/1.6.5/ant-1.6.5.jar, file:/root/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar, file:/root/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar]
+08:58:17.231 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: CONDITIONAL
+08:58:17.239 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [spoon.test.compilation.CompilationTest]
+08:58:17.261 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=CONDITIONAL, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/workspaces/APIARTy/data/Bears-80/spoon/src/main/java, /workspaces/APIARTy/data/Bears-80/spoon/src/test/java], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[spoon.test.compilation.CompilationTest], complianceLevel=7, outputFolder=., json=false}
+08:58:17.262 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+08:58:17.274 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 28 MB
+08:58:17.276 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 443 MB
+08:58:17.278 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 31 MB
+08:58:17.280 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+08:58:17.284 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+08:58:17.286 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /root/.vscode-server/bin/26076a4de974ead31f97692a0d32f90d735645c0/bin:/apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+08:58:42.754 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+08:58:42.756 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.Priority:146 which is executed by 1 tests
+08:58:42.758 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.Priority:146
+08:58:42.760 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+08:58:42.761 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.OutputType:31 which is executed by 1 tests
+719622140
+08:58:43.862 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+08:58:43.866 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.OutputType:13 which is executed by 1 tests
+719622140
+08:58:44.902 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+08:58:44.904 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:367 which is executed by 1 tests
+-1342606399
+08:58:46.005 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+08:58:46.010 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:366 which is executed by 1 tests
+-1342606399
+08:58:47.262 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+08:58:47.265 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:365 which is executed by 1 tests
+-1342606399
+08:58:48.513 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+08:58:48.514 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:362 which is executed by 1 tests
+-1342606399
+08:58:49.608 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+08:58:49.614 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:361 which is executed by 1 tests
+-1342606399
+08:58:50.711 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+08:58:50.716 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:360 which is executed by 1 tests
+-1342606399
+08:58:51.822 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+08:58:51.825 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:359 which is executed by 1 tests
+-1342606399
+08:58:52.864 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+08:58:52.867 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:358 which is executed by 1 tests
+-1342606399
+08:58:53.983 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+08:58:53.984 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:356 which is executed by 1 tests
+-1342606399
+08:58:55.328 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+08:58:55.331 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:355 which is executed by 1 tests
+-1342606399
+08:58:56.338 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+08:58:56.339 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:354 which is executed by 1 tests
+-1342606399
+08:58:57.295 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+08:58:57.298 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:353 which is executed by 1 tests
+-1342606399
+08:58:58.286 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+08:58:58.289 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:352 which is executed by 1 tests
+-1342606399
+08:58:59.222 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+08:58:59.224 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:349 which is executed by 1 tests
+-1342606399
+08:59:00.192 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+08:59:00.196 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:348 which is executed by 1 tests
+-1342606399
+08:59:01.183 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #19
+08:59:01.184 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:347 which is executed by 1 tests
+-1342606399
+08:59:02.081 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #20
+08:59:02.083 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:346 which is executed by 1 tests
+-1342606399
+08:59:02.974 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #21
+08:59:02.977 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:345 which is executed by 1 tests
+-1342606399
+08:59:03.885 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #22
+08:59:03.887 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:342 which is executed by 1 tests
+-1342606399
+08:59:04.795 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #23
+08:59:04.796 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:341 which is executed by 1 tests
+-1342606399
+08:59:05.778 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #24
+08:59:05.779 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:340 which is executed by 1 tests
+-1342606399
+08:59:06.672 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #25
+08:59:06.673 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:339 which is executed by 1 tests
+-1342606399
+08:59:07.581 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #26
+08:59:07.582 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:336 which is executed by 1 tests
+-1342606399
+08:59:08.808 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #27
+08:59:08.810 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:335 which is executed by 1 tests
+-1342606399
+08:59:09.771 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #28
+08:59:09.772 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:334 which is executed by 1 tests
+-1342606399
+08:59:10.836 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #29
+08:59:10.837 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:333 which is executed by 1 tests
+-1342606399
+08:59:11.722 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #30
+08:59:11.723 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:332 which is executed by 1 tests
+-1342606399
+08:59:12.896 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #31
+08:59:12.897 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:331 which is executed by 1 tests
+-1342606399
+08:59:13.846 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #32
+08:59:13.849 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:330 which is executed by 1 tests
+-1342606399
+08:59:14.868 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #33
+08:59:14.876 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:329 which is executed by 1 tests
+-1342606399
+08:59:15.838 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #34
+08:59:15.841 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:328 which is executed by 1 tests
+-1342606399
+08:59:16.806 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #35
+08:59:16.808 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:325 which is executed by 1 tests
+-1342606399
+08:59:17.748 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #36
+08:59:17.751 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:324 which is executed by 1 tests
+-1342606399
+08:59:18.826 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+>> Hello: Bar <<
+>> Hello: FooEx <<
+>> Hello: IBar <<
+>> Hello: SimpleProcessor <<
+08:59:31.974 [pool-2-thread-1] DEBUG tests.output - Failing tests with false: 
+[testFilterResourcesFile(spoon.test.compilation.CompilationTest): The import spoon.test.trycatch.testclasses.internal cannot be resolved at /workspaces/APIARTy/data/Bears-80/spoon/src/test/java/spoon/test/trycatch/testclasses/Foo.java:3, testURLClassLoader(spoon.test.compilation.CompilationTest): file:/workspaces/APIARTy/data/Bears-80/spoon/target/classes/ does not exist, it is not a valid folder, testNewInstance(spoon.test.compilation.CompilationTest): snippet compilation error while compiling: class Wrapper {
+    static void wrap() throws java.lang.Throwable {
+        class X implements spoon.test.compilation.Ifoo { public int foo() {int i=0; return i;} };
+    }
+}, testNewInstanceFromExistingClass(spoon.test.compilation.CompilationTest): IBar cannot be resolved to a type at /workspaces/APIARTy/data/Bears-80/spoon/src/test/java/spoon/test/compilation/testclasses/Bar.java:3, testCompilationInEmptyDir(spoon.test.compilation.CompilationTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, spoon/test/compilation/CompilationTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testFilterResourcesDir(spoon.test.compilation.CompilationTest): The import spoon.reflect.visitor.filter.NameFilter cannot be resolved at /workspaces/APIARTy/data/Bears-80/spoon/src/test/java/spoon/test/reference/ExecutableReferenceGenericTest.java:19, testURLClassLoaderWithOtherResourcesThanOnlyFiles(spoon.test.compilation.CompilationTest): null]
+08:59:31.975 [pool-2-thread-1] DEBUG tests.output - Failing tests with true: 
+[testFilterResourcesFile(spoon.test.compilation.CompilationTest): The import spoon.test.trycatch.testclasses.internal cannot be resolved at /workspaces/APIARTy/data/Bears-80/spoon/src/test/java/spoon/test/trycatch/testclasses/Foo.java:3, testURLClassLoader(spoon.test.compilation.CompilationTest): file:/workspaces/APIARTy/data/Bears-80/spoon/target/classes/ does not exist, it is not a valid folder, testNewInstance(spoon.test.compilation.CompilationTest): snippet compilation error while compiling: class Wrapper {
+    static void wrap() throws java.lang.Throwable {
+        class X implements spoon.test.compilation.Ifoo { public int foo() {int i=0; return i;} };
+    }
+}, testNewInstanceFromExistingClass(spoon.test.compilation.CompilationTest): IBar cannot be resolved to a type at /workspaces/APIARTy/data/Bears-80/spoon/src/test/java/spoon/test/compilation/testclasses/Bar.java:3, testCompilationInEmptyDir(spoon.test.compilation.CompilationTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, spoon/test/compilation/CompilationTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testFilterResourcesDir(spoon.test.compilation.CompilationTest): The import spoon.reflect.visitor.filter.NameFilter cannot be resolved at /workspaces/APIARTy/data/Bears-80/spoon/src/test/java/spoon/test/reference/ExecutableReferenceGenericTest.java:19, testURLClassLoaderWithOtherResourcesThanOnlyFiles(spoon.test.compilation.CompilationTest): null]
+08:59:31.978 [pool-2-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation spoon.Launcher:324.
+08:59:31.980 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #37
+08:59:31.981 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:323 which is executed by 1 tests
+-1342606399
+08:59:33.061 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #38
+08:59:33.063 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:322 which is executed by 1 tests
+-1342606399
+08:59:34.062 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #39
+08:59:34.065 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:321 which is executed by 1 tests
+-1342606399
+08:59:34.934 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #40
+08:59:34.939 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:320 which is executed by 1 tests
+-1342606399
+08:59:35.815 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #41
+08:59:35.818 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:319 which is executed by 1 tests
+-1342606399
+08:59:36.729 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #42
+08:59:36.732 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:318 which is executed by 1 tests
+-1342606399
+08:59:37.623 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #43
+08:59:37.627 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:315 which is executed by 1 tests
+-1342606399
+08:59:38.545 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #44
+08:59:38.548 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:314 which is executed by 1 tests
+-1342606399
+08:59:39.464 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #45
+08:59:39.471 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:313 which is executed by 1 tests
+-1342606399
+08:59:40.352 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #46
+08:59:40.356 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:312 which is executed by 1 tests
+-1342606399
+08:59:41.307 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #47
+08:59:41.308 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:311 which is executed by 1 tests
+-1342606399
+08:59:42.367 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #48
+08:59:42.370 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:310 which is executed by 1 tests
+-1342606399
+08:59:43.385 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #49
+08:59:43.389 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:307 which is executed by 1 tests
+-1342606399
+08:59:44.481 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #50
+08:59:44.483 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:306 which is executed by 1 tests
+-1342606399
+08:59:45.608 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #51
+08:59:45.611 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:305 which is executed by 1 tests
+-1342606399
+08:59:46.704 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #52
+08:59:46.705 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:304 which is executed by 1 tests
+-1342606399
+08:59:47.697 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #53
+08:59:47.704 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:303 which is executed by 1 tests
+-1342606399
+08:59:48.581 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #54
+08:59:48.584 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:302 which is executed by 1 tests
+-1342606399
+08:59:49.462 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #55
+08:59:49.465 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:299 which is executed by 1 tests
+-1342606399
+08:59:50.352 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #56
+08:59:50.354 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:298 which is executed by 1 tests
+-1342606399
+08:59:51.228 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #57
+08:59:51.229 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:297 which is executed by 1 tests
+-1342606399
+08:59:52.148 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #58
+08:59:52.150 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:296 which is executed by 1 tests
+-1342606399
+08:59:53.036 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #59
+08:59:53.038 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:295 which is executed by 1 tests
+-1342606399
+08:59:53.974 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #60
+08:59:53.975 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:294 which is executed by 1 tests
+-1342606399
+08:59:54.870 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #61
+08:59:54.871 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:293 which is executed by 1 tests
+-1342606399
+08:59:55.733 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #62
+08:59:55.734 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:292 which is executed by 1 tests
+-1342606399
+08:59:56.613 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #63
+08:59:56.614 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:289 which is executed by 1 tests
+-1342606399
+08:59:57.559 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #64
+08:59:57.560 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:288 which is executed by 1 tests
+-1342606399
+08:59:58.456 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #65
+08:59:58.458 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:287 which is executed by 1 tests
+-1342606399
+08:59:59.506 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #66
+08:59:59.507 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:286 which is executed by 1 tests
+-1342606399
+09:00:00.546 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #67
+09:00:00.547 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:285 which is executed by 1 tests
+-1342606399
+09:00:01.462 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #68
+09:00:01.463 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:284 which is executed by 1 tests
+-1342606399
+09:00:02.388 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #69
+09:00:02.389 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:283 which is executed by 1 tests
+-1342606399
+09:00:03.335 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #70
+09:00:03.336 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:282 which is executed by 1 tests
+-1342606399
+09:00:04.232 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #71
+09:00:04.234 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:279 which is executed by 1 tests
+-1342606399
+09:00:05.317 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #72
+09:00:05.318 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:278 which is executed by 1 tests
+-1342606399
+09:00:06.187 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #73
+09:00:06.188 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:277 which is executed by 1 tests
+-1342606399
+09:00:07.056 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #74
+09:00:07.057 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:276 which is executed by 1 tests
+-1342606399
+09:00:07.917 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #75
+09:00:07.919 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:275 which is executed by 1 tests
+-1342606399
+09:00:08.780 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #76
+09:00:08.781 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:274 which is executed by 1 tests
+-1342606399
+09:00:09.666 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #77
+09:00:09.667 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:273 which is executed by 1 tests
+-1342606399
+09:00:10.889 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #78
+09:00:10.894 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:270 which is executed by 1 tests
+-1342606399
+09:00:12.061 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #79
+09:00:12.064 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:269 which is executed by 1 tests
+-1342606399
+09:00:13.213 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #80
+09:00:13.216 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:268 which is executed by 1 tests
+-1342606399
+09:00:14.272 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #81
+09:00:14.274 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:267 which is executed by 1 tests
+-1342606399
+09:00:15.273 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #82
+09:00:15.275 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:266 which is executed by 1 tests
+-1342606399
+09:00:16.325 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #83
+09:00:16.327 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:265 which is executed by 1 tests
+-1342606399
+09:00:17.625 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #84
+09:00:17.627 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:264 which is executed by 1 tests
+-1342606399
+09:00:18.941 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #85
+09:00:18.947 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:261 which is executed by 1 tests
+-1342606399
+09:00:20.266 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #86
+09:00:20.270 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:260 which is executed by 1 tests
+-1342606399
+09:00:21.689 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #87
+09:00:21.690 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:259 which is executed by 1 tests
+-1342606399
+09:00:22.725 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #88
+09:00:22.731 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:258 which is executed by 1 tests
+-1342606399
+09:00:23.790 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #89
+09:00:23.792 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:257 which is executed by 1 tests
+-1342606399
+09:00:24.818 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #90
+09:00:24.819 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:256 which is executed by 1 tests
+-1342606399
+09:00:25.851 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #91
+09:00:25.854 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:255 which is executed by 1 tests
+-1342606399
+09:00:27.149 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #92
+09:00:27.151 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:252 which is executed by 1 tests
+-1342606399
+09:00:28.430 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #93
+09:00:28.432 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:251 which is executed by 1 tests
+-1342606399
+09:00:29.469 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #94
+09:00:29.471 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:250 which is executed by 1 tests
+-1342606399
+09:00:30.738 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #95
+09:00:30.740 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:249 which is executed by 1 tests
+-1342606399
+09:00:32.032 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #96
+09:00:32.038 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:248 which is executed by 1 tests
+-1342606399
+09:00:33.303 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #97
+09:00:33.305 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:247 which is executed by 1 tests
+-1342606399
+09:00:34.571 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #98
+09:00:34.573 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:244 which is executed by 1 tests
+-1342606399
+09:00:35.876 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #99
+09:00:35.878 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:243 which is executed by 1 tests
+-1342606399
+09:00:37.160 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #100
+09:00:37.162 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:242 which is executed by 1 tests
+-1342606399
+09:00:38.453 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #101
+09:00:38.454 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:241 which is executed by 1 tests
+-1342606399
+09:00:39.803 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #102
+09:00:39.805 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:240 which is executed by 1 tests
+-1342606399
+09:00:40.690 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #103
+09:00:40.691 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:237 which is executed by 1 tests
+-1342606399
+09:00:41.586 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #104
+09:00:41.588 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:236 which is executed by 1 tests
+-1342606399
+09:00:42.548 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #105
+09:00:42.550 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:235 which is executed by 1 tests
+-1342606399
+09:00:43.431 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #106
+09:00:43.432 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:234 which is executed by 1 tests
+-1342606399
+09:00:44.314 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #107
+09:00:44.315 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:233 which is executed by 1 tests
+-1342606399
+09:00:45.174 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #108
+09:00:45.175 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:232 which is executed by 1 tests
+-1342606399
+09:00:46.039 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #109
+09:00:46.041 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:229 which is executed by 1 tests
+-1342606399
+09:00:46.905 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #110
+09:00:46.906 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:228 which is executed by 1 tests
+-1342606399
+09:00:47.828 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #111
+09:00:47.832 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:227 which is executed by 1 tests
+-1342606399
+09:00:48.979 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #112
+09:00:48.982 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:226 which is executed by 1 tests
+-1342606399
+09:00:50.089 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #113
+09:00:50.091 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:225 which is executed by 1 tests
+-1342606399
+09:00:51.174 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #114
+09:00:51.175 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:224 which is executed by 1 tests
+-1342606399
+09:00:52.159 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #115
+09:00:52.162 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:221 which is executed by 1 tests
+-1342606399
+09:00:53.076 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #116
+09:00:53.081 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:220 which is executed by 1 tests
+-1342606399
+09:00:54.025 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #117
+09:00:54.028 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:219 which is executed by 1 tests
+-1342606399
+09:00:54.971 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #118
+09:00:54.974 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:218 which is executed by 1 tests
+-1342606399
+09:00:55.886 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #119
+09:00:55.887 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:217 which is executed by 1 tests
+-1342606399
+09:00:56.977 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #120
+09:00:56.979 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:214 which is executed by 1 tests
+-1342606399
+09:00:57.954 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #121
+09:00:57.955 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:213 which is executed by 1 tests
+-1342606399
+09:00:58.937 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #122
+09:00:58.939 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:212 which is executed by 1 tests
+-1342606399
+09:00:59.918 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #123
+09:00:59.921 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:211 which is executed by 1 tests
+-1342606399
+09:01:00.827 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #124
+09:01:00.830 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:210 which is executed by 1 tests
+-1342606399
+09:01:01.725 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #125
+09:01:01.727 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher:207 which is executed by 1 tests
+-1342606399
+09:01:02.600 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #126
+09:01:02.605 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation spoon.Launcher$CLASSPATH_MODE:64 which is executed by 1 tests
+-1342606399
+09:01:03.504 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+09:01:03.740 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 1131
+09:01:03.741 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 5278
+09:01:03.742 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 1
+09:01:03.743 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+09:01:03.744 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 0
+09:01:03.747 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 0
+09:01:03.748 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 0
+09:01:03.749 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 166293ms
+09:01:03.750 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+NO_ANGELIC_VALUE

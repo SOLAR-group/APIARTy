@@ -1,0 +1,8 @@
+Exception in thread "main" java.lang.NullPointerException
+	at com.gzoltar.core.GZoltar.run(GZoltar.java:51)
+	at us.msu.cse.repair.core.faultlocalizer.GZoltarFaultLocalizer.<init>(GZoltarFaultLocalizer.java:42)
+	at us.msu.cse.repair.core.AbstractRepairProblem.invokeFaultLocalizer(AbstractRepairProblem.java:298)
+	at us.msu.cse.repair.core.AbstractRepairProblem.invokeModules(AbstractRepairProblem.java:269)
+	at us.msu.cse.repair.core.AbstractRepairProblem.<init>(AbstractRepairProblem.java:244)
+	at us.msu.cse.repair.ec.problems.GenProgProblem.<init>(GenProgProblem.java:33)
+	at us.msu.cse.repair.GenProgMain.main(GenProgMain.java:38)

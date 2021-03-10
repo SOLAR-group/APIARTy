@@ -1,0 +1,7 @@
+--- a/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java
++++ b/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java
+@@ -198,3 +198,3 @@
+         final double d = sin * other.cos - other.sin * cos;
+-        if (FastMath.abs(d) < 1.0e-10) {
++        if (other.cos == other.angle) {
+             return null;

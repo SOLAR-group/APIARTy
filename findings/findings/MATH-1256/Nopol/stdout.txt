@@ -1,0 +1,23 @@
+14:32:09.773 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/MATH-1256/commons-math/src/main/java, /apiarty/data/MATH-1256/commons-math/src/test/java]
+14:32:09.780 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/MATH-1256/commons-math/target/classes/, file:/apiarty/data/MATH-1256/commons-math/target/test-classes/, file:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar]
+14:32:09.781 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+14:32:09.782 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.commons.math4.geometry.euclidean.oned.IntervalTest]
+14:32:09.785 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/MATH-1256/commons-math/src/main/java, /apiarty/data/MATH-1256/commons-math/src/test/java], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[org.apache.commons.math4.geometry.euclidean.oned.IntervalTest], complianceLevel=8, outputFolder=., json=false}
+14:32:09.786 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+14:32:09.792 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+14:32:09.793 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+14:32:09.794 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+14:32:09.794 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+14:32:09.795 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+14:32:09.797 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+14:33:42.368 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+14:33:44.663 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 1248
+14:33:44.664 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 10148
+14:33:44.666 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 0
+14:33:44.667 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+14:33:44.668 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 0
+14:33:44.670 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 0
+14:33:44.672 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 0
+14:33:44.673 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 92600ms
+14:33:44.674 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+NO_ANGELIC_VALUE

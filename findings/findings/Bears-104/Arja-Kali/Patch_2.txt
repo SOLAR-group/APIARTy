@@ -1,0 +1,6 @@
+RedirectBranch false /workspaces/APIARTy/data/Bears-104/traccar/src/org/traccar/protocol/SuntechProtocolDecoder.java 147 1.0
+if (index < values.length) {
+  position.set(Position.KEY_HOURS,Integer.parseInt(values[index++]));
+}
+**************************************************
+EstimatedTime: 5108

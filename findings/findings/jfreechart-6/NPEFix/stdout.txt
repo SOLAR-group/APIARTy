@@ -1,0 +1,66 @@
+TernarySplitter  in 714ms
+return array2 == null
+return b == null
+return l2 == null
+return e2 == null
+return a2 == null
+return p2 == null
+return p2 == null
+return this.mouseWheelHandler != null
+this.showTitle = title != null
+return getParent() != null
+return p2 == null
+return array2 == null
+return (o == p) || ((o != null) && o.equals(p))
+EntityCollection e = drawTitle(this.title, g2, nonTitleArea, entities != null)
+EntityCollection e = drawTitle(currentTitle, g2, nonTitleArea, entities != null)
+result = result && (t2 == null)
+return array2 == null
+return array2 == null
+return s2 == null
+return s2 == null
+CheckNotNull  in 3289ms
+ForceNullInit in 525ms
+AddImplicitCastChecker --> 0 in 2384ms
+BeforeDeref --> 18103 (failed:0) in 3002ms
+target--> 19218 (failed:0) in 8716ms
+TryRegister # Try: 74 in 808ms
+Assign --> 12913 (failed: 0) in 6668ms
+VarInit --> 5789 in 2356ms
+MethodEncapsulation # Method: 8079 in 22582ms
+ConstructorEncapsulation # Constructor: 907 in 3322ms
+VariableFor in 1786ms
+RMI Selector (Host: 127.0.0.1, Port: 10000): KO
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests#testGetSeriesItemLabelGenerator
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests#testCloning_LegendItemToolTipGenerator
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests#testCloning_LegendItemURLGenerator
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests#testCloning_LegendItemLabelGenerator
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests#testCloning1
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests#testCloning2
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests#testGetSeriesURLGenerator
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests#testFindRangeBounds
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests#test2947660
+<No Strat> Status: Ko
+Multirun 10/100 10%
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests#test2947660
+<No Strat> Status: Ko
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests#test2947660
+<No Strat> Status: Ko
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests#test2947660
+<No Strat> Status: Ko
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests#test2947660
+<No Strat> Status: Ko
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests#test2947660
+<No Strat> Status: Ko
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests#test2947660
+<No Strat> Status: Ko

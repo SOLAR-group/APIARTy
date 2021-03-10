@@ -1,0 +1,28 @@
+1 Replace /apiarty/data/WICKET-5359/wicket/wicket-util/src/main/java/org/apache/wicket/util/lang/Objects.java 535
+Faulty:
+if (c == Long.class) {
+  return LONG;
+}
+Seed:
+String name=null;
+**************************************************
+2 Delete /apiarty/data/WICKET-5359/wicket/wicket-util/src/main/java/org/apache/wicket/util/lang/Objects.java 608
+Faulty:
+if ((object1 != null) && object1.getClass().isArray()) {
+  if ((object2 != null) && object2.getClass().isArray() && (object2.getClass() == object1.getClass())) {
+    result=(Array.getLength(object1) == Array.getLength(object2));
+    if (result) {
+      for (int i=0, icount=Array.getLength(object1); result && (i < icount); i++) {
+        result=isEqual(Array.get(object1,i),Array.get(object2,i));
+      }
+    }
+  }
+}
+ else {
+  result=(object1 != null) && (object2 != null) && ((compareWithConversion(object1,object2) == 0) || object1.equals(object2));
+}
+Seed:
+primitiveDefaults.put(Integer.TYPE,0);
+**************************************************
+Evaluations: 23
+EstimatedTime: 12991

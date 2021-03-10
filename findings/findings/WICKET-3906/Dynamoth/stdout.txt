@@ -1,0 +1,180 @@
+08:46:00.760 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/WICKET-3906/wicket/wicket-request/src/main/java, /apiarty/data/WICKET-3906/wicket/wicket-request/src/test/java]
+08:46:00.769 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/WICKET-3906/wicket/wicket-request/target/classes/, file:/apiarty/data/WICKET-3906/wicket/wicket-request/target/test-classes/, file:/root/.m2/repository/org/apache/wicket/wicket-util/1.5-SNAPSHOT/wicket-util-1.5-SNAPSHOT.jar, file:/root/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar, file:/root/.m2/repository/org/mockito/mockito-all/1.8.5/mockito-all-1.8.5.jar, file:/root/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar, file:/root/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar, file:/root/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar, file:/root/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar, file:/root/.m2/repository/org/slf4j/jcl-over-slf4j/1.6.1/jcl-over-slf4j-1.6.1.jar]
+08:46:00.770 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+08:46:00.771 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.wicket.request.mapper.parameter.PageParametersTest]
+08:46:00.775 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=DYNAMOTH, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/WICKET-3906/wicket/wicket-request/src/main/java, /apiarty/data/WICKET-3906/wicket/wicket-request/src/test/java], projectClasspath='[Ljava.net.URL;@3c5a99da', projectTests=[org.apache.wicket.request.mapper.parameter.PageParametersTest], complianceLevel=7, outputFolder=., json=false}
+08:46:00.776 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+08:46:00.782 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+08:46:00.783 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+08:46:00.784 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+08:46:00.785 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+08:46:00.786 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+08:46:00.787 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+08:46:11.132 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+08:46:11.134 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:487 which is executed by 1 tests
+1574053370
+08:46:12.158 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+08:46:12.159 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:486 which is executed by 1 tests
+1574053370
+08:46:12.494 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:46:14.418 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+08:46:14.419 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:406 which is executed by 1 tests
+1574053370
+08:46:14.954 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:46:16.261 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+08:46:16.262 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:420 which is executed by 2 tests
+1574053370
+08:46:16.727 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+08:46:16.728 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:419 which is executed by 2 tests
+1574053370
+08:46:17.234 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:46:18.103 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+08:46:18.104 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:477 which is executed by 2 tests
+1574053370
+08:46:18.541 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+08:46:18.542 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:475 which is executed by 2 tests
+1574053370
+08:46:18.928 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:46:20.153 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+08:46:20.154 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:473 which is executed by 2 tests
+1574053370
+08:46:20.637 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:46:21.406 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+08:46:22.270 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+08:46:22.271 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:471 which is executed by 2 tests
+1574053370
+08:46:22.674 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:46:23.517 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+08:46:23.518 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:444 which is executed by 2 tests
+1574053370
+08:46:23.935 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:46:24.719 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+08:46:24.720 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:410 which is executed by 2 tests
+1574053370
+08:46:25.014 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+08:46:25.021 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:408 which is executed by 2 tests
+1574053370
+08:46:25.340 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+08:46:25.341 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:404 which is executed by 2 tests
+1574053370
+08:46:25.731 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:46:26.455 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+08:46:27.284 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+08:46:27.285 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:403 which is executed by 2 tests
+1574053370
+08:46:27.608 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+08:46:27.609 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:401 which is executed by 2 tests
+1574053370
+08:46:27.955 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:46:28.731 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+08:46:28.732 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:399 which is executed by 2 tests
+1574053370
+08:46:29.082 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:46:29.661 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+08:46:30.527 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+08:46:30.528 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:397 which is executed by 2 tests
+1574053370
+08:46:30.832 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:46:31.429 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+08:46:31.429 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:389 which is executed by 2 tests
+1574053370
+08:46:31.777 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #19
+08:46:31.778 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:385 which is executed by 2 tests
+1574053370
+08:46:32.360 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:46:32.989 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #20
+08:46:32.990 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:384 which is executed by 2 tests
+1574053370
+08:46:33.312 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:46:34.083 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #21
+08:46:34.084 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:382 which is executed by 2 tests
+1574053370
+08:46:34.401 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:46:35.161 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+08:46:35.894 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #22
+08:46:35.895 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:381 which is executed by 2 tests
+1574053370
+08:46:36.355 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #23
+08:46:36.394 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:379 which is executed by 2 tests
+1574053370
+08:46:36.886 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:46:37.608 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #24
+08:46:37.609 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:377 which is executed by 2 tests
+1574053370
+08:46:37.916 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:46:38.695 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+08:46:39.635 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #25
+08:46:39.636 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:376 which is executed by 2 tests
+1574053370
+08:46:40.264 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #26
+08:46:40.265 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters$Entry:53 which is executed by 10 tests
+1574053370
+08:46:40.733 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #27
+08:46:40.735 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.util.lang.Args:43 which is executed by 3 tests
+08:46:40.736 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.wicket.util.lang.Args:43
+08:46:40.737 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #28
+08:46:40.737 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.util.lang.Args:39 which is executed by 3 tests
+08:46:40.738 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.wicket.util.lang.Args:39
+08:46:40.739 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #29
+08:46:40.740 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:462 which is executed by 3 tests
+1574053370
+08:46:41.224 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #30
+08:46:41.225 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:461 which is executed by 3 tests
+1574053370
+08:46:41.903 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #31
+08:46:41.905 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:455 which is executed by 3 tests
+1574053370
+08:46:42.202 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:46:43.124 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #32
+08:46:43.124 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:453 which is executed by 3 tests
+1574053370
+08:46:43.488 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:46:44.121 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+08:46:44.787 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #33
+08:46:44.788 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:451 which is executed by 3 tests
+1574053370
+08:46:45.384 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:46:46.090 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #34
+08:46:46.091 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:450 which is executed by 3 tests
+1574053370
+08:46:46.473 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:46:47.153 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #35
+08:46:47.154 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:449 which is executed by 3 tests
+1574053370
+08:46:47.414 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #36
+08:46:47.414 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:447 which is executed by 3 tests
+1574053370
+08:46:47.831 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:46:48.466 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #37
+08:46:48.468 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:438 which is executed by 3 tests
+1574053370
+08:46:48.894 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:46:49.886 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+08:46:50.519 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #38
+08:46:50.519 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:437 which is executed by 3 tests
+1574053370
+08:46:50.999 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #39
+08:46:51.000 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:434 which is executed by 3 tests
+1574053370
+08:46:51.442 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:46:52.255 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #40
+08:46:52.256 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:432 which is executed by 3 tests
+1574053370
+08:46:52.803 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:46:53.490 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+08:46:54.155 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #41
+08:46:54.156 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:430 which is executed by 3 tests
+1574053370
+08:46:54.536 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:46:55.255 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #42
+08:46:55.256 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:429 which is executed by 3 tests
+1574053370
+08:46:55.711 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:46:56.605 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+08:46:56.639 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 53
+08:46:56.641 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 277
+08:46:56.642 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 34
+08:46:56.644 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+08:46:56.645 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 55849ms
+08:46:56.645 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+NO_ANGELIC_VALUE

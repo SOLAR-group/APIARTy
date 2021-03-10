@@ -1,0 +1,14 @@
+1 Delete /apiarty/data/ivantrendafilov-confucius-95/Confucius/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java 106
+Faulty:
+parts.add(Byte.parseByte(value.trim()));
+Seed:
+NULL
+**************************************************
+2 InsertBefore /apiarty/data/ivantrendafilov-confucius-95/Confucius/src/main/java/org/trendafilov/confucius/core/Utils.java 38
+Faulty:
+properties.put(key,value);
+Seed:
+properties.put(key,value);
+**************************************************
+Evaluations: 1094
+EstimatedTime: 1185012

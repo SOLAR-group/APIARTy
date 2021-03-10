@@ -1,0 +1,52 @@
+TernarySplitter  in 307ms
+return array2 == null
+return l2 == null
+return e2 == null
+return a2 == null
+return p2 == null
+return p2 == null
+this.showTitle = title != null
+return getParent() != null
+return p2 == null
+return array2 == null
+return (o == p) || ((o != null) && o.equals(p))
+EntityCollection e = drawTitle(this.title, g2, nonTitleArea, entities != null)
+EntityCollection e = drawTitle(currentTitle, g2, nonTitleArea, entities != null)
+result = result && (t2 == null)
+return array2 == null
+return array2 == null
+return s2 == null
+return s2 == null
+CheckNotNull  in 1400ms
+ForceNullInit in 405ms
+AddImplicitCastChecker --> 0 in 2582ms
+BeforeDeref --> 15698 (failed:0) in 2369ms
+target--> 16667 (failed:0) in 4032ms
+TryRegister # Try: 71 in 610ms
+Assign --> 10954 (failed: 0) in 5914ms
+VarInit --> 5054 in 1296ms
+MethodEncapsulation # Method: 6943 in 28514ms
+ConstructorEncapsulation # Constructor: 814 in 2183ms
+VariableFor in 1548ms
+RMI Selector (Host: 127.0.0.1, Port: 10000): KO
+org.jfree.chart.util.junit.ShapeUtilitiesTests#testEqualLine2Ds
+<No Strat> Status: Ok
+org.jfree.chart.util.junit.ShapeUtilitiesTests#testEqualGeneralPaths
+<No Strat> Status: Ko
+org.jfree.chart.util.junit.ShapeUtilitiesTests#testEqualShapes
+<No Strat> Status: Ok
+org.jfree.chart.util.junit.ShapeUtilitiesTests#testIntersects
+<No Strat> Status: Ok
+Multirun 4/100 4%
+org.jfree.chart.util.junit.ShapeUtilitiesTests#testEqualGeneralPaths
+<No Strat> Status: Ko
+org.jfree.chart.util.junit.ShapeUtilitiesTests#testEqualGeneralPaths
+<No Strat> Status: Ko
+org.jfree.chart.util.junit.ShapeUtilitiesTests#testEqualGeneralPaths
+<No Strat> Status: Ko
+org.jfree.chart.util.junit.ShapeUtilitiesTests#testEqualGeneralPaths
+<No Strat> Status: Ko
+org.jfree.chart.util.junit.ShapeUtilitiesTests#testEqualGeneralPaths
+<No Strat> Status: Ko
+org.jfree.chart.util.junit.ShapeUtilitiesTests#testEqualGeneralPaths
+<No Strat> Status: Ko

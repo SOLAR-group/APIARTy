@@ -1,0 +1,8 @@
+1 Delete /workspaces/APIARTy/data/Bears-104/traccar/src/org/traccar/protocol/SuntechProtocolDecoder.java 141
+Faulty:
+index+=1;
+Seed:
+NULL
+**************************************************
+Evaluations: 1338
+EstimatedTime: 2343789

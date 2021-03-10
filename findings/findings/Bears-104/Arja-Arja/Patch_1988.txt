@@ -1,0 +1,8 @@
+1 Delete /workspaces/APIARTy/data/Bears-104/traccar/src/org/traccar/protocol/SuntechProtocolDecoder.java 137
+Faulty:
+position.set(Position.KEY_POWER,Double.parseDouble(values[index++]));
+Seed:
+NULL
+**************************************************
+Evaluations: 1321
+EstimatedTime: 2307971

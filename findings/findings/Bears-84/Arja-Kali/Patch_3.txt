@@ -1,0 +1,6 @@
+RedirectBranch true /apiarty/data/Bears-84/spring-data-commons/src/main/java/org/springframework/data/auditing/IsNewAwareAuditingHandler.java 76 0.5
+if (object == null) {
+  return;
+}
+**************************************************
+EstimatedTime: 3604

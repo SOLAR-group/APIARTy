@@ -1,0 +1,167 @@
+22:40:56.772 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/jriecken-gae-java-mini-profiler-39/gae-java-mini-profiler/src/main/java, /apiarty/data/jriecken-gae-java-mini-profiler-39/gae-java-mini-profiler/src/test/java]
+22:40:56.809 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/jriecken-gae-java-mini-profiler-39/gae-java-mini-profiler/target/classes/, file:/apiarty/data/jriecken-gae-java-mini-profiler-39/gae-java-mini-profiler/target/test-classes/, file:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/root/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar, file:/root/.m2/repository/com/google/appengine/appengine-api-1.0-sdk/1.8.0/appengine-api-1.0-sdk-1.8.0.jar, file:/root/.m2/repository/com/google/appengine/appengine-api-labs/1.8.0/appengine-api-labs-1.8.0.jar, file:/root/.m2/repository/com/google/appengine/appengine-testing/1.8.0/appengine-testing-1.8.0.jar, file:/root/.m2/repository/com/google/appengine/appengine-api-stubs/1.8.0/appengine-api-stubs-1.8.0.jar, file:/root/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.8.5/jackson-core-asl-1.8.5.jar, file:/root/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.8.5/jackson-mapper-asl-1.8.5.jar]
+22:40:56.810 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+22:40:56.813 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [com.google.appengine.tools.appstats.MiniProfilerAppstatsTest]
+22:40:56.826 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/jriecken-gae-java-mini-profiler-39/gae-java-mini-profiler/src/main/java, /apiarty/data/jriecken-gae-java-mini-profiler-39/gae-java-mini-profiler/src/test/java], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[com.google.appengine.tools.appstats.MiniProfilerAppstatsTest], complianceLevel=8, outputFolder=., json=false}
+22:40:56.836 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+22:40:56.894 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+22:40:56.901 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+22:40:56.903 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+22:40:56.906 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+22:40:56.919 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+22:40:56.921 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+22:41:16.635 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+22:41:16.638 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.api.memcache.MemcacheServiceFactory:69 which is executed by 1 tests
+22:41:16.639 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.api.memcache.MemcacheServiceFactory:69
+22:41:16.639 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+22:41:16.640 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.api.memcache.MemcacheServiceFactory:46 which is executed by 1 tests
+22:41:16.641 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.api.memcache.MemcacheServiceFactory:46
+22:41:16.642 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+22:41:16.642 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.spi.FactoryProvider:13 which is executed by 1 tests
+22:41:16.644 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.spi.FactoryProvider:13
+22:41:16.644 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+22:41:16.645 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.spi.FactoryProvider:57 which is executed by 1 tests
+22:41:16.645 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.spi.FactoryProvider:57
+22:41:16.646 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+22:41:16.647 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.spi.FactoryProvider:56 which is executed by 1 tests
+22:41:16.647 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.spi.FactoryProvider:56
+22:41:16.648 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+22:41:16.648 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.spi.FactoryProvider:47 which is executed by 1 tests
+22:41:16.649 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.spi.FactoryProvider:47
+22:41:16.650 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+22:41:16.650 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.spi.FactoryProvider:42 which is executed by 1 tests
+22:41:16.651 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.spi.FactoryProvider:42
+22:41:16.651 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+22:41:16.652 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.spi.FactoryProvider:40 which is executed by 1 tests
+22:41:16.653 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.spi.FactoryProvider:40
+22:41:16.653 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+22:41:16.654 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.spi.FactoryProvider:31 which is executed by 1 tests
+22:41:16.654 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.spi.FactoryProvider:31
+22:41:16.655 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+22:41:16.656 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.spi.FactoryProvider:30 which is executed by 1 tests
+22:41:16.656 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.spi.FactoryProvider:30
+22:41:16.657 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+22:41:16.658 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.spi.FactoryProvider:21 which is executed by 1 tests
+22:41:16.660 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.spi.FactoryProvider:21
+22:41:16.662 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+22:41:16.663 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.spi.ServiceFactoryFactory:39 which is executed by 2 tests
+22:41:16.664 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.spi.ServiceFactoryFactory:39
+22:41:16.664 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+22:41:16.665 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.spi.ServiceFactoryFactory:124 which is executed by 1 tests
+22:41:16.666 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.spi.ServiceFactoryFactory:124
+22:41:16.666 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+22:41:16.667 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.spi.ServiceFactoryFactory:69 which is executed by 1 tests
+22:41:16.667 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.spi.ServiceFactoryFactory:69
+22:41:16.668 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+22:41:16.668 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.spi.ServiceFactoryFactory:63 which is executed by 1 tests
+22:41:16.669 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.spi.ServiceFactoryFactory:63
+22:41:16.670 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+22:41:16.670 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.spi.ServiceFactoryFactory:61 which is executed by 1 tests
+22:41:16.671 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.spi.ServiceFactoryFactory:61
+22:41:16.672 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+22:41:16.673 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.api.memcache.IMemcacheServiceFactoryProvider:13 which is executed by 1 tests
+22:41:16.673 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.api.memcache.IMemcacheServiceFactoryProvider:13
+22:41:16.674 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+22:41:16.675 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.api.memcache.IMemcacheServiceFactoryProvider:25 which is executed by 1 tests
+22:41:16.675 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.api.memcache.IMemcacheServiceFactoryProvider:25
+22:41:16.676 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #19
+22:41:16.676 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.spi.ServiceFactoryFactory$1:124 which is executed by 1 tests
+22:41:16.677 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.spi.ServiceFactoryFactory$1:124
+22:41:16.677 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #20
+22:41:16.678 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.spi.ServiceFactoryFactory$1:141 which is executed by 1 tests
+22:41:16.683 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.spi.ServiceFactoryFactory$1:141
+22:41:16.683 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #21
+22:41:16.684 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.spi.ServiceFactoryFactory$1:138 which is executed by 1 tests
+22:41:16.684 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.spi.ServiceFactoryFactory$1:138
+22:41:16.685 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #22
+22:41:16.686 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.spi.ServiceFactoryFactory$1:137 which is executed by 1 tests
+22:41:16.687 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.spi.ServiceFactoryFactory$1:137
+22:41:16.687 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #23
+22:41:16.688 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.spi.ServiceFactoryFactory$1:136 which is executed by 1 tests
+22:41:16.689 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.spi.ServiceFactoryFactory$1:136
+22:41:16.689 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #24
+22:41:16.690 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.spi.ServiceFactoryFactory$1:135 which is executed by 1 tests
+22:41:16.690 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.spi.ServiceFactoryFactory$1:135
+22:41:16.691 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #25
+22:41:16.692 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.spi.ServiceFactoryFactory$1:132 which is executed by 1 tests
+22:41:16.692 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.spi.ServiceFactoryFactory$1:132
+22:41:16.693 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #26
+22:41:16.694 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.spi.ServiceFactoryFactory$1:129 which is executed by 1 tests
+22:41:16.694 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.spi.ServiceFactoryFactory$1:129
+22:41:16.695 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #27
+22:41:16.697 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.spi.ServiceFactoryFactory$1:127 which is executed by 1 tests
+22:41:16.698 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.spi.ServiceFactoryFactory$1:127
+22:41:16.698 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #28
+22:41:16.699 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.api.memcache.MemcacheServiceFactoryImpl:12 which is executed by 1 tests
+22:41:16.699 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.api.memcache.MemcacheServiceFactoryImpl:12
+22:41:16.700 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #29
+22:41:16.700 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.spi.FactoryProviderRegistry:51 which is executed by 1 tests
+22:41:16.701 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.spi.FactoryProviderRegistry:51
+22:41:16.701 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #30
+22:41:16.702 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.spi.FactoryProviderRegistry:44 which is executed by 1 tests
+22:41:16.702 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.spi.FactoryProviderRegistry:44
+22:41:16.703 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #31
+22:41:16.703 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.spi.FactoryProviderRegistry:43 which is executed by 1 tests
+22:41:16.704 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.spi.FactoryProviderRegistry:43
+22:41:16.705 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #32
+22:41:16.705 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.spi.FactoryProviderRegistry:31 which is executed by 1 tests
+22:41:16.706 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.spi.FactoryProviderRegistry:31
+22:41:16.706 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #33
+22:41:16.707 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.api.memcache.ErrorHandlers:51 which is executed by 1 tests
+22:41:16.707 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.api.memcache.ErrorHandlers:51
+22:41:16.708 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #34
+22:41:16.708 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.repackaged.com.google.common.base.Joiner:328 which is executed by 1 tests
+22:41:16.710 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.repackaged.com.google.common.base.Joiner:328
+22:41:16.711 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #35
+22:41:16.711 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.repackaged.com.google.common.base.Joiner:266 which is executed by 1 tests
+22:41:16.712 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.repackaged.com.google.common.base.Joiner:266
+22:41:16.712 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #36
+22:41:16.713 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.repackaged.com.google.common.base.Joiner:265 which is executed by 1 tests
+22:41:16.713 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.repackaged.com.google.common.base.Joiner:265
+22:41:16.714 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #37
+22:41:16.714 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.repackaged.com.google.common.base.Joiner:71 which is executed by 1 tests
+22:41:16.715 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.repackaged.com.google.common.base.Joiner:71
+22:41:16.715 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #38
+22:41:16.716 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.repackaged.com.google.common.base.Preconditions:195 which is executed by 1 tests
+22:41:16.720 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.repackaged.com.google.common.base.Preconditions:195
+22:41:16.720 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #39
+22:41:16.721 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.repackaged.com.google.common.base.Preconditions:192 which is executed by 1 tests
+22:41:16.722 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.repackaged.com.google.common.base.Preconditions:192
+22:41:16.722 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #40
+22:41:16.723 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.repackaged.com.google.common.base.Preconditions:153 which is executed by 1 tests
+22:41:16.723 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.repackaged.com.google.common.base.Preconditions:153
+22:41:16.724 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #41
+22:41:16.724 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.repackaged.com.google.common.base.Preconditions:150 which is executed by 1 tests
+22:41:16.725 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.repackaged.com.google.common.base.Preconditions:150
+22:41:16.725 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #42
+22:41:16.726 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.api.NamespaceManager:125 which is executed by 1 tests
+22:41:16.726 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.api.NamespaceManager:125
+22:41:16.727 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #43
+22:41:16.727 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.api.NamespaceManager:121 which is executed by 1 tests
+22:41:16.728 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.api.NamespaceManager:121
+22:41:16.728 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #44
+22:41:16.729 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.repackaged.com.google.common.collect.Maps:177 which is executed by 1 tests
+22:41:16.730 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.repackaged.com.google.common.collect.Maps:177
+22:41:16.730 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #45
+22:41:16.731 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.tools.appstats.MiniProfilerAppstats:52 which is executed by 1 tests
+-1242587969
+22:41:19.256 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #46
+22:41:19.259 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.tools.appstats.MiniProfilerAppstats:51 which is executed by 1 tests
+-1242587969
+22:41:19.948 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #47
+22:41:19.958 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.tools.appstats.MiniProfilerAppstats:50 which is executed by 1 tests
+-1242587969
+22:41:20.677 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #48
+22:41:20.679 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.appengine.repackaged.com.google.common.base.Objects:75 which is executed by 1 tests
+22:41:20.683 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation com.google.appengine.repackaged.com.google.common.base.Objects:75
+22:41:20.685 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+22:41:20.864 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 8
+22:41:20.872 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 30
+22:41:20.881 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 0
+22:41:20.886 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+22:41:20.888 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 0
+22:41:20.897 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 0
+22:41:20.900 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 0
+22:41:20.901 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 23921ms
+22:41:20.904 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+NO_ANGELIC_VALUE

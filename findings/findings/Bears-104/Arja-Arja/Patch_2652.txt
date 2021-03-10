@@ -1,0 +1,14 @@
+1 Delete /workspaces/APIARTy/data/Bears-104/traccar/src/org/traccar/protocol/SuntechProtocolDecoder.java 136
+Faulty:
+position.set(Position.KEY_ODOMETER,Integer.parseInt(values[index++]));
+Seed:
+NULL
+**************************************************
+2 Delete /workspaces/APIARTy/data/Bears-104/traccar/src/org/traccar/protocol/SuntechProtocolDecoder.java 144
+Faulty:
+position.set(Position.KEY_INDEX,Integer.parseInt(values[index++]));
+Seed:
+NULL
+**************************************************
+Evaluations: 1751
+EstimatedTime: 3084510

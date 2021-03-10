@@ -1,0 +1,272 @@
+TernarySplitter  in 582ms
+return (((("No type converter available to convert from type: " + (value != null ? value.getClass().getCanonicalName() : null)) + " to the required type: ") + type.getCanonicalName()) + " with value ") + value
+return (((((("Converting Exception when converting from type: " + (value != null ? value.getClass().getCanonicalName() : null)) + " to the required type: ") + type.getCanonicalName()) + " with value ") + value) + ", which is caused by ") + cause
+throw ObjectHelper.wrapRuntimeCamelException(new MethodNotFoundException(bean != null ? bean : type, method, cause))
+return (("bean{" + beanName()) + (method != null ? ", method=" + method : "")) + "}"
+return (defaultProfile != null) && defaultProfile
+return ((tryProcessor != null) || ((catchClauses != null) && (!catchClauses.isEmpty()))) || (finallyProcessor != null)
+return ((tryProcessor != null) || ((catchClauses != null) && (!catchClauses.isEmpty()))) || (finallyProcessor != null)
+return ((tryProcessor != null) || ((catchClauses != null) && (!catchClauses.isEmpty()))) || (finallyProcessor != null)
+return output != null
+boolean isDeadLetterChannel = isDeadLetterChannel() && ((target == null) || (target == data.deadLetterProcessor))
+return exchange.getException() != null
+answer = ((exchange.getException() == null) || ExchangeHelper.isFailureHandled(exchange)) || ExchangeHelper.isRedeliveryExhausted(exchange)
+data.useOriginalInMessage = (exceptionPolicy.getUseOriginalMessagePolicy() != null) && exceptionPolicy.getUseOriginalMessagePolicy()
+boolean alreadySet = exchange.getProperty(Exchange.ERRORHANDLER_HANDLED) != null
+logExhausted = (data.currentRedeliveryPolicy.getLogExhaustedMessageHistory() != null) && data.currentRedeliveryPolicy.isLogExhaustedMessageHistory()
+logExhausted = (data.currentRedeliveryPolicy.getLogExhaustedMessageHistory() == null) || data.currentRedeliveryPolicy.isLogExhaustedMessageHistory()
+String routeStackTrace = MessageHelper.dumpMessageHistoryStacktrace(exchange, exchangeFormatter, (e != null) && logStackTrace)
+this.parallelProcessing = parallelProcessing || (executorService != null)
+boolean exhaust = forceExhaust || ((subExchange != null) && ((subExchange.getException() != null) || ExchangeHelper.isRedeliveryExhausted(subExchange)))
+boolean exhaust = forceExhaust || ((subExchange != null) && ((subExchange.getException() != null) || ExchangeHelper.isRedeliveryExhausted(subExchange)))
+boolean child = exchange.getProperty(Exchange.PARENT_UNIT_OF_WORK, UnitOfWork.class) != null
+return (processors != null) && (!processors.isEmpty())
+return (customId != null) && customId
+return (value instanceof Collection) || ((value != null) && value.getClass().isArray())
+return (answer != null) && answer
+return (this == o) || (((o != null) && (getClass() == o.getClass())) && route.equals(((ManagedRoute) (o)).route))
+return nextProcessor != null
+return matchesReturningFailureMessage(exchange) == null
+Boolean includeHostName = (camelContext != null) && camelContext.getManagementStrategy().getManagementAgent().getIncludeHostName()
+return (hostName + "/") + (name != null ? name : DefaultManagementNamingStrategy.VALUE_UNKNOWN)
+Boolean sanitize = (camelContext != null) && camelContext.getManagementStrategy().getManagementAgent().getMask()
+return (childServices != null) && childServices.remove(childService)
+return (answer != null) && answer
+return (answer != null) && answer
+return (autoStartup != null) && autoStartup
+return (lazyLoadTypeConverters != null) && lazyLoadTypeConverters
+return (typeConverterStatisticsEnabled != null) && typeConverterStatisticsEnabled
+return (useMDCLogging != null) && useMDCLogging
+return (useBreadcrumb != null) && useBreadcrumb
+return (allowUseOriginalMessage != null) && allowUseOriginalMessage
+return ((("Instrumentation" + (type != null ? ":" + type : "")) + "[") + processor) + "]"
+InstrumentationProcessor.LOG.trace("{}Recording duration: {} millis for exchange: {}", new Object[]{ type != null ? type + ": " : "", duration, exchange })
+boolean isValidation = (getValidation() == null) || getValidation()
+return (useSaxon != null) && useSaxon
+return redelivery.getDeadLetter() != null
+String name = getName(customManagedBean != null ? customManagedBean : defaultManagedBean, objectName)
+String description = getDescription(customManagedBean != null ? customManagedBean : defaultManagedBean, objectName)
+super((("No bean could be found in the registry" + (name != null ? " for: " + name : "")) + " of type: ") + type)
+return buffer == null
+boolean isTrim = (getTrim() == null) || getTrim()
+boolean isTrim = (getTrim() == null) || getTrim()
+resolvers.add(new Activator.BundleTypeConverterLoader(bundle, url2 != null))
+assertTrue("No exchange received for counter: " + i, exchange != null)
+actualValue = ((Expression) (actualValue)).evaluate(exchange, expectedValue != null ? expectedValue.getClass() : Object.class)
+assertTrue((("There is no type conversion possible from " + from) + " to ") + to, actualValue != null)
+assertTrue("No exchange received for counter: " + 0, exchange != null)
+assertTrue("No exchange received for counter: " + i, exchange != null)
+return (executorService != null) || afterConsumer
+boolean transacted = (type != null) && type.isAssignableFrom(TransactedPolicy.class)
+this(type, index, type.getValue() != null ? type.getValue().length() : 0)
+return ((("sort[" + getExpression()) + " by: ") + (comparatorRef != null ? "ref:" + comparatorRef : comparator)) + "]"
+return (header != null) && header.toLowerCase(Locale.ENGLISH).contains("gzip")
+return expression + (nested != null ? ";" + nested.toString() : "")
+return (futures != null) && (futures.size() > 0)
+return (parameterTypes != null) && ((parameterTypes.length == 1) || ((parameterTypes.length == 2) && Exchange.class.isAssignableFrom(parameterTypes[1])))
+return (parameterTypes != null) && ((parameterTypes.length == 3) || (((parameterTypes.length == 4) && Exchange.class.isAssignableFrom(parameterTypes[1])) && TypeConverterRegistry.class.isAssignableFrom(parameterTypes[parameterTypes.length - 1])))
+int b = (((text != null ? 0x1 : 0x0) + (encoding != null ? 0x2 : 0x0)) + (getPublicId() != null ? 0x4 : 0x0)) + (getSystemId() != null ? 0x8 : 0x0)
+int b = (((text != null ? 0x1 : 0x0) + (encoding != null ? 0x2 : 0x0)) + (getPublicId() != null ? 0x4 : 0x0)) + (getSystemId() != null ? 0x8 : 0x0)
+int b = (((text != null ? 0x1 : 0x0) + (encoding != null ? 0x2 : 0x0)) + (getPublicId() != null ? 0x4 : 0x0)) + (getSystemId() != null ? 0x8 : 0x0)
+int b = (((text != null ? 0x1 : 0x0) + (encoding != null ? 0x2 : 0x0)) + (getPublicId() != null ? 0x4 : 0x0)) + (getSystemId() != null ? 0x8 : 0x0)
+return (((((("Error during type conversion from type: " + (value != null ? value.getClass().getCanonicalName() : null)) + " to the required type: ") + type.getCanonicalName()) + " with value ") + value) + " due ") + cause.getMessage()
+hasCustomAnnotation |= expression != null
+boolean noParameters = (name != null) && name.endsWith("()")
+return getOperations(methodName) != null
+return num != null
+boolean enabled = (context.getManagementStrategy().getManagementAgent() != null) && (context.getManagementStrategy().getManagementAgent().getStatisticsLevel() != ManagementStatisticsLevel.Off)
+return producer != null
+isXml = (consumes != null) && consumes.toLowerCase(Locale.ENGLISH).contains("xml")
+isJson = (consumes != null) && consumes.toLowerCase(Locale.ENGLISH).contains("json")
+isXml = (produces != null) && produces.toLowerCase(Locale.ENGLISH).contains("xml")
+isJson = (produces != null) && produces.toLowerCase(Locale.ENGLISH).contains("json")
+return image != null
+boolean isCopy = (getCopy() != null) && getCopy()
+return (isAutoStartup != null) && isAutoStartup
+return ((routeScoped != null) && (contextScoped != null)) && (routeScoped == contextScoped)
+return ((routeScoped != null) && (contextScoped != null)) && (routeScoped == contextScoped)
+return ("intercept[" + (interceptedTarget != null ? interceptedTarget : output)) + "]"
+return whenClauses.size() + (otherwise == null ? 0 : 1)
+return (("Choice[" + getWhenClauses()) + (getOtherwise() != null ? " " + getOtherwise() : "")) + "]"
+return sent != null
+sb.append(prefix).append("  <routeId>").append(routeId != null ? routeId : "").append("</routeId>\n")
+boolean parallel = (getParallelProcessing() != null) && getParallelProcessing()
+return locations == null
+boolean only = (getManagementAgent().getOnlyRegisterProcessorWithCustomId() != null) && getManagementAgent().getOnlyRegisterProcessorWithCustomId()
+boolean load = (getManagementAgent().getLoadStatisticsEnabled() != null) && getManagementAgent().getLoadStatisticsEnabled()
+return (pattern != null) && pattern.isOutCapable()
+return exchange.getException(InterruptedException.class) != null
+boolean notOut = (pattern != null) && (!pattern.isOutCapable())
+return msg.isFault() && (msg.getBody() != null)
+boolean isCopy = (getCopy() == null) || getCopy()
+boolean eager = (getEager() == null) || getEager()
+boolean duplicate = (getSkipDuplicate() == null) || getSkipDuplicate()
+boolean remove = (getRemoveOnFailure() == null) || getRemoveOnFailure()
+boolean completionEager = (getCompletionEager() != null) && getCompletionEager()
+return answer == null
+extended = isExtended || ((isEnabled != null) && isEnabled)
+boolean sanitize = (camelContext.getManagementStrategy().getManagementAgent().getMask() != null) && camelContext.getManagementStrategy().getManagementAgent().getMask()
+assert (name != null) && (name.length() > 0)
+assert segment != null
+routeScoped = super.getParent() != null
+boolean isOnCompleteOnly = (getOnCompleteOnly() != null) && getOnCompleteOnly()
+boolean isOnFailureOnly = (getOnFailureOnly() != null) && getOnFailureOnly()
+boolean isParallelProcessing = (getParallelProcessing() != null) && getParallelProcessing()
+boolean original = (getUseOriginalMessagePolicy() != null) && getUseOriginalMessagePolicy()
+boolean afterConsumer = (mode == null) || (mode == OnCompletionMode.AfterConsumer)
+boolean isOnFailureOnly = (getOnFailureOnly() != null) && getOnFailureOnly()
+boolean isOnCompleteOnly = (getOnCompleteOnly() != null) && getOnCompleteOnly()
+return bean != null
+return ("bean:" + getBeanName()) + (method != null ? "?method=" + method : "")
+return processor != null
+return image != null
+return headerName != null
+return ((uri == null) || (pattern == null)) || EndpointHelper.matchEndpoint(endpoint.getCamelContext(), uri, pattern)
+return ((uri == null) || (pattern == null)) || EndpointHelper.matchEndpoint(endpoint.getCamelContext(), uri, pattern)
+return ("resequencer[" + (getExpression() != null ? getExpression().getLabel() : "")) + "]"
+boolean isReverse = (config.getReverse() != null) && config.getReverse()
+boolean isAllowDuplicates = (config.getAllowDuplicates() != null) && config.getAllowDuplicates()
+boolean isParallelProcessing = (getParallelProcessing() != null) && getParallelProcessing()
+boolean isStreaming = (getStreaming() != null) && getStreaming()
+boolean isParallelAggregate = (getParallelAggregate() != null) && getParallelAggregate()
+boolean isShareUnitOfWork = (getShareUnitOfWork() != null) && getShareUnitOfWork()
+boolean isStopOnException = (getStopOnException() != null) && getStopOnException()
+boolean isIgnoreInvalidEndpoints = (getIgnoreInvalidEndpoints() != null) && getIgnoreInvalidEndpoints()
+return (parameter != null) && parameter.trim().startsWith("#")
+return (current != null) && current.hasNext()
+boolean skip = (getSkipSendToOriginalEndpoint() != null) && getSkipSendToOriginalEndpoint()
+return ((("DeadLetterChannel[" + output) + ", ") + (deadLetterUri != null ? deadLetterUri : deadLetter)) + "]"
+return (type != null) && ObjectHelper.hasAnnotation(type, annotation, checkMetaAnnotations)
+return (defaultProfile != null) && defaultProfile
+return ("PublishEventNotifier[" + (endpoint != null ? endpoint : URISupport.sanitizeUri(endpointUri))) + "]"
+ConfigurationHelper.LOG.trace("Lookup for Component handling \"{}:\" configuration returned {}", new Object[]{ scheme, component != null ? component.getClass().getName() : "<null>" })
+boolean isIgnoreInvalidEndpoint = (getIgnoreInvalidEndpoint() != null) && getIgnoreInvalidEndpoint()
+boolean isSecureTagContents = (getSecureTagContents() != null) && getSecureTagContents()
+boolean isAddKeyValueForEncryptedKey = (getAddKeyValueForEncryptedKey() == null) || getAddKeyValueForEncryptedKey()
+return tracer.isEnabled() && ((tracer.getTraceFilter() == null) || tracer.getTraceFilter().matches(exchange))
+return processor != null
+logger.log((("ControlBus task done [" + task) + "] with result -> ") + (result != null ? result : "void"))
+logger.log((("ControlBus task done [" + task) + "] with result -> ") + (result != null ? result : "void"))
+boolean isTrim = (getTrim() == null) || getTrim()
+return String.format("Exchange[%s][%s]", exchangeId == null ? "" : exchangeId, out == null ? in : out)
+return String.format("Exchange[%s][%s]", exchangeId == null ? "" : exchangeId, out == null ? in : out)
+return (properties != null) && (!properties.isEmpty())
+return out != null
+return (onCompletions != null) && onCompletions.contains(onCompletion)
+boolean isNoop = params.get("noop") != null
+boolean isDelete = params.get("delete") != null
+boolean isMove = ((moveExpression != null) || (preMoveExpression != null)) || (moveFailedExpression != null)
+boolean isMove = ((moveExpression != null) || (preMoveExpression != null)) || (moveFailedExpression != null)
+boolean isMove = ((moveExpression != null) || (preMoveExpression != null)) || (moveFailedExpression != null)
+return (val != null) && "true".equals(val)
+return processor != null
+return result != null
+boolean async = (getAsyncDelayed() != null) && getAsyncDelayed()
+boolean reject = (getRejectExecution() != null) && getRejectExecution()
+return processor != null
+answer = cache.remove(key) != null
+throw new IllegalArgumentException((("Data format '" + (dataFormatName != null ? dataFormatName : "<null>")) + "' could not be created. ") + "Ensure that the data format is valid and the associated Camel component is present on the classpath")
+this(owner, propertyName, owner != null ? owner.getClass() : Object.class)
+return processor == null
+return (synchronizations != null) && synchronizations.contains(synchronization)
+return (transactedBy != null) && (!transactedBy.isEmpty())
+boolean isParallelProcessing = (getParallelProcessing() != null) && getParallelProcessing()
+boolean isShareUnitOfWork = (getShareUnitOfWork() != null) && getShareUnitOfWork()
+boolean isStreaming = (getStreaming() != null) && getStreaming()
+boolean isStopOnException = (getStopOnException() != null) && getStopOnException()
+boolean isParallelAggregate = (getParallelAggregate() != null) && getParallelAggregate()
+return (registerAlways != null) && registerAlways
+return (registerNewRoutes != null) && registerNewRoutes
+return (mask != null) && mask
+return (includeHostName != null) && includeHostName
+return (useHostIPAddress != null) && useHostIPAddress
+return ((on != null) && server.isRegistered(on)) || server.isRegistered(name)
+return MBeanServerInvocationHandler.newProxyInstance(server, on != null ? on : name, mbean, false)
+return ("RecipientList[" + (expression != null ? expression : "")) + "]"
+boolean async = (getAsyncDelayed() != null) && getAsyncDelayed()
+throw new IllegalArgumentException((((("Cannot use existing queue " + key) + " as the existing queue size ") + (ref.getSize() != null ? ref.getSize() : Integer.MAX_VALUE)) + " does not match given queue size ") + size)
+return (headers != null) && (!headers.isEmpty())
+return (this.attachments != null) && (this.attachments.size() > 0)
+return headers != null
+return get(o) != null
+return cache.remove(key) != null
+boolean isRoundRobin = (getRoundRobin() != null) && getRoundRobin()
+boolean isRoundRobin = (getRoundRobin() != null) && getRoundRobin()
+return ((a != null) && (b != null)) && a.equals(b)
+return ((a != null) && (b != null)) && a.equals(b)
+return ObjectHelper.name(value != null ? value.getClass() : null)
+return value != null
+SedaEndpoint.LOG.info("Endpoint {} is using shared queue: {} with size: {}", new Object[]{ this, key, ref.getSize() != null ? ref.getSize() : Integer.MAX_VALUE })
+boolean isShareUnitOfWork = (getShareUnitOfWork() != null) && getShareUnitOfWork()
+boolean isIgnoreInvalidEndpoint = (getIgnoreInvalidEndpoint() != null) && getIgnoreInvalidEndpoint()
+CamelInternalProcessor.LOG.trace("{}Recording duration: {} millis for exchange: {}", new Object[]{ type != null ? type + ": " : "", duration, exchange })
+return BeanHelper.getValidParameterType(value) != null
+return processor != null
+return (counter != null) && counter.isStatisticsEnabled()
+boolean isSaxon = (getSaxon() != null) && getSaxon()
+boolean isLogNamespaces = (getLogNamespaces() != null) && getLogNamespaces()
+boolean isSaxon = (getSaxon() != null) && getSaxon()
+boolean isLogNamespaces = (getLogNamespaces() != null) && getLogNamespaces()
+throw new IllegalArgumentException((((("Could not find a suitable setter for property: " + name) + " as there isn't a setter method with same type: ") + (value != null ? value.getClass().getCanonicalName() : "[null]")) + " nor type conversion possible: ") + typeConversionFailed.getMessage())
+return (cache == null) || cache
+return processor != null
+boolean isNoop = params.get("noop") != null
+boolean isDelete = params.get("delete") != null
+boolean isMove = ((moveExpression != null) || (preMoveExpression != null)) || (moveFailedExpression != null)
+boolean isMove = ((moveExpression != null) || (preMoveExpression != null)) || (moveFailedExpression != null)
+boolean isMove = ((moveExpression != null) || (preMoveExpression != null)) || (moveFailedExpression != null)
+return (((("ExceptionPolicyKey[route: " + (routeId != null ? routeId : "<global>")) + ", ") + exceptionClass) + (when != null ? " " + when : "")) + "]"
+return (((("ExceptionPolicyKey[route: " + (routeId != null ? routeId : "<global>")) + ", ") + exceptionClass) + (when != null ? " " + when : "")) + "]"
+return timeout != null
+return ((scheme + "://") + path) + (query != null ? "?" + query : "")
+return ((("tokenize{" + (headerName != null ? "header: " + headerName : "body()")) + " using token: ") + token) + "}"
+boolean execution = (ObjectHelper.getException(ExecutionException.class, e) != null) || (ObjectHelper.getException(CamelExecutionException.class, e) != null)
+boolean execution = (ObjectHelper.getException(ExecutionException.class, e) != null) || (ObjectHelper.getException(CamelExecutionException.class, e) != null)
+log.trace("Converting {} -> {} with value: {}", new Object[]{ value == null ? "null" : value.getClass().getCanonicalName(), type.getCanonicalName(), value })
+return converter != null
+return (actualType != null) && ObjectHelper.isAssignableFrom(bodyType, actualType)
+this.splitpath[i] = new XMLTokenExpressionIterator.AttributedQName("*".equals(pfx) ? "*" : nsmap == null ? "" : nsmap.get(pfx), d > 0 ? s.substring(d + 1) : s, pfx)
+return splitpath[index] == null
+return nextToken != null
+return (nsany || getNamespaceURI().equals(qname.getNamespaceURI())) && (lcpattern != null ? lcpattern.matcher(qname.getLocalPart()).matches() : getLocalPart().equals(qname.getLocalPart()))
+return (("AOP[" + tryProcessor) + (finallyProcessor != null ? finallyProcessor : "")) + "]"
+boolean parentIsRoute = (route != null) && (child.getParent() == route)
+boolean only = (getManagementStrategy().getManagementAgent().getOnlyRegisterProcessorWithCustomId() != null) && getManagementStrategy().getManagementAgent().getOnlyRegisterProcessorWithCustomId()
+boolean load = (camelContext.getManagementStrategy().getManagementAgent().getLoadStatisticsEnabled() != null) && camelContext.getManagementStrategy().getManagementAgent().getLoadStatisticsEnabled()
+return (otherwise != null) || ((filters != null) && (!filters.isEmpty()))
+return (otherwise != null) || ((filters != null) && (!filters.isEmpty()))
+return idempotent != null
+return get(o) != null
+return processor != null
+return (logExhaustedMessageHistory == null) || logExhaustedMessageHistory
+return (("sendTo(" + destination) + (pattern != null ? " " + pattern : "")) + ")"
+return (token == null) || (token.getType().getType() == accept)
+boolean isParallelProcessing = (getParallelProcessing() != null) && getParallelProcessing()
+boolean isStreaming = (getStreaming() != null) && getStreaming()
+boolean isShareUnitOfWork = (getShareUnitOfWork() != null) && getShareUnitOfWork()
+boolean isParallelAggregate = (getParallelAggregate() != null) && getParallelAggregate()
+return (stopOnException != null) && stopOnException
+return getExceptionClasses() + (onWhen != null ? " " + onWhen : "")
+routeScoped = super.getParent() != null
+return (engine.getRejectOld() != null) && engine.getRejectOld()
+return processor != null
+boolean checkList = key.startsWith("last") || (num != null)
+boolean isMarkRollbackOnly = (getMarkRollbackOnly() != null) && getMarkRollbackOnly()
+boolean isMarkRollbackOnlyLast = (getMarkRollbackOnlyLast() != null) && getMarkRollbackOnlyLast()
+boolean isShareUnitOfWork = (def.getShareUnitOfWork() != null) && def.getShareUnitOfWork()
+return registry.lookup(to, from) != null
+return singleStepExchangeId != null
+boolean remove = body == null
+boolean remove = body == null
+boolean existing = suspendedBreakpoints.putIfAbsent(nodeId, se) != null
+CheckNotNull  in 3697ms
+ForceNullInit in 2174ms
+AddImplicitCastChecker --> 95 in 6346ms
+BeforeDeref --> 19091 (failed:0) in 2150ms
+target--> 21197 (failed:0) in 11986ms
+TryRegister # Try: 797 in 597ms
+Assign --> 9483 (failed: 0) in 6195ms
+VarInit --> 3918 in 2084ms
+MethodEncapsulation # Method: 15053 in 31119ms
+ConstructorEncapsulation # Constructor: 1473 in 6669ms
+VariableFor in 2221ms

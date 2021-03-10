@@ -1,0 +1,13 @@
+Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.LinkedHashMap.newNode(LinkedHashMap.java:256)
+	at java.util.HashMap.putVal(HashMap.java:631)
+	at java.util.HashMap.put(HashMap.java:612)
+	at com.gzoltar.core.components.Component.setCount(Component.java:114)
+	at com.gzoltar.core.spectra.Spectra.registerResults(Spectra.java:35)
+	at com.gzoltar.core.GZoltar.run(GZoltar.java:51)
+	at us.msu.cse.repair.core.faultlocalizer.GZoltarFaultLocalizer.<init>(GZoltarFaultLocalizer.java:42)
+	at us.msu.cse.repair.core.AbstractRepairProblem.invokeFaultLocalizer(AbstractRepairProblem.java:298)
+	at us.msu.cse.repair.core.AbstractRepairProblem.invokeModules(AbstractRepairProblem.java:269)
+	at us.msu.cse.repair.core.AbstractRepairProblem.<init>(AbstractRepairProblem.java:244)
+	at us.msu.cse.repair.ec.problems.GenProgProblem.<init>(GenProgProblem.java:33)
+	at us.msu.cse.repair.RSRepairMain.main(RSRepairMain.java:32)

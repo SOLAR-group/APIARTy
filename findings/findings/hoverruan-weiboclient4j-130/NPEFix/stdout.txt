@@ -1,0 +1,15 @@
+TernarySplitter  in 345ms
+assert json != null
+return error != null
+return (value != null) && (value.trim().length() > 0)
+CheckNotNull  in 758ms
+ForceNullInit in 75ms
+AddImplicitCastChecker --> 0 in 3275ms
+BeforeDeref --> 506 (failed:0) in 914ms
+target--> 558 (failed:0) in 4296ms
+TryRegister # Try: 19 in 345ms
+Assign --> 516 (failed: 0) in 2236ms
+VarInit --> 96 in 1127ms
+MethodEncapsulation # Method: 1459 in 11821ms
+ConstructorEncapsulation # Constructor: 170 in 1354ms
+VariableFor in 622ms

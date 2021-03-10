@@ -1,0 +1,57 @@
+20:21:19.193 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/WICKET-5359/wicket/wicket-util/src/main/java, /apiarty/data/WICKET-5359/wicket/wicket-util/src/test/java]
+20:21:19.206 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/WICKET-5359/wicket/wicket-util/target/classes/, file:/apiarty/data/WICKET-5359/wicket/wicket-util/target/test-classes/, file:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/root/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar, file:/root/.m2/repository/org/objenesis/objenesis/1.0/objenesis-1.0.jar, file:/root/.m2/repository/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar, file:/root/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar, file:/root/.m2/repository/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar, file:/root/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar, file:/root/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.jar]
+20:21:19.208 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+20:21:19.209 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.wicket.util.string.StringValueTest]
+20:21:19.214 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/WICKET-5359/wicket/wicket-util/src/main/java, /apiarty/data/WICKET-5359/wicket/wicket-util/src/test/java], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[org.apache.wicket.util.string.StringValueTest], complianceLevel=8, outputFolder=., json=false}
+20:21:19.215 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+20:21:19.244 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+20:21:19.245 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+20:21:19.246 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+20:21:19.247 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+20:21:19.251 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+20:21:19.253 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+20:21:45.085 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+20:21:45.087 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.util.lang.Generics:58 which is executed by 1 tests
+1875023261
+20:21:49.416 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+20:21:49.417 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.util.lang.Objects:631 which is executed by 1 tests
+5004533
+20:21:52.145 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+20:21:52.147 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.util.lang.Objects:628 which is executed by 1 tests
+5004533
+20:21:55.261 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+20:21:55.263 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.util.lang.Objects:627 which is executed by 1 tests
+5004533
+20:22:00.099 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+20:22:11.639 [pool-2-thread-1] DEBUG f.i.l.c.s.ConstraintBasedSynthesis - Operators:
+20:22:12.004 [pool-2-thread-1] DEBUG f.i.l.c.s.ConstraintBasedSynthesis - Successful code synthesis: org.apache.wicket.util.lang.Objects.primitiveDefaults.isEmpty()
+20:22:12.010 [pool-2-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Applying patch: org.apache.wicket.util.lang.Objects:627: PRECONDITION org.apache.wicket.util.lang.Objects.primitiveDefaults.isEmpty()
+20:22:15.393 [pool-2-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Running test suite to check the patch "org.apache.wicket.util.lang.Objects.primitiveDefaults.isEmpty()" is working
+20:22:15.632 [pool-2-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Skipped -9 patches for sake of performance
+20:22:15.633 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+20:22:15.709 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 256
+20:22:15.711 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 1479
+20:22:15.712 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 1
+20:22:15.713 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 1
+20:22:15.713 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 2
+20:22:15.714 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 1
+20:22:15.715 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT components: [0] []
+20:22:15.717 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 31
+20:22:15.717 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 56449ms
+20:22:15.718 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+20:22:15.719 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+20:22:15.720 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - org.apache.wicket.util.lang.Objects.primitiveDefaults.isEmpty()
+20:22:15.723 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 1
+20:22:15.725 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - org.apache.wicket.util.lang.Objects:627: PRECONDITION
+20:22:15.770 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - --- a/src/main/java/org/apache/wicket/util/lang/Objects.java
++++ b/src/main/java/org/apache/wicket/util/lang/Objects.java
+@@ -626,4 +626,6 @@
+ 				// equivalence
+-				result = (object1 != null) && (object2 != null) &&
++				if (org.apache.wicket.util.lang.Objects.primitiveDefaults.isEmpty()) {
++					result = (object1 != null) && (object2 != null) &&
+ 					((compareWithConversion(object1, object2) == 0) || object1.equals(object2));
++				}
+ 			}
+
+PATCH

@@ -1,0 +1,151 @@
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Found a new index node [reference]. Reindexing is requested
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Reindexing will be performed for following indexes: [/oak:index/uuid, /oak:index/reference, /oak:index/nodetype]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Indexing report
+    - /oak:index/nodetype*(1232)
+
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Reindexing will be performed for following indexes: [/oak:index/principalName, /oak:index/authorizableId, /oak:index/acPrincipalName]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Indexing report
+    - /oak:index/principalName*(2)
+    - /oak:index/authorizableId*(2)
+
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Found a new index node [reference]. Reindexing is requested
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Reindexing will be performed for following indexes: [/oak:index/uuid, /oak:index/reference, /oak:index/nodetype]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Indexing report
+    - /oak:index/nodetype*(1232)
+
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Reindexing will be performed for following indexes: [/oak:index/principalName, /oak:index/authorizableId, /oak:index/acPrincipalName]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Indexing report
+    - /oak:index/principalName*(2)
+    - /oak:index/authorizableId*(2)
+
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Found a new index node [reference]. Reindexing is requested
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Reindexing will be performed for following indexes: [/oak:index/uuid, /oak:index/reference, /oak:index/nodetype]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Indexing report
+    - /oak:index/nodetype*(1232)
+
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Reindexing will be performed for following indexes: [/oak:index/principalName, /oak:index/authorizableId, /oak:index/acPrincipalName]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Indexing report
+    - /oak:index/principalName*(2)
+    - /oak:index/authorizableId*(2)
+
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Found a new index node [reference]. Reindexing is requested
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Reindexing will be performed for following indexes: [/oak:index/uuid, /oak:index/reference, /oak:index/nodetype]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Indexing report
+    - /oak:index/nodetype*(1232)
+
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Reindexing will be performed for following indexes: [/oak:index/principalName, /oak:index/authorizableId, /oak:index/acPrincipalName]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Indexing report
+    - /oak:index/principalName*(2)
+    - /oak:index/authorizableId*(2)
+
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Found a new index node [reference]. Reindexing is requested
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Reindexing will be performed for following indexes: [/oak:index/uuid, /oak:index/reference, /oak:index/nodetype]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Indexing report
+    - /oak:index/nodetype*(1232)
+
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Reindexing will be performed for following indexes: [/oak:index/principalName, /oak:index/authorizableId, /oak:index/acPrincipalName]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Indexing report
+    - /oak:index/principalName*(2)
+    - /oak:index/authorizableId*(2)
+
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Found a new index node [reference]. Reindexing is requested
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Reindexing will be performed for following indexes: [/oak:index/uuid, /oak:index/reference, /oak:index/nodetype]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Indexing report
+    - /oak:index/nodetype*(1232)
+
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Reindexing will be performed for following indexes: [/oak:index/principalName, /oak:index/authorizableId, /oak:index/acPrincipalName]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Indexing report
+    - /oak:index/principalName*(2)
+    - /oak:index/authorizableId*(2)
+
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Found a new index node [reference]. Reindexing is requested
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Reindexing will be performed for following indexes: [/oak:index/uuid, /oak:index/reference, /oak:index/nodetype]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Indexing report
+    - /oak:index/nodetype*(1232)
+
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Reindexing will be performed for following indexes: [/oak:index/principalName, /oak:index/authorizableId, /oak:index/acPrincipalName]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Indexing report
+    - /oak:index/principalName*(2)
+    - /oak:index/authorizableId*(2)
+
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Found a new index node [reference]. Reindexing is requested
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Reindexing will be performed for following indexes: [/oak:index/uuid, /oak:index/reference, /oak:index/nodetype]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Indexing report
+    - /oak:index/nodetype*(1232)
+
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Reindexing will be performed for following indexes: [/oak:index/principalName, /oak:index/authorizableId, /oak:index/acPrincipalName]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Indexing report
+    - /oak:index/principalName*(2)
+    - /oak:index/authorizableId*(2)
+
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Found a new index node [reference]. Reindexing is requested
+[main] WARN org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Missing index provider of type [reference], requesting reindex on [/oak:index/reference]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Reindexing will be performed for following indexes: [/oak:index/uuid, /oak:index/nodetype]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Indexing report
+    - /oak:index/nodetype*(1205)
+
+[main] INFO org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexEditorContext - Loaded default Tika Config from classpath file:/apiarty/data/OAK-4067/jackrabbit-oak/oak-lucene/target/classes/org/apache/jackrabbit/oak/plugins/index/lucene/tika-config.xml
+[main] INFO org.apache.jackrabbit.oak.plugins.index.lucene.IndexDefinition - Updated index definition for <No 'name' property defined>
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Reindexing will be performed for following indexes: [/oak:index/test]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndexTest$1 - [COW][UNKNOWN] CopyOnWrite stats : Skipped copying 0 files with total size 0 B
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Indexing report
+    - /oak:index/test*(1212)
+
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Found a new index node [reference]. Reindexing is requested
+[main] WARN org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Missing index provider of type [reference], requesting reindex on [/oak:index/reference]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Reindexing will be performed for following indexes: [/oak:index/uuid, /oak:index/nodetype]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Indexing report
+    - /oak:index/nodetype*(1205)
+
+[main] INFO org.apache.jackrabbit.oak.plugins.index.lucene.IndexDefinition - Updated index definition for <No 'name' property defined>
+[main] INFO org.apache.jackrabbit.oak.plugins.index.lucene.IndexDefinition - Updated index definition for <No 'name' property defined>
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Reindexing will be performed for following indexes: [/oak:index/test2, /oak:index/test1]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndexTest$1 - [COW][UNKNOWN] CopyOnWrite stats : Skipped copying 0 files with total size 0 B
+[main] INFO org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndexTest$1 - [COW][UNKNOWN] CopyOnWrite stats : Skipped copying 0 files with total size 0 B
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Indexing report
+    - /oak:index/test2*(1)
+    - /oak:index/test1*(3)
+
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Found a new index node [reference]. Reindexing is requested
+[main] WARN org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Missing index provider of type [reference], requesting reindex on [/oak:index/reference]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Reindexing will be performed for following indexes: [/oak:index/uuid, /oak:index/nodetype]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Indexing report
+    - /oak:index/nodetype*(1205)
+
+[main] INFO org.apache.jackrabbit.oak.plugins.index.lucene.IndexDefinition - Updated index definition for <No 'name' property defined>
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Reindexing will be performed for following indexes: [/oak:index/test1]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndexTest$1 - [COW][UNKNOWN] CopyOnWrite stats : Skipped copying 0 files with total size 0 B
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Indexing report
+    - /oak:index/test1*(15)
+
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Found a new index node [reference]. Reindexing is requested
+[main] WARN org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Missing index provider of type [reference], requesting reindex on [/oak:index/reference]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Reindexing will be performed for following indexes: [/oak:index/uuid, /oak:index/nodetype]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Indexing report
+    - /oak:index/nodetype*(1205)
+
+[main] WARN org.apache.jackrabbit.oak.plugins.index.lucene.IndexDefinition - IndexRule node does not have orderable children in [Lucene Index : <No 'name' property defined>]
+[main] WARN org.apache.jackrabbit.oak.plugins.index.lucene.IndexDefinition - Properties node for [IndexRule: nt:base] does not have orderable children in [Lucene Index : <No 'name' property defined>]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Reindexing will be performed for following indexes: [/oak:index/lucene, /oak:index/nodetype]
+[main] WARN org.apache.jackrabbit.oak.plugins.index.lucene.IndexDefinition - IndexRule node does not have orderable children in [Lucene Index : <No 'name' property defined>]
+[main] WARN org.apache.jackrabbit.oak.plugins.index.lucene.IndexDefinition - Properties node for [IndexRule: nt:base] does not have orderable children in [Lucene Index : <No 'name' property defined>]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndexTest$1 - [COW][UNKNOWN] CopyOnWrite stats : Skipped copying 0 files with total size 0 B
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Indexing report
+    - /oak:index/lucene*(1214)
+    - /oak:index/nodetype*(3)
+
+[main] WARN org.apache.jackrabbit.oak.plugins.index.lucene.IndexDefinition - IndexRule node does not have orderable children in [Lucene Index : /oak:index/lucene]
+[main] WARN org.apache.jackrabbit.oak.plugins.index.lucene.IndexDefinition - Properties node for [IndexRule: nt:base] does not have orderable children in [Lucene Index : /oak:index/lucene]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Found a new index node [reference]. Reindexing is requested
+[main] WARN org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Missing index provider of type [reference], requesting reindex on [/oak:index/reference]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Reindexing will be performed for following indexes: [/oak:index/uuid, /oak:index/nodetype]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Indexing report
+    - /oak:index/nodetype*(1205)
+
+[main] INFO org.apache.jackrabbit.oak.plugins.index.lucene.IndexDefinition - Updated index definition for <No 'name' property defined>
+[main] INFO org.apache.jackrabbit.oak.plugins.index.lucene.IndexDefinition - Updated index definition for <No 'name' property defined>
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Reindexing will be performed for following indexes: [/oak:index/test2, /oak:index/test1]
+[main] INFO org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndexTest$1 - [COW][UNKNOWN] CopyOnWrite stats : Skipped copying 0 files with total size 0 B
+[main] INFO org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndexTest$1 - [COW][UNKNOWN] CopyOnWrite stats : Skipped copying 0 files with total size 0 B
+[main] INFO org.apache.jackrabbit.oak.plugins.index.IndexUpdate - Indexing report
+

@@ -1,0 +1,38 @@
+1 Delete /workspaces/APIARTy/data/Bears-104/traccar/src/org/traccar/protocol/SuntechProtocolDecoder.java 110
+Faulty:
+if (deviceSession == null) {
+  return null;
+}
+Seed:
+NULL
+**************************************************
+2 Delete /workspaces/APIARTy/data/Bears-104/traccar/src/org/traccar/protocol/SuntechProtocolDecoder.java 147
+Faulty:
+if (index < values.length) {
+  position.set(Position.KEY_HOURS,Integer.parseInt(values[index++]));
+}
+Seed:
+NULL
+**************************************************
+3 Delete /workspaces/APIARTy/data/Bears-104/traccar/src/org/traccar/protocol/SuntechProtocolDecoder.java 105
+Faulty:
+if (type.equals("EMG") || type.equals("ALT")) {
+  position.set(Position.KEY_ALARM,Position.ALARM_GENERAL);
+}
+Seed:
+NULL
+**************************************************
+4 Delete /workspaces/APIARTy/data/Bears-104/traccar/src/org/traccar/protocol/SuntechProtocolDecoder.java 148
+Faulty:
+position.set(Position.KEY_HOURS,Integer.parseInt(values[index++]));
+Seed:
+NULL
+**************************************************
+5 Delete /workspaces/APIARTy/data/Bears-104/traccar/src/org/traccar/protocol/SuntechProtocolDecoder.java 139
+Faulty:
+position.set(Position.PREFIX_IO + 1,values[index++]);
+Seed:
+NULL
+**************************************************
+Evaluations: 1602
+EstimatedTime: 2817785

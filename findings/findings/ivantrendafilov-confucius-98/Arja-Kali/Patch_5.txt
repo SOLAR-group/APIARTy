@@ -1,0 +1,4 @@
+InsertReturn true /apiarty/data/ivantrendafilov-confucius-98/Confucius/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java 206 0.7071067811865475
+parts.add(Long.parseLong(value.trim()));
+**************************************************
+EstimatedTime: 5164

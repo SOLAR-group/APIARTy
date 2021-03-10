@@ -1,0 +1,10 @@
+1 Delete /workspaces/APIARTy/data/Bears-104/traccar/src/org/traccar/protocol/SuntechProtocolDecoder.java 147
+Faulty:
+if (index < values.length) {
+  position.set(Position.KEY_HOURS,Integer.parseInt(values[index++]));
+}
+Seed:
+NULL
+**************************************************
+Evaluations: 1730
+EstimatedTime: 3045901

@@ -1,0 +1,127 @@
+08:13:26.633 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/workspaces/APIARTy/data/MATH-1121/commons-math/src/main/java, /workspaces/APIARTy/data/MATH-1121/commons-math/src/test/java]
+08:13:26.650 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/workspaces/APIARTy/data/MATH-1121/commons-math/target/classes/, file:/workspaces/APIARTy/data/MATH-1121/commons-math/target/test-classes/, file:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar]
+08:13:26.653 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: CONDITIONAL
+08:13:26.654 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.commons.math3.optim.univariate.BrentOptimizerTest]
+08:13:26.659 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=CONDITIONAL, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/workspaces/APIARTy/data/MATH-1121/commons-math/src/main/java, /workspaces/APIARTy/data/MATH-1121/commons-math/src/test/java], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[org.apache.commons.math3.optim.univariate.BrentOptimizerTest], complianceLevel=7, outputFolder=., json=false}
+08:13:26.663 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+08:13:26.684 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 28 MB
+08:13:26.686 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 443 MB
+08:13:26.689 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 31 MB
+08:13:26.691 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+08:13:26.698 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+08:13:26.699 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /root/.vscode-server/bin/c47d83b293181d9be64f27ff093689e8e7aed054/bin:/apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+08:13:56.078 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+08:13:56.085 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.DescriptiveStatistics:485 which is executed by 1 tests
+-881929488
+08:13:57.450 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+08:13:57.453 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.DescriptiveStatistics:446 which is executed by 1 tests
+-881929488
+08:13:58.411 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+08:13:58.415 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.DescriptiveStatistics:428 which is executed by 1 tests
+-881929488
+08:13:59.409 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+08:13:59.411 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.DescriptiveStatistics:427 which is executed by 1 tests
+-881929488
+08:14:00.547 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+08:14:03.304 [pool-2-thread-1] DEBUG tests.output - Failing tests with false: 
+[testQuinticMinStatistics(org.apache.commons.math3.optim.univariate.BrentOptimizerTest): null]
+08:14:03.305 [pool-2-thread-1] DEBUG tests.output - Failing tests with true: 
+[testQuinticMinStatistics(org.apache.commons.math3.optim.univariate.BrentOptimizerTest): null]
+08:14:03.307 [pool-2-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.math3.stat.descriptive.DescriptiveStatistics:427.
+08:14:03.309 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+08:14:03.311 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.DescriptiveStatistics:207 which is executed by 1 tests
+-881929488
+08:14:04.338 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+08:14:04.340 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.DescriptiveStatistics:174 which is executed by 1 tests
+-881929488
+08:14:05.520 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+08:14:05.522 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.DescriptiveStatistics:172 which is executed by 1 tests
+-881929488
+08:14:06.576 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+08:14:06.581 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.DescriptiveStatistics:165 which is executed by 1 tests
+-881929488
+08:14:07.551 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+08:14:09.178 [pool-6-thread-1] DEBUG tests.output - Failing tests with false: 
+[testQuinticMinStatistics(org.apache.commons.math3.optim.univariate.BrentOptimizerTest): null]
+08:14:09.181 [pool-6-thread-1] DEBUG tests.output - Failing tests with true: 
+[testQuinticMinStatistics(org.apache.commons.math3.optim.univariate.BrentOptimizerTest): null]
+08:14:09.183 [pool-6-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.math3.stat.descriptive.DescriptiveStatistics:165.
+08:14:09.186 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+08:14:09.186 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:478 which is executed by 1 tests
+1071639902
+08:14:10.066 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+08:14:10.068 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:477 which is executed by 1 tests
+1071639902
+08:14:11.074 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+08:14:11.076 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:473 which is executed by 1 tests
+1071639902
+08:14:12.078 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+08:14:13.519 [pool-10-thread-1] DEBUG tests.output - Failing tests with false: 
+[testQuinticMinStatistics(org.apache.commons.math3.optim.univariate.BrentOptimizerTest): null]
+08:14:13.534 [pool-10-thread-1] DEBUG tests.output - Failing tests with true: 
+[testQuinticMinStatistics(org.apache.commons.math3.optim.univariate.BrentOptimizerTest): out of bounds quantile value: 50, must be in (0, 100]]
+08:14:13.535 [pool-10-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:473.
+08:14:13.538 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+08:14:13.540 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:452 which is executed by 1 tests
+1071639902
+08:14:14.371 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+08:14:14.378 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:450 which is executed by 1 tests
+1071639902
+08:14:15.307 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+08:14:15.309 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:448 which is executed by 1 tests
+1071639902
+08:14:16.390 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+08:14:16.396 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:447 which is executed by 1 tests
+1071639902
+08:14:17.212 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+08:14:17.216 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:446 which is executed by 1 tests
+1071639902
+08:14:17.995 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+08:14:17.997 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:445 which is executed by 1 tests
+1071639902
+08:14:18.767 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+08:14:18.768 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:444 which is executed by 1 tests
+1071639902
+08:14:19.626 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #19
+08:14:19.627 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:443 which is executed by 1 tests
+1071639902
+08:14:20.434 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #20
+08:14:20.438 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:432 which is executed by 1 tests
+1071639902
+08:14:21.407 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #21
+08:14:21.410 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:431 which is executed by 1 tests
+1071639902
+08:14:22.390 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #22
+08:14:22.393 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:430 which is executed by 1 tests
+1071639902
+08:14:23.236 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #23
+08:14:23.237 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:428 which is executed by 1 tests
+1071639902
+08:14:24.091 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #24
+08:14:24.094 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:427 which is executed by 1 tests
+1071639902
+08:14:24.936 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+08:14:30.054 [pool-14-thread-1] DEBUG tests.output - Failing tests with false: 
+[testQuinticMinStatistics(org.apache.commons.math3.optim.univariate.BrentOptimizerTest): null]
+08:14:30.056 [pool-14-thread-1] DEBUG tests.output - Failing tests with true: 
+[testQuinticMinStatistics(org.apache.commons.math3.optim.univariate.BrentOptimizerTest): null]
+08:14:30.057 [pool-14-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:427.
+08:14:30.059 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #25
+08:14:30.061 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:424 which is executed by 1 tests
+1071639902
+08:14:31.089 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #26
+08:14:31.093 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:423 which is executed by 1 tests
+1071639902
+08:14:31.980 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #27
+08:14:31.982 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:422 which is executed by 1 tests
+1071639902
+08:14:32.894 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #28
+08:14:32.896 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:421 which is executed by 1 tests
+1071639902
+08:14:33.703 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #29
+08:14:33.705 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:420 which is executed by 1 tests
+1071639902
+08:14:34.531 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+08:15:28.327 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: GC overhead limit exceeded
+08:15:29.497 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #30
+08:15:32.365 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing [FAILED toString()] which is executed by 1 tests

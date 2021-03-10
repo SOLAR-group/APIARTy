@@ -1,0 +1,131 @@
+
+Usage: java -jar npefix.jar
+                          (-s|--source) source1:source2:...:sourceN  (-c|--classpath) <classpath> (-t|--test) test1:test2:...:testN  [--complianceLevel <complianceLevel>] [(-i|--iteration) <iteration>] [(-w|--workingdirectory) <workingdirectory>] [--repairStrategy <repairStrategy>]
+
+  (-s|--source) source1:source2:...:sourceN 
+        Define the path to the source code of the project.
+
+  (-c|--classpath) <classpath>
+        Define the classpath of the project.
+
+  (-t|--test) test1:test2:...:testN 
+        Define the tests of the project (both failing and passing),
+        fully-qualified, separated with ':' (even if the classpath contains
+        other tests, only those are considered.
+
+  [--complianceLevel <complianceLevel>]
+        The compliance level of the project. (default: 7)
+
+  [(-i|--iteration) <iteration>]
+        The maximum number of npefix iteration. (default: 100)
+
+  [(-w|--workingdirectory) <workingdirectory>]
+        Define the location where npefix will put its files. (default: .)
+
+  [--repairStrategy <repairStrategy>]
+        Define the repair strategy used by NPEFix. (default:
+        fr.inria.spirals.npefix.main.all.DefaultRepairStrategy)
+
+Exception in thread "main" spoon.SpoonException: spoon.SpoonException: Cannot create MethodTypingContext for method declared in different ClassTypingContext
+	at spoon.Launcher.prettyprint(Launcher.java:785)
+	at fr.inria.spirals.npefix.main.all.Launcher.instrument(Launcher.java:107)
+	at fr.inria.spirals.npefix.main.run.Main.run(Main.java:70)
+	at fr.inria.spirals.npefix.main.run.Main.main(Main.java:50)
+Caused by: spoon.SpoonException: Cannot create MethodTypingContext for method declared in different ClassTypingContext
+	at spoon.support.visitor.MethodTypingContext.setMethod(MethodTypingContext.java:63)
+	at spoon.support.visitor.ClassTypingContext.isSameSignature(ClassTypingContext.java:628)
+	at spoon.support.visitor.ClassTypingContext.isSameSignature(ClassTypingContext.java:303)
+	at spoon.support.reflect.declaration.CtTypeImpl$2.accept(CtTypeImpl.java:915)
+	at spoon.support.reflect.declaration.CtTypeImpl$2.accept(CtTypeImpl.java:911)
+	at spoon.reflect.visitor.chain.CtQueryImpl$OutputFunctionWrapper._accept(CtQueryImpl.java:459)
+	at spoon.reflect.visitor.chain.CtQueryImpl$AbstractStep.accept(CtQueryImpl.java:307)
+	at spoon.reflect.visitor.filter.AllTypeMembersFunction$1.accept(AllTypeMembersFunction.java:96)
+	at spoon.reflect.visitor.filter.AllTypeMembersFunction$1.accept(AllTypeMembersFunction.java:79)
+	at spoon.reflect.visitor.chain.CtQueryImpl$OutputFunctionWrapper._accept(CtQueryImpl.java:459)
+	at spoon.reflect.visitor.chain.CtQueryImpl$AbstractStep.accept(CtQueryImpl.java:307)
+	at spoon.reflect.visitor.filter.SuperInheritanceHierarchyFunction.sendResult(SuperInheritanceHierarchyFunction.java:360)
+	at spoon.reflect.visitor.filter.SuperInheritanceHierarchyFunction.sendResultWithListener(SuperInheritanceHierarchyFunction.java:312)
+	at spoon.reflect.visitor.filter.SuperInheritanceHierarchyFunction.visitSuperInterfaces(SuperInheritanceHierarchyFunction.java:299)
+	at spoon.reflect.visitor.filter.SuperInheritanceHierarchyFunction.visitSuperClasses(SuperInheritanceHierarchyFunction.java:268)
+	at spoon.reflect.visitor.filter.SuperInheritanceHierarchyFunction.lambda$visitSuperClasses$1(SuperInheritanceHierarchyFunction.java:280)
+	at spoon.reflect.visitor.filter.SuperInheritanceHierarchyFunction.sendResultWithListener(SuperInheritanceHierarchyFunction.java:314)
+	at spoon.reflect.visitor.filter.SuperInheritanceHierarchyFunction.visitSuperClasses(SuperInheritanceHierarchyFunction.java:279)
+	at spoon.reflect.visitor.filter.SuperInheritanceHierarchyFunction.lambda$visitSuperClasses$1(SuperInheritanceHierarchyFunction.java:280)
+	at spoon.reflect.visitor.filter.SuperInheritanceHierarchyFunction.sendResultWithListener(SuperInheritanceHierarchyFunction.java:314)
+	at spoon.reflect.visitor.filter.SuperInheritanceHierarchyFunction.visitSuperClasses(SuperInheritanceHierarchyFunction.java:279)
+	at spoon.reflect.visitor.filter.SuperInheritanceHierarchyFunction.apply(SuperInheritanceHierarchyFunction.java:250)
+	at spoon.reflect.visitor.filter.SuperInheritanceHierarchyFunction.apply(SuperInheritanceHierarchyFunction.java:36)
+	at spoon.reflect.visitor.chain.CtQueryImpl$LazyFunctionWrapper._accept(CtQueryImpl.java:492)
+	at spoon.reflect.visitor.chain.CtQueryImpl$AbstractStep.accept(CtQueryImpl.java:307)
+	at spoon.reflect.visitor.chain.CtQueryImpl.forEach(CtQueryImpl.java:93)
+	at spoon.reflect.visitor.filter.AllTypeMembersFunction.apply(AllTypeMembersFunction.java:79)
+	at spoon.reflect.visitor.filter.AllTypeMembersFunction.apply(AllTypeMembersFunction.java:28)
+	at spoon.reflect.visitor.chain.CtQueryImpl$LazyFunctionWrapper._accept(CtQueryImpl.java:492)
+	at spoon.reflect.visitor.chain.CtQueryImpl$AbstractStep.accept(CtQueryImpl.java:307)
+	at spoon.reflect.visitor.chain.CtQueryImpl.forEach(CtQueryImpl.java:93)
+	at spoon.support.reflect.declaration.CtTypeImpl.getAllMethods(CtTypeImpl.java:911)
+	at spoon.reflect.visitor.ImportScannerImpl.isInCollisionWithLocalMethod(ImportScannerImpl.java:637)
+	at spoon.reflect.visitor.ImportScannerImpl.addMethodImport(ImportScannerImpl.java:660)
+	at spoon.reflect.visitor.ImportScannerImpl.visitCtExecutableReference(ImportScannerImpl.java:101)
+	at spoon.support.reflect.reference.CtExecutableReferenceImpl.accept(CtExecutableReferenceImpl.java:75)
+	at spoon.reflect.visitor.ImportScannerImpl.scan(ImportScannerImpl.java:138)
+	at spoon.reflect.visitor.ImportScannerImpl.visitCtInvocation(ImportScannerImpl.java:262)
+	at spoon.support.reflect.code.CtInvocationImpl.accept(CtInvocationImpl.java:44)
+	at spoon.reflect.visitor.ImportScannerImpl.scan(ImportScannerImpl.java:138)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.visitCtField(CtScanner.java:408)
+	at spoon.support.reflect.declaration.CtFieldImpl.accept(CtFieldImpl.java:50)
+	at spoon.reflect.visitor.ImportScannerImpl.scan(ImportScannerImpl.java:138)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:139)
+	at spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:330)
+	at spoon.reflect.visitor.ImportScannerImpl.visitCtClass(ImportScannerImpl.java:248)
+	at spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:56)
+	at spoon.reflect.visitor.ImportScannerImpl.scan(ImportScannerImpl.java:138)
+	at spoon.reflect.visitor.ImportScannerImpl.computeImports(ImportScannerImpl.java:301)
+	at spoon.reflect.visitor.DefaultJavaPrettyPrinter.computeImports(DefaultJavaPrettyPrinter.java:318)
+	at spoon.reflect.visitor.DefaultJavaPrettyPrinter.calculate(DefaultJavaPrettyPrinter.java:1981)
+	at spoon.support.JavaOutputProcessor.createJavaFile(JavaOutputProcessor.java:114)
+	at spoon.support.JavaOutputProcessor.process(JavaOutputProcessor.java:150)
+	at spoon.support.JavaOutputProcessor.process(JavaOutputProcessor.java:35)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:63)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:139)
+	at spoon.reflect.visitor.CtScanner.visitCtPackage(CtScanner.java:641)
+	at spoon.support.reflect.declaration.CtPackageImpl.accept(CtPackageImpl.java:87)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:66)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:139)
+	at spoon.reflect.visitor.CtScanner.visitCtPackage(CtScanner.java:640)
+	at spoon.support.reflect.declaration.CtPackageImpl.accept(CtPackageImpl.java:87)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:66)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:139)
+	at spoon.reflect.visitor.CtScanner.visitCtPackage(CtScanner.java:640)
+	at spoon.support.reflect.declaration.CtPackageImpl.accept(CtPackageImpl.java:87)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:66)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:139)
+	at spoon.reflect.visitor.CtScanner.visitCtPackage(CtScanner.java:640)
+	at spoon.support.reflect.declaration.CtPackageImpl.accept(CtPackageImpl.java:87)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:66)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:139)
+	at spoon.reflect.visitor.CtScanner.visitCtPackage(CtScanner.java:640)
+	at spoon.support.reflect.declaration.CtPackageImpl.accept(CtPackageImpl.java:87)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:66)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.visitCtModule(CtScanner.java:915)
+	at spoon.reflect.factory.ModuleFactory$CtUnnamedModule.accept(ModuleFactory.java:94)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:66)
+	at spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.generateProcessedSourceFilesUsingTypes(JDTBasedSpoonCompiler.java:480)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.generateProcessedSourceFiles(JDTBasedSpoonCompiler.java:201)
+	at spoon.Launcher.prettyprint(Launcher.java:783)
+	... 3 more

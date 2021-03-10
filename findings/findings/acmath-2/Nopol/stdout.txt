@@ -1,0 +1,58 @@
+05:01:31.010 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/acmath-2/commons-math/src/main/java, /apiarty/data/acmath-2/commons-math/src/test/java]
+05:01:31.023 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/acmath-2/commons-math/target/classes/, file:/apiarty/data/acmath-2/commons-math/target/test-classes/, file:/root/.m2/repository/junit/junit/4.10/junit-4.10.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar]
+05:01:31.025 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+05:01:31.026 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.commons.math3.geometry.euclidean.twod.SubLineTest]
+05:01:31.033 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/acmath-2/commons-math/src/main/java, /apiarty/data/acmath-2/commons-math/src/test/java], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[org.apache.commons.math3.geometry.euclidean.twod.SubLineTest], complianceLevel=8, outputFolder=., json=false}
+05:01:31.035 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+05:01:31.065 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+05:01:31.067 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+05:01:31.068 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+05:01:31.069 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+05:01:31.074 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+05:01:31.076 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+05:04:21.694 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+05:04:21.698 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.twod.Line:200 which is executed by 1 tests
+2368533
+05:04:46.791 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+05:05:21.342 [pool-2-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 1. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.math3.geometry.euclidean.twod.Line:200.
+05:05:21.345 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+05:05:21.347 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.twod.Line:199 which is executed by 7 tests
+2368533
+05:05:39.602 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+05:06:00.630 [pool-8-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 1. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.math3.geometry.euclidean.twod.Line:199.
+05:06:00.633 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+05:06:54.625 [pool-26-thread-1] DEBUG f.i.l.c.s.ConstraintBasedSynthesis - Operators:
+05:06:54.889 [pool-26-thread-1] DEBUG f.i.l.c.s.ConstraintBasedSynthesis - Operators:
+== of arity: 2
+!= of arity: 2
+< of arity: 2
+<= of arity: 2
+05:06:55.225 [pool-26-thread-1] DEBUG f.i.l.c.s.ConstraintBasedSynthesis - Successful code synthesis: other.cos == other.angle
+05:06:55.229 [pool-26-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Applying patch: org.apache.commons.math3.geometry.euclidean.twod.Line:199: CONDITIONAL other.cos == other.angle
+05:07:20.126 [pool-26-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Running test suite to check the patch "other.cos == other.angle" is working
+05:07:20.442 [pool-26-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Skipped -9 patches for sake of performance
+05:07:20.443 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+05:07:21.897 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 1211
+05:07:21.898 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 9421
+05:07:21.900 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 3
+05:07:21.901 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 1
+05:07:21.909 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 2
+05:07:21.910 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 2
+05:07:21.911 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT components: [4] [== of arity: 2, != of arity: 2, < of arity: 2, <= of arity: 2]
+05:07:21.912 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol -                   class java.lang.Boolean: 4
+05:07:21.913 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 20
+05:07:21.914 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 349440ms
+05:07:21.915 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+05:07:21.916 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+05:07:21.917 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - other.cos == other.angle
+05:07:21.923 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 7
+05:07:21.924 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - org.apache.commons.math3.geometry.euclidean.twod.Line:199: CONDITIONAL
+05:07:22.017 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - --- a/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java
++++ b/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java
+@@ -198,3 +198,3 @@
+         final double d = sin * other.cos - other.sin * cos;
+-        if (FastMath.abs(d) < 1.0e-10) {
++        if (other.cos == other.angle) {
+             return null;
+
+PATCH

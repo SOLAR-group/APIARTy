@@ -1,0 +1,30 @@
+1 InsertBefore /apiarty/data/WICKET-5359/wicket/wicket-util/src/main/java/org/apache/wicket/util/lang/Objects.java 248
+Faulty:
+if ((t1 == NONNUMERIC) && (t2 == NONNUMERIC)) {
+  if ((v1 instanceof Comparable) && v1.getClass().isAssignableFrom(v2.getClass())) {
+    result=((Comparable)v1).compareTo(v2);
+    break;
+  }
+ else {
+    throw new IllegalArgumentException("invalid comparison: " + v1.getClass().getName() + " and "+ v2.getClass().getName());
+  }
+}
+Seed:
+primitiveDefaults.put(BigInteger.class,new BigInteger("0"));
+**************************************************
+2 Replace /apiarty/data/WICKET-5359/wicket/wicket-util/src/main/java/org/apache/wicket/util/lang/Objects.java 627
+Faulty:
+result=(object1 != null) && (object2 != null) && ((compareWithConversion(object1,object2) == 0) || object1.equals(object2));
+Seed:
+primitiveDefaults.put(Double.TYPE,0.0);
+**************************************************
+3 Delete /apiarty/data/WICKET-5359/wicket/wicket-util/src/main/java/org/apache/wicket/util/lang/Objects.java 519
+Faulty:
+if (c == Boolean.class) {
+  return BOOL;
+}
+Seed:
+c=c.getSuperclass();
+**************************************************
+Evaluations: 97
+EstimatedTime: 97139

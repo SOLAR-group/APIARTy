@@ -1,0 +1,14 @@
+Exception in thread "main" java.io.IOException: Cannot run program "/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java": error=7, Argument list too long
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at us.msu.cse.repair.core.coverage.SeedLineGeneratorProcess.getSeedLines(SeedLineGeneratorProcess.java:98)
+	at us.msu.cse.repair.core.AbstractRepairProblem.invokeSeedLineGenerator(AbstractRepairProblem.java:321)
+	at us.msu.cse.repair.core.AbstractRepairProblem.invokeModules(AbstractRepairProblem.java:270)
+	at us.msu.cse.repair.core.AbstractRepairProblem.<init>(AbstractRepairProblem.java:244)
+	at us.msu.cse.repair.ec.problems.GenProgProblem.<init>(GenProgProblem.java:33)
+	at us.msu.cse.repair.RSRepairMain.main(RSRepairMain.java:32)
+Caused by: java.io.IOException: error=7, Argument list too long
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 more

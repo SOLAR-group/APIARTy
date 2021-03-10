@@ -1,0 +1,34 @@
+1 Delete /apiarty/data/ivantrendafilov-confucius-98/Confucius/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java 206
+Faulty:
+parts.add(Long.parseLong(value.trim()));
+Seed:
+NULL
+**************************************************
+2 InsertBefore /apiarty/data/ivantrendafilov-confucius-98/Confucius/src/main/java/org/trendafilov/confucius/core/Parser.java 85
+Faulty:
+for (String line : lines) {
+  if (isNamedContext(line,context))   insideContext=true;
+ else   if (insideContext && isContext(line))   insideContext=false;
+ else   if (insideContext)   configuration.putAll(parseLine(line));
+}
+Seed:
+insideContext=true;
+**************************************************
+3 InsertBefore /apiarty/data/ivantrendafilov-confucius-98/Confucius/src/main/java/org/trendafilov/confucius/core/Utils.java 40
+Faulty:
+return properties;
+Seed:
+for (Object e : props.keySet()) {
+  String key=(String)e;
+  String value=props.getProperty(key);
+  properties.put(key,value);
+}
+**************************************************
+4 Delete /apiarty/data/ivantrendafilov-confucius-98/Confucius/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java 292
+Faulty:
+LOG.info("Configuration properties have been reset");
+Seed:
+NULL
+**************************************************
+Evaluations: 1435
+EstimatedTime: 1106525

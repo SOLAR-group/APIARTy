@@ -1,0 +1,22 @@
+1 Delete /workspaces/APIARTy/data/Bears-104/traccar/src/org/traccar/protocol/SuntechProtocolDecoder.java 113
+Faulty:
+position.setDeviceId(deviceSession.getDeviceId());
+Seed:
+NULL
+**************************************************
+2 Delete /workspaces/APIARTy/data/Bears-104/traccar/src/org/traccar/protocol/SuntechProtocolDecoder.java 105
+Faulty:
+if (type.equals("EMG") || type.equals("ALT")) {
+  position.set(Position.KEY_ALARM,Position.ALARM_GENERAL);
+}
+Seed:
+NULL
+**************************************************
+3 Delete /workspaces/APIARTy/data/Bears-104/traccar/src/org/traccar/protocol/SuntechProtocolDecoder.java 148
+Faulty:
+position.set(Position.KEY_HOURS,Integer.parseInt(values[index++]));
+Seed:
+NULL
+**************************************************
+Evaluations: 392
+EstimatedTime: 688043

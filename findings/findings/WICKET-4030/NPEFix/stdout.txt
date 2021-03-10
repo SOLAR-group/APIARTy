@@ -1,0 +1,97 @@
+TernarySplitter  in 211ms
+return errors == null
+return (getImageResource() == null) && localizedImageResource.isStateless()
+return requestWindow[requestWindow.length - 1] != null
+return ((((((classRef != null ? classRef.getName() : "null class") + ":") + locale) + ":") + style) + ":") + markupType
+return uploadedFiles != null
+return cache.remove(key) == null
+return (attributes != null) && (attributes.size() > 0)
+return getAttributes().put(key, value != null ? value.toString() : null)
+return "body".equalsIgnoreCase(tag.getName()) && (tag.getNamespace() == null)
+return ((((("[markup = " + String.valueOf(markup)) + ", index = ") + currentIndex) + ", current = ") + (current == null ? "null" : current.toUserDebugString())) + "]"
+return (requestLogger != null) && settings.isRequestLoggerEnabled()
+final boolean token2Unused = (token2 == null) || (wasRendered(token2) == false)
+return findParent(Form.class) == null
+return (error != null) && error
+throw new MissingResourceException(message.toString(), component != null ? component.getClass().getName() : "", key)
+Localizer.log.debug(((((("Property found in cache: '" + key) + "'; Component: '") + (component != null ? component.toString(false) : null)) + "'; value: '") + value) + '\'')
+Localizer.log.debug(((("Locate property: key: '" + key) + "'; Component: '") + (component != null ? component.toString(false) : null)) + '\'')
+Localizer.log.debug(((("Property not found; key: '" + key) + "'; Component: '") + (component != null ? component.toString(false) : null)) + '\'')
+boolean renderTag = (openTag != null) && (!(openTag instanceof WicketTag))
+return getMarkupId() != null
+return (getMessage() + "\n MarkupStream: ") + (markupStream == null ? "[unknown]" : markupStream.toString())
+return AjaxRequestTarget.get() != null
+return ((getImageResource() == null) || (getImageResource() == localizedImageResource.getResource())) && localizedImageResource.isStateless()
+final boolean assignBaseLocation = (lastRequest != null) && (lastRequest.getHeader("Wicket-Ajax") == null)
+final boolean assignBaseLocation = (lastRequest != null) && (lastRequest.getHeader("Wicket-Ajax") == null)
+return ((items != null) && items.hasNext()) && (index < max)
+return redirectUrl != null
+return ThreadContext.getApplication() != null
+return message.getReporter() != null
+return (message.getReporter() == null) && message.isRendered()
+return behaviors != null
+return markupCache != null
+return (markup != null) && (markup != Markup.NO_MARKUP)
+return redirectLocation != null
+return (superType != null) && superType.isAssignableFrom(type)
+return (selected != null) && selected.equals(getChoiceRenderer().getIdValue(object, index))
+return (reporter != null) && (container.contains(reporter, true) || Objects.equal(container, reporter))
+return (parameter != null) && (parameter.trim().length() > 0)
+return next != null
+return ((((("[FeedbackMessage message = \"" + getMessage()) + "\", reporter = ") + (getReporter() == null ? "null" : getReporter().getId())) + ", level = ") + getLevelAsString()) + ']'
+return ThreadContext.getApplication().getResourceSettings().getResourceStreamLocator().locate(scope, absolutePath, style, variation, locale, null, false) != null
+XForwardedRequestWrapperFactory.log.debug(((((((((((((((((((((((((((((((((("Incoming request " + request.getRequestURI()) + " with originalRemoteAddr '") + request.getRemoteAddr()) + "', originalRemoteHost='") + request.getRemoteHost()) + "', originalSecure='") + request.isSecure()) + "', originalScheme='") + request.getScheme()) + "', original[") + config.remoteIPHeader) + "]='") + request.getHeader(config.remoteIPHeader)) + ", original[") + config.protocolHeader) + "]='") + (config.protocolHeader == null ? null : request.getHeader(config.protocolHeader))) + "' will be seen as newRemoteAddr='") + xRequest.getRemoteAddr()) + "', newRemoteHost='") + xRequest.getRemoteHost()) + "', newScheme='") + xRequest.getScheme()) + "', newSecure='") + xRequest.isSecure()) + "', new[") + config.remoteIPHeader) + "]='") + xRequest.getHeader(config.remoteIPHeader)) + ", new[") + config.proxiesHeader) + "]='") + xRequest.getHeader(config.proxiesHeader)) + "'")
+return getAssociatedMarkup() != null
+return (obj != null) && getClass().equals(obj.getClass())
+return resourceReference != null
+return (pageInstance == null) && ((pageId == null) || (getPageSource().getPageInstance(pageId) == null))
+return (pageInstance == null) && ((pageId == null) || (getPageSource().getPageInstance(pageId) == null))
+return (pageInstance == null) && ((pageId == null) || (getPageSource().getPageInstance(pageId) == null))
+boolean isNull = getConvertedInput() == null
+return TagStack.doesNotRequireCloseTag.get(name.toLowerCase()) == null
+stateless = statefulComponent == null
+return (renderedComponents != null) && renderedComponents.contains(component)
+return (contentType != null) && contentType.toLowerCase().contains("multipart")
+return (errorAttributes != null) && (!Strings.isEmpty(errorAttributes.getRequestUri()))
+markupHighlight.setVisible(markupStream != null)
+return (ref != null) && (!ref.contains(":"))
+return (value == null) || (value.trim().length() == 0)
+add(new Label("info", page == null ? "[Stateless Page]" : page.toString()))
+listItem.add(new Label("renderDuration", componentData.renderDuration != null ? componentData.renderDuration.toString() : "n/a"))
+return (flag != null) && flag
+final String fn = UrlEncoder.QUERY_INSTANCE.encode(fileName != null ? fileName : file.getName(), getRequest().getCharset())
+DiskDataStore.log.debug("Returning data{} for page with id '{}' in session with id '{}'", new Object[]{ pageData != null ? "" : "(null)", id, sessionId })
+return HtmlHandler.doesNotRequireCloseTag.get(name.toLowerCase()) == null
+insert = (accept == null) || (accept.indexOf(MarkupType.XML_MIME) != (-1))
+return filterFactoryManager != null
+return null != _registerResourceReference(reference)
+cookiesEnabled = (cookies != null) && (cookies.size() > 0)
+return (((((("(" + getSegmentIndex()) + ") ") + getMinParameters()) + "-") + getMaxParameters()) + " ") + (getFixedPart() == null ? "(end)" : getFixedPart())
+return (getOptionalPlaceholder(segment) == null) && (getPlaceholder(segment) == null)
+return (getOptionalPlaceholder(segment) == null) && (getPlaceholder(segment) == null)
+return getMatchedSegmentSizes(url) != null
+return (children != null) && (!children.isEmpty())
+return (getParentItem() != null) && ((getParentItem().getChildren() == null) || getParentItem().hasParentWithChildrenMarkedToRecreation())
+return (getParentItem() != null) && ((getParentItem().getChildren() == null) || getParentItem().hasParentWithChildrenMarkedToRecreation())
+boolean addingToHiddedRoot = (parentItem.getParentItem() == null) && isRootLess()
+boolean addingToHiddedRootSon = ((grandparentNode != null) && (getParentNode(grandparentNode) == null)) && isRootLess()
+boolean addingToHiddedRootSon = ((grandparentNode != null) && (getParentNode(grandparentNode) == null)) && isRootLess()
+return ThreadContext.get(false) != null
+boolean add = tag.getId() != null
+add = (tag.getOpenTag() != null) && (tag.getOpenTag().getId() != null)
+add = (tag.getOpenTag() != null) && (tag.getOpenTag().getId() != null)
+Label label = new Label(id, serializable == null ? "" : serializable.toString())
+return pw == null
+return ThreadContext.getSession() != null
+return getId() == null
+CheckNotNull  in 1633ms
+ForceNullInit in 187ms
+AddImplicitCastChecker --> 12 in 2516ms
+BeforeDeref --> 8775 (failed:3) in 1222ms
+target--> 10450 (failed:0) in 4713ms
+TryRegister # Try: 242 in 241ms
+Assign --> 3846 (failed: 0) in 2880ms
+VarInit --> 1952 in 1814ms
+MethodEncapsulation # Method: 5811 in 12146ms
+ConstructorEncapsulation # Constructor: 984 in 1966ms
+VariableFor in 693ms

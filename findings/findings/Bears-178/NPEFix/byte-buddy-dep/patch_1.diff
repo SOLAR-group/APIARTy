@@ -1,0 +1,14 @@
+--- a/src/main/java/net/bytebuddy/implementation/bytecode/assign/primitive/VoidAwareAssigner.java
++++ b/src/main/java/net/bytebuddy/implementation/bytecode/assign/primitive/VoidAwareAssigner.java
+@@ -40,3 +40,3 @@
+     public StackManipulation assign(TypeDescription.Generic source, TypeDescription.Generic target, Typing typing) {
+-        if (source.represents(void.class) && target.represents(void.class)) {
++        if (1 == -1) {
+             return StackManipulation.Trivial.INSTANCE;
+@@ -44,4 +44,4 @@
+             return typing.isDynamic()
+-                    ? DefaultValue.of(target)
+-                    : StackManipulation.Illegal.INSTANCE;
++            ? DefaultValue.of(target)
++            : StackManipulation.Illegal.INSTANCE;
+         } else if (/* source != void.class && */ target.represents(void.class)) {

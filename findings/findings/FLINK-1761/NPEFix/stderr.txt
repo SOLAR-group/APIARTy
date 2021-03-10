@@ -1,0 +1,82 @@
+
+Usage: java -jar npefix.jar
+                          (-s|--source) source1:source2:...:sourceN  (-c|--classpath) <classpath> (-t|--test) test1:test2:...:testN  [--complianceLevel <complianceLevel>] [(-i|--iteration) <iteration>] [(-w|--workingdirectory) <workingdirectory>] [--repairStrategy <repairStrategy>]
+
+  (-s|--source) source1:source2:...:sourceN 
+        Define the path to the source code of the project.
+
+  (-c|--classpath) <classpath>
+        Define the classpath of the project.
+
+  (-t|--test) test1:test2:...:testN 
+        Define the tests of the project (both failing and passing),
+        fully-qualified, separated with ':' (even if the classpath contains
+        other tests, only those are considered.
+
+  [--complianceLevel <complianceLevel>]
+        The compliance level of the project. (default: 7)
+
+  [(-i|--iteration) <iteration>]
+        The maximum number of npefix iteration. (default: 100)
+
+  [(-w|--workingdirectory) <workingdirectory>]
+        Define the location where npefix will put its files. (default: .)
+
+  [--repairStrategy <repairStrategy>]
+        Define the repair strategy used by NPEFix. (default:
+        fr.inria.spirals.npefix.main.all.DefaultRepairStrategy)
+
+Exception in thread "main" java.lang.NullPointerException
+	at fr.inria.spirals.npefix.transformer.processors.CheckNotNull.getNotNullElements(CheckNotNull.java:140)
+	at fr.inria.spirals.npefix.transformer.processors.CheckNotNull.getNotNullElements(CheckNotNull.java:170)
+	at fr.inria.spirals.npefix.transformer.processors.CheckNotNull.process(CheckNotNull.java:126)
+	at fr.inria.spirals.npefix.transformer.processors.CheckNotNull.process(CheckNotNull.java:29)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:70)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.visitCtWhile(CtScanner.java:814)
+	at spoon.support.reflect.code.CtWhileImpl.accept(CtWhileImpl.java:23)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:66)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:139)
+	at spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:294)
+	at spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:55)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:66)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.visitCtIf(CtScanner.java:478)
+	at spoon.support.reflect.code.CtIfImpl.accept(CtIfImpl.java:34)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:66)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:139)
+	at spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:294)
+	at spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:55)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:66)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.visitCtTry(CtScanner.java:712)
+	at spoon.support.reflect.code.CtTryImpl.accept(CtTryImpl.java:41)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:66)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:139)
+	at spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:294)
+	at spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:55)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:66)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:551)
+	at spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:56)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:66)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:165)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:139)
+	at spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:330)
+	at spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:56)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:173)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:66)
+	at spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)
+	at fr.inria.spirals.npefix.main.all.Launcher.instrument(Launcher.java:105)
+	at fr.inria.spirals.npefix.main.run.Main.run(Main.java:70)
+	at fr.inria.spirals.npefix.main.run.Main.main(Main.java:50)

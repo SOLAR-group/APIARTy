@@ -1,0 +1,35 @@
+23:52:30.075 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/workspaces/APIARTy/data/Bears-8/jackson-databind/src/main/java, /workspaces/APIARTy/data/Bears-8/jackson-databind/src/test/java]
+23:52:30.088 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/workspaces/APIARTy/data/Bears-8/jackson-databind/target/classes/, file:/workspaces/APIARTy/data/Bears-8/jackson-databind/target/test-classes/, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.6/jackson-core-2.8.6.jar, file:/root/.m2/repository/junit/junit/4.12/junit-4.12.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/root/.m2/repository/org/powermock/powermock-module-junit4/1.6.5/powermock-module-junit4-1.6.5.jar, file:/root/.m2/repository/org/powermock/powermock-module-junit4-common/1.6.5/powermock-module-junit4-common-1.6.5.jar, file:/root/.m2/repository/org/powermock/powermock-core/1.6.5/powermock-core-1.6.5.jar, file:/root/.m2/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar, file:/root/.m2/repository/org/powermock/powermock-reflect/1.6.5/powermock-reflect-1.6.5.jar, file:/root/.m2/repository/org/powermock/powermock-api-mockito/1.6.5/powermock-api-mockito-1.6.5.jar, file:/root/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar, file:/root/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar, file:/root/.m2/repository/org/powermock/powermock-api-mockito-common/1.6.5/powermock-api-mockito-common-1.6.5.jar, file:/root/.m2/repository/org/powermock/powermock-api-support/1.6.5/powermock-api-support-1.6.5.jar, file:/root/.m2/repository/javax/measure/jsr-275/0.9.1/jsr-275-0.9.1.jar, file:/root/.m2/repository/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar, file:/root/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar]
+23:52:30.091 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: CONDITIONAL
+23:52:30.094 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [com.fasterxml.jackson.databind.ser.TestMapSerialization]
+23:52:30.103 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=CONDITIONAL, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/workspaces/APIARTy/data/Bears-8/jackson-databind/src/main/java, /workspaces/APIARTy/data/Bears-8/jackson-databind/src/test/java], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[com.fasterxml.jackson.databind.ser.TestMapSerialization], complianceLevel=7, outputFolder=., json=false}
+23:52:30.104 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+23:52:30.129 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 28 MB
+23:52:30.133 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 443 MB
+23:52:30.138 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 31 MB
+23:52:30.149 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+23:52:30.161 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+23:52:30.164 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /root/.vscode-server/bin/26076a4de974ead31f97692a0d32f90d735645c0/bin:/apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+23:53:04.258 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+23:53:04.260 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.fasterxml.jackson.databind.BaseMapTest:212 which is executed by 1 tests
+511077342
+23:53:06.172 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+23:53:06.174 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.fasterxml.jackson.databind.BaseMapTest:211 which is executed by 1 tests
+511077342
+23:53:07.400 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+23:53:11.816 [pool-2-thread-1] DEBUG tests.output - Failing tests with false: 
+[warning(junit.framework.TestSuite$1): Class junit.framework.TestSuite$1 has no public constructor TestCase(String name) or TestCase()]
+23:53:11.818 [pool-2-thread-1] DEBUG tests.output - Failing tests with true: 
+[warning(junit.framework.TestSuite$1): Class junit.framework.TestSuite$1 has no public constructor TestCase(String name) or TestCase()]
+23:53:11.824 [pool-2-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.databind.BaseMapTest:211.
+23:53:11.825 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+23:53:13.284 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 776
+23:53:13.293 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 6742
+23:53:13.301 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 1
+23:53:13.303 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+23:53:13.307 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 0
+23:53:13.326 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 0
+23:53:13.330 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 0
+23:53:13.332 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 41766ms
+23:53:13.336 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+NO_ANGELIC_VALUE

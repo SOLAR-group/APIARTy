@@ -1,0 +1,691 @@
+15:13:16.824 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/CAMEL-6779/camel/camel-core/src/main/java, /apiarty/data/CAMEL-6779/camel/camel-core/src/test/java]
+15:13:16.840 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/CAMEL-6779/camel/camel-core/target/classes/, file:/apiarty/data/CAMEL-6779/camel/camel-core/target/test-classes/, file:/root/.m2/repository/org/apache/camel/spi-annotations/2.13-SNAPSHOT/spi-annotations-2.13-SNAPSHOT.jar, file:/root/.m2/repository/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4/concurrentlinkedhashmap-lru-1.4.jar, file:/root/.m2/repository/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar, file:/root/.m2/repository/org/osgi/org.osgi.core/4.3.1/org.osgi.core-4.3.1.jar, file:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/root/.m2/repository/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar, file:/root/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar, file:/root/.m2/repository/org/easymock/easymock/3.2/easymock-3.2.jar, file:/root/.m2/repository/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar, file:/root/.m2/repository/org/objenesis/objenesis/1.3/objenesis-1.3.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.2.2/jackson-databind-2.2.2.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.2.2/jackson-annotations-2.2.2.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.2.2/jackson-core-2.2.2.jar, file:/root/.m2/repository/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.jar, file:/root/.m2/repository/org/apache/camel/apt/2.13-SNAPSHOT/apt-2.13-SNAPSHOT.jar]
+15:13:16.841 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+15:13:16.842 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.camel.converter.jaxp.StaxConverterTest]
+15:13:16.846 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/CAMEL-6779/camel/camel-core/src/main/java, /apiarty/data/CAMEL-6779/camel/camel-core/src/test/java], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[org.apache.camel.converter.jaxp.StaxConverterTest], complianceLevel=8, outputFolder=., json=false}
+15:13:16.848 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+15:13:16.866 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+15:13:16.867 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+15:13:16.868 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+15:13:16.869 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+15:13:16.872 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+15:13:16.874 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+15:17:35.713 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+15:17:35.715 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.support.EventNotifierSupport:63 which is executed by 2 tests
+1849428336
+15:18:53.654 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+15:18:53.655 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.support.EventNotifierSupport:62 which is executed by 2 tests
+1849428336
+15:19:58.219 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+15:20:58.262 [pool-2-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+15:20:58.264 [pool-2-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+15:20:58.265 [pool-2-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.support.EventNotifierSupport:62.
+15:20:58.267 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+15:20:58.268 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.support.EventNotifierSupport:55 which is executed by 2 tests
+1849428336
+15:21:49.987 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+15:21:49.989 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.support.EventNotifierSupport:54 which is executed by 2 tests
+1849428336
+15:22:55.463 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+15:23:48.704 [pool-8-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+15:23:48.706 [pool-8-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+15:23:48.708 [pool-8-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.support.EventNotifierSupport:54.
+15:23:48.709 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+15:23:48.711 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.support.EventNotifierSupport:47 which is executed by 2 tests
+1849428336
+15:25:02.642 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+15:25:02.643 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.support.EventNotifierSupport:46 which is executed by 2 tests
+1849428336
+15:25:58.212 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+15:26:44.803 [pool-14-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+15:26:44.804 [pool-14-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+15:26:44.805 [pool-14-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.support.EventNotifierSupport:46.
+15:26:44.807 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+15:26:44.808 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.support.EventNotifierSupport:42 which is executed by 2 tests
+1849428336
+15:27:54.821 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+15:27:54.822 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:140 which is executed by 2 tests
+1484498224
+15:29:01.513 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+15:30:33.764 [pool-20-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): java.lang.IllegalArgumentException: in must be specified, testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): java.lang.IllegalArgumentException: in must be specified]
+15:30:33.767 [pool-20-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+15:30:33.769 [pool-20-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultFactoryFinder:140.
+15:30:33.769 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+15:30:33.771 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:139 which is executed by 2 tests
+1484498224
+15:31:35.226 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+15:32:52.193 [pool-26-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): java.lang.IllegalArgumentException: in must be specified, testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): java.lang.IllegalArgumentException: in must be specified]
+15:32:52.194 [pool-26-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+15:32:52.197 [pool-26-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultFactoryFinder:139.
+15:32:52.198 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+15:34:04.235 [pool-32-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): java.lang.IllegalArgumentException: in must be specified, testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): java.lang.IllegalArgumentException: in must be specified]
+15:34:04.238 [pool-32-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+15:34:04.239 [pool-32-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultFactoryFinder:139.
+15:34:04.240 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+15:34:04.241 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:138 which is executed by 2 tests
+1484498224
+15:34:58.506 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+15:34:58.507 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:136 which is executed by 2 tests
+1484498224
+15:36:17.217 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+15:36:17.218 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:118 which is executed by 2 tests
+1484498224
+15:37:22.970 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+15:37:22.973 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:114 which is executed by 2 tests
+1484498224
+15:38:36.813 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+15:38:36.814 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:93 which is executed by 2 tests
+1484498224
+15:39:42.593 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+15:39:42.594 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:78 which is executed by 2 tests
+1484498224
+15:40:42.666 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+15:41:56.219 [pool-38-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): java.lang.NullPointerException, testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): java.lang.NullPointerException]
+15:41:56.220 [pool-38-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+15:41:56.221 [pool-38-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultFactoryFinder:78.
+15:41:56.221 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+15:41:56.222 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:77 which is executed by 2 tests
+1484498224
+15:42:49.462 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+15:44:17.308 [pool-44-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): java.lang.NullPointerException, testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): java.lang.NullPointerException]
+15:44:17.310 [pool-44-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+15:44:17.312 [pool-44-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultFactoryFinder:77.
+15:44:17.313 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+15:45:32.592 [pool-50-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): java.lang.NullPointerException, testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): java.lang.NullPointerException]
+15:45:32.593 [pool-50-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+15:45:32.593 [pool-50-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultFactoryFinder:77.
+15:45:32.594 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+15:45:32.594 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:76 which is executed by 2 tests
+1484498224
+15:46:31.334 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+15:46:31.335 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:74 which is executed by 2 tests
+1484498224
+15:47:34.140 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #19
+15:47:34.141 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:63 which is executed by 2 tests
+1484498224
+15:49:06.724 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #20
+15:49:06.726 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:58 which is executed by 2 tests
+1484498224
+15:50:09.986 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+15:51:36.981 [pool-56-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+DefaultFactoryFinder.java:41: error: missing return statement
+    }
+    ^
+15:51:36.994 [pool-56-thread-1] ERROR f.i.l.r.n.s.ConstraintModelBuilder - Unable to compile the change: 
+public class DefaultFactoryFinder implements org.apache.camel.spi.FactoryFinder {
+    protected final java.util.concurrent.ConcurrentMap<java.lang.String, java.lang.Class<?>> classMap = new java.util.concurrent.ConcurrentHashMap<java.lang.String, java.lang.Class<?>>();
+
+    private final org.apache.camel.spi.ClassResolver classResolver;
+
+    private final java.lang.String path;
+
+    public DefaultFactoryFinder(org.apache.camel.spi.ClassResolver classResolver, java.lang.String resourcePath) {
+        this.classResolver = classResolver;
+        this.path = resourcePath;
+    }
+
+    public java.lang.String getResourcePath() {
+        return path;
+    }
+
+    public java.lang.Object newInstance(java.lang.String key) throws org.apache.camel.NoFactoryAvailableException {
+        try {
+            return newInstance(key, null);
+        } catch (java.lang.Exception e) {
+            boolean spoonDefaultValue = false;
+            try {
+                spoonDefaultValue = true;
+            } catch (java.lang.Exception __NopolProcessorException) {
+            }
+            boolean runtimeAngelicValue = fr.inria.lille.repair.nopol.synth.AngelicExecution.angelicValue(spoonDefaultValue);
+            if (fr.inria.lille.commons.trace.RuntimeValues.instance(9).isEnabled()) {
+                fr.inria.lille.commons.trace.RuntimeValues.instance(9).collectionStarts();
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(9).collectInput("org.apache.camel.impl.DefaultFactoryFinder.this.classMap",org.apache.camel.impl.DefaultFactoryFinder.this.classMap);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(9).collectInput("org.apache.camel.impl.DefaultFactoryFinder.this.path",org.apache.camel.impl.DefaultFactoryFinder.this.path);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(9).collectInput("org.apache.camel.impl.DefaultFactoryFinder.this.classResolver",org.apache.camel.impl.DefaultFactoryFinder.this.classResolver);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(9).collectInput("key",key);} catch (Exception ex1) {ex1.printStackTrace();};
+                fr.inria.lille.commons.trace.RuntimeValues.instance(9).collectOutput(runtimeAngelicValue);
+                fr.inria.lille.commons.trace.RuntimeValues.instance(9).collectionEnds();
+            }
+            if (runtimeAngelicValue)
+                throw new org.apache.camel.NoFactoryAvailableException(key, e);
+
+        }
+    }
+
+    public <T> java.util.List<T> newInstances(java.lang.String key, org.apache.camel.spi.Injector injector, java.lang.Class<T> type) throws java.io.IOException, java.lang.ClassNotFoundException {
+        java.util.List<java.lang.Class<T>> list = org.apache.camel.util.CastUtils.cast(findClasses(key));
+        java.util.List<T> answer = new java.util.ArrayList<T>(list.size());
+        answer.add(newInstance(key, injector, type));
+        return answer;
+    }
+
+    public java.lang.Class<?> findClass(java.lang.String key) throws java.io.IOException, java.lang.ClassNotFoundException {
+        return findClass(key, null);
+    }
+
+    public java.lang.Class<?> findClass(java.lang.String key, java.lang.String propertyPrefix) throws java.io.IOException, java.lang.ClassNotFoundException {
+        java.lang.String prefix = (propertyPrefix != null) ? propertyPrefix : "";
+        java.lang.Class<?> clazz = classMap.get(prefix + key);
+        if (clazz == null) {
+            clazz = newInstance(doFindFactoryProperties(key), prefix);
+            if (clazz != null) {
+                classMap.put(prefix + key, clazz);
+            }
+        }
+        return clazz;
+    }
+
+    public java.lang.Class<?> findClass(java.lang.String key, java.lang.String propertyPrefix, java.lang.Class<?> clazz) throws java.io.IOException, java.lang.ClassNotFoundException {
+        return findClass(key, propertyPrefix);
+    }
+
+    private java.lang.Object newInstance(java.lang.String key, java.lang.String propertyPrefix) throws java.io.IOException, java.lang.ClassNotFoundException, java.lang.IllegalAccessException, java.lang.InstantiationException {
+        java.lang.Class<?> clazz = findClass(key, propertyPrefix);
+        return clazz.newInstance();
+    }
+
+    private <T> T newInstance(java.lang.String key, org.apache.camel.spi.Injector injector, java.lang.Class<T> expectedType) throws java.io.IOException, java.lang.ClassNotFoundException {
+        return newInstance(key, injector, null, expectedType);
+    }
+
+    private <T> T newInstance(java.lang.String key, org.apache.camel.spi.Injector injector, java.lang.String propertyPrefix, java.lang.Class<T> expectedType) throws java.io.IOException, java.lang.ClassNotFoundException {
+        java.lang.Class<?> type = findClass(key, propertyPrefix);
+        java.lang.Object value = injector.newInstance(type);
+        if (expectedType.isInstance(value)) {
+            return expectedType.cast(value);
+        } else {
+            throw new java.lang.ClassCastException((("Not instanceof " + expectedType.getName()) + " value: ") + value);
+        }
+    }
+
+    private java.util.List<java.lang.Class<?>> findClasses(java.lang.String key) throws java.io.IOException, java.lang.ClassNotFoundException {
+        return findClasses(key, null);
+    }
+
+    private java.util.List<java.lang.Class<?>> findClasses(java.lang.String key, java.lang.String propertyPrefix) throws java.io.IOException, java.lang.ClassNotFoundException {
+        java.lang.Class<?> type = findClass(key, propertyPrefix);
+        return java.util.Collections.<java.lang.Class<?>>singletonList(type);
+    }
+
+    private java.lang.Class<?> newInstance(java.util.Properties properties, java.lang.String propertyPrefix) throws java.io.IOException, java.lang.ClassNotFoundException {
+        java.lang.String className = properties.getProperty(propertyPrefix + "class");
+        if (className == null) {
+            throw new java.io.IOException(("Expected property is missing: " + propertyPrefix) + "class");
+        }
+        java.lang.Class<?> clazz = classResolver.resolveClass(className);
+        if (clazz == null) {
+            throw new java.lang.ClassNotFoundException(className);
+        }
+        return clazz;
+    }
+
+    private java.util.Properties doFindFactoryProperties(java.lang.String key) throws java.io.IOException {
+        java.lang.String uri = path + key;
+        java.io.InputStream in = classResolver.loadResourceAsStream(uri);
+        if (in == null) {
+            throw new org.apache.camel.NoFactoryAvailableException(uri);
+        }
+        java.io.BufferedInputStream reader = null;
+        try {
+            reader = org.apache.camel.util.IOHelper.buffered(in);
+            java.util.Properties properties = new java.util.Properties();
+            properties.load(reader);
+            return properties;
+        } finally {
+            org.apache.camel.util.IOHelper.close(reader, key, null);
+            org.apache.camel.util.IOHelper.close(in, key, null);
+        }
+    }
+}
+15:51:36.996 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+15:51:36.996 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #21
+15:51:36.997 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:57 which is executed by 2 tests
+1484498224
+15:52:46.116 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #22
+15:52:46.117 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:56 which is executed by 2 tests
+1484498224
+15:53:44.240 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #23
+15:53:44.241 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:224 which is executed by 2 tests
+404826990
+15:54:40.037 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #24
+15:54:40.038 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:221 which is executed by 2 tests
+404826990
+15:55:31.982 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+15:56:26.874 [pool-58-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+15:56:26.875 [pool-58-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+15:56:26.876 [pool-58-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:221.
+15:56:26.878 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+15:57:51.072 [pool-64-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+15:57:51.073 [pool-64-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): Error during type conversion from type: java.io.ByteArrayInputStream to the required type: javax.xml.stream.XMLEventReader with value java.io.ByteArrayInputStream@540ae08b due Error during post processing of bean org.apache.camel.converter.jaxp.StaxConverter@50357e55, testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): Error during type conversion from type: java.io.ByteArrayInputStream to the required type: javax.xml.stream.XMLStreamReader with value java.io.ByteArrayInputStream@540ae08b due Error during post processing of bean org.apache.camel.converter.jaxp.StaxConverter@1004294]
+15:57:51.074 [pool-64-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:221.
+15:57:51.076 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #25
+15:57:51.077 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:220 which is executed by 2 tests
+404826990
+15:59:38.217 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #26
+15:59:38.218 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:216 which is executed by 2 tests
+404826990
+16:01:01.050 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:02:21.007 [pool-70-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:02:21.010 [pool-70-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:02:21.011 [pool-70-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:216.
+16:02:21.012 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+16:03:37.984 [pool-76-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:03:37.984 [pool-76-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): Error during type conversion from type: java.io.ByteArrayInputStream to the required type: javax.xml.stream.XMLEventReader with value java.io.ByteArrayInputStream@393f0fd due Error during post processing of bean org.apache.camel.converter.jaxp.StaxConverter@7ac74d0, testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): Error during type conversion from type: java.io.ByteArrayInputStream to the required type: javax.xml.stream.XMLStreamReader with value java.io.ByteArrayInputStream@393f0fd due Error during post processing of bean org.apache.camel.converter.jaxp.StaxConverter@3929b5fe]
+16:03:37.985 [pool-76-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:216.
+16:03:37.986 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #27
+16:03:37.987 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:215 which is executed by 2 tests
+404826990
+16:04:48.561 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #28
+16:04:48.563 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:211 which is executed by 2 tests
+404826990
+16:05:56.484 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:07:05.431 [pool-82-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:07:05.432 [pool-82-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:07:05.433 [pool-82-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:211.
+16:07:05.434 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+16:08:25.611 [pool-88-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:08:25.612 [pool-88-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): Error during type conversion from type: java.io.ByteArrayInputStream to the required type: javax.xml.stream.XMLEventReader with value java.io.ByteArrayInputStream@35d6394f due Error during post processing of bean org.apache.camel.converter.jaxp.StaxConverter@31e9bbaa, testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): Error during type conversion from type: java.io.ByteArrayInputStream to the required type: javax.xml.stream.XMLStreamReader with value java.io.ByteArrayInputStream@35d6394f due Error during post processing of bean org.apache.camel.converter.jaxp.StaxConverter@40be9aae]
+16:08:25.613 [pool-88-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:211.
+16:08:25.614 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #29
+16:08:25.614 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:210 which is executed by 2 tests
+404826990
+16:09:21.208 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #30
+16:09:21.212 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:207 which is executed by 2 tests
+404826990
+16:10:23.038 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #31
+16:10:23.039 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:201 which is executed by 2 tests
+404826990
+16:11:20.343 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:12:30.010 [pool-94-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:12:30.011 [pool-94-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:12:30.011 [pool-94-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:201.
+16:12:30.012 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #32
+16:12:30.013 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:185 which is executed by 2 tests
+404826990
+16:13:31.912 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #33
+16:13:31.917 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:167 which is executed by 2 tests
+404826990
+16:14:23.645 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:15:22.477 [pool-100-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:15:22.478 [pool-100-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:15:22.479 [pool-100-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:167.
+16:15:22.480 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #34
+16:15:22.481 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:143 which is executed by 2 tests
+404826990
+16:16:41.400 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #35
+16:16:41.401 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:139 which is executed by 2 tests
+404826990
+16:17:33.354 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #36
+16:17:33.359 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:137 which is executed by 2 tests
+404826990
+16:18:36.035 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:19:53.282 [pool-106-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): Error during type conversion from type: java.io.ByteArrayInputStream to the required type: javax.xml.stream.XMLEventReader with value java.io.ByteArrayInputStream@220bf99b due Error during post processing of bean org.apache.camel.converter.jaxp.StaxConverter@7ab60939, testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): Error during type conversion from type: java.io.ByteArrayInputStream to the required type: javax.xml.stream.XMLStreamReader with value java.io.ByteArrayInputStream@220bf99b due Error during post processing of bean org.apache.camel.converter.jaxp.StaxConverter@1305cf2e]
+16:19:53.283 [pool-106-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:19:53.284 [pool-106-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:137.
+16:19:53.285 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #37
+16:19:53.286 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:136 which is executed by 2 tests
+404826990
+16:20:56.764 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:22:05.054 [pool-112-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): Error during type conversion from type: java.io.ByteArrayInputStream to the required type: javax.xml.stream.XMLEventReader with value java.io.ByteArrayInputStream@7396a8 due Error during post processing of bean org.apache.camel.converter.jaxp.StaxConverter@15d858cf, testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): Error during type conversion from type: java.io.ByteArrayInputStream to the required type: javax.xml.stream.XMLStreamReader with value java.io.ByteArrayInputStream@7396a8 due Error during post processing of bean org.apache.camel.converter.jaxp.StaxConverter@5ca5b9b1]
+16:22:05.055 [pool-112-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:22:05.056 [pool-112-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:136.
+16:22:05.057 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+16:23:04.664 [pool-118-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): Error during type conversion from type: java.io.ByteArrayInputStream to the required type: javax.xml.stream.XMLEventReader with value java.io.ByteArrayInputStream@2a961e68 due Error during post processing of bean org.apache.camel.converter.jaxp.StaxConverter@4bcd9d45, testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): Error during type conversion from type: java.io.ByteArrayInputStream to the required type: javax.xml.stream.XMLStreamReader with value java.io.ByteArrayInputStream@2a961e68 due Error during post processing of bean org.apache.camel.converter.jaxp.StaxConverter@55910168]
+16:23:04.667 [pool-118-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:23:04.668 [pool-118-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:136.
+16:23:04.669 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #38
+16:23:04.671 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:129 which is executed by 2 tests
+404826990
+16:24:07.949 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #39
+16:24:07.951 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:122 which is executed by 2 tests
+404826990
+16:25:34.334 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #40
+16:25:34.335 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:117 which is executed by 2 tests
+404826990
+16:26:44.842 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:27:56.068 [pool-124-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:27:56.071 [pool-124-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:27:56.072 [pool-124-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:117.
+16:27:56.073 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+16:29:06.779 [pool-130-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:29:06.782 [pool-130-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): Error during type conversion from type: java.io.ByteArrayInputStream to the required type: javax.xml.stream.XMLEventReader with value java.io.ByteArrayInputStream@6e0810c5 due Error during post processing of bean org.apache.camel.converter.jaxp.StaxConverter@6a37995b, testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): Error during type conversion from type: java.io.ByteArrayInputStream to the required type: javax.xml.stream.XMLStreamReader with value java.io.ByteArrayInputStream@6e0810c5 due Error during post processing of bean org.apache.camel.converter.jaxp.StaxConverter@7d5db6a1]
+16:29:06.783 [pool-130-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:117.
+16:29:06.784 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #41
+16:29:06.785 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:113 which is executed by 2 tests
+404826990
+16:30:21.589 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:31:37.990 [pool-136-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:31:37.991 [pool-136-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:31:37.991 [pool-136-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:113.
+16:31:37.992 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+16:32:50.644 [pool-142-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:32:50.647 [pool-142-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:32:50.648 [pool-142-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:113.
+16:32:50.649 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #42
+16:32:50.650 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:110 which is executed by 2 tests
+404826990
+16:33:55.441 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:35:15.521 [pool-148-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:35:15.522 [pool-148-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:35:15.523 [pool-148-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:110.
+16:35:15.524 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #43
+16:35:15.525 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:94 which is executed by 2 tests
+404826990
+16:36:07.980 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #44
+16:36:07.981 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:84 which is executed by 2 tests
+404826990
+16:37:03.959 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:38:05.289 [pool-154-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:38:05.290 [pool-154-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:38:05.291 [pool-154-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:84.
+16:38:05.293 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+16:39:06.409 [pool-160-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:39:06.411 [pool-160-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): Error during type conversion from type: java.io.ByteArrayInputStream to the required type: javax.xml.stream.XMLEventReader with value java.io.ByteArrayInputStream@1409bc7b due Error during post processing of bean org.apache.camel.converter.jaxp.StaxConverter@10363aa5, testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): Error during type conversion from type: java.io.ByteArrayInputStream to the required type: javax.xml.stream.XMLStreamReader with value java.io.ByteArrayInputStream@1409bc7b due Error during post processing of bean org.apache.camel.converter.jaxp.StaxConverter@124db351]
+16:39:06.412 [pool-160-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:84.
+16:39:06.413 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #45
+16:39:06.413 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:82 which is executed by 2 tests
+404826990
+16:39:58.787 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:41:09.357 [pool-166-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:41:09.359 [pool-166-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:41:09.360 [pool-166-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:82.
+16:41:09.361 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #46
+16:41:09.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:81 which is executed by 2 tests
+404826990
+16:42:08.411 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:43:12.998 [pool-172-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:43:12.999 [pool-172-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:43:13.000 [pool-172-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:81.
+16:43:13.000 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #47
+16:43:13.001 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:77 which is executed by 2 tests
+404826990
+16:44:00.886 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:45:14.916 [pool-178-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:45:14.920 [pool-178-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:45:14.921 [pool-178-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:77.
+16:45:14.922 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+16:46:12.763 [pool-184-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:46:12.764 [pool-184-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:46:12.765 [pool-184-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:77.
+16:46:12.765 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #48
+16:46:12.766 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:74 which is executed by 2 tests
+404826990
+16:47:13.824 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:48:48.375 [pool-190-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:48:48.376 [pool-190-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:48:48.377 [pool-190-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultCamelBeanPostProcessor:74.
+16:48:48.378 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #49
+16:48:48.379 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:381 which is executed by 2 tests
+1406076367
+16:49:46.600 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #50
+16:49:46.601 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:380 which is executed by 2 tests
+1406076367
+16:50:46.794 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:51:49.170 [pool-196-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:51:49.173 [pool-196-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:51:49.174 [pool-196-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:380.
+16:51:49.175 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #51
+16:51:49.175 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:362 which is executed by 2 tests
+1406076367
+16:52:51.439 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #52
+16:52:51.441 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:361 which is executed by 2 tests
+1406076367
+16:53:48.209 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:54:49.195 [pool-202-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:54:49.198 [pool-202-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+16:54:49.199 [pool-202-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:361.
+16:54:49.200 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #53
+16:54:49.201 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:216 which is executed by 2 tests
+1406076367
+16:56:02.266 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #54
+16:56:02.267 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:202 which is executed by 2 tests
+1406076367
+16:57:05.383 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #55
+16:57:05.384 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:194 which is executed by 2 tests
+1406076367
+16:57:56.269 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #56
+16:57:56.270 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:190 which is executed by 2 tests
+1406076367
+16:58:52.700 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #57
+16:58:52.701 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:186 which is executed by 2 tests
+1406076367
+16:59:54.798 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #58
+16:59:54.799 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:185 which is executed by 2 tests
+1406076367
+17:01:03.186 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+17:02:31.872 [pool-208-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+17:02:31.876 [pool-208-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+17:02:31.877 [pool-208-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:185.
+17:02:31.880 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #59
+17:02:31.882 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:184 which is executed by 2 tests
+1406076367
+17:03:34.610 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #60
+17:03:34.612 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:180 which is executed by 2 tests
+1406076367
+17:04:20.979 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #61
+17:04:20.980 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:176 which is executed by 2 tests
+1406076367
+17:05:11.940 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #62
+17:05:11.941 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:174 which is executed by 2 tests
+1406076367
+17:06:04.950 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+17:07:17.287 [pool-214-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+17:07:17.289 [pool-214-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+17:07:17.290 [pool-214-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:174.
+17:07:17.290 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #63
+17:07:17.291 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:173 which is executed by 2 tests
+1406076367
+17:08:11.509 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+17:09:26.520 [pool-220-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+17:09:26.521 [pool-220-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+17:09:26.522 [pool-220-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:173.
+17:09:26.523 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+17:10:50.179 [pool-226-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+17:10:50.182 [pool-226-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEncodingXmlEventReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence., testEncodingXmlStreamReader(org.apache.camel.converter.jaxp.StaxConverterTest): ParseError at [row,col]:[1,75]
+Message: Invalid byte 2 of 3-byte UTF-8 sequence.]
+17:10:50.183 [pool-226-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:173.
+17:10:50.183 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #64
+17:10:50.184 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:172 which is executed by 2 tests
+1406076367
+17:12:12.504 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #65
+17:12:12.506 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:171 which is executed by 2 tests

@@ -1,0 +1,22 @@
+--- a/src/main/java/org/apache/jackrabbit/oak/security/authorization/permission/PermissionEntryProviderImpl.java
++++ b/src/main/java/org/apache/jackrabbit/oak/security/authorization/permission/PermissionEntryProviderImpl.java
+@@ -72,10 +72,12 @@
+         }
+-        if (cnt < maxSize) {
+-            // cache all entries of all principals
+-            pathEntryMap = new HashMap<String, Collection<PermissionEntry>>();
+-            for (String name: principalNames) {
+-                cache.load(store, pathEntryMap, name);
++        if (false) {
++            if (cnt < maxSize) {
++                // cache all entries of all principals
++                pathEntryMap = new HashMap<String, Collection<PermissionEntry>>();
++                for (String name: principalNames) {
++                    cache.load(store, pathEntryMap, name);
++                }
++            } else {
++                pathEntryMap = null;
+             }
+-        } else {
+-            pathEntryMap = null;
+         }

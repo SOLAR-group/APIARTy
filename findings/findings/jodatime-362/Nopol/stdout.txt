@@ -1,0 +1,557 @@
+14:30:26.439 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/workspaces/APIARTy/data/jodatime-362/joda/src/main/java, /workspaces/APIARTy/data/jodatime-362/joda/src/test/java]
+14:30:26.450 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/workspaces/APIARTy/data/jodatime-362/joda/target/classes/, file:/workspaces/APIARTy/data/jodatime-362/joda/target/test-classes/, file:/root/.m2/repository/org/joda/joda-convert/1.2/joda-convert-1.2.jar, file:/root/.m2/repository/junit/junit/3.8.2/junit-3.8.2.jar]
+14:30:26.452 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: CONDITIONAL
+14:30:26.454 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.joda.time.tz.TestCompiler]
+14:30:26.458 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=CONDITIONAL, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/workspaces/APIARTy/data/jodatime-362/joda/src/main/java, /workspaces/APIARTy/data/jodatime-362/joda/src/test/java], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[org.joda.time.tz.TestCompiler], complianceLevel=7, outputFolder=., json=false}
+14:30:26.461 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+14:30:26.482 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 966 MB
+14:30:26.484 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+14:30:26.486 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 981 MB
+14:30:26.488 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+14:30:26.494 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+14:30:26.496 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /root/.vscode-server/bin/c47d83b293181d9be64f27ff093689e8e7aed054/bin:/apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+14:30:40.379 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+14:30:40.384 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.InternalParserDateTimeParser:48 which is executed by 1 tests
+-32560105
+14:30:41.096 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+14:30:41.098 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.InternalParserDateTimeParser:39 which is executed by 1 tests
+-32560105
+14:30:41.457 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+14:30:41.458 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.InternalParserDateTimeParser:36 which is executed by 1 tests
+-32560105
+14:30:41.795 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:30:44.002 [pool-2-thread-1] DEBUG tests.output - Failing tests with false: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:30:44.004 [pool-2-thread-1] DEBUG tests.output - Failing tests with true: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:30:44.007 [pool-2-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.joda.time.format.InternalParserDateTimeParser:36.
+14:30:44.009 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+14:30:44.011 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.InternalParserDateTimeParser:33 which is executed by 1 tests
+-32560105
+14:30:44.371 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:30:46.258 [pool-6-thread-1] DEBUG tests.output - Failing tests with false: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:30:46.260 [pool-6-thread-1] DEBUG tests.output - Failing tests with true: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:30:46.261 [pool-6-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.joda.time.format.InternalParserDateTimeParser:33.
+14:30:46.263 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+14:30:46.264 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.InternalParserDateTimeParser:30 which is executed by 1 tests
+-32560105
+14:30:46.589 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:30:47.643 [pool-10-thread-1] DEBUG tests.output - Failing tests with false: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:30:47.647 [pool-10-thread-1] DEBUG tests.output - Failing tests with true: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:30:47.651 [pool-10-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.joda.time.format.InternalParserDateTimeParser:30.
+14:30:47.654 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+14:30:47.658 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeParserInternalParser:33 which is executed by 1 tests
+-76107881
+14:30:48.001 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+14:30:48.004 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeParserInternalParser:32 which is executed by 1 tests
+-76107881
+14:30:48.295 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:30:49.498 [pool-14-thread-1] DEBUG tests.output - Failing tests with false: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): null]
+14:30:49.500 [pool-14-thread-1] DEBUG tests.output - Failing tests with true: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): Could not initialize class org.joda.time.format.ISODateTimeFormat$Constants]
+14:30:49.503 [pool-14-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.joda.time.format.DateTimeParserInternalParser:32.
+14:30:49.505 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+14:30:49.506 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeParserInternalParser:30 which is executed by 1 tests
+-76107881
+14:30:49.893 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+14:30:49.896 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeParserInternalParser:29 which is executed by 1 tests
+-76107881
+14:30:50.255 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:30:51.355 [pool-18-thread-1] DEBUG tests.output - Failing tests with false: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:30:51.356 [pool-18-thread-1] DEBUG tests.output - Failing tests with true: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:30:51.360 [pool-18-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.joda.time.format.DateTimeParserInternalParser:29.
+14:30:51.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+14:30:51.365 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatter:358 which is executed by 1 tests
+-839762096
+14:30:51.740 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+14:30:51.743 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatter:355 which is executed by 1 tests
+-839762096
+14:30:52.106 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:30:53.845 [pool-22-thread-1] DEBUG tests.output - Failing tests with false: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:30:53.847 [pool-22-thread-1] DEBUG tests.output - Failing tests with true: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:30:53.849 [pool-22-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.joda.time.format.DateTimeFormatter:355.
+14:30:53.850 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+14:30:53.853 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatter:335 which is executed by 1 tests
+-839762096
+14:30:54.228 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+14:30:54.232 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatter:207 which is executed by 1 tests
+-839762096
+14:30:54.738 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+14:30:54.745 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatter:203 which is executed by 1 tests
+-839762096
+14:30:55.137 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+14:30:55.141 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatter:185 which is executed by 1 tests
+-839762096
+14:30:55.606 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+14:30:55.609 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter:1300 which is executed by 1 tests
+-414039731
+14:30:56.173 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+14:30:56.176 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.chrono.GJEraDateTimeField:52 which is executed by 1 tests
+-795631569
+14:30:56.552 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+14:30:56.558 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.chrono.BasicMonthOfYearDateTimeField:60 which is executed by 1 tests
+615533402
+14:30:56.949 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #19
+14:30:56.956 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$PaddedNumber:1420 which is executed by 1 tests
+-414039731
+14:30:57.441 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #20
+14:30:57.445 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$UnpaddedNumber:1380 which is executed by 1 tests
+-414039731
+14:30:58.008 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #21
+14:30:58.019 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.tz.ZoneInfoCompiler:143 which is executed by 1 tests
+358859098
+14:30:58.714 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #22
+14:30:58.716 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2532 which is executed by 1 tests
+-414039731
+14:30:59.306 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #23
+14:30:59.307 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2529 which is executed by 1 tests
+-414039731
+14:30:59.892 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #24
+14:30:59.898 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2528 which is executed by 1 tests
+-414039731
+14:31:00.376 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #25
+14:31:00.377 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2527 which is executed by 1 tests
+-414039731
+14:31:00.825 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:31:05.459 [pool-26-thread-1] DEBUG tests.output - Failing tests with false: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): null]
+14:31:05.462 [pool-26-thread-1] DEBUG tests.output - Failing tests with true: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): Could not initialize class org.joda.time.format.ISODateTimeFormat$Constants]
+14:31:05.466 [pool-26-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2527.
+14:31:05.467 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #26
+14:31:05.470 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2524 which is executed by 1 tests
+-414039731
+14:31:06.034 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #27
+14:31:06.039 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2521 which is executed by 1 tests
+-414039731
+14:31:06.581 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #28
+14:31:06.592 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2519 which is executed by 1 tests
+-414039731
+14:31:07.159 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #29
+14:31:07.163 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2518 which is executed by 1 tests
+-414039731
+14:31:07.688 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:31:10.686 [pool-30-thread-1] DEBUG tests.output - Failing tests with false: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:31:10.687 [pool-30-thread-1] DEBUG tests.output - Failing tests with true: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:31:10.689 [pool-30-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2518.
+14:31:10.691 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #30
+14:31:10.692 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2517 which is executed by 1 tests
+-414039731
+14:31:11.200 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #31
+14:31:11.202 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2514 which is executed by 1 tests
+-414039731
+14:31:11.701 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #32
+14:31:11.703 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2512 which is executed by 1 tests
+-414039731
+14:31:12.247 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #33
+14:31:12.253 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2511 which is executed by 1 tests
+-414039731
+14:31:12.823 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:31:15.088 [pool-34-thread-1] DEBUG tests.output - Failing tests with false: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:31:15.093 [pool-34-thread-1] DEBUG tests.output - Failing tests with true: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:31:15.095 [pool-34-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2511.
+14:31:15.097 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #34
+14:31:15.098 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2510 which is executed by 1 tests
+-414039731
+14:31:15.528 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #35
+14:31:15.529 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2509 which is executed by 1 tests
+-414039731
+14:31:16.106 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #36
+14:31:16.110 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2508 which is executed by 1 tests
+-414039731
+14:31:16.718 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #37
+14:31:16.721 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2500 which is executed by 1 tests
+-414039731
+14:31:17.219 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #38
+14:31:17.226 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2496 which is executed by 1 tests
+-414039731
+14:31:17.650 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #39
+14:31:17.653 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2479 which is executed by 1 tests
+-414039731
+14:31:18.101 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #40
+14:31:18.108 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.ISODateTimeFormat:1143 which is executed by 1 tests
+106858296
+14:31:18.552 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #41
+14:31:18.556 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.ISODateTimeFormat:1105 which is executed by 1 tests
+106858296
+14:31:18.966 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #42
+14:31:18.969 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.ISODateTimeFormat:850 which is executed by 1 tests
+106858296
+14:31:19.367 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #43
+14:31:19.372 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.ISODateTimeFormat:690 which is executed by 1 tests
+106858296
+14:31:19.763 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #44
+14:31:19.765 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$MatchingParser:2559 which is executed by 1 tests
+-414039731
+14:31:20.397 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #45
+14:31:20.403 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.chrono.BasicWeekyearDateTimeField:50 which is executed by 1 tests
+-2033212415
+14:31:20.756 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #46
+14:31:20.759 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$CharacterLiteral:1220 which is executed by 1 tests
+-414039731
+14:31:21.259 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #47
+14:31:21.261 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$CharacterLiteral:1206 which is executed by 1 tests
+-414039731
+14:31:21.769 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #48
+14:31:21.773 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.field.DecoratedDateTimeField:75 which is executed by 1 tests
+132708489
+14:31:22.155 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #49
+14:31:22.158 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.field.PreciseDurationDateTimeField:67 which is executed by 1 tests
+1450464625
+14:31:22.491 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #50
+14:31:22.497 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimePrinterInternalPrinter:41 which is executed by 1 tests
+-1260428097
+14:31:22.819 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #51
+14:31:22.825 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimePrinterInternalPrinter:40 which is executed by 1 tests
+-1260428097
+14:31:23.180 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:31:24.238 [pool-38-thread-1] DEBUG tests.output - Failing tests with false: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): null]
+14:31:24.239 [pool-38-thread-1] DEBUG tests.output - Failing tests with true: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): Could not initialize class org.joda.time.format.ISODateTimeFormat$Constants]
+14:31:24.240 [pool-38-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.joda.time.format.DateTimePrinterInternalPrinter:40.
+14:31:24.241 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #52
+14:31:24.243 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimePrinterInternalPrinter:37 which is executed by 1 tests
+-1260428097
+14:31:24.558 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:31:25.683 [pool-42-thread-1] DEBUG tests.output - Failing tests with false: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:31:25.685 [pool-42-thread-1] DEBUG tests.output - Failing tests with true: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:31:25.686 [pool-42-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.joda.time.format.DateTimePrinterInternalPrinter:37.
+14:31:25.688 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #53
+14:31:25.689 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:1177 which is executed by 1 tests
+-414039731
+14:31:26.096 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #54
+14:31:26.099 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:1171 which is executed by 1 tests
+-414039731
+14:31:26.521 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #55
+14:31:26.523 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:1167 which is executed by 1 tests
+-414039731
+14:31:26.976 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #56
+14:31:26.977 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:1155 which is executed by 1 tests
+-414039731
+14:31:27.406 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #57
+14:31:27.409 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:1150 which is executed by 1 tests
+-414039731
+14:31:27.841 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #58
+14:31:27.850 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:829 which is executed by 1 tests
+-414039731
+14:31:28.300 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #59
+14:31:28.301 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:817 which is executed by 1 tests
+-414039731
+14:31:28.729 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #60
+14:31:28.730 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:807 which is executed by 1 tests
+-414039731
+14:31:29.145 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #61
+14:31:29.150 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:795 which is executed by 1 tests
+-414039731
+14:31:29.561 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #62
+14:31:29.567 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:785 which is executed by 1 tests
+-414039731
+14:31:30.065 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #63
+14:31:30.067 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:775 which is executed by 1 tests
+-414039731
+14:31:30.646 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #64
+14:31:30.648 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:765 which is executed by 1 tests
+-414039731
+14:31:31.098 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #65
+14:31:31.100 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:725 which is executed by 1 tests
+-414039731
+14:31:31.459 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #66
+14:31:31.461 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:705 which is executed by 1 tests
+-414039731
+14:31:31.953 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #67
+14:31:31.956 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:685 which is executed by 1 tests
+-414039731
+14:31:32.399 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #68
+14:31:32.401 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:631 which is executed by 1 tests
+-414039731
+14:31:32.942 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #69
+14:31:32.963 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:614 which is executed by 1 tests
+-414039731
+14:31:33.391 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #70
+14:31:33.395 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:597 which is executed by 1 tests
+-414039731
+14:31:33.838 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #71
+14:31:33.867 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:579 which is executed by 1 tests
+-414039731
+14:31:34.380 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #72
+14:31:34.386 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:576 which is executed by 1 tests
+-414039731
+14:31:34.995 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:31:38.197 [pool-46-thread-1] DEBUG tests.output - Failing tests with false: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:31:38.199 [pool-46-thread-1] DEBUG tests.output - Failing tests with true: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:31:38.203 [pool-46-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.joda.time.format.DateTimeFormatterBuilder:576.
+14:31:38.206 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #73
+14:31:38.206 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:573 which is executed by 1 tests
+-414039731
+14:31:38.784 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:31:40.769 [pool-50-thread-1] DEBUG tests.output - Failing tests with false: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:31:40.770 [pool-50-thread-1] DEBUG tests.output - Failing tests with true: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:31:40.773 [pool-50-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.joda.time.format.DateTimeFormatterBuilder:573.
+14:31:40.774 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #74
+14:31:40.775 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:570 which is executed by 1 tests
+-414039731
+14:31:41.102 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:31:43.957 [pool-54-thread-1] DEBUG tests.output - Failing tests with false: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:31:43.959 [pool-54-thread-1] DEBUG tests.output - Failing tests with true: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:31:43.960 [pool-54-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.joda.time.format.DateTimeFormatterBuilder:570.
+14:31:43.962 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #75
+14:31:43.963 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:498 which is executed by 1 tests
+-414039731
+14:31:45.402 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #76
+14:31:45.403 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:495 which is executed by 1 tests
+-414039731
+14:31:46.723 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:31:50.025 [pool-58-thread-1] DEBUG tests.output - Failing tests with false: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:31:50.027 [pool-58-thread-1] DEBUG tests.output - Failing tests with true: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:31:50.028 [pool-58-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.joda.time.format.DateTimeFormatterBuilder:495.
+14:31:50.030 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #77
+14:31:50.031 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:492 which is executed by 1 tests
+-414039731
+14:31:50.482 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:31:52.677 [pool-62-thread-1] DEBUG tests.output - Failing tests with false: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:31:52.678 [pool-62-thread-1] DEBUG tests.output - Failing tests with true: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:31:52.679 [pool-62-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.joda.time.format.DateTimeFormatterBuilder:492.
+14:31:52.682 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #78
+14:31:52.683 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:489 which is executed by 1 tests
+-414039731
+14:31:53.271 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:31:55.901 [pool-66-thread-1] DEBUG tests.output - Failing tests with false: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:31:55.903 [pool-66-thread-1] DEBUG tests.output - Failing tests with true: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:31:55.905 [pool-66-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.joda.time.format.DateTimeFormatterBuilder:489.
+14:31:55.911 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #79
+14:31:55.912 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:486 which is executed by 1 tests
+-414039731
+14:31:56.569 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:31:58.766 [pool-70-thread-1] DEBUG tests.output - Failing tests with false: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:31:58.768 [pool-70-thread-1] DEBUG tests.output - Failing tests with true: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:31:58.770 [pool-70-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.joda.time.format.DateTimeFormatterBuilder:486.
+14:31:58.772 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #80
+14:31:58.773 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:470 which is executed by 1 tests
+-414039731
+14:31:59.220 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #81
+14:31:59.222 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:467 which is executed by 1 tests
+-414039731
+14:31:59.642 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:32:02.402 [pool-74-thread-1] DEBUG tests.output - Failing tests with false: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:32:02.405 [pool-74-thread-1] DEBUG tests.output - Failing tests with true: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:32:02.408 [pool-74-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.joda.time.format.DateTimeFormatterBuilder:467.
+14:32:02.416 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #82
+14:32:02.426 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:464 which is executed by 1 tests
+-414039731
+14:32:03.349 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:32:05.973 [pool-78-thread-1] DEBUG tests.output - Failing tests with false: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:32:05.974 [pool-78-thread-1] DEBUG tests.output - Failing tests with true: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:32:05.975 [pool-78-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.joda.time.format.DateTimeFormatterBuilder:464.
+14:32:05.978 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #83
+14:32:05.980 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:446 which is executed by 1 tests
+-414039731
+14:32:06.686 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #84
+14:32:06.687 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:444 which is executed by 1 tests
+-414039731
+14:32:07.122 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #85
+14:32:07.125 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:443 which is executed by 1 tests
+-414039731
+14:32:07.575 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:32:10.103 [pool-82-thread-1] DEBUG tests.output - Failing tests with false: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:32:10.104 [pool-82-thread-1] DEBUG tests.output - Failing tests with true: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:32:10.105 [pool-82-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.joda.time.format.DateTimeFormatterBuilder:443.
+14:32:10.107 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #86
+14:32:10.109 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:440 which is executed by 1 tests
+-414039731
+14:32:10.810 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:32:13.322 [pool-86-thread-1] DEBUG tests.output - Failing tests with false: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:32:13.325 [pool-86-thread-1] DEBUG tests.output - Failing tests with true: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:32:13.326 [pool-86-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.joda.time.format.DateTimeFormatterBuilder:440.
+14:32:13.327 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #87
+14:32:13.328 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:437 which is executed by 1 tests
+-414039731
+14:32:14.103 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:32:16.945 [pool-90-thread-1] DEBUG tests.output - Failing tests with false: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:32:16.946 [pool-90-thread-1] DEBUG tests.output - Failing tests with true: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:32:16.947 [pool-90-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.joda.time.format.DateTimeFormatterBuilder:437.
+14:32:16.948 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #88
+14:32:16.950 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:434 which is executed by 1 tests
+-414039731
+14:32:17.718 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:32:19.737 [pool-94-thread-1] DEBUG tests.output - Failing tests with false: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:32:19.738 [pool-94-thread-1] DEBUG tests.output - Failing tests with true: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:32:19.739 [pool-94-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.joda.time.format.DateTimeFormatterBuilder:434.
+14:32:19.740 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #89
+14:32:19.741 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:417 which is executed by 1 tests
+-414039731
+14:32:20.102 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #90
+14:32:20.105 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:411 which is executed by 1 tests
+-414039731
+14:32:20.468 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #91
+14:32:20.472 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:408 which is executed by 1 tests
+-414039731
+14:32:20.884 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:32:24.498 [pool-98-thread-1] DEBUG tests.output - Failing tests with false: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:32:24.499 [pool-98-thread-1] DEBUG tests.output - Failing tests with true: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:32:24.500 [pool-98-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.joda.time.format.DateTimeFormatterBuilder:408.
+14:32:24.505 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #92
+14:32:24.508 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:397 which is executed by 1 tests
+-414039731
+14:32:26.073 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #93
+14:32:26.106 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:386 which is executed by 1 tests
+-414039731
+14:32:27.550 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #94
+14:32:27.557 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:385 which is executed by 1 tests
+-414039731
+14:32:29.397 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #95
+14:32:29.402 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:384 which is executed by 1 tests
+-414039731
+14:32:31.148 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #96
+14:32:31.149 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:383 which is executed by 1 tests
+-414039731
+14:32:32.059 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #97
+14:32:32.061 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:360 which is executed by 1 tests
+-414039731
+14:32:33.214 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #98
+14:32:33.219 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:357 which is executed by 1 tests
+-414039731
+14:32:34.433 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:32:37.890 [pool-102-thread-1] DEBUG tests.output - Failing tests with false: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:32:37.891 [pool-102-thread-1] DEBUG tests.output - Failing tests with true: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:32:37.892 [pool-102-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.joda.time.format.DateTimeFormatterBuilder:357.
+14:32:37.894 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #99
+14:32:37.895 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:347 which is executed by 1 tests
+-414039731
+14:32:38.779 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #100
+14:32:38.780 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:346 which is executed by 1 tests
+-414039731
+14:32:39.987 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #101
+14:32:39.991 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:345 which is executed by 1 tests
+-414039731
+14:32:41.091 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #102
+14:32:41.096 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:328 which is executed by 1 tests
+-414039731
+14:32:42.462 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #103
+14:32:42.463 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:326 which is executed by 1 tests
+-414039731
+14:32:43.632 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #104
+14:32:43.634 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:322 which is executed by 1 tests
+-414039731
+14:32:44.924 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:32:48.395 [pool-106-thread-1] WARN  f.i.l.c.s.util.SpoonReferenceLibrary - spoon.SpoonException: spoon.support.compiler.SnippetCompilationError: DateTimeParser cannot be resolved to a type at [C@66e220e8:4
+14:34:06.047 [pool-106-thread-1] DEBUG tests.output - Failing tests with false: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:34:06.049 [pool-106-thread-1] DEBUG tests.output - Failing tests with true: 
+[testCompileOnBrokenTimeZoneFile_2(org.joda.time.tz.TestCompiler): NoSuchElementException was thrown; broken timezone file?]
+14:34:06.051 [pool-106-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.joda.time.format.DateTimeFormatterBuilder:322.
+14:34:06.053 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #105
+14:34:06.054 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:321 which is executed by 1 tests
+-414039731
+14:35:01.503 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #106
+14:35:01.512 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:319 which is executed by 1 tests
+-414039731
+14:35:47.543 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #107
+14:35:47.553 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:312 which is executed by 1 tests
+-414039731
+14:36:18.704 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+14:39:40.586 [pool-110-thread-1] DEBUG xxl.java.junit.TestSuiteExecution - Timeout after 200 seconds. Infinite loop?
+14:39:43.324 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.util.concurrent.TimeoutException
+14:39:43.707 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #108
+14:39:43.890 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:311 which is executed by 1 tests
+Writing zoneinfo files
+Writing ZoneInfoMap

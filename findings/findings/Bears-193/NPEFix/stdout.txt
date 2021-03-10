@@ -1,0 +1,25 @@
+TernarySplitter  in 64ms
+CheckNotNull  in 77ms
+ForceNullInit in 10ms
+AddImplicitCastChecker --> 0 in 226ms
+BeforeDeref --> 120 (failed:0) in 113ms
+target--> 137 (failed:0) in 458ms
+TryRegister # Try: 0 in 9ms
+Assign --> 52 (failed: 0) in 112ms
+VarInit --> 16 in 35ms
+MethodEncapsulation # Method: 81 in 165ms
+ConstructorEncapsulation # Constructor: 17 in 32ms
+VariableFor in 32ms
+RMI Selector (Host: 127.0.0.1, Port: 10000): KO
+org.activiti.cloud.app.ApplicationTest#contextLoads
+<No Strat> Status: Ko
+org.activiti.cloud.app.ApplicationTest#contextLoads
+<No Strat> Status: Ko
+org.activiti.cloud.app.ApplicationTest#contextLoads
+<No Strat> Status: Ko
+org.activiti.cloud.app.ApplicationTest#contextLoads
+<No Strat> Status: Ko
+org.activiti.cloud.app.ApplicationTest#contextLoads
+<No Strat> Status: Ko
+org.activiti.cloud.app.ApplicationTest#contextLoads
+<No Strat> Status: Ko

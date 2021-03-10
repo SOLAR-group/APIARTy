@@ -1,0 +1,2159 @@
+RMI Selector (Host: 127.0.0.1, Port: 10000): KO
+org.jfree.chart.annotations.junit.XYImageAnnotationTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYImageAnnotationTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYImageAnnotationTests#testHashCode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYLine3DRendererTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYLine3DRendererTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYLine3DRendererTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYLine3DRendererTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.VectorDataItemTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.VectorDataItemTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.VectorDataItemTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.VectorDataItemTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.time.ohlc.junit.OHLCTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.time.ohlc.junit.OHLCTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.time.ohlc.junit.OHLCTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.AreaRendererEndTypeTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.AreaRendererEndTypeTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.gantt.junit.TaskTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.gantt.junit.TaskTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.gantt.junit.TaskTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.gantt.junit.TaskTests#testGetSubTaskCount
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.ItemLabelAnchorTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.ItemLabelAnchorTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.MatrixSeriesCollectionTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.MatrixSeriesCollectionTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.MatrixSeriesCollectionTests#testSerialization
+<No Strat> Status: Ko
+org.jfree.data.statistics.junit.SimpleHistogramDatasetTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.SimpleHistogramDatasetTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.SimpleHistogramDatasetTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.SimpleHistogramDatasetTests#testClearObservations
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.SimpleHistogramDatasetTests#testRemoveAllBins
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.MonthDateFormatTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.MonthDateFormatTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.MonthDateFormatTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.MonthDateFormatTests#testHashCode
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.SegmentedTimelineTests2#test1
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.SegmentedTimelineTests2#test2
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.SegmentedTimelineTests2#test3
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.SegmentedTimelineTests2#test4
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.SegmentedTimelineTests2#test5
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.SegmentedTimelineTests2#test6
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.SegmentedTimelineTests2#test7
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.SegmentedTimelineTests2#test8
+<No Strat> Status: Ok
+org.jfree.chart.title.junit.TitleTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.title.junit.TitleTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.VectorSeriesTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.VectorSeriesTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.VectorSeriesTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.VectorSeriesTests#testRemove
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.VectorSeriesTests#testAdd
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.VectorSeriesTests#testSetMaximumItemCount
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.VectorSeriesTests#testIndexOf
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.VectorSeriesTests#testSetMaximumItemCount2
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.VectorSeriesTests#testIndexOf2
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.VectorSeriesTests#testAdditionOfDuplicateXValues
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultWindDatasetTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultWindDatasetTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultWindDatasetTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultWindDatasetTests#testGetSeriesKey
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultWindDatasetTests#testIndexOf
+<No Strat> Status: Ok
+org.jfree.chart.entity.junit.LegendItemEntityTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.entity.junit.LegendItemEntityTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.entity.junit.LegendItemEntityTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYStepRendererTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYStepRendererTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYStepRendererTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYStepRendererTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYStepRendererTests#testDrawWithNullInfo
+<No Strat> Status: Ok
+org.jfree.data.time.ohlc.junit.OHLCItemTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.time.ohlc.junit.OHLCItemTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.time.ohlc.junit.OHLCItemTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.time.ohlc.junit.OHLCItemTests#testConstructor1
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.ValueAxisTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.ValueAxisTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.ValueAxisTests#testAxisMargins
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYDifferenceRendererTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYDifferenceRendererTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYDifferenceRendererTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYDifferenceRendererTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYDifferenceRendererTests#testGetLegendItemSeriesIndex
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.GrayPaintScaleTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.GrayPaintScaleTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.GrayPaintScaleTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.junit.BarChartTests#testSetSeriesToolTipGenerator
+<No Strat> Status: Ok
+org.jfree.chart.junit.BarChartTests#testSetSeriesURLGenerator
+<No Strat> Status: Ok
+org.jfree.chart.junit.BarChartTests#testDrawWithNullInfo
+	1 Strat2A org.jfree.chart.axis.Axis:1192 Used org.jfree.chart.ChartRenderingInfo()
+Status: Ok
+org.jfree.chart.junit.BarChartTests#testReplaceDataset
+<No Strat> Status: Ok
+org.jfree.chart.junit.XYStepAreaChartTests#testSetSeriesToolTipGenerator
+<No Strat> Status: Ok
+org.jfree.chart.junit.XYStepAreaChartTests#testDrawWithNullInfo
+<No Strat> Status: Ok
+org.jfree.chart.junit.XYStepAreaChartTests#testReplaceDataset
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYDotRendererTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYDotRendererTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYDotRendererTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYDotRendererTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYDotRendererTests#testGetLegendItemSeriesIndex
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.CustomXYItemLabelGeneratorTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.CustomXYItemLabelGeneratorTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYIntervalTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYIntervalTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYIntervalTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYLineAnnotationTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYLineAnnotationTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYLineAnnotationTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYLineAnnotationTests#testHashCode
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.CategoryTableXYDatasetTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.CategoryTableXYDatasetTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.CategoryTableXYDatasetTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.CategoryTableXYDatasetTests#testAddSeries
+<No Strat> Status: Ok
+org.jfree.chart.urls.junit.TimeSeriesURLGeneratorTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.urls.junit.TimeSeriesURLGeneratorTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.urls.junit.TimeSeriesURLGeneratorTests#testGenerateURL
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.YIntervalSeriesTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.YIntervalSeriesTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.YIntervalSeriesTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.YIntervalSeriesTests#testRemove
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.YIntervalSeriesTests#testAdd
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.YIntervalSeriesTests#testSetMaximumItemCount
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.YIntervalSeriesTests#testIndexOf
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.YIntervalSeriesTests#testSetMaximumItemCount2
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.YIntervalSeriesTests#testIndexOf2
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.YIntervalSeriesTests#testAdditionOfDuplicateXValues
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.WindNeedleTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.WindNeedleTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.WindNeedleTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.MultipleXYSeriesLabelGeneratorTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.MultipleXYSeriesLabelGeneratorTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.MultipleXYSeriesLabelGeneratorTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.BoxAndWhiskerItemTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.BoxAndWhiskerItemTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.BubbleXYItemLabelGeneratorTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.BubbleXYItemLabelGeneratorTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.BubbleXYItemLabelGeneratorTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.BubbleXYItemLabelGeneratorTests#testGenerateLabel
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.PiePlot3DTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.PiePlot3DTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.DefaultPolarItemRendererTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.DefaultPolarItemRendererTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.DefaultPolarItemRendererTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.DefaultPolarItemRendererTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.PeriodAxisLabelInfoTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.PeriodAxisLabelInfoTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.PeriodAxisLabelInfoTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.PeriodAxisLabelInfoTests#testHashCode
+<No Strat> Status: Ok
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests#testGetValue
+<No Strat> Status: Ok
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests#testGetRowAndColumnCount
+<No Strat> Status: Ok
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests#testSetStartValue
+<No Strat> Status: Ok
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests#testSetEndValue
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.FastScatterPlotTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.FastScatterPlotTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.FastScatterPlotTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.FastScatterPlotTests#testDrawWithNullInfo
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.TableXYDatasetTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.TableXYDatasetTests#testCloning
+<No Strat> Status: Ok
+java.lang.ClassNotFoundException: org.jfree.data.general.SeriesChangeListener
+org.jfree.data.xy.junit.TableXYDatasetTests#testSerialization
+<No Strat> Status: Ko
+org.jfree.data.xy.junit.TableXYDatasetTests#testTableXYDataset
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.TableXYDatasetTests#test788597
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.TableXYDatasetTests#testRemoveAllValuesForX
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.TableXYDatasetTests#testPrune
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.TableXYDatasetTests#testAutoPrune
+<No Strat> Status: Ok
+org.jfree.data.gantt.junit.TaskSeriesTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.gantt.junit.TaskSeriesTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.gantt.junit.TaskSeriesTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.gantt.junit.TaskSeriesTests#testGetTask
+<No Strat> Status: Ok
+org.jfree.data.time.junit.MonthTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.time.junit.MonthTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.data.time.junit.MonthTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.time.junit.MonthTests#testNext
+<No Strat> Status: Ok
+org.jfree.data.time.junit.MonthTests#testGetStart
+<No Strat> Status: Ok
+org.jfree.data.time.junit.MonthTests#testGetEnd
+<No Strat> Status: Ok
+org.jfree.data.time.junit.MonthTests#testEqualsSelf
+<No Strat> Status: Ok
+org.jfree.data.time.junit.MonthTests#testDateConstructor1
+<No Strat> Status: Ok
+org.jfree.data.time.junit.MonthTests#testDateConstructor2
+<No Strat> Status: Ok
+org.jfree.data.time.junit.MonthTests#testNotCloneable
+<No Strat> Status: Ok
+org.jfree.data.time.junit.MonthTests#testGetSerialIndex
+<No Strat> Status: Ok
+org.jfree.data.time.junit.MonthTests#testGetFirstMillisecond
+<No Strat> Status: Ok
+org.jfree.data.time.junit.MonthTests#testGetFirstMillisecondWithTimeZone
+	1 Strat3 org.jfree.data.time.Month:382 Used false
+	2 Strat3 org.jfree.data.time.Month:383 Used false
+	3 Strat3 org.jfree.data.time.Month:386 Used false
+Status: Ko
+org.jfree.data.time.junit.MonthTests#testGetFirstMillisecondWithCalendar
+<No Strat> Status: Ok
+org.jfree.data.time.junit.MonthTests#testGetLastMillisecond
+<No Strat> Status: Ok
+org.jfree.data.time.junit.MonthTests#testGetLastMillisecondWithTimeZone
+	1 Strat3 org.jfree.data.time.Month:402 Used false
+	2 Strat3 org.jfree.data.time.Month:403 Used false
+	3 Strat3 org.jfree.data.time.Month:406 Used false
+Status: Ko
+org.jfree.data.time.junit.MonthTests#testGetLastMillisecondWithCalendar
+<No Strat> Status: Ok
+org.jfree.data.time.junit.MonthTests#testJan1900Previous
+<No Strat> Status: Ok
+org.jfree.data.time.junit.MonthTests#testJan1900Next
+<No Strat> Status: Ok
+org.jfree.data.time.junit.MonthTests#testDec9999Previous
+<No Strat> Status: Ok
+org.jfree.data.time.junit.MonthTests#testDec9999Next
+<No Strat> Status: Ok
+org.jfree.data.time.junit.MonthTests#testParseMonth
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYAreaRendererTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYAreaRendererTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYAreaRendererTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYAreaRendererTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYAreaRendererTests#testDrawWithNullInfo
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYAreaRendererTests#testGetLegendItemSeriesIndex
+<No Strat> Status: Ok
+org.jfree.data.time.junit.QuarterTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.time.junit.QuarterTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.data.time.junit.QuarterTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.time.junit.QuarterTests#testConstructor
+<No Strat> Status: Ok
+org.jfree.data.time.junit.QuarterTests#testNext
+<No Strat> Status: Ok
+org.jfree.data.time.junit.QuarterTests#testGetStart
+<No Strat> Status: Ok
+org.jfree.data.time.junit.QuarterTests#testGetEnd
+<No Strat> Status: Ok
+org.jfree.data.time.junit.QuarterTests#testEqualsSelf
+<No Strat> Status: Ok
+org.jfree.data.time.junit.QuarterTests#testDateConstructor1
+<No Strat> Status: Ok
+org.jfree.data.time.junit.QuarterTests#testDateConstructor2
+<No Strat> Status: Ok
+org.jfree.data.time.junit.QuarterTests#testNotCloneable
+<No Strat> Status: Ok
+org.jfree.data.time.junit.QuarterTests#testGetSerialIndex
+<No Strat> Status: Ok
+org.jfree.data.time.junit.QuarterTests#testGetFirstMillisecond
+<No Strat> Status: Ok
+org.jfree.data.time.junit.QuarterTests#testGetFirstMillisecondWithTimeZone
+	1 Strat3 org.jfree.data.time.Quarter:401 Used false
+	2 Strat3 org.jfree.data.time.Quarter:402 Used false
+	3 Strat3 org.jfree.data.time.Quarter:405 Used false
+Status: Ko
+org.jfree.data.time.junit.QuarterTests#testGetFirstMillisecondWithCalendar
+<No Strat> Status: Ok
+org.jfree.data.time.junit.QuarterTests#testGetLastMillisecond
+<No Strat> Status: Ok
+org.jfree.data.time.junit.QuarterTests#testGetLastMillisecondWithTimeZone
+	1 Strat3 org.jfree.data.time.Quarter:422 Used false
+	2 Strat3 org.jfree.data.time.Quarter:423 Used false
+	3 Strat3 org.jfree.data.time.Quarter:426 Used false
+Status: Ko
+org.jfree.data.time.junit.QuarterTests#testGetLastMillisecondWithCalendar
+<No Strat> Status: Ok
+org.jfree.data.time.junit.QuarterTests#testQ1Y1900Previous
+<No Strat> Status: Ok
+org.jfree.data.time.junit.QuarterTests#testQ1Y1900Next
+<No Strat> Status: Ok
+org.jfree.data.time.junit.QuarterTests#testQ4Y9999Previous
+<No Strat> Status: Ok
+org.jfree.data.time.junit.QuarterTests#testQ4Y9999Next
+<No Strat> Status: Ok
+org.jfree.data.time.junit.QuarterTests#testParseQuarter
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.MiddlePinNeedleTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.MiddlePinNeedleTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.MiddlePinNeedleTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.LookupPaintScaleTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.LookupPaintScaleTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.LookupPaintScaleTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.LookupPaintScaleTests#testConstructor1
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.LookupPaintScaleTests#testConstructor2
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.LookupPaintScaleTests#testGeneral
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.StandardXYZToolTipGeneratorTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.StandardXYZToolTipGeneratorTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.StandardXYZToolTipGeneratorTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.MarkerTests#testGetSetPaint
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.MarkerTests#testGetSetStroke
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.MarkerTests#testGetSetOutlinePaint
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.MarkerTests#testGetSetOutlineStroke
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.MarkerTests#testGetSetAlpha
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.MarkerTests#testGetSetLabel
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.MarkerTests#testGetSetLabelFont
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.MarkerTests#testGetSetLabelPaint
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.MarkerTests#testGetSetLabelAnchor
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.MarkerTests#testGetSetLabelOffset
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.MarkerTests#testGetSetLabelOffsetType
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.MarkerTests#testGetSetLabelTextAnchor
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.MarkerTests#testListenersWithCategoryPlot
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.MarkerTests#testListenersWithXYPlot
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.CategoryMarkerTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.CategoryMarkerTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.CategoryMarkerTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.CategoryMarkerTests#testGetSetKey
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.CategoryMarkerTests#testGetSetDrawAsLine
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.HistogramDatasetTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.HistogramDatasetTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.HistogramDatasetTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.HistogramDatasetTests#testGetSeriesKey
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.HistogramDatasetTests#testBins
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.HistogramDatasetTests#testAddSeries
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.HistogramDatasetTests#testBinBoundaries
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.HistogramDatasetTests#test1553088
+<No Strat> Status: Ok
+org.jfree.data.time.junit.DateRangeTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.time.junit.DateRangeTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.time.junit.DateRangeTests#testClone
+<No Strat> Status: Ok
+org.jfree.data.time.junit.YearTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.time.junit.YearTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.data.time.junit.YearTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.time.junit.YearTests#testNext
+<No Strat> Status: Ok
+org.jfree.data.time.junit.YearTests#testGetStart
+<No Strat> Status: Ok
+org.jfree.data.time.junit.YearTests#testGetEnd
+<No Strat> Status: Ok
+org.jfree.data.time.junit.YearTests#testEqualsSelf
+<No Strat> Status: Ok
+org.jfree.data.time.junit.YearTests#testDateConstructor1
+<No Strat> Status: Ok
+org.jfree.data.time.junit.YearTests#testDateConstructor2
+<No Strat> Status: Ok
+org.jfree.data.time.junit.YearTests#testNotCloneable
+<No Strat> Status: Ok
+org.jfree.data.time.junit.YearTests#testGetSerialIndex
+<No Strat> Status: Ok
+org.jfree.data.time.junit.YearTests#testGetFirstMillisecond
+<No Strat> Status: Ok
+org.jfree.data.time.junit.YearTests#testGetFirstMillisecondWithTimeZone
+	1 Strat3 org.jfree.data.time.Year:235 Used false
+	2 Strat3 org.jfree.data.time.Year:236 Used false
+	3 Strat3 org.jfree.data.time.Year:239 Used false
+Status: Ko
+org.jfree.data.time.junit.YearTests#testGetFirstMillisecondWithCalendar
+<No Strat> Status: Ok
+org.jfree.data.time.junit.YearTests#testGetLastMillisecond
+<No Strat> Status: Ok
+org.jfree.data.time.junit.YearTests#testGetLastMillisecondWithTimeZone
+	1 Strat3 org.jfree.data.time.Year:254 Used false
+	2 Strat3 org.jfree.data.time.Year:255 Used false
+	3 Strat3 org.jfree.data.time.Year:258 Used false
+Status: Ko
+org.jfree.data.time.junit.YearTests#testGetLastMillisecondWithCalendar
+<No Strat> Status: Ok
+org.jfree.data.time.junit.YearTests#test1900Previous
+<No Strat> Status: Ok
+org.jfree.data.time.junit.YearTests#test1900Next
+<No Strat> Status: Ok
+org.jfree.data.time.junit.YearTests#test9999Previous
+<No Strat> Status: Ok
+org.jfree.data.time.junit.YearTests#test9999Next
+<No Strat> Status: Ok
+org.jfree.data.time.junit.YearTests#testParseYear
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.HistogramBinTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.HistogramBinTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.HistogramBinTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.HighLowRendererTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.HighLowRendererTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.HighLowRendererTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.HighLowRendererTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.HighLowRendererTests#testFindRangeBounds
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.StandardXYItemRendererTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.StandardXYItemRendererTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.StandardXYItemRendererTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.StandardXYItemRendererTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.StandardXYItemRendererTests#testGetLegendItemSeriesIndex
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.StandardXYItemRendererTests#testNoDisplayedItem
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYCoordinateTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYCoordinateTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYCoordinateTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYCoordinateTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.urls.junit.StandardPieURLGeneratorTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.urls.junit.StandardPieURLGeneratorTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.urls.junit.StandardPieURLGeneratorTests#testURL
+<No Strat> Status: Ok
+org.jfree.data.time.junit.DayTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.time.junit.DayTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.data.time.junit.DayTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.time.junit.DayTests#testNext
+<No Strat> Status: Ok
+org.jfree.data.time.junit.DayTests#testGetStart
+<No Strat> Status: Ok
+org.jfree.data.time.junit.DayTests#testGetEnd
+<No Strat> Status: Ok
+org.jfree.data.time.junit.DayTests#testEqualsSelf
+<No Strat> Status: Ok
+org.jfree.data.time.junit.DayTests#testDateConstructor1
+<No Strat> Status: Ok
+org.jfree.data.time.junit.DayTests#testDateConstructor2
+<No Strat> Status: Ok
+org.jfree.data.time.junit.DayTests#test1Jan1900Previous
+<No Strat> Status: Ok
+org.jfree.data.time.junit.DayTests#test1Jan1900Next
+<No Strat> Status: Ok
+org.jfree.data.time.junit.DayTests#test31Dec9999Previous
+<No Strat> Status: Ok
+org.jfree.data.time.junit.DayTests#test31Dec9999Next
+<No Strat> Status: Ok
+org.jfree.data.time.junit.DayTests#testParseDay
+<No Strat> Status: Ok
+org.jfree.data.time.junit.DayTests#testNotCloneable
+<No Strat> Status: Ok
+org.jfree.data.time.junit.DayTests#testGetSerialIndex
+<No Strat> Status: Ok
+org.jfree.data.time.junit.DayTests#testGetFirstMillisecond
+<No Strat> Status: Ok
+org.jfree.data.time.junit.DayTests#testGetFirstMillisecondWithTimeZone
+	1 Strat3 org.jfree.data.time.Day:322 Used false
+	2 Strat3 org.jfree.data.time.Day:323 Used false
+	3 Strat3 org.jfree.data.time.Day:324 Used false
+	4 Strat3 org.jfree.data.time.Day:326 Used false
+Status: Ko
+org.jfree.data.time.junit.DayTests#testGetFirstMillisecondWithCalendar
+<No Strat> Status: Ok
+org.jfree.data.time.junit.DayTests#testGetLastMillisecond
+<No Strat> Status: Ok
+org.jfree.data.time.junit.DayTests#testGetLastMillisecondWithTimeZone
+	1 Strat3 org.jfree.data.time.Day:344 Used false
+	2 Strat3 org.jfree.data.time.Day:345 Used false
+	3 Strat3 org.jfree.data.time.Day:346 Used false
+	4 Strat3 org.jfree.data.time.Day:348 Used false
+Status: Ko
+org.jfree.data.time.junit.DayTests#testGetLastMillisecondWithCalendar
+<No Strat> Status: Ok
+org.jfree.chart.block.junit.AbstractBlockTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.block.junit.AbstractBlockTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.block.junit.AbstractBlockTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.AxisSpaceTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.AxisSpaceTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.AxisSpaceTests#testHashCode
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.PlotTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.junit.LineChart3DTests#testSetSeriesToolTipGenerator
+<No Strat> Status: Ok
+org.jfree.chart.junit.LineChart3DTests#testSetSeriesURLGenerator
+<No Strat> Status: Ok
+org.jfree.chart.junit.LineChart3DTests#testDrawWithNullInfo
+	1 Strat2A org.jfree.chart.axis.Axis:1192 Used org.jfree.chart.ChartRenderingInfo()
+Status: Ok
+org.jfree.chart.junit.LineChart3DTests#testReplaceDataset
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DefaultPieDatasetTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DefaultPieDatasetTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DefaultPieDatasetTests#testGetKey
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DefaultPieDatasetTests#testGetIndex
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DefaultPieDatasetTests#testClear
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.PlumNeedleTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.PlumNeedleTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.PlumNeedleTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.MarkerAxisBandTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.MarkerAxisBandTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.MarkerAxisBandTests#testHashCode
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.CategoryLineAnnotationTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.CategoryLineAnnotationTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.CategoryLineAnnotationTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.CategoryLineAnnotationTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.AxisLocationTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.AxisLocationTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.AxisLocationTests#testHashCode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests#testDrawWithNullInfo
+	1 Strat2A org.jfree.chart.axis.Axis:1192 Used org.jfree.chart.ChartRenderingInfo()
+Status: Ok
+org.jfree.chart.junit.ChartPanelTests#testConstructor1
+<No Strat> Status: Ok
+org.jfree.chart.junit.ChartPanelTests#testSetChart
+<No Strat> Status: Ok
+org.jfree.chart.junit.ChartPanelTests#testGetListeners
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests#testCloning2
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests#testCloning1
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests#testCloning_LegendItemLabelGenerator
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests#testCloning_LegendItemToolTipGenerator
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests#testCloning_LegendItemURLGenerator
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests#testGetSeriesItemLabelGenerator
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests#testGetSeriesURLGenerator
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYLineAndShapeRendererTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYLineAndShapeRendererTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYLineAndShapeRendererTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYLineAndShapeRendererTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYLineAndShapeRendererTests#testEquals2
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYLineAndShapeRendererTests#testGetLegendItemSeriesIndex
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYLineAndShapeRendererTests#testFindDomainBounds
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYLineAndShapeRendererTests#testFindRangeBounds
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.VectorTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.VectorTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.VectorTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.VectorTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.PeriodAxisTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.PeriodAxisTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.PeriodAxisTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.PeriodAxisTests#testHashCode
+<No Strat> Status: Ok
+org.jfree.chart.entity.junit.TickLabelEntityTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.entity.junit.TickLabelEntityTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.entity.junit.TickLabelEntityTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.CombinedRangeCategoryPlotTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.CombinedRangeCategoryPlotTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.CombinedRangeCategoryPlotTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.CombinedRangeCategoryPlotTests#testRemoveSubplot
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests#test1701822
+<No Strat> Status: Ok
+org.jfree.data.time.junit.FixedMillisecondTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.data.time.junit.FixedMillisecondTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.time.junit.FixedMillisecondTests#testNotCloneable
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DefaultKeyedValuesDatasetTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DefaultKeyedValuesDatasetTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.block.junit.ColorBlockTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.block.junit.ColorBlockTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.block.junit.ColorBlockTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.junit.LegendItemTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.junit.LegendItemTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.junit.LegendItemTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.junit.LegendItemTests#testSerialization2
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYBarDatasetTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYBarDatasetTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYBarDatasetTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYBlockRendererTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYBlockRendererTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYBlockRendererTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYBlockRendererTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.junit.BarChart3DTests#testSetSeriesToolTipGenerator
+<No Strat> Status: Ok
+org.jfree.chart.junit.BarChart3DTests#testSetSeriesURLGenerator
+<No Strat> Status: Ok
+org.jfree.chart.junit.BarChart3DTests#testDrawWithNullInfo
+	1 Strat2A org.jfree.chart.axis.Axis:1192 Used org.jfree.chart.ChartRenderingInfo()
+Status: Ok
+org.jfree.chart.junit.BarChart3DTests#testReplaceDataset
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYErrorRendererTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYErrorRendererTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYErrorRendererTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYErrorRendererTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.PlotOrientationTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.PlotOrientationTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.util.junit.RelativeDateFormatTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.util.junit.RelativeDateFormatTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.util.junit.RelativeDateFormatTests#testHashCode
+<No Strat> Status: Ok
+org.jfree.chart.junit.ScatterPlotTests#testSetSeriesToolTipGenerator
+<No Strat> Status: Ok
+org.jfree.chart.junit.ScatterPlotTests#testDrawWithNullInfo
+<No Strat> Status: Ok
+org.jfree.chart.junit.ScatterPlotTests#testReplaceDataset
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYTextAnnotationTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYTextAnnotationTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYTextAnnotationTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYTextAnnotationTests#testHashCode
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.BoxAndWhiskerXYToolTipGeneratorTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.BoxAndWhiskerXYToolTipGeneratorTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.BoxAndWhiskerXYToolTipGeneratorTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.ItemLabelPositionTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.ItemLabelPositionTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.junit.PieChart3DTests#testReplaceDatasetOnPieChart
+<No Strat> Status: Ok
+org.jfree.chart.junit.PieChart3DTests#testNullValueInDataset
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYBoxAnnotationTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYBoxAnnotationTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYBoxAnnotationTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYBoxAnnotationTests#testHashCode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests#testCreateStackedValueList1
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests#testCreateStackedValueList2
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests#testCreateStackedValueList3
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests#testCreateStackedValueList4
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests#testCreateStackedValueList1a
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests#testCreateStackedValueList1b
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests#testCreateStackedValueList1c
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests#testCreateStackedValueList1d
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests#testCreateStackedValueList2a
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests#testCreateStackedValueList2b
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests#testCreateStackedValueList2c
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests#testCreateStackedValueList2d
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests#testCreateStackedValueList3a
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests#testCreateStackedValueList3b
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests#testCreateStackedValueList3c
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests#testCreateStackedValueList3d
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests#testCreateStackedValueList5
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.CategoryAxisTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.CategoryAxisTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.CategoryAxisTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.CategoryAxisTests#testHashCode
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.CategoryAxisTests#testCloning2
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.CategoryTextAnnotationTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.CategoryTextAnnotationTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.CategoryTextAnnotationTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.CategoryTextAnnotationTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimePeriodAnchorTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimePeriodAnchorTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.VectorRendererTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.VectorRendererTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.VectorRendererTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.VectorRendererTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.MeanAndStandardDeviationTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.MeanAndStandardDeviationTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.MeanAndStandardDeviationTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimeSeriesTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimeSeriesTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimeSeriesTests#testEquals2
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimeSeriesTests#testGetValue
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimeSeriesTests#testGetIndex
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimeSeriesTests#testAddValue
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimeSeriesTests#testClone
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimeSeriesTests#testSetMaximumItemCount
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimeSeriesTests#testDelete
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimeSeriesTests#testDelete2
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimeSeriesTests#testCreateCopy1
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimeSeriesTests#testCreateCopy2
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimeSeriesTests#testAddOrUpdate
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimeSeriesTests#testBug1075255
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimeSeriesTests#testGetDataItem1
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimeSeriesTests#testGetDataItem2
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimeSeriesTests#testRemoveAgedItems
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimeSeriesTests#testRemoveAgedItems2
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.DateTickTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.DateTickTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.DateTickTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.DateTickTests#testHashCode
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.ArrowNeedleTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.ArrowNeedleTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.ArrowNeedleTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.StackedXYAreaRenderer2Tests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.StackedXYAreaRenderer2Tests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.StackedXYAreaRenderer2Tests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.StackedXYAreaRenderer2Tests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.StackedXYAreaRenderer2Tests#testFindRangeBounds
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.StackedXYAreaRenderer2Tests#testDrawWithEmptyDataset
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.WaterfallBarRendererTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.WaterfallBarRendererTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.WaterfallBarRendererTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.WaterfallBarRendererTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.StandardCategoryToolTipGeneratorTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.StandardCategoryToolTipGeneratorTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.StandardCategoryToolTipGeneratorTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.StandardCategoryToolTipGeneratorTests#testEquals1481087
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYDrawableAnnotationTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYDrawableAnnotationTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYDrawableAnnotationTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYDrawableAnnotationTests#testHashCode
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.NumberTickUnitTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.NumberTickUnitTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.NumberTickUnitTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.NumberTickUnitTests#testHashCode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.AbstractRendererTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.AbstractRendererTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.AbstractRendererTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.AbstractRendererTests#testCloning2
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.AbstractRendererTests#testEventNotification
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.AbstractRendererTests#testAutoPopulateFlagDefaults
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.AbstractRendererTests#testPaintLookup
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.AbstractRendererTests#testFillPaintLookup
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.AbstractRendererTests#testOutlinePaintLookup
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.AbstractXYItemRendererTests#testCloning_LegendItemLabelGenerator
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.AbstractXYItemRendererTests#testCloning_LegendItemToolTipGenerator
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.AbstractXYItemRendererTests#testCloning_LegendItemURLGenerator
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.AbstractXYItemRendererTests#testFindDomainBounds
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.AbstractXYItemRendererTests#testFindRangeBounds
+<No Strat> Status: Ok
+org.jfree.chart.junit.StackedAreaChartTests#testSetSeriesToolTipGenerator
+<No Strat> Status: Ok
+org.jfree.chart.junit.StackedAreaChartTests#testSetSeriesURLGenerator
+<No Strat> Status: Ok
+org.jfree.chart.junit.StackedAreaChartTests#testDrawWithNullInfo
+	1 Strat2A org.jfree.chart.axis.Axis:1192 Used org.jfree.chart.ChartRenderingInfo()
+Status: Ok
+org.jfree.chart.junit.StackedAreaChartTests#testReplaceDataset
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.NumberAxis3DTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultTableXYDatasetTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultTableXYDatasetTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultTableXYDatasetTests#testSerialization
+<No Strat> Status: Ko
+org.jfree.data.xy.junit.DefaultTableXYDatasetTests#testGetSeries
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultTableXYDatasetTests#testAddSeries
+<No Strat> Status: Ok
+org.jfree.chart.title.junit.DateTitleTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.title.junit.DateTitleTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.title.junit.DateTitleTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.title.junit.DateTitleTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultHighLowDatasetTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultHighLowDatasetTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultHighLowDatasetTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.junit.XYStepChartTests#testSetSeriesToolTipGenerator
+<No Strat> Status: Ok
+org.jfree.chart.junit.XYStepChartTests#testDrawWithNullInfo
+<No Strat> Status: Ok
+org.jfree.chart.junit.XYStepChartTests#testReplaceDataset
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.LineRenderer3DTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.LineRenderer3DTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.LineRenderer3DTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.LineRenderer3DTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.time.junit.SimpleTimePeriodTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.time.junit.SimpleTimePeriodTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.data.time.junit.SimpleTimePeriodTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.time.junit.SimpleTimePeriodTests#testCompareTo
+<No Strat> Status: Ok
+org.jfree.data.time.junit.SimpleTimePeriodTests#testClone
+<No Strat> Status: Ok
+org.jfree.data.time.junit.SimpleTimePeriodTests#testEqualsSelf
+<No Strat> Status: Ok
+org.jfree.chart.junit.XYAreaChartTests#testSetSeriesToolTipGenerator
+<No Strat> Status: Ok
+org.jfree.chart.junit.XYAreaChartTests#testDrawWithNullInfo
+<No Strat> Status: Ok
+org.jfree.chart.junit.XYAreaChartTests#testReplaceDataset
+<No Strat> Status: Ok
+org.jfree.chart.junit.HashUtilitiesTests#testHashCodeForDoubleArray
+<No Strat> Status: Ok
+org.jfree.chart.junit.GanttChartTests#testSetSeriesToolTipGenerator
+<No Strat> Status: Ok
+org.jfree.chart.junit.GanttChartTests#testSetSeriesURLGenerator
+<No Strat> Status: Ok
+org.jfree.chart.junit.GanttChartTests#testDrawWithNullInfo
+	1 Strat2A org.jfree.chart.axis.Axis:1192 Used org.jfree.chart.ChartRenderingInfo()
+Status: Ok
+org.jfree.chart.junit.GanttChartTests#testReplaceDataset
+<No Strat> Status: Ok
+org.jfree.chart.junit.GanttChartTests#testDrawWithNullInfo2
+	1 Strat2A org.jfree.chart.axis.Axis:1192 Used org.jfree.chart.ChartRenderingInfo()
+Status: Ok
+org.jfree.chart.annotations.junit.XYPointerAnnotationTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYPointerAnnotationTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYPointerAnnotationTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYPointerAnnotationTests#testHashCode
+<No Strat> Status: Ok
+org.jfree.data.category.junit.DefaultCategoryDatasetTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.category.junit.DefaultCategoryDatasetTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.category.junit.DefaultCategoryDatasetTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.category.junit.DefaultCategoryDatasetTests#testGetValue
+<No Strat> Status: Ok
+org.jfree.data.category.junit.DefaultCategoryDatasetTests#testGetValue2
+<No Strat> Status: Ok
+org.jfree.data.category.junit.DefaultCategoryDatasetTests#testIncrementValue
+<No Strat> Status: Ok
+org.jfree.data.category.junit.DefaultCategoryDatasetTests#testGetRowCount
+<No Strat> Status: Ok
+org.jfree.data.category.junit.DefaultCategoryDatasetTests#testGetColumnCount
+<No Strat> Status: Ok
+org.jfree.data.category.junit.DefaultCategoryDatasetTests#testAddValue
+<No Strat> Status: Ok
+org.jfree.data.category.junit.DefaultCategoryDatasetTests#testRemoveValue
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.CategoryAxis3DTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.CategoryAxis3DTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimePeriodValueTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimePeriodValueTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimePeriodValueTests#testEqualsSelf
+<No Strat> Status: Ok
+org.jfree.data.junit.DefaultKeyedValues2DTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.junit.DefaultKeyedValues2DTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.junit.DefaultKeyedValues2DTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.junit.DefaultKeyedValues2DTests#testGetValue
+<No Strat> Status: Ok
+org.jfree.data.junit.DefaultKeyedValues2DTests#testGetValue2
+<No Strat> Status: Ok
+org.jfree.data.junit.DefaultKeyedValues2DTests#testRemoveValue
+<No Strat> Status: Ok
+org.jfree.data.junit.DefaultKeyedValues2DTests#testGetRowKey
+<No Strat> Status: Ok
+org.jfree.data.junit.DefaultKeyedValues2DTests#testGetColumnKey
+<No Strat> Status: Ok
+org.jfree.data.junit.DefaultKeyedValues2DTests#testColumnCount
+<No Strat> Status: Ok
+org.jfree.data.junit.DefaultKeyedValues2DTests#testRemoveValueBug1690654
+<No Strat> Status: Ok
+org.jfree.data.junit.DefaultKeyedValues2DTests#testRemoveRow
+<No Strat> Status: Ok
+org.jfree.data.junit.DefaultKeyedValues2DTests#testSparsePopulation
+<No Strat> Status: Ok
+org.jfree.data.junit.DefaultKeyedValues2DTests#testRowCount
+<No Strat> Status: Ok
+org.jfree.chart.block.junit.RectangleConstraintTests#testCalculateConstrainedSize
+<No Strat> Status: Ok
+org.jfree.chart.junit.LegendItemCollectionTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.junit.LegendItemCollectionTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.junit.LegendItemCollectionTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.CompassPlotTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.CompassPlotTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.CompassPlotTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimePeriodValuesTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimePeriodValuesTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimePeriodValuesTests#testAddValue
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimePeriodValuesTests#testClone
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimePeriodValuesTests#test1161329
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimePeriodValuesTests#testAdd
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYIntervalSeriesTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYIntervalSeriesTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYIntervalSeriesTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYIntervalSeriesTests#testRemove
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYIntervalSeriesTests#testAdd
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYIntervalSeriesTests#testSetMaximumItemCount
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYIntervalSeriesTests#testIndexOf
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYIntervalSeriesTests#testSetMaximumItemCount2
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYIntervalSeriesTests#testIndexOf2
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYIntervalSeriesTests#testAdditionOfDuplicateXValues
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYIntervalSeriesTests#testValues
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYSeriesCollectionTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYSeriesCollectionTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYSeriesCollectionTests#testSerialization
+<No Strat> Status: Ko
+org.jfree.data.xy.junit.XYSeriesCollectionTests#testGetSeries
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYSeriesCollectionTests#testRemoveSeries
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYSeriesCollectionTests#test1170825
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYSeriesCollectionTests#testIndexOf
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYPolygonAnnotationTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYPolygonAnnotationTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYPolygonAnnotationTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYPolygonAnnotationTests#testHashCode
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.YIntervalDataItemTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.YIntervalDataItemTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.YIntervalDataItemTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.YIntervalDataItemTests#testConstructor1
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.CategoryAnchorTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.CategoryAnchorTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.CategoryAnchorTests#testHashCode
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimeTableXYDatasetTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimeTableXYDatasetTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimeTableXYDatasetTests#testClone
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimeTableXYDatasetTests#testGetTimePeriod
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimeTableXYDatasetTests#testStandard
+<No Strat> Status: Ok
+org.jfree.chart.urls.junit.StandardCategoryURLGeneratorTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StackedAreaRendererTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StackedAreaRendererTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StackedAreaRendererTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StackedAreaRendererTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.PiePlotTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.PiePlotTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.PiePlotTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.PiePlotTests#testCloning_URLGenerator
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.PiePlotTests#testCloning_LegendItemShape
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.PiePlotTests#testCloning_LegendLabelGenerator
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.PiePlotTests#testCloning_LegendLabelToolTipGenerator
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.PiePlotTests#testCloning_LegendLabelURLGenerator
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.PiePlotTests#testGetLegendItems
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.PiePlotTests#testGetBaseSectionPaint
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.PiePlotTests#testDrawWithNullLegendLabels
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.RendererUtilitiesTests#testFindLiveItemsLowerBoundUnordered
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.RendererUtilitiesTests#testFindLiveItemsLowerBoundAscending
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.RendererUtilitiesTests#testFindLiveItemsLowerBoundDescending
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.RendererUtilitiesTests#testFindLiveItemsUpperBoundUnordered
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.RendererUtilitiesTests#testFindLiveItemsUpperBoundAscending
+<No Strat> Status: Ok
+org.jfree.chart.renderer.junit.RendererUtilitiesTests#testFindLiveItemsUpperBoundDescending
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.DateTickMarkPositionTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.DateTickMarkPositionTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.DateTickMarkPositionTests#testHashCode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests#testDrawWithNullInfo
+	1 Strat2A org.jfree.chart.axis.Axis:1192 Used org.jfree.chart.ChartRenderingInfo()
+Status: Ok
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests#testGetLegendItem
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests#testBug1572478Vertical
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests#testBug1572478Horizontal
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests#testGetLegendItemSeriesIndex
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DatasetUtilitiesTests#testFindDomainBounds
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DatasetUtilitiesTests#testJava
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DatasetUtilitiesTests#testCalculatePieDatasetTotal
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DatasetUtilitiesTests#testIterateDomainBounds
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DatasetUtilitiesTests#testFindRangeBounds1
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DatasetUtilitiesTests#testFindRangeBounds2
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DatasetUtilitiesTests#testIterateCategoryRangeBounds
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DatasetUtilitiesTests#testIterateXYRangeBounds
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DatasetUtilitiesTests#testIterateXYRangeBounds2
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DatasetUtilitiesTests#testFindMinimumDomainValue
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DatasetUtilitiesTests#testFindMaximumDomainValue
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DatasetUtilitiesTests#testFindMinimumRangeValue
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DatasetUtilitiesTests#testFindMaximumRangeValue
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DatasetUtilitiesTests#testMinMaxRange
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DatasetUtilitiesTests#test803660
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DatasetUtilitiesTests#testCumulativeRange1
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DatasetUtilitiesTests#testCumulativeRange2
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DatasetUtilitiesTests#testCreateCategoryDataset1
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DatasetUtilitiesTests#testCreateCategoryDataset2
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DatasetUtilitiesTests#testMaximumStackedRangeValue
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DatasetUtilitiesTests#testFindStackedRangeBoundsForCategoryDataset1
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DatasetUtilitiesTests#testFindStackedRangeBoundsForCategoryDataset2
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DatasetUtilitiesTests#testFindStackedRangeBoundsForTableXYDataset1
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DatasetUtilitiesTests#testFindStackedRangeBoundsForTableXYDataset2
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DatasetUtilitiesTests#testStackedRangeWithMap
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DatasetUtilitiesTests#testLimitPieDataset
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.LongNeedleTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.LongNeedleTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.LongNeedleTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYIntervalDataItemTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYIntervalDataItemTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYIntervalDataItemTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYIntervalDataItemTests#testConstructor1
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.MeterPlotTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.MeterPlotTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.MeterPlotTests#testSerialization1
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.MeterPlotTests#testSerialization2
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.WindItemRendererTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.WindItemRendererTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.WindItemRendererTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.WindItemRendererTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.entity.junit.StandardEntityCollectionTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.entity.junit.StandardEntityCollectionTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.entity.junit.StandardEntityCollectionTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.PinNeedleTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.PinNeedleTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.PinNeedleTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests#testDrawWithNullInfo
+	1 Strat2A org.jfree.chart.axis.Axis:1192 Used org.jfree.chart.ChartRenderingInfo()
+Status: Ok
+org.jfree.data.general.junit.DefaultKeyedValueDatasetTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DefaultKeyedValueDatasetTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DefaultKeyedValueDatasetTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.general.junit.DefaultKeyedValueDatasetTests#testCloneIndependence
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYBarRendererTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYBarRendererTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYBarRendererTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYBarRendererTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYBarRendererTests#testSerialization2
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYBarRendererTests#testGetLegendItemSeriesIndex
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYBarRendererTests#testFindDomainBounds
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.NumberAxisTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.NumberAxisTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.NumberAxisTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.NumberAxisTests#testHashCode
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.NumberAxisTests#testAutoRange1
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.NumberAxisTests#testTranslateJava2DToValue
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.NumberAxisTests#testAutoRange2
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.NumberAxisTests#testAutoRange3
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.NumberAxisTests#testAutoRange4
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.NumberAxisTests#testXYAutoRange1
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.NumberAxisTests#testXYAutoRange2
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.NumberAxisTests#testSetLowerBound
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.CategoryPlotTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.CategoryPlotTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.CategoryPlotTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.CategoryPlotTests#testSerialization4
+	1 Strat2A org.jfree.chart.axis.Axis:1192 Used org.jfree.chart.ChartRenderingInfo()
+Status: Ok
+org.jfree.chart.plot.junit.CategoryPlotTests#testSerialization3
+	1 Strat2A org.jfree.chart.axis.Axis:1192 Used org.jfree.chart.ChartRenderingInfo()
+Status: Ok
+org.jfree.chart.plot.junit.CategoryPlotTests#testSerialization2
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.CategoryPlotTests#testAxisRange
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.CategoryPlotTests#testSerialization5
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.CategoryPlotTests#testSetRenderer
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.CategoryPlotTests#test1169972
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.CategoryPlotTests#testAddDomainMarker
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.CategoryPlotTests#testAddRangeMarker
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.CategoryPlotTests#test1654215
+	1 Strat2A org.jfree.chart.axis.Axis:1192 Used org.jfree.chart.ChartRenderingInfo()
+Status: Ok
+org.jfree.chart.junit.JFreeChartTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.junit.JFreeChartTests#testSerialization4
+<No Strat> Status: Ko
+org.jfree.chart.junit.JFreeChartTests#testAddSubtitle
+<No Strat> Status: Ok
+org.jfree.chart.junit.JFreeChartTests#testGetSubtitles
+<No Strat> Status: Ok
+org.jfree.chart.junit.JFreeChartTests#testLegendEvents
+<No Strat> Status: Ok
+org.jfree.chart.junit.JFreeChartTests#testEquals2
+<No Strat> Status: Ok
+org.jfree.chart.junit.JFreeChartTests#testSubtitleCount
+<No Strat> Status: Ok
+org.jfree.chart.junit.JFreeChartTests#testGetSubtitle
+<No Strat> Status: Ok
+org.jfree.chart.junit.JFreeChartTests#testSerialization1
+<No Strat> Status: Ok
+org.jfree.chart.junit.JFreeChartTests#testSerialization3
+<No Strat> Status: Ok
+org.jfree.chart.junit.JFreeChartTests#testSerialization2
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultXYZDatasetTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultXYZDatasetTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultXYZDatasetTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultXYZDatasetTests#testGetSeriesKey
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultXYZDatasetTests#testAddSeries
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultXYZDatasetTests#testIndexOf
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.LineNeedleTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.LineNeedleTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.LineNeedleTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.entity.junit.PieSectionEntityTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.entity.junit.PieSectionEntityTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.entity.junit.PieSectionEntityTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYAreaRenderer2Tests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYAreaRenderer2Tests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYAreaRenderer2Tests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYAreaRenderer2Tests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYAreaRenderer2Tests#testDrawWithNullInfo
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.XYAreaRenderer2Tests#testGetLegendItemSeriesIndex
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.PlotRenderingInfoTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.PlotRenderingInfoTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.PlotRenderingInfoTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.IntervalMarkerTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.IntervalMarkerTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.IntervalMarkerTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.IntervalMarkerTests#testGetSetStartValue
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.IntervalMarkerTests#testGetSetEndValue
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.MeterIntervalTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.MeterIntervalTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.MeterIntervalTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.block.junit.BlockContainerTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.block.junit.BlockContainerTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.block.junit.BlockContainerTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.title.junit.TextTitleTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.title.junit.TextTitleTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.title.junit.TextTitleTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.title.junit.TextTitleTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultXYDatasetTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultXYDatasetTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultXYDatasetTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultXYDatasetTests#testGetSeriesKey
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultXYDatasetTests#testAddSeries
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultXYDatasetTests#testIndexOf
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.ShipNeedleTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.ShipNeedleTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.ShipNeedleTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.IntervalXYDelegateTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.IntervalXYDelegateTests#testCloning
+<No Strat> Status: Ok
+java.lang.ClassNotFoundException: org.jfree.data.general.SeriesChangeListener
+org.jfree.data.xy.junit.IntervalXYDelegateTests#testSerialization
+<No Strat> Status: Ko
+org.jfree.chart.urls.junit.CustomXYURLGeneratorTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.junit.ComparableObjectItemTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.junit.ComparableObjectItemTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.junit.ComparableObjectItemTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.junit.ComparableObjectItemTests#testConstructor
+<No Strat> Status: Ok
+org.jfree.data.junit.ComparableObjectItemTests#testCompareTo
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests#testSerialization1
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests#testSerialization2
+<No Strat> Status: Ok
+org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests#testGetRangeBounds
+<No Strat> Status: Ok
+org.jfree.data.junit.DomainOrderTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.junit.DomainOrderTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.junit.DomainOrderTests#testHashCode
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYShapeAnnotationTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYShapeAnnotationTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYShapeAnnotationTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.annotations.junit.XYShapeAnnotationTests#testHashCode
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimeSeriesCollectionTests#testEquals
+<No Strat> Status: Ok
+java.lang.ClassNotFoundException: org.jfree.data.general.SeriesChangeListener
+org.jfree.data.time.junit.TimeSeriesCollectionTests#testSerialization
+<No Strat> Status: Ko
+org.jfree.data.time.junit.TimeSeriesCollectionTests#testRemoveSeries
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimeSeriesCollectionTests#testGetSurroundingItems
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimeSeriesCollectionTests#test1170825
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimeSeriesCollectionTests#testIndexOf
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.XYPlotTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.XYPlotTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.XYPlotTests#testSerialization4
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.XYPlotTests#testSerialization1
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.XYPlotTests#testSerialization3
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.XYPlotTests#testCloning2
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.XYPlotTests#testCloning_QuadrantOrigin
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.XYPlotTests#testCloning_QuadrantPaint
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.XYPlotTests#testCloneIndependence
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.XYPlotTests#testSetNullRenderer
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.XYPlotTests#testGetRendererForDataset
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.XYPlotTests#testRemoveAnnotation
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.XYPlotTests#testDrawRangeGridlines
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.XYPlotTests#testDrawSeriesWithZeroItems
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.XYPlotTests#testSerialization5
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.XYPlotTests#testSetRenderer
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.XYPlotTests#testGetLegendItems
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.XYPlotTests#testAddDomainMarker
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.XYPlotTests#testAddRangeMarker
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.XYPlotTests#test1654215
+<No Strat> Status: Ok
+org.jfree.chart.block.junit.FlowArrangementTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.block.junit.FlowArrangementTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.block.junit.FlowArrangementTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.entity.junit.XYItemEntityTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.entity.junit.XYItemEntityTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.entity.junit.XYItemEntityTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.DeviationRendererTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.DeviationRendererTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.DeviationRendererTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.xy.junit.DeviationRendererTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.title.junit.CompositeTitleTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.title.junit.CompositeTitleTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.title.junit.CompositeTitleTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.title.junit.CompositeTitleTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.CategoryTickTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.CategoryTickTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.CategoryTickTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.CategoryTickTests#testHashCode
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.SymbolicXYItemLabelGeneratorTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.SymbolicXYItemLabelGeneratorTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.SymbolicXYItemLabelGeneratorTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimePeriodValuesCollectionTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimePeriodValuesCollectionTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimePeriodValuesCollectionTests#testGetSeries
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimePeriodValuesCollectionTests#testGetDomainBoundsWithoutInterval
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimePeriodValuesCollectionTests#testGetDomainBoundsWithInterval
+<No Strat> Status: Ok
+org.jfree.data.time.junit.TimePeriodValuesCollectionTests#test1161340
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.MeterNeedleTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.block.junit.LineBorderTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.block.junit.LineBorderTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.block.junit.LineBorderTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.junit.XYBarChartTests#testSetSeriesToolTipGenerator
+<No Strat> Status: Ok
+org.jfree.chart.junit.XYBarChartTests#testDrawWithNullInfo
+<No Strat> Status: Ok
+org.jfree.chart.junit.XYBarChartTests#testReplaceDataset
+<No Strat> Status: Ok
+org.jfree.chart.junit.StackedBarChartTests#testSetSeriesToolTipGenerator
+<No Strat> Status: Ok
+org.jfree.chart.junit.StackedBarChartTests#testSetSeriesURLGenerator
+<No Strat> Status: Ok
+org.jfree.chart.junit.StackedBarChartTests#testDrawWithNullInfo
+	1 Strat2A org.jfree.chart.axis.Axis:1192 Used org.jfree.chart.ChartRenderingInfo()
+Status: Ok
+org.jfree.chart.junit.StackedBarChartTests#testReplaceDataset
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.ThermometerPlotTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.ThermometerPlotTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.ThermometerPlotTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.ThermometerPlotTests#testSerialization2
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.OHLCDataItemTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.OHLCDataItemTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.OHLCDataItemTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.GanttRendererTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.GanttRendererTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.GanttRendererTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.GanttRendererTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.junit.LineChartTests#testSetSeriesToolTipGenerator
+<No Strat> Status: Ok
+org.jfree.chart.junit.LineChartTests#testSetSeriesURLGenerator
+<No Strat> Status: Ok
+org.jfree.chart.junit.LineChartTests#testDrawWithNullInfo
+	1 Strat2A org.jfree.chart.axis.Axis:1192 Used org.jfree.chart.ChartRenderingInfo()
+Status: Ok
+org.jfree.chart.junit.LineChartTests#testReplaceDataset
+<No Strat> Status: Ok
+org.jfree.data.junit.RangeTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.junit.RangeTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.junit.RangeTests#testContains
+<No Strat> Status: Ok
+org.jfree.data.junit.RangeTests#testConstrain
+<No Strat> Status: Ok
+org.jfree.data.junit.RangeTests#testIntersects
+<No Strat> Status: Ok
+org.jfree.data.junit.RangeTests#testExpand
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.LevelRendererTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.LevelRendererTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.LevelRendererTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.LevelRendererTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.LevelRendererTests#testDrawWithNullInfo
+	1 Strat2A org.jfree.chart.axis.Axis:1192 Used org.jfree.chart.ChartRenderingInfo()
+Status: Ok
+org.jfree.chart.renderer.category.junit.LevelRendererTests#testGetLegendItemSeriesIndex
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.StandardPieSectionLabelGeneratorTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.StandardPieSectionLabelGeneratorTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.labels.junit.StandardPieSectionLabelGeneratorTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultOHLCDatasetTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultOHLCDatasetTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultOHLCDatasetTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.DefaultOHLCDatasetTests#testDataRange
+<No Strat> Status: Ok
+org.jfree.chart.block.junit.ColumnArrangementTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.block.junit.ColumnArrangementTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.block.junit.ColumnArrangementTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.time.ohlc.junit.OHLCSeriesCollectionTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.time.ohlc.junit.OHLCSeriesCollectionTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.time.ohlc.junit.OHLCSeriesCollectionTests#testSerialization
+<No Strat> Status: Ko
+org.jfree.data.time.ohlc.junit.OHLCSeriesCollectionTests#test1170825
+<No Strat> Status: Ok
+org.jfree.chart.entity.junit.CategoryItemEntityTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.entity.junit.CategoryItemEntityTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.entity.junit.CategoryItemEntityTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.BarRenderer3DTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.BarRenderer3DTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.BarRenderer3DTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.BarRenderer3DTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XIntervalSeriesTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XIntervalSeriesTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XIntervalSeriesTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XIntervalSeriesTests#testRemove
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XIntervalSeriesTests#testAdd
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XIntervalSeriesTests#testSetMaximumItemCount
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XIntervalSeriesTests#testIndexOf
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XIntervalSeriesTests#testSetMaximumItemCount2
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XIntervalSeriesTests#testIndexOf2
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XIntervalSeriesTests#testAdditionOfDuplicateXValues
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.PointerNeedleTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.PointerNeedleTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.needle.junit.PointerNeedleTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.SpiderWebPlotTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.SpiderWebPlotTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.SpiderWebPlotTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.SpiderWebPlotTests#testDrawWithNullInfo
+<No Strat> Status: Ko
+org.jfree.chart.junit.AreaChartTests#testSetSeriesToolTipGenerator
+<No Strat> Status: Ok
+org.jfree.chart.junit.AreaChartTests#testSetSeriesURLGenerator
+<No Strat> Status: Ok
+org.jfree.chart.junit.AreaChartTests#testDrawWithNullInfo
+	1 Strat2A org.jfree.chart.axis.Axis:1192 Used org.jfree.chart.ChartRenderingInfo()
+Status: Ok
+org.jfree.chart.junit.AreaChartTests#testReplaceDataset
+<No Strat> Status: Ok
+org.jfree.chart.block.junit.BorderArrangementTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.block.junit.BorderArrangementTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.block.junit.BorderArrangementTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.block.junit.BorderArrangementTests#testSizing
+<No Strat> Status: Ok
+org.jfree.chart.block.junit.BorderArrangementTests#testSizingWithWidthConstraint
+<No Strat> Status: Ok
+org.jfree.data.junit.DataUtilitiesTests#testCalculateColumnTotal
+<No Strat> Status: Ok
+org.jfree.data.junit.DataUtilitiesTests#testCreateNumberArray2D
+<No Strat> Status: Ok
+org.jfree.data.junit.DataUtilitiesTests#testCalculateRowTotal
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.CyclicNumberAxisTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.CyclicNumberAxisTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.CyclicNumberAxisTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.CyclicNumberAxisTests#testHashCode
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.RingPlotTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.RingPlotTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.plot.junit.RingPlotTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.time.ohlc.junit.OHLCSeriesTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.time.ohlc.junit.OHLCSeriesTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.time.ohlc.junit.OHLCSeriesTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.time.ohlc.junit.OHLCSeriesTests#testRemove
+<No Strat> Status: Ok
+org.jfree.data.time.ohlc.junit.OHLCSeriesTests#testSetMaximumItemCount
+<No Strat> Status: Ok
+org.jfree.data.time.ohlc.junit.OHLCSeriesTests#testIndexOf
+<No Strat> Status: Ok
+org.jfree.data.time.ohlc.junit.OHLCSeriesTests#testAdditionOfDuplicatePeriod
+<No Strat> Status: Ok
+org.jfree.data.time.ohlc.junit.OHLCSeriesTests#testSetMaximumItemCount2
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYSeriesTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYSeriesTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYSeriesTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYSeriesTests#testRemove
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYSeriesTests#testAdd
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYSeriesTests#testSetMaximumItemCount
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYSeriesTests#testAddOrUpdate
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYSeriesTests#testIndexOf
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYSeriesTests#testSetMaximumItemCount2
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYSeriesTests#testIndexOf2
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYSeriesTests#testAdditionOfDuplicateXValues
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYSeriesTests#testUpdate
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYSeriesTests#testUpdate2
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYSeriesTests#testAddOrUpdate2
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYSeriesTests#testToArray
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XYSeriesTests#testToArrayExample
+<No Strat> Status: Ok
+org.jfree.chart.junit.WaterfallChartTests#testSetSeriesToolTipGenerator
+<No Strat> Status: Ok
+org.jfree.chart.junit.WaterfallChartTests#testSetSeriesURLGenerator
+<No Strat> Status: Ok
+org.jfree.chart.junit.WaterfallChartTests#testDrawWithNullInfo
+	1 Strat2A org.jfree.chart.axis.Axis:1192 Used org.jfree.chart.ChartRenderingInfo()
+Status: Ok
+org.jfree.data.xy.junit.XIntervalDataItemTests#testEquals
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XIntervalDataItemTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XIntervalDataItemTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.data.xy.junit.XIntervalDataItemTests#testConstructor1
+<No Strat> Status: Ok
+org.jfree.data.junit.KeyedObjects2DTests#testCloning
+<No Strat> Status: Ok
+org.jfree.data.junit.KeyedObjects2DTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.CategoryLabelPositionTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.CategoryLabelPositionTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.CategoryLabelPositionTests#testHashCode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.AreaRendererTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.AreaRendererTests#testHashcode
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.AreaRendererTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.AreaRendererTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.renderer.category.junit.AreaRendererTests#testGetLegendItemSeriesIndex
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.SegmentedTimelineTests#testEquals
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.SegmentedTimelineTests#testCloning
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.SegmentedTimelineTests#testSerialization
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.SegmentedTimelineTests#testHashCode
+<No Strat> Status: Ok
+org.jfree.chart.axis.junit.SegmentedTimelineTests#testMs2BaseTimelineTranslations
+<No Strat> Status: Ok

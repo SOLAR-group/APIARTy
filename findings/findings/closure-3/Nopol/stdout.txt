@@ -1,0 +1,73 @@
+15:31:49.432 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/workspaces/APIARTy/data/closure-3/closure-compiler/src, /workspaces/APIARTy/data/closure-3/closure-compiler/test]
+15:31:49.450 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/workspaces/APIARTy/data/closure-3/closure-compiler/build/classes/, file:/workspaces/APIARTy/data/closure-3/closure-compiler/build/test/, file:/workspaces/APIARTy/data/closure-3/closure-compiler/./build/lib/rhino.jar, file:/workspaces/APIARTy/data/closure-3/closure-compiler/./lib/ant.jar, file:/workspaces/APIARTy/data/closure-3/closure-compiler/./lib/ant-launcher.jar, file:/workspaces/APIARTy/data/closure-3/closure-compiler/./lib/args4j.jar, file:/workspaces/APIARTy/data/closure-3/closure-compiler/./lib/guava.jar, file:/workspaces/APIARTy/data/closure-3/closure-compiler/./lib/jarjar.jar, file:/workspaces/APIARTy/data/closure-3/closure-compiler/./lib/json.jar, file:/workspaces/APIARTy/data/closure-3/closure-compiler/./lib/jsr305.jar, file:/workspaces/APIARTy/data/closure-3/closure-compiler/./lib/junit.jar, file:/workspaces/APIARTy/data/closure-3/closure-compiler/./lib/caja-r4314.jar, file:/workspaces/APIARTy/data/closure-3/closure-compiler/./lib/protobuf-java.jar, file:/workspaces/APIARTy/data/closure-3/closure-compiler/./lib/nopol/nopol/target/nopol-0.2-SNAPSHOT-jar-with-dependencies.jar]
+15:31:49.452 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+15:31:49.455 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [com.google.javascript.jscomp.TypeCheckTest]
+15:31:49.460 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/workspaces/APIARTy/data/closure-3/closure-compiler/src, /workspaces/APIARTy/data/closure-3/closure-compiler/test], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[com.google.javascript.jscomp.TypeCheckTest], complianceLevel=7, outputFolder=., json=false}
+15:31:49.461 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+15:31:49.480 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 28 MB
+15:31:49.482 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+15:31:49.483 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 31 MB
+15:31:49.485 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+15:31:49.491 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+15:31:49.492 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /root/.vscode-server/bin/c47d83b293181d9be64f27ff093689e8e7aed054/bin:/apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+15:32:41.681 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+15:32:41.691 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.rhino.jstype.ObjectType:576 which is executed by 4 tests
+-1234646214
+15:32:44.304 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+15:33:05.862 [pool-2-thread-1] DEBUG tests.output - Failing tests with false: 
+[testBadInterfaceExtendsNonExistentInterfaces(com.google.javascript.jscomp.TypeCheckTest): null]
+15:33:05.889 [pool-2-thread-1] DEBUG tests.output - Failing tests with true: 
+[testBadInterfaceExtendsNonExistentInterfaces(com.google.javascript.jscomp.TypeCheckTest): null]
+15:33:05.900 [pool-2-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.google.javascript.rhino.jstype.ObjectType:576.
+15:33:05.913 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+15:33:05.916 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.rhino.jstype.ObjectType:575 which is executed by 4 tests
+-1234646214
+15:33:10.998 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+15:33:26.464 [pool-6-thread-1] DEBUG tests.output - Failing tests with false: 
+[testBadInterfaceExtendsNonExistentInterfaces(com.google.javascript.jscomp.TypeCheckTest): null]
+15:33:26.467 [pool-6-thread-1] DEBUG tests.output - Failing tests with true: 
+[testBadInterfaceExtendsNonExistentInterfaces(com.google.javascript.jscomp.TypeCheckTest): null]
+15:33:26.468 [pool-6-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.google.javascript.rhino.jstype.ObjectType:575.
+15:33:26.469 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+15:33:26.472 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.TypeCheck:1660 which is executed by 17 tests
+-1797850673
+15:33:29.860 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+15:33:43.234 [pool-10-thread-1] DEBUG f.i.l.c.s.ConstraintBasedSynthesis - Operators:
+15:33:43.531 [pool-10-thread-1] DEBUG f.i.l.c.s.ConstraintBasedSynthesis - Operators:
+== of arity: 2
+!= of arity: 2
+< of arity: 2
+<= of arity: 2
+15:33:43.892 [pool-10-thread-1] DEBUG f.i.l.c.s.ConstraintBasedSynthesis - Successful code synthesis: (com.google.javascript.jscomp.TypeCheck.this.typedCount) != (com.google.javascript.jscomp.TypeCheck.this.unknownCount)
+15:33:43.906 [pool-10-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Applying patch: com.google.javascript.jscomp.TypeCheck:1660: PRECONDITION (com.google.javascript.jscomp.TypeCheck.this.typedCount) != (com.google.javascript.jscomp.TypeCheck.this.unknownCount)
+15:33:46.524 [pool-10-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Running test suite to check the patch "(com.google.javascript.jscomp.TypeCheck.this.typedCount) != (com.google.javascript.jscomp.TypeCheck.this.unknownCount)" is working
+15:34:01.528 [pool-10-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Skipped -9 patches for sake of performance
+15:34:01.536 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+15:34:04.593 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 638
+15:34:04.607 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 13766
+15:34:04.612 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 3
+15:34:04.613 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 1
+15:34:04.615 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 13
+15:34:04.616 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 2
+15:34:04.618 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT components: [4] [== of arity: 2, != of arity: 2, < of arity: 2, <= of arity: 2]
+15:34:04.619 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol -                   class java.lang.Boolean: 4
+15:34:04.621 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 68
+15:34:04.622 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 132110ms
+15:34:04.623 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+15:34:04.625 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+15:34:04.626 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - (com.google.javascript.jscomp.TypeCheck.this.typedCount) != (com.google.javascript.jscomp.TypeCheck.this.unknownCount)
+15:34:06.747 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 17
+15:34:06.757 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - com.google.javascript.jscomp.TypeCheck:1660: PRECONDITION
+15:34:06.902 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - --- a/src/com/google/javascript/jscomp/TypeCheck.java
++++ b/src/com/google/javascript/jscomp/TypeCheck.java
+@@ -1659,4 +1659,6 @@
+           currentProperties.clear();
+-          checkInterfaceConflictProperties(t, n, functionPrivateName,
+-              properties, currentProperties, interfaceType);
++          if ((com.google.javascript.jscomp.TypeCheck.this.typedCount) != (com.google.javascript.jscomp.TypeCheck.this.unknownCount)) {
++            checkInterfaceConflictProperties(t, n, functionPrivateName,
++            properties, currentProperties, interfaceType);
++          }
+           properties.putAll(currentProperties);
+
+PATCH

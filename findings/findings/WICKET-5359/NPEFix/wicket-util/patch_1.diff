@@ -1,0 +1,10 @@
+--- a/src/main/java/org/apache/wicket/util/lang/Objects.java
++++ b/src/main/java/org/apache/wicket/util/lang/Objects.java
+@@ -626,4 +626,6 @@
+ 				// equivalence
+-				result = (object1 != null) && (object2 != null) &&
++				if (false) {
++					result = (object1 != null) && (object2 != null) &&
+ 					((compareWithConversion(object1, object2) == 0) || object1.equals(object2));
++				}
+ 			}

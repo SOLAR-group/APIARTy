@@ -1,0 +1,20 @@
+1 Replace /apiarty/data/ivantrendafilov-confucius-101/Confucius/src/main/java/org/trendafilov/confucius/core/Parser.java 50
+Faulty:
+return configuration;
+Seed:
+return configuration;
+**************************************************
+2 Delete /apiarty/data/ivantrendafilov-confucius-101/Confucius/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java 226
+Faulty:
+parts.add(Short.parseShort(value.trim()));
+Seed:
+NULL
+**************************************************
+3 Delete /apiarty/data/ivantrendafilov-confucius-101/Confucius/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java 276
+Faulty:
+LOG.info("Unset configuration property: [{}]",key);
+Seed:
+NULL
+**************************************************
+Evaluations: 1793
+EstimatedTime: 1637619

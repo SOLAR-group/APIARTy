@@ -1,0 +1,14 @@
+1 Delete /apiarty/data/ivantrendafilov-confucius-98/Confucius/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java 206
+Faulty:
+parts.add(Long.parseLong(value.trim()));
+Seed:
+NULL
+**************************************************
+2 Delete /apiarty/data/ivantrendafilov-confucius-98/Confucius/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java 261
+Faulty:
+LOG.info("Set configuration property: [{}] => [{}]",key,item);
+Seed:
+NULL
+**************************************************
+Evaluations: 122
+EstimatedTime: 99112

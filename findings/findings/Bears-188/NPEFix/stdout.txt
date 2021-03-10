@@ -1,0 +1,25 @@
+TernarySplitter  in 6ms
+CheckNotNull  in 4ms
+ForceNullInit in 8ms
+AddImplicitCastChecker --> 0 in 37ms
+BeforeDeref --> 57 (failed:0) in 68ms
+target--> 64 (failed:0) in 205ms
+TryRegister # Try: 2 in 6ms
+Assign --> 32 (failed: 0) in 85ms
+VarInit --> 22 in 23ms
+MethodEncapsulation # Method: 60 in 194ms
+ConstructorEncapsulation # Constructor: 11 in 28ms
+VariableFor in 9ms
+RMI Selector (Host: 127.0.0.1, Port: 10000): KO
+hu.oe.nik.szfmv.visualization.DashboardTest#allRequiredValuesReceivedOnUpdate
+<No Strat> Status: Ko
+hu.oe.nik.szfmv.visualization.DashboardTest#allRequiredValuesReceivedOnUpdate
+<No Strat> Status: Ko
+hu.oe.nik.szfmv.visualization.DashboardTest#allRequiredValuesReceivedOnUpdate
+<No Strat> Status: Ko
+hu.oe.nik.szfmv.visualization.DashboardTest#allRequiredValuesReceivedOnUpdate
+<No Strat> Status: Ko
+hu.oe.nik.szfmv.visualization.DashboardTest#allRequiredValuesReceivedOnUpdate
+<No Strat> Status: Ko
+hu.oe.nik.szfmv.visualization.DashboardTest#allRequiredValuesReceivedOnUpdate
+<No Strat> Status: Ko

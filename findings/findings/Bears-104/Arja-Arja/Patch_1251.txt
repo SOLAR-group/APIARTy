@@ -1,0 +1,16 @@
+1 Delete /workspaces/APIARTy/data/Bears-104/traccar/src/org/traccar/protocol/SuntechProtocolDecoder.java 151
+Faulty:
+if (index < values.length) {
+  position.set(Position.KEY_BATTERY,Double.parseDouble(values[index]));
+}
+Seed:
+NULL
+**************************************************
+2 Delete /workspaces/APIARTy/data/Bears-104/traccar/src/org/traccar/protocol/SuntechProtocolDecoder.java 139
+Faulty:
+position.set(Position.PREFIX_IO + 1,values[index++]);
+Seed:
+NULL
+**************************************************
+Evaluations: 850
+EstimatedTime: 1485388

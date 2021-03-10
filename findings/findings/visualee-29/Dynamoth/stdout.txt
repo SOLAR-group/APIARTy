@@ -1,0 +1,184 @@
+18:56:13.318 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/visualee-29/visualee/src/main/java, /apiarty/data/visualee-29/visualee/src/test/java]
+18:56:13.347 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/visualee-29/visualee/target/classes/, file:/apiarty/data/visualee-29/visualee/target/test-classes/, file:/root/.m2/repository/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.jar, file:/root/.m2/repository/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.jar, file:/root/.m2/repository/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.jar, file:/root/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.jar, file:/root/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar, file:/root/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar, file:/root/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar, file:/root/.m2/repository/com/google/guava/guava/10.0.1/guava-10.0.1.jar, file:/root/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar, file:/root/.m2/repository/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar, file:/root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar, file:/root/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.jar, file:/root/.m2/repository/asm/asm/3.3.1/asm-3.3.1.jar, file:/root/.m2/repository/org/apache/maven/maven-core/3.1.0/maven-core-3.1.0.jar, file:/root/.m2/repository/org/apache/maven/maven-settings/3.1.0/maven-settings-3.1.0.jar, file:/root/.m2/repository/org/apache/maven/maven-settings-builder/3.1.0/maven-settings-builder-3.1.0.jar, file:/root/.m2/repository/org/apache/maven/maven-repository-metadata/3.1.0/maven-repository-metadata-3.1.0.jar, file:/root/.m2/repository/org/apache/maven/maven-model-builder/3.1.0/maven-model-builder-3.1.0.jar, file:/root/.m2/repository/org/apache/maven/maven-aether-provider/3.1.0/maven-aether-provider-3.1.0.jar, file:/root/.m2/repository/org/eclipse/aether/aether-spi/0.9.0.M2/aether-spi-0.9.0.M2.jar, file:/root/.m2/repository/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2.jar, file:/root/.m2/repository/org/eclipse/aether/aether-api/0.9.0.M2/aether-api-0.9.0.M2.jar, file:/root/.m2/repository/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.jar, file:/root/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.16/plexus-interpolation-1.16.jar, file:/root/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.jar, file:/root/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.4.2/plexus-classworlds-2.4.2.jar, file:/root/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar, file:/root/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar, file:/root/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar, file:/root/.m2/repository/org/glassfish/javax.json/1.0.3/javax.json-1.0.3.jar, file:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar]
+18:56:13.349 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+18:56:13.350 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [de.strullerbaumann.visualee.examiner.ExaminerTest]
+18:56:13.357 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=DYNAMOTH, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/visualee-29/visualee/src/main/java, /apiarty/data/visualee-29/visualee/src/test/java], projectClasspath='[Ljava.net.URL;@3c5a99da', projectTests=[de.strullerbaumann.visualee.examiner.ExaminerTest], complianceLevel=7, outputFolder=., json=false}
+18:56:13.359 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+18:56:13.382 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+18:56:13.385 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+18:56:13.387 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+18:56:13.388 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+18:56:13.394 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+18:56:13.399 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+18:56:36.684 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+18:56:36.686 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:259 which is executed by 2 tests
+2002016594
+18:56:40.280 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+java -cp /apiarty/data/visualee-29/visualee/target/classes:/apiarty/data/visualee-29/visualee/target/test-classes:/root/.m2/repository/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.jar:/root/.m2/repository/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.jar:/root/.m2/repository/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.jar:/root/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.jar:/root/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar:/root/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/root/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/root/.m2/repository/com/google/guava/guava/10.0.1/guava-10.0.1.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/root/.m2/repository/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar:/root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/root/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.jar:/root/.m2/repository/asm/asm/3.3.1/asm-3.3.1.jar:/root/.m2/repository/org/apache/maven/maven-core/3.1.0/maven-core-3.1.0.jar:/root/.m2/repository/org/apache/maven/maven-settings/3.1.0/maven-settings-3.1.0.jar:/root/.m2/repository/org/apache/maven/maven-settings-builder/3.1.0/maven-settings-builder-3.1.0.jar:/root/.m2/repository/org/apache/maven/maven-repository-metadata/3.1.0/maven-repository-metadata-3.1.0.jar:/root/.m2/repository/org/apache/maven/maven-model-builder/3.1.0/maven-model-builder-3.1.0.jar:/root/.m2/repository/org/apache/maven/maven-aether-provider/3.1.0/maven-aether-provider-3.1.0.jar:/root/.m2/repository/org/eclipse/aether/aether-spi/0.9.0.M2/aether-spi-0.9.0.M2.jar:/root/.m2/repository/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2.jar:/root/.m2/repository/org/eclipse/aether/aether-api/0.9.0.M2/aether-api-0.9.0.M2.jar:/root/.m2/repository/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.jar:/root/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.16/plexus-interpolation-1.16.jar:/root/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.jar:/root/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.4.2/plexus-classworlds-2.4.2.jar:/root/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/root/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/root/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/root/.m2/repository/org/glassfish/javax.json/1.0.3/javax.json-1.0.3.jar:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar:/nopol/nopol/target/nopol-0.2-SNAPSHOT-jar-with-dependencies.jar: fr.inria.lille.repair.MethodTestRunner de.strullerbaumann.visualee.examiner.ExaminerTest#testFindAndSetPackage de.strullerbaumann.visualee.examiner.ExaminerTest#testFindAndSetPackageInsufficientTokens 
+18:56:49.313 [pool-2-thread-1] DEBUG f.i.l.r.s.DynamothCodeGenesisImpl - ClassPrepareEvent
+18:56:49.620 [pool-2-thread-1] DEBUG f.i.l.r.s.c.spoon.ClassCollector - [class] de.strullerbaumann.visualee.source.entity.JavaSource
+18:56:49.626 [pool-2-thread-1] DEBUG f.i.l.r.s.c.spoon.ClassCollector - [class] de.strullerbaumann.visualee.examiner.Examiner
+18:56:49.664 [pool-2-thread-1] DEBUG f.i.l.r.s.c.spoon.ClassCollector - [class] java.util.Scanner
+18:56:49.743 [pool-2-thread-1] DEBUG f.i.l.r.s.c.spoon.ClassCollector - [class] java.lang.String
+18:56:50.196 [pool-2-thread-1] DEBUG f.i.l.r.s.DynamothCodeGenesisImpl - BreakpointEvent
+18:56:50.227 [pool-2-thread-1] INFO  f.i.l.r.s.DynamothCodeGenesisImpl - [test] de.strullerbaumann.visualee.examiner.ExaminerTest#testFindAndSetPackage iteration 0
+18:56:50.257 [pool-2-thread-1] DEBUG f.i.l.r.s.c.SpoonElementsCollector - [data] token="package"
+18:56:50.260 [pool-2-thread-1] DEBUG f.i.l.r.s.c.SpoonElementsCollector - [data] scanner=instance of java.util.Scanner(id=445)
+18:56:50.263 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - Collect Level 1
+18:56:50.274 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] javaSource
+18:56:50.276 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] scanner
+18:56:50.277 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] token
+18:56:50.441 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] javaSource.equals((java.lang.Object) javaSource)
+18:56:50.450 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] javaSource.equals((java.lang.Object) scanner)
+18:56:50.461 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] javaSource.equals((java.lang.Object) token)
+18:56:50.522 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] javaSource.getId()
+18:56:50.546 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] javaSource.getGroup()
+18:56:50.582 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] javaSource.getSourceCode()
+18:56:50.592 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] javaSource.getSourceCodeWithoutComments()
+18:56:50.613 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] javaSource.getEscapedSourceCode()
+18:56:50.632 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] javaSource.getFullClassName()
+18:56:50.662 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] javaSource.getName()
+18:56:50.754 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] scanner.useDelimiter((java.lang.String) token)
+18:56:50.774 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] scanner.hasNext((java.lang.String) token)
+18:56:50.808 [pool-23-thread-1] ERROR f.i.l.r.s.c.DynamothDataCollector - Unable to invoke the method java.util.Scanner.next(java.lang.String) ["package"]
+com.sun.jdi.InvocationException: Exception occurred in target VM
+	at com.sun.tools.jdi.ObjectReferenceImpl.invokeMethod(ObjectReferenceImpl.java:434) ~[tools.jar:na]
+	at fr.inria.lille.repair.synthesis.collect.DynamothDataCollector$2.call(DynamothDataCollector.java:436) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:na]
+	at fr.inria.lille.repair.synthesis.collect.DynamothDataCollector$2.call(DynamothDataCollector.java:427) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_232]
+18:56:50.834 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] scanner.hasNext()
+18:56:50.841 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] scanner.next()
+18:56:50.863 [pool-26-thread-1] ERROR f.i.l.r.s.c.DynamothDataCollector - Unable to invoke the method java.util.Scanner.next() []
+com.sun.jdi.InvocationException: Exception occurred in target VM
+	at com.sun.tools.jdi.ObjectReferenceImpl.invokeMethod(ObjectReferenceImpl.java:434) ~[tools.jar:na]
+	at fr.inria.lille.repair.synthesis.collect.DynamothDataCollector$2.call(DynamothDataCollector.java:436) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:na]
+	at fr.inria.lille.repair.synthesis.collect.DynamothDataCollector$2.call(DynamothDataCollector.java:427) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_232]
+18:56:50.893 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] token.length()
+18:56:51.083 [pool-2-thread-1] DEBUG f.i.l.r.s.DynamothCodeGenesisImpl - BreakpointEvent
+18:56:51.094 [pool-2-thread-1] INFO  f.i.l.r.s.DynamothCodeGenesisImpl - [test] de.strullerbaumann.visualee.examiner.ExaminerTest#testFindAndSetPackageInsufficientTokens iteration 0
+18:56:51.101 [pool-2-thread-1] DEBUG f.i.l.r.s.c.SpoonElementsCollector - [data] token="package"
+18:56:51.119 [pool-2-thread-1] DEBUG f.i.l.r.s.c.SpoonElementsCollector - [data] scanner=instance of java.util.Scanner(id=588)
+18:56:51.124 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - Collect Level 1
+18:56:51.130 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] javaSource
+18:56:51.133 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] scanner
+18:56:51.139 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] token
+18:56:51.238 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] javaSource.equals((java.lang.Object) javaSource)
+18:56:51.252 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] javaSource.equals((java.lang.Object) scanner)
+18:56:51.270 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] javaSource.equals((java.lang.Object) token)
+18:56:51.286 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] javaSource.getId()
+18:56:51.295 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] javaSource.getGroup()
+18:56:51.319 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] javaSource.getSourceCode()
+18:56:51.330 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] javaSource.getSourceCodeWithoutComments()
+18:56:51.342 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] javaSource.getEscapedSourceCode()
+18:56:51.360 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] javaSource.getFullClassName()
+18:56:51.364 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] javaSource.getName()
+18:56:51.414 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] scanner.useDelimiter((java.lang.String) token)
+18:56:51.457 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] scanner.hasNext((java.lang.String) token)
+18:56:51.469 [pool-42-thread-1] ERROR f.i.l.r.s.c.DynamothDataCollector - Unable to invoke the method java.util.Scanner.next(java.lang.String) ["package"]
+com.sun.jdi.InvocationException: Exception occurred in target VM
+	at com.sun.tools.jdi.ObjectReferenceImpl.invokeMethod(ObjectReferenceImpl.java:434) ~[tools.jar:na]
+	at fr.inria.lille.repair.synthesis.collect.DynamothDataCollector$2.call(DynamothDataCollector.java:436) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:na]
+	at fr.inria.lille.repair.synthesis.collect.DynamothDataCollector$2.call(DynamothDataCollector.java:427) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_232]
+18:56:51.480 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] scanner.hasNext()
+18:56:51.490 [pool-44-thread-1] ERROR f.i.l.r.s.c.DynamothDataCollector - Unable to invoke the method java.util.Scanner.next() []
+com.sun.jdi.InvocationException: Exception occurred in target VM
+	at com.sun.tools.jdi.ObjectReferenceImpl.invokeMethod(ObjectReferenceImpl.java:434) ~[tools.jar:na]
+	at fr.inria.lille.repair.synthesis.collect.DynamothDataCollector$2.call(DynamothDataCollector.java:436) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:na]
+	at fr.inria.lille.repair.synthesis.collect.DynamothDataCollector$2.call(DynamothDataCollector.java:427) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_232]
+18:56:51.499 [pool-45-thread-1] ERROR f.i.l.r.s.c.DynamothDataCollector - Unable to invoke the method java.util.Scanner.next() []
+com.sun.jdi.InvocationException: Exception occurred in target VM
+	at com.sun.tools.jdi.ObjectReferenceImpl.invokeMethod(ObjectReferenceImpl.java:434) ~[tools.jar:na]
+	at fr.inria.lille.repair.synthesis.collect.DynamothDataCollector$2.call(DynamothDataCollector.java:436) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:na]
+	at fr.inria.lille.repair.synthesis.collect.DynamothDataCollector$2.call(DynamothDataCollector.java:427) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_232]
+18:56:51.510 [pool-2-thread-1] DEBUG f.i.l.r.s.c.DynamothDataCollector - [data] token.length()
+18:56:51.522 [pool-2-thread-1] DEBUG f.i.l.r.s.DynamothCodeGenesisImpl - Exit
+
+
+========= Info ==========
+Nb constants             11
+Nb method invocations    7
+Nb field access          0
+Nb variables             3
+Total                    21
+Nb evaluated expressions 2
+Init Execution time      4230 ms
+Collect Execution time   1452 ms
+Combine Execution time   61.0 ms
+Nb Combination par sec   33 combinations/sec
+Total Execution time     5745 ms
+Nb line execution        2
+Nb results               1
+
+Results:
+1. scanner.hasNext()
+
+
+========================
+         Stat
+========================
+Operators: 
+AND 1
+EQ 1
+Methods: 
+next() 2
+getSourceCodeScanner(java.lang.String) 1
+getSourceCode() 1
+getPackagePath() 1
+equals(java.lang.Object) 1
+hasNext() 1
+endsWith(java.lang.String) 1
+substring(int,int) 1
+setPackagePath(java.lang.String) 1
+indexOf(int) 1
+Variable: 
+token 5
+scanner 3
+javaSource 3
+packagePath 1
+
+ & 11 & 7 & 0 & 3 & 21 & 2 & 5762 ms & 2 &
+18:56:51.604 [pool-2-thread-1] DEBUG f.i.l.r.n.s.d.DynamothSynthesizer - Collected 0 potential patches
+18:56:51.610 [pool-2-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Applying patch: de.strullerbaumann.visualee.examiner.Examiner:259: PRECONDITION scanner.hasNext()
+18:56:54.797 [pool-2-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Running test suite to check the patch "scanner.hasNext()" is working
+18:56:54.899 [pool-2-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Skipped -9 patches for sake of performance
+18:56:54.901 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+18:56:55.103 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 45
+18:56:55.105 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 256
+18:56:55.106 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 1
+18:56:55.107 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 1
+18:56:55.108 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 41602ms
+18:56:55.109 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+18:56:55.110 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+18:56:55.111 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - scanner.hasNext()
+18:56:55.117 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 2
+18:56:55.118 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - de.strullerbaumann.visualee.examiner.Examiner:259: PRECONDITION
+18:56:55.219 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - --- a/src/main/java/de/strullerbaumann/visualee/examiner/Examiner.java
++++ b/src/main/java/de/strullerbaumann/visualee/examiner/Examiner.java
+@@ -258,3 +258,5 @@
+          if (javaSource.getPackagePath() == null && token.equals("package")) {
+-            token = scanner.next();
++            if (scanner.hasNext()) {
++               token = scanner.next();
++            }
+             if (token.endsWith(";")) {
+
+PATCH

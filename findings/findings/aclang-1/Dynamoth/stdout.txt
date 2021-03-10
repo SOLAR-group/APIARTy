@@ -1,0 +1,61 @@
+14:03:36.428 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/aclang-1/commons-lang/src/java, /apiarty/data/aclang-1/commons-lang/src/test]
+14:03:36.437 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/aclang-1/commons-lang/target/classes/, file:/apiarty/data/aclang-1/commons-lang/target/test-classes/, file:/root/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar]
+14:03:36.437 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+14:03:36.438 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.commons.lang.text.StrBuilderTest]
+14:03:36.442 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=DYNAMOTH, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/aclang-1/commons-lang/src/java, /apiarty/data/aclang-1/commons-lang/src/test], projectClasspath='[Ljava.net.URL;@3c5a99da', projectTests=[org.apache.commons.lang.text.StrBuilderTest], complianceLevel=7, outputFolder=., json=false}
+14:03:36.443 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+14:03:36.456 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+14:03:36.458 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+14:03:36.459 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+14:03:36.460 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+14:03:36.463 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+14:03:36.463 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+14:04:01.739 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+14:04:01.741 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.lang.text.StrBuilder:158 which is executed by 3 tests
+370441291
+14:04:05.147 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+14:04:05.148 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.lang.text.StrBuilder:1230 which is executed by 1 tests
+370441291
+14:04:07.794 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+14:04:07.795 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.lang.text.StrBuilder:1229 which is executed by 1 tests
+370441291
+14:04:10.275 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+14:04:10.276 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.lang.text.StrBuilder:1228 which is executed by 1 tests
+370441291
+14:04:12.752 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:04:19.726 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+14:04:19.727 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.lang.text.StrBuilder:1227 which is executed by 1 tests
+370441291
+14:04:22.903 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:04:27.749 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+14:04:32.442 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+14:04:32.442 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.lang.text.StrBuilder:1186 which is executed by 1 tests
+370441291
+14:04:39.429 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+14:04:39.430 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.lang.text.StrBuilder:1185 which is executed by 1 tests
+370441291
+14:04:42.725 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+14:04:42.736 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.lang.text.StrBuilder:1184 which is executed by 1 tests
+370441291
+14:04:46.205 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:04:49.526 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+14:04:49.528 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.lang.text.StrBuilder:1183 which is executed by 1 tests
+370441291
+14:04:52.275 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:04:55.616 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+14:05:00.028 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+14:05:00.030 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.lang.text.StrBuilder:233 which is executed by 74 tests
+370441291
+14:05:03.202 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+14:05:03.203 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.lang.text.StrBuilder:228 which is executed by 74 tests
+370441291
+14:05:06.179 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:05:11.057 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+14:05:14.584 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+14:05:14.938 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 248
+14:05:14.939 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 4324
+14:05:14.939 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 8
+14:05:14.941 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+14:05:14.942 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 98162ms
+14:05:14.942 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+NO_ANGELIC_VALUE

@@ -1,0 +1,176 @@
+14:44:14.847 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/visualee-32/visualee/src/main/java, /apiarty/data/visualee-32/visualee/src/test/java]
+14:44:14.857 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/visualee-32/visualee/target/classes/, file:/apiarty/data/visualee-32/visualee/target/test-classes/, file:/root/.m2/repository/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.jar, file:/root/.m2/repository/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.jar, file:/root/.m2/repository/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.jar, file:/root/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.jar, file:/root/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar, file:/root/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar, file:/root/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar, file:/root/.m2/repository/com/google/guava/guava/10.0.1/guava-10.0.1.jar, file:/root/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar, file:/root/.m2/repository/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar, file:/root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar, file:/root/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.jar, file:/root/.m2/repository/asm/asm/3.3.1/asm-3.3.1.jar, file:/root/.m2/repository/org/apache/maven/maven-core/3.1.0/maven-core-3.1.0.jar, file:/root/.m2/repository/org/apache/maven/maven-settings/3.1.0/maven-settings-3.1.0.jar, file:/root/.m2/repository/org/apache/maven/maven-settings-builder/3.1.0/maven-settings-builder-3.1.0.jar, file:/root/.m2/repository/org/apache/maven/maven-repository-metadata/3.1.0/maven-repository-metadata-3.1.0.jar, file:/root/.m2/repository/org/apache/maven/maven-model-builder/3.1.0/maven-model-builder-3.1.0.jar, file:/root/.m2/repository/org/apache/maven/maven-aether-provider/3.1.0/maven-aether-provider-3.1.0.jar, file:/root/.m2/repository/org/eclipse/aether/aether-spi/0.9.0.M2/aether-spi-0.9.0.M2.jar, file:/root/.m2/repository/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2.jar, file:/root/.m2/repository/org/eclipse/aether/aether-api/0.9.0.M2/aether-api-0.9.0.M2.jar, file:/root/.m2/repository/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.jar, file:/root/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.16/plexus-interpolation-1.16.jar, file:/root/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.jar, file:/root/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.4.2/plexus-classworlds-2.4.2.jar, file:/root/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar, file:/root/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar, file:/root/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar, file:/root/.m2/repository/org/glassfish/javax.json/1.0.3/javax.json-1.0.3.jar, file:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar]
+14:44:14.858 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+14:44:14.859 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [de.strullerbaumann.visualee.examiner.ExaminerTest]
+14:44:14.862 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/visualee-32/visualee/src/main/java, /apiarty/data/visualee-32/visualee/src/test/java], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[de.strullerbaumann.visualee.examiner.ExaminerTest], complianceLevel=8, outputFolder=., json=false}
+14:44:14.863 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+14:44:14.883 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+14:44:14.883 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+14:44:14.884 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+14:44:14.885 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+14:44:14.888 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+14:44:14.889 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+14:44:27.600 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+14:44:27.610 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:144 which is executed by 3 tests
+2002016594
+14:44:29.158 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+14:44:29.159 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:142 which is executed by 3 tests
+2002016594
+14:44:29.595 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:44:32.479 [pool-2-thread-1] DEBUG tests.output - Failing tests with false: 
+[testScanAfterClosedParenthesisInsufficientTokens(de.strullerbaumann.visualee.examiner.ExaminerTest): null]
+14:44:32.480 [pool-2-thread-1] DEBUG tests.output - Failing tests with true: 
+[testScanAfterClosedParenthesisInsufficientTokens(de.strullerbaumann.visualee.examiner.ExaminerTest): null]
+14:44:32.481 [pool-2-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation de.strullerbaumann.visualee.examiner.Examiner:142.
+14:44:32.483 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+14:44:32.484 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:141 which is executed by 3 tests
+2002016594
+14:44:33.180 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:44:34.790 [pool-6-thread-1] DEBUG tests.output - Failing tests with false: 
+[testScanAfterClosedParenthesisInsufficientTokens(de.strullerbaumann.visualee.examiner.ExaminerTest): null]
+14:44:34.792 [pool-6-thread-1] DEBUG tests.output - Failing tests with true: 
+[testScanAfterClosedParenthesisInsufficientTokens(de.strullerbaumann.visualee.examiner.ExaminerTest): null]
+14:44:34.792 [pool-6-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation de.strullerbaumann.visualee.examiner.Examiner:141.
+14:44:34.793 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+14:44:34.795 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:140 which is executed by 3 tests
+2002016594
+14:44:35.477 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+14:44:35.480 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:136 which is executed by 3 tests
+2002016594
+14:44:36.162 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:44:37.754 [pool-10-thread-1] DEBUG tests.output - Failing tests with false: 
+[testScanAfterClosedParenthesisInsufficientTokens(de.strullerbaumann.visualee.examiner.ExaminerTest): null]
+14:44:37.756 [pool-10-thread-1] DEBUG tests.output - Failing tests with true: 
+[testScanAfterClosedParenthesisInsufficientTokens(de.strullerbaumann.visualee.examiner.ExaminerTest): null]
+14:44:37.757 [pool-10-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation de.strullerbaumann.visualee.examiner.Examiner:136.
+14:44:37.759 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+14:44:39.448 [pool-14-thread-1] DEBUG tests.output - Failing tests with false: 
+[testScanAfterClosedParenthesisInsufficientTokens(de.strullerbaumann.visualee.examiner.ExaminerTest): null]
+14:44:39.453 [pool-14-thread-1] DEBUG tests.output - Failing tests with true: 
+[testScanAfterClosedParenthesisInsufficientTokens(de.strullerbaumann.visualee.examiner.ExaminerTest): null]
+14:44:39.454 [pool-14-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation de.strullerbaumann.visualee.examiner.Examiner:136.
+14:44:39.456 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+14:44:39.456 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:134 which is executed by 3 tests
+2002016594
+14:44:39.969 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+14:44:39.970 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:133 which is executed by 3 tests
+2002016594
+14:44:40.507 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+14:44:40.508 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:113 which is executed by 5 tests
+2002016594
+14:44:41.221 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+14:44:41.223 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:110 which is executed by 5 tests
+2002016594
+14:44:41.868 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:44:43.279 [pool-18-thread-1] DEBUG tests.output - Failing tests with false: 
+[testScanAfterClosedParenthesisInsufficientTokens(de.strullerbaumann.visualee.examiner.ExaminerTest): null]
+14:44:43.281 [pool-18-thread-1] DEBUG tests.output - Failing tests with true: 
+[testScanAfterClosedParenthesisInsufficientTokens(de.strullerbaumann.visualee.examiner.ExaminerTest): null]
+14:44:43.282 [pool-18-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation de.strullerbaumann.visualee.examiner.Examiner:110.
+14:44:43.283 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+14:44:43.284 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:109 which is executed by 5 tests
+2002016594
+14:44:43.731 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:44:45.145 [pool-22-thread-1] DEBUG tests.output - Failing tests with false: 
+[testScanAfterClosedParenthesisInsufficientTokens(de.strullerbaumann.visualee.examiner.ExaminerTest): null]
+14:44:45.146 [pool-22-thread-1] DEBUG tests.output - Failing tests with true: 
+[testScanAfterClosedParenthesisInsufficientTokens(de.strullerbaumann.visualee.examiner.ExaminerTest): null]
+14:44:45.147 [pool-22-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation de.strullerbaumann.visualee.examiner.Examiner:109.
+14:44:45.149 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+14:44:46.549 [pool-26-thread-1] DEBUG tests.output - Failing tests with false: 
+[testScanAfterClosedParenthesisInsufficientTokens(de.strullerbaumann.visualee.examiner.ExaminerTest): null]
+14:44:46.550 [pool-26-thread-1] DEBUG tests.output - Failing tests with true: 
+[testScanAfterClosedParenthesisInsufficientTokens(de.strullerbaumann.visualee.examiner.ExaminerTest): null]
+14:44:46.551 [pool-26-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation de.strullerbaumann.visualee.examiner.Examiner:109.
+14:44:46.551 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+14:44:46.552 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:108 which is executed by 5 tests
+2002016594
+14:44:47.452 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:44:48.872 [pool-30-thread-1] DEBUG tests.output - Failing tests with false: 
+[testScanAfterClosedParenthesisInsufficientTokens(de.strullerbaumann.visualee.examiner.ExaminerTest): null]
+14:44:48.876 [pool-30-thread-1] DEBUG tests.output - Failing tests with true: 
+[testScanAfterClosedParenthesisInsufficientTokens(de.strullerbaumann.visualee.examiner.ExaminerTest): null]
+14:44:48.877 [pool-30-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation de.strullerbaumann.visualee.examiner.Examiner:108.
+14:44:48.878 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+14:44:48.879 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:107 which is executed by 5 tests
+2002016594
+14:44:49.449 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+14:44:49.451 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:83 which is executed by 6 tests
+2002016594
+14:44:50.101 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+14:44:50.103 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:82 which is executed by 6 tests
+2002016594
+14:44:50.852 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:44:52.685 [pool-34-thread-1] DEBUG tests.output - Failing tests with false: 
+[testScanAfterClosedParenthesisInsufficientTokens(de.strullerbaumann.visualee.examiner.ExaminerTest): null]
+14:44:52.686 [pool-34-thread-1] DEBUG tests.output - Failing tests with true: 
+[testScanAfterClosedParenthesisInsufficientTokens(de.strullerbaumann.visualee.examiner.ExaminerTest): null]
+14:44:52.687 [pool-34-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation de.strullerbaumann.visualee.examiner.Examiner:82.
+14:44:52.688 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+14:44:52.689 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.examiner.Examiner:81 which is executed by 6 tests
+2002016594
+14:44:53.971 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+14:44:53.973 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.source.entity.JavaSource:120 which is executed by 7 tests
+1277507838
+14:44:55.130 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+14:44:55.132 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.source.entity.JavaSource:119 which is executed by 7 tests
+1277507838
+14:44:56.037 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:44:59.557 [pool-38-thread-1] DEBUG f.i.l.c.s.ConstraintBasedSynthesis - Operators:
+14:44:59.921 [pool-38-thread-1] DEBUG f.i.l.c.s.ConstraintBasedSynthesis - Operators:
+== of arity: 2
+!= of arity: 2
+< of arity: 2
+<= of arity: 2
+14:45:00.177 [pool-38-thread-1] DEBUG f.i.l.c.s.ConstraintBasedSynthesis - Operators:
+== of arity: 2
+!= of arity: 2
+< of arity: 2
+<= of arity: 2
+! of arity: 1
+|| of arity: 2
+&& of arity: 2
+14:45:00.485 [pool-38-thread-1] DEBUG f.i.l.c.s.ConstraintBasedSynthesis - Operators:
+== of arity: 2
+!= of arity: 2
+< of arity: 2
+<= of arity: 2
+! of arity: 1
+|| of arity: 2
+&& of arity: 2
+== of arity: 2
+!= of arity: 2
+< of arity: 2
+<= of arity: 2
+14:45:01.346 [pool-38-thread-1] DEBUG f.i.l.c.s.ConstraintBasedSynthesis - Operators:
+== of arity: 2
+!= of arity: 2
+< of arity: 2
+<= of arity: 2
+! of arity: 1
+|| of arity: 2
+&& of arity: 2
+== of arity: 2
+!= of arity: 2
+< of arity: 2
+<= of arity: 2
+! of arity: 1
+|| of arity: 2
+&& of arity: 2
+14:45:15.451 [pool-38-thread-1] DEBUG f.i.l.c.s.ConstraintBasedSynthesis - Failed code synthesis, returning NullCodeGenesis
+14:45:15.457 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+14:45:15.458 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation de.strullerbaumann.visualee.source.entity.JavaSource:88 which is executed by 7 tests
+1277507838
+14:45:16.222 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+14:45:16.256 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 45
+14:45:16.257 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 256
+14:45:16.257 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 10
+14:45:16.258 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 1
+14:45:16.258 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 0
+14:45:16.259 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 5
+14:45:16.260 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT components: [14] [== of arity: 2, != of arity: 2, < of arity: 2, <= of arity: 2, ! of arity: 1, || of arity: 2, && of arity: 2, == of arity: 2, != of arity: 2, < of arity: 2, <= of arity: 2, ! of arity: 1, || of arity: 2, && of arity: 2]
+14:45:16.261 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol -                   class java.lang.Boolean: 14
+14:45:16.261 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 0
+14:45:16.262 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 61383ms
+14:45:16.263 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+NO_SYNTHESIS

@@ -1,0 +1,818 @@
+00:40:12.415 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/LOG4J2-742/logging-log4j2/log4j-core/src/main/java, /apiarty/data/LOG4J2-742/logging-log4j2/log4j-core/src/test/java]
+00:40:12.423 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/LOG4J2-742/logging-log4j2/log4j-core/target/classes/, file:/apiarty/data/LOG4J2-742/logging-log4j2/log4j-core/target/test-classes/, file:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.0.1-SNAPSHOT/log4j-api-2.0.1-SNAPSHOT.jar, file:/root/.m2/repository/org/osgi/org.osgi.core/4.3.1/org.osgi.core-4.3.1.jar, file:/root/.m2/repository/com/lmax/disruptor/3.3.0/disruptor-3.3.0.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.4.1.1/jackson-core-2.4.1.1.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.4.1.3/jackson-databind-2.4.1.3.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.4.0/jackson-annotations-2.4.0.jar, file:/root/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.4.1/jackson-dataformat-yaml-2.4.1.jar, file:/root/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.4.1/jackson-dataformat-xml-2.4.1.jar, file:/root/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.4.1/jackson-module-jaxb-annotations-2.4.1.jar, file:/root/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar, file:/root/.m2/repository/org/codehaus/woodstox/woodstox-core-asl/4.3.0/woodstox-core-asl-4.3.0.jar, file:/root/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar, file:/root/.m2/repository/org/fusesource/jansi/jansi/1.11/jansi-1.11.jar, file:/root/.m2/repository/org/jboss/spec/javax/jms/jboss-jms-api_1.1_spec/1.0.1.Final/jboss-jms-api_1.1_spec-1.0.1.Final.jar, file:/root/.m2/repository/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar, file:/root/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar, file:/root/.m2/repository/org/eclipse/persistence/javax.persistence/2.1.0/javax.persistence-2.1.0.jar, file:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.0.1-SNAPSHOT/log4j-api-2.0.1-SNAPSHOT-tests.jar, file:/root/.m2/repository/javax/jmdns/jmdns/3.4.1/jmdns-3.4.1.jar, file:/root/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar, file:/root/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar, file:/root/.m2/repository/org/slf4j/slf4j-ext/1.7.7/slf4j-ext-1.7.7.jar, file:/root/.m2/repository/ch/qos/cal10n/cal10n-api/0.8.1/cal10n-api-0.8.1.jar, file:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar, file:/root/.m2/repository/org/easymock/easymock/3.2/easymock-3.2.jar, file:/root/.m2/repository/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar, file:/root/.m2/repository/org/objenesis/objenesis/1.3/objenesis-1.3.jar, file:/root/.m2/repository/org/hsqldb/hsqldb/2.3.2/hsqldb-2.3.2.jar, file:/root/.m2/repository/com/h2database/h2/1.3.175/h2-1.3.175.jar, file:/root/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa/2.5.1/org.eclipse.persistence.jpa-2.5.1.jar, file:/root/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.asm/2.5.1/org.eclipse.persistence.asm-2.5.1.jar, file:/root/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.antlr/2.5.1/org.eclipse.persistence.antlr-2.5.1.jar, file:/root/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa.jpql/2.5.1/org.eclipse.persistence.jpa.jpql-2.5.1.jar, file:/root/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.core/2.5.1/org.eclipse.persistence.core-2.5.1.jar, file:/root/.m2/repository/org/mockejb/mockejb/0.6-beta2/mockejb-0.6-beta2.jar, file:/root/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar, file:/root/.m2/repository/cglib/cglib-full/2.0.2/cglib-full-2.0.2.jar, file:/root/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar, file:/root/.m2/repository/ch/qos/logback/logback-core/1.0.13/logback-core-1.0.13.jar, file:/root/.m2/repository/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar, file:/root/.m2/repository/org/eclipse/osgi/org.eclipse.osgi/3.6.0.v20100517/org.eclipse.osgi-3.6.0.v20100517.jar, file:/root/.m2/repository/org/apache/felix/org.apache.felix.framework/4.2.1/org.apache.felix.framework-4.2.1.jar, file:/root/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar]
+00:40:12.423 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: CONDITIONAL
+00:40:12.423 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.logging.log4j.core.config.XIncludeTest]
+00:40:12.425 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=CONDITIONAL, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/LOG4J2-742/logging-log4j2/log4j-core/src/main/java, /apiarty/data/LOG4J2-742/logging-log4j2/log4j-core/src/test/java], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[org.apache.logging.log4j.core.config.XIncludeTest], complianceLevel=7, outputFolder=., json=false}
+00:40:12.425 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+00:40:12.437 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 28 MB
+00:40:12.438 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 443 MB
+00:40:12.438 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 31 MB
+00:40:12.438 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+00:40:12.440 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+00:40:12.440 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+00:40:22.611 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+00:40:22.611 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginRegistry:100 which is executed by 1 tests
+1661463729
+00:40:23.046 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+00:40:23.047 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginRegistry:69 which is executed by 1 tests
+1661463729
+00:40:23.181 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+00:40:23.181 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.layout.AbstractStringLayout:52 which is executed by 1 tests
+1387301886
+00:40:23.306 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+00:40:23.306 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.spi.AbstractLogger:1739 which is executed by 1 tests
+00:40:23.307 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.spi.AbstractLogger:1739
+00:40:23.307 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+00:40:23.308 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.spi.AbstractLogger:1738 which is executed by 1 tests
+00:40:23.308 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.spi.AbstractLogger:1738
+00:40:23.308 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+00:40:23.308 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.spi.AbstractLogger:1348 which is executed by 1 tests
+00:40:23.309 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.spi.AbstractLogger:1348
+00:40:23.309 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+00:40:23.309 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.spi.AbstractLogger:1347 which is executed by 1 tests
+00:40:23.310 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.spi.AbstractLogger:1347
+00:40:23.310 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+00:40:23.310 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.spi.AbstractLogger:1346 which is executed by 1 tests
+00:40:23.311 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.spi.AbstractLogger:1346
+00:40:23.311 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+00:40:23.311 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.spi.AbstractLogger:1312 which is executed by 1 tests
+00:40:23.311 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.spi.AbstractLogger:1312
+00:40:23.311 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+00:40:23.312 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.AbstractConfiguration:492 which is executed by 1 tests
+1938082773
+00:40:23.539 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+00:40:23.539 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:512 which is executed by 1 tests
+00:40:23.539 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:512
+00:40:23.539 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+00:40:23.541 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:510 which is executed by 1 tests
+00:40:23.541 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:510
+00:40:23.541 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+00:40:23.542 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:497 which is executed by 1 tests
+00:40:23.543 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:497
+00:40:23.543 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+00:40:23.543 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:444 which is executed by 1 tests
+00:40:23.543 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:444
+00:40:23.543 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+00:40:23.544 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:405 which is executed by 1 tests
+00:40:23.544 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:405
+00:40:23.544 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+00:40:23.544 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:404 which is executed by 1 tests
+00:40:23.545 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:404
+00:40:23.545 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+00:40:23.545 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:399 which is executed by 1 tests
+00:40:23.545 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:399
+00:40:23.546 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+00:40:23.546 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:395 which is executed by 1 tests
+00:40:23.547 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:395
+00:40:23.547 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #19
+00:40:23.547 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:370 which is executed by 1 tests
+00:40:23.548 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:370
+00:40:23.548 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #20
+00:40:23.549 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:369 which is executed by 1 tests
+00:40:23.549 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:369
+00:40:23.549 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #21
+00:40:23.550 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:368 which is executed by 1 tests
+00:40:23.550 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:368
+00:40:23.550 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #22
+00:40:23.551 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:367 which is executed by 1 tests
+00:40:23.551 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:367
+00:40:23.551 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #23
+00:40:23.552 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:364 which is executed by 1 tests
+00:40:23.553 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:364
+00:40:23.553 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #24
+00:40:23.553 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:361 which is executed by 1 tests
+00:40:23.553 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:361
+00:40:23.553 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #25
+00:40:23.553 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:341 which is executed by 1 tests
+00:40:23.553 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:341
+00:40:23.553 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #26
+00:40:23.553 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:338 which is executed by 1 tests
+00:40:23.553 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:338
+00:40:23.554 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #27
+00:40:23.558 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:336 which is executed by 1 tests
+00:40:23.559 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:336
+00:40:23.559 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #28
+00:40:23.559 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:334 which is executed by 1 tests
+00:40:23.559 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:334
+00:40:23.560 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #29
+00:40:23.560 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:333 which is executed by 1 tests
+00:40:23.560 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:333
+00:40:23.560 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #30
+00:40:23.560 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:332 which is executed by 1 tests
+00:40:23.560 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:332
+00:40:23.560 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #31
+00:40:23.560 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:331 which is executed by 1 tests
+00:40:23.561 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:331
+00:40:23.561 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #32
+00:40:23.561 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:329 which is executed by 1 tests
+00:40:23.561 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:329
+00:40:23.561 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #33
+00:40:23.561 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:328 which is executed by 1 tests
+00:40:23.562 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:328
+00:40:23.562 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #34
+00:40:23.562 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:327 which is executed by 1 tests
+00:40:23.562 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:327
+00:40:23.562 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #35
+00:40:23.562 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:326 which is executed by 1 tests
+00:40:23.562 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:326
+00:40:23.562 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #36
+00:40:23.562 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:325 which is executed by 1 tests
+00:40:23.562 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:325
+00:40:23.562 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #37
+00:40:23.563 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:321 which is executed by 1 tests
+00:40:23.563 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:321
+00:40:23.563 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #38
+00:40:23.563 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:319 which is executed by 1 tests
+00:40:23.563 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:319
+00:40:23.563 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #39
+00:40:23.563 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:315 which is executed by 1 tests
+00:40:23.563 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:315
+00:40:23.563 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #40
+00:40:23.563 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:305 which is executed by 1 tests
+00:40:23.563 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:305
+00:40:23.564 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #41
+00:40:23.564 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:302 which is executed by 1 tests
+00:40:23.564 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:302
+00:40:23.564 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #42
+00:40:23.564 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:296 which is executed by 1 tests
+00:40:23.566 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:296
+00:40:23.566 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #43
+00:40:23.566 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:292 which is executed by 1 tests
+00:40:23.566 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:292
+00:40:23.566 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #44
+00:40:23.567 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:291 which is executed by 1 tests
+00:40:23.567 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:291
+00:40:23.567 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #45
+00:40:23.567 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:290 which is executed by 1 tests
+00:40:23.567 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:290
+00:40:23.567 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #46
+00:40:23.567 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:288 which is executed by 1 tests
+00:40:23.567 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:288
+00:40:23.568 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #47
+00:40:23.568 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:284 which is executed by 1 tests
+00:40:23.568 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:284
+00:40:23.568 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #48
+00:40:23.568 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:283 which is executed by 1 tests
+00:40:23.569 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:283
+00:40:23.569 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #49
+00:40:23.570 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:276 which is executed by 1 tests
+00:40:23.570 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:276
+00:40:23.570 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #50
+00:40:23.570 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:272 which is executed by 1 tests
+00:40:23.570 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:272
+00:40:23.571 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #51
+00:40:23.571 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:271 which is executed by 1 tests
+00:40:23.571 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:271
+00:40:23.571 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #52
+00:40:23.571 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:269 which is executed by 1 tests
+00:40:23.571 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:269
+00:40:23.571 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #53
+00:40:23.571 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:268 which is executed by 1 tests
+00:40:23.572 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:268
+00:40:23.572 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #54
+00:40:23.572 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:265 which is executed by 1 tests
+00:40:23.572 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:265
+00:40:23.572 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #55
+00:40:23.573 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:264 which is executed by 1 tests
+00:40:23.573 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:264
+00:40:23.573 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #56
+00:40:23.573 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:263 which is executed by 1 tests
+00:40:23.573 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:263
+00:40:23.573 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #57
+00:40:23.573 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:262 which is executed by 1 tests
+00:40:23.573 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:262
+00:40:23.574 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #58
+00:40:23.576 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:261 which is executed by 1 tests
+00:40:23.577 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:261
+00:40:23.577 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #59
+00:40:23.577 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:260 which is executed by 1 tests
+00:40:23.577 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:260
+00:40:23.578 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #60
+00:40:23.578 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:256 which is executed by 1 tests
+00:40:23.578 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:256
+00:40:23.578 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #61
+00:40:23.578 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:216 which is executed by 1 tests
+00:40:23.578 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:216
+00:40:23.578 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #62
+00:40:23.580 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:212 which is executed by 1 tests
+00:40:23.580 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:212
+00:40:23.580 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #63
+00:40:23.580 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:177 which is executed by 1 tests
+00:40:23.580 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:177
+00:40:23.581 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #64
+00:40:23.581 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:175 which is executed by 1 tests
+00:40:23.581 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:175
+00:40:23.581 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #65
+00:40:23.581 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:174 which is executed by 1 tests
+00:40:23.581 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:174
+00:40:23.581 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #66
+00:40:23.581 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:165 which is executed by 1 tests
+00:40:23.581 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:165
+00:40:23.581 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #67
+00:40:23.581 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:162 which is executed by 1 tests
+00:40:23.581 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:162
+00:40:23.581 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #68
+00:40:23.582 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:161 which is executed by 1 tests
+00:40:23.582 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:161
+00:40:23.582 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #69
+00:40:23.582 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:160 which is executed by 1 tests
+00:40:23.582 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:160
+00:40:23.582 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #70
+00:40:23.582 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:155 which is executed by 1 tests
+00:40:23.582 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:155
+00:40:23.582 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #71
+00:40:23.582 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:151 which is executed by 1 tests
+00:40:23.582 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:151
+00:40:23.582 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #72
+00:40:23.582 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:150 which is executed by 1 tests
+00:40:23.582 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:150
+00:40:23.582 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #73
+00:40:23.583 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:149 which is executed by 1 tests
+00:40:23.583 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:149
+00:40:23.583 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #74
+00:40:23.583 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:145 which is executed by 1 tests
+00:40:23.583 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:145
+00:40:23.583 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #75
+00:40:23.583 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:144 which is executed by 1 tests
+00:40:23.583 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:144
+00:40:23.583 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #76
+00:40:23.583 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:143 which is executed by 1 tests
+00:40:23.583 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:143
+00:40:23.583 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #77
+00:40:23.583 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:140 which is executed by 1 tests
+00:40:23.583 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.message.ParameterizedMessage:140
+00:40:23.584 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #78
+00:40:23.584 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.PropertiesUtil:172 which is executed by 1 tests
+00:40:23.584 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.PropertiesUtil:172
+00:40:23.584 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #79
+00:40:23.584 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.PropertiesUtil:171 which is executed by 1 tests
+00:40:23.584 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.PropertiesUtil:171
+00:40:23.584 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #80
+00:40:23.584 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.PropertiesUtil:167 which is executed by 1 tests
+00:40:23.584 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.PropertiesUtil:167
+00:40:23.584 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #81
+00:40:23.584 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.PropertiesUtil:137 which is executed by 1 tests
+00:40:23.584 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.PropertiesUtil:137
+00:40:23.584 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #82
+00:40:23.584 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.PropertiesUtil:130 which is executed by 1 tests
+00:40:23.585 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.PropertiesUtil:130
+00:40:23.585 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #83
+00:40:23.585 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.PropertiesUtil:128 which is executed by 1 tests
+00:40:23.585 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.PropertiesUtil:128
+00:40:23.585 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #84
+00:40:23.585 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.PropertiesUtil:127 which is executed by 1 tests
+00:40:23.587 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.PropertiesUtil:127
+00:40:23.588 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #85
+00:40:23.588 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.PropertiesUtil:126 which is executed by 1 tests
+00:40:23.588 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.PropertiesUtil:126
+00:40:23.588 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #86
+00:40:23.588 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.PropertiesUtil:123 which is executed by 1 tests
+00:40:23.589 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.PropertiesUtil:123
+00:40:23.589 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #87
+00:40:23.589 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.PropertiesUtil:121 which is executed by 1 tests
+00:40:23.589 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.PropertiesUtil:121
+00:40:23.589 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #88
+00:40:23.589 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.PropertiesUtil:72 which is executed by 1 tests
+00:40:23.589 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.PropertiesUtil:72
+00:40:23.589 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #89
+00:40:23.589 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.PropertiesUtil:69 which is executed by 1 tests
+00:40:23.589 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.PropertiesUtil:69
+00:40:23.589 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #90
+00:40:23.589 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.PropertiesUtil:66 which is executed by 1 tests
+00:40:23.589 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.PropertiesUtil:66
+00:40:23.589 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #91
+00:40:23.589 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.PropertiesUtil:61 which is executed by 1 tests
+00:40:23.590 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.PropertiesUtil:61
+00:40:23.590 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #92
+00:40:23.590 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.PropertiesUtil:59 which is executed by 1 tests
+00:40:23.590 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.PropertiesUtil:59
+00:40:23.590 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #93
+00:40:23.590 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.PropertiesUtil:58 which is executed by 1 tests
+00:40:23.590 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.PropertiesUtil:58
+00:40:23.590 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #94
+00:40:23.591 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.layout.PatternLayout:53 which is executed by 1 tests
+-1617094981
+00:40:23.732 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #95
+00:40:23.733 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.layout.PatternLayout:195 which is executed by 1 tests
+-1617094981
+00:40:23.902 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #96
+00:40:23.902 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.layout.PatternLayout:192 which is executed by 1 tests
+-1617094981
+00:40:24.103 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:40:27.310 [pool-2-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:27.310 [pool-2-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:27.310 [pool-2-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.logging.log4j.core.layout.PatternLayout:192.
+00:40:27.310 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #97
+00:40:27.311 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.layout.PatternLayout:191 which is executed by 1 tests
+-1617094981
+00:40:27.454 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #98
+00:40:27.454 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.layout.PatternLayout:190 which is executed by 1 tests
+-1617094981
+00:40:27.591 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #99
+00:40:27.592 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.layout.PatternLayout:189 which is executed by 1 tests
+-1617094981
+00:40:27.726 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #100
+00:40:27.727 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.layout.PatternLayout:188 which is executed by 1 tests
+-1617094981
+00:40:27.864 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #101
+00:40:27.865 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.layout.PatternLayout:187 which is executed by 1 tests
+-1617094981
+00:40:27.990 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #102
+00:40:27.990 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.MarkerManager:51 which is executed by 1 tests
+00:40:27.990 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.MarkerManager:51
+00:40:27.990 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #103
+00:40:27.990 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.MarkerManager:50 which is executed by 1 tests
+00:40:27.990 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.MarkerManager:50
+00:40:27.990 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #104
+00:40:27.990 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.DefaultConfigurationMonitor:30 which is executed by 1 tests
+726845254
+00:40:28.102 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #105
+00:40:28.102 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:353 which is executed by 1 tests
+-1968886607
+00:40:28.264 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #106
+00:40:28.264 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:352 which is executed by 1 tests
+-1968886607
+00:40:28.425 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #107
+00:40:28.429 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:340 which is executed by 1 tests
+-1968886607
+00:40:28.565 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #108
+00:40:28.565 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:338 which is executed by 1 tests
+-1968886607
+00:40:28.710 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #109
+00:40:28.711 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:337 which is executed by 1 tests
+-1968886607
+00:40:28.835 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:40:30.400 [pool-12-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:30.400 [pool-12-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:30.400 [pool-12-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:337.
+00:40:30.400 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #110
+00:40:30.400 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:336 which is executed by 1 tests
+-1968886607
+00:40:30.527 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #111
+00:40:30.527 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:335 which is executed by 1 tests
+-1968886607
+00:40:30.655 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #112
+00:40:30.656 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:334 which is executed by 1 tests
+-1968886607
+00:40:30.801 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #113
+00:40:30.802 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:333 which is executed by 1 tests
+-1968886607
+00:40:30.929 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #114
+00:40:30.929 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:330 which is executed by 1 tests
+-1968886607
+00:40:31.058 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:40:32.555 [pool-22-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:32.555 [pool-22-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:32.555 [pool-22-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:330.
+00:40:32.556 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #115
+00:40:32.556 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:326 which is executed by 1 tests
+-1968886607
+00:40:32.725 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #116
+00:40:32.725 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:325 which is executed by 1 tests
+-1968886607
+00:40:32.860 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #117
+00:40:32.861 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:322 which is executed by 1 tests
+-1968886607
+00:40:32.985 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:40:34.439 [pool-32-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:34.439 [pool-32-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:34.439 [pool-32-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:322.
+00:40:34.439 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #118
+00:40:34.439 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:319 which is executed by 1 tests
+-1968886607
+00:40:34.589 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:40:36.213 [pool-42-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:36.213 [pool-42-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:36.213 [pool-42-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:319.
+00:40:36.213 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #119
+00:40:36.213 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:272 which is executed by 1 tests
+-1968886607
+00:40:36.350 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #120
+00:40:36.351 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:269 which is executed by 1 tests
+-1968886607
+00:40:36.475 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:40:37.748 [pool-52-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:37.748 [pool-52-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:37.748 [pool-52-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:269.
+00:40:37.749 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #121
+00:40:37.749 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:260 which is executed by 1 tests
+-1968886607
+00:40:37.909 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #122
+00:40:37.909 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:251 which is executed by 1 tests
+-1968886607
+00:40:38.039 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #123
+00:40:38.039 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:242 which is executed by 1 tests
+-1968886607
+00:40:38.170 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #124
+00:40:38.170 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:240 which is executed by 1 tests
+-1968886607
+00:40:38.294 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #125
+00:40:38.295 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:239 which is executed by 1 tests
+-1968886607
+00:40:38.436 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:40:39.684 [pool-62-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:39.684 [pool-62-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:39.684 [pool-62-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:239.
+00:40:39.684 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #126
+00:40:39.684 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:230 which is executed by 1 tests
+-1968886607
+00:40:39.804 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #127
+00:40:39.804 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:212 which is executed by 1 tests
+-1968886607
+00:40:39.922 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #128
+00:40:39.922 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:194 which is executed by 1 tests
+-1968886607
+00:40:40.052 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #129
+00:40:40.052 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:193 which is executed by 1 tests
+-1968886607
+00:40:40.172 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:40:41.344 [pool-72-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): null, testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:41.344 [pool-72-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:41.344 [pool-72-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:193.
+00:40:41.344 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #130
+00:40:41.344 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:190 which is executed by 1 tests
+-1968886607
+00:40:41.462 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:40:42.699 [pool-82-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:42.699 [pool-82-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:42.699 [pool-82-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:190.
+00:40:42.700 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #131
+00:40:42.700 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.Log4jLogEvent:189 which is executed by 1 tests
+-1968886607
+00:40:42.832 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #132
+00:40:42.832 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.util.ClassLoaderResourceLoader:47 which is executed by 1 tests
+-1018114515
+00:40:42.942 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #133
+00:40:42.942 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.util.ClassLoaderResourceLoader:37 which is executed by 1 tests
+-1018114515
+00:40:43.055 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #134
+00:40:43.055 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.appender.ConsoleAppender$FactoryData:210 which is executed by 3 tests
+-878823521
+00:40:43.200 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #135
+00:40:43.200 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender:117 which is executed by 1 tests
+-87026773
+00:40:43.317 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #136
+00:40:43.317 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender:116 which is executed by 1 tests
+-87026773
+00:40:43.426 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #137
+00:40:43.426 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender:115 which is executed by 1 tests
+-87026773
+00:40:43.539 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #138
+00:40:43.539 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender:108 which is executed by 1 tests
+-87026773
+00:40:43.657 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #139
+00:40:43.657 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender:107 which is executed by 1 tests
+-87026773
+00:40:43.766 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:40:44.858 [pool-92-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:44.858 [pool-92-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:44.858 [pool-92-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender:107.
+00:40:44.859 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #140
+00:40:44.859 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender:106 which is executed by 1 tests
+-87026773
+00:40:44.972 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #141
+00:40:44.972 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender:105 which is executed by 1 tests
+-87026773
+00:40:45.083 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:40:46.150 [pool-102-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:46.150 [pool-102-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:46.150 [pool-102-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender:105.
+00:40:46.150 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #142
+00:40:46.150 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender:104 which is executed by 1 tests
+-87026773
+00:40:46.261 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #143
+00:40:46.261 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender:102 which is executed by 1 tests
+-87026773
+00:40:46.391 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #144
+00:40:46.391 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.pattern.LineSeparatorPatternConverter:65 which is executed by 1 tests
+2061678402
+00:40:46.498 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #145
+00:40:46.498 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.pattern.LineSeparatorPatternConverter:64 which is executed by 1 tests
+2061678402
+00:40:46.606 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #146
+00:40:46.607 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.LoggerConfig:430 which is executed by 1 tests
+-872592109
+00:40:46.732 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #147
+00:40:46.732 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.LoggerConfig:429 which is executed by 1 tests
+-872592109
+00:40:46.878 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #148
+00:40:46.878 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.LoggerConfig:428 which is executed by 1 tests
+-872592109
+00:40:47.026 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #149
+00:40:47.026 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.LoggerConfig:427 which is executed by 1 tests
+-872592109
+00:40:47.167 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #150
+00:40:47.168 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.LoggerConfig:424 which is executed by 1 tests
+-872592109
+00:40:47.314 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #151
+00:40:47.314 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.LoggerConfig:421 which is executed by 1 tests
+-872592109
+00:40:47.441 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #152
+00:40:47.441 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.LoggerConfig:420 which is executed by 1 tests
+-872592109
+00:40:47.564 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #153
+00:40:47.564 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.LoggerConfig:416 which is executed by 1 tests
+-872592109
+00:40:47.689 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:40:49.086 [pool-112-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:49.086 [pool-112-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:49.086 [pool-112-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.logging.log4j.core.config.LoggerConfig:416.
+00:40:49.086 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #154
+00:40:49.086 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.LoggerConfig:414 which is executed by 1 tests
+-872592109
+00:40:49.238 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #155
+00:40:49.241 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.LoggerConfig:413 which is executed by 1 tests
+-872592109
+00:40:49.369 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:40:50.544 [pool-122-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:50.544 [pool-122-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:50.544 [pool-122-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.logging.log4j.core.config.LoggerConfig:413.
+00:40:50.544 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #156
+00:40:50.544 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.LoggerConfig:409 which is executed by 1 tests
+-872592109
+00:40:50.681 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+This is test message number -3538627364079063504
+00:40:51.870 [pool-132-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:51.870 [pool-132-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): null, testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:51.870 [pool-132-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.logging.log4j.core.config.LoggerConfig:409.
+00:40:51.870 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #157
+00:40:51.870 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.LoggerConfig:407 which is executed by 1 tests
+-872592109
+00:40:52.015 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #158
+00:40:52.015 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.LoggerConfig:405 which is executed by 1 tests
+-872592109
+00:40:52.143 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #159
+00:40:52.143 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.LoggerConfig:401 which is executed by 1 tests
+-872592109
+00:40:52.264 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:40:53.403 [pool-142-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:53.403 [pool-142-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:53.403 [pool-142-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.logging.log4j.core.config.LoggerConfig:401.
+00:40:53.404 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #160
+00:40:53.404 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.LoggerConfig:399 which is executed by 1 tests
+-872592109
+00:40:53.551 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #161
+00:40:53.551 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.LoggerConfig:366 which is executed by 1 tests
+-872592109
+00:40:53.678 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #162
+00:40:53.679 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.LoggerConfig:365 which is executed by 1 tests
+-872592109
+00:40:53.809 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #163
+00:40:53.809 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.LoggerConfig:364 which is executed by 1 tests
+-872592109
+00:40:53.933 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #164
+00:40:53.933 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.LoggerConfig:354 which is executed by 1 tests
+-872592109
+00:40:54.064 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:40:55.274 [pool-152-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:55.274 [pool-152-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): null, testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:40:55.274 [pool-152-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.logging.log4j.core.config.LoggerConfig:354.
+00:40:55.275 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #165
+00:40:55.275 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.LoggerConfig:353 which is executed by 1 tests
+-872592109
+00:40:55.400 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #166
+00:40:55.400 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.LoggerConfig:318 which is executed by 1 tests
+-872592109
+00:40:55.524 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #167
+00:40:55.524 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:185 which is executed by 1 tests
+634026203
+00:40:55.641 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #168
+00:40:55.641 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:184 which is executed by 1 tests
+634026203
+00:40:55.780 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #169
+00:40:55.780 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:183 which is executed by 1 tests
+634026203
+00:40:55.907 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #170
+00:40:55.907 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:182 which is executed by 1 tests
+634026203
+00:40:56.026 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #171
+00:40:56.027 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:176 which is executed by 1 tests
+634026203
+00:40:56.144 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #172
+00:40:56.144 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:171 which is executed by 1 tests
+634026203
+00:40:56.268 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #173
+00:40:56.269 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:170 which is executed by 1 tests
+634026203
+00:40:56.383 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #174
+00:40:56.384 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:168 which is executed by 1 tests
+634026203
+00:40:56.500 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #175
+00:40:56.501 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:166 which is executed by 1 tests
+634026203
+00:40:56.619 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #176
+00:40:56.619 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:165 which is executed by 1 tests
+634026203
+00:40:56.755 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #177
+00:40:56.755 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:164 which is executed by 1 tests
+634026203
+00:40:56.885 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #178
+00:40:56.885 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:163 which is executed by 1 tests
+634026203
+00:40:57.005 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #179
+00:40:57.005 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:162 which is executed by 1 tests
+634026203
+00:40:57.124 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #180
+00:40:57.124 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:161 which is executed by 1 tests
+634026203
+00:40:57.248 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #181
+00:40:57.248 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:160 which is executed by 1 tests
+634026203
+00:40:57.372 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #182
+00:40:57.372 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:159 which is executed by 1 tests
+634026203
+00:40:57.485 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #183
+00:40:57.485 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:158 which is executed by 1 tests
+634026203
+00:40:57.599 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #184
+00:40:57.599 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:157 which is executed by 1 tests
+634026203
+00:40:57.728 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #185
+00:40:57.728 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:156 which is executed by 1 tests
+634026203
+00:40:57.848 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #186
+00:40:57.848 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:154 which is executed by 1 tests
+634026203
+00:40:57.969 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #187
+00:40:57.969 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:153 which is executed by 1 tests
+634026203
+00:40:58.101 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #188
+00:40:58.101 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:149 which is executed by 1 tests
+634026203
+00:40:58.214 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #189
+00:40:58.214 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:146 which is executed by 1 tests
+634026203
+00:40:58.329 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #190
+00:40:58.329 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:145 which is executed by 1 tests
+634026203
+00:40:58.449 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #191
+00:40:58.449 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:144 which is executed by 1 tests
+634026203
+00:40:58.580 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #192
+00:40:58.580 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:143 which is executed by 1 tests
+634026203
+00:40:58.700 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #193
+00:40:58.700 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:142 which is executed by 1 tests
+634026203
+00:40:58.818 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #194
+00:40:58.818 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:136 which is executed by 1 tests
+634026203
+00:40:58.936 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:41:00.040 [pool-162-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:41:00.041 [pool-162-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:41:00.041 [pool-162-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:136.
+00:41:00.041 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #195
+00:41:00.041 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:135 which is executed by 1 tests
+634026203
+00:41:00.157 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #196
+00:41:00.157 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:130 which is executed by 1 tests
+634026203
+00:41:00.285 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #197
+00:41:00.285 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:126 which is executed by 1 tests
+634026203
+00:41:00.401 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #198
+00:41:00.401 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:125 which is executed by 1 tests
+634026203
+00:41:00.519 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #199
+00:41:00.519 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:124 which is executed by 1 tests
+634026203
+00:41:00.633 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #200
+00:41:00.633 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:123 which is executed by 1 tests
+634026203
+00:41:00.755 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:41:01.644 [pool-172-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:41:01.644 [pool-172-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:41:01.644 [pool-172-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:123.
+00:41:01.644 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #201
+00:41:01.644 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:122 which is executed by 1 tests
+634026203
+00:41:01.772 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #202
+00:41:01.773 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:116 which is executed by 1 tests
+634026203
+00:41:01.892 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #203
+00:41:01.893 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.config.plugins.util.PluginManager:115 which is executed by 1 tests
+634026203
+00:41:02.006 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #204
+00:41:02.006 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.appender.ConsoleAppender$Target:57 which is executed by 4 tests
+-878823521
+00:41:02.138 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #205
+00:41:02.138 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.pattern.ThreadPatternConverter:58 which is executed by 1 tests
+815622715
+00:41:02.244 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #206
+00:41:02.244 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.pattern.ThreadPatternConverter:57 which is executed by 1 tests
+815622715
+00:41:02.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #207
+00:41:02.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.spi.DefaultThreadContextMap:149 which is executed by 1 tests
+00:41:02.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.spi.DefaultThreadContextMap:149
+00:41:02.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #208
+00:41:02.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.spi.DefaultThreadContextMap:62 which is executed by 1 tests
+00:41:02.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.spi.DefaultThreadContextMap:62
+00:41:02.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #209
+00:41:02.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.spi.DefaultThreadContextMap:51 which is executed by 1 tests
+00:41:02.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.spi.DefaultThreadContextMap:51
+00:41:02.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #210
+00:41:02.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.spi.DefaultThreadContextMap:50 which is executed by 1 tests
+00:41:02.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.spi.DefaultThreadContextMap:50
+00:41:02.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #211
+00:41:02.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.spi.DefaultThreadContextMap:49 which is executed by 1 tests
+00:41:02.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.spi.DefaultThreadContextMap:49
+00:41:02.363 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #212
+00:41:02.363 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.filter.AbstractFilterable:129 which is executed by 1 tests
+1443310261
+00:41:02.476 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #213
+00:41:02.476 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.spi.Provider:120 which is executed by 1 tests
+00:41:02.476 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.spi.Provider:120
+00:41:02.476 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #214
+00:41:02.476 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.spi.Provider:119 which is executed by 1 tests
+00:41:02.476 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.spi.Provider:119
+00:41:02.476 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #215
+00:41:02.477 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.spi.Provider:94 which is executed by 1 tests
+00:41:02.477 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.spi.Provider:94
+00:41:02.477 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #216
+00:41:02.477 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.spi.Provider:93 which is executed by 1 tests
+00:41:02.477 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.spi.Provider:93
+00:41:02.477 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #217
+00:41:02.477 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.spi.Provider:92 which is executed by 1 tests
+00:41:02.477 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.spi.Provider:92
+00:41:02.477 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #218
+00:41:02.477 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.spi.Provider:88 which is executed by 1 tests
+00:41:02.477 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.spi.Provider:88
+00:41:02.477 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #219
+00:41:02.477 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.spi.Provider:78 which is executed by 1 tests
+00:41:02.477 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.spi.Provider:78
+00:41:02.477 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #220
+00:41:02.477 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.spi.Provider:68 which is executed by 1 tests
+00:41:02.477 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.spi.Provider:68
+00:41:02.477 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #221
+00:41:02.477 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.pattern.NameAbbreviator$PatternAbbreviatorFragment:247 which is executed by 1 tests
+-1852724685
+00:41:02.595 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #222
+00:41:02.595 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.pattern.NameAbbreviator$PatternAbbreviatorFragment:244 which is executed by 1 tests
+-1852724685
+00:41:02.709 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #223
+00:41:02.709 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.pattern.NameAbbreviator$PatternAbbreviatorFragment:238 which is executed by 1 tests
+-1852724685
+00:41:02.838 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:41:03.934 [pool-182-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:41:03.934 [pool-182-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:41:03.934 [pool-182-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.logging.log4j.core.pattern.NameAbbreviator$PatternAbbreviatorFragment:238.
+00:41:03.935 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #224
+00:41:03.935 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.pattern.NameAbbreviator$PatternAbbreviatorFragment:236 which is executed by 1 tests
+-1852724685
+00:41:04.063 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #225
+00:41:04.063 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.pattern.NameAbbreviator$PatternAbbreviatorFragment:235 which is executed by 1 tests
+-1852724685
+00:41:04.175 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #226
+00:41:04.175 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.pattern.NameAbbreviator$PatternAbbreviatorFragment:234 which is executed by 1 tests
+-1852724685
+00:41:04.288 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:41:05.357 [pool-192-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:41:05.357 [pool-192-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLogToFile[0](org.apache.logging.log4j.core.config.XIncludeTest): target/test-xinclude.log (No such file or directory), testConfiguredAppenders[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature, testLogger[0](org.apache.logging.log4j.core.config.XIncludeTest): loader constraint violation: when resolving method "org.junit.Assert.assertThat(Ljava/lang/Object;Lorg/hamcrest/Matcher;)V" the class loader (instance of xxl/java/compiler/BytecodeClassLoader) of the current class, org/apache/logging/log4j/core/config/XIncludeTest, and the class loader (instance of sun/misc/Launcher$AppClassLoader) for the method's defining class, org/junit/Assert, have different Class objects for the type org/hamcrest/Matcher used in the signature]
+00:41:05.357 [pool-192-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.logging.log4j.core.pattern.NameAbbreviator$PatternAbbreviatorFragment:234.
+00:41:05.358 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #227
+00:41:05.358 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.pattern.NameAbbreviator$PatternAbbreviatorFragment:233 which is executed by 1 tests
+-1852724685
+00:41:05.474 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+00:41:39.816 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: GC overhead limit exceeded
+00:41:40.798 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #228
+00:41:41.242 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.pattern.NameAbbreviator$PatternAbbreviatorFragment:231 which is executed by 1 tests

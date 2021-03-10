@@ -1,0 +1,75 @@
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:206)
+	at fr.inria.lille.repair.Main.main(Main.java:106)
+Caused by: java.lang.NullPointerException
+	at java.io.UnixFileSystem.resolve(UnixFileSystem.java:107)
+	at java.io.UnixFileSystem.resolve(UnixFileSystem.java:133)
+	at java.io.File.getAbsolutePath(File.java:556)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.setBinaryOutputDirectory(JDTBasedSpoonCompiler.java:296)
+	at spoon.Launcher.createCompiler(Launcher.java:613)
+	at fr.inria.lille.commons.spoon.util.SpoonModelLibrary.modelFor(SpoonModelLibrary.java:45)
+	at fr.inria.lille.commons.spoon.SpoonedFile.<init>(SpoonedFile.java:61)
+	at fr.inria.lille.commons.spoon.SpoonedClass.<init>(SpoonedClass.java:14)
+	at fr.inria.lille.commons.spoon.SpoonedProject.forked(SpoonedProject.java:47)
+	at fr.inria.lille.repair.nopol.NoPol.runOnStatement(NoPol.java:221)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:212)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:153)
+	at fr.inria.lille.repair.Main$1.call(Main.java:101)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Usage: java -jar nopol.jar
+                          [(-m|--mode) <repair|ranking>] (-e|--type) <condition|precondition|pre_then_cond|loop|arithmetic> [(-o|--oracle) <angelic|symbolic>] [(-y|--synthesis) <smt|dynamoth>] [(-l|--solver) <z3|cvc4>] [(-p|--solver-path) <solverPath>] (-s|--source) source1:source2:...:sourceN  (-c|--classpath) <classpath> [(-t|--test) test1:test2:...:testN ] [--complianceLevel <complianceLevel>] [--maxTime <maxTime>] [--maxTimeType <maxTimeType>] [(-z|--flocal) < cocospoon|dumb|gzoltar>] [--output <outputFolder>] [--json[:<outputJson>]]
+
+  [(-m|--mode) <repair|ranking>]
+        Define the mode of execution. (default: repair)
+
+  (-e|--type) <condition|precondition|pre_then_cond|loop|arithmetic>
+        The repair type (example fixing only conditions, or adding
+        precondition). REQUIRED OPTION (default: condition)
+
+  [(-o|--oracle) <angelic|symbolic>]
+        Define the oracle (only used with repair mode). (default: angelic)
+
+  [(-y|--synthesis) <smt|dynamoth>]
+        Define the patch synthesis. (default: smt)
+
+  [(-l|--solver) <z3|cvc4>]
+        Define the solver (only used with smt synthesis). (default: z3)
+
+  [(-p|--solver-path) <solverPath>]
+        Define the solver binary path (only used with smt synthesis).
+
+  (-s|--source) source1:source2:...:sourceN 
+        Define the path to the source code of the project.
+
+  (-c|--classpath) <classpath>
+        Define the classpath of the project.
+
+  [(-t|--test) test1:test2:...:testN ]
+        Define the tests of the project (both failing and passing),
+        fully-qualified, separated with ':' (even if the classpath contains
+        other tests, only those are considered.
+
+  [--complianceLevel <complianceLevel>]
+        The compliance level of the project. (default: 7)
+
+  [--maxTime <maxTime>]
+        The maximum time execution in minute for the whole execution of
+        Nopol.(default: 10)
+
+  [--maxTimeType <maxTimeType>]
+        The maximum time execution in minute for one type of patch. (default: 5)
+
+  [(-z|--flocal) < cocospoon|dumb|gzoltar>]
+        Define the fault localizer to be used. (default: gzoltar)
+
+  [--output <outputFolder>]
+        Define the location where the patches will be saved. (default: .)
+
+  [--json[:<outputJson>]]
+        Output a json file in the current working directory.
+

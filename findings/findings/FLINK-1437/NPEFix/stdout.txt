@@ -1,0 +1,26 @@
+TernarySplitter  in 408ms
+return super.isCombinable() || (originalFunction.getUserCodeAnnotation(ReduceOperator.Combinable.class) != null)
+return (((this.tupleType == null) && (other.tupleType == null)) || this.tupleType.equals(other.tupleType)) && Arrays.deepEquals(this.types, other.types)
+return (((this.tupleType == null) && (other.tupleType == null)) || this.tupleType.equals(other.tupleType)) && Arrays.deepEquals(this.types, other.types)
+return ((TypeInformation<OUT>) (new MissingTypeInfo(functionName != null ? functionName : function.toString(), e)))
+return ((TypeInformation<OUT>) (new MissingTypeInfo(functionName != null ? functionName : function.toString(), e)))
+super(input != null ? input.getDataSet() : null, resultType)
+return ((("DataSink '" + (this.name == null ? "<unnamed>" : this.name)) + "' (") + this.format.toString()) + ")"
+Preconditions.checkArgument(order != null, "Order can not be null")
+Preconditions.checkArgument((pKeys != null) || (pMethod == PartitionOperatorBase.PartitionMethod.REBALANCE), "Partitioning requires keys")
+Preconditions.checkArgument((pMethod != PartitionOperatorBase.PartitionMethod.CUSTOM) || (customPartitioner != null), "Custom partioning requires a partitioner.")
+return (((this.tupleType == null) && (other.tupleType == null)) || this.tupleType.equals(other.tupleType)) && Arrays.deepEquals(this.types, other.types)
+return (((this.tupleType == null) && (other.tupleType == null)) || this.tupleType.equals(other.tupleType)) && Arrays.deepEquals(this.types, other.types)
+return ExecutionEnvironment.contextEnvironmentFactory != null
+boolean isPojo = pojoGenericMatcher.group(2) != null
+CheckNotNull  in 1552ms
+ForceNullInit in 637ms
+AddImplicitCastChecker --> 16 in 1191ms
+BeforeDeref --> 3690 (failed:0) in 680ms
+target--> 4206 (failed:0) in 5152ms
+TryRegister # Try: 85 in 176ms
+Assign --> 3234 (failed: 0) in 2578ms
+VarInit --> 776 in 1224ms
+MethodEncapsulation # Method: 1678 in 8127ms
+ConstructorEncapsulation # Constructor: 324 in 2564ms
+VariableFor in 301ms

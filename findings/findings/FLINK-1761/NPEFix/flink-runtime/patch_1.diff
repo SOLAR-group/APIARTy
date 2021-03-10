@@ -1,0 +1,12 @@
+--- a/src/main/java/org/apache/flink/runtime/io/network/netty/PartitionRequestClientHandler.java
++++ b/src/main/java/org/apache/flink/runtime/io/network/netty/PartitionRequestClientHandler.java
+@@ -129,3 +129,3 @@
+ 	private void notifyAllChannelsOfErrorAndClose(Throwable cause) {
+-		if (channelError.compareAndSet(false, true)) {
++		if (false) {
+ 			for (RemoteInputChannel inputChannel : inputChannels.values()) {
+@@ -133,3 +133,3 @@
+ 			}
+-
++			
+ 			inputChannels.clear();

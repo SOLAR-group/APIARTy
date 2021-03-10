@@ -1,0 +1,76 @@
+11:46:26.013 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/workspaces/APIARTy/data/Bears-178/byte-buddy/byte-buddy-dep/src/main/java, /workspaces/APIARTy/data/Bears-178/byte-buddy/byte-buddy-dep/src/test/java]
+11:46:26.031 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/workspaces/APIARTy/data/Bears-178/byte-buddy/byte-buddy-dep/target/classes/, file:/workspaces/APIARTy/data/Bears-178/byte-buddy/byte-buddy-dep/target/test-classes/, file:/root/.m2/repository/org/ow2/asm/asm/6.1/asm-6.1.jar, file:/root/.m2/repository/org/ow2/asm/asm-commons/6.1/asm-commons-6.1.jar, file:/root/.m2/repository/junit/junit/4.12/junit-4.12.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/root/.m2/repository/org/mockito/mockito-core/2.13.0/mockito-core-2.13.0.jar, file:/root/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar, file:/root/.m2/repository/org/ow2/asm/asm-util/6.1/asm-util-6.1.jar, file:/root/.m2/repository/org/ow2/asm/asm-tree/6.1/asm-tree-6.1.jar, file:/root/.m2/repository/org/ow2/asm/asm-analysis/6.1/asm-analysis-6.1.jar, file:/root/.m2/repository/net/bytebuddy/byte-buddy-agent/1.8.1-SNAPSHOT/byte-buddy-agent-1.8.1-SNAPSHOT.jar, file:/root/.m2/repository/com/google/code/findbugs/findbugs-annotations/3.0.1/findbugs-annotations-3.0.1.jar, file:/root/.m2/repository/org/projectlombok/lombok/1.16.20/lombok-1.16.20.jar]
+11:46:26.040 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: CONDITIONAL
+11:46:26.045 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [net.bytebuddy.implementation.MethodCallTest]
+11:46:26.057 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=CONDITIONAL, synthesis=DYNAMOTH, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/workspaces/APIARTy/data/Bears-178/byte-buddy/byte-buddy-dep/src/main/java, /workspaces/APIARTy/data/Bears-178/byte-buddy/byte-buddy-dep/src/test/java], projectClasspath='[Ljava.net.URL;@3c5a99da', projectTests=[net.bytebuddy.implementation.MethodCallTest], complianceLevel=7, outputFolder=., json=false}
+11:46:26.059 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+11:46:26.094 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 28 MB
+11:46:26.095 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 910 MB
+11:46:26.096 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 31 MB
+11:46:26.098 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+11:46:26.111 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+11:46:26.112 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /root/.vscode-server/bin/c47d83b293181d9be64f27ff093689e8e7aed054/bin:/apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+11:47:02.711 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+11:47:02.719 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation net.bytebuddy.dynamic.DynamicType$Builder$AbstractBase$Delegator:2755 which is executed by 1 tests
+1409209338
+11:47:04.965 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+11:47:04.968 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation net.bytebuddy.implementation.StubMethod:52 which is executed by 1 tests
+-1509365936
+11:47:07.224 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+11:47:07.229 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation net.bytebuddy.implementation.StubMethod:51 which is executed by 1 tests
+-1509365936
+11:47:08.199 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+11:47:08.203 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation net.bytebuddy.implementation.StubMethod:50 which is executed by 1 tests
+-1509365936
+11:47:09.209 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+11:47:09.211 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation net.bytebuddy.implementation.StubMethod:49 which is executed by 1 tests
+-1509365936
+11:47:10.328 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+11:47:10.332 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation net.bytebuddy.implementation.StubMethod:48 which is executed by 1 tests
+-1509365936
+11:47:11.429 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+11:47:11.431 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation net.bytebuddy.implementation.StubMethod:36 which is executed by 1 tests
+-1509365936
+11:47:12.461 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+11:47:12.464 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation net.bytebuddy.implementation.StubMethod:31 which is executed by 1 tests
+-1509365936
+11:47:13.447 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+11:47:13.450 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation net.bytebuddy.description.method.MethodDescription$InDefinedShape$AbstractBase:314 which is executed by 1 tests
+603845692
+11:47:14.627 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+11:47:14.629 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation net.bytebuddy.dynamic.DynamicType$Builder$AbstractBase:2536 which is executed by 1 tests
+1409209338
+11:47:16.052 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+11:47:16.057 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation net.bytebuddy.dynamic.DynamicType$Builder$AbstractBase:2531 which is executed by 1 tests
+1409209338
+11:47:17.791 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+11:47:17.795 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation net.bytebuddy.dynamic.DynamicType$Builder$AbstractBase:2526 which is executed by 1 tests
+1409209338
+11:47:19.345 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+11:47:19.348 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation net.bytebuddy.dynamic.scaffold.InstrumentedType$Default:972 which is executed by 1 tests
+-1042446527
+11:47:21.357 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+11:47:33.423 [pool-2-thread-1] DEBUG f.i.l.r.n.s.d.DynamothSynthesizer - Collected 0 potential patches
+11:47:33.432 [pool-2-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Applying patch: net.bytebuddy.dynamic.scaffold.InstrumentedType$Default:972: CONDITIONAL true
+11:47:39.335 [pool-2-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Running test suite to check the patch "true" is working
+11:47:42.027 [pool-2-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Skipped -9 patches for sake of performance
+11:47:42.033 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+11:47:42.717 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 880
+11:47:42.718 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 5642
+11:47:42.721 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 1
+11:47:42.723 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 1
+11:47:42.725 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 76025ms
+11:47:42.727 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+11:47:42.728 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+11:47:42.729 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - true
+11:47:42.758 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 1
+11:47:42.760 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - net.bytebuddy.dynamic.scaffold.InstrumentedType$Default:972: CONDITIONAL
+11:47:42.817 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - --- a/src/main/java/net/bytebuddy/dynamic/scaffold/InstrumentedType.java
++++ b/src/main/java/net/bytebuddy/dynamic/scaffold/InstrumentedType.java
+@@ -971,3 +971,3 @@
+                 } else if (methodDescription.isStatic()) {
+-                    if (receiverType != null) {
++                    if (true) {
+                         throw new IllegalStateException("Static method " + methodDescription + " defines a non-null receiver " + receiverType);
+
+PATCH

@@ -1,0 +1,553 @@
+19:09:19.017 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/workspaces/APIARTy/data/ACCUMULO-844/accumulo/core/src/main/java, /workspaces/APIARTy/data/ACCUMULO-844/accumulo/core/src/test/java]
+19:09:19.033 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/workspaces/APIARTy/data/ACCUMULO-844/accumulo/core/target/classes/, file:/workspaces/APIARTy/data/ACCUMULO-844/accumulo/core/target/test-classes/, file:/root/.m2/repository/org/apache/accumulo/accumulo-start/1.5.0-SNAPSHOT/accumulo-start-1.5.0-SNAPSHOT.jar, file:/root/.m2/repository/org/apache/commons/commons-jci-fam/1.0/commons-jci-fam-1.0.jar, file:/root/.m2/repository/commons-logging/commons-logging-api/1.0.4/commons-logging-api-1.0.4.jar, file:/root/.m2/repository/commons-io/commons-io/1.4/commons-io-1.4.jar, file:/root/.m2/repository/org/apache/commons/commons-vfs2/2.0/commons-vfs2-2.0.jar, file:/root/.m2/repository/org/apache/maven/scm/maven-scm-api/1.4/maven-scm-api-1.4.jar, file:/root/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar, file:/root/.m2/repository/org/apache/maven/scm/maven-scm-provider-svnexe/1.4/maven-scm-provider-svnexe-1.4.jar, file:/root/.m2/repository/org/apache/maven/scm/maven-scm-provider-svn-commons/1.4/maven-scm-provider-svn-commons-1.4.jar, file:/root/.m2/repository/regexp/regexp/1.3/regexp-1.3.jar, file:/root/.m2/repository/org/apache/accumulo/accumulo-fate/1.5.0-SNAPSHOT/accumulo-fate-1.5.0-SNAPSHOT.jar, file:/root/.m2/repository/org/apache/accumulo/cloudtrace/1.5.0-SNAPSHOT/cloudtrace-1.5.0-SNAPSHOT.jar, file:/root/.m2/repository/org/slf4j/slf4j-log4j12/1.4.3/slf4j-log4j12-1.4.3.jar, file:/root/.m2/repository/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar, file:/root/.m2/repository/org/apache/zookeeper/zookeeper/3.3.1/zookeeper-3.3.1.jar, file:/root/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar, file:/root/.m2/repository/org/slf4j/slf4j-api/1.4.3/slf4j-api-1.4.3.jar, file:/root/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar, file:/root/.m2/repository/commons-codec/commons-codec/1.3/commons-codec-1.3.jar, file:/root/.m2/repository/commons-collections/commons-collections/3.2/commons-collections-3.2.jar, file:/root/.m2/repository/org/apache/thrift/libthrift/0.9.0/libthrift-0.9.0.jar, file:/root/.m2/repository/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.jar, file:/root/.m2/repository/org/apache/httpcomponents/httpcore/4.1.3/httpcore-4.1.3.jar, file:/root/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar, file:/root/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar, file:/root/.m2/repository/com/beust/jcommander/1.30/jcommander-1.30.jar, file:/root/.m2/repository/org/apache/hadoop/hadoop-core/1.0.4/hadoop-core-1.0.4.jar, file:/root/.m2/repository/xmlenc/xmlenc/0.52/xmlenc-0.52.jar, file:/root/.m2/repository/commons-httpclient/commons-httpclient/3.0.1/commons-httpclient-3.0.1.jar, file:/root/.m2/repository/org/apache/commons/commons-math/2.1/commons-math-2.1.jar, file:/root/.m2/repository/commons-configuration/commons-configuration/1.5/commons-configuration-1.5.jar, file:/root/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar, file:/root/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar, file:/root/.m2/repository/commons-beanutils/commons-beanutils-core/1.7.0/commons-beanutils-core-1.7.0.jar, file:/root/.m2/repository/commons-net/commons-net/1.4.1/commons-net-1.4.1.jar, file:/root/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar, file:/root/.m2/repository/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar, file:/root/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar, file:/root/.m2/repository/tomcat/jasper-runtime/5.5.12/jasper-runtime-5.5.12.jar, file:/root/.m2/repository/tomcat/jasper-compiler/5.5.12/jasper-compiler-5.5.12.jar, file:/root/.m2/repository/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.jar, file:/root/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.14/servlet-api-2.5-6.1.14.jar, file:/root/.m2/repository/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.jar, file:/root/.m2/repository/ant/ant/1.6.5/ant-1.6.5.jar, file:/root/.m2/repository/commons-el/commons-el/1.0/commons-el-1.0.jar, file:/root/.m2/repository/net/java/dev/jets3t/jets3t/0.7.1/jets3t-0.7.1.jar, file:/root/.m2/repository/net/sf/kosmosfs/kfs/0.3/kfs-0.3.jar, file:/root/.m2/repository/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.jar, file:/root/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar, file:/root/.m2/repository/org/eclipse/jdt/core/3.1.1/core-3.1.1.jar, file:/root/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.0.1/jackson-mapper-asl-1.0.1.jar, file:/root/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.0.1/jackson-core-asl-1.0.1.jar, file:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar]
+19:09:19.035 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: CONDITIONAL
+19:09:19.038 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.accumulo.core.iterators.system.VisibilityFilterTest]
+19:09:19.046 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=CONDITIONAL, synthesis=DYNAMOTH, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/workspaces/APIARTy/data/ACCUMULO-844/accumulo/core/src/main/java, /workspaces/APIARTy/data/ACCUMULO-844/accumulo/core/src/test/java], projectClasspath='[Ljava.net.URL;@3c5a99da', projectTests=[org.apache.accumulo.core.iterators.system.VisibilityFilterTest], complianceLevel=7, outputFolder=., json=false}
+19:09:19.048 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+19:09:19.068 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 27 MB
+19:09:19.069 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 910 MB
+19:09:19.072 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 31 MB
+19:09:19.073 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+19:09:19.081 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+19:09:19.087 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /root/.vscode-server/bin/26076a4de974ead31f97692a0d32f90d735645c0/bin:/apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+19:09:47.960 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+19:09:47.965 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.collections.map.LRUMap:175 which is executed by 1 tests
+19:09:47.970 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.commons.collections.map.LRUMap:175
+19:09:47.973 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+19:09:47.977 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.collections.map.LRUMap:174 which is executed by 1 tests
+19:09:47.980 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.commons.collections.map.LRUMap:174
+19:09:47.983 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+19:09:47.986 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.collections.map.LRUMap:173 which is executed by 1 tests
+19:09:47.988 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.commons.collections.map.LRUMap:173
+19:09:47.989 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+19:09:47.992 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.FormattingInfo:39 which is executed by 1 tests
+19:09:47.994 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.FormattingInfo:39
+19:09:48.003 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+19:09:48.004 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.FormattingInfo:38 which is executed by 1 tests
+19:09:48.005 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.FormattingInfo:38
+19:09:48.006 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+19:09:48.007 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.FormattingInfo:37 which is executed by 1 tests
+19:09:48.009 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.FormattingInfo:37
+19:09:48.011 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+19:09:48.013 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.FormattingInfo:36 which is executed by 1 tests
+19:09:48.017 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.FormattingInfo:36
+19:09:48.024 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+19:09:48.028 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:527 which is executed by 1 tests
+19:09:48.030 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:527
+19:09:48.031 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+19:09:48.032 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:526 which is executed by 1 tests
+19:09:48.032 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:526
+19:09:48.033 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+19:09:48.035 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:523 which is executed by 1 tests
+19:09:48.036 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:523
+19:09:48.037 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+19:09:48.038 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:513 which is executed by 1 tests
+19:09:48.044 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:513
+19:09:48.045 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+19:09:48.047 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:509 which is executed by 1 tests
+19:09:48.048 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:509
+19:09:48.049 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+19:09:48.049 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:507 which is executed by 1 tests
+19:09:48.051 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:507
+19:09:48.053 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+19:09:48.054 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:506 which is executed by 1 tests
+19:09:48.054 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:506
+19:09:48.055 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+19:09:48.056 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:434 which is executed by 1 tests
+19:09:48.063 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:434
+19:09:48.064 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+19:09:48.066 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:433 which is executed by 1 tests
+19:09:48.068 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:433
+19:09:48.070 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+19:09:48.071 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:424 which is executed by 1 tests
+19:09:48.072 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:424
+19:09:48.073 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+19:09:48.075 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:421 which is executed by 1 tests
+19:09:48.080 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:421
+19:09:48.081 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #19
+19:09:48.082 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:420 which is executed by 1 tests
+19:09:48.089 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:420
+19:09:48.101 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #20
+19:09:48.102 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:418 which is executed by 1 tests
+19:09:48.102 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:418
+19:09:48.103 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #21
+19:09:48.104 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:416 which is executed by 1 tests
+19:09:48.104 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:416
+19:09:48.105 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #22
+19:09:48.106 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:415 which is executed by 1 tests
+19:09:48.108 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:415
+19:09:48.109 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #23
+19:09:48.110 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:410 which is executed by 1 tests
+19:09:48.110 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:410
+19:09:48.111 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #24
+19:09:48.112 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:409 which is executed by 1 tests
+19:09:48.113 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:409
+19:09:48.114 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #25
+19:09:48.114 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:408 which is executed by 1 tests
+19:09:48.115 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:408
+19:09:48.117 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #26
+19:09:48.119 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:405 which is executed by 1 tests
+19:09:48.120 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:405
+19:09:48.121 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #27
+19:09:48.121 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:404 which is executed by 1 tests
+19:09:48.122 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:404
+19:09:48.123 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #28
+19:09:48.123 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:402 which is executed by 1 tests
+19:09:48.124 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:402
+19:09:48.125 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #29
+19:09:48.126 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:401 which is executed by 1 tests
+19:09:48.127 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:401
+19:09:48.132 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #30
+19:09:48.133 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:399 which is executed by 1 tests
+19:09:48.135 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:399
+19:09:48.143 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #31
+19:09:48.144 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:398 which is executed by 1 tests
+19:09:48.146 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:398
+19:09:48.148 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #32
+19:09:48.153 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:394 which is executed by 1 tests
+19:09:48.155 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:394
+19:09:48.156 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #33
+19:09:48.159 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:392 which is executed by 1 tests
+19:09:48.161 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:392
+19:09:48.162 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #34
+19:09:48.165 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:337 which is executed by 1 tests
+19:09:48.166 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:337
+19:09:48.167 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #35
+19:09:48.167 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:328 which is executed by 1 tests
+19:09:48.170 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:328
+19:09:48.170 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #36
+19:09:48.171 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:327 which is executed by 1 tests
+19:09:48.172 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:327
+19:09:48.172 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #37
+19:09:48.174 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:325 which is executed by 1 tests
+19:09:48.175 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:325
+19:09:48.176 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #38
+19:09:48.177 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:304 which is executed by 1 tests
+19:09:48.177 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:304
+19:09:48.178 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #39
+19:09:48.179 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:301 which is executed by 1 tests
+19:09:48.179 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:301
+19:09:48.180 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #40
+19:09:48.180 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:300 which is executed by 1 tests
+19:09:48.181 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:300
+19:09:48.181 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #41
+19:09:48.182 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:299 which is executed by 1 tests
+19:09:48.183 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:299
+19:09:48.184 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #42
+19:09:48.185 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:280 which is executed by 1 tests
+19:09:48.186 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:280
+19:09:48.187 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #43
+19:09:48.187 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:278 which is executed by 1 tests
+19:09:48.188 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:278
+19:09:48.189 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #44
+19:09:48.189 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:268 which is executed by 1 tests
+19:09:48.190 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:268
+19:09:48.190 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #45
+19:09:48.191 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:267 which is executed by 1 tests
+19:09:48.193 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:267
+19:09:48.193 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #46
+19:09:48.194 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:266 which is executed by 1 tests
+19:09:48.194 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:266
+19:09:48.198 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #47
+19:09:48.198 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:263 which is executed by 1 tests
+19:09:48.199 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:263
+19:09:48.200 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #48
+19:09:48.201 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:262 which is executed by 1 tests
+19:09:48.202 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:262
+19:09:48.203 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #49
+19:09:48.203 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:259 which is executed by 1 tests
+19:09:48.205 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:259
+19:09:48.205 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #50
+19:09:48.206 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:198 which is executed by 1 tests
+19:09:48.206 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:198
+19:09:48.207 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #51
+19:09:48.208 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:194 which is executed by 1 tests
+19:09:48.209 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:194
+19:09:48.209 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #52
+19:09:48.210 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:193 which is executed by 1 tests
+19:09:48.210 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:193
+19:09:48.211 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #53
+19:09:48.211 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:192 which is executed by 1 tests
+19:09:48.212 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:192
+19:09:48.213 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #54
+19:09:48.214 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:190 which is executed by 1 tests
+19:09:48.215 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:190
+19:09:48.216 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #55
+19:09:48.217 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:187 which is executed by 1 tests
+19:09:48.217 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:187
+19:09:48.220 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #56
+19:09:48.221 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:124 which is executed by 1 tests
+19:09:48.223 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:124
+19:09:48.224 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #57
+19:09:48.225 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:119 which is executed by 1 tests
+19:09:48.227 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:119
+19:09:48.227 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #58
+19:09:48.228 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:118 which is executed by 1 tests
+19:09:48.229 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:118
+19:09:48.231 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #59
+19:09:48.234 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.OptionConverter:104 which is executed by 1 tests
+19:09:48.234 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.OptionConverter:104
+19:09:48.235 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #60
+19:09:48.237 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.LogManager:228 which is executed by 1 tests
+19:09:48.238 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.LogManager:228
+19:09:48.240 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #61
+19:09:48.240 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.LogManager:208 which is executed by 1 tests
+19:09:48.241 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.LogManager:208
+19:09:48.241 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #62
+19:09:48.242 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.LogManager:196 which is executed by 1 tests
+19:09:48.243 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.LogManager:196
+19:09:48.243 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #63
+19:09:48.244 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.RollingFileAppender:261 which is executed by 1 tests
+19:09:48.246 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.RollingFileAppender:261
+19:09:48.249 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #64
+19:09:48.250 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.RollingFileAppender:260 which is executed by 1 tests
+19:09:48.251 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.RollingFileAppender:260
+19:09:48.252 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #65
+19:09:48.252 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.RollingFileAppender:227 which is executed by 1 tests
+19:09:48.253 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.RollingFileAppender:227
+19:09:48.254 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #66
+19:09:48.254 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.RollingFileAppender:226 which is executed by 1 tests
+19:09:48.259 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.RollingFileAppender:226
+19:09:48.262 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #67
+19:09:48.266 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.RollingFileAppender:207 which is executed by 1 tests
+19:09:48.267 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.RollingFileAppender:207
+19:09:48.268 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #68
+19:09:48.270 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.AppenderAttachableImpl:53 which is executed by 1 tests
+19:09:48.272 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.AppenderAttachableImpl:53
+19:09:48.273 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #69
+19:09:48.275 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.AppenderAttachableImpl:52 which is executed by 1 tests
+19:09:48.276 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.AppenderAttachableImpl:52
+19:09:48.277 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #70
+19:09:48.281 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.AppenderAttachableImpl:51 which is executed by 1 tests
+19:09:48.282 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.AppenderAttachableImpl:51
+19:09:48.282 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #71
+19:09:48.283 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.AppenderAttachableImpl:49 which is executed by 1 tests
+19:09:48.285 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.AppenderAttachableImpl:49
+19:09:48.285 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #72
+19:09:48.286 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.AppenderAttachableImpl:48 which is executed by 1 tests
+19:09:48.286 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.AppenderAttachableImpl:48
+19:09:48.287 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #73
+19:09:48.287 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.helpers.AppenderAttachableImpl:45 which is executed by 1 tests
+19:09:48.288 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.helpers.AppenderAttachableImpl:45
+19:09:48.289 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #74
+19:09:48.291 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.PatternLayout:488 which is executed by 1 tests
+19:09:48.292 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.PatternLayout:488
+19:09:48.293 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #75
+19:09:48.294 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.PatternLayout:467 which is executed by 1 tests
+19:09:48.295 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.PatternLayout:467
+19:09:48.296 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #76
+19:09:48.297 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.PatternLayout:451 which is executed by 1 tests
+19:09:48.297 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.PatternLayout:451
+19:09:48.299 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #77
+19:09:48.300 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.PatternLayout:450 which is executed by 1 tests
+19:09:48.301 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.PatternLayout:450
+19:09:48.302 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #78
+19:09:48.303 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.PatternLayout:449 which is executed by 1 tests
+19:09:48.304 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.PatternLayout:449
+19:09:48.305 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #79
+19:09:48.306 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.FileAppender:346 which is executed by 1 tests
+19:09:48.307 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.FileAppender:346
+19:09:48.308 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #80
+19:09:48.309 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.FileAppender:345 which is executed by 1 tests
+19:09:48.311 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.FileAppender:345
+19:09:48.311 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #81
+19:09:48.312 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.FileAppender:344 which is executed by 1 tests
+19:09:48.313 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.FileAppender:344
+19:09:48.315 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #82
+19:09:48.318 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.FileAppender:343 which is executed by 1 tests
+19:09:48.319 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.FileAppender:343
+19:09:48.321 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #83
+19:09:48.324 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.FileAppender:310 which is executed by 1 tests
+19:09:48.325 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.FileAppender:310
+19:09:48.326 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #84
+19:09:48.330 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.FileAppender:302 which is executed by 1 tests
+19:09:48.331 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.FileAppender:302
+19:09:48.331 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #85
+19:09:48.332 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.FileAppender:301 which is executed by 1 tests
+19:09:48.333 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.FileAppender:301
+19:09:48.334 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #86
+19:09:48.335 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.FileAppender:294 which is executed by 1 tests
+19:09:48.337 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.FileAppender:294
+19:09:48.337 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #87
+19:09:48.338 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.FileAppender:289 which is executed by 1 tests
+19:09:48.339 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.FileAppender:289
+19:09:48.339 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #88
+19:09:48.340 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.FileAppender:288 which is executed by 1 tests
+19:09:48.340 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.FileAppender:288
+19:09:48.341 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #89
+19:09:48.341 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.FileAppender:284 which is executed by 1 tests
+19:09:48.342 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.FileAppender:284
+19:09:48.342 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #90
+19:09:48.343 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.FileAppender:281 which is executed by 1 tests
+19:09:48.345 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.FileAppender:281
+19:09:48.346 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #91
+19:09:48.348 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.FileAppender:196 which is executed by 1 tests
+19:09:48.349 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.FileAppender:196
+19:09:48.350 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #92
+19:09:48.351 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.FileAppender:183 which is executed by 1 tests
+19:09:48.351 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.FileAppender:183
+19:09:48.353 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #93
+19:09:48.354 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.FileAppender:176 which is executed by 1 tests
+19:09:48.355 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.FileAppender:176
+19:09:48.356 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #94
+19:09:48.358 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.FileAppender:170 which is executed by 1 tests
+19:09:48.359 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.FileAppender:170
+19:09:48.360 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #95
+19:09:48.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.FileAppender:168 which is executed by 1 tests
+19:09:48.366 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.FileAppender:168
+19:09:48.367 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #96
+19:09:48.370 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.FileAppender:165 which is executed by 1 tests
+19:09:48.371 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.FileAppender:165
+19:09:48.372 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #97
+19:09:48.375 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.FileAppender:163 which is executed by 1 tests
+19:09:48.377 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.FileAppender:163
+19:09:48.378 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #98
+19:09:48.380 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.FileAppender:138 which is executed by 1 tests
+19:09:48.382 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.FileAppender:138
+19:09:48.382 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #99
+19:09:48.383 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.FileAppender:137 which is executed by 1 tests
+19:09:48.384 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.FileAppender:137
+19:09:48.384 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #100
+19:09:48.385 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.FileAppender:136 which is executed by 1 tests
+19:09:48.385 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.FileAppender:136
+19:09:48.386 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #101
+19:09:48.386 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.hadoop.io.Text$1:52 which is executed by 1 tests
+19:09:48.387 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.hadoop.io.Text$1:52
+19:09:48.388 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #102
+19:09:48.389 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.hadoop.io.Text$1:54 which is executed by 1 tests
+19:09:48.389 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.hadoop.io.Text$1:54
+19:09:48.390 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #103
+19:09:48.391 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility:354 which is executed by 1 tests
+1983095593
+19:09:49.502 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #104
+19:09:49.503 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility:353 which is executed by 1 tests
+1983095593
+19:09:50.176 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #105
+19:09:50.184 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility:352 which is executed by 1 tests
+1983095593
+19:09:50.851 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+19:09:54.435 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #106
+19:09:54.437 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.log4j.Priority:146 which is executed by 1 tests
+19:09:54.439 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.log4j.Priority:146
+19:09:54.440 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #107
+19:09:54.440 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.iterators.system.VisibilityFilter:70 which is executed by 1 tests
+1602373963
+19:09:55.127 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #108
+19:09:55.131 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.iterators.system.VisibilityFilter:66 which is executed by 1 tests
+1602373963
+19:09:55.764 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+19:09:57.323 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #109
+19:09:57.324 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.iterators.system.VisibilityFilter:65 which is executed by 1 tests
+1602373963
+19:09:57.986 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #110
+19:09:57.990 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.iterators.system.VisibilityFilter:62 which is executed by 1 tests
+1602373963
+19:09:58.629 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+19:10:01.038 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #111
+19:10:01.041 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.iterators.system.VisibilityFilter:60 which is executed by 1 tests
+1602373963
+19:10:01.684 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+19:10:03.002 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #112
+19:10:03.005 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.iterators.system.VisibilityFilter:58 which is executed by 1 tests
+1602373963
+19:10:03.624 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #113
+19:10:03.627 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.data.Range:239 which is executed by 1 tests
+78727454
+19:10:04.294 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #114
+19:10:04.298 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.data.Range:238 which is executed by 1 tests
+78727454
+19:10:05.041 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+19:10:06.473 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #115
+19:10:06.474 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.data.Range:213 which is executed by 1 tests
+78727454
+19:10:07.108 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #116
+19:10:07.110 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.data.Range:212 which is executed by 1 tests
+78727454
+19:10:07.690 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+19:10:09.079 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #117
+19:10:09.079 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.data.Range:201 which is executed by 1 tests
+78727454
+19:10:09.796 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #118
+19:10:09.799 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.data.Range:200 which is executed by 1 tests
+78727454
+19:10:10.506 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+19:10:12.005 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #119
+19:10:12.006 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.logging.LogFactory$3:597 which is executed by 1 tests
+19:10:12.008 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.commons.logging.LogFactory$3:597
+19:10:12.010 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #120
+19:10:12.011 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.logging.LogFactory$3:596 which is executed by 1 tests
+19:10:12.013 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.commons.logging.LogFactory$3:596
+19:10:12.014 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #121
+19:10:12.015 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility$ColumnVisibilityParser:339 which is executed by 1 tests
+1983095593
+19:10:12.676 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #122
+19:10:12.677 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility$ColumnVisibilityParser:336 which is executed by 1 tests
+1983095593
+19:10:13.332 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #123
+19:10:13.336 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility$ColumnVisibilityParser:334 which is executed by 1 tests
+1983095593
+19:10:13.954 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+19:10:15.495 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #124
+19:10:15.495 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility$ColumnVisibilityParser:333 which is executed by 1 tests
+1983095593
+19:10:16.248 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #125
+19:10:16.257 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility$ColumnVisibilityParser:330 which is executed by 1 tests
+1983095593
+19:10:16.962 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+19:10:18.453 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #126
+19:10:18.455 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility$ColumnVisibilityParser:264 which is executed by 1 tests
+1983095593
+19:10:19.151 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #127
+19:10:19.157 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility$ColumnVisibilityParser:263 which is executed by 1 tests
+1983095593
+19:10:19.837 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #128
+19:10:19.843 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility$ColumnVisibilityParser:262 which is executed by 1 tests
+1983095593
+19:10:20.553 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #129
+19:10:20.558 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility$ColumnVisibilityParser:261 which is executed by 1 tests
+1983095593
+19:10:21.284 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #130
+19:10:21.289 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility$ColumnVisibilityParser:260 which is executed by 1 tests
+1983095593
+19:10:21.981 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #131
+19:10:21.985 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility$ColumnVisibilityParser:258 which is executed by 1 tests
+1983095593
+19:10:22.673 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #132
+19:10:22.677 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility$ColumnVisibilityParser:254 which is executed by 1 tests
+1983095593
+19:10:23.396 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+19:10:24.911 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #133
+19:10:24.914 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility$ColumnVisibilityParser:253 which is executed by 1 tests
+1983095593
+19:10:25.595 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #134
+19:10:25.604 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility$ColumnVisibilityParser:251 which is executed by 1 tests
+1983095593
+19:10:26.338 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #135
+19:10:26.342 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility$ColumnVisibilityParser:250 which is executed by 1 tests
+1983095593
+19:10:27.005 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #136
+19:10:27.014 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility$ColumnVisibilityParser:248 which is executed by 1 tests
+1983095593
+19:10:27.692 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #137
+19:10:27.694 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility$ColumnVisibilityParser:247 which is executed by 1 tests
+1983095593
+19:10:28.388 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #138
+19:10:28.389 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility$ColumnVisibilityParser:246 which is executed by 1 tests
+1983095593
+19:10:29.107 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #139
+19:10:29.111 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility$ColumnVisibilityParser:245 which is executed by 1 tests
+1983095593
+19:10:29.807 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #140
+19:10:29.811 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility$ColumnVisibilityParser:240 which is executed by 1 tests
+1983095593
+19:10:30.474 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #141
+19:10:30.476 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility$ColumnVisibilityParser:239 which is executed by 1 tests
+1983095593
+19:10:31.129 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+19:10:32.252 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #142
+19:10:32.253 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility$ColumnVisibilityParser:237 which is executed by 1 tests
+1983095593
+19:10:32.963 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #143
+19:10:32.967 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility$ColumnVisibilityParser:235 which is executed by 1 tests
+1983095593
+19:10:33.610 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+19:10:34.800 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #144
+19:10:34.800 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility$ColumnVisibilityParser:234 which is executed by 1 tests
+1983095593
+19:10:35.468 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+19:10:36.860 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #145
+19:10:36.862 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility$ColumnVisibilityParser:221 which is executed by 1 tests
+1983095593
+19:10:37.492 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #146
+19:10:37.499 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.ColumnVisibility$ColumnVisibilityParser:220 which is executed by 1 tests
+1983095593
+19:10:38.162 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+19:10:39.525 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #147
+19:10:39.526 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.Authorizations:172 which is executed by 1 tests
+-1004995781
+19:10:40.118 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #148
+19:10:40.122 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.Authorizations:165 which is executed by 1 tests
+-1004995781
+19:10:40.772 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #149
+19:10:40.776 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.Authorizations:164 which is executed by 1 tests
+-1004995781
+19:10:41.379 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #150
+19:10:41.380 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.Authorizations:161 which is executed by 1 tests
+-1004995781
+19:10:41.981 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #151
+19:10:41.989 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.Authorizations:158 which is executed by 1 tests
+-1004995781
+19:10:42.596 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #152
+19:10:42.597 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.Authorizations:156 which is executed by 1 tests
+-1004995781
+19:10:43.159 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #153
+19:10:43.162 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.Authorizations:155 which is executed by 1 tests
+-1004995781
+19:10:43.716 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #154
+19:10:43.717 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.Authorizations:154 which is executed by 1 tests
+-1004995781
+19:10:44.332 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #155
+19:10:44.340 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.Authorizations:153 which is executed by 1 tests
+-1004995781
+19:10:44.966 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #156
+19:10:44.970 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.Authorizations:150 which is executed by 1 tests
+-1004995781
+19:10:45.618 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #157
+19:10:45.622 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.Authorizations:149 which is executed by 1 tests
+-1004995781
+19:10:46.300 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #158
+19:10:46.304 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.Authorizations:85 which is executed by 1 tests
+-1004995781
+19:10:46.971 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #159
+19:10:46.973 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.Authorizations:84 which is executed by 1 tests
+-1004995781
+19:10:47.608 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #160
+19:10:47.609 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.Authorizations:83 which is executed by 1 tests
+-1004995781
+19:10:48.201 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #161
+19:10:48.202 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.Authorizations:79 which is executed by 1 tests
+-1004995781
+19:10:48.878 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+19:10:50.653 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #162
+19:10:50.654 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.Authorizations:78 which is executed by 1 tests
+-1004995781
+19:10:51.354 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #163
+19:10:51.360 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.Authorizations:73 which is executed by 1 tests
+-1004995781
+19:10:52.051 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #164
+19:10:52.055 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.iterators.SortedMapIterator:39 which is executed by 2 tests
+-310271282
+19:10:52.678 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #165
+19:10:52.682 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.iterators.SortedMapIterator:125 which is executed by 1 tests
+-310271282
+19:10:53.306 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #166
+19:10:53.309 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.iterators.SortedMapIterator:122 which is executed by 1 tests
+-310271282
+19:10:54.368 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #167
+19:10:54.372 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.iterators.SortedMapIterator:116 which is executed by 1 tests
+-310271282
+19:10:54.966 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+19:10:56.978 [pool-62-thread-1] DEBUG f.i.l.r.n.s.d.DynamothSynthesizer - Collected 0 potential patches
+19:10:56.986 [pool-62-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Applying patch: org.apache.accumulo.core.iterators.SortedMapIterator:116: CONDITIONAL true
+19:10:57.734 [pool-62-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Running test suite to check the patch "true" is working
+19:10:58.014 [pool-62-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Skipped -9 patches for sake of performance
+19:10:58.015 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+19:10:58.845 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 511
+19:10:58.856 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 4176
+19:10:58.857 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 16
+19:10:58.858 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 1
+19:10:58.859 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 99006ms
+19:10:58.860 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+19:10:58.861 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+19:10:58.861 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - true
+19:10:58.868 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 1
+19:10:58.869 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - org.apache.accumulo.core.iterators.SortedMapIterator:116: CONDITIONAL
+19:10:58.913 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - --- a/src/main/java/org/apache/accumulo/core/iterators/SortedMapIterator.java
++++ b/src/main/java/org/apache/accumulo/core/iterators/SortedMapIterator.java
+@@ -115,3 +115,3 @@
+       entry = iter.next();
+-      if (range.afterEndKey(entry.getKey())) {
++      if (true) {
+         entry = null;
+
+PATCH

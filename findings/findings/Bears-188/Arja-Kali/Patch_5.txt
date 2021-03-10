@@ -1,0 +1,4 @@
+InsertReturn true /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java 57 1.0
+speedAngle=calculateSpeedometer(0);
+**************************************************
+EstimatedTime: 6987

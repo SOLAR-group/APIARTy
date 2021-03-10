@@ -1,0 +1,116 @@
+10:00:07.883 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/LOG4J2-1058/logging-log4j2/log4j-slf4j-impl/src/main/java, /apiarty/data/LOG4J2-1058/logging-log4j2/log4j-slf4j-impl/src/test/java]
+10:00:07.897 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/LOG4J2-1058/logging-log4j2/log4j-slf4j-impl/target/classes/, file:/apiarty/data/LOG4J2-1058/logging-log4j2/log4j-slf4j-impl/target/test-classes/, file:/root/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar, file:/root/.m2/repository/org/slf4j/slf4j-ext/1.7.12/slf4j-ext-1.7.12.jar, file:/root/.m2/repository/ch/qos/cal10n/cal10n-api/0.8.1/cal10n-api-0.8.1.jar, file:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.4-SNAPSHOT/log4j-api-2.4-SNAPSHOT.jar, file:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.4-SNAPSHOT/log4j-api-2.4-SNAPSHOT-tests.jar, file:/root/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar, file:/root/.m2/repository/org/apache/logging/log4j/log4j-core/2.4-SNAPSHOT/log4j-core-2.4-SNAPSHOT.jar, file:/root/.m2/repository/org/apache/logging/log4j/log4j-core/2.4-SNAPSHOT/log4j-core-2.4-SNAPSHOT-tests.jar, file:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar]
+10:00:07.899 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+10:00:07.900 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.logging.slf4j.MarkerTest]
+10:00:07.904 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/LOG4J2-1058/logging-log4j2/log4j-slf4j-impl/src/main/java, /apiarty/data/LOG4J2-1058/logging-log4j2/log4j-slf4j-impl/src/test/java], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[org.apache.logging.slf4j.MarkerTest], complianceLevel=8, outputFolder=., json=false}
+10:00:07.905 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+10:00:07.919 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+10:00:07.920 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+10:00:07.921 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+10:00:07.922 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+10:00:07.925 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+10:00:07.926 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+10:00:17.063 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+10:00:17.066 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.slf4j.helpers.BasicMarker:170 which is executed by 3 tests
+10:00:17.069 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.slf4j.helpers.BasicMarker:170
+10:00:17.070 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+10:00:17.072 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.slf4j.helpers.BasicMarker:169 which is executed by 3 tests
+10:00:17.074 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.slf4j.helpers.BasicMarker:169
+10:00:17.075 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+10:00:17.076 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.slf4j.helpers.BasicMarker:166 which is executed by 3 tests
+10:00:17.077 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.slf4j.helpers.BasicMarker:166
+10:00:17.079 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+10:00:17.081 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.slf4j.helpers.BasicMarker:164 which is executed by 3 tests
+10:00:17.082 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.slf4j.helpers.BasicMarker:164
+10:00:17.084 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+10:00:17.085 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.slf4j.helpers.BasicMarker:162 which is executed by 3 tests
+10:00:17.086 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.slf4j.helpers.BasicMarker:162
+10:00:17.087 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+10:00:17.089 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.slf4j.helpers.BasicMarker:130 which is executed by 3 tests
+10:00:17.090 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.slf4j.helpers.BasicMarker:130
+10:00:17.091 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+10:00:17.093 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.slf4j.helpers.BasicMarker:122 which is executed by 3 tests
+10:00:17.096 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.slf4j.helpers.BasicMarker:122
+10:00:17.097 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+10:00:17.099 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.slf4j.helpers.BasicMarker:118 which is executed by 3 tests
+10:00:17.102 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.slf4j.helpers.BasicMarker:118
+10:00:17.103 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+10:00:17.104 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.slf4j.helpers.BasicMarker:114 which is executed by 3 tests
+10:00:17.106 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.slf4j.helpers.BasicMarker:114
+10:00:17.108 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+10:00:17.109 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.slf4j.helpers.BasicMarker:82 which is executed by 3 tests
+10:00:17.111 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.slf4j.helpers.BasicMarker:82
+10:00:17.113 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+10:00:17.115 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.slf4j.helpers.BasicMarker:79 which is executed by 3 tests
+10:00:17.116 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.slf4j.helpers.BasicMarker:79
+10:00:17.118 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+10:00:17.119 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.slf4j.helpers.BasicMarker:76 which is executed by 3 tests
+10:00:17.121 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.slf4j.helpers.BasicMarker:76
+10:00:17.122 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+10:00:17.123 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.slf4j.helpers.BasicMarker:74 which is executed by 3 tests
+10:00:17.125 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.slf4j.helpers.BasicMarker:74
+10:00:17.128 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+10:00:17.129 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.slf4j.helpers.BasicMarker:73 which is executed by 3 tests
+10:00:17.132 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.slf4j.helpers.BasicMarker:73
+10:00:17.133 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+10:00:17.135 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.slf4j.helpers.BasicMarker:68 which is executed by 3 tests
+10:00:17.137 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.slf4j.helpers.BasicMarker:68
+10:00:17.138 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+10:00:17.140 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.slf4j.helpers.BasicMarker:65 which is executed by 3 tests
+10:00:17.142 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.slf4j.helpers.BasicMarker:65
+10:00:17.143 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+10:00:17.145 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.slf4j.helpers.BasicMarker:59 which is executed by 3 tests
+10:00:17.147 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.slf4j.helpers.BasicMarker:59
+10:00:17.148 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+10:00:17.149 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.slf4j.helpers.BasicMarker:55 which is executed by 3 tests
+10:00:17.151 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.slf4j.helpers.BasicMarker:55
+10:00:17.152 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #19
+10:00:17.154 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.slf4j.MarkerFactory:71 which is executed by 3 tests
+10:00:17.156 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.slf4j.MarkerFactory:71
+10:00:17.157 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #20
+10:00:17.159 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.slf4j.helpers.BasicMarkerFactory:72 which is executed by 3 tests
+10:00:17.160 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.slf4j.helpers.BasicMarkerFactory:72
+10:00:17.161 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #21
+10:00:17.162 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.slf4j.helpers.BasicMarkerFactory:70 which is executed by 3 tests
+10:00:17.164 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.slf4j.helpers.BasicMarkerFactory:70
+10:00:17.165 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #22
+10:00:17.167 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.slf4j.helpers.BasicMarkerFactory:69 which is executed by 3 tests
+10:00:17.169 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.slf4j.helpers.BasicMarkerFactory:69
+10:00:17.170 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #23
+10:00:17.171 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.slf4j.helpers.BasicMarkerFactory:68 which is executed by 3 tests
+10:00:17.173 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.slf4j.helpers.BasicMarkerFactory:68
+10:00:17.174 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #24
+10:00:17.175 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.slf4j.helpers.BasicMarkerFactory:67 which is executed by 3 tests
+10:00:17.176 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.slf4j.helpers.BasicMarkerFactory:67
+10:00:17.178 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #25
+10:00:17.179 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.slf4j.helpers.BasicMarkerFactory:63 which is executed by 3 tests
+10:00:17.182 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.slf4j.helpers.BasicMarkerFactory:63
+10:00:17.183 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #26
+10:00:17.184 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.MarkerManager:62 which is executed by 3 tests
+10:00:17.185 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.MarkerManager:62
+10:00:17.186 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #27
+10:00:17.187 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.MarkerManager:61 which is executed by 3 tests
+10:00:17.188 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.MarkerManager:61
+10:00:17.189 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #28
+10:00:17.190 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.MarkerManager:41 which is executed by 3 tests
+10:00:17.192 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.MarkerManager:41
+10:00:17.193 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #29
+10:00:17.194 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.MarkerManager:40 which is executed by 3 tests
+10:00:17.195 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.MarkerManager:40
+10:00:17.196 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #30
+10:00:17.197 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.slf4j.Log4jMarker:88 which is executed by 1 tests
+1363733941
+10:00:18.378 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #31
+10:00:18.381 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.slf4j.impl.StaticMarkerBinder:45 which is executed by 2 tests
+-705254349
+10:00:18.810 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+10:00:18.921 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 16
+10:00:18.922 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 132
+10:00:18.926 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 0
+10:00:18.929 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+10:00:18.931 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 0
+10:00:18.937 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 0
+10:00:18.938 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 0
+10:00:18.940 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 10934ms
+10:00:18.942 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+NO_ANGELIC_VALUE

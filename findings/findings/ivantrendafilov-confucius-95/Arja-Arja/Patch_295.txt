@@ -1,0 +1,14 @@
+1 Delete /apiarty/data/ivantrendafilov-confucius-95/Confucius/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java 276
+Faulty:
+LOG.info("Unset configuration property: [{}]",key);
+Seed:
+NULL
+**************************************************
+2 Delete /apiarty/data/ivantrendafilov-confucius-95/Confucius/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java 67
+Faulty:
+setProperties(new Parser(configurationDataProvider,context).getConfiguration());
+Seed:
+NULL
+**************************************************
+Evaluations: 731
+EstimatedTime: 320048

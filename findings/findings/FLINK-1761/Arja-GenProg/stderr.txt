@@ -1,0 +1,19 @@
+Exception in thread "main" java.lang.NoClassDefFoundError: org/apache/flink/api/common/functions/FlatCombineFunction
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.privateGetPublicMethods(Class.java:2902)
+	at java.lang.Class.getMethods(Class.java:1615)
+	at us.msu.cse.repair.core.util.JUnitIdentifier.isJUnit4TestCase(JUnitIdentifier.java:25)
+	at us.msu.cse.repair.core.util.JUnitIdentifier.isJUnitTest(JUnitIdentifier.java:13)
+	at us.msu.cse.repair.core.util.ClassFinder.scanTestDir(ClassFinder.java:88)
+	at us.msu.cse.repair.core.util.ClassFinder.<init>(ClassFinder.java:48)
+	at us.msu.cse.repair.core.AbstractRepairProblem.invokeClassFinder(AbstractRepairProblem.java:284)
+	at us.msu.cse.repair.core.AbstractRepairProblem.invokeModules(AbstractRepairProblem.java:268)
+	at us.msu.cse.repair.core.AbstractRepairProblem.<init>(AbstractRepairProblem.java:244)
+	at us.msu.cse.repair.ec.problems.GenProgProblem.<init>(GenProgProblem.java:33)
+	at us.msu.cse.repair.GenProgMain.main(GenProgMain.java:38)
+Caused by: java.lang.ClassNotFoundException: org.apache.flink.api.common.functions.FlatCombineFunction
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 13 more

@@ -1,0 +1,291 @@
+00:29:33.572 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/LOG4J2-834/logging-log4j2/log4j-core/src/main/java, /apiarty/data/LOG4J2-834/logging-log4j2/log4j-core/src/test/java]
+00:29:33.586 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/LOG4J2-834/logging-log4j2/log4j-core/target/classes/, file:/apiarty/data/LOG4J2-834/logging-log4j2/log4j-core/target/test-classes/, file:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.2-SNAPSHOT/log4j-api-2.2-SNAPSHOT.jar, file:/root/.m2/repository/org/osgi/org.osgi.core/4.3.1/org.osgi.core-4.3.1.jar, file:/root/.m2/repository/com/lmax/disruptor/3.3.0/disruptor-3.3.0.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.4.3/jackson-core-2.4.3.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.4.3/jackson-databind-2.4.3.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.4.0/jackson-annotations-2.4.0.jar, file:/root/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.4.3/jackson-dataformat-yaml-2.4.3.jar, file:/root/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.4.3/jackson-dataformat-xml-2.4.3.jar, file:/root/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.4.3/jackson-module-jaxb-annotations-2.4.3.jar, file:/root/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar, file:/root/.m2/repository/org/codehaus/woodstox/woodstox-core-asl/4.3.0/woodstox-core-asl-4.3.0.jar, file:/root/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar, file:/root/.m2/repository/org/fusesource/jansi/jansi/1.11/jansi-1.11.jar, file:/root/.m2/repository/com/sun/mail/javax.mail/1.5.2/javax.mail-1.5.2.jar, file:/root/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar, file:/root/.m2/repository/org/eclipse/persistence/javax.persistence/2.1.0/javax.persistence-2.1.0.jar, file:/root/.m2/repository/org/jboss/spec/javax/jms/jboss-jms-api_1.1_spec/1.0.1.Final/jboss-jms-api_1.1_spec-1.0.1.Final.jar, file:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.2-SNAPSHOT/log4j-api-2.2-SNAPSHOT-tests.jar, file:/root/.m2/repository/javax/jmdns/jmdns/3.4.1/jmdns-3.4.1.jar, file:/root/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar, file:/root/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar, file:/root/.m2/repository/org/slf4j/slf4j-ext/1.7.7/slf4j-ext-1.7.7.jar, file:/root/.m2/repository/ch/qos/cal10n/cal10n-api/0.8.1/cal10n-api-0.8.1.jar, file:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar, file:/root/.m2/repository/org/easymock/easymock/3.2/easymock-3.2.jar, file:/root/.m2/repository/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar, file:/root/.m2/repository/org/objenesis/objenesis/1.3/objenesis-1.3.jar, file:/root/.m2/repository/org/hsqldb/hsqldb/2.3.2/hsqldb-2.3.2.jar, file:/root/.m2/repository/com/h2database/h2/1.3.175/h2-1.3.175.jar, file:/root/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa/2.5.2/org.eclipse.persistence.jpa-2.5.2.jar, file:/root/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.asm/2.5.2/org.eclipse.persistence.asm-2.5.2.jar, file:/root/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.antlr/2.5.2/org.eclipse.persistence.antlr-2.5.2.jar, file:/root/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa.jpql/2.5.2/org.eclipse.persistence.jpa.jpql-2.5.2.jar, file:/root/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.core/2.5.2/org.eclipse.persistence.core-2.5.2.jar, file:/root/.m2/repository/org/mockejb/mockejb/0.6-beta2/mockejb-0.6-beta2.jar, file:/root/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar, file:/root/.m2/repository/cglib/cglib-full/2.0.2/cglib-full-2.0.2.jar, file:/root/.m2/repository/org/apache/activemq/activemq-broker/5.10.0/activemq-broker-5.10.0.jar, file:/root/.m2/repository/org/apache/activemq/activemq-client/5.10.0/activemq-client-5.10.0.jar, file:/root/.m2/repository/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar, file:/root/.m2/repository/org/fusesource/hawtbuf/hawtbuf/1.10/hawtbuf-1.10.jar, file:/root/.m2/repository/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1.jar, file:/root/.m2/repository/org/apache/activemq/activemq-openwire-legacy/5.10.0/activemq-openwire-legacy-5.10.0.jar, file:/root/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar, file:/root/.m2/repository/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.jar, file:/root/.m2/repository/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar, file:/root/.m2/repository/org/eclipse/osgi/org.eclipse.osgi/3.7.1/org.eclipse.osgi-3.7.1.jar, file:/root/.m2/repository/org/apache/felix/org.apache.felix.framework/4.4.1/org.apache.felix.framework-4.4.1.jar, file:/root/.m2/repository/net/javacrumbs/json-unit/json-unit/1.1.6/json-unit-1.1.6.jar, file:/root/.m2/repository/net/javacrumbs/json-unit/json-unit-core/1.1.6/json-unit-core-1.1.6.jar, file:/root/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar, file:/root/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar, file:/root/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar]
+00:29:33.587 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: CONDITIONAL
+00:29:33.587 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.logging.log4j.core.impl.ThrowableProxyTest]
+00:29:33.592 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=CONDITIONAL, synthesis=DYNAMOTH, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/LOG4J2-834/logging-log4j2/log4j-core/src/main/java, /apiarty/data/LOG4J2-834/logging-log4j2/log4j-core/src/test/java], projectClasspath='[Ljava.net.URL;@3c5a99da', projectTests=[org.apache.logging.log4j.core.impl.ThrowableProxyTest], complianceLevel=7, outputFolder=., json=false}
+00:29:33.592 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+00:29:33.618 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 27 MB
+00:29:33.618 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 910 MB
+00:29:33.618 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 31 MB
+00:29:33.618 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+00:29:33.623 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+00:29:33.624 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+00:29:51.724 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+00:29:51.725 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.LoaderUtil:117 which is executed by 2 tests
+00:29:51.725 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.LoaderUtil:117
+00:29:51.725 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+00:29:51.725 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.LoaderUtil:116 which is executed by 2 tests
+00:29:51.726 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.LoaderUtil:116
+00:29:51.726 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+00:29:51.726 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.ThrowableProxy:452 which is executed by 3 tests
+-2136861393
+00:29:52.507 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+00:29:52.507 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.util.Loader:238 which is executed by 3 tests
+-2013651916
+00:29:52.798 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+00:29:52.799 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.ThrowableProxy:565 which is executed by 4 tests
+-2136861393
+00:29:53.086 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+00:29:53.086 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.ThrowableProxy:564 which is executed by 4 tests
+-2136861393
+00:29:53.400 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+00:29:53.401 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.ThrowableProxy:557 which is executed by 4 tests
+-2136861393
+00:29:53.750 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+19:29:54.359 [pool-3-thread-1] ERROR org.apache.logging.log4j.core.impl.ThrowableProxyTest - I always throw an Error when initialized
+java.lang.Error: I always throw an Error when initialized
+	at org.apache.logging.log4j.core.impl.ThrowableProxyTest$AlwaysThrowsError.<clinit>(ThrowableProxyTest.java:51) ~[test-classes/:?]
+	at org.apache.logging.log4j.core.impl.ThrowableProxyTest.testLogStackTraceWithClassThatCannotInitialize(ThrowableProxyTest.java:96) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_232]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_232]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_232]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_232]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.Suite.runChild(Suite.java:127) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.Suite.runChild(Suite.java:26) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at xxl.java.junit.JUnitRunner.call(JUnitRunner.java:31) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at xxl.java.junit.JUnitRunner.call(JUnitRunner.java:17) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+19:29:54.363 [pool-3-thread-1] ERROR org.apache.logging.log4j.core.impl.ThrowableProxyTest - java.lang.Error: I always throw an Error when initialized
+00:29:58.194 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+00:29:58.195 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.ThrowableProxy:550 which is executed by 4 tests
+-2136861393
+00:29:58.477 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+19:29:58.959 [pool-9-thread-1] ERROR org.apache.logging.log4j.core.impl.ThrowableProxyTest - I always throw an Error when initialized
+java.lang.Error: I always throw an Error when initialized
+	at org.apache.logging.log4j.core.impl.ThrowableProxyTest$AlwaysThrowsError.<clinit>(ThrowableProxyTest.java:51) ~[test-classes/:?]
+	at org.apache.logging.log4j.core.impl.ThrowableProxyTest.testLogStackTraceWithClassThatCannotInitialize(ThrowableProxyTest.java:96) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_232]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_232]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_232]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_232]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.Suite.runChild(Suite.java:127) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.Suite.runChild(Suite.java:26) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at xxl.java.junit.JUnitRunner.call(JUnitRunner.java:31) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at xxl.java.junit.JUnitRunner.call(JUnitRunner.java:17) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+19:29:58.962 [pool-9-thread-1] ERROR org.apache.logging.log4j.core.impl.ThrowableProxyTest - java.lang.Error: I always throw an Error when initialized
+00:30:00.568 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+00:30:00.568 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.ThrowableProxy:545 which is executed by 4 tests
+-2136861393
+00:30:00.860 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+00:30:00.861 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.ThrowableProxy:544 which is executed by 4 tests
+-2136861393
+00:30:01.127 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+00:30:01.129 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.ThrowableProxy:543 which is executed by 4 tests
+-2136861393
+00:30:01.413 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+00:30:01.413 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.ThrowableProxy:542 which is executed by 4 tests
+-2136861393
+00:30:01.693 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+00:30:01.694 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.ThrowableProxy:541 which is executed by 4 tests
+-2136861393
+00:30:01.932 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+00:30:01.934 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.ThrowableProxy:540 which is executed by 4 tests
+-2136861393
+00:30:02.204 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+00:30:02.208 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.ThrowableProxy:538 which is executed by 4 tests
+-2136861393
+00:30:02.497 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+00:30:02.498 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.ThrowableProxy:537 which is executed by 4 tests
+-2136861393
+00:30:02.769 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+00:30:02.769 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.ThrowableProxy:527 which is executed by 4 tests
+-2136861393
+00:30:03.014 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+19:30:03.346 [pool-15-thread-1] ERROR org.apache.logging.log4j.core.impl.ThrowableProxyTest - I always throw an Error when initialized
+java.lang.Error: I always throw an Error when initialized
+	at org.apache.logging.log4j.core.impl.ThrowableProxyTest$AlwaysThrowsError.<clinit>(ThrowableProxyTest.java:51) ~[test-classes/:?]
+	at org.apache.logging.log4j.core.impl.ThrowableProxyTest.testLogStackTraceWithClassThatCannotInitialize(ThrowableProxyTest.java:96) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_232]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_232]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_232]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_232]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.Suite.runChild(Suite.java:127) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.Suite.runChild(Suite.java:26) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at xxl.java.junit.JUnitRunner.call(JUnitRunner.java:31) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at xxl.java.junit.JUnitRunner.call(JUnitRunner.java:17) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+19:30:03.350 [pool-15-thread-1] ERROR org.apache.logging.log4j.core.impl.ThrowableProxyTest - java.lang.Error: I always throw an Error when initialized
+00:30:04.617 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+00:30:04.617 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.ThrowableProxy:441 which is executed by 4 tests
+-2136861393
+00:30:04.825 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+19:30:05.154 [pool-21-thread-1] ERROR org.apache.logging.log4j.core.impl.ThrowableProxyTest - I always throw an Error when initialized
+java.lang.Error: I always throw an Error when initialized
+	at org.apache.logging.log4j.core.impl.ThrowableProxyTest$AlwaysThrowsError.<clinit>(ThrowableProxyTest.java:51) ~[test-classes/:?]
+	at org.apache.logging.log4j.core.impl.ThrowableProxyTest.testLogStackTraceWithClassThatCannotInitialize(ThrowableProxyTest.java:96) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_232]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_232]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_232]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_232]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.Suite.runChild(Suite.java:127) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.Suite.runChild(Suite.java:26) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at xxl.java.junit.JUnitRunner.call(JUnitRunner.java:31) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at xxl.java.junit.JUnitRunner.call(JUnitRunner.java:17) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+19:30:05.156 [pool-21-thread-1] ERROR org.apache.logging.log4j.core.impl.ThrowableProxyTest - java.lang.Error: I always throw an Error when initialized
+00:30:06.358 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #19
+00:30:06.358 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.LoaderUtil$ThreadContextClassLoaderGetter:89 which is executed by 4 tests
+00:30:06.358 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.LoaderUtil$ThreadContextClassLoaderGetter:89
+00:30:06.358 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #20
+00:30:06.358 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.LoaderUtil$ThreadContextClassLoaderGetter:94 which is executed by 4 tests
+00:30:06.358 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.LoaderUtil$ThreadContextClassLoaderGetter:94
+00:30:06.358 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #21
+00:30:06.358 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.LoaderUtil$ThreadContextClassLoaderGetter:93 which is executed by 4 tests
+00:30:06.358 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.LoaderUtil$ThreadContextClassLoaderGetter:93
+00:30:06.358 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #22
+00:30:06.358 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.LoaderUtil$ThreadContextClassLoaderGetter:92 which is executed by 4 tests
+00:30:06.359 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.LoaderUtil$ThreadContextClassLoaderGetter:92
+00:30:06.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #23
+00:30:06.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.ReflectionUtil$PrivateSecurityManager:296 which is executed by 4 tests
+00:30:06.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.ReflectionUtil$PrivateSecurityManager:296
+00:30:06.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #24
+00:30:06.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.ReflectionUtil:278 which is executed by 4 tests
+00:30:06.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.ReflectionUtil:278
+00:30:06.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #25
+00:30:06.362 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.ReflectionUtil:276 which is executed by 4 tests
+00:30:06.363 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.ReflectionUtil:276
+00:30:06.363 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #26
+00:30:06.363 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.ReflectionUtil:275 which is executed by 4 tests
+00:30:06.363 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.ReflectionUtil:275
+00:30:06.363 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #27
+00:30:06.363 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.ReflectionUtil:274 which is executed by 4 tests
+00:30:06.363 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.ReflectionUtil:274
+00:30:06.363 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #28
+00:30:06.364 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.ReflectionUtil:273 which is executed by 4 tests
+00:30:06.364 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.ReflectionUtil:273
+00:30:06.364 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #29
+00:30:06.364 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.ReflectionUtil:272 which is executed by 4 tests
+00:30:06.364 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.ReflectionUtil:272
+00:30:06.366 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #30
+00:30:06.366 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.ReflectionUtil:271 which is executed by 4 tests
+00:30:06.366 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.ReflectionUtil:271
+00:30:06.366 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #31
+00:30:06.366 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.LoaderUtil:172 which is executed by 4 tests
+00:30:06.366 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.LoaderUtil:172
+00:30:06.366 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #32
+00:30:06.366 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.LoaderUtil:168 which is executed by 4 tests
+00:30:06.366 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.LoaderUtil:168
+00:30:06.366 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #33
+00:30:06.366 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.LoaderUtil:115 which is executed by 4 tests
+00:30:06.366 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.LoaderUtil:115
+00:30:06.366 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #34
+00:30:06.366 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.LoaderUtil:111 which is executed by 4 tests
+00:30:06.367 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.LoaderUtil:111
+00:30:06.367 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #35
+00:30:06.367 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.LoaderUtil:85 which is executed by 4 tests
+00:30:06.367 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.LoaderUtil:85
+00:30:06.368 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #36
+00:30:06.370 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.LoaderUtil:84 which is executed by 4 tests
+00:30:06.371 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.LoaderUtil:84
+00:30:06.372 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #37
+00:30:06.373 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.LoaderUtil:79 which is executed by 4 tests
+00:30:06.373 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.LoaderUtil:79
+00:30:06.378 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+00:30:06.717 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 654
+00:30:06.717 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 2831
+00:30:06.718 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 4
+00:30:06.721 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+00:30:06.721 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 32816ms
+00:30:06.721 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+NO_ANGELIC_VALUE

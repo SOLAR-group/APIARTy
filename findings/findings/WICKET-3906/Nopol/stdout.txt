@@ -1,0 +1,353 @@
+08:47:51.201 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/WICKET-3906/wicket/wicket-request/src/main/java, /apiarty/data/WICKET-3906/wicket/wicket-request/src/test/java]
+08:47:51.204 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/WICKET-3906/wicket/wicket-request/target/classes/, file:/apiarty/data/WICKET-3906/wicket/wicket-request/target/test-classes/, file:/root/.m2/repository/org/apache/wicket/wicket-util/1.5-SNAPSHOT/wicket-util-1.5-SNAPSHOT.jar, file:/root/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar, file:/root/.m2/repository/org/mockito/mockito-all/1.8.5/mockito-all-1.8.5.jar, file:/root/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar, file:/root/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar, file:/root/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar, file:/root/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar, file:/root/.m2/repository/org/slf4j/jcl-over-slf4j/1.6.1/jcl-over-slf4j-1.6.1.jar]
+08:47:51.205 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+08:47:51.206 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.wicket.request.mapper.parameter.PageParametersTest]
+08:47:51.210 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/WICKET-3906/wicket/wicket-request/src/main/java, /apiarty/data/WICKET-3906/wicket/wicket-request/src/test/java], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[org.apache.wicket.request.mapper.parameter.PageParametersTest], complianceLevel=8, outputFolder=., json=false}
+08:47:51.211 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+08:47:51.216 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+08:47:51.217 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+08:47:51.218 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+08:47:51.219 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+08:47:51.221 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+08:47:51.222 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+08:48:02.112 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+08:48:02.113 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:487 which is executed by 1 tests
+1574053370
+08:48:03.746 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+08:48:03.748 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:486 which is executed by 1 tests
+1574053370
+08:48:04.457 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:48:06.877 [pool-2-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<[newValue]> but was:<[value1]>]
+08:48:06.878 [pool-2-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:06.878 [pool-2-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:486.
+08:48:06.879 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+08:48:06.880 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:406 which is executed by 1 tests
+1574053370
+08:48:07.504 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:48:08.903 [pool-6-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<[newValue]> but was:<[value1]>]
+08:48:08.904 [pool-6-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:08.905 [pool-6-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:406.
+08:48:08.906 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+08:48:08.907 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:420 which is executed by 2 tests
+1574053370
+08:48:09.385 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+08:48:09.386 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:419 which is executed by 2 tests
+1574053370
+08:48:09.832 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:48:10.855 [pool-10-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<-1>]
+08:48:10.856 [pool-10-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:10.857 [pool-10-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:419.
+08:48:10.858 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+08:48:10.860 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:477 which is executed by 2 tests
+1574053370
+08:48:11.232 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+08:48:11.233 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:475 which is executed by 2 tests
+1574053370
+08:48:11.593 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:48:12.355 [pool-14-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<-1>]
+08:48:12.358 [pool-14-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:12.358 [pool-14-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:475.
+08:48:12.359 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+08:48:12.360 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:473 which is executed by 2 tests
+1574053370
+08:48:12.683 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:48:13.452 [pool-18-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<-1>]
+08:48:13.453 [pool-18-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:13.454 [pool-18-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:473.
+08:48:13.455 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+08:48:14.245 [pool-22-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<-1>]
+08:48:14.246 [pool-22-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:14.247 [pool-22-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:473.
+08:48:14.248 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+08:48:14.252 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:471 which is executed by 2 tests
+1574053370
+08:48:14.699 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:48:15.485 [pool-26-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<[newValue]> but was:<[value1]>]
+08:48:15.486 [pool-26-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:15.487 [pool-26-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:471.
+08:48:15.488 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+08:48:15.489 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:444 which is executed by 2 tests
+1574053370
+08:48:15.878 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:48:16.965 [pool-30-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<-1>]
+08:48:16.966 [pool-30-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:16.967 [pool-30-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:444.
+08:48:16.970 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+08:48:16.972 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:410 which is executed by 2 tests
+1574053370
+08:48:17.396 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+08:48:17.396 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:408 which is executed by 2 tests
+1574053370
+08:48:17.767 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+08:48:17.775 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:404 which is executed by 2 tests
+1574053370
+08:48:18.145 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:48:18.928 [pool-34-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<[newValue]> but was:<[value1]>]
+08:48:18.929 [pool-34-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:18.929 [pool-34-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:404.
+08:48:18.930 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+08:48:19.673 [pool-38-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<[newValue]> but was:<[value1]>]
+08:48:19.673 [pool-38-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<-1>]
+08:48:19.674 [pool-38-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:404.
+08:48:19.675 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+08:48:19.675 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:403 which is executed by 2 tests
+1574053370
+08:48:20.083 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+08:48:20.084 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:401 which is executed by 2 tests
+1574053370
+08:48:20.428 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:48:21.221 [pool-42-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<[newValue]> but was:<[value1]>]
+08:48:21.222 [pool-42-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:21.223 [pool-42-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:401.
+08:48:21.224 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+08:48:21.225 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:399 which is executed by 2 tests
+1574053370
+08:48:21.695 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:48:22.582 [pool-46-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<[newValue]> but was:<[value1]>]
+08:48:22.583 [pool-46-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:22.583 [pool-46-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:399.
+08:48:22.584 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+08:48:23.303 [pool-50-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<[newValue]> but was:<[value1]>]
+08:48:23.304 [pool-50-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:23.304 [pool-50-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:399.
+08:48:23.305 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+08:48:23.306 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:397 which is executed by 2 tests
+1574053370
+08:48:23.727 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:48:24.473 [pool-54-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:24.474 [pool-54-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:24.474 [pool-54-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:397.
+08:48:24.475 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+08:48:24.476 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:389 which is executed by 2 tests
+1574053370
+08:48:24.918 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #19
+08:48:24.919 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:385 which is executed by 2 tests
+1574053370
+08:48:25.428 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:48:26.098 [pool-58-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:26.099 [pool-58-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:26.100 [pool-58-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:385.
+08:48:26.100 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #20
+08:48:26.101 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:384 which is executed by 2 tests
+1574053370
+08:48:26.410 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:48:27.168 [pool-62-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<-1>]
+08:48:27.168 [pool-62-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:27.169 [pool-62-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:384.
+08:48:27.170 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #21
+08:48:27.170 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:382 which is executed by 2 tests
+1574053370
+08:48:27.504 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:48:28.025 [pool-66-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<-1>]
+08:48:28.025 [pool-66-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:28.026 [pool-66-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:382.
+08:48:28.027 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+08:48:28.843 [pool-70-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<-1>]
+08:48:28.844 [pool-70-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<1> but was:<0>]
+08:48:28.845 [pool-70-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:382.
+08:48:28.846 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #22
+08:48:28.848 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:381 which is executed by 2 tests
+1574053370
+08:48:29.254 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #23
+08:48:29.255 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:379 which is executed by 2 tests
+1574053370
+08:48:29.802 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:48:31.044 [pool-74-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<-1>]
+08:48:31.045 [pool-74-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:31.045 [pool-74-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:379.
+08:48:31.046 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #24
+08:48:31.051 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:377 which is executed by 2 tests
+1574053370
+08:48:31.489 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:48:32.214 [pool-78-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<-1>]
+08:48:32.215 [pool-78-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:32.216 [pool-78-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:377.
+08:48:32.217 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+08:48:32.883 [pool-82-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<-1>]
+08:48:32.884 [pool-82-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:32.886 [pool-82-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:377.
+08:48:32.887 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #25
+08:48:32.887 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:376 which is executed by 2 tests
+1574053370
+08:48:33.385 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #26
+08:48:33.386 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters$Entry:53 which is executed by 10 tests
+1574053370
+08:48:33.660 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #27
+08:48:33.660 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.util.lang.Args:43 which is executed by 3 tests
+08:48:33.661 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.wicket.util.lang.Args:43
+08:48:33.661 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #28
+08:48:33.662 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.util.lang.Args:39 which is executed by 3 tests
+08:48:33.662 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.wicket.util.lang.Args:39
+08:48:33.663 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #29
+08:48:33.663 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:462 which is executed by 3 tests
+1574053370
+08:48:34.037 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #30
+08:48:34.038 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:461 which is executed by 3 tests
+1574053370
+08:48:34.302 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #31
+08:48:34.303 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:455 which is executed by 3 tests
+1574053370
+08:48:34.587 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:48:35.289 [pool-86-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<-1>]
+08:48:35.290 [pool-86-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:35.291 [pool-86-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:455.
+08:48:35.292 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #32
+08:48:35.292 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:453 which is executed by 3 tests
+1574053370
+08:48:35.892 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:48:37.660 [pool-90-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<-1>]
+08:48:37.661 [pool-90-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:37.662 [pool-90-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:453.
+08:48:37.663 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+08:48:39.680 [pool-94-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): Index: -1, Size: 0]
+08:48:39.682 [pool-94-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:39.685 [pool-94-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:453.
+08:48:39.687 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #33
+08:48:39.688 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:451 which is executed by 3 tests
+1574053370
+08:48:40.228 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:48:41.442 [pool-98-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:41.443 [pool-98-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:41.444 [pool-98-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:451.
+08:48:41.444 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #34
+08:48:41.445 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:450 which is executed by 3 tests
+1574053370
+08:48:41.894 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:48:43.048 [pool-102-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): null]
+08:48:43.049 [pool-102-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:43.051 [pool-102-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:450.
+08:48:43.052 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #35
+08:48:43.053 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:449 which is executed by 3 tests
+1574053370
+08:48:43.522 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #36
+08:48:43.524 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:447 which is executed by 3 tests
+1574053370
+08:48:44.364 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:48:45.692 [pool-106-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<-1>]
+08:48:45.693 [pool-106-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:45.693 [pool-106-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:447.
+08:48:45.694 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #37
+08:48:45.695 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:438 which is executed by 3 tests
+1574053370
+08:48:46.403 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:48:47.624 [pool-110-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<-1>]
+08:48:47.625 [pool-110-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:47.625 [pool-110-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:438.
+08:48:47.626 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+08:48:48.544 [pool-114-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:48.545 [pool-114-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): java.lang.String cannot be cast to [Ljava.lang.String;]
+08:48:48.549 [pool-114-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:438.
+08:48:48.550 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #38
+08:48:48.551 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:437 which is executed by 3 tests
+1574053370
+08:48:49.300 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #39
+08:48:49.301 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:434 which is executed by 3 tests
+1574053370
+08:48:49.773 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:48:50.907 [pool-118-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): null]
+08:48:50.909 [pool-118-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:50.909 [pool-118-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:434.
+08:48:50.910 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #40
+08:48:50.911 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:432 which is executed by 3 tests
+1574053370
+08:48:51.419 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:48:52.316 [pool-122-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): null]
+08:48:52.317 [pool-122-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:52.318 [pool-122-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:432.
+08:48:52.320 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+08:48:53.297 [pool-126-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): null]
+08:48:53.299 [pool-126-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<-1>]
+08:48:53.301 [pool-126-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:432.
+08:48:53.304 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #41
+08:48:53.308 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:430 which is executed by 3 tests
+1574053370
+08:48:53.926 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:48:55.497 [pool-130-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:55.498 [pool-130-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:55.499 [pool-130-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:430.
+08:48:55.500 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #42
+08:48:55.501 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:429 which is executed by 3 tests
+1574053370
+08:48:56.198 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+08:48:57.394 [pool-134-thread-1] DEBUG tests.output - Failing tests with false: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:57.395 [pool-134-thread-1] DEBUG tests.output - Failing tests with true: 
+[set(org.apache.wicket.request.mapper.parameter.PageParametersTest): expected:<0> but was:<1>]
+08:48:57.396 [pool-134-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.wicket.request.mapper.parameter.PageParameters:429.
+08:48:57.402 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+08:48:57.527 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 53
+08:48:57.528 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 277
+08:48:57.529 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 34
+08:48:57.530 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+08:48:57.531 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 0
+08:48:57.540 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 0
+08:48:57.542 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 0
+08:48:57.543 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 66203ms
+08:48:57.544 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+NO_ANGELIC_VALUE

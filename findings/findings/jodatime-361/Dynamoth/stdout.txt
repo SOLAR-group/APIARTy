@@ -1,0 +1,248 @@
+15:48:01.375 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/workspaces/APIARTy/data/jodatime-361/joda/src/main/java, /workspaces/APIARTy/data/jodatime-361/joda/src/test/java]
+15:48:01.424 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/workspaces/APIARTy/data/jodatime-361/joda/target/classes/, file:/workspaces/APIARTy/data/jodatime-361/joda/target/test-classes/, file:/root/.m2/repository/org/joda/joda-convert/1.2/joda-convert-1.2.jar, file:/root/.m2/repository/junit/junit/3.8.2/junit-3.8.2.jar]
+15:48:01.425 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: CONDITIONAL
+15:48:01.427 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.joda.time.tz.TestCompiler]
+15:48:01.434 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=CONDITIONAL, synthesis=DYNAMOTH, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/workspaces/APIARTy/data/jodatime-361/joda/src/main/java, /workspaces/APIARTy/data/jodatime-361/joda/src/test/java], projectClasspath='[Ljava.net.URL;@3c5a99da', projectTests=[org.joda.time.tz.TestCompiler], complianceLevel=7, outputFolder=., json=false}
+15:48:01.439 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+15:48:01.595 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 28 MB
+15:48:01.598 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 910 MB
+15:48:01.601 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 31 MB
+15:48:01.612 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+15:48:01.636 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+15:48:01.637 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /root/.vscode-server/bin/26076a4de974ead31f97692a0d32f90d735645c0/bin:/apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+15:49:45.592 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+15:49:45.611 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.InternalParserDateTimeParser:48 which is executed by 1 tests
+-32560105
+15:49:47.985 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+15:49:47.986 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.InternalParserDateTimeParser:39 which is executed by 1 tests
+-32560105
+15:49:48.668 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+15:49:48.671 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.InternalParserDateTimeParser:36 which is executed by 1 tests
+-32560105
+15:49:49.938 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+15:50:00.454 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+15:50:00.458 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.InternalParserDateTimeParser:33 which is executed by 1 tests
+-32560105
+15:50:01.406 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+15:50:03.876 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+15:50:03.877 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.InternalParserDateTimeParser:30 which is executed by 1 tests
+-32560105
+15:50:04.300 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+15:50:13.942 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+15:50:13.944 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeParserInternalParser:33 which is executed by 1 tests
+-76107881
+15:50:14.660 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+15:50:14.661 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeParserInternalParser:32 which is executed by 1 tests
+-76107881
+15:50:15.147 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+15:50:16.773 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+15:50:16.774 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeParserInternalParser:30 which is executed by 1 tests
+-76107881
+15:50:17.596 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+15:50:17.599 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeParserInternalParser:29 which is executed by 1 tests
+-76107881
+15:50:18.541 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+15:50:20.322 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+15:50:20.323 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatter:358 which is executed by 1 tests
+-839762096
+15:50:20.884 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+15:50:20.885 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatter:355 which is executed by 1 tests
+-839762096
+15:50:21.443 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+15:50:24.519 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+15:50:24.520 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatter:335 which is executed by 1 tests
+-839762096
+15:50:25.648 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+15:50:25.651 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatter:207 which is executed by 1 tests
+-839762096
+15:50:26.674 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+15:50:26.679 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatter:203 which is executed by 1 tests
+-839762096
+15:50:27.669 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+15:50:27.670 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatter:185 which is executed by 1 tests
+-839762096
+15:50:28.615 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+15:50:28.617 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter:1300 which is executed by 1 tests
+-414039731
+15:50:30.202 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+15:50:30.205 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.chrono.GJEraDateTimeField:52 which is executed by 1 tests
+-795631569
+15:50:31.097 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+15:50:31.100 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.chrono.BasicMonthOfYearDateTimeField:60 which is executed by 1 tests
+615533402
+15:50:31.849 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #19
+15:50:31.853 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$PaddedNumber:1419 which is executed by 1 tests
+-414039731
+15:50:33.913 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #20
+15:50:33.915 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$UnpaddedNumber:1379 which is executed by 1 tests
+-414039731
+15:50:35.641 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #21
+15:50:35.645 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.tz.ZoneInfoCompiler:143 which is executed by 1 tests
+358859098
+15:50:36.935 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #22
+15:50:36.936 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2531 which is executed by 1 tests
+-414039731
+15:50:38.578 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #23
+15:50:38.582 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2528 which is executed by 1 tests
+-414039731
+15:50:40.162 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #24
+15:50:40.165 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2527 which is executed by 1 tests
+-414039731
+15:50:41.538 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #25
+15:50:41.542 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2526 which is executed by 1 tests
+-414039731
+15:50:42.943 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+15:50:53.881 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #26
+15:50:53.883 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2523 which is executed by 1 tests
+-414039731
+15:50:55.572 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #27
+15:50:55.575 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2520 which is executed by 1 tests
+-414039731
+15:50:56.648 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #28
+15:50:56.649 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2518 which is executed by 1 tests
+-414039731
+15:50:57.799 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #29
+15:50:57.804 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2517 which is executed by 1 tests
+-414039731
+15:50:59.320 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+15:51:17.012 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #30
+15:51:17.014 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2516 which is executed by 1 tests
+-414039731
+15:51:19.045 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #31
+15:51:19.049 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2513 which is executed by 1 tests
+-414039731
+15:51:22.635 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #32
+15:51:22.638 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2511 which is executed by 1 tests
+-414039731
+15:51:24.122 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #33
+15:51:24.123 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2510 which is executed by 1 tests
+-414039731
+15:51:25.282 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+15:51:39.149 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #34
+15:51:39.151 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2509 which is executed by 1 tests
+-414039731
+15:51:40.949 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #35
+15:51:40.950 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2508 which is executed by 1 tests
+-414039731
+15:51:43.455 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #36
+15:51:43.457 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2507 which is executed by 1 tests
+-414039731
+15:51:45.924 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #37
+15:51:45.926 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2499 which is executed by 1 tests
+-414039731
+15:51:47.700 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #38
+15:51:47.703 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2495 which is executed by 1 tests
+-414039731
+15:51:50.327 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #39
+15:51:50.335 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$Composite:2478 which is executed by 1 tests
+-414039731
+15:51:53.633 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #40
+15:51:53.639 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.ISODateTimeFormat:1143 which is executed by 1 tests
+106858296
+15:51:56.067 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #41
+15:51:56.070 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.ISODateTimeFormat:1105 which is executed by 1 tests
+106858296
+15:52:00.037 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #42
+15:52:00.048 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.ISODateTimeFormat:850 which is executed by 1 tests
+106858296
+15:52:02.803 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #43
+15:52:02.807 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.ISODateTimeFormat:690 which is executed by 1 tests
+106858296
+15:52:07.844 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #44
+15:52:07.849 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$MatchingParser:2558 which is executed by 1 tests
+-414039731
+15:52:18.025 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #45
+15:52:18.071 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.chrono.BasicWeekyearDateTimeField:50 which is executed by 1 tests
+-2033212415
+15:52:21.861 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #46
+15:52:21.864 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$CharacterLiteral:1220 which is executed by 1 tests
+-414039731
+15:52:27.670 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #47
+15:52:27.708 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder$CharacterLiteral:1206 which is executed by 1 tests
+-414039731
+15:52:34.271 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #48
+15:52:34.297 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.field.DecoratedDateTimeField:75 which is executed by 1 tests
+132708489
+15:52:36.205 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #49
+15:52:36.209 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.field.PreciseDurationDateTimeField:67 which is executed by 1 tests
+1450464625
+15:52:37.868 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #50
+15:52:37.870 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimePrinterInternalPrinter:41 which is executed by 1 tests
+-1260428097
+15:52:42.377 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #51
+15:52:42.383 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimePrinterInternalPrinter:40 which is executed by 1 tests
+-1260428097
+15:52:43.836 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+15:52:53.204 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #52
+15:52:53.205 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimePrinterInternalPrinter:37 which is executed by 1 tests
+-1260428097
+15:52:57.585 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+Writing zoneinfo files
+Writing ZoneInfoMap
+15:53:10.973 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #53
+15:53:11.117 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:1177 which is executed by 1 tests
+-414039731
+15:53:19.776 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #54
+15:53:19.864 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:1171 which is executed by 1 tests
+-414039731
+15:53:43.433 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #55
+15:53:43.454 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:1167 which is executed by 1 tests
+-414039731
+15:53:50.828 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #56
+15:53:50.846 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:1155 which is executed by 1 tests
+-414039731
+15:54:03.349 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #57
+15:54:03.481 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:1150 which is executed by 1 tests
+-414039731
+15:55:04.072 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #58
+15:55:04.087 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:829 which is executed by 1 tests
+-414039731
+15:55:56.731 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #59
+15:55:57.014 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:817 which is executed by 1 tests
+-414039731
+15:57:20.511 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #60
+15:57:20.525 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:807 which is executed by 1 tests
+-414039731
+15:57:28.730 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #61
+15:57:28.743 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:795 which is executed by 1 tests
+-414039731
+15:57:42.571 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #62
+15:57:42.673 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:785 which is executed by 1 tests
+-414039731
+15:57:56.159 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #63
+15:57:56.177 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:775 which is executed by 1 tests
+-414039731
+15:58:18.508 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #64
+15:58:18.532 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:765 which is executed by 1 tests
+-414039731
+15:58:36.500 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #65
+15:58:36.519 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:725 which is executed by 1 tests
+-414039731
+16:02:30.282 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #66
+16:02:33.008 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:705 which is executed by 1 tests
+-414039731
+16:07:34.760 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #67
+16:07:34.776 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:685 which is executed by 1 tests
+-414039731
+16:29:36.669 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #68
+16:29:37.315 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.joda.time.format.DateTimeFormatterBuilder:631 which is executed by 1 tests

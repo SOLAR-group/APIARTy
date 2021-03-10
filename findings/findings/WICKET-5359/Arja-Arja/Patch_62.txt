@@ -1,0 +1,14 @@
+1 InsertBefore /apiarty/data/WICKET-5359/wicket/wicket-util/src/main/java/org/apache/wicket/util/lang/Objects.java 234
+Faulty:
+int t1=getNumericType(v1), t2=getNumericType(v2), type=getNumericType(t1,t2,true);
+Seed:
+primitiveDefaults.put(Float.TYPE,0.0f);
+**************************************************
+2 Delete /apiarty/data/WICKET-5359/wicket/wicket-util/src/main/java/org/apache/wicket/util/lang/Objects.java 627
+Faulty:
+result=(object1 != null) && (object2 != null) && ((compareWithConversion(object1,object2) == 0) || object1.equals(object2));
+Seed:
+primitiveDefaults.put(Float.TYPE,0.0f);
+**************************************************
+Evaluations: 64
+EstimatedTime: 60476

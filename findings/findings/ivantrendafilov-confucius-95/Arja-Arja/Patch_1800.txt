@@ -1,0 +1,24 @@
+1 Delete /apiarty/data/ivantrendafilov-confucius-95/Confucius/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java 106
+Faulty:
+parts.add(Byte.parseByte(value.trim()));
+Seed:
+NULL
+**************************************************
+2 InsertBefore /apiarty/data/ivantrendafilov-confucius-95/Confucius/src/main/java/org/trendafilov/confucius/core/Utils.java 40
+Faulty:
+return properties;
+Seed:
+for (Object e : props.keySet()) {
+  String key=(String)e;
+  String value=props.getProperty(key);
+  properties.put(key,value);
+}
+**************************************************
+3 Replace /apiarty/data/ivantrendafilov-confucius-95/Confucius/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java 299
+Faulty:
+return value;
+Seed:
+return value.substring(2,value.length() - 1);
+**************************************************
+Evaluations: 1213
+EstimatedTime: 1278886

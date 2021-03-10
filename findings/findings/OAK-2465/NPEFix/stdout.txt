@@ -1,0 +1,289 @@
+TernarySplitter  in 289ms
+return (property != null) && path.equals(property.getValue(Type.STRING))
+return (property != null) && path.equals(property.getValue(Type.STRING))
+return (property != null) && propertyPredicate.apply(property)
+l.debug("{} - {} {}ms", new Object[]{ Preconditions.checkNotNull(swl.clazz), message == null ? "" : message, c.getTimeMonotonic() - swl.start })
+return clock != null
+return (e != null) && (e.value != null)
+return (e != null) && (e.value != null)
+return queueNext == null
+return ((((lowerInclusive ? "[" : "(") + (lowerBound == null ? "" : lowerBound)) + ", ") + (upperBound == null ? "" : upperBound)) + (upperInclusive ? "]" : ")")
+return ((((lowerInclusive ? "[" : "(") + (lowerBound == null ? "" : lowerBound)) + ", ") + (upperBound == null ? "" : upperBound)) + (upperInclusive ? "]" : ")")
+Preconditions.checkState(files.put(generation, file) == null)
+Preconditions.checkState(bulkFiles.put(index, file) == null)
+return (id != null) && uuid.equals(UserProvider.getContentID(id))
+return (tree != null) && UserConstants.NT_REP_USER.equals(TreeUtil.getPrimaryTypeName(tree))
+isAdmin = ((authorizable != null) && (!authorizable.isGroup())) && ((User) (authorizable)).isAdmin()
+return (property != null) && property.getValue(Type.BOOLEAN)
+boolean hasNext = (includeStart && start.equals(current)) || (((!includeStart) && (!Strings.isNullOrEmpty(next))) && OrderedContentMirrorStoreStrategy.ensureAndCleanNode(builder, next, currentName == null ? "" : currentName, 0, dlc))
+exitCondition = (((!Strings.isNullOrEmpty(nextkey)) && walkingPredicate.apply(nextkey)) || stillLaning) && (found == null)
+return (property != null) && property.getValue(Type.BOOLEAN)
+Boolean hasBinary = (flagB != null) && (flagB.intValue() == NodeDocument.HAS_BINARY_VAL)
+Boolean deletedOnce = (flagD != null) && flagD.booleanValue()
+Boolean hasBinary = (flagB != null) && (flagB.intValue() == NodeDocument.HAS_BINARY_VAL)
+Boolean deletedOnce = (flagD != null) && flagD.booleanValue()
+Preconditions.checkState(root != null, "Branch has already been merged")
+return (input != null) && (PathUtils.getDepth(input) >= level)
+return (searchType != PrincipalManager.SEARCH_TYPE_NOT_GROUP) && ((nameHint == null) || EveryonePrincipal.NAME.contains(nameHint))
+return name.equals(other.name) && (revision != null ? revision.equals(other.revision) : other.revision == null)
+return name.equals(other.name) && (revision != null ? revision.equals(other.revision) : other.revision == null)
+MongoDocumentStore.TreeLock lock = acquireExclusive(parentId != null ? parentId : "")
+return selector.currentProperty(propertyName) != null
+return ((selectorName == null ? 0 : selectorName.hashCode()) * 31) + (pn == null ? 0 : pn.hashCode())
+return ((selectorName == null ? 0 : selectorName.hashCode()) * 31) + (pn == null ? 0 : pn.hashCode())
+return n != null
+boolean includeId = (filter != null) && filter.contains(":id")
+includeId |= (filter != null) && filter.contains(":hash")
+Commit commit = nodeStore.newCommit(baseRevId != null ? Revision.fromString(baseRevId) : null, null)
+isBranch = (baseRev != null) && baseRev.isBranch()
+return properties.get(name) != null
+return (attr != null) && "".equals(attr.toString())
+return (attributeName != null) && attributeName.startsWith(TokenProviderImpl.TOKEN_ATTRIBUTE)
+return selector.currentProperty(propertyName) == null
+return ((t != null) && t.exists()) && (!t.hasProperty(name))
+return ((selectorName == null ? 0 : selectorName.hashCode()) * 31) + (pn == null ? 0 : pn.hashCode())
+return ((selectorName == null ? 0 : selectorName.hashCode()) * 31) + (pn == null ? 0 : pn.hashCode())
+return new QueryIndex.IndexPlan() {
+    private final double costPerExecution = QueryIndex.IndexPlan.Builder.this.costPerExecution;
+
+    private final double costPerEntry = QueryIndex.IndexPlan.Builder.this.costPerEntry;
+
+    private final long estimatedEntryCount = QueryIndex.IndexPlan.Builder.this.estimatedEntryCount;
+
+    private Filter filter = QueryIndex.IndexPlan.Builder.this.filter;
+
+    private final boolean isDelayed = QueryIndex.IndexPlan.Builder.this.isDelayed;
+
+    private final boolean isFulltextIndex = QueryIndex.IndexPlan.Builder.this.isFulltextIndex;
+
+    private final boolean includesNodeData = QueryIndex.IndexPlan.Builder.this.includesNodeData;
+
+    private final List<QueryIndex.OrderEntry> sortOrder = (QueryIndex.IndexPlan.Builder.this.sortOrder == null) ? null : new ArrayList<QueryIndex.OrderEntry>(QueryIndex.IndexPlan.Builder.this.sortOrder);
+
+    private final NodeState definition = QueryIndex.IndexPlan.Builder.this.definition;
+
+    private final Filter.PropertyRestriction propRestriction = QueryIndex.IndexPlan.Builder.this.propRestriction;
+
+    private final String pathPrefix = QueryIndex.IndexPlan.Builder.this.pathPrefix;
+
+    private final Map<String, Object> attributes = QueryIndex.IndexPlan.Builder.this.attributes;
+
+    @Override
+    public String toString() {
+        return String.format("{ costPerExecution : %s," + (((((((((" costPerEntry : %s," + " estimatedEntryCount : %s,") + " filter : %s,") + " isDelayed : %s,") + " isFulltextIndex : %s,") + " includesNodeData : %s,") + " sortOrder : %s,") + " definition : %s,") + " propertyRestriction : %s,") + " pathPrefix : %s }"), costPerExecution, costPerEntry, estimatedEntryCount, filter, isDelayed, isFulltextIndex, includesNodeData, sortOrder, definition, propRestriction, pathPrefix);
+    }
+
+    @Override
+    public double getCostPerExecution() {
+        return costPerExecution;
+    }
+
+    @Override
+    public double getCostPerEntry() {
+        return costPerEntry;
+    }
+
+    @Override
+    public long getEstimatedEntryCount() {
+        return estimatedEntryCount;
+    }
+
+    @Override
+    public Filter getFilter() {
+        return filter;
+    }
+
+    @Override
+    public void setFilter(Filter filter) {
+        this.filter = filter;
+    }
+
+    @Override
+    public boolean isDelayed() {
+        return isDelayed;
+    }
+
+    @Override
+    public boolean isFulltextIndex() {
+        return isFulltextIndex;
+    }
+
+    @Override
+    public boolean includesNodeData() {
+        return includesNodeData;
+    }
+
+    @Override
+    public List<QueryIndex.OrderEntry> getSortOrder() {
+        return sortOrder;
+    }
+
+    @Override
+    public NodeState getDefinition() {
+        return definition;
+    }
+
+    @Override
+    public Filter.PropertyRestriction getPropertyRestriction() {
+        return propRestriction;
+    }
+
+    @Override
+    public String getPathPrefix() {
+        return pathPrefix;
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
+
+    @Override
+    public QueryIndex.IndexPlan copy() {
+        try {
+            return ((QueryIndex.IndexPlan) (super.clone()));
+        } catch (CloneNotSupportedException e) {
+            throw new IllegalStateException(e);
+        }
+    }
+
+    @Override
+    public Object getAttribute(String name) {
+        return attributes.get(name);
+    }
+}
+return (permission != null) && Permissions.includes(permissions, permission)
+return ((property != null) && (!property.isArray())) && property.getValue(Type.BOOLEAN)
+return getAuthorizableProperty(authorizableTree, propertyLocation, verifyAncestor) != null
+typeChanged = typePredicate == null
+getStrategy(keysToCheckForUniqueness != null).update(index, getPath(), properties, definition, beforeKeys, afterKeys)
+success = (authentication != null) && authentication.authenticate(PreAuthenticatedLogin.PRE_AUTHENTICATED)
+success = (authentication != null) && authentication.authenticate(credentials)
+return (!definition.isProtected()) && (definition.getDefaultPrimaryType() != null)
+return (oakChildName != null) && oakChildName.startsWith(oakName)
+Preconditions.checkState(this.bundleContext == null)
+Preconditions.checkState(this.bundleContext != null)
+return guestCredentials != null
+String msg = String.format("Diff is only supported if the node exists in both cases. " + "Node [%s], fromRev [%s] -> %s, toRev [%s] -> %s", path, fromRev, from != null, toRev, to != null)
+String msg = String.format("Diff is only supported if the node exists in both cases. " + "Node [%s], fromRev [%s] -> %s, toRev [%s] -> %s", path, fromRev, from != null, toRev, to != null)
+return (clusterNodeInfo != null) && clusterNodeInfo.renewLease()
+String p = (name == null ? "" : name) + path
+boolean respectParent = (path != null) && Permissions.respectParentPermissions(permissions)
+return (readStatus != null) && readStatus.allowsAll()
+return (readStatus != null) && readStatus.allowsProperties()
+return oakPath == null
+return !(((path == null) && (oakPath != null)) || ((path != null) && (!path.equals(oakPath))))
+return !(((path == null) && (oakPath != null)) || ((path != null) && (!path.equals(oakPath))))
+return !(((path == null) && (oakPath != null)) || ((path != null) && (!path.equals(oakPath))))
+return (modified != null) && (modified >= NodeDocument.getModifiedInSecs(startTime))
+return oldNode != null
+return getClusterNodeCollection().findOne(query.get()) != null
+this.checkThisNode = ((typesToCheck == null) || typesToCheck.contains(primary)) || Iterables.any(mixins, Predicates.in(typesToCheck))
+this.checkThisNode = ((typesToCheck == null) || typesToCheck.contains(primary)) || Iterables.any(mixins, Predicates.in(typesToCheck))
+return (types != null) && types.hasChild(getOakName(name))
+return (supertypes != null) && Iterables.contains(supertypes.getValue(Type.NAMES), superName)
+Preconditions.checkState(access != null)
+return (ace != null) && ace.getPrincipal().getName().equals(principal.getName())
+return (tag != null) && (tag.equals("c") || tag.startsWith("c-"))
+return (id.getTracker() == tracker) || (readSegment(id) != null)
+return (base != null) && NodeStoreKernel.getNode(root, path).equals(NodeStoreKernel.getNode(base.root, path))
+return (input != null) && input.exists()
+return (propertyState != null) && uuid.equals(propertyState.getValue(Type.STRING))
+isReadOnly = (parent != null) && parent.isReadOnly
+return (parent != null) && parent.wasCheckedIn()
+return (authorizableTree != null) && UserConstants.NT_REP_SYSTEM_USER.equals(TreeUtil.getPrimaryTypeName(authorizableTree))
+Preconditions.checkState(value != null)
+Preconditions.checkState((childName != null) && (!childName.equals(Template.MANY_CHILD_NODES)))
+return plan != null
+Preconditions.checkState(name != null, "Property has no name")
+return (ps != null) && ps.getValue(Type.STRING).equals(IndexConstants.INDEX_DEFINITIONS_NODE_TYPE)
+return ((type != null) && (!type.isArray())) && type.getValue(Type.STRING).equals(typeIn)
+boolean isBranch = (baseRev != null) && baseRev.isBranch()
+conflictMessage += ((((", before\n" + revision) + "; document:\n") + (before == null ? "" : before.format())) + ",\nrevision order:\n") + nodeStore.getRevisionComparator()
+conflictMessage += ((((", before\n" + revision) + "; document:\n") + (before == null ? "" : before.format())) + ",\nrevision order:\n") + nodeStore.getRevisionComparator()
+boolean isNew = (op != null) && op.isNew()
+Preconditions.checkState(delegate != null, "service must be activated when used")
+return (descriptors.containsKey(key) && descriptors.get(key).standard) || ((base != null) && base.isStandardDescriptor(key))
+return (descriptors.containsKey(key) && descriptors.get(key).singleValued) || ((base != null) && base.isSingleValueDescriptor(key))
+return getIndexNode(root, propertyName, filter) != null
+return (authorizable != null) && (!groupId.equals(authorizable.getID()))
+return store.getNode(p, lastRevision) != null
+return acl != null
+return ((name != null) && (!name.isEmpty())) && (name.indexOf('/') == (-1))
+return ((property != null) && (property.getType() == Type.BOOLEAN)) && property.getValue(Type.BOOLEAN)
+return getProperty(name) != null
+Preconditions.checkState(plan != null, ("Property index is used even when no index" + " is available for filter ") + filter)
+return dataStore.getRecordIfStored(identifier) != null
+return (tree != null) && UserConstants.NT_REP_MEMBERS.equals(TreeUtil.getPrimaryTypeName(tree))
+return (tree != null) && UserConstants.NT_REP_MEMBER_REFERENCES_LIST.equals(TreeUtil.getPrimaryTypeName(tree))
+return PasswordUtil.extractAlgorithm(password) == null
+return (a == null) && (b == null)
+return (a == null) && (b == null)
+return template.getPrimaryType() != null
+return template.getMixinTypes() != null
+return template.getPropertyTemplate(name) != null
+return getChildNodeMap().getEntry(name) != null
+return (after == null) || diff.propertyAdded(after)
+return ((authorizable != null) && (!authorizable.isGroup())) && ((User) (authorizable)).isAdmin()
+Preconditions.checkState((getType() != PropertyType.BINARY) || (stream == null), "getStream has previously been called on this Value instance. " + "In this case a new Value instance must be acquired in order to successfully call this method.")
+Preconditions.checkState(parent == null)
+assert base != null
+assert base != null
+assert base != null
+assert base != null
+assert base != null
+return properties.remove(name) != null
+assert base != null
+assert base != null
+assert base != null
+assert base != null
+assert base != null
+assert base != null
+return (this == o) || ((!((o == null) || (getClass() != o.getClass()))) && (value == ((ConfigurationParameters.Milliseconds) (o)).value))
+return (info != null) && Objects.equal(info.getSessionId(), sessionId)
+return info == null
+return next != null
+return new SystemRoot(store, hook == null ? EmptyHook.INSTANCE : hook, workspaceName == null ? Oak.DEFAULT_WORKSPACE_NAME : workspaceName, securityProvider == null ? new OpenSecurityProvider() : securityProvider, queryEngineSettings == null ? new QueryEngineSettings() : queryEngineSettings, indexProvider == null ? new CompositeQueryIndexProvider() : indexProvider)
+return new SystemRoot(store, hook == null ? EmptyHook.INSTANCE : hook, workspaceName == null ? Oak.DEFAULT_WORKSPACE_NAME : workspaceName, securityProvider == null ? new OpenSecurityProvider() : securityProvider, queryEngineSettings == null ? new QueryEngineSettings() : queryEngineSettings, indexProvider == null ? new CompositeQueryIndexProvider() : indexProvider)
+return new SystemRoot(store, hook == null ? EmptyHook.INSTANCE : hook, workspaceName == null ? Oak.DEFAULT_WORKSPACE_NAME : workspaceName, securityProvider == null ? new OpenSecurityProvider() : securityProvider, queryEngineSettings == null ? new QueryEngineSettings() : queryEngineSettings, indexProvider == null ? new CompositeQueryIndexProvider() : indexProvider)
+return new SystemRoot(store, hook == null ? EmptyHook.INSTANCE : hook, workspaceName == null ? Oak.DEFAULT_WORKSPACE_NAME : workspaceName, securityProvider == null ? new OpenSecurityProvider() : securityProvider, queryEngineSettings == null ? new QueryEngineSettings() : queryEngineSettings, indexProvider == null ? new CompositeQueryIndexProvider() : indexProvider)
+return new SystemRoot(store, hook == null ? EmptyHook.INSTANCE : hook, workspaceName == null ? Oak.DEFAULT_WORKSPACE_NAME : workspaceName, securityProvider == null ? new OpenSecurityProvider() : securityProvider, queryEngineSettings == null ? new QueryEngineSettings() : queryEngineSettings, indexProvider == null ? new CompositeQueryIndexProvider() : indexProvider)
+return ((value != null) && (requiredValue != null)) && requiredValue.equals(value.getString())
+return ((value != null) && (requiredValue != null)) && requiredValue.equals(value.getString())
+return (childrenFlag != null) && childrenFlag
+return (deletedOnceFlag != null) && deletedOnceFlag
+return (modified != null) && (modified > TimeUnit.MILLISECONDS.toSeconds(lastModifiedTime))
+return (maxRevTimeStamp != null) && (maxRevTimeStamp < TimeUnit.MILLISECONDS.toSeconds(maxRevisionTime))
+return (input != null) && input.getValueMap(property).containsKey(revision)
+Preconditions.checkState(parent == null)
+return getProperty(name) != null
+return ((property != null) && (property.getType() == Type.BOOLEAN)) && property.getValue(Type.BOOLEAN)
+return (input != null) && getChildNode(input).exists()
+return ((value != null) && (requiredValue != null)) && (value.getBoolean() == requiredValue)
+return ((value != null) && (requiredValue != null)) && (value.getBoolean() == requiredValue)
+return value != null
+return context.getBranches().getBranchCommit(rev) == null
+return principalProvider.getPrincipal(principalName) != null
+return (pp != null) && pp.handles(parent, permission)
+return (pp != null) && pp.handles(parent, permissions)
+return (pp != null) && pp.handles(oakPath, jcrActions)
+return (pp != null) && pp.handles(oakPath, action)
+return (pp != null) && (tree == null ? pp.handlesRepositoryPermissions() : pp.handles(tree))
+return (pp != null) && (tree == null ? pp.handlesRepositoryPermissions() : pp.handles(tree))
+return (provider != null) && provider.handlesRepositoryPermissions()
+return getParentOrNull() == null
+Preconditions.checkState(parent != null, "root tree does not have a parent")
+expired = null == passwordLastModified
+return next != null
+return (init != null) && (init.getValue(Type.LONG) > 0)
+CheckNotNull  in 2260ms
+ForceNullInit in 236ms
+AddImplicitCastChecker --> 50 in 2924ms
+BeforeDeref --> 15776 (failed:0) in 2175ms
+target--> 18724 (failed:0) in 13482ms
+TryRegister # Try: 504 in 434ms
+Assign --> 7537 (failed: 0) in 13980ms
+VarInit --> 3140 in 2691ms
+MethodEncapsulation # Method: 7717 in 28498ms
+ConstructorEncapsulation # Constructor: 850 in 6210ms
+VariableFor in 1086ms

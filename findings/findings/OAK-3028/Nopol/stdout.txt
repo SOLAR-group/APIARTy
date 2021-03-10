@@ -1,0 +1,1547 @@
+22:41:18.800 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/OAK-3028/jackrabbit-oak/oak-core/src/main/java, /apiarty/data/OAK-3028/jackrabbit-oak/oak-core/src/test/java]
+22:41:18.809 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/OAK-3028/jackrabbit-oak/oak-core/target/classes/, file:/apiarty/data/OAK-3028/jackrabbit-oak/oak-core/target/test-classes/, file:/root/.m2/repository/org/osgi/org.osgi.core/4.2.0/org.osgi.core-4.2.0.jar, file:/root/.m2/repository/org/osgi/org.osgi.compendium/4.2.0/org.osgi.compendium-4.2.0.jar, file:/root/.m2/repository/biz/aQute/bnd/bndlib/2.2.0/bndlib-2.2.0.jar, file:/root/.m2/repository/org/apache/felix/org.apache.felix.scr.annotations/1.9.6/org.apache.felix.scr.annotations-1.9.6.jar, file:/root/.m2/repository/org/apache/jackrabbit/oak-commons/1.4-SNAPSHOT/oak-commons-1.4-SNAPSHOT.jar, file:/root/.m2/repository/org/apache/jackrabbit/oak-commons/1.4-SNAPSHOT/oak-commons-1.4-SNAPSHOT-tests.jar, file:/root/.m2/repository/org/apache/jackrabbit/oak-blob/1.4-SNAPSHOT/oak-blob-1.4-SNAPSHOT.jar, file:/root/.m2/repository/org/apache/jackrabbit/oak-blob-cloud/1.4-SNAPSHOT/oak-blob-cloud-1.4-SNAPSHOT.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk/1.9.11/aws-java-sdk-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-support/1.9.11/aws-java-sdk-support-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-simpledb/1.9.11/aws-java-sdk-simpledb-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-simpleworkflow/1.9.11/aws-java-sdk-simpleworkflow-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-storagegateway/1.9.11/aws-java-sdk-storagegateway-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-route53/1.9.11/aws-java-sdk-route53-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-importexport/1.9.11/aws-java-sdk-importexport-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-sts/1.9.11/aws-java-sdk-sts-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-sqs/1.9.11/aws-java-sdk-sqs-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-rds/1.9.11/aws-java-sdk-rds-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-redshift/1.9.11/aws-java-sdk-redshift-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-elasticbeanstalk/1.9.11/aws-java-sdk-elasticbeanstalk-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-glacier/1.9.11/aws-java-sdk-glacier-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-iam/1.9.11/aws-java-sdk-iam-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-datapipeline/1.9.11/aws-java-sdk-datapipeline-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-elasticloadbalancing/1.9.11/aws-java-sdk-elasticloadbalancing-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-emr/1.9.11/aws-java-sdk-emr-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-elasticache/1.9.11/aws-java-sdk-elasticache-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-elastictranscoder/1.9.11/aws-java-sdk-elastictranscoder-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-ec2/1.9.11/aws-java-sdk-ec2-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-dynamodb/1.9.11/aws-java-sdk-dynamodb-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-sns/1.9.11/aws-java-sdk-sns-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-cloudtrail/1.9.11/aws-java-sdk-cloudtrail-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-cloudwatch/1.9.11/aws-java-sdk-cloudwatch-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-logs/1.9.11/aws-java-sdk-logs-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-cognitoidentity/1.9.11/aws-java-sdk-cognitoidentity-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-cognitosync/1.9.11/aws-java-sdk-cognitosync-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-directconnect/1.9.11/aws-java-sdk-directconnect-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-cloudformation/1.9.11/aws-java-sdk-cloudformation-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-cloudfront/1.9.11/aws-java-sdk-cloudfront-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-kinesis/1.9.11/aws-java-sdk-kinesis-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-opsworks/1.9.11/aws-java-sdk-opsworks-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-ses/1.9.11/aws-java-sdk-ses-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-autoscaling/1.9.11/aws-java-sdk-autoscaling-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-cloudsearch/1.9.11/aws-java-sdk-cloudsearch-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-cloudwatchmetrics/1.9.11/aws-java-sdk-cloudwatchmetrics-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-swf-libraries/1.9.11/aws-java-sdk-swf-libraries-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-codedeploy/1.9.11/aws-java-sdk-codedeploy-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.9.11/aws-java-sdk-kms-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-config/1.9.11/aws-java-sdk-config-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-lambda/1.9.11/aws-java-sdk-lambda-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-core/1.9.11/aws-java-sdk-core-1.9.11.jar, file:/root/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar, file:/root/.m2/repository/org/apache/httpcomponents/httpclient/4.3.4/httpclient-4.3.4.jar, file:/root/.m2/repository/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.3.2/jackson-databind-2.3.2.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.3.0/jackson-annotations-2.3.0.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.3.2/jackson-core-2.3.2.jar, file:/root/.m2/repository/com/google/guava/guava/15.0/guava-15.0.jar, file:/root/.m2/repository/commons-codec/commons-codec/1.5/commons-codec-1.5.jar, file:/root/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar, file:/root/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar, file:/root/.m2/repository/org/apache/jackrabbit/jackrabbit-aws-ext/2.10.1/jackrabbit-aws-ext-2.10.1.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.9.22/aws-java-sdk-s3-1.9.22.jar, file:/root/.m2/repository/org/apache/jackrabbit/jackrabbit-data/2.10.1/jackrabbit-data-2.10.1-tests.jar, file:/root/.m2/repository/org/mongodb/mongo-java-driver/2.13.0/mongo-java-driver-2.13.0.jar, file:/root/.m2/repository/org/apache/jclouds/provider/aws-s3/1.7.0/aws-s3-1.7.0.jar, file:/root/.m2/repository/org/apache/jclouds/api/s3/1.7.0/s3-1.7.0.jar, file:/root/.m2/repository/com/jamesmurty/utils/java-xmlbuilder/0.4/java-xmlbuilder-0.4.jar, file:/root/.m2/repository/org/apache/jclouds/api/sts/1.7.0/sts-1.7.0.jar, file:/root/.m2/repository/org/apache/jclouds/jclouds-core/1.7.0/jclouds-core-1.7.0.jar, file:/root/.m2/repository/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar, file:/root/.m2/repository/com/google/inject/extensions/guice-assistedinject/3.0/guice-assistedinject-3.0.jar, file:/root/.m2/repository/com/google/inject/guice/3.0/guice-3.0.jar, file:/root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar, file:/root/.m2/repository/org/99soft/guice/rocoto/6.2/rocoto-6.2.jar, file:/root/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar, file:/root/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar, file:/root/.m2/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar, file:/root/.m2/repository/org/apache/jclouds/jclouds-blobstore/1.7.0/jclouds-blobstore-1.7.0.jar, file:/root/.m2/repository/com/esotericsoftware/kryo/kryo/2.22/kryo-2.22.jar, file:/root/.m2/repository/org/apache/directmemory/directmemory-cache/0.2/directmemory-cache-0.2.jar, file:/root/.m2/repository/com/h2database/h2/1.4.185/h2-1.4.185.jar, file:/root/.m2/repository/javax/jcr/jcr/2.0/jcr-2.0.jar, file:/root/.m2/repository/org/apache/jackrabbit/jackrabbit-api/2.10.1/jackrabbit-api-2.10.1.jar, file:/root/.m2/repository/org/apache/jackrabbit/jackrabbit-jcr-commons/2.10.1/jackrabbit-jcr-commons-2.10.1.jar, file:/root/.m2/repository/org/apache/jackrabbit/jackrabbit-data/2.10.1/jackrabbit-data-2.10.1.jar, file:/root/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.6/jcl-over-slf4j-1.7.6.jar, file:/root/.m2/repository/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar, file:/root/.m2/repository/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar, file:/root/.m2/repository/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6.jar, file:/root/.m2/repository/com/google/code/findbugs/jsr305/2.0.0/jsr305-2.0.0.jar, file:/root/.m2/repository/junit/junit/4.10/junit-4.10.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar, file:/root/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar, file:/root/.m2/repository/org/objenesis/objenesis/1.0/objenesis-1.0.jar, file:/root/.m2/repository/org/easymock/easymock/3.1/easymock-3.1.jar, file:/root/.m2/repository/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar, file:/root/.m2/repository/org/slf4j/jul-to-slf4j/1.7.6/jul-to-slf4j-1.7.6.jar, file:/root/.m2/repository/ch/qos/logback/logback-classic/1.1.0/logback-classic-1.1.0.jar, file:/root/.m2/repository/ch/qos/logback/logback-core/1.1.0/logback-core-1.1.0.jar, file:/root/.m2/repository/org/apache/jackrabbit/oak-blob/1.4-SNAPSHOT/oak-blob-1.4-SNAPSHOT-tests.jar, file:/root/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar, file:/root/.m2/repository/org/apache/sling/org.apache.sling.testing.osgi-mock/1.3.0/org.apache.sling.testing.osgi-mock-1.3.0.jar, file:/root/.m2/repository/org/apache/sling/org.apache.sling.commons.osgi/2.2.0/org.apache.sling.commons.osgi-2.2.0.jar, file:/root/.m2/repository/org/apache/commons/commons-lang3/3.0.1/commons-lang3-3.0.1.jar, file:/root/.m2/repository/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar]
+22:41:18.812 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+22:41:18.813 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.jackrabbit.oak.plugins.document.UpdateOpTest]
+22:41:18.820 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/OAK-3028/jackrabbit-oak/oak-core/src/main/java, /apiarty/data/OAK-3028/jackrabbit-oak/oak-core/src/test/java], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[org.apache.jackrabbit.oak.plugins.document.UpdateOpTest], complianceLevel=8, outputFolder=., json=false}
+22:41:18.821 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+22:41:18.834 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 49 MB
+22:41:18.836 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+22:41:18.838 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+22:41:18.844 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+22:41:18.871 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+22:41:18.875 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+22:43:28.693 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+22:43:28.697 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:119 which is executed by 3 tests
+1387239595
+22:43:53.807 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:44:18.025 [pool-2-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+UpdateOp.java:88: error: missing return statement
+    }
+    ^
+22:44:18.662 [pool-2-thread-1] ERROR f.i.l.r.n.s.ConstraintModelBuilder - Unable to compile the change: 
+public final class UpdateOp {
+    final java.lang.String id;
+
+    private boolean isNew;
+
+    private boolean isDelete;
+
+    private final java.util.Map<org.apache.jackrabbit.oak.plugins.document.UpdateOp.Key, org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation> changes;
+
+    private java.util.Map<org.apache.jackrabbit.oak.plugins.document.UpdateOp.Key, org.apache.jackrabbit.oak.plugins.document.UpdateOp.Condition> conditions;
+
+    UpdateOp(java.lang.String id, boolean isNew) {
+        this(id, isNew, false, new java.util.HashMap<org.apache.jackrabbit.oak.plugins.document.UpdateOp.Key, org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation>());
+    }
+
+    private UpdateOp(java.lang.String id, boolean isNew, boolean isDelete, java.util.Map<org.apache.jackrabbit.oak.plugins.document.UpdateOp.Key, org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation> changes) {
+        this.id = id;
+        this.isNew = isNew;
+        this.isDelete = isDelete;
+        this.changes = changes;
+    }
+
+    static org.apache.jackrabbit.oak.plugins.document.UpdateOp combine(java.lang.String id, java.lang.Iterable<org.apache.jackrabbit.oak.plugins.document.UpdateOp> ops) {
+        java.util.Map<org.apache.jackrabbit.oak.plugins.document.UpdateOp.Key, org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation> changes = com.google.common.collect.Maps.newHashMap();
+        for (org.apache.jackrabbit.oak.plugins.document.UpdateOp op : ops) {
+            changes.putAll(op.getChanges());
+        }
+        return new org.apache.jackrabbit.oak.plugins.document.UpdateOp(id, false, false, changes);
+    }
+
+    public org.apache.jackrabbit.oak.plugins.document.UpdateOp shallowCopy(java.lang.String id) {
+        return new org.apache.jackrabbit.oak.plugins.document.UpdateOp(id, isNew, isDelete, changes);
+    }
+
+    public org.apache.jackrabbit.oak.plugins.document.UpdateOp copy() {
+        return new org.apache.jackrabbit.oak.plugins.document.UpdateOp(id, isNew, isDelete, new java.util.HashMap<org.apache.jackrabbit.oak.plugins.document.UpdateOp.Key, org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation>(changes));
+    }
+
+    public java.lang.String getId() {
+        return id;
+    }
+
+    public boolean isNew() {
+        return isNew;
+    }
+
+    public void setNew(boolean isNew) {
+        this.isNew = isNew;
+    }
+
+    void setDelete(boolean isDelete) {
+        this.isDelete = isDelete;
+    }
+
+    boolean isDelete() {
+        return isDelete;
+    }
+
+    public java.util.Map<org.apache.jackrabbit.oak.plugins.document.UpdateOp.Key, org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation> getChanges() {
+        return changes;
+    }
+
+    public java.util.Map<org.apache.jackrabbit.oak.plugins.document.UpdateOp.Key, org.apache.jackrabbit.oak.plugins.document.UpdateOp.Condition> getConditions() {
+        if (conditions == null) {
+            boolean spoonDefaultValue = false;
+            try {
+                spoonDefaultValue = true;
+            } catch (java.lang.Exception __NopolProcessorException) {
+            }
+            boolean runtimeAngelicValue = fr.inria.lille.repair.nopol.synth.AngelicExecution.angelicValue(spoonDefaultValue);
+            if (fr.inria.lille.commons.trace.RuntimeValues.instance(0).isEnabled()) {
+                fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectionStarts();
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.jackrabbit.oak.plugins.document.UpdateOp.this.isDelete",org.apache.jackrabbit.oak.plugins.document.UpdateOp.this.isDelete);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.jackrabbit.oak.plugins.document.UpdateOp.this.isNew",org.apache.jackrabbit.oak.plugins.document.UpdateOp.this.isNew);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.jackrabbit.oak.plugins.document.UpdateOp.this.id",org.apache.jackrabbit.oak.plugins.document.UpdateOp.this.id);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.jackrabbit.oak.plugins.document.UpdateOp.this.changes",org.apache.jackrabbit.oak.plugins.document.UpdateOp.this.changes);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.jackrabbit.oak.plugins.document.UpdateOp.this.conditions",org.apache.jackrabbit.oak.plugins.document.UpdateOp.this.conditions);} catch (Exception ex1) {ex1.printStackTrace();};
+                fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectOutput(runtimeAngelicValue);
+                fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectionEnds();
+            }
+            if (runtimeAngelicValue)
+                return java.util.Collections.emptyMap();
+
+        } else {
+            return conditions;
+        }
+    }
+
+    public boolean hasChanges() {
+        return !changes.isEmpty();
+    }
+
+    void setMapEntry(@javax.annotation.Nonnull
+    java.lang.String property, @javax.annotation.Nonnull
+    org.apache.jackrabbit.oak.plugins.document.Revision revision, java.lang.String value) {
+        org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation op = new org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation(org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation.Type.SET_MAP_ENTRY, value);
+        changes.put(new org.apache.jackrabbit.oak.plugins.document.UpdateOp.Key(property, com.google.common.base.Preconditions.checkNotNull(revision)), op);
+    }
+
+    public void removeMapEntry(@javax.annotation.Nonnull
+    java.lang.String property, @javax.annotation.Nonnull
+    org.apache.jackrabbit.oak.plugins.document.Revision revision) {
+        org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation op = new org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation(org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation.Type.REMOVE_MAP_ENTRY, null);
+        changes.put(new org.apache.jackrabbit.oak.plugins.document.UpdateOp.Key(property, com.google.common.base.Preconditions.checkNotNull(revision)), op);
+    }
+
+    void set(java.lang.String property, java.lang.Object value) {
+        org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation op = new org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation(org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation.Type.SET, value);
+        changes.put(new org.apache.jackrabbit.oak.plugins.document.UpdateOp.Key(property, null), op);
+    }
+
+    <T> void max(java.lang.String property, java.lang.Comparable<T> value) {
+        org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation op = new org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation(org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation.Type.MAX, value);
+        changes.put(new org.apache.jackrabbit.oak.plugins.document.UpdateOp.Key(property, null), op);
+    }
+
+    void unsetMapEntry(@javax.annotation.Nonnull
+    java.lang.String property, @javax.annotation.Nonnull
+    org.apache.jackrabbit.oak.plugins.document.Revision revision) {
+        changes.remove(new org.apache.jackrabbit.oak.plugins.document.UpdateOp.Key(property, com.google.common.base.Preconditions.checkNotNull(revision)));
+    }
+
+    void containsMapEntry(@javax.annotation.Nonnull
+    java.lang.String property, @javax.annotation.Nonnull
+    org.apache.jackrabbit.oak.plugins.document.Revision revision, boolean exists) {
+        if (isNew) {
+            throw new java.lang.IllegalStateException("Cannot use containsMapEntry() on new document");
+        }
+        org.apache.jackrabbit.oak.plugins.document.UpdateOp.Condition c = (exists) ? org.apache.jackrabbit.oak.plugins.document.UpdateOp.Condition.EXISTS : org.apache.jackrabbit.oak.plugins.document.UpdateOp.Condition.MISSING;
+        getOrCreateConditions().put(new org.apache.jackrabbit.oak.plugins.document.UpdateOp.Key(property, com.google.common.base.Preconditions.checkNotNull(revision)), c);
+    }
+
+    void equals(@javax.annotation.Nonnull
+    java.lang.String property, @javax.annotation.Nullable
+    org.apache.jackrabbit.oak.plugins.document.Revision revision, @javax.annotation.Nonnull
+    java.lang.Object value) {
+        if (isNew) {
+            throw new java.lang.IllegalStateException("Cannot perform equals check on new document");
+        }
+        getOrCreateConditions().put(new org.apache.jackrabbit.oak.plugins.document.UpdateOp.Key(property, revision), org.apache.jackrabbit.oak.plugins.document.UpdateOp.Condition.newEqualsCondition(value));
+    }
+
+    public void increment(@javax.annotation.Nonnull
+    java.lang.String property, long value) {
+        org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation op = new org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation(org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation.Type.INCREMENT, value);
+        changes.put(new org.apache.jackrabbit.oak.plugins.document.UpdateOp.Key(property, null), op);
+    }
+
+    public org.apache.jackrabbit.oak.plugins.document.UpdateOp getReverseOperation() {
+        org.apache.jackrabbit.oak.plugins.document.UpdateOp reverse = new org.apache.jackrabbit.oak.plugins.document.UpdateOp(id, isNew);
+        for (java.util.Map.Entry<org.apache.jackrabbit.oak.plugins.document.UpdateOp.Key, org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation> e : changes.entrySet()) {
+            org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation r = e.getValue().getReverse();
+            if (r != null) {
+                reverse.changes.put(e.getKey(), r);
+            }
+        }
+        return reverse;
+    }
+
+    @java.lang.Override
+    public java.lang.String toString() {
+        return (((("key: " + id) + " ") + (isNew ? "new" : "update")) + " ") + changes;
+    }
+
+    private java.util.Map<org.apache.jackrabbit.oak.plugins.document.UpdateOp.Key, org.apache.jackrabbit.oak.plugins.document.UpdateOp.Condition> getOrCreateConditions() {
+        if (conditions == null) {
+            conditions = com.google.common.collect.Maps.newHashMap();
+        }
+        return conditions;
+    }
+
+    public static final class Operation {
+        public enum Type {
+
+            SET,
+            MAX,
+            INCREMENT,
+            SET_MAP_ENTRY,
+            REMOVE_MAP_ENTRY;}
+
+        public final org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation.Type type;
+
+        public final java.lang.Object value;
+
+        Operation(org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation.Type type, java.lang.Object value) {
+            this.type = com.google.common.base.Preconditions.checkNotNull(type);
+            this.value = value;
+        }
+
+        @java.lang.Override
+        public java.lang.String toString() {
+            return (type + " ") + value;
+        }
+
+        public org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation getReverse() {
+            org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation reverse = null;
+            switch (type) {
+                case INCREMENT :
+                    reverse = new org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation(org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation.Type.INCREMENT, -((java.lang.Long) (value)));
+                    break;
+                case SET :
+                case MAX :
+                case REMOVE_MAP_ENTRY :
+                    break;
+                case SET_MAP_ENTRY :
+                    reverse = new org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation(org.apache.jackrabbit.oak.plugins.document.UpdateOp.Operation.Type.REMOVE_MAP_ENTRY, null);
+                    break;
+            }
+            return reverse;
+        }
+    }
+
+    public static final class Condition {
+        public static final org.apache.jackrabbit.oak.plugins.document.UpdateOp.Condition EXISTS = new org.apache.jackrabbit.oak.plugins.document.UpdateOp.Condition(org.apache.jackrabbit.oak.plugins.document.UpdateOp.Condition.Type.EXISTS, true);
+
+        public static final org.apache.jackrabbit.oak.plugins.document.UpdateOp.Condition MISSING = new org.apache.jackrabbit.oak.plugins.document.UpdateOp.Condition(org.apache.jackrabbit.oak.plugins.document.UpdateOp.Condition.Type.EXISTS, false);
+
+        public enum Type {
+
+            EXISTS,
+            EQUALS;}
+
+        public final org.apache.jackrabbit.oak.plugins.document.UpdateOp.Condition.Type type;
+
+        public final java.lang.Object value;
+
+        private Condition(org.apache.jackrabbit.oak.plugins.document.UpdateOp.Condition.Type type, java.lang.Object value) {
+            this.type = type;
+            this.value = value;
+        }
+
+        public static org.apache.jackrabbit.oak.plugins.document.UpdateOp.Condition newEqualsCondition(@javax.annotation.Nonnull
+        java.lang.Object value) {
+            return new org.apache.jackrabbit.oak.plugins.document.UpdateOp.Condition(org.apache.jackrabbit.oak.plugins.document.UpdateOp.Condition.Type.EQUALS, com.google.common.base.Preconditions.checkNotNull(value));
+        }
+
+        @java.lang.Override
+        public java.lang.String toString() {
+            return (type + " ") + value;
+        }
+    }
+
+    public static final class Key {
+        private final java.lang.String name;
+
+        private final org.apache.jackrabbit.oak.plugins.document.Revision revision;
+
+        public Key(@javax.annotation.Nonnull
+        java.lang.String name, @javax.annotation.Nullable
+        org.apache.jackrabbit.oak.plugins.document.Revision revision) {
+            this.name = com.google.common.base.Preconditions.checkNotNull(name);
+            this.revision = revision;
+        }
+
+        @javax.annotation.Nonnull
+        public java.lang.String getName() {
+            return name;
+        }
+
+        @javax.annotation.CheckForNull
+        public org.apache.jackrabbit.oak.plugins.document.Revision getRevision() {
+            return revision;
+        }
+
+        @java.lang.Override
+        public java.lang.String toString() {
+            java.lang.String s = name;
+            if (revision != null) {
+                s += "." + revision.toString();
+            }
+            return s;
+        }
+
+        @java.lang.Override
+        public int hashCode() {
+            int hash = name.hashCode();
+            if (revision != null) {
+                hash ^= revision.hashCode();
+            }
+            return hash;
+        }
+
+        @java.lang.Override
+        public boolean equals(java.lang.Object obj) {
+            if (obj instanceof org.apache.jackrabbit.oak.plugins.document.UpdateOp.Key) {
+                org.apache.jackrabbit.oak.plugins.document.UpdateOp.Key other = ((org.apache.jackrabbit.oak.plugins.document.UpdateOp.Key) (obj));
+                return name.equals(other.name) && (revision != null ? revision.equals(other.revision) : other.revision == null);
+            }
+            return false;
+        }
+    }
+}
+22:44:18.664 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+22:44:18.666 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+22:44:18.667 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:169 which is executed by 4 tests
+1387239595
+22:44:36.619 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+22:44:36.621 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:168 which is executed by 4 tests
+1387239595
+22:44:56.558 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:45:21.167 [pool-4-thread-1] DEBUG tests.output - Failing tests with false: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): null, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): null, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): null]
+22:45:21.169 [pool-4-thread-1] DEBUG tests.output - Failing tests with true: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+22:45:21.170 [pool-4-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:168.
+22:45:21.174 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+22:45:21.175 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:167 which is executed by 4 tests
+1387239595
+22:45:39.108 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+22:45:39.110 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:132 which is executed by 4 tests
+1387239595
+22:45:59.355 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+22:45:59.356 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:114 which is executed by 4 tests
+1387239595
+22:46:20.308 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+22:46:20.310 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:213 which is executed by 4 tests
+1387239595
+22:46:42.405 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+22:46:42.406 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:212 which is executed by 4 tests
+1387239595
+22:47:02.014 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:47:23.104 [pool-12-thread-1] DEBUG tests.output - Failing tests with false: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+22:47:23.107 [pool-12-thread-1] DEBUG tests.output - Failing tests with true: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+22:47:23.109 [pool-12-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:212.
+22:47:23.109 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+22:47:23.110 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:211 which is executed by 4 tests
+1387239595
+22:47:42.065 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+22:47:42.066 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:208 which is executed by 4 tests
+1387239595
+22:48:05.068 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:48:31.552 [pool-20-thread-1] DEBUG tests.output - Failing tests with false: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+22:48:31.555 [pool-20-thread-1] DEBUG tests.output - Failing tests with true: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+22:48:31.556 [pool-20-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:208.
+22:48:31.557 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+22:48:53.752 [pool-28-thread-1] DEBUG tests.output - Failing tests with false: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+22:48:53.754 [pool-28-thread-1] DEBUG tests.output - Failing tests with true: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): Cannot use containsMapEntry() on new document, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): Cannot use containsMapEntry() on new document, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): Cannot use containsMapEntry() on new document]
+22:48:53.755 [pool-28-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:208.
+22:48:53.756 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+22:48:53.757 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:354 which is executed by 5 tests
+-196142084
+22:49:11.898 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+22:49:11.900 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:264 which is executed by 5 tests
+1387239595
+22:49:35.854 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+22:49:35.855 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:262 which is executed by 5 tests
+1387239595
+22:49:56.984 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:50:20.620 [pool-36-thread-1] DEBUG tests.output - Failing tests with false: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): null, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): null, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): null]
+22:50:20.622 [pool-36-thread-1] DEBUG tests.output - Failing tests with true: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+22:50:20.624 [pool-36-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:262.
+22:50:20.624 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+22:50:20.629 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:261 which is executed by 5 tests
+1387239595
+22:50:43.216 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:51:05.915 [pool-44-thread-1] DEBUG tests.output - Failing tests with false: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): null, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): null, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): null]
+22:51:05.918 [pool-44-thread-1] DEBUG tests.output - Failing tests with true: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+22:51:05.919 [pool-44-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:261.
+22:51:05.919 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+22:51:26.778 [pool-52-thread-1] DEBUG tests.output - Failing tests with false: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): null, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): null, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): null]
+22:51:26.782 [pool-52-thread-1] DEBUG tests.output - Failing tests with true: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+22:51:26.782 [pool-52-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:261.
+22:51:26.783 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+22:51:26.785 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:118 which is executed by 5 tests
+1387239595
+22:51:50.692 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+22:52:15.623 [pool-60-thread-1] DEBUG tests.output - Failing tests with false: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): null, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): null, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): null]
+22:52:15.626 [pool-60-thread-1] DEBUG tests.output - Failing tests with true: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+22:52:15.627 [pool-60-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:118.
+22:52:15.630 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+22:52:15.631 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp$Key:450 which is executed by 5 tests
+1387239595
+22:52:38.676 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:53:02.643 [pool-68-thread-1] DEBUG tests.output - Failing tests with false: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+22:53:02.644 [pool-68-thread-1] DEBUG tests.output - Failing tests with true: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+22:53:02.645 [pool-68-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp$Key:450.
+22:53:02.646 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+22:53:02.647 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:214 which is executed by 6 tests
+-196142084
+22:53:24.930 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+22:53:24.931 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:212 which is executed by 6 tests
+-196142084
+22:53:44.186 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:54:06.278 [pool-76-thread-1] DEBUG tests.output - Failing tests with false: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+22:54:06.279 [pool-76-thread-1] DEBUG tests.output - Failing tests with true: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+22:54:06.280 [pool-76-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:212.
+22:54:06.281 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #19
+22:54:06.283 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:211 which is executed by 6 tests
+-196142084
+22:54:27.064 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:54:50.891 [pool-84-thread-1] DEBUG tests.output - Failing tests with false: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+22:54:50.892 [pool-84-thread-1] DEBUG tests.output - Failing tests with true: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+22:54:50.895 [pool-84-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:211.
+22:54:50.895 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+22:55:10.771 [pool-92-thread-1] DEBUG tests.output - Failing tests with false: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+22:55:10.772 [pool-92-thread-1] DEBUG tests.output - Failing tests with true: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+22:55:10.773 [pool-92-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:211.
+22:55:10.777 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #20
+22:55:10.778 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:207 which is executed by 6 tests
+-196142084
+22:55:31.704 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:55:53.461 [pool-100-thread-1] DEBUG tests.output - Failing tests with false: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+22:55:53.462 [pool-100-thread-1] DEBUG tests.output - Failing tests with true: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+22:55:53.462 [pool-100-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:207.
+22:55:53.463 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+22:56:15.911 [pool-108-thread-1] DEBUG tests.output - Failing tests with false: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+22:56:15.912 [pool-108-thread-1] DEBUG tests.output - Failing tests with true: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+22:56:15.912 [pool-108-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:207.
+22:56:15.915 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #21
+22:56:15.916 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:204 which is executed by 6 tests
+-196142084
+22:56:37.064 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:56:58.253 [pool-116-thread-1] DEBUG tests.output - Failing tests with false: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+22:56:58.255 [pool-116-thread-1] DEBUG tests.output - Failing tests with true: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+22:56:58.256 [pool-116-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:204.
+22:56:58.257 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+22:57:18.095 [pool-124-thread-1] DEBUG tests.output - Failing tests with false: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+22:57:18.097 [pool-124-thread-1] DEBUG tests.output - Failing tests with true: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): null, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): null, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): null]
+22:57:18.098 [pool-124-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:204.
+22:57:18.099 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #22
+22:57:18.103 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:203 which is executed by 6 tests
+-196142084
+22:57:38.473 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #23
+22:57:38.474 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:192 which is executed by 6 tests
+-196142084
+22:57:57.937 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #24
+22:57:57.939 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:191 which is executed by 6 tests
+-196142084
+22:58:16.568 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #25
+22:58:16.570 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:189 which is executed by 6 tests
+-196142084
+22:58:37.815 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:58:59.978 [pool-132-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+Revision.java:110: error: variable c might not have been initialized
+        return new org.apache.jackrabbit.oak.plugins.document.Revision(timestamp, c, clusterId);
+                                                                                  ^
+22:59:00.188 [pool-132-thread-1] ERROR f.i.l.r.n.s.ConstraintModelBuilder - Unable to compile the change: 
+public class Revision {
+    private static volatile long lastTimestamp;
+
+    private static volatile long lastRevisionTimestamp;
+
+    private static volatile int lastRevisionCount;
+
+    private final long timestamp;
+
+    private final int counter;
+
+    private final int clusterId;
+
+    private final boolean branch;
+
+    private static org.apache.jackrabbit.oak.stats.Clock clock;
+
+    static void setClock(org.apache.jackrabbit.oak.stats.Clock c) {
+        com.google.common.base.Preconditions.checkNotNull(c);
+        org.apache.jackrabbit.oak.plugins.document.Revision.clock = c;
+    }
+
+    static void resetClockToDefault() {
+        org.apache.jackrabbit.oak.plugins.document.Revision.clock = org.apache.jackrabbit.oak.stats.Clock.SIMPLE;
+        org.apache.jackrabbit.oak.plugins.document.Revision.lastTimestamp = org.apache.jackrabbit.oak.plugins.document.Revision.clock.getTime();
+        org.apache.jackrabbit.oak.plugins.document.Revision.lastRevisionTimestamp = org.apache.jackrabbit.oak.plugins.document.Revision.clock.getTime();
+    }
+
+    public Revision(long timestamp, int counter, int clusterId) {
+        this(timestamp, counter, clusterId, false);
+    }
+
+    public Revision(long timestamp, int counter, int clusterId, boolean branch) {
+        this.timestamp = timestamp;
+        this.counter = counter;
+        this.clusterId = clusterId;
+        this.branch = branch;
+    }
+
+    int compareRevisionTime(org.apache.jackrabbit.oak.plugins.document.Revision other) {
+        if (clusterId != other.clusterId) {
+            throw new java.lang.IllegalArgumentException((("Trying to compare revisions of different cluster ids: " + this) + " and ") + other);
+        }
+        int comp = (timestamp < other.timestamp) ? -1 : timestamp > other.timestamp ? 1 : 0;
+        if (comp == 0) {
+            comp = (counter < other.counter) ? -1 : counter > other.counter ? 1 : 0;
+        }
+        return comp;
+    }
+
+    int compareRevisionTimeThenClusterId(org.apache.jackrabbit.oak.plugins.document.Revision other) {
+        int comp = (timestamp < other.timestamp) ? -1 : timestamp > other.timestamp ? 1 : 0;
+        if (comp == 0) {
+            comp = (counter < other.counter) ? -1 : counter > other.counter ? 1 : 0;
+        }
+        if (comp == 0) {
+            comp = compareClusterId(other);
+        }
+        return comp;
+    }
+
+    int compareTo(org.apache.jackrabbit.oak.plugins.document.Revision other) {
+        int comp = compareRevisionTimeThenClusterId(other);
+        if (comp == 0) {
+            if (branch != other.branch) {
+                return branch ? -1 : 1;
+            }
+        }
+        return comp;
+    }
+
+    int compareClusterId(org.apache.jackrabbit.oak.plugins.document.Revision other) {
+        return clusterId < other.clusterId ? -1 : clusterId > other.clusterId ? 1 : 0;
+    }
+
+    static org.apache.jackrabbit.oak.plugins.document.Revision newRevision(int clusterId) {
+        long timestamp = org.apache.jackrabbit.oak.plugins.document.Revision.getCurrentTimestamp();
+        int c;
+        synchronized(org.apache.jackrabbit.oak.plugins.document.Revision.class) {
+            if (timestamp < org.apache.jackrabbit.oak.plugins.document.Revision.lastRevisionTimestamp) {
+                timestamp = org.apache.jackrabbit.oak.plugins.document.Revision.lastRevisionTimestamp;
+            }
+            if (timestamp == org.apache.jackrabbit.oak.plugins.document.Revision.lastRevisionTimestamp) {
+                c = ++org.apache.jackrabbit.oak.plugins.document.Revision.lastRevisionCount;
+            } else {
+                org.apache.jackrabbit.oak.plugins.document.Revision.lastRevisionTimestamp = timestamp;
+                boolean spoonDefaultValue = false;
+                try {
+                    spoonDefaultValue = true;
+                } catch (java.lang.Exception __NopolProcessorException) {
+                }
+                boolean runtimeAngelicValue = fr.inria.lille.repair.nopol.synth.AngelicExecution.angelicValue(spoonDefaultValue);
+                if (fr.inria.lille.commons.trace.RuntimeValues.instance(17).isEnabled()) {
+                    fr.inria.lille.commons.trace.RuntimeValues.instance(17).collectionStarts();
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(17).collectInput("clusterId",clusterId);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(17).collectInput("org.apache.jackrabbit.oak.plugins.document.Revision.lastTimestamp",org.apache.jackrabbit.oak.plugins.document.Revision.lastTimestamp);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(17).collectInput("org.apache.jackrabbit.oak.plugins.document.Revision.clock",org.apache.jackrabbit.oak.plugins.document.Revision.clock);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(17).collectInput("org.apache.jackrabbit.oak.plugins.document.Revision.lastRevisionTimestamp",org.apache.jackrabbit.oak.plugins.document.Revision.lastRevisionTimestamp);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(17).collectInput("org.apache.jackrabbit.oak.plugins.document.Revision.lastRevisionCount",org.apache.jackrabbit.oak.plugins.document.Revision.lastRevisionCount);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(17).collectInput("timestamp",timestamp);} catch (Exception ex1) {ex1.printStackTrace();};
+                    fr.inria.lille.commons.trace.RuntimeValues.instance(17).collectOutput(runtimeAngelicValue);
+                    fr.inria.lille.commons.trace.RuntimeValues.instance(17).collectionEnds();
+                }
+                if (runtimeAngelicValue)
+                    org.apache.jackrabbit.oak.plugins.document.Revision.lastRevisionCount = c = 0;
+
+            }
+        }
+        return new org.apache.jackrabbit.oak.plugins.document.Revision(timestamp, c, clusterId);
+    }
+
+    public static long getCurrentTimestamp() {
+        long timestamp = java.lang.System.currentTimeMillis();
+        if (org.apache.jackrabbit.oak.plugins.document.Revision.clock != null) {
+            timestamp = org.apache.jackrabbit.oak.plugins.document.Revision.clock.getTime();
+        }
+        if (timestamp < org.apache.jackrabbit.oak.plugins.document.Revision.lastTimestamp) {
+            timestamp = org.apache.jackrabbit.oak.plugins.document.Revision.lastTimestamp;
+        } else
+            if (timestamp > org.apache.jackrabbit.oak.plugins.document.Revision.lastTimestamp) {
+                org.apache.jackrabbit.oak.plugins.document.Revision.lastTimestamp = timestamp;
+            }
+
+        return timestamp;
+    }
+
+    public static long getTimestampDifference(org.apache.jackrabbit.oak.plugins.document.Revision r1, org.apache.jackrabbit.oak.plugins.document.Revision r2) {
+        return r1.getTimestamp() - r2.getTimestamp();
+    }
+
+    public static org.apache.jackrabbit.oak.plugins.document.Revision fromString(java.lang.String rev) {
+        boolean isBranch = false;
+        if (rev.startsWith("b")) {
+            isBranch = true;
+            rev = rev.substring(1);
+        }
+        if (!rev.startsWith("r")) {
+            throw new java.lang.IllegalArgumentException(rev);
+        }
+        int idxCount = rev.indexOf('-');
+        if (idxCount < 0) {
+            throw new java.lang.IllegalArgumentException(rev);
+        }
+        int idxClusterId = rev.indexOf('-', idxCount + 1);
+        if (idxClusterId < 0) {
+            throw new java.lang.IllegalArgumentException(rev);
+        }
+        java.lang.String t = rev.substring(1, idxCount);
+        long timestamp = java.lang.Long.parseLong(t, 16);
+        t = rev.substring(idxCount + 1, idxClusterId);
+        int c = java.lang.Integer.parseInt(t, 16);
+        t = rev.substring(idxClusterId + 1);
+        int clusterId = java.lang.Integer.parseInt(t, 16);
+        return new org.apache.jackrabbit.oak.plugins.document.Revision(timestamp, c, clusterId, isBranch);
+    }
+
+    @java.lang.Override
+    public java.lang.String toString() {
+        return toStringBuilder(new java.lang.StringBuilder()).toString();
+    }
+
+    public java.lang.StringBuilder toStringBuilder(java.lang.StringBuilder sb) {
+        if (branch) {
+            sb.append('b');
+        }
+        sb.append('r');
+        sb.append(java.lang.Long.toHexString(timestamp)).append('-');
+        if (counter < 10) {
+            sb.append(counter);
+        } else {
+            sb.append(java.lang.Integer.toHexString(counter));
+        }
+        sb.append('-');
+        if (clusterId < 10) {
+            sb.append(clusterId);
+        } else {
+            sb.append(java.lang.Integer.toHexString(clusterId));
+        }
+        return sb;
+    }
+
+    public java.lang.String toReadableString() {
+        java.lang.StringBuilder buff = new java.lang.StringBuilder();
+        buff.append("revision: \"").append(toString()).append("\"");
+        buff.append(", clusterId: ").append(clusterId);
+        buff.append(", time: \"").append(org.apache.jackrabbit.oak.plugins.document.util.Utils.timestampToString(timestamp)).append("\"");
+        if (counter > 0) {
+            buff.append(", counter: ").append(counter);
+        }
+        if (branch) {
+            buff.append(", branch: true");
+        }
+        return buff.toString();
+    }
+
+    public long getTimestamp() {
+        return timestamp;
+    }
+
+    public int getCounter() {
+        return counter;
+    }
+
+    public boolean isBranch() {
+        return branch;
+    }
+
+    public org.apache.jackrabbit.oak.plugins.document.Revision asBranchRevision() {
+        if (isBranch()) {
+            return this;
+        } else {
+            return new org.apache.jackrabbit.oak.plugins.document.Revision(timestamp, counter, clusterId, true);
+        }
+    }
+
+    public org.apache.jackrabbit.oak.plugins.document.Revision asTrunkRevision() {
+        if (!isBranch()) {
+            return this;
+        } else {
+            return new org.apache.jackrabbit.oak.plugins.document.Revision(timestamp, counter, clusterId);
+        }
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+        return ((((int) (timestamp >>> 32)) ^ ((int) (timestamp))) ^ counter) ^ clusterId;
+    }
+
+    @java.lang.Override
+    public boolean equals(java.lang.Object other) {
+        if (this == other) {
+            return true;
+        } else
+            if (other == null) {
+                return false;
+            } else
+                if (other.getClass() != this.getClass()) {
+                    return false;
+                }
+
+
+        org.apache.jackrabbit.oak.plugins.document.Revision r = ((org.apache.jackrabbit.oak.plugins.document.Revision) (other));
+        return (((r.timestamp == this.timestamp) && (r.counter == this.counter)) && (r.clusterId == this.clusterId)) && (r.branch == this.branch);
+    }
+
+    public boolean equalsIgnoreBranch(org.apache.jackrabbit.oak.plugins.document.Revision other) {
+        if (this == other) {
+            return true;
+        } else
+            if (other == null) {
+                return false;
+            }
+
+        return ((other.timestamp == this.timestamp) && (other.counter == this.counter)) && (other.clusterId == this.clusterId);
+    }
+
+    public int getClusterId() {
+        return clusterId;
+    }
+
+    static class RevisionRange {
+        org.apache.jackrabbit.oak.plugins.document.Revision revision;
+
+        org.apache.jackrabbit.oak.plugins.document.Revision seenAt;
+
+        @java.lang.Override
+        public java.lang.String toString() {
+            return (revision + ":") + seenAt;
+        }
+    }
+
+    public static class RevisionComparator implements java.util.Comparator<org.apache.jackrabbit.oak.plugins.document.Revision> {
+        static final org.apache.jackrabbit.oak.plugins.document.Revision NEWEST = new org.apache.jackrabbit.oak.plugins.document.Revision(java.lang.Long.MAX_VALUE, 0, 0);
+
+        static final org.apache.jackrabbit.oak.plugins.document.Revision FUTURE = new org.apache.jackrabbit.oak.plugins.document.Revision(java.lang.Long.MAX_VALUE, java.lang.Integer.MAX_VALUE, 0);
+
+        private final java.util.concurrent.ConcurrentMap<java.lang.Integer, java.util.List<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange>> map = new java.util.concurrent.ConcurrentHashMap<java.lang.Integer, java.util.List<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange>>();
+
+        private long oldestTimestamp;
+
+        private final int currentClusterNodeId;
+
+        RevisionComparator(int currentClusterNodId) {
+            this.currentClusterNodeId = currentClusterNodId;
+        }
+
+        public void purge(long timestamp) {
+            oldestTimestamp = timestamp;
+            for (int clusterId : map.keySet()) {
+                while (true) {
+                    java.util.List<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange> list = map.get(clusterId);
+                    java.util.List<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange> newList = purge(list);
+                    if (newList == null) {
+                        if (map.remove(clusterId, list)) {
+                            break;
+                        }
+                    } else
+                        if (newList == list) {
+                            break;
+                        } else {
+                            if (map.replace(clusterId, list, newList)) {
+                                break;
+                            }
+                        }
+
+                } 
+            }
+        }
+
+        private java.util.List<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange> purge(java.util.List<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange> list) {
+            int i = 0;
+            for (; i < list.size(); i++) {
+                org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange r = list.get(i);
+                if (r.seenAt.getTimestamp() > oldestTimestamp) {
+                    break;
+                }
+            }
+            if (i > (list.size() - 1)) {
+                return null;
+            } else
+                if (i == 0) {
+                    return list;
+                }
+
+            return new java.util.ArrayList<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange>(list.subList(i, list.size()));
+        }
+
+        public void add(org.apache.jackrabbit.oak.plugins.document.Revision r, org.apache.jackrabbit.oak.plugins.document.Revision seenAt) {
+            int clusterId = r.getClusterId();
+            while (true) {
+                java.util.List<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange> list = map.get(clusterId);
+                java.util.List<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange> newList;
+                if (list == null) {
+                    newList = new java.util.ArrayList<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange>();
+                } else {
+                    org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange last = list.get(list.size() - 1);
+                    if (last.seenAt.equals(seenAt)) {
+                        if (r.compareRevisionTime(last.revision) > 0) {
+                            last.revision = r;
+                        }
+                        return;
+                    }
+                    if (last.revision.compareRevisionTime(r) > 0) {
+                        throw new java.lang.IllegalArgumentException((((("Can not add an earlier revision: " + last.revision) + " > ") + r) + "; current cluster node is ") + currentClusterNodeId);
+                    }
+                    newList = new java.util.ArrayList<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange>(list);
+                }
+                org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange range = new org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange();
+                range.seenAt = seenAt;
+                range.revision = r;
+                newList.add(range);
+                if (list == null) {
+                    if (map.putIfAbsent(clusterId, newList) == null) {
+                        return;
+                    }
+                } else {
+                    if (map.replace(clusterId, list, newList)) {
+                        return;
+                    }
+                }
+            } 
+        }
+
+        public long getMinimumTimestamp(@javax.annotation.Nonnull
+        org.apache.jackrabbit.oak.plugins.document.Revision revision, @javax.annotation.Nonnull
+        java.util.Map<java.lang.Integer, java.lang.Long> inactive) {
+            long timestamp = com.google.common.base.Preconditions.checkNotNull(revision).getTimestamp();
+            org.apache.jackrabbit.oak.plugins.document.Revision seenAt = getRevisionSeen(revision);
+            if (seenAt == null) {
+                return timestamp;
+            }
+            for (java.util.Map.Entry<java.lang.Integer, java.util.List<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange>> e : map.entrySet()) {
+                if ((revision.getClusterId() == currentClusterNodeId) && (e.getKey() == currentClusterNodeId)) {
+                    continue;
+                }
+                java.util.List<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange> list = e.getValue();
+                org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange range;
+                for (int i = list.size() - 1; i >= 0; i--) {
+                    range = list.get(i);
+                    if (range.seenAt.compareRevisionTimeThenClusterId(seenAt) <= 0) {
+                        java.lang.Long inactiveSince = inactive.get(range.revision.getClusterId());
+                        if (((inactiveSince != null) && (revision.getTimestamp() > inactiveSince)) && (range.revision.getTimestamp() < inactiveSince)) {
+                        } else {
+                            timestamp = java.lang.Math.min(timestamp, range.revision.getTimestamp());
+                        }
+                        break;
+                    }
+                }
+            }
+            return timestamp;
+        }
+
+        @java.lang.Override
+        public int compare(org.apache.jackrabbit.oak.plugins.document.Revision o1, org.apache.jackrabbit.oak.plugins.document.Revision o2) {
+            if (o1.getClusterId() == o2.getClusterId()) {
+                return o1.compareRevisionTime(o2);
+            }
+            org.apache.jackrabbit.oak.plugins.document.Revision range1 = getRevisionSeen(o1);
+            org.apache.jackrabbit.oak.plugins.document.Revision range2 = getRevisionSeen(o2);
+            if ((range1 == org.apache.jackrabbit.oak.plugins.document.Revision.RevisionComparator.FUTURE) && (range2 == org.apache.jackrabbit.oak.plugins.document.Revision.RevisionComparator.FUTURE)) {
+                return o1.compareTo(o2);
+            }
+            if ((range1 == null) && (range2 == null)) {
+                return o1.compareTo(o2);
+            }
+            if (range1 == null) {
+                return -1;
+            } else
+                if (range2 == null) {
+                    return 1;
+                }
+
+            int comp = range1.compareTo(range2);
+            if (comp != 0) {
+                return comp;
+            }
+            return java.lang.Integer.signum(o1.getClusterId() - o2.getClusterId());
+        }
+
+        org.apache.jackrabbit.oak.plugins.document.Revision getRevisionSeen(org.apache.jackrabbit.oak.plugins.document.Revision r) {
+            java.util.List<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange> list = map.get(r.getClusterId());
+            if (list == null) {
+                if (r.getTimestamp() <= oldestTimestamp) {
+                    return null;
+                }
+                if (r.getClusterId() != currentClusterNodeId) {
+                    return org.apache.jackrabbit.oak.plugins.document.Revision.RevisionComparator.FUTURE;
+                }
+                return null;
+            }
+            org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange range = null;
+            for (int i = list.size() - 1; i >= 0; i--) {
+                range = list.get(i);
+                int compare = r.compareRevisionTime(range.revision);
+                if (compare == 0) {
+                    return range.seenAt;
+                } else
+                    if (compare > 0) {
+                        if (i == (list.size() - 1)) {
+                            if (r.getClusterId() == currentClusterNodeId) {
+                                return org.apache.jackrabbit.oak.plugins.document.Revision.RevisionComparator.NEWEST;
+                            } else {
+                                return org.apache.jackrabbit.oak.plugins.document.Revision.RevisionComparator.FUTURE;
+                            }
+                        } else {
+                            return list.get(i + 1).seenAt;
+                        }
+                    }
+
+            }
+            if ((range != null) && (r.getTimestamp() > oldestTimestamp)) {
+                return range.seenAt;
+            }
+            return null;
+        }
+
+        @java.lang.Override
+        public java.lang.String toString() {
+            java.lang.StringBuilder buff = new java.lang.StringBuilder();
+            for (int clusterId : new java.util.TreeSet<java.lang.Integer>(map.keySet())) {
+                int i = 0;
+                buff.append(clusterId).append(":");
+                for (org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange r : map.get(clusterId)) {
+                    if (((i++) % 4) == 0) {
+                        buff.append('\n');
+                    }
+                    buff.append(" ").append(r);
+                }
+                buff.append("\n");
+            }
+            return buff.toString();
+        }
+    }
+}
+22:59:00.189 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+22:59:00.190 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #26
+22:59:00.190 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:188 which is executed by 6 tests
+-196142084
+22:59:21.242 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:59:44.184 [pool-134-thread-1] DEBUG tests.output - Failing tests with false: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+22:59:44.185 [pool-134-thread-1] DEBUG tests.output - Failing tests with true: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+22:59:44.191 [pool-134-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:188.
+22:59:44.192 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #27
+22:59:44.193 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:185 which is executed by 6 tests
+-196142084
+23:00:03.750 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+23:00:25.101 [pool-142-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+Revision.java:109: error: variable c might not have been initialized
+        return new org.apache.jackrabbit.oak.plugins.document.Revision(timestamp, c, clusterId);
+                                                                                  ^
+23:00:25.276 [pool-142-thread-1] ERROR f.i.l.r.n.s.ConstraintModelBuilder - Unable to compile the change: 
+public class Revision {
+    private static volatile long lastTimestamp;
+
+    private static volatile long lastRevisionTimestamp;
+
+    private static volatile int lastRevisionCount;
+
+    private final long timestamp;
+
+    private final int counter;
+
+    private final int clusterId;
+
+    private final boolean branch;
+
+    private static org.apache.jackrabbit.oak.stats.Clock clock;
+
+    static void setClock(org.apache.jackrabbit.oak.stats.Clock c) {
+        com.google.common.base.Preconditions.checkNotNull(c);
+        org.apache.jackrabbit.oak.plugins.document.Revision.clock = c;
+    }
+
+    static void resetClockToDefault() {
+        org.apache.jackrabbit.oak.plugins.document.Revision.clock = org.apache.jackrabbit.oak.stats.Clock.SIMPLE;
+        org.apache.jackrabbit.oak.plugins.document.Revision.lastTimestamp = org.apache.jackrabbit.oak.plugins.document.Revision.clock.getTime();
+        org.apache.jackrabbit.oak.plugins.document.Revision.lastRevisionTimestamp = org.apache.jackrabbit.oak.plugins.document.Revision.clock.getTime();
+    }
+
+    public Revision(long timestamp, int counter, int clusterId) {
+        this(timestamp, counter, clusterId, false);
+    }
+
+    public Revision(long timestamp, int counter, int clusterId, boolean branch) {
+        this.timestamp = timestamp;
+        this.counter = counter;
+        this.clusterId = clusterId;
+        this.branch = branch;
+    }
+
+    int compareRevisionTime(org.apache.jackrabbit.oak.plugins.document.Revision other) {
+        if (clusterId != other.clusterId) {
+            throw new java.lang.IllegalArgumentException((("Trying to compare revisions of different cluster ids: " + this) + " and ") + other);
+        }
+        int comp = (timestamp < other.timestamp) ? -1 : timestamp > other.timestamp ? 1 : 0;
+        if (comp == 0) {
+            comp = (counter < other.counter) ? -1 : counter > other.counter ? 1 : 0;
+        }
+        return comp;
+    }
+
+    int compareRevisionTimeThenClusterId(org.apache.jackrabbit.oak.plugins.document.Revision other) {
+        int comp = (timestamp < other.timestamp) ? -1 : timestamp > other.timestamp ? 1 : 0;
+        if (comp == 0) {
+            comp = (counter < other.counter) ? -1 : counter > other.counter ? 1 : 0;
+        }
+        if (comp == 0) {
+            comp = compareClusterId(other);
+        }
+        return comp;
+    }
+
+    int compareTo(org.apache.jackrabbit.oak.plugins.document.Revision other) {
+        int comp = compareRevisionTimeThenClusterId(other);
+        if (comp == 0) {
+            if (branch != other.branch) {
+                return branch ? -1 : 1;
+            }
+        }
+        return comp;
+    }
+
+    int compareClusterId(org.apache.jackrabbit.oak.plugins.document.Revision other) {
+        return clusterId < other.clusterId ? -1 : clusterId > other.clusterId ? 1 : 0;
+    }
+
+    static org.apache.jackrabbit.oak.plugins.document.Revision newRevision(int clusterId) {
+        long timestamp = org.apache.jackrabbit.oak.plugins.document.Revision.getCurrentTimestamp();
+        int c;
+        synchronized(org.apache.jackrabbit.oak.plugins.document.Revision.class) {
+            if (timestamp < org.apache.jackrabbit.oak.plugins.document.Revision.lastRevisionTimestamp) {
+                timestamp = org.apache.jackrabbit.oak.plugins.document.Revision.lastRevisionTimestamp;
+            }
+            boolean spoonDefaultValue = false;
+            try {
+                spoonDefaultValue = true;
+            } catch (java.lang.Exception __NopolProcessorException) {
+            }
+            boolean runtimeAngelicValue = fr.inria.lille.repair.nopol.synth.AngelicExecution.angelicValue(spoonDefaultValue);
+            if (fr.inria.lille.commons.trace.RuntimeValues.instance(19).isEnabled()) {
+                fr.inria.lille.commons.trace.RuntimeValues.instance(19).collectionStarts();
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(19).collectInput("org.apache.jackrabbit.oak.plugins.document.Revision.clock",org.apache.jackrabbit.oak.plugins.document.Revision.clock);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(19).collectInput("org.apache.jackrabbit.oak.plugins.document.Revision.lastRevisionTimestamp",org.apache.jackrabbit.oak.plugins.document.Revision.lastRevisionTimestamp);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(19).collectInput("clusterId",clusterId);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(19).collectInput("org.apache.jackrabbit.oak.plugins.document.Revision.lastTimestamp",org.apache.jackrabbit.oak.plugins.document.Revision.lastTimestamp);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(19).collectInput("timestamp == org.apache.jackrabbit.oak.plugins.document.Revision.lastRevisionTimestamp",timestamp == org.apache.jackrabbit.oak.plugins.document.Revision.lastRevisionTimestamp);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(19).collectInput("org.apache.jackrabbit.oak.plugins.document.Revision.lastRevisionCount",org.apache.jackrabbit.oak.plugins.document.Revision.lastRevisionCount);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(19).collectInput("timestamp",timestamp);} catch (Exception ex1) {ex1.printStackTrace();};
+                fr.inria.lille.commons.trace.RuntimeValues.instance(19).collectOutput(runtimeAngelicValue);
+                fr.inria.lille.commons.trace.RuntimeValues.instance(19).collectionEnds();
+            }
+            if (runtimeAngelicValue) if (timestamp == org.apache.jackrabbit.oak.plugins.document.Revision.lastRevisionTimestamp) {
+                c = ++org.apache.jackrabbit.oak.plugins.document.Revision.lastRevisionCount;
+            } else {
+                org.apache.jackrabbit.oak.plugins.document.Revision.lastRevisionTimestamp = timestamp;
+                org.apache.jackrabbit.oak.plugins.document.Revision.lastRevisionCount = c = 0;
+            }
+        }
+        return new org.apache.jackrabbit.oak.plugins.document.Revision(timestamp, c, clusterId);
+    }
+
+    public static long getCurrentTimestamp() {
+        long timestamp = java.lang.System.currentTimeMillis();
+        if (org.apache.jackrabbit.oak.plugins.document.Revision.clock != null) {
+            timestamp = org.apache.jackrabbit.oak.plugins.document.Revision.clock.getTime();
+        }
+        if (timestamp < org.apache.jackrabbit.oak.plugins.document.Revision.lastTimestamp) {
+            timestamp = org.apache.jackrabbit.oak.plugins.document.Revision.lastTimestamp;
+        } else
+            if (timestamp > org.apache.jackrabbit.oak.plugins.document.Revision.lastTimestamp) {
+                org.apache.jackrabbit.oak.plugins.document.Revision.lastTimestamp = timestamp;
+            }
+
+        return timestamp;
+    }
+
+    public static long getTimestampDifference(org.apache.jackrabbit.oak.plugins.document.Revision r1, org.apache.jackrabbit.oak.plugins.document.Revision r2) {
+        return r1.getTimestamp() - r2.getTimestamp();
+    }
+
+    public static org.apache.jackrabbit.oak.plugins.document.Revision fromString(java.lang.String rev) {
+        boolean isBranch = false;
+        if (rev.startsWith("b")) {
+            isBranch = true;
+            rev = rev.substring(1);
+        }
+        if (!rev.startsWith("r")) {
+            throw new java.lang.IllegalArgumentException(rev);
+        }
+        int idxCount = rev.indexOf('-');
+        if (idxCount < 0) {
+            throw new java.lang.IllegalArgumentException(rev);
+        }
+        int idxClusterId = rev.indexOf('-', idxCount + 1);
+        if (idxClusterId < 0) {
+            throw new java.lang.IllegalArgumentException(rev);
+        }
+        java.lang.String t = rev.substring(1, idxCount);
+        long timestamp = java.lang.Long.parseLong(t, 16);
+        t = rev.substring(idxCount + 1, idxClusterId);
+        int c = java.lang.Integer.parseInt(t, 16);
+        t = rev.substring(idxClusterId + 1);
+        int clusterId = java.lang.Integer.parseInt(t, 16);
+        return new org.apache.jackrabbit.oak.plugins.document.Revision(timestamp, c, clusterId, isBranch);
+    }
+
+    @java.lang.Override
+    public java.lang.String toString() {
+        return toStringBuilder(new java.lang.StringBuilder()).toString();
+    }
+
+    public java.lang.StringBuilder toStringBuilder(java.lang.StringBuilder sb) {
+        if (branch) {
+            sb.append('b');
+        }
+        sb.append('r');
+        sb.append(java.lang.Long.toHexString(timestamp)).append('-');
+        if (counter < 10) {
+            sb.append(counter);
+        } else {
+            sb.append(java.lang.Integer.toHexString(counter));
+        }
+        sb.append('-');
+        if (clusterId < 10) {
+            sb.append(clusterId);
+        } else {
+            sb.append(java.lang.Integer.toHexString(clusterId));
+        }
+        return sb;
+    }
+
+    public java.lang.String toReadableString() {
+        java.lang.StringBuilder buff = new java.lang.StringBuilder();
+        buff.append("revision: \"").append(toString()).append("\"");
+        buff.append(", clusterId: ").append(clusterId);
+        buff.append(", time: \"").append(org.apache.jackrabbit.oak.plugins.document.util.Utils.timestampToString(timestamp)).append("\"");
+        if (counter > 0) {
+            buff.append(", counter: ").append(counter);
+        }
+        if (branch) {
+            buff.append(", branch: true");
+        }
+        return buff.toString();
+    }
+
+    public long getTimestamp() {
+        return timestamp;
+    }
+
+    public int getCounter() {
+        return counter;
+    }
+
+    public boolean isBranch() {
+        return branch;
+    }
+
+    public org.apache.jackrabbit.oak.plugins.document.Revision asBranchRevision() {
+        if (isBranch()) {
+            return this;
+        } else {
+            return new org.apache.jackrabbit.oak.plugins.document.Revision(timestamp, counter, clusterId, true);
+        }
+    }
+
+    public org.apache.jackrabbit.oak.plugins.document.Revision asTrunkRevision() {
+        if (!isBranch()) {
+            return this;
+        } else {
+            return new org.apache.jackrabbit.oak.plugins.document.Revision(timestamp, counter, clusterId);
+        }
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+        return ((((int) (timestamp >>> 32)) ^ ((int) (timestamp))) ^ counter) ^ clusterId;
+    }
+
+    @java.lang.Override
+    public boolean equals(java.lang.Object other) {
+        if (this == other) {
+            return true;
+        } else
+            if (other == null) {
+                return false;
+            } else
+                if (other.getClass() != this.getClass()) {
+                    return false;
+                }
+
+
+        org.apache.jackrabbit.oak.plugins.document.Revision r = ((org.apache.jackrabbit.oak.plugins.document.Revision) (other));
+        return (((r.timestamp == this.timestamp) && (r.counter == this.counter)) && (r.clusterId == this.clusterId)) && (r.branch == this.branch);
+    }
+
+    public boolean equalsIgnoreBranch(org.apache.jackrabbit.oak.plugins.document.Revision other) {
+        if (this == other) {
+            return true;
+        } else
+            if (other == null) {
+                return false;
+            }
+
+        return ((other.timestamp == this.timestamp) && (other.counter == this.counter)) && (other.clusterId == this.clusterId);
+    }
+
+    public int getClusterId() {
+        return clusterId;
+    }
+
+    static class RevisionRange {
+        org.apache.jackrabbit.oak.plugins.document.Revision revision;
+
+        org.apache.jackrabbit.oak.plugins.document.Revision seenAt;
+
+        @java.lang.Override
+        public java.lang.String toString() {
+            return (revision + ":") + seenAt;
+        }
+    }
+
+    public static class RevisionComparator implements java.util.Comparator<org.apache.jackrabbit.oak.plugins.document.Revision> {
+        static final org.apache.jackrabbit.oak.plugins.document.Revision NEWEST = new org.apache.jackrabbit.oak.plugins.document.Revision(java.lang.Long.MAX_VALUE, 0, 0);
+
+        static final org.apache.jackrabbit.oak.plugins.document.Revision FUTURE = new org.apache.jackrabbit.oak.plugins.document.Revision(java.lang.Long.MAX_VALUE, java.lang.Integer.MAX_VALUE, 0);
+
+        private final java.util.concurrent.ConcurrentMap<java.lang.Integer, java.util.List<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange>> map = new java.util.concurrent.ConcurrentHashMap<java.lang.Integer, java.util.List<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange>>();
+
+        private long oldestTimestamp;
+
+        private final int currentClusterNodeId;
+
+        RevisionComparator(int currentClusterNodId) {
+            this.currentClusterNodeId = currentClusterNodId;
+        }
+
+        public void purge(long timestamp) {
+            oldestTimestamp = timestamp;
+            for (int clusterId : map.keySet()) {
+                while (true) {
+                    java.util.List<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange> list = map.get(clusterId);
+                    java.util.List<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange> newList = purge(list);
+                    if (newList == null) {
+                        if (map.remove(clusterId, list)) {
+                            break;
+                        }
+                    } else
+                        if (newList == list) {
+                            break;
+                        } else {
+                            if (map.replace(clusterId, list, newList)) {
+                                break;
+                            }
+                        }
+
+                } 
+            }
+        }
+
+        private java.util.List<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange> purge(java.util.List<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange> list) {
+            int i = 0;
+            for (; i < list.size(); i++) {
+                org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange r = list.get(i);
+                if (r.seenAt.getTimestamp() > oldestTimestamp) {
+                    break;
+                }
+            }
+            if (i > (list.size() - 1)) {
+                return null;
+            } else
+                if (i == 0) {
+                    return list;
+                }
+
+            return new java.util.ArrayList<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange>(list.subList(i, list.size()));
+        }
+
+        public void add(org.apache.jackrabbit.oak.plugins.document.Revision r, org.apache.jackrabbit.oak.plugins.document.Revision seenAt) {
+            int clusterId = r.getClusterId();
+            while (true) {
+                java.util.List<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange> list = map.get(clusterId);
+                java.util.List<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange> newList;
+                if (list == null) {
+                    newList = new java.util.ArrayList<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange>();
+                } else {
+                    org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange last = list.get(list.size() - 1);
+                    if (last.seenAt.equals(seenAt)) {
+                        if (r.compareRevisionTime(last.revision) > 0) {
+                            last.revision = r;
+                        }
+                        return;
+                    }
+                    if (last.revision.compareRevisionTime(r) > 0) {
+                        throw new java.lang.IllegalArgumentException((((("Can not add an earlier revision: " + last.revision) + " > ") + r) + "; current cluster node is ") + currentClusterNodeId);
+                    }
+                    newList = new java.util.ArrayList<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange>(list);
+                }
+                org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange range = new org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange();
+                range.seenAt = seenAt;
+                range.revision = r;
+                newList.add(range);
+                if (list == null) {
+                    if (map.putIfAbsent(clusterId, newList) == null) {
+                        return;
+                    }
+                } else {
+                    if (map.replace(clusterId, list, newList)) {
+                        return;
+                    }
+                }
+            } 
+        }
+
+        public long getMinimumTimestamp(@javax.annotation.Nonnull
+        org.apache.jackrabbit.oak.plugins.document.Revision revision, @javax.annotation.Nonnull
+        java.util.Map<java.lang.Integer, java.lang.Long> inactive) {
+            long timestamp = com.google.common.base.Preconditions.checkNotNull(revision).getTimestamp();
+            org.apache.jackrabbit.oak.plugins.document.Revision seenAt = getRevisionSeen(revision);
+            if (seenAt == null) {
+                return timestamp;
+            }
+            for (java.util.Map.Entry<java.lang.Integer, java.util.List<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange>> e : map.entrySet()) {
+                if ((revision.getClusterId() == currentClusterNodeId) && (e.getKey() == currentClusterNodeId)) {
+                    continue;
+                }
+                java.util.List<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange> list = e.getValue();
+                org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange range;
+                for (int i = list.size() - 1; i >= 0; i--) {
+                    range = list.get(i);
+                    if (range.seenAt.compareRevisionTimeThenClusterId(seenAt) <= 0) {
+                        java.lang.Long inactiveSince = inactive.get(range.revision.getClusterId());
+                        if (((inactiveSince != null) && (revision.getTimestamp() > inactiveSince)) && (range.revision.getTimestamp() < inactiveSince)) {
+                        } else {
+                            timestamp = java.lang.Math.min(timestamp, range.revision.getTimestamp());
+                        }
+                        break;
+                    }
+                }
+            }
+            return timestamp;
+        }
+
+        @java.lang.Override
+        public int compare(org.apache.jackrabbit.oak.plugins.document.Revision o1, org.apache.jackrabbit.oak.plugins.document.Revision o2) {
+            if (o1.getClusterId() == o2.getClusterId()) {
+                return o1.compareRevisionTime(o2);
+            }
+            org.apache.jackrabbit.oak.plugins.document.Revision range1 = getRevisionSeen(o1);
+            org.apache.jackrabbit.oak.plugins.document.Revision range2 = getRevisionSeen(o2);
+            if ((range1 == org.apache.jackrabbit.oak.plugins.document.Revision.RevisionComparator.FUTURE) && (range2 == org.apache.jackrabbit.oak.plugins.document.Revision.RevisionComparator.FUTURE)) {
+                return o1.compareTo(o2);
+            }
+            if ((range1 == null) && (range2 == null)) {
+                return o1.compareTo(o2);
+            }
+            if (range1 == null) {
+                return -1;
+            } else
+                if (range2 == null) {
+                    return 1;
+                }
+
+            int comp = range1.compareTo(range2);
+            if (comp != 0) {
+                return comp;
+            }
+            return java.lang.Integer.signum(o1.getClusterId() - o2.getClusterId());
+        }
+
+        org.apache.jackrabbit.oak.plugins.document.Revision getRevisionSeen(org.apache.jackrabbit.oak.plugins.document.Revision r) {
+            java.util.List<org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange> list = map.get(r.getClusterId());
+            if (list == null) {
+                if (r.getTimestamp() <= oldestTimestamp) {
+                    return null;
+                }
+                if (r.getClusterId() != currentClusterNodeId) {
+                    return org.apache.jackrabbit.oak.plugins.document.Revision.RevisionComparator.FUTURE;
+                }
+                return null;
+            }
+            org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange range = null;
+            for (int i = list.size() - 1; i >= 0; i--) {
+                range = list.get(i);
+                int compare = r.compareRevisionTime(range.revision);
+                if (compare == 0) {
+                    return range.seenAt;
+                } else
+                    if (compare > 0) {
+                        if (i == (list.size() - 1)) {
+                            if (r.getClusterId() == currentClusterNodeId) {
+                                return org.apache.jackrabbit.oak.plugins.document.Revision.RevisionComparator.NEWEST;
+                            } else {
+                                return org.apache.jackrabbit.oak.plugins.document.Revision.RevisionComparator.FUTURE;
+                            }
+                        } else {
+                            return list.get(i + 1).seenAt;
+                        }
+                    }
+
+            }
+            if ((range != null) && (r.getTimestamp() > oldestTimestamp)) {
+                return range.seenAt;
+            }
+            return null;
+        }
+
+        @java.lang.Override
+        public java.lang.String toString() {
+            java.lang.StringBuilder buff = new java.lang.StringBuilder();
+            for (int clusterId : new java.util.TreeSet<java.lang.Integer>(map.keySet())) {
+                int i = 0;
+                buff.append(clusterId).append(":");
+                for (org.apache.jackrabbit.oak.plugins.document.Revision.RevisionRange r : map.get(clusterId)) {
+                    if (((i++) % 4) == 0) {
+                        buff.append('\n');
+                    }
+                    buff.append(" ").append(r);
+                }
+                buff.append("\n");
+            }
+            return buff.toString();
+        }
+    }
+}
+23:00:25.277 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+23:00:25.278 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+23:00:46.251 [pool-144-thread-1] DEBUG tests.output - Failing tests with false: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+23:00:46.254 [pool-144-thread-1] DEBUG tests.output - Failing tests with true: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+23:00:46.256 [pool-144-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:185.
+23:00:46.257 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #28
+23:00:46.259 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:182 which is executed by 6 tests
+-196142084
+23:01:09.018 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+23:01:29.581 [pool-152-thread-1] DEBUG tests.output - Failing tests with false: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+23:01:29.583 [pool-152-thread-1] DEBUG tests.output - Failing tests with true: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+23:01:29.584 [pool-152-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:182.
+23:01:29.584 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+23:01:53.247 [pool-160-thread-1] DEBUG tests.output - Failing tests with false: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+23:01:53.248 [pool-160-thread-1] DEBUG tests.output - Failing tests with true: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+23:01:53.249 [pool-160-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:182.
+23:01:53.250 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #29
+23:01:53.251 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:178 which is executed by 6 tests
+-196142084
+23:02:13.801 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #30
+23:02:13.802 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:176 which is executed by 6 tests
+-196142084
+23:02:35.331 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #31
+23:02:35.331 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp$Key:452 which is executed by 6 tests
+1387239595
+23:02:55.959 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #32
+23:02:55.960 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp$Key:449 which is executed by 6 tests
+1387239595
+23:03:19.842 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+23:03:43.649 [pool-168-thread-1] DEBUG tests.output - Failing tests with false: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+23:03:43.651 [pool-168-thread-1] DEBUG tests.output - Failing tests with true: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+23:03:43.652 [pool-168-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp$Key:449.
+23:03:43.654 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+23:04:08.725 [pool-176-thread-1] DEBUG tests.output - Failing tests with false: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+23:04:08.726 [pool-176-thread-1] DEBUG tests.output - Failing tests with true: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): null, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): null, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): null]
+23:04:08.727 [pool-176-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp$Key:449.
+23:04:08.728 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #33
+23:04:08.730 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp$Key:448 which is executed by 6 tests
+1387239595
+23:04:27.454 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #34
+23:04:27.455 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:69 which is executed by 1 tests
+1387239595
+23:04:47.603 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #35
+23:04:47.603 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:68 which is executed by 1 tests
+1387239595
+23:05:06.351 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #36
+23:05:06.354 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:67 which is executed by 1 tests
+1387239595
+23:05:29.068 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+23:05:51.425 [pool-184-thread-1] DEBUG tests.output - Failing tests with false: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): null]
+23:05:51.427 [pool-184-thread-1] DEBUG tests.output - Failing tests with true: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+23:05:51.428 [pool-184-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:67.
+23:05:51.428 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #37
+23:05:51.429 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:66 which is executed by 1 tests
+1387239595
+23:06:09.838 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+23:06:30.153 [pool-192-thread-1] DEBUG tests.output - Failing tests with false: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): null]
+23:06:30.156 [pool-192-thread-1] DEBUG tests.output - Failing tests with true: 
+[shallowCopy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, copy(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>, combine(org.apache.jackrabbit.oak.plugins.document.UpdateOpTest): expected:<1> but was:<0>]
+23:06:30.156 [pool-192-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:66.
+23:06:30.157 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #38
+23:06:30.158 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:65 which is executed by 1 tests
+1387239595
+23:06:52.387 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #39
+23:06:52.389 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:79 which is executed by 1 tests
+1387239595
+23:07:15.615 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #40
+23:07:15.616 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:89 which is executed by 1 tests
+1387239595
+23:07:33.535 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+23:07:34.537 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 1210
+23:07:34.540 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 9408
+23:07:34.541 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 27
+23:07:34.543 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+23:07:34.545 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 0
+23:07:34.554 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 0
+23:07:34.556 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 0
+23:07:34.556 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 1574739ms
+23:07:34.557 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+NO_ANGELIC_VALUE

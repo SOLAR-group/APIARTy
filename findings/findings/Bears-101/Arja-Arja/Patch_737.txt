@@ -1,0 +1,23 @@
+1 Delete /workspaces/APIARTy/data/Bears-101/traccar/src/org/traccar/protocol/Gl200ProtocolDecoder.java 624
+Faulty:
+for (int i=0; i < count; i++) {
+  String mac=parser.next().replaceAll("(..)","$1:");
+  network.addWifiAccessPoint(WifiAccessPoint.from(mac.substring(0,mac.length() - 1),parser.nextInt()));
+}
+Seed:
+NULL
+**************************************************
+2 InsertBefore /workspaces/APIARTy/data/Bears-101/traccar/src/org/traccar/helper/PatternBuilder.java 82
+Faulty:
+return expression(")" + s);
+Seed:
+s=s.replace("d","\\d").replace("x","[0-9a-fA-F]").replaceAll("([\\.])","\\\\$1");
+**************************************************
+3 Delete /workspaces/APIARTy/data/Bears-101/traccar/src/org/traccar/BaseProtocolDecoder.java 145
+Faulty:
+position.setOutdated(true);
+Seed:
+NULL
+**************************************************
+Evaluations: 545
+EstimatedTime: 1183525

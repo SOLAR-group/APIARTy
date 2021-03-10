@@ -1,0 +1,16 @@
+1 Delete /workspaces/APIARTy/data/Bears-104/traccar/src/org/traccar/protocol/SuntechProtocolDecoder.java 143
+Faulty:
+if (type.equals("STT")) {
+  position.set(Position.KEY_INDEX,Integer.parseInt(values[index++]));
+}
+Seed:
+NULL
+**************************************************
+2 Delete /workspaces/APIARTy/data/Bears-104/traccar/src/org/traccar/protocol/SuntechProtocolDecoder.java 139
+Faulty:
+position.set(Position.PREFIX_IO + 1,values[index++]);
+Seed:
+NULL
+**************************************************
+Evaluations: 747
+EstimatedTime: 1305108

@@ -1,0 +1,14 @@
+TernarySplitter  in 8ms
+return resolve() != null
+return getGoogleStorageObject() != null
+CheckNotNull  in 204ms
+ForceNullInit in 10ms
+AddImplicitCastChecker --> 2 in 50ms
+BeforeDeref --> 42 (failed:0) in 92ms
+target--> 47 (failed:0) in 844ms
+TryRegister # Try: 5 in 27ms
+Assign --> 20 (failed: 0) in 191ms
+VarInit --> 6 in 85ms
+MethodEncapsulation # Method: 42 in 170ms
+ConstructorEncapsulation # Constructor: 4 in 45ms
+VariableFor in 19ms

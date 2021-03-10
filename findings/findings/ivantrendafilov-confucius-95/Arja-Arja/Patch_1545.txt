@@ -1,0 +1,14 @@
+1 Delete /apiarty/data/ivantrendafilov-confucius-95/Confucius/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java 106
+Faulty:
+parts.add(Byte.parseByte(value.trim()));
+Seed:
+NULL
+**************************************************
+2 Delete /apiarty/data/ivantrendafilov-confucius-95/Confucius/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java 297
+Faulty:
+if (value == null) throw new ConfigurationException(String.format("Unable to find configuration value for key [%s]",key));
+Seed:
+NULL
+**************************************************
+Evaluations: 1052
+EstimatedTime: 1150522

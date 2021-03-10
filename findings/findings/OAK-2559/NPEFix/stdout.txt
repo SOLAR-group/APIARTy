@@ -1,0 +1,37 @@
+TernarySplitter  in 70ms
+return rootIncludePath != null
+assert current != null
+return funcName != null
+return ntBaseRule != null
+return getConfig(propertyName) != null
+Preconditions.checkState(index != null, "The Lucene index is not available")
+Preconditions.checkState(indexNode != null)
+return indexingRule != null
+Preconditions.checkState(index != null, "The Lucene index is not available")
+Preconditions.checkState(indexNode != null)
+Preconditions.checkState(t != null, "Type cannot be null")
+CheckNotNull  in 862ms
+ForceNullInit in 46ms
+AddImplicitCastChecker --> 4 in 570ms
+BeforeDeref --> 1706 (failed:0) in 514ms
+target--> 2082 (failed:0) in 3779ms
+TryRegister # Try: 57 in 56ms
+Assign --> 773 (failed: 0) in 2158ms
+VarInit --> 286 in 354ms
+MethodEncapsulation # Method: 504 in 4475ms
+ConstructorEncapsulation # Constructor: 88 in 2666ms
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+VariableFor in 149ms

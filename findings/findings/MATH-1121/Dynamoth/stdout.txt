@@ -1,0 +1,1013 @@
+09:20:27.553 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/workspaces/APIARTy/data/MATH-1121/commons-math/src/main/java, /workspaces/APIARTy/data/MATH-1121/commons-math/src/test/java]
+09:20:27.564 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/workspaces/APIARTy/data/MATH-1121/commons-math/target/classes/, file:/workspaces/APIARTy/data/MATH-1121/commons-math/target/test-classes/, file:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar]
+09:20:27.567 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: CONDITIONAL
+09:20:27.569 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.commons.math3.optim.univariate.BrentOptimizerTest]
+09:20:27.576 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=CONDITIONAL, synthesis=DYNAMOTH, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/workspaces/APIARTy/data/MATH-1121/commons-math/src/main/java, /workspaces/APIARTy/data/MATH-1121/commons-math/src/test/java], projectClasspath='[Ljava.net.URL;@3c5a99da', projectTests=[org.apache.commons.math3.optim.univariate.BrentOptimizerTest], complianceLevel=7, outputFolder=., json=false}
+09:20:27.580 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+09:20:27.603 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 28 MB
+09:20:27.604 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 910 MB
+09:20:27.605 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 31 MB
+09:20:27.607 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+09:20:27.613 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+09:20:27.614 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /root/.vscode-server/bin/c47d83b293181d9be64f27ff093689e8e7aed054/bin:/apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+09:20:55.720 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+09:20:55.723 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.DescriptiveStatistics:485 which is executed by 1 tests
+-881929488
+09:20:57.006 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+09:20:57.010 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.DescriptiveStatistics:446 which is executed by 1 tests
+-881929488
+09:20:57.976 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+09:20:57.977 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.DescriptiveStatistics:428 which is executed by 1 tests
+-881929488
+09:20:58.896 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+09:20:58.897 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.DescriptiveStatistics:427 which is executed by 1 tests
+-881929488
+09:20:59.780 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:21:02.222 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+09:21:02.225 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.DescriptiveStatistics:207 which is executed by 1 tests
+-881929488
+09:21:02.996 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+09:21:03.000 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.DescriptiveStatistics:174 which is executed by 1 tests
+-881929488
+09:21:03.850 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+09:21:03.853 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.DescriptiveStatistics:172 which is executed by 1 tests
+-881929488
+09:21:04.740 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+09:21:04.741 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.DescriptiveStatistics:165 which is executed by 1 tests
+-881929488
+09:21:05.563 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:21:07.115 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+09:21:07.117 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:478 which is executed by 1 tests
+1071639902
+09:21:08.115 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+09:21:08.119 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:477 which is executed by 1 tests
+1071639902
+09:21:09.160 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+09:21:09.162 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:473 which is executed by 1 tests
+1071639902
+09:21:09.969 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:21:11.181 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+09:21:11.183 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:452 which is executed by 1 tests
+1071639902
+09:21:12.086 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+09:21:12.087 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:450 which is executed by 1 tests
+1071639902
+09:21:12.918 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+09:21:12.922 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:448 which is executed by 1 tests
+1071639902
+09:21:13.691 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+09:21:13.695 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:447 which is executed by 1 tests
+1071639902
+09:21:14.554 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+09:21:14.558 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:446 which is executed by 1 tests
+1071639902
+09:21:15.528 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+09:21:15.537 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:445 which is executed by 1 tests
+1071639902
+09:21:16.488 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+09:21:16.489 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:444 which is executed by 1 tests
+1071639902
+09:21:17.349 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #19
+09:21:17.354 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:443 which is executed by 1 tests
+1071639902
+09:21:18.133 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #20
+09:21:18.136 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:432 which is executed by 1 tests
+1071639902
+09:21:18.963 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #21
+09:21:18.967 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:431 which is executed by 1 tests
+1071639902
+09:21:19.833 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #22
+09:21:19.836 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:430 which is executed by 1 tests
+1071639902
+09:21:20.667 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #23
+09:21:20.671 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:428 which is executed by 1 tests
+1071639902
+09:21:21.433 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #24
+09:21:21.438 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:427 which is executed by 1 tests
+1071639902
+09:21:22.217 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:21:24.747 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #25
+09:21:24.749 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:424 which is executed by 1 tests
+1071639902
+09:21:25.722 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #26
+09:21:25.730 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:423 which is executed by 1 tests
+1071639902
+09:21:26.496 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #27
+09:21:26.499 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:422 which is executed by 1 tests
+1071639902
+09:21:27.278 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #28
+09:21:27.280 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:421 which is executed by 1 tests
+1071639902
+09:21:28.213 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #29
+09:21:28.216 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:420 which is executed by 1 tests
+1071639902
+09:21:29.212 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:21:40.623 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #30
+09:21:40.626 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:417 which is executed by 1 tests
+1071639902
+09:21:41.657 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #31
+09:21:41.658 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:416 which is executed by 1 tests
+1071639902
+09:21:42.627 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #32
+09:21:42.628 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:414 which is executed by 1 tests
+1071639902
+09:21:43.586 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #33
+09:21:43.587 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:413 which is executed by 1 tests
+1071639902
+09:21:44.440 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #34
+09:21:44.442 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:412 which is executed by 1 tests
+1071639902
+09:21:45.312 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #35
+09:21:45.315 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:411 which is executed by 1 tests
+1071639902
+09:21:46.375 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #36
+09:21:46.376 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:410 which is executed by 1 tests
+1071639902
+09:21:47.344 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #37
+09:21:47.348 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:408 which is executed by 1 tests
+1071639902
+09:21:48.161 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #38
+09:21:48.163 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:407 which is executed by 1 tests
+1071639902
+09:21:48.980 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #39
+09:21:48.987 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:386 which is executed by 1 tests
+1071639902
+09:21:49.784 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #40
+09:21:49.787 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:384 which is executed by 1 tests
+1071639902
+09:21:50.530 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #41
+09:21:50.533 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:383 which is executed by 1 tests
+1071639902
+09:21:51.307 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:21:52.668 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #42
+09:21:52.669 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:380 which is executed by 1 tests
+1071639902
+09:21:53.537 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #43
+09:21:53.538 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:377 which is executed by 1 tests
+1071639902
+09:21:54.434 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:21:56.027 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #44
+09:21:56.029 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:376 which is executed by 1 tests
+1071639902
+09:21:56.974 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:21:58.460 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #45
+09:21:58.461 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:374 which is executed by 1 tests
+1071639902
+09:21:59.387 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #46
+09:21:59.389 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:373 which is executed by 1 tests
+1071639902
+09:22:00.348 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #47
+09:22:00.351 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:372 which is executed by 1 tests
+1071639902
+09:22:01.310 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #48
+09:22:01.312 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:371 which is executed by 1 tests
+1071639902
+09:22:02.274 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #49
+09:22:02.278 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:370 which is executed by 1 tests
+1071639902
+09:22:03.192 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #50
+09:22:03.194 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:357 which is executed by 1 tests
+1071639902
+09:22:04.057 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #51
+09:22:04.058 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:356 which is executed by 1 tests
+1071639902
+09:22:04.871 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #52
+09:22:04.872 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:352 which is executed by 1 tests
+1071639902
+09:22:05.754 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #53
+09:22:05.758 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:349 which is executed by 1 tests
+1071639902
+09:22:06.622 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #54
+09:22:06.626 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:348 which is executed by 1 tests
+1071639902
+09:22:07.457 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #55
+09:22:07.457 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:345 which is executed by 1 tests
+1071639902
+09:22:08.323 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #56
+09:22:08.324 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:344 which is executed by 1 tests
+1071639902
+09:22:09.220 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #57
+09:22:09.222 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:342 which is executed by 1 tests
+1071639902
+09:22:10.044 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:22:11.353 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #58
+09:22:11.354 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:339 which is executed by 1 tests
+1071639902
+09:22:12.235 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:22:13.591 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #59
+09:22:13.592 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:335 which is executed by 1 tests
+1071639902
+09:22:14.537 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #60
+09:22:14.540 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:334 which is executed by 1 tests
+1071639902
+09:22:15.554 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:22:17.036 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #61
+09:22:17.039 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:333 which is executed by 1 tests
+1071639902
+09:22:17.782 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #62
+09:22:17.783 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:330 which is executed by 1 tests
+1071639902
+09:22:18.571 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #63
+09:22:18.572 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:327 which is executed by 1 tests
+1071639902
+09:22:19.430 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:22:21.223 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #64
+09:22:21.224 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:324 which is executed by 1 tests
+1071639902
+09:22:22.112 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #65
+09:22:22.113 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:322 which is executed by 1 tests
+1071639902
+09:22:22.868 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #66
+09:22:22.869 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:321 which is executed by 1 tests
+1071639902
+09:22:23.584 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #67
+09:22:23.585 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:320 which is executed by 1 tests
+1071639902
+09:22:24.350 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #68
+09:22:24.355 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:304 which is executed by 1 tests
+1071639902
+09:22:25.120 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #69
+09:22:25.123 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:303 which is executed by 1 tests
+1071639902
+09:22:25.917 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #70
+09:22:25.920 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:302 which is executed by 1 tests
+1071639902
+09:22:26.663 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #71
+09:22:26.667 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:299 which is executed by 1 tests
+1071639902
+09:22:27.396 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:22:28.539 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #72
+09:22:28.543 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:296 which is executed by 1 tests
+1071639902
+09:22:29.383 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:22:30.850 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #73
+09:22:30.852 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:293 which is executed by 1 tests
+1071639902
+09:22:31.764 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #74
+09:22:31.767 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:292 which is executed by 1 tests
+1071639902
+09:22:32.717 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #75
+09:22:32.721 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:291 which is executed by 1 tests
+1071639902
+09:22:33.683 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #76
+09:22:33.686 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:290 which is executed by 1 tests
+1071639902
+09:22:34.647 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #77
+09:22:34.649 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:286 which is executed by 1 tests
+1071639902
+09:22:35.643 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:22:37.034 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #78
+09:22:37.038 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:283 which is executed by 1 tests
+1071639902
+09:22:37.999 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #79
+09:22:38.002 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:282 which is executed by 1 tests
+1071639902
+09:22:38.984 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #80
+09:22:38.987 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:281 which is executed by 1 tests
+1071639902
+09:22:39.960 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #81
+09:22:39.962 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:280 which is executed by 1 tests
+1071639902
+09:22:40.774 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #82
+09:22:40.777 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:279 which is executed by 1 tests
+1071639902
+09:22:41.541 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #83
+09:22:41.551 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:276 which is executed by 1 tests
+1071639902
+09:22:42.394 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:22:43.726 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #84
+09:22:43.728 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:273 which is executed by 1 tests
+1071639902
+09:22:44.535 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:22:45.815 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #85
+09:22:45.816 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:269 which is executed by 1 tests
+1071639902
+09:22:46.781 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:22:48.083 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #86
+09:22:48.085 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:267 which is executed by 1 tests
+1071639902
+09:22:48.891 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #87
+09:22:48.893 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.rank.Percentile:231 which is executed by 1 tests
+1071639902
+09:22:49.724 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #88
+09:22:49.726 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.BaseOptimizer:104 which is executed by 1 tests
+-1860145851
+09:22:50.527 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #89
+09:22:50.530 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.AbstractUnivariateStatistic:185 which is executed by 1 tests
+-1366688945
+09:22:51.446 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #90
+09:22:51.449 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.AbstractUnivariateStatistic:159 which is executed by 1 tests
+-1366688945
+09:22:52.481 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #91
+09:22:52.486 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.AbstractUnivariateStatistic:70 which is executed by 1 tests
+-1366688945
+09:22:53.217 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #92
+09:22:53.220 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.moment.Mean:175 which is executed by 1 tests
+2394086
+09:22:54.032 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #93
+09:22:54.034 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.moment.Mean:173 which is executed by 1 tests
+2394086
+09:22:54.948 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #94
+09:22:54.950 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.moment.Mean:172 which is executed by 1 tests
+2394086
+09:22:55.722 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #95
+09:22:55.726 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.moment.Mean:171 which is executed by 1 tests
+2394086
+09:22:56.507 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #96
+09:22:56.514 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.moment.Mean:168 which is executed by 1 tests
+2394086
+09:22:57.245 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #97
+09:22:57.250 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.moment.Mean:165 which is executed by 1 tests
+2394086
+09:22:57.983 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #98
+09:22:57.986 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.moment.Mean:164 which is executed by 1 tests
+2394086
+09:22:58.724 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #99
+09:22:58.728 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.moment.Mean:163 which is executed by 1 tests
+2394086
+09:22:59.463 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:23:00.781 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #100
+09:23:00.781 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:1621 which is executed by 1 tests
+-1392754045
+09:23:01.698 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #101
+09:23:01.700 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:1617 which is executed by 1 tests
+-1392754045
+09:23:02.738 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:23:04.282 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #102
+09:23:04.283 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:1612 which is executed by 1 tests
+-1392754045
+09:23:05.248 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:23:06.676 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #103
+09:23:06.677 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:1608 which is executed by 1 tests
+-1392754045
+09:23:07.555 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:23:09.034 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #104
+09:23:09.035 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:1604 which is executed by 1 tests
+-1392754045
+09:23:10.020 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:23:11.365 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #105
+09:23:11.367 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:1600 which is executed by 1 tests
+-1392754045
+09:23:12.243 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:23:13.593 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #106
+09:23:13.594 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.summary.Sum:130 which is executed by 1 tests
+83500
+09:23:14.484 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #107
+09:23:14.487 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.summary.Sum:127 which is executed by 1 tests
+83500
+09:23:15.290 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #108
+09:23:15.294 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.summary.Sum:126 which is executed by 1 tests
+83500
+09:23:16.098 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #109
+09:23:16.101 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.summary.Sum:125 which is executed by 1 tests
+83500
+09:23:16.911 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #110
+09:23:16.918 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.summary.Sum:124 which is executed by 1 tests
+83500
+09:23:17.708 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:23:19.096 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #111
+09:23:19.097 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.stat.descriptive.summary.Sum:123 which is executed by 1 tests
+83500
+09:23:20.106 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #112
+09:23:20.107 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.ResizableDoubleArray:948 which is executed by 1 tests
+1703178622
+09:23:20.963 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #113
+09:23:20.965 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.ResizableDoubleArray:947 which is executed by 1 tests
+1703178622
+09:23:21.828 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #114
+09:23:21.830 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.ResizableDoubleArray:946 which is executed by 1 tests
+1703178622
+09:23:22.713 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #115
+09:23:22.715 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.ResizableDoubleArray:945 which is executed by 1 tests
+1703178622
+09:23:23.750 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #116
+09:23:23.756 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.ResizableDoubleArray:944 which is executed by 1 tests
+1703178622
+09:23:24.850 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #117
+09:23:24.853 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.ResizableDoubleArray:943 which is executed by 1 tests
+1703178622
+09:23:25.863 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #118
+09:23:25.866 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.ResizableDoubleArray:703 which is executed by 1 tests
+1703178622
+09:23:26.835 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #119
+09:23:26.837 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.ResizableDoubleArray:702 which is executed by 1 tests
+1703178622
+09:23:27.772 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #120
+09:23:27.774 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.ResizableDoubleArray:701 which is executed by 1 tests
+1703178622
+09:23:28.691 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #121
+09:23:28.692 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.ResizableDoubleArray:698 which is executed by 1 tests
+1703178622
+09:23:29.574 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #122
+09:23:29.575 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.ResizableDoubleArray:694 which is executed by 1 tests
+1703178622
+09:23:30.473 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #123
+09:23:30.474 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.ResizableDoubleArray:693 which is executed by 1 tests
+1703178622
+09:23:31.305 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:23:32.747 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #124
+09:23:32.747 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.ResizableDoubleArray:692 which is executed by 1 tests
+1703178622
+09:23:33.647 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #125
+09:23:33.648 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.ResizableDoubleArray:577 which is executed by 1 tests
+1703178622
+09:23:34.486 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #126
+09:23:34.488 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.ResizableDoubleArray:571 which is executed by 1 tests
+1703178622
+09:23:35.394 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:23:36.680 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #127
+09:23:36.681 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.ResizableDoubleArray:564 which is executed by 1 tests
+1703178622
+09:23:37.661 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:23:39.155 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #128
+09:23:39.158 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.ResizableDoubleArray:557 which is executed by 1 tests
+1703178622
+09:23:40.130 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:23:41.597 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #129
+09:23:41.598 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.ResizableDoubleArray:446 which is executed by 1 tests
+1703178622
+09:23:42.714 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #130
+09:23:42.715 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.ResizableDoubleArray:445 which is executed by 1 tests
+1703178622
+09:23:43.694 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #131
+09:23:43.698 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.ResizableDoubleArray:443 which is executed by 1 tests
+1703178622
+09:23:44.451 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #132
+09:23:44.453 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.ResizableDoubleArray:442 which is executed by 1 tests
+1703178622
+09:23:45.429 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:23:48.424 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #133
+09:23:48.430 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.FastMath:3378 which is executed by 1 tests
+1033054629
+09:23:49.296 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #134
+09:23:49.298 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.FastMath:3377 which is executed by 1 tests
+1033054629
+09:23:50.228 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:23:52.099 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #135
+09:23:52.101 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.FastMath:3376 which is executed by 1 tests
+1033054629
+09:23:53.144 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #136
+09:23:53.148 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.FastMath:3372 which is executed by 1 tests
+1033054629
+09:23:54.064 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:23:55.984 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #137
+09:23:55.986 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.FastMath:3362 which is executed by 1 tests
+1033054629
+09:23:56.906 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #138
+09:23:56.909 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.FastMath:3358 which is executed by 1 tests
+1033054629
+09:23:57.923 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:23:59.666 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #139
+09:23:59.667 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.FastMath:3354 which is executed by 1 tests
+1033054629
+09:24:00.562 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:24:02.299 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #140
+09:24:02.300 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.FastMath:3353 which is executed by 1 tests
+1033054629
+09:24:03.276 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #141
+09:24:03.278 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.FastMath:3349 which is executed by 1 tests
+1033054629
+09:24:04.251 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:24:06.076 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #142
+09:24:06.077 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.FastMath:3345 which is executed by 1 tests
+1033054629
+09:24:07.109 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:24:08.839 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #143
+09:24:08.840 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:209 which is executed by 2 tests
+192698619
+09:24:09.556 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #144
+09:24:09.557 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.Precision:341 which is executed by 2 tests
+627790943
+09:24:10.435 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #145
+09:24:10.439 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.Precision:338 which is executed by 2 tests
+627790943
+09:24:11.153 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #146
+09:24:11.156 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:194 which is executed by 3 tests
+192698619
+09:24:11.909 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #147
+09:24:11.913 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.FastMath:3435 which is executed by 3 tests
+1033054629
+09:24:12.740 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #148
+09:24:12.744 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.analysis.QuinticFunction:33 which is executed by 3 tests
+557688958
+09:24:13.652 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #149
+09:24:13.653 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:192 which is executed by 4 tests
+192698619
+09:24:14.656 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #150
+09:24:14.658 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:191 which is executed by 5 tests
+192698619
+09:24:15.651 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:24:17.036 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #151
+09:24:17.039 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.Incrementor:114 which is executed by 5 tests
+-1541725837
+09:24:17.963 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #152
+09:24:17.966 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.BaseOptimizer:83 which is executed by 5 tests
+-1860145851
+09:24:18.680 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #153
+09:24:18.681 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:272 which is executed by 5 tests
+192698619
+09:24:19.548 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #154
+09:24:19.550 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:221 which is executed by 5 tests
+192698619
+09:24:20.305 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #155
+09:24:20.309 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:219 which is executed by 5 tests
+192698619
+09:24:21.060 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #156
+09:24:21.064 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:274 which is executed by 6 tests
+192698619
+09:24:21.850 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #157
+09:24:21.853 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:273 which is executed by 6 tests
+192698619
+09:24:22.778 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #158
+09:24:22.780 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:271 which is executed by 6 tests
+192698619
+09:24:23.658 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #159
+09:24:23.661 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:270 which is executed by 7 tests
+192698619
+09:24:24.630 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:24:26.024 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #160
+09:24:26.026 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:262 which is executed by 7 tests
+192698619
+09:24:26.794 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #161
+09:24:26.797 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:190 which is executed by 8 tests
+192698619
+09:24:27.560 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:24:28.816 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #162
+09:24:28.817 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:187 which is executed by 8 tests
+192698619
+09:24:29.567 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #163
+09:24:29.569 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:186 which is executed by 8 tests
+192698619
+09:24:30.318 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #164
+09:24:30.319 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:248 which is executed by 8 tests
+192698619
+09:24:31.051 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #165
+09:24:31.052 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:218 which is executed by 8 tests
+192698619
+09:24:31.789 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:24:33.098 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #166
+09:24:33.100 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:202 which is executed by 8 tests
+192698619
+09:24:34.038 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #167
+09:24:34.039 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:184 which is executed by 9 tests
+192698619
+09:24:34.775 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #168
+09:24:34.777 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:174 which is executed by 9 tests
+192698619
+09:24:35.617 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #169
+09:24:35.619 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:310 which is executed by 9 tests
+192698619
+09:24:36.602 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #170
+09:24:36.603 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:279 which is executed by 9 tests
+192698619
+09:24:37.389 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #171
+09:24:37.390 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:278 which is executed by 9 tests
+192698619
+09:24:38.130 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #172
+09:24:38.131 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:257 which is executed by 9 tests
+192698619
+09:24:38.871 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #173
+09:24:38.873 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:256 which is executed by 9 tests
+192698619
+09:24:39.577 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #174
+09:24:39.578 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:255 which is executed by 9 tests
+192698619
+09:24:40.284 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #175
+09:24:40.285 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:254 which is executed by 9 tests
+192698619
+09:24:40.997 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #176
+09:24:40.998 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:253 which is executed by 9 tests
+192698619
+09:24:41.892 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #177
+09:24:41.894 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:252 which is executed by 9 tests
+192698619
+09:24:42.751 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #178
+09:24:42.751 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:250 which is executed by 9 tests
+192698619
+09:24:43.636 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #179
+09:24:43.640 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:247 which is executed by 9 tests
+192698619
+09:24:44.750 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:24:45.934 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #180
+09:24:45.935 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:211 which is executed by 9 tests
+192698619
+09:24:46.739 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #181
+09:24:46.745 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:200 which is executed by 9 tests
+192698619
+09:24:47.499 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #182
+09:24:47.500 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.UnivariatePointValuePair:65 which is executed by 10 tests
+-628018500
+09:24:48.218 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #183
+09:24:48.219 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.UnivariatePointValuePair:56 which is executed by 10 tests
+-628018500
+09:24:48.931 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #184
+09:24:48.932 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.MaxEval:49 which is executed by 10 tests
+-1786638335
+09:24:49.628 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #185
+09:24:49.629 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:44 which is executed by 10 tests
+192698619
+09:24:50.546 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #186
+09:24:50.548 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:309 which is executed by 10 tests
+192698619
+09:24:51.490 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:24:52.855 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #187
+09:24:52.856 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:305 which is executed by 10 tests
+192698619
+09:24:53.587 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:24:55.052 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #188
+09:24:55.053 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:302 which is executed by 10 tests
+192698619
+09:24:55.832 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:24:57.193 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #189
+09:24:57.194 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:285 which is executed by 10 tests
+192698619
+09:24:58.223 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #190
+09:24:58.225 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:284 which is executed by 10 tests
+192698619
+09:24:59.281 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #191
+09:24:59.283 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:277 which is executed by 10 tests
+192698619
+09:25:00.351 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #192
+09:25:00.353 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:269 which is executed by 10 tests
+192698619
+09:25:01.415 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #193
+09:25:01.417 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:268 which is executed by 10 tests
+192698619
+09:25:02.477 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #194
+09:25:02.479 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:267 which is executed by 10 tests
+192698619
+09:25:03.533 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #195
+09:25:03.535 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:266 which is executed by 10 tests
+192698619
+09:25:04.606 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #196
+09:25:04.608 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:265 which is executed by 10 tests
+192698619
+09:25:05.668 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #197
+09:25:05.670 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:264 which is executed by 10 tests
+192698619
+09:25:06.730 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:25:08.096 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #198
+09:25:08.098 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:260 which is executed by 10 tests
+192698619
+09:25:09.048 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #199
+09:25:09.049 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:259 which is executed by 10 tests
+192698619
+09:25:09.993 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:25:11.275 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #200
+09:25:11.276 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:246 which is executed by 10 tests
+192698619
+09:25:12.319 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:25:13.689 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #201
+09:25:13.691 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:241 which is executed by 10 tests
+192698619
+09:25:14.676 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:25:16.000 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #202
+09:25:16.001 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:236 which is executed by 10 tests
+192698619
+09:25:16.851 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #203
+09:25:16.852 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:235 which is executed by 10 tests
+192698619
+09:25:17.755 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #204
+09:25:17.758 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:234 which is executed by 10 tests
+192698619
+09:25:18.754 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #205
+09:25:18.759 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:233 which is executed by 10 tests
+192698619
+09:25:19.618 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #206
+09:25:19.619 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:228 which is executed by 10 tests
+192698619
+09:25:20.536 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:25:21.872 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #207
+09:25:21.873 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:227 which is executed by 10 tests
+192698619
+09:25:22.776 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #208
+09:25:22.777 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:224 which is executed by 10 tests
+192698619
+09:25:23.705 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #209
+09:25:23.706 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:217 which is executed by 10 tests
+192698619
+09:25:24.469 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:25:25.726 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #210
+09:25:25.726 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:213 which is executed by 10 tests
+192698619
+09:25:26.521 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #211
+09:25:26.522 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:208 which is executed by 10 tests
+192698619
+09:25:27.278 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:25:28.523 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #212
+09:25:28.524 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:204 which is executed by 10 tests
+192698619
+09:25:29.254 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #213
+09:25:29.255 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:199 which is executed by 10 tests
+192698619
+09:25:29.978 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:25:31.164 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #214
+09:25:31.164 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:182 which is executed by 10 tests
+192698619
+09:25:31.943 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:25:33.095 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #215
+09:25:33.096 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:180 which is executed by 10 tests
+192698619
+09:25:33.859 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #216
+09:25:33.861 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:179 which is executed by 10 tests
+192698619
+09:25:34.642 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #217
+09:25:34.643 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:176 which is executed by 10 tests
+192698619
+09:25:35.456 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #218
+09:25:35.457 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:173 which is executed by 10 tests
+192698619
+09:25:36.198 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:25:37.480 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #219
+09:25:37.481 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:171 which is executed by 10 tests
+192698619
+09:25:38.210 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #220
+09:25:38.212 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:170 which is executed by 10 tests
+192698619
+09:25:38.933 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #221
+09:25:38.935 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:169 which is executed by 10 tests
+192698619
+09:25:39.669 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #222
+09:25:39.673 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:168 which is executed by 10 tests
+192698619
+09:25:40.384 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #223
+09:25:40.386 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:167 which is executed by 10 tests
+192698619
+09:25:41.123 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:25:42.420 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #224
+09:25:42.422 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:165 which is executed by 10 tests
+192698619
+09:25:43.127 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #225
+09:25:43.132 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:164 which is executed by 10 tests
+192698619
+09:25:43.870 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #226
+09:25:43.871 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:163 which is executed by 10 tests
+192698619
+09:25:44.782 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #227
+09:25:44.783 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:162 which is executed by 10 tests
+192698619
+09:25:45.716 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #228
+09:25:45.717 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:161 which is executed by 10 tests
+192698619
+09:25:46.668 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:25:47.929 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #229
+09:25:47.930 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:160 which is executed by 10 tests
+192698619
+09:25:48.837 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #230
+09:25:48.838 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:157 which is executed by 10 tests
+192698619
+09:25:49.560 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #231
+09:25:49.563 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:156 which is executed by 10 tests
+192698619
+09:25:50.351 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #232
+09:25:50.353 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:155 which is executed by 10 tests
+192698619
+09:25:51.162 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #233
+09:25:51.165 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:153 which is executed by 10 tests
+192698619
+09:25:51.968 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #234
+09:25:51.970 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:151 which is executed by 10 tests
+192698619
+09:25:52.768 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #235
+09:25:52.770 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:148 which is executed by 10 tests
+192698619
+09:25:53.570 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #236
+09:25:53.572 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:147 which is executed by 10 tests
+192698619
+09:25:54.390 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #237
+09:25:54.395 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:145 which is executed by 10 tests
+192698619
+09:25:55.276 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #238
+09:25:55.280 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:144 which is executed by 10 tests
+192698619
+09:25:56.112 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #239
+09:25:56.117 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:141 which is executed by 10 tests
+192698619
+09:25:57.018 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:25:58.251 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #240
+09:25:58.252 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:140 which is executed by 10 tests
+192698619
+09:25:59.035 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #241
+09:25:59.038 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:139 which is executed by 10 tests
+192698619
+09:25:59.833 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #242
+09:25:59.835 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:138 which is executed by 10 tests
+192698619
+09:26:00.666 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #243
+09:26:00.669 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:137 which is executed by 10 tests
+192698619
+09:26:01.479 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #244
+09:26:01.481 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:136 which is executed by 10 tests
+192698619
+09:26:02.270 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #245
+09:26:02.272 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:135 which is executed by 10 tests
+192698619
+09:26:03.089 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #246
+09:26:03.093 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:129 which is executed by 10 tests
+192698619
+09:26:03.877 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #247
+09:26:03.879 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:128 which is executed by 10 tests
+192698619
+09:26:04.675 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #248
+09:26:04.677 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:127 which is executed by 10 tests
+192698619
+09:26:05.512 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:26:06.736 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #249
+09:26:06.737 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:123 which is executed by 10 tests
+192698619
+09:26:07.521 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #250
+09:26:07.525 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:122 which is executed by 10 tests
+192698619
+09:26:08.248 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #251
+09:26:08.250 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:119 which is executed by 10 tests
+192698619
+09:26:08.966 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #252
+09:26:08.969 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:118 which is executed by 10 tests
+192698619
+09:26:09.688 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #253
+09:26:09.693 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:117 which is executed by 10 tests
+192698619
+09:26:10.379 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #254
+09:26:10.382 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.BrentOptimizer:116 which is executed by 10 tests
+192698619
+09:26:11.108 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #255
+09:26:11.110 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.FastMath:3031 which is executed by 10 tests
+1033054629
+09:26:11.902 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #256
+09:26:11.905 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.FastMath:3013 which is executed by 10 tests
+1033054629
+09:26:12.676 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #257
+09:26:12.678 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.FastMath:3008 which is executed by 10 tests
+1033054629
+09:26:13.680 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #258
+09:26:13.681 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.Incrementor:165 which is executed by 10 tests
+-1541725837
+09:26:14.601 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #259
+09:26:14.602 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.Incrementor:164 which is executed by 10 tests
+-1541725837
+09:26:15.513 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #260
+09:26:15.517 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.Incrementor:158 which is executed by 10 tests
+-1541725837
+09:26:16.443 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #261
+09:26:16.445 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.Incrementor:155 which is executed by 10 tests
+-1541725837
+09:26:17.280 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:26:18.455 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #262
+09:26:18.456 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.Incrementor:97 which is executed by 10 tests
+-1541725837
+09:26:19.238 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #263
+09:26:19.241 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.Incrementor:96 which is executed by 10 tests
+-1541725837
+09:26:20.037 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #264
+09:26:20.040 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.UnivariateObjectiveFunction:45 which is executed by 10 tests
+-1349133902
+09:26:20.794 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #265
+09:26:20.795 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.BaseOptimizer:230 which is executed by 10 tests
+-1860145851
+09:26:21.601 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #266
+09:26:21.602 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.BaseOptimizer:225 which is executed by 10 tests
+-1860145851
+09:26:22.398 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:26:23.603 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #267
+09:26:23.604 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.BaseOptimizer:223 which is executed by 10 tests
+-1860145851
+09:26:24.328 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #268
+09:26:24.329 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.BaseOptimizer:222 which is executed by 10 tests
+-1860145851
+09:26:25.161 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #269
+09:26:25.162 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.BaseOptimizer:221 which is executed by 10 tests
+-1860145851
+09:26:26.125 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:26:27.409 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #270
+09:26:27.411 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.BaseOptimizer:220 which is executed by 10 tests
+-1860145851
+09:26:28.421 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #271
+09:26:28.423 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.BaseOptimizer:193 which is executed by 10 tests
+-1860145851
+09:26:29.279 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #272
+09:26:29.281 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.BaseOptimizer:192 which is executed by 10 tests
+-1860145851
+09:26:30.098 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #273
+09:26:30.099 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.BaseOptimizer:154 which is executed by 10 tests
+-1860145851
+09:26:30.938 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #274
+09:26:30.939 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.BaseOptimizer:152 which is executed by 10 tests
+-1860145851
+09:26:31.775 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #275
+09:26:31.777 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.BaseOptimizer:151 which is executed by 10 tests
+-1860145851
+09:26:32.611 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #276
+09:26:32.612 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.BaseOptimizer:148 which is executed by 10 tests
+-1860145851
+09:26:33.426 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #277
+09:26:33.427 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.BaseOptimizer:113 which is executed by 10 tests
+-1860145851
+09:26:34.236 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #278
+09:26:34.237 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.UnivariateOptimizer:150 which is executed by 10 tests
+-334751050
+09:26:35.062 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #279
+09:26:35.064 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.UnivariateOptimizer:149 which is executed by 10 tests
+-334751050
+09:26:35.886 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #280
+09:26:35.888 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.UnivariateOptimizer:135 which is executed by 10 tests
+-334751050
+09:26:36.704 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #281
+09:26:36.706 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.UnivariateOptimizer:129 which is executed by 10 tests
+-334751050
+09:26:37.528 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #282
+09:26:37.528 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.UnivariateOptimizer:123 which is executed by 10 tests
+-334751050
+09:26:38.265 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #283
+09:26:38.266 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.UnivariateOptimizer:117 which is executed by 10 tests
+-334751050
+09:26:39.003 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #284
+09:26:39.004 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.UnivariateOptimizer:114 which is executed by 10 tests
+-334751050
+09:26:39.774 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #285
+09:26:39.775 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.UnivariateOptimizer:113 which is executed by 10 tests
+-334751050
+09:26:40.505 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #286
+09:26:40.506 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.UnivariateOptimizer:112 which is executed by 10 tests
+-334751050
+09:26:41.283 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:26:42.572 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #287
+09:26:42.573 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.UnivariateOptimizer:110 which is executed by 10 tests
+-334751050
+09:26:43.295 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #288
+09:26:43.296 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.UnivariateOptimizer:109 which is executed by 10 tests
+-334751050
+09:26:44.102 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #289
+09:26:44.103 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.UnivariateOptimizer:108 which is executed by 10 tests
+-334751050
+09:26:45.073 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:26:46.432 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #290
+09:26:46.437 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.UnivariateOptimizer:106 which is executed by 10 tests
+-334751050
+09:26:47.331 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #291
+09:26:47.332 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.UnivariateOptimizer:105 which is executed by 10 tests
+-334751050
+09:26:48.307 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #292
+09:26:48.313 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.UnivariateOptimizer:104 which is executed by 10 tests
+-334751050
+09:26:49.232 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #293
+09:26:49.234 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.UnivariateOptimizer:103 which is executed by 10 tests
+-334751050
+09:26:50.152 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #294
+09:26:50.154 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.UnivariateOptimizer:102 which is executed by 10 tests
+-334751050
+09:26:51.065 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #295
+09:26:51.067 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.UnivariateOptimizer:101 which is executed by 10 tests
+-334751050
+09:26:51.982 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:26:53.116 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #296
+09:26:53.118 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.UnivariateOptimizer:100 which is executed by 10 tests
+-334751050
+09:26:54.031 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #297
+09:26:54.034 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.UnivariateOptimizer:96 which is executed by 10 tests
+-334751050
+09:26:54.961 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #298
+09:26:54.964 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.UnivariateOptimizer:78 which is executed by 10 tests
+-334751050
+09:26:55.916 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #299
+09:26:55.919 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.UnivariateOptimizer:71 which is executed by 10 tests
+-334751050
+09:26:56.891 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #300
+09:26:56.895 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.SearchInterval:94 which is executed by 10 tests
+1724863150
+09:26:57.796 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #301
+09:26:57.800 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.SearchInterval:86 which is executed by 10 tests
+1724863150
+09:26:58.712 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #302
+09:26:58.723 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.optim.univariate.SearchInterval:78 which is executed by 10 tests
+1724863150
+09:26:59.604 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #303
+09:26:59.606 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.Precision:346 which is executed by 10 tests
+627790943
+09:27:00.507 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #304
+09:27:00.509 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.Precision:344 which is executed by 10 tests
+627790943
+09:27:01.395 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #305
+09:27:01.399 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.Precision:340 which is executed by 10 tests
+627790943
+09:27:02.301 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:27:03.390 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #306
+09:27:03.392 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.Precision:337 which is executed by 10 tests
+627790943
+09:27:04.306 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+09:27:05.570 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #307
+09:27:05.571 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.Precision:334 which is executed by 10 tests
+627790943
+09:27:06.400 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #308
+09:27:06.402 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.Precision:333 which is executed by 10 tests
+627790943
+09:27:07.284 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #309
+09:27:07.286 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.Precision:246 which is executed by 10 tests
+627790943
+09:27:08.171 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+09:27:08.722 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 1385
+09:27:08.723 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 10801
+09:27:08.725 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 66
+09:27:08.729 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+09:27:08.730 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 400626ms
+09:27:08.730 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+NO_ANGELIC_VALUE

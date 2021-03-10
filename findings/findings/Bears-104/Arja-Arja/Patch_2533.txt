@@ -1,0 +1,22 @@
+1 Delete /workspaces/APIARTy/data/Bears-104/traccar/src/org/traccar/protocol/SuntechProtocolDecoder.java 136
+Faulty:
+position.set(Position.KEY_ODOMETER,Integer.parseInt(values[index++]));
+Seed:
+NULL
+**************************************************
+2 Delete /workspaces/APIARTy/data/Bears-104/traccar/src/org/traccar/protocol/SuntechProtocolDecoder.java 113
+Faulty:
+position.setDeviceId(deviceSession.getDeviceId());
+Seed:
+NULL
+**************************************************
+3 Delete /workspaces/APIARTy/data/Bears-104/traccar/src/org/traccar/protocol/SuntechProtocolDecoder.java 151
+Faulty:
+if (index < values.length) {
+  position.set(Position.KEY_BATTERY,Double.parseDouble(values[index]));
+}
+Seed:
+NULL
+**************************************************
+Evaluations: 1676
+EstimatedTime: 2948254

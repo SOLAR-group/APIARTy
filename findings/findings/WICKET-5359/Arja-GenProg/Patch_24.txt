@@ -1,0 +1,50 @@
+1 Delete /apiarty/data/WICKET-5359/wicket/wicket-util/src/main/java/org/apache/wicket/util/lang/Objects.java 608
+Faulty:
+if ((object1 != null) && object1.getClass().isArray()) {
+  if ((object2 != null) && object2.getClass().isArray() && (object2.getClass() == object1.getClass())) {
+    result=(Array.getLength(object1) == Array.getLength(object2));
+    if (result) {
+      for (int i=0, icount=Array.getLength(object1); result && (i < icount); i++) {
+        result=isEqual(Array.get(object1,i),Array.get(object2,i));
+      }
+    }
+  }
+}
+ else {
+  result=(object1 != null) && (object2 != null) && ((compareWithConversion(object1,object2) == 0) || object1.equals(object2));
+}
+Seed:
+primitiveDefaults.put(Integer.TYPE,0);
+**************************************************
+2 Delete /apiarty/data/WICKET-5359/wicket/wicket-util/src/main/java/org/apache/wicket/util/lang/Objects.java 250
+Faulty:
+if ((v1 instanceof Comparable) && v1.getClass().isAssignableFrom(v2.getClass())) {
+  result=((Comparable)v1).compareTo(v2);
+  break;
+}
+ else {
+  throw new IllegalArgumentException("invalid comparison: " + v1.getClass().getName() + " and "+ v2.getClass().getName());
+}
+Seed:
+return false;
+**************************************************
+3 InsertBefore /apiarty/data/WICKET-5359/wicket/wicket-util/src/main/java/org/apache/wicket/util/lang/Objects.java 608
+Faulty:
+if ((object1 != null) && object1.getClass().isArray()) {
+  if ((object2 != null) && object2.getClass().isArray() && (object2.getClass() == object1.getClass())) {
+    result=(Array.getLength(object1) == Array.getLength(object2));
+    if (result) {
+      for (int i=0, icount=Array.getLength(object1); result && (i < icount); i++) {
+        result=isEqual(Array.get(object1,i),Array.get(object2,i));
+      }
+    }
+  }
+}
+ else {
+  result=(object1 != null) && (object2 != null) && ((compareWithConversion(object1,object2) == 0) || object1.equals(object2));
+}
+Seed:
+String name=null;
+**************************************************
+Evaluations: 58
+EstimatedTime: 29052

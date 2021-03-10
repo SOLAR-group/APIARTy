@@ -1,0 +1,104 @@
+14:01:51.797 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/aclang-1/commons-lang/src/java, /apiarty/data/aclang-1/commons-lang/src/test]
+14:01:51.811 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/aclang-1/commons-lang/target/classes/, file:/apiarty/data/aclang-1/commons-lang/target/test-classes/, file:/root/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar]
+14:01:51.813 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+14:01:51.814 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.commons.lang.text.StrBuilderTest]
+14:01:51.817 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/aclang-1/commons-lang/src/java, /apiarty/data/aclang-1/commons-lang/src/test], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[org.apache.commons.lang.text.StrBuilderTest], complianceLevel=8, outputFolder=., json=false}
+14:01:51.818 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+14:01:51.832 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+14:01:51.833 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+14:01:51.834 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+14:01:51.834 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+14:01:51.837 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+14:01:51.838 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+14:02:16.173 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+14:02:16.175 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.lang.text.StrBuilder:158 which is executed by 3 tests
+370441291
+14:02:19.305 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+14:02:19.306 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.lang.text.StrBuilder:1230 which is executed by 1 tests
+370441291
+14:02:21.850 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+14:02:21.851 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.lang.text.StrBuilder:1229 which is executed by 1 tests
+370441291
+14:02:24.464 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+14:02:24.466 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.lang.text.StrBuilder:1228 which is executed by 1 tests
+370441291
+14:02:27.674 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:02:33.169 [pool-2-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLang412Left(org.apache.commons.lang.text.StrBuilderTest): null, testLang412Right(org.apache.commons.lang.text.StrBuilderTest): null]
+14:02:33.170 [pool-2-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLang412Left(org.apache.commons.lang.text.StrBuilderTest): null, testLang412Right(org.apache.commons.lang.text.StrBuilderTest): null]
+14:02:33.171 [pool-2-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.lang.text.StrBuilder:1228.
+14:02:33.172 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+14:02:33.173 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.lang.text.StrBuilder:1227 which is executed by 1 tests
+370441291
+14:02:37.782 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:02:42.034 [pool-8-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLang412Left(org.apache.commons.lang.text.StrBuilderTest): null, testLang412Right(org.apache.commons.lang.text.StrBuilderTest): Failed to invoke appendFixedWidthPadRight correctly expected:<[**********]> but was:<[]>]
+14:02:42.036 [pool-8-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLang412Left(org.apache.commons.lang.text.StrBuilderTest): null, testLang412Right(org.apache.commons.lang.text.StrBuilderTest): null]
+14:02:42.037 [pool-8-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.lang.text.StrBuilder:1227.
+14:02:42.038 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+14:02:45.928 [pool-14-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLang412Left(org.apache.commons.lang.text.StrBuilderTest): null, testLang412Right(org.apache.commons.lang.text.StrBuilderTest): Failed to invoke appendFixedWidthPadRight correctly expected:<[**********]> but was:<[]>]
+14:02:45.929 [pool-14-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLang412Left(org.apache.commons.lang.text.StrBuilderTest): null, testLang412Right(org.apache.commons.lang.text.StrBuilderTest): null]
+14:02:45.930 [pool-14-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.lang.text.StrBuilder:1227.
+14:02:45.931 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+14:02:45.932 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.lang.text.StrBuilder:1186 which is executed by 1 tests
+370441291
+14:02:49.029 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+14:02:49.030 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.lang.text.StrBuilder:1185 which is executed by 1 tests
+370441291
+14:02:52.916 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+14:02:52.918 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.lang.text.StrBuilder:1184 which is executed by 1 tests
+370441291
+14:02:55.303 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:02:59.733 [pool-20-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLang412Left(org.apache.commons.lang.text.StrBuilderTest): null, testLang412Right(org.apache.commons.lang.text.StrBuilderTest): null]
+14:02:59.734 [pool-20-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLang412Left(org.apache.commons.lang.text.StrBuilderTest): null, testLang412Right(org.apache.commons.lang.text.StrBuilderTest): null]
+14:02:59.736 [pool-20-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.lang.text.StrBuilder:1184.
+14:02:59.737 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+14:02:59.738 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.lang.text.StrBuilder:1183 which is executed by 1 tests
+370441291
+14:03:02.248 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:03:08.271 [pool-26-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLang412Left(org.apache.commons.lang.text.StrBuilderTest): Failed to invoke appendFixedWidthPadLeft correctly expected:<[**********]> but was:<[]>, testLang412Right(org.apache.commons.lang.text.StrBuilderTest): null]
+14:03:08.272 [pool-26-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLang412Left(org.apache.commons.lang.text.StrBuilderTest): null, testLang412Right(org.apache.commons.lang.text.StrBuilderTest): null]
+14:03:08.274 [pool-26-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.lang.text.StrBuilder:1183.
+14:03:08.275 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+14:03:12.975 [pool-32-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLang412Left(org.apache.commons.lang.text.StrBuilderTest): Failed to invoke appendFixedWidthPadLeft correctly expected:<[**********]> but was:<[]>, testLang412Right(org.apache.commons.lang.text.StrBuilderTest): null]
+14:03:12.976 [pool-32-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLang412Left(org.apache.commons.lang.text.StrBuilderTest): null, testLang412Right(org.apache.commons.lang.text.StrBuilderTest): null]
+14:03:12.977 [pool-32-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.lang.text.StrBuilder:1183.
+14:03:12.977 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+14:03:12.986 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.lang.text.StrBuilder:233 which is executed by 74 tests
+370441291
+14:03:15.959 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+14:03:15.960 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.lang.text.StrBuilder:228 which is executed by 74 tests
+370441291
+14:03:19.019 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+14:03:24.651 [pool-38-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLang412Left(org.apache.commons.lang.text.StrBuilderTest): null, testLang412Right(org.apache.commons.lang.text.StrBuilderTest): null]
+14:03:24.652 [pool-38-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLang412Left(org.apache.commons.lang.text.StrBuilderTest): null, testLang412Right(org.apache.commons.lang.text.StrBuilderTest): null]
+14:03:24.652 [pool-38-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.lang.text.StrBuilder:228.
+14:03:24.653 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+14:03:29.944 [pool-44-thread-1] DEBUG tests.output - Failing tests with false: 
+[testLang412Left(org.apache.commons.lang.text.StrBuilderTest): null, testLang412Right(org.apache.commons.lang.text.StrBuilderTest): null]
+14:03:29.945 [pool-44-thread-1] DEBUG tests.output - Failing tests with true: 
+[testLang412Left(org.apache.commons.lang.text.StrBuilderTest): null, testLang412Right(org.apache.commons.lang.text.StrBuilderTest): null]
+14:03:29.945 [pool-44-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.lang.text.StrBuilder:228.
+14:03:29.949 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+14:03:30.357 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 248
+14:03:30.365 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 4324
+14:03:30.365 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 8
+14:03:30.366 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+14:03:30.367 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 0
+14:03:30.370 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 0
+14:03:30.371 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 0
+14:03:30.371 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 98156ms
+14:03:30.372 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+NO_ANGELIC_VALUE

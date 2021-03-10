@@ -1,0 +1,17 @@
+java.io.IOException: Cannot run program "/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java": error=7, Argument list too long
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at us.msu.cse.repair.core.testexecutors.ExternalTestExecutor.runTests(ExternalTestExecutor.java:98)
+	at us.msu.cse.repair.algorithms.kali.Kali.invokeTestExecutor(Kali.java:145)
+	at us.msu.cse.repair.algorithms.kali.Kali.runTests(Kali.java:164)
+	at us.msu.cse.repair.algorithms.kali.Kali.redirectBranch(Kali.java:82)
+	at us.msu.cse.repair.algorithms.kali.Kali.redirectBranch(Kali.java:64)
+	at us.msu.cse.repair.algorithms.kali.Kali.execute(Kali.java:50)
+	at us.msu.cse.repair.algorithms.kali.KaliAlgInterface.execute(KaliAlgInterface.java:24)
+	at us.msu.cse.repair.core.AbstractRepairAlgorithm.execute(AbstractRepairAlgorithm.java:18)
+	at us.msu.cse.repair.KaliMain.main(KaliMain.java:16)
+Caused by: java.io.IOException: error=7, Argument list too long
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 9 more

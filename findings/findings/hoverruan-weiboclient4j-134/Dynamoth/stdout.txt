@@ -1,0 +1,23 @@
+14:08:44.313 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/hoverruan-weiboclient4j-134/hoverruan-weiboclient4j/src/main/java, /apiarty/data/hoverruan-weiboclient4j-134/hoverruan-weiboclient4j/src/test/java]
+14:08:44.337 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/hoverruan-weiboclient4j-134/hoverruan-weiboclient4j/target/classes/, file:/apiarty/data/hoverruan-weiboclient4j-134/hoverruan-weiboclient4j/target/test-classes/, file:/root/.m2/repository/org/scribe/scribe/1.3.5/scribe-1.3.5.jar, file:/root/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar, file:/root/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar, file:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar]
+14:08:44.338 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+14:08:44.341 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [weiboclient4j.params.CoreParametersTest]
+14:08:44.353 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=DYNAMOTH, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/hoverruan-weiboclient4j-134/hoverruan-weiboclient4j/src/main/java, /apiarty/data/hoverruan-weiboclient4j-134/hoverruan-weiboclient4j/src/test/java], projectClasspath='[Ljava.net.URL;@3c5a99da', projectTests=[weiboclient4j.params.CoreParametersTest], complianceLevel=7, outputFolder=., json=false}
+14:08:44.355 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+14:08:44.408 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+14:08:44.411 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+14:08:44.414 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+14:08:44.416 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+14:08:44.428 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+14:08:44.429 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+14:09:25.707 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+14:09:25.710 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation weiboclient4j.params.CoreParameters:172 which is executed by 1 tests
+1163616010
+14:09:32.155 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+14:09:32.432 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 235
+14:09:32.437 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 1424
+14:09:32.459 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 0
+14:09:32.471 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+14:09:32.476 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 47850ms
+14:09:32.481 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+NO_ANGELIC_VALUE

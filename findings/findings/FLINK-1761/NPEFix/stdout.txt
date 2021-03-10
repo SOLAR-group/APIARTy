@@ -1,0 +1,44 @@
+TernarySplitter  in 241ms
+return this.bucket != null
+return this.object != null
+return next != null
+super(String.format("%s Task to schedule: < %s > with groupID < %s > in sharing group < %s >. Resources available to scheduler: Number of instances=%d, total number of slots=%d, available slots=%d", NoResourceAvailableException.BASE_MESSAGE, task.getTaskToExecute(), task.getLocationConstraint() == null ? task.getTaskToExecute().getVertex().getJobvertexId() : task.getLocationConstraint().getGroupId(), task.getSlotSharingGroup(), numInstances, numSlotsTotal, availableSlots))
+throw new RuntimeException(("The deserialization of the encoded data distribution state caused an error" + ex.getMessage()) == null ? "." : ": " + ex.getMessage(), ex)
+return config.getBytes(TaskConfig.ITERATION_CONVERGENCE_CRITERION, null) != null
+return String.format("%s @ %s - %d slots - URL: %s", instanceId, connectionInfo.getHostname(), numberOfSlots, taskManager != null ? taskManager.path() : "ActorRef.noSender")
+return String.format("Attempt #%d (%s) @ %s - [%s]", attemptNumber, vertex.getSimpleName(), assignedResource == null ? "(unassigned)" : assignedResource.toString(), state)
+wrt.write(("\"node\": \"" + (location == null ? "(none)" : location.getFQDNHostname())) + "\",")
+wrt.write(("\"message\": \"" + (failureCause == null ? "" : StringUtils.escapeHtml(ExceptionUtils.stringifyException(failureCause)))) + "\"")
+Preconditions.checkState(partitionRequestClient != null, "Queried for a buffer before requesting a queue.")
+Preconditions.checkState(partitionRequestClient != null, "Tried to send task event to producer before requesting a queue.")
+return buffer != null
+return event != null
+return receiverId == null
+return this.memory == null
+Preconditions.checkState(this.bufferPool == null, "Bug in result partition setup logic: Already registered buffer pool.")
+final boolean forceExternalLocation = (vertex.isScheduleLocalOnly() && (preferredLocations != null)) && preferredLocations.iterator().hasNext()
+Preconditions.checkState(bootstrap == null, "Netty server has already been initialized.")
+Task.LOG.info(((getTaskNameWithSubtasks() + " switched to ") + newState) + (message == null ? "" : " : " + message))
+return this.memory == null
+return this.sharedSlot == null
+return (this.sharedSlot == null) || this.sharedSlot.isDead()
+Preconditions.checkState(this.bufferPool == null, "Bug in input gate setup logic: buffer pool has" + "already been set for this input gate.")
+Preconditions.checkState(queueIterator != null, "Queried for a buffer before requesting a queue.")
+Preconditions.checkState(queueIterator != null, "Tried to send task event to producer before requesting a queue.")
+throw new RuntimeException(("Initializing the input streams failed in Task " + getEnvironment().getTaskName()) + (e.getMessage() == null ? "." : ": " + e.getMessage()), e)
+throw new RuntimeException("Initializing the output handlers failed" + (e.getMessage() == null ? "." : ": " + e.getMessage()), e)
+throw new RuntimeException("Initializing the input processing failed" + (e.getMessage() == null ? "." : ": " + e.getMessage()), e)
+throw new RuntimeException("Initializing the UDF" + (e.getMessage() == null ? "." : ": " + e.getMessage()), e)
+throw new RuntimeException("Initializing the user code and the configuration failed" + (e.getMessage() == null ? "." : ": " + e.getMessage()), e)
+return this.memory == null
+throw new RuntimeException("Error spilling Hash Join Partition" + (ioex.getMessage() == null ? "." : ": " + ioex.getMessage()), ioex)
+return String.format("PipelinedSubpartition [number of buffers: %d (%d bytes), " + "finished? %s, read view? %s]", getTotalNumberOfBuffers(), getTotalNumberOfBytes(), isFinished, readView != null)
+Preconditions.checkState(this.owner == null, "Buffer pool owner has already been set.")
+boolean askToRecycle = owner != null
+return ((other.jobID.equals(this.jobID) && other.executionId.equals(this.executionId)) && (other.executionState == this.executionState)) && (other.cachedError == null ? this.cachedError == null : (this.cachedError != null) && (other.cachedError.getClass() == this.cachedError.getClass()))
+return ((other.jobID.equals(this.jobID) && other.executionId.equals(this.executionId)) && (other.executionState == this.executionState)) && (other.cachedError == null ? this.cachedError == null : (this.cachedError != null) && (other.cachedError.getClass() == this.cachedError.getClass()))
+return ((other.jobID.equals(this.jobID) && other.executionId.equals(this.executionId)) && (other.executionState == this.executionState)) && (other.cachedError == null ? this.cachedError == null : (this.cachedError != null) && (other.cachedError.getClass() == this.cachedError.getClass()))
+return String.format("TaskState jobId=%s, executionId=%s, state=%s, error=%s", jobID, executionId, executionState, cachedError == null ? "(null)" : (cachedError.getClass().getName() + ": ") + cachedError.getMessage())
+return (("(" + slotNumber) + ")") + (getParent() != null ? getParent().hierarchy() : "")
+log.info(" JAVA_HOME: " + (javaHome == null ? "(not set)" : javaHome))
+CheckNotNull  in 1681ms

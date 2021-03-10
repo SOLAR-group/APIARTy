@@ -1,0 +1,23 @@
+1 Delete /workspaces/APIARTy/data/Bears-101/traccar/src/org/traccar/model/WifiAccessPoint.java 43
+Faulty:
+this.macAddress=macAddress;
+Seed:
+NULL
+**************************************************
+2 Delete /workspaces/APIARTy/data/Bears-101/traccar/src/org/traccar/protocol/Gl200ProtocolDecoder.java 624
+Faulty:
+for (int i=0; i < count; i++) {
+  String mac=parser.next().replaceAll("(..)","$1:");
+  network.addWifiAccessPoint(WifiAccessPoint.from(mac.substring(0,mac.length() - 1),parser.nextInt()));
+}
+Seed:
+NULL
+**************************************************
+3 Replace /workspaces/APIARTy/data/Bears-101/traccar/src/org/traccar/model/Position.java 177
+Faulty:
+this.outdated=outdated;
+Seed:
+this.protocol=protocol;
+**************************************************
+Evaluations: 1857
+EstimatedTime: 3820775

@@ -1,0 +1,641 @@
+16:36:08.135 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/CAMEL-7213/camel/camel-core/src/main/java, /apiarty/data/CAMEL-7213/camel/camel-core/src/test/java]
+16:36:08.139 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/CAMEL-7213/camel/camel-core/target/classes/, file:/apiarty/data/CAMEL-7213/camel/camel-core/target/test-classes/, file:/root/.m2/repository/org/apache/camel/spi-annotations/2.13-SNAPSHOT/spi-annotations-2.13-SNAPSHOT.jar, file:/root/.m2/repository/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4/concurrentlinkedhashmap-lru-1.4.jar, file:/root/.m2/repository/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar, file:/root/.m2/repository/org/osgi/org.osgi.core/4.3.1/org.osgi.core-4.3.1.jar, file:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/root/.m2/repository/org/slf4j/slf4j-log4j12/1.7.6/slf4j-log4j12-1.7.6.jar, file:/root/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar, file:/root/.m2/repository/org/easymock/easymock/3.2/easymock-3.2.jar, file:/root/.m2/repository/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar, file:/root/.m2/repository/org/objenesis/objenesis/1.3/objenesis-1.3.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.3.0/jackson-databind-2.3.0.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.3.0/jackson-annotations-2.3.0.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.3.0/jackson-core-2.3.0.jar, file:/root/.m2/repository/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.jar, file:/root/.m2/repository/org/apache/camel/apt/2.13-SNAPSHOT/apt-2.13-SNAPSHOT.jar]
+16:36:08.140 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+16:36:08.140 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.camel.converter.NIOConverterTest]
+16:36:08.143 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/CAMEL-7213/camel/camel-core/src/main/java, /apiarty/data/CAMEL-7213/camel/camel-core/src/test/java], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[org.apache.camel.converter.NIOConverterTest], complianceLevel=8, outputFolder=., json=false}
+16:36:08.144 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+16:36:08.149 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+16:36:08.150 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+16:36:08.151 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+16:36:08.151 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+16:36:08.153 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+16:36:08.154 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+16:43:17.408 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+16:43:17.410 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.support.EventNotifierSupport:63 which is executed by 12 tests
+1849428336
+16:44:08.579 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+16:44:08.581 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.support.EventNotifierSupport:62 which is executed by 12 tests
+1849428336
+16:45:05.853 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:46:08.098 [pool-2-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+16:46:08.100 [pool-2-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+16:46:08.101 [pool-2-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.support.EventNotifierSupport:62.
+16:46:08.104 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+16:46:08.106 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.support.EventNotifierSupport:55 which is executed by 12 tests
+1849428336
+16:46:57.645 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+16:46:57.646 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.support.EventNotifierSupport:54 which is executed by 12 tests
+1849428336
+16:47:42.392 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:48:46.410 [pool-14-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+16:48:46.414 [pool-14-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+16:48:46.416 [pool-14-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.support.EventNotifierSupport:54.
+16:48:46.417 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+16:48:46.417 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.support.EventNotifierSupport:47 which is executed by 12 tests
+1849428336
+16:49:30.092 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+16:49:30.094 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.support.EventNotifierSupport:46 which is executed by 12 tests
+1849428336
+16:50:07.474 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:51:10.432 [pool-26-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+16:51:10.435 [pool-26-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+16:51:10.441 [pool-26-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.support.EventNotifierSupport:46.
+16:51:10.445 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+16:51:10.446 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.support.EventNotifierSupport:42 which is executed by 12 tests
+1849428336
+16:52:12.574 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+16:52:12.576 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:140 which is executed by 12 tests
+1484498224
+16:52:54.154 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:53:56.969 [pool-38-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): java.lang.IllegalArgumentException: in must be specified, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): java.lang.IllegalArgumentException: in must be specified, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): java.lang.IllegalArgumentException: in must be specified, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): java.lang.IllegalArgumentException: in must be specified, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): java.lang.IllegalArgumentException: in must be specified]
+16:53:56.974 [pool-38-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+16:53:56.976 [pool-38-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultFactoryFinder:140.
+16:53:56.977 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+16:53:56.978 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:139 which is executed by 12 tests
+1484498224
+16:55:04.671 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:55:58.791 [pool-50-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): java.lang.IllegalArgumentException: in must be specified, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): java.lang.IllegalArgumentException: in must be specified, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): java.lang.IllegalArgumentException: in must be specified, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): java.lang.IllegalArgumentException: in must be specified, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): java.lang.IllegalArgumentException: in must be specified]
+16:55:58.792 [pool-50-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+16:55:58.793 [pool-50-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultFactoryFinder:139.
+16:55:58.794 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+16:57:10.809 [pool-62-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): java.lang.IllegalArgumentException: in must be specified, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): java.lang.IllegalArgumentException: in must be specified, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): java.lang.IllegalArgumentException: in must be specified, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): java.lang.IllegalArgumentException: in must be specified, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): java.lang.IllegalArgumentException: in must be specified]
+16:57:10.810 [pool-62-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+16:57:10.812 [pool-62-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultFactoryFinder:139.
+16:57:10.813 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+16:57:10.814 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:138 which is executed by 12 tests
+1484498224
+16:58:03.749 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+16:58:03.751 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:136 which is executed by 12 tests
+1484498224
+16:58:53.051 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+16:58:53.052 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:118 which is executed by 12 tests
+1484498224
+16:59:37.348 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+16:59:37.350 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:114 which is executed by 12 tests
+1484498224
+17:00:23.567 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+17:00:23.569 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:93 which is executed by 12 tests
+1484498224
+17:01:25.323 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+17:01:25.324 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:78 which is executed by 12 tests
+1484498224
+17:02:11.703 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+17:03:06.628 [pool-74-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): java.lang.NullPointerException, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): java.lang.NullPointerException, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): java.lang.NullPointerException, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): java.lang.NullPointerException, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): java.lang.NullPointerException]
+17:03:06.631 [pool-74-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:03:06.632 [pool-74-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultFactoryFinder:78.
+17:03:06.635 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+17:03:06.637 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:77 which is executed by 12 tests
+1484498224
+17:03:42.959 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+17:04:48.751 [pool-86-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): java.lang.NullPointerException, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): java.lang.NullPointerException, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): java.lang.NullPointerException, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): java.lang.NullPointerException, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): java.lang.NullPointerException]
+17:04:48.752 [pool-86-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:04:48.753 [pool-86-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultFactoryFinder:77.
+17:04:48.754 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+17:05:56.805 [pool-98-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): java.lang.NullPointerException, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): java.lang.NullPointerException, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): java.lang.NullPointerException, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): java.lang.NullPointerException, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): java.lang.NullPointerException]
+17:05:56.808 [pool-98-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:05:56.812 [pool-98-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.impl.DefaultFactoryFinder:77.
+17:05:56.812 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+17:05:56.813 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:76 which is executed by 12 tests
+1484498224
+17:06:47.780 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+17:06:47.787 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:74 which is executed by 12 tests
+1484498224
+17:07:58.421 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #19
+17:07:58.422 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:63 which is executed by 12 tests
+1484498224
+17:09:08.245 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #20
+17:09:08.246 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:58 which is executed by 12 tests
+1484498224
+17:10:13.821 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+17:11:03.063 [pool-110-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+DefaultFactoryFinder.java:41: error: missing return statement
+    }
+    ^
+17:11:03.078 [pool-110-thread-1] ERROR f.i.l.r.n.s.ConstraintModelBuilder - Unable to compile the change: 
+public class DefaultFactoryFinder implements org.apache.camel.spi.FactoryFinder {
+    protected final java.util.concurrent.ConcurrentMap<java.lang.String, java.lang.Class<?>> classMap = new java.util.concurrent.ConcurrentHashMap<java.lang.String, java.lang.Class<?>>();
+
+    private final org.apache.camel.spi.ClassResolver classResolver;
+
+    private final java.lang.String path;
+
+    public DefaultFactoryFinder(org.apache.camel.spi.ClassResolver classResolver, java.lang.String resourcePath) {
+        this.classResolver = classResolver;
+        this.path = resourcePath;
+    }
+
+    public java.lang.String getResourcePath() {
+        return path;
+    }
+
+    public java.lang.Object newInstance(java.lang.String key) throws org.apache.camel.NoFactoryAvailableException {
+        try {
+            return newInstance(key, null);
+        } catch (java.lang.Exception e) {
+            boolean spoonDefaultValue = false;
+            try {
+                spoonDefaultValue = true;
+            } catch (java.lang.Exception __NopolProcessorException) {
+            }
+            boolean runtimeAngelicValue = fr.inria.lille.repair.nopol.synth.AngelicExecution.angelicValue(spoonDefaultValue);
+            if (fr.inria.lille.commons.trace.RuntimeValues.instance(9).isEnabled()) {
+                fr.inria.lille.commons.trace.RuntimeValues.instance(9).collectionStarts();
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(9).collectInput("org.apache.camel.impl.DefaultFactoryFinder.this.classMap",org.apache.camel.impl.DefaultFactoryFinder.this.classMap);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(9).collectInput("org.apache.camel.impl.DefaultFactoryFinder.this.path",org.apache.camel.impl.DefaultFactoryFinder.this.path);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(9).collectInput("org.apache.camel.impl.DefaultFactoryFinder.this.classResolver",org.apache.camel.impl.DefaultFactoryFinder.this.classResolver);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(9).collectInput("key",key);} catch (Exception ex1) {ex1.printStackTrace();};
+                fr.inria.lille.commons.trace.RuntimeValues.instance(9).collectOutput(runtimeAngelicValue);
+                fr.inria.lille.commons.trace.RuntimeValues.instance(9).collectionEnds();
+            }
+            if (runtimeAngelicValue)
+                throw new org.apache.camel.NoFactoryAvailableException(key, e);
+
+        }
+    }
+
+    public <T> java.util.List<T> newInstances(java.lang.String key, org.apache.camel.spi.Injector injector, java.lang.Class<T> type) throws java.io.IOException, java.lang.ClassNotFoundException {
+        java.util.List<java.lang.Class<T>> list = org.apache.camel.util.CastUtils.cast(findClasses(key));
+        java.util.List<T> answer = new java.util.ArrayList<T>(list.size());
+        answer.add(newInstance(key, injector, type));
+        return answer;
+    }
+
+    public java.lang.Class<?> findClass(java.lang.String key) throws java.io.IOException, java.lang.ClassNotFoundException {
+        return findClass(key, null);
+    }
+
+    public java.lang.Class<?> findClass(java.lang.String key, java.lang.String propertyPrefix) throws java.io.IOException, java.lang.ClassNotFoundException {
+        java.lang.String prefix = (propertyPrefix != null) ? propertyPrefix : "";
+        java.lang.Class<?> clazz = classMap.get(prefix + key);
+        if (clazz == null) {
+            clazz = newInstance(doFindFactoryProperties(key), prefix);
+            if (clazz != null) {
+                classMap.put(prefix + key, clazz);
+            }
+        }
+        return clazz;
+    }
+
+    public java.lang.Class<?> findClass(java.lang.String key, java.lang.String propertyPrefix, java.lang.Class<?> clazz) throws java.io.IOException, java.lang.ClassNotFoundException {
+        return findClass(key, propertyPrefix);
+    }
+
+    private java.lang.Object newInstance(java.lang.String key, java.lang.String propertyPrefix) throws java.io.IOException, java.lang.ClassNotFoundException, java.lang.IllegalAccessException, java.lang.InstantiationException {
+        java.lang.Class<?> clazz = findClass(key, propertyPrefix);
+        return clazz.newInstance();
+    }
+
+    private <T> T newInstance(java.lang.String key, org.apache.camel.spi.Injector injector, java.lang.Class<T> expectedType) throws java.io.IOException, java.lang.ClassNotFoundException {
+        return newInstance(key, injector, null, expectedType);
+    }
+
+    private <T> T newInstance(java.lang.String key, org.apache.camel.spi.Injector injector, java.lang.String propertyPrefix, java.lang.Class<T> expectedType) throws java.io.IOException, java.lang.ClassNotFoundException {
+        java.lang.Class<?> type = findClass(key, propertyPrefix);
+        java.lang.Object value = injector.newInstance(type);
+        if (expectedType.isInstance(value)) {
+            return expectedType.cast(value);
+        } else {
+            throw new java.lang.ClassCastException((("Not instanceof " + expectedType.getName()) + " value: ") + value);
+        }
+    }
+
+    private java.util.List<java.lang.Class<?>> findClasses(java.lang.String key) throws java.io.IOException, java.lang.ClassNotFoundException {
+        return findClasses(key, null);
+    }
+
+    private java.util.List<java.lang.Class<?>> findClasses(java.lang.String key, java.lang.String propertyPrefix) throws java.io.IOException, java.lang.ClassNotFoundException {
+        java.lang.Class<?> type = findClass(key, propertyPrefix);
+        return java.util.Collections.<java.lang.Class<?>>singletonList(type);
+    }
+
+    private java.lang.Class<?> newInstance(java.util.Properties properties, java.lang.String propertyPrefix) throws java.io.IOException, java.lang.ClassNotFoundException {
+        java.lang.String className = properties.getProperty(propertyPrefix + "class");
+        if (className == null) {
+            throw new java.io.IOException(("Expected property is missing: " + propertyPrefix) + "class");
+        }
+        java.lang.Class<?> clazz = classResolver.resolveClass(className);
+        if (clazz == null) {
+            throw new java.lang.ClassNotFoundException(className);
+        }
+        return clazz;
+    }
+
+    private java.util.Properties doFindFactoryProperties(java.lang.String key) throws java.io.IOException {
+        java.lang.String uri = path + key;
+        java.io.InputStream in = classResolver.loadResourceAsStream(uri);
+        if (in == null) {
+            throw new org.apache.camel.NoFactoryAvailableException(uri);
+        }
+        java.io.BufferedInputStream reader = null;
+        try {
+            reader = org.apache.camel.util.IOHelper.buffered(in);
+            java.util.Properties properties = new java.util.Properties();
+            properties.load(reader);
+            return properties;
+        } finally {
+            org.apache.camel.util.IOHelper.close(reader, key, null);
+            org.apache.camel.util.IOHelper.close(in, key, null);
+        }
+    }
+}
+17:11:03.080 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+17:11:03.081 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #21
+17:11:03.081 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:57 which is executed by 12 tests
+1484498224
+17:11:52.451 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #22
+17:11:52.452 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.impl.DefaultFactoryFinder:56 which is executed by 12 tests
+1484498224
+17:13:03.232 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #23
+17:13:03.233 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:381 which is executed by 12 tests
+1406076367
+17:13:55.162 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #24
+17:13:55.163 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:380 which is executed by 12 tests
+1406076367
+17:14:45.596 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+17:15:56.878 [pool-112-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:15:56.880 [pool-112-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:15:56.881 [pool-112-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:380.
+17:15:56.882 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #25
+17:15:56.883 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:362 which is executed by 12 tests
+1406076367
+17:16:45.066 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #26
+17:16:45.068 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:361 which is executed by 12 tests
+1406076367
+17:17:48.596 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+17:18:58.862 [pool-124-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:18:58.865 [pool-124-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:18:58.865 [pool-124-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:361.
+17:18:58.867 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #27
+17:18:58.867 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:216 which is executed by 12 tests
+1406076367
+17:19:41.250 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #28
+17:19:41.251 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:202 which is executed by 12 tests
+1406076367
+17:20:18.792 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #29
+17:20:18.796 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:194 which is executed by 12 tests
+1406076367
+17:21:02.443 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #30
+17:21:02.446 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:190 which is executed by 12 tests
+1406076367
+17:22:03.726 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #31
+17:22:03.727 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:186 which is executed by 12 tests
+1406076367
+17:22:52.685 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #32
+17:22:52.686 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:185 which is executed by 12 tests
+1406076367
+17:23:55.789 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+17:25:01.582 [pool-136-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:25:01.585 [pool-136-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:25:01.586 [pool-136-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:185.
+17:25:01.594 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #33
+17:25:01.595 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:184 which is executed by 12 tests
+1406076367
+17:25:48.364 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #34
+17:25:48.366 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:180 which is executed by 12 tests
+1406076367
+17:26:38.618 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #35
+17:26:38.619 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:176 which is executed by 12 tests
+1406076367
+17:27:29.042 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #36
+17:27:29.044 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:174 which is executed by 12 tests
+1406076367
+17:28:14.146 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+17:29:09.711 [pool-148-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:29:09.712 [pool-148-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:29:09.713 [pool-148-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:174.
+17:29:09.713 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #37
+17:29:09.714 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:173 which is executed by 12 tests
+1406076367
+17:29:52.186 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+17:30:50.607 [pool-160-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:30:50.608 [pool-160-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:30:50.609 [pool-160-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:173.
+17:30:50.610 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+17:31:46.860 [pool-172-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:31:46.862 [pool-172-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:31:46.863 [pool-172-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:173.
+17:31:46.863 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #38
+17:31:46.864 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:172 which is executed by 12 tests
+1406076367
+17:32:20.404 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #39
+17:32:20.405 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:171 which is executed by 12 tests
+1406076367
+17:32:54.875 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+17:33:54.583 [pool-184-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:33:54.584 [pool-184-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:33:54.585 [pool-184-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:171.
+17:33:54.586 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+17:34:49.943 [pool-196-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:34:49.946 [pool-196-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:34:49.947 [pool-196-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:171.
+17:34:49.948 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #40
+17:34:49.949 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:168 which is executed by 12 tests
+1406076367
+17:36:03.296 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+17:37:06.455 [pool-208-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:37:06.456 [pool-208-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:37:06.457 [pool-208-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:168.
+17:37:06.457 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+17:38:12.977 [pool-220-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:38:12.977 [pool-220-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:38:12.978 [pool-220-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:168.
+17:38:12.978 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #41
+17:38:12.979 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:165 which is executed by 12 tests
+1406076367
+17:39:07.578 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #42
+17:39:07.579 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:162 which is executed by 12 tests
+1406076367
+17:40:01.037 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+17:40:59.819 [pool-232-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:40:59.820 [pool-232-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:40:59.820 [pool-232-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:162.
+17:40:59.821 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #43
+17:40:59.821 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:161 which is executed by 12 tests
+1406076367
+17:41:47.989 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+17:42:50.909 [pool-244-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:42:50.910 [pool-244-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:42:50.911 [pool-244-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:161.
+17:42:50.911 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+17:43:44.041 [pool-256-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:43:44.042 [pool-256-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:43:44.042 [pool-256-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:161.
+17:43:44.043 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #44
+17:43:44.043 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:158 which is executed by 12 tests
+1406076367
+17:44:29.489 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+17:45:37.517 [pool-268-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:45:37.518 [pool-268-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:45:37.519 [pool-268-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:158.
+17:45:37.519 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+17:46:36.944 [pool-280-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:46:36.947 [pool-280-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:46:36.949 [pool-280-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:158.
+17:46:36.949 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #45
+17:46:36.950 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:154 which is executed by 12 tests
+1406076367
+17:47:32.775 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #46
+17:47:32.775 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:144 which is executed by 12 tests
+1406076367
+17:48:31.935 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #47
+17:48:31.937 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:136 which is executed by 12 tests
+1406076367
+17:49:20.899 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #48
+17:49:20.900 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:135 which is executed by 12 tests
+1406076367
+17:50:12.976 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+17:51:16.598 [pool-292-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:51:16.600 [pool-292-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:51:16.600 [pool-292-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:135.
+17:51:16.601 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #49
+17:51:16.605 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:134 which is executed by 12 tests
+1406076367
+17:52:05.044 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+17:53:31.703 [pool-304-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:53:31.704 [pool-304-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:53:31.705 [pool-304-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:134.
+17:53:31.705 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #50
+17:53:31.706 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:133 which is executed by 12 tests
+1406076367
+17:54:16.127 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+17:55:19.572 [pool-316-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:55:19.574 [pool-316-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:55:19.574 [pool-316-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:133.
+17:55:19.577 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #51
+17:55:19.578 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:131 which is executed by 12 tests
+1406076367
+17:56:19.326 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+17:57:26.454 [pool-328-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:57:26.457 [pool-328-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:57:26.458 [pool-328-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:131.
+17:57:26.458 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #52
+17:57:26.459 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:130 which is executed by 12 tests
+1406076367
+17:58:25.692 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+17:59:29.880 [pool-340-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:59:29.880 [pool-340-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+17:59:29.881 [pool-340-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:130.
+17:59:29.882 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+18:00:39.856 [pool-352-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:00:39.857 [pool-352-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:00:39.858 [pool-352-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:130.
+18:00:39.859 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #53
+18:00:39.860 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:128 which is executed by 12 tests
+1406076367
+18:01:17.268 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:02:18.658 [pool-364-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:02:18.661 [pool-364-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:02:18.661 [pool-364-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:128.
+18:02:18.662 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #54
+18:02:18.662 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:127 which is executed by 12 tests
+1406076367
+18:03:16.203 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:04:22.703 [pool-376-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:04:22.706 [pool-376-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:04:22.707 [pool-376-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:127.
+18:04:22.707 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+18:05:39.096 [pool-388-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:05:39.098 [pool-388-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:05:39.099 [pool-388-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:127.
+18:05:39.101 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #55
+18:05:39.102 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:126 which is executed by 12 tests
+1406076367
+18:06:30.582 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:07:55.037 [pool-400-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:07:55.039 [pool-400-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:07:55.039 [pool-400-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:126.
+18:07:55.040 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #56
+18:07:55.041 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:122 which is executed by 12 tests
+1406076367
+18:08:45.741 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #57
+18:08:45.742 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:118 which is executed by 12 tests
+1406076367
+18:09:39.256 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #58
+18:09:39.257 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:117 which is executed by 12 tests
+1406076367
+18:10:34.568 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:11:38.752 [pool-412-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:11:38.754 [pool-412-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:11:38.755 [pool-412-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:117.
+18:11:38.757 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #59
+18:11:38.759 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:115 which is executed by 12 tests
+1406076367
+18:12:36.571 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:13:48.816 [pool-424-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:13:48.818 [pool-424-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:13:48.818 [pool-424-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:115.
+18:13:48.819 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #60
+18:13:48.820 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:114 which is executed by 12 tests
+1406076367
+18:14:36.766 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:16:00.368 [pool-436-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:16:00.368 [pool-436-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:16:00.369 [pool-436-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:114.
+18:16:00.370 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #61
+18:16:00.370 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:113 which is executed by 12 tests
+1406076367
+18:16:50.426 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:17:47.998 [pool-448-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:17:48.000 [pool-448-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:17:48.001 [pool-448-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:113.
+18:17:48.002 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #62
+18:17:48.003 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:112 which is executed by 12 tests
+1406076367
+18:18:27.693 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #63
+18:18:27.698 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:111 which is executed by 12 tests
+1406076367
+18:19:09.835 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:19:56.700 [pool-460-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:19:56.700 [pool-460-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:19:56.701 [pool-460-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:111.
+18:19:56.702 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+18:20:49.998 [pool-472-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:20:50.000 [pool-472-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:20:50.001 [pool-472-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:111.
+18:20:50.002 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #64
+18:20:50.003 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:109 which is executed by 12 tests
+1406076367
+18:21:34.259 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:22:44.460 [pool-484-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:22:44.463 [pool-484-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:22:44.463 [pool-484-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:109.
+18:22:44.466 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #65
+18:22:44.466 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:106 which is executed by 12 tests
+1406076367
+18:23:38.167 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:24:53.819 [pool-496-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:24:53.820 [pool-496-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:24:53.821 [pool-496-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:106.
+18:24:53.821 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #66
+18:24:53.822 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:105 which is executed by 12 tests
+1406076367
+18:25:42.965 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:27:05.378 [pool-508-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:27:05.382 [pool-508-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:27:05.382 [pool-508-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:105.
+18:27:05.387 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #67
+18:27:05.388 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:104 which is executed by 12 tests
+1406076367
+18:28:05.573 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:29:18.778 [pool-520-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:29:18.781 [pool-520-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:29:18.781 [pool-520-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:104.
+18:29:18.782 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #68
+18:29:18.783 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:103 which is executed by 12 tests
+1406076367
+18:30:06.342 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:31:03.928 [pool-532-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:31:03.929 [pool-532-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:31:03.929 [pool-532-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:103.
+18:31:03.929 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #69
+18:31:03.930 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:101 which is executed by 12 tests
+1406076367
+18:31:58.371 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:32:57.464 [pool-544-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:32:57.465 [pool-544-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:32:57.466 [pool-544-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:101.
+18:32:57.467 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #70
+18:32:57.467 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:98 which is executed by 12 tests
+1406076367
+18:34:27.185 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:35:21.275 [pool-556-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:35:21.276 [pool-556-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToByteBufferDouble(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferFloat(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferInteger(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferLong(org.apache.camel.converter.NIOConverterTest): null, testToByteBufferShort(org.apache.camel.converter.NIOConverterTest): null]
+18:35:21.277 [pool-556-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.ContextTestSupport:98.
+18:35:21.278 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #71
+18:35:21.278 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.ContextTestSupport:94 which is executed by 12 tests
+1406076367
+18:36:04.909 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder

@@ -1,0 +1,124 @@
+19:05:26.601 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/CAMEL-7209/camel/camel-core/src/main/java, /apiarty/data/CAMEL-7209/camel/camel-core/src/test/java]
+19:05:26.610 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/CAMEL-7209/camel/camel-core/target/classes/, file:/apiarty/data/CAMEL-7209/camel/camel-core/target/test-classes/, file:/root/.m2/repository/org/apache/camel/spi-annotations/2.13-SNAPSHOT/spi-annotations-2.13-SNAPSHOT.jar, file:/root/.m2/repository/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4/concurrentlinkedhashmap-lru-1.4.jar, file:/root/.m2/repository/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar, file:/root/.m2/repository/org/osgi/org.osgi.core/4.3.1/org.osgi.core-4.3.1.jar, file:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/root/.m2/repository/org/slf4j/slf4j-log4j12/1.7.6/slf4j-log4j12-1.7.6.jar, file:/root/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar, file:/root/.m2/repository/org/easymock/easymock/3.2/easymock-3.2.jar, file:/root/.m2/repository/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar, file:/root/.m2/repository/org/objenesis/objenesis/1.3/objenesis-1.3.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.3.0/jackson-databind-2.3.0.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.3.0/jackson-annotations-2.3.0.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.3.0/jackson-core-2.3.0.jar, file:/root/.m2/repository/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.jar, file:/root/.m2/repository/org/apache/camel/apt/2.13-SNAPSHOT/apt-2.13-SNAPSHOT.jar]
+19:05:26.612 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+19:05:26.613 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.camel.converter.jaxp.XmlConverterTest]
+19:05:26.618 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/CAMEL-7209/camel/camel-core/src/main/java, /apiarty/data/CAMEL-7209/camel/camel-core/src/test/java], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[org.apache.camel.converter.jaxp.XmlConverterTest], complianceLevel=8, outputFolder=., json=false}
+19:05:26.620 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+19:05:26.629 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+19:05:26.630 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+19:05:26.632 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+19:05:26.633 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+19:05:26.636 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+19:05:26.637 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+19:22:28.270 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+19:22:28.274 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.converter.NIOConverter:142 which is executed by 1 tests
+-1835340275
+19:26:39.453 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+19:26:39.455 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.converter.NIOConverter:102 which is executed by 1 tests
+-1835340275
+19:29:31.829 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+19:29:31.829 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.converter.NIOConverter:101 which is executed by 1 tests
+-1835340275
+19:32:54.292 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+19:36:33.066 [pool-2-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToStreamSourceByByteBuffer(org.apache.camel.converter.jaxp.XmlConverterTest): org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.]
+19:36:33.067 [pool-2-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToStreamSourceByByteBuffer(org.apache.camel.converter.jaxp.XmlConverterTest): Error during type conversion from type: java.nio.HeapByteBuffer to the required type: java.io.InputStream with value java.nio.HeapByteBuffer[pos=14 lim=14 cap=14] due java.nio.BufferUnderflowException]
+19:36:33.068 [pool-2-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.converter.NIOConverter:101.
+19:36:33.069 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+19:36:33.072 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.converter.NIOConverter:99 which is executed by 1 tests
+-1835340275
+19:40:25.286 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+19:43:47.818 [pool-6-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToStreamSourceByByteBuffer(org.apache.camel.converter.jaxp.XmlConverterTest): Error during type conversion from type: java.lang.String to the required type: java.nio.ByteBuffer with value <foo>bar</foo> due java.lang.NullPointerException]
+19:43:47.820 [pool-6-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToStreamSourceByByteBuffer(org.apache.camel.converter.jaxp.XmlConverterTest): Error during type conversion from type: java.nio.HeapByteBuffer to the required type: java.io.InputStream with value java.nio.HeapByteBuffer[pos=14 lim=14 cap=14] due java.nio.BufferUnderflowException]
+19:43:47.821 [pool-6-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.converter.NIOConverter:99.
+19:43:47.822 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+19:43:47.823 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.converter.NIOConverter:98 which is executed by 1 tests
+-1835340275
+19:47:09.870 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+19:51:26.400 [pool-10-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToStreamSourceByByteBuffer(org.apache.camel.converter.jaxp.XmlConverterTest): Error during type conversion from type: java.lang.String to the required type: java.nio.ByteBuffer with value <foo>bar</foo> due java.lang.NullPointerException]
+19:51:26.402 [pool-10-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToStreamSourceByByteBuffer(org.apache.camel.converter.jaxp.XmlConverterTest): Error during type conversion from type: java.nio.HeapByteBuffer to the required type: java.io.InputStream with value java.nio.HeapByteBuffer[pos=14 lim=14 cap=14] due java.nio.BufferUnderflowException]
+19:51:26.403 [pool-10-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.converter.NIOConverter:98.
+19:51:26.404 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+19:55:13.397 [pool-14-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToStreamSourceByByteBuffer(org.apache.camel.converter.jaxp.XmlConverterTest): Error during type conversion from type: java.lang.String to the required type: java.nio.ByteBuffer with value <foo>bar</foo> due java.lang.NullPointerException]
+19:55:13.400 [pool-14-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToStreamSourceByByteBuffer(org.apache.camel.converter.jaxp.XmlConverterTest): Error during type conversion from type: java.nio.HeapByteBuffer to the required type: java.io.InputStream with value java.nio.HeapByteBuffer[pos=14 lim=14 cap=14] due java.nio.BufferUnderflowException]
+19:55:13.400 [pool-14-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.converter.NIOConverter:98.
+19:55:13.401 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+19:55:13.402 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.converter.NIOConverter:88 which is executed by 1 tests
+-1835340275
+19:58:30.845 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+20:02:27.719 [pool-18-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToStreamSourceByByteBuffer(org.apache.camel.converter.jaxp.XmlConverterTest): Error during type conversion from type: java.nio.HeapByteBuffer to the required type: java.io.InputStream with value java.nio.HeapByteBuffer[pos=14 lim=14 cap=14] due java.nio.BufferUnderflowException]
+20:02:27.721 [pool-18-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToStreamSourceByByteBuffer(org.apache.camel.converter.jaxp.XmlConverterTest): Error during type conversion from type: java.nio.HeapByteBuffer to the required type: java.io.InputStream with value java.nio.HeapByteBuffer[pos=14 lim=14 cap=14] due java.nio.BufferUnderflowException]
+20:02:27.722 [pool-18-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.converter.NIOConverter:88.
+20:02:27.723 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+20:06:35.900 [pool-22-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToStreamSourceByByteBuffer(org.apache.camel.converter.jaxp.XmlConverterTest): Error during type conversion from type: java.nio.HeapByteBuffer to the required type: java.io.InputStream with value java.nio.HeapByteBuffer[pos=14 lim=14 cap=14] due java.nio.BufferUnderflowException]
+20:06:35.903 [pool-22-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToStreamSourceByByteBuffer(org.apache.camel.converter.jaxp.XmlConverterTest): Error during type conversion from type: java.lang.String to the required type: java.nio.ByteBuffer with value <foo>bar</foo> due java.lang.NullPointerException]
+20:06:35.904 [pool-22-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.converter.NIOConverter:88.
+20:06:35.905 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+20:06:35.906 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.converter.NIOConverter:87 which is executed by 1 tests
+-1835340275
+20:09:51.029 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+20:09:51.030 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.converter.NIOConverter:86 which is executed by 1 tests
+-1835340275
+20:13:07.406 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+20:13:07.408 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.converter.NIOConverter:51 which is executed by 1 tests
+-1835340275
+20:16:54.130 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+20:21:10.414 [pool-26-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToStreamSourceByByteBuffer(org.apache.camel.converter.jaxp.XmlConverterTest): org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.]
+20:21:10.414 [pool-26-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToStreamSourceByByteBuffer(org.apache.camel.converter.jaxp.XmlConverterTest): Error during type conversion from type: java.nio.HeapByteBuffer to the required type: java.io.InputStream with value java.nio.HeapByteBuffer[pos=14 lim=14 cap=14] due java.nio.BufferUnderflowException]
+20:21:10.415 [pool-26-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.converter.NIOConverter:51.
+20:21:10.415 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+20:21:10.416 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.converter.NIOConverter:50 which is executed by 1 tests
+-1835340275
+20:24:50.467 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+20:24:50.468 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper$ExceptionIterator:1542 which is executed by 1 tests
+-1446164498
+20:28:32.118 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+20:28:32.119 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper$ExceptionIterator:1564 which is executed by 1 tests
+-1446164498
+20:32:46.637 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+20:32:46.639 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper$ExceptionIterator:1560 which is executed by 1 tests
+-1446164498
+20:36:00.666 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+20:36:00.667 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.converter.jaxp.XmlConverter:515 which is executed by 1 tests
+2080790378
+20:39:16.553 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+20:39:16.554 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1441 which is executed by 1 tests
+-1446164498
+20:42:37.600 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+20:42:37.601 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1438 which is executed by 1 tests
+-1446164498
+20:46:32.157 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+20:46:32.159 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1435 which is executed by 1 tests
+-1446164498
+20:49:51.368 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+20:53:48.180 [pool-30-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToStreamSourceByByteBuffer(org.apache.camel.converter.jaxp.XmlConverterTest): Error during type conversion from type: java.nio.HeapByteBuffer to the required type: java.io.InputStream with value java.nio.HeapByteBuffer[pos=14 lim=14 cap=14] due java.nio.BufferUnderflowException]
+20:53:48.185 [pool-30-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToStreamSourceByByteBuffer(org.apache.camel.converter.jaxp.XmlConverterTest): Error during type conversion from type: java.nio.HeapByteBuffer to the required type: java.io.InputStream with value java.nio.HeapByteBuffer[pos=14 lim=14 cap=14] due java.nio.BufferUnderflowException]
+20:53:48.186 [pool-30-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1435.
+20:53:48.188 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+20:57:22.141 [pool-34-thread-1] DEBUG tests.output - Failing tests with false: 
+[testToStreamSourceByByteBuffer(org.apache.camel.converter.jaxp.XmlConverterTest): Error during type conversion from type: java.nio.HeapByteBuffer to the required type: java.io.InputStream with value java.nio.HeapByteBuffer[pos=14 lim=14 cap=14] due java.nio.BufferUnderflowException]
+20:57:22.146 [pool-34-thread-1] DEBUG tests.output - Failing tests with true: 
+[testToStreamSourceByByteBuffer(org.apache.camel.converter.jaxp.XmlConverterTest): Cannot cast java.nio.BufferUnderflowException to java.util.concurrent.ExecutionException]
+20:57:22.149 [pool-34-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.camel.util.ObjectHelper:1435.
+20:57:22.154 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+20:57:22.157 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1434 which is executed by 1 tests
+-1446164498
+21:00:52.936 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #19
+21:00:52.937 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.camel.util.ObjectHelper:1433 which is executed by 1 tests
+-1446164498
+21:04:21.080 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder

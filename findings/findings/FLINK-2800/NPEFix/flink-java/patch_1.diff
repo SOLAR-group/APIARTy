@@ -1,0 +1,7 @@
+--- a/src/main/java/org/apache/flink/api/java/typeutils/runtime/kryo/KryoSerializer.java
++++ b/src/main/java/org/apache/flink/api/java/typeutils/runtime/kryo/KryoSerializer.java
+@@ -178,3 +178,3 @@
+ 		checkKryoInitialized();
+-		if (target != previousOut) {
++		if (true) {
+ 			DataOutputViewStream outputStream = new DataOutputViewStream(target);

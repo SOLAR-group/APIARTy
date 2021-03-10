@@ -1,0 +1,160 @@
+TernarySplitter  in 24ms
+response.write(Strings.escapeMarkup(iconUrl != null ? iconUrl.toString() : ""))
+response.write(Strings.escapeMarkup(alt != null ? alt.toString() : ""))
+response.write(Strings.escapeMarkup(title != null ? title.toString() : ""))
+CheckNotNull  in 218ms
+ForceNullInit in 8ms
+AddImplicitCastChecker --> 1 in 77ms
+BeforeDeref --> 238 (failed:0) in 86ms
+target--> 265 (failed:0) in 501ms
+TryRegister # Try: 3 in 10ms
+Assign --> 73 (failed: 0) in 130ms
+VarInit --> 49 in 27ms
+MethodEncapsulation # Method: 104 in 344ms
+ConstructorEncapsulation # Constructor: 21 in 84ms
+VariableFor in 16ms
+RMI Selector (Host: 127.0.0.1, Port: 10000): KO
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDifferentDateTimeZoneConversionAMPM
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDifferentDateTimeZoneConversion
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDateFieldInput
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testStyleDateConverterTimeZoneDifference
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#test1
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testJodaTimeDefaultTimeZone
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testTimeFieldDST
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDates1
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDates2
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDates3
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDateFieldsWithDateModels
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDateFieldInputTimezone
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDifferentDateTimeZoneConversionAMPM
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDifferentDateTimeZoneConversion
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDateFieldInput
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testStyleDateConverterTimeZoneDifference
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#test1
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testJodaTimeDefaultTimeZone
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testTimeFieldDST
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDates1
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDates2
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDates3
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDateFieldsWithDateModels
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDateFieldInputTimezone
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDifferentDateTimeZoneConversionAMPM
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDifferentDateTimeZoneConversion
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDateFieldInput
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testStyleDateConverterTimeZoneDifference
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#test1
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testJodaTimeDefaultTimeZone
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testTimeFieldDST
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDates1
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDates2
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDates3
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDateFieldsWithDateModels
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDateFieldInputTimezone
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDifferentDateTimeZoneConversionAMPM
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDifferentDateTimeZoneConversion
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDateFieldInput
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testStyleDateConverterTimeZoneDifference
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#test1
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testJodaTimeDefaultTimeZone
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testTimeFieldDST
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDates1
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDates2
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDates3
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDateFieldsWithDateModels
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDateFieldInputTimezone
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDifferentDateTimeZoneConversionAMPM
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDifferentDateTimeZoneConversion
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDateFieldInput
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testStyleDateConverterTimeZoneDifference
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#test1
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testJodaTimeDefaultTimeZone
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testTimeFieldDST
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDates1
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDates2
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDates3
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDateFieldsWithDateModels
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDateFieldInputTimezone
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDifferentDateTimeZoneConversionAMPM
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDifferentDateTimeZoneConversion
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDateFieldInput
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testStyleDateConverterTimeZoneDifference
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#test1
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testJodaTimeDefaultTimeZone
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testTimeFieldDST
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDates1
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDates2
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDates3
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDateFieldsWithDateModels
+<No Strat> Status: Ko
+org.apache.wicket.extensions.yui.calendar.DatePickerTest#testDateFieldInputTimezone
+<No Strat> Status: Ko

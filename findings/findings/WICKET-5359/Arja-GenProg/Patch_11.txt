@@ -1,0 +1,38 @@
+1 InsertBefore /apiarty/data/WICKET-5359/wicket/wicket-util/src/main/java/org/apache/wicket/util/lang/Objects.java 511
+Faulty:
+if (c == Integer.class) {
+  return INT;
+}
+Seed:
+while (c.isAnonymousClass()) {
+  c=c.getSuperclass();
+}
+**************************************************
+2 InsertBefore /apiarty/data/WICKET-5359/wicket/wicket-util/src/main/java/org/apache/wicket/util/lang/Objects.java 547
+Faulty:
+if (c == BigDecimal.class) {
+  return BIGDEC;
+}
+Seed:
+String simpleName=null;
+**************************************************
+3 Delete /apiarty/data/WICKET-5359/wicket/wicket-util/src/main/java/org/apache/wicket/util/lang/Objects.java 608
+Faulty:
+if ((object1 != null) && object1.getClass().isArray()) {
+  if ((object2 != null) && object2.getClass().isArray() && (object2.getClass() == object1.getClass())) {
+    result=(Array.getLength(object1) == Array.getLength(object2));
+    if (result) {
+      for (int i=0, icount=Array.getLength(object1); result && (i < icount); i++) {
+        result=isEqual(Array.get(object1,i),Array.get(object2,i));
+      }
+    }
+  }
+}
+ else {
+  result=(object1 != null) && (object2 != null) && ((compareWithConversion(object1,object2) == 0) || object1.equals(object2));
+}
+Seed:
+return megabytes() / 1024.0;
+**************************************************
+Evaluations: 38
+EstimatedTime: 18834

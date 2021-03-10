@@ -1,0 +1,15 @@
+TernarySplitter  in 186ms
+return (lastPosition == null) || (position.getFixTime().compareTo(lastPosition.getFixTime()) >= 0)
+super(MozillaGeolocationProvider.URL, key != null ? key : "test")
+return (filterDuplicate && (last != null)) && position.getFixTime().equals(last.getFixTime())
+CheckNotNull  in 1391ms
+ForceNullInit in 152ms
+AddImplicitCastChecker --> 9 in 481ms
+BeforeDeref --> 13083 (failed:2) in 1809ms
+target--> 16633 (failed:0) in 11456ms
+TryRegister # Try: 124 in 373ms
+Assign --> 2326 (failed: 0) in 1850ms
+VarInit --> 1105 in 683ms
+MethodEncapsulation # Method: 1942 in 6609ms
+ConstructorEncapsulation # Constructor: 403 in 1245ms
+VariableFor in 495ms

@@ -1,0 +1,30 @@
+TernarySplitter  in 55ms
+assert current != null
+return funcName != null
+Preconditions.checkState(index != null, "The Lucene index is not available")
+Preconditions.checkState(indexNode != null)
+boolean hasBoost = (context.getDefinition().getPropDefn(pname) != null) && context.getDefinition().getPropDefn(pname).hasFieldBoost()
+Preconditions.checkState(index != null, "The Lucene index is not available")
+Preconditions.checkState(indexNode != null)
+Preconditions.checkState(t != null, "Type cannot be null")
+CheckNotNull  in 753ms
+ForceNullInit in 54ms
+AddImplicitCastChecker --> 4 in 310ms
+BeforeDeref --> 1197 (failed:0) in 422ms
+target--> 1444 (failed:0) in 2530ms
+TryRegister # Try: 45 in 50ms
+Assign --> 496 (failed: 0) in 1155ms
+VarInit --> 199 in 312ms
+MethodEncapsulation # Method: 331 in 1534ms
+ConstructorEncapsulation # Constructor: 52 in 1965ms
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+VariableFor in 101ms

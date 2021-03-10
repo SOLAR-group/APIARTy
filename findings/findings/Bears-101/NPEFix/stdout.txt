@@ -1,0 +1,15 @@
+TernarySplitter  in 191ms
+return (lastPosition == null) || (position.getFixTime().compareTo(lastPosition.getFixTime()) >= 0)
+return (filterApproximate && (approximate != null)) && approximate
+return properties.containsKey(key) || ((defaultProperties != null) && defaultProperties.containsKey(key))
+CheckNotNull  in 1390ms
+ForceNullInit in 166ms
+AddImplicitCastChecker --> 7 in 485ms
+BeforeDeref --> 12319 (failed:2) in 2445ms
+target--> 15561 (failed:0) in 13041ms
+TryRegister # Try: 109 in 429ms
+Assign --> 2134 (failed: 0) in 2368ms
+VarInit --> 1009 in 742ms
+MethodEncapsulation # Method: 1716 in 8284ms
+ConstructorEncapsulation # Constructor: 385 in 958ms
+VariableFor in 591ms

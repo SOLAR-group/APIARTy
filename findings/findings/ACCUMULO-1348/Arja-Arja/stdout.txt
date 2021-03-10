@@ -1,0 +1,4 @@
+Fault localization starts...
+Number of positive tests: 360
+Number of negative tests: 2
+Fault localization is finished!

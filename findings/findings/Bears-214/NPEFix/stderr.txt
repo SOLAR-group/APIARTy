@@ -1,0 +1,36 @@
+
+Usage: java -jar npefix.jar
+                          (-s|--source) source1:source2:...:sourceN  (-c|--classpath) <classpath> (-t|--test) test1:test2:...:testN  [--complianceLevel <complianceLevel>] [(-i|--iteration) <iteration>] [(-w|--workingdirectory) <workingdirectory>] [--repairStrategy <repairStrategy>]
+
+  (-s|--source) source1:source2:...:sourceN 
+        Define the path to the source code of the project.
+
+  (-c|--classpath) <classpath>
+        Define the classpath of the project.
+
+  (-t|--test) test1:test2:...:testN 
+        Define the tests of the project (both failing and passing),
+        fully-qualified, separated with ':' (even if the classpath contains
+        other tests, only those are considered.
+
+  [--complianceLevel <complianceLevel>]
+        The compliance level of the project. (default: 7)
+
+  [(-i|--iteration) <iteration>]
+        The maximum number of npefix iteration. (default: 100)
+
+  [(-w|--workingdirectory) <workingdirectory>]
+        Define the location where npefix will put its files. (default: .)
+
+  [--repairStrategy <repairStrategy>]
+        Define the repair strategy used by NPEFix. (default:
+        fr.inria.spirals.npefix.main.all.DefaultRepairStrategy)
+
+Exception in thread "main" spoon.compiler.InvalidClassPathException: /root/.m2/repository/BaragonData-0.7.1-SNAPSHOT-tests.jar does not exist, it is not a valid folder
+	at spoon.support.StandardEnvironment.verifySourceClasspath(StandardEnvironment.java:447)
+	at spoon.support.StandardEnvironment.setSourceClasspath(StandardEnvironment.java:437)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.setSourceClasspath(JDTBasedSpoonCompiler.java:311)
+	at fr.inria.spirals.npefix.main.all.Launcher.init(Launcher.java:193)
+	at fr.inria.spirals.npefix.main.all.Launcher.<init>(Launcher.java:85)
+	at fr.inria.spirals.npefix.main.run.Main.run(Main.java:68)
+	at fr.inria.spirals.npefix.main.run.Main.main(Main.java:50)

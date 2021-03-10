@@ -1,0 +1,54 @@
+TernarySplitter  in 562ms
+return r != null
+throw new DimensionMismatchException(rm == null ? 0 : rm.getRowDimension(), b == null ? 0 : b.getDimension())
+throw new DimensionMismatchException(rm == null ? 0 : rm.getRowDimension(), b == null ? 0 : b.getDimension())
+throw new DimensionMismatchException(rm == null ? 0 : rm.getRowDimension(), b == null ? 0 : b.getDimension())
+throw new DimensionMismatchException(rm == null ? 0 : rm.getRowDimension(), b == null ? 0 : b.getDimension())
+final boolean closed = loop[0] != null
+boolean isNotNull = (markers != null) && (that.markers != null)
+boolean isNotNull = (markers != null) && (that.markers != null)
+boolean isNull = (markers == null) && (that.markers == null)
+boolean isNull = (markers == null) && (that.markers == null)
+boolean isCollectionLess = (collection != null) && ((collection.size() + size()) <= capacity)
+this((initialArray == null) || (initialArray.length == 0) ? ResizableDoubleArray.DEFAULT_INITIAL_CAPACITY : initialArray.length, ResizableDoubleArray.DEFAULT_EXPANSION_FACTOR, ResizableDoubleArray.DEFAULT_CONTRACTION_DELTA + ResizableDoubleArray.DEFAULT_EXPANSION_FACTOR, ResizableDoubleArray.DEFAULT_EXPANSION_MODE, initialArray)
+super(copyArray ? point == null ? null : point.clone() : point, value)
+return pending != null
+throw new ModelSpecificationException(LocalizedFormats.INVALID_REGRESSION_OBSERVATION, x != null ? x.length : 0, 1)
+throw new ModelSpecificationException(LocalizedFormats.DIMENSIONS_MISMATCH_SIMPLE, x == null ? 0 : x.length, y == null ? 0 : y.length)
+throw new ModelSpecificationException(LocalizedFormats.DIMENSIONS_MISMATCH_SIMPLE, x == null ? 0 : x.length, y == null ? 0 : y.length)
+this(prototypeStatistics, prototypeStatistics == null ? null : new SummaryStatistics(prototypeStatistics))
+final boolean usePivotsHeap = pivotsHeap != null
+return (outsideTouching != null) && (!outsideTouching.isEmpty())
+return (insideTouching != null) && (!insideTouching.isEmpty())
+return !((x == null) ^ (y == null))
+return !((x == null) ^ (y == null))
+return !((x == null) ^ (y == null))
+return !((x == null) ^ (y == null))
+return !((x == null) ^ (y == null))
+return !((x == null) ^ (y == null))
+return !((x == null) ^ (y == null))
+return !((x == null) ^ (y == null))
+return pending != null
+return (key == null ? oP.key == null : key.equals(oP.key)) && (value == null ? oP.value == null : value.equals(oP.value))
+return (key == null ? oP.key == null : key.equals(oP.key)) && (value == null ? oP.value == null : value.equals(oP.value))
+return (key == null ? oP.key == null : key.equals(oP.key)) && (value == null ? oP.value == null : value.equals(oP.value))
+return (key == null ? oP.key == null : key.equals(oP.key)) && (value == null ? oP.value == null : value.equals(oP.value))
+super(copyArray ? point == null ? null : point.clone() : point, copyArray ? value == null ? null : value.clone() : value)
+super(copyArray ? point == null ? null : point.clone() : point, copyArray ? value == null ? null : value.clone() : value)
+throw new ModelSpecificationException(LocalizedFormats.DIMENSIONS_MISMATCH_SIMPLE, x == null ? 0 : x.length, y == null ? 0 : y.length)
+throw new ModelSpecificationException(LocalizedFormats.DIMENSIONS_MISMATCH_SIMPLE, x == null ? 0 : x.length, y == null ? 0 : y.length)
+return new SubHyperplane.SplitSubHyperplane<Sphere2D>(plus == null ? null : new SubCircle(thisCircle.copySelf(), plus), minus == null ? null : new SubCircle(thisCircle.copySelf(), minus))
+return new SubHyperplane.SplitSubHyperplane<Sphere2D>(plus == null ? null : new SubCircle(thisCircle.copySelf(), plus), minus == null ? null : new SubCircle(thisCircle.copySelf(), minus))
+final int maxParameters = FastMath.max(parameters, cache == null ? 0 : cache.length)
+final int maxOrder = FastMath.max(order, cache == null ? 0 : cache[0].length)
+CheckNotNull  in 2025ms
+ForceNullInit in 846ms
+AddImplicitCastChecker --> 39 in 2075ms
+BeforeDeref --> 17166 (failed:0) in 3818ms
+target--> 23157 (failed:0) in 11011ms
+TryRegister # Try: 97 in 569ms
+Assign --> 9958 (failed: 0) in 10073ms
+VarInit --> 7530 in 3650ms
+MethodEncapsulation # Method: 6064 in 17518ms
+ConstructorEncapsulation # Constructor: 1261 in 3974ms
+VariableFor in 878ms

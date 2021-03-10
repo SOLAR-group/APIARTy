@@ -1,0 +1,463 @@
+11:44:31.835 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/OAK-2465/jackrabbit-oak/oak-core/src/main/java, /apiarty/data/OAK-2465/jackrabbit-oak/oak-core/src/test/java]
+11:44:31.840 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/OAK-2465/jackrabbit-oak/oak-core/target/classes/, file:/apiarty/data/OAK-2465/jackrabbit-oak/oak-core/target/test-classes/, file:/root/.m2/repository/org/osgi/org.osgi.core/4.2.0/org.osgi.core-4.2.0.jar, file:/root/.m2/repository/org/osgi/org.osgi.compendium/4.2.0/org.osgi.compendium-4.2.0.jar, file:/root/.m2/repository/biz/aQute/bnd/bndlib/2.2.0/bndlib-2.2.0.jar, file:/root/.m2/repository/org/apache/felix/org.apache.felix.scr.annotations/1.9.6/org.apache.felix.scr.annotations-1.9.6.jar, file:/root/.m2/repository/org/apache/jackrabbit/oak-mk-api/1.1-SNAPSHOT/oak-mk-api-1.1-SNAPSHOT.jar, file:/root/.m2/repository/org/apache/jackrabbit/oak-commons/1.1-SNAPSHOT/oak-commons-1.1-SNAPSHOT.jar, file:/root/.m2/repository/org/apache/jackrabbit/oak-commons/1.1-SNAPSHOT/oak-commons-1.1-SNAPSHOT-tests.jar, file:/root/.m2/repository/org/apache/jackrabbit/oak-blob/1.1-SNAPSHOT/oak-blob-1.1-SNAPSHOT.jar, file:/root/.m2/repository/com/google/guava/guava/15.0/guava-15.0.jar, file:/root/.m2/repository/commons-codec/commons-codec/1.5/commons-codec-1.5.jar, file:/root/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar, file:/root/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar, file:/root/.m2/repository/org/apache/jackrabbit/jackrabbit-aws-ext/2.9.0/jackrabbit-aws-ext-2.9.0.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk/1.7.3/aws-java-sdk-1.7.3.jar, file:/root/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar, file:/root/.m2/repository/org/apache/httpcomponents/httpclient/4.2/httpclient-4.2.jar, file:/root/.m2/repository/org/apache/httpcomponents/httpcore/4.2/httpcore-4.2.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.1.1/jackson-core-2.1.1.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.1.1/jackson-databind-2.1.1.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.1.1/jackson-annotations-2.1.1.jar, file:/root/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar, file:/root/.m2/repository/org/apache/jackrabbit/jackrabbit-data/2.9.0/jackrabbit-data-2.9.0-tests.jar, file:/root/.m2/repository/org/mongodb/mongo-java-driver/2.12.2/mongo-java-driver-2.12.2.jar, file:/root/.m2/repository/org/apache/jclouds/provider/aws-s3/1.7.0/aws-s3-1.7.0.jar, file:/root/.m2/repository/org/apache/jclouds/api/s3/1.7.0/s3-1.7.0.jar, file:/root/.m2/repository/com/jamesmurty/utils/java-xmlbuilder/0.4/java-xmlbuilder-0.4.jar, file:/root/.m2/repository/org/apache/jclouds/api/sts/1.7.0/sts-1.7.0.jar, file:/root/.m2/repository/org/apache/jclouds/jclouds-core/1.7.0/jclouds-core-1.7.0.jar, file:/root/.m2/repository/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar, file:/root/.m2/repository/com/google/inject/extensions/guice-assistedinject/3.0/guice-assistedinject-3.0.jar, file:/root/.m2/repository/com/google/inject/guice/3.0/guice-3.0.jar, file:/root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar, file:/root/.m2/repository/org/99soft/guice/rocoto/6.2/rocoto-6.2.jar, file:/root/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar, file:/root/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar, file:/root/.m2/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar, file:/root/.m2/repository/org/apache/jclouds/jclouds-blobstore/1.7.0/jclouds-blobstore-1.7.0.jar, file:/root/.m2/repository/com/esotericsoftware/kryo/kryo/2.22/kryo-2.22.jar, file:/root/.m2/repository/org/apache/directmemory/directmemory-cache/0.2/directmemory-cache-0.2.jar, file:/root/.m2/repository/com/h2database/h2/1.4.182/h2-1.4.182.jar, file:/root/.m2/repository/javax/jcr/jcr/2.0/jcr-2.0.jar, file:/root/.m2/repository/org/apache/jackrabbit/jackrabbit-api/2.9.0/jackrabbit-api-2.9.0.jar, file:/root/.m2/repository/org/apache/jackrabbit/jackrabbit-jcr-commons/2.9.0/jackrabbit-jcr-commons-2.9.0.jar, file:/root/.m2/repository/org/apache/jackrabbit/jackrabbit-data/2.9.0/jackrabbit-data-2.9.0.jar, file:/root/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.6/jcl-over-slf4j-1.7.6.jar, file:/root/.m2/repository/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar, file:/root/.m2/repository/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar, file:/root/.m2/repository/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6.jar, file:/root/.m2/repository/com/google/code/findbugs/jsr305/2.0.0/jsr305-2.0.0.jar, file:/root/.m2/repository/junit/junit/4.10/junit-4.10.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar, file:/root/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar, file:/root/.m2/repository/org/objenesis/objenesis/1.0/objenesis-1.0.jar, file:/root/.m2/repository/org/easymock/easymock/3.1/easymock-3.1.jar, file:/root/.m2/repository/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar, file:/root/.m2/repository/org/slf4j/jul-to-slf4j/1.7.6/jul-to-slf4j-1.7.6.jar, file:/root/.m2/repository/ch/qos/logback/logback-classic/1.1.0/logback-classic-1.1.0.jar, file:/root/.m2/repository/ch/qos/logback/logback-core/1.1.0/logback-core-1.1.0.jar, file:/root/.m2/repository/org/apache/jackrabbit/oak-blob/1.1-SNAPSHOT/oak-blob-1.1-SNAPSHOT-tests.jar]
+11:44:31.841 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+11:44:31.842 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImplTest]
+11:44:31.846 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/OAK-2465/jackrabbit-oak/oak-core/src/main/java, /apiarty/data/OAK-2465/jackrabbit-oak/oak-core/src/test/java], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImplTest], complianceLevel=8, outputFolder=., json=false}
+11:44:31.848 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+11:44:31.860 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+11:44:31.861 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+11:44:31.862 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+11:44:31.862 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+11:44:31.864 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+11:44:31.866 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+11:46:26.146 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+11:46:26.147 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImpl:77 which is executed by 3 tests
+-1682925803
+11:46:39.320 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+11:46:59.995 [pool-2-thread-1] DEBUG tests.output - Failing tests with false: 
+[testNoExistingName(org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImplTest): expected null, but was:<{}>]
+11:46:59.996 [pool-2-thread-1] DEBUG tests.output - Failing tests with true: 
+[testNoExistingName(org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImplTest): The number of  entries exceeds the max cache size, testInitLongOverflow2(org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImplTest): The number of  entries exceeds the max cache size, testExistingNamesAndLongOverFlow(org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImplTest): The number of  entries exceeds the max cache size]
+11:47:00.000 [pool-2-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImpl:77.
+11:47:00.002 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+11:47:00.003 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImpl:76 which is executed by 3 tests
+-1682925803
+11:47:23.176 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+11:47:52.272 [pool-10-thread-1] DEBUG tests.output - Failing tests with false: 
+[testNoExistingName(org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImplTest): expected null, but was:<{}>]
+11:47:52.272 [pool-10-thread-1] DEBUG tests.output - Failing tests with true: 
+[testNoExistingName(org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImplTest): The number of  entries exceeds the max cache size, testInitLongOverflow2(org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImplTest): The number of  entries exceeds the max cache size, testExistingNamesAndLongOverFlow(org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImplTest): The number of  entries exceeds the max cache size]
+11:47:52.273 [pool-10-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImpl:76.
+11:47:52.274 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+11:47:52.274 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImpl:75 which is executed by 3 tests
+-1682925803
+11:48:06.132 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+11:48:23.613 [pool-18-thread-1] DEBUG tests.output - Failing tests with false: 
+[testNoExistingName(org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImplTest): The number of  entries exceeds the max cache size, testInitLongOverflow2(org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImplTest): The number of  entries exceeds the max cache size, testExistingNamesAndLongOverFlow(org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImplTest): The number of  entries exceeds the max cache size]
+11:48:23.614 [pool-18-thread-1] DEBUG tests.output - Failing tests with true: 
+[testNoExistingName(org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImplTest): The number of  entries exceeds the max cache size, testInitLongOverflow2(org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImplTest): The number of  entries exceeds the max cache size, testExistingNamesAndLongOverFlow(org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImplTest): The number of  entries exceeds the max cache size]
+11:48:23.615 [pool-18-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImpl:75.
+11:48:23.616 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+11:48:23.617 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.spi.security.ConfigurationParameters:225 which is executed by 4 tests
+1345105761
+11:48:46.541 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+11:49:06.668 [pool-26-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+ConfigurationParameters.java:125: error: missing return statement
+    }
+    ^
+11:49:06.764 [pool-26-thread-1] ERROR f.i.l.r.n.s.ConstraintModelBuilder - Unable to compile the change: 
+public final class ConfigurationParameters implements java.util.Map<java.lang.String, java.lang.Object> {
+    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.class);
+
+    public static final org.apache.jackrabbit.oak.spi.security.ConfigurationParameters EMPTY = new org.apache.jackrabbit.oak.spi.security.ConfigurationParameters();
+
+    private final java.util.Map<java.lang.String, java.lang.Object> options;
+
+    private ConfigurationParameters() {
+        this.options = java.util.Collections.emptyMap();
+    }
+
+    private ConfigurationParameters(@javax.annotation.Nonnull
+    java.util.Map<java.lang.String, ?> options) {
+        this.options = java.util.Collections.unmodifiableMap(options);
+    }
+
+    @javax.annotation.Nonnull
+    public static org.apache.jackrabbit.oak.spi.security.ConfigurationParameters of(@javax.annotation.Nonnull
+    org.apache.jackrabbit.oak.spi.security.ConfigurationParameters... params) {
+        java.util.Map<java.lang.String, java.lang.Object> m = new java.util.HashMap<java.lang.String, java.lang.Object>();
+        for (org.apache.jackrabbit.oak.spi.security.ConfigurationParameters cp : params) {
+            if (cp != null) {
+                m.putAll(cp.options);
+            }
+        }
+        return m.isEmpty() ? org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.EMPTY : new org.apache.jackrabbit.oak.spi.security.ConfigurationParameters(m);
+    }
+
+    @javax.annotation.Nonnull
+    public static org.apache.jackrabbit.oak.spi.security.ConfigurationParameters of(@javax.annotation.Nonnull
+    java.util.Properties properties) {
+        if (properties.isEmpty()) {
+            return org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.EMPTY;
+        }
+        java.util.Map<java.lang.String, java.lang.Object> options = new java.util.HashMap<java.lang.String, java.lang.Object>(properties.size());
+        for (java.lang.Object name : properties.keySet()) {
+            final java.lang.String key = name.toString();
+            options.put(key, properties.get(key));
+        }
+        return new org.apache.jackrabbit.oak.spi.security.ConfigurationParameters(options);
+    }
+
+    @javax.annotation.Nonnull
+    public static org.apache.jackrabbit.oak.spi.security.ConfigurationParameters of(@javax.annotation.Nonnull
+    java.util.Dictionary<java.lang.String, java.lang.Object> properties) {
+        if (properties.isEmpty()) {
+            return org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.EMPTY;
+        }
+        java.util.Map<java.lang.String, java.lang.Object> options = new java.util.HashMap<java.lang.String, java.lang.Object>(properties.size());
+        for (java.util.Enumeration<java.lang.String> keys = properties.keys(); keys.hasMoreElements();) {
+            java.lang.String key = keys.nextElement();
+            options.put(key, properties.get(key));
+        }
+        return new org.apache.jackrabbit.oak.spi.security.ConfigurationParameters(options);
+    }
+
+    @javax.annotation.Nonnull
+    public static org.apache.jackrabbit.oak.spi.security.ConfigurationParameters of(@javax.annotation.Nonnull
+    java.util.Map<?, ?> map) {
+        if (map.isEmpty()) {
+            return org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.EMPTY;
+        }
+        java.util.Map<java.lang.String, java.lang.Object> options = new java.util.HashMap<java.lang.String, java.lang.Object>(map.size());
+        for (java.util.Map.Entry<?, ?> e : map.entrySet()) {
+            options.put(java.lang.String.valueOf(e.getKey()), e.getValue());
+        }
+        return new org.apache.jackrabbit.oak.spi.security.ConfigurationParameters(options);
+    }
+
+    @javax.annotation.Nonnull
+    public static org.apache.jackrabbit.oak.spi.security.ConfigurationParameters of(@javax.annotation.Nonnull
+    java.lang.String key, @javax.annotation.Nonnull
+    java.lang.Object value) {
+        return new org.apache.jackrabbit.oak.spi.security.ConfigurationParameters(com.google.common.collect.ImmutableMap.of(key, value));
+    }
+
+    public boolean contains(@javax.annotation.Nonnull
+    java.lang.String key) {
+        return options.containsKey(key);
+    }
+
+    @javax.annotation.CheckForNull
+    public <T> T getConfigValue(@javax.annotation.Nonnull
+    java.lang.String key, @javax.annotation.Nullable
+    T defaultValue, @javax.annotation.Nullable
+    java.lang.Class<T> targetClass) {
+        if (options.containsKey(key)) {
+            return org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.convert(options.get(key), defaultValue, targetClass);
+        } else {
+            return defaultValue;
+        }
+    }
+
+    @javax.annotation.Nonnull
+    public <T> T getConfigValue(@javax.annotation.Nonnull
+    java.lang.String key, @javax.annotation.Nonnull
+    T defaultValue) {
+        java.lang.Object property = options.get(key);
+        if (property == null) {
+            boolean spoonDefaultValue = false;
+            try {
+                spoonDefaultValue = true;
+            } catch (java.lang.Exception __NopolProcessorException) {
+            }
+            boolean runtimeAngelicValue = fr.inria.lille.repair.nopol.synth.AngelicExecution.angelicValue(spoonDefaultValue);
+            if (fr.inria.lille.commons.trace.RuntimeValues.instance(3).isEnabled()) {
+                fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectionStarts();
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("property",property);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.EMPTY",org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.EMPTY);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.this.options",org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.this.options);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("key",key);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.log",org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.log);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("defaultValue",defaultValue);} catch (Exception ex1) {ex1.printStackTrace();};
+                fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectOutput(runtimeAngelicValue);
+                fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectionEnds();
+            }
+            if (runtimeAngelicValue)
+                return defaultValue;
+
+        } else {
+            T value = org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.convert(property, defaultValue, null);
+            return value == null ? defaultValue : value;
+        }
+    }
+
+    @java.lang.SuppressWarnings("unchecked")
+    @javax.annotation.Nullable
+    private static <T> T convert(@javax.annotation.Nullable
+    java.lang.Object configProperty, @javax.annotation.Nullable
+    T defaultValue, @javax.annotation.Nullable
+    java.lang.Class<T> targetClass) {
+        if (configProperty == null) {
+            return null;
+        }
+        java.lang.String str = configProperty.toString();
+        java.lang.Class clazz = targetClass;
+        if (clazz == null) {
+            clazz = (defaultValue == null) ? configProperty.getClass() : defaultValue.getClass();
+        }
+        try {
+            if (clazz.isAssignableFrom(configProperty.getClass())) {
+                return ((T) (configProperty));
+            } else
+                if (clazz == java.lang.String.class) {
+                    return ((T) (str));
+                } else
+                    if (clazz == org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.Milliseconds.class) {
+                        org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.Milliseconds ret = org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.Milliseconds.of(str);
+                        return ((T) (ret)) == null ? defaultValue : ((T) (ret));
+                    } else
+                        if ((clazz == java.lang.Integer.class) || (clazz == int.class)) {
+                            return ((T) (java.lang.Integer.valueOf(str)));
+                        } else
+                            if ((clazz == java.lang.Long.class) || (clazz == long.class)) {
+                                return ((T) (java.lang.Long.valueOf(str)));
+                            } else
+                                if ((clazz == java.lang.Float.class) || (clazz == float.class)) {
+                                    return ((T) (java.lang.Float.valueOf(str)));
+                                } else
+                                    if ((clazz == java.lang.Double.class) || (clazz == double.class)) {
+                                        return ((T) (java.lang.Double.valueOf(str)));
+                                    } else
+                                        if ((clazz == java.lang.Boolean.class) || (clazz == boolean.class)) {
+                                            return ((T) (java.lang.Boolean.valueOf(str)));
+                                        } else
+                                            if (clazz == java.lang.String[].class) {
+                                                return ((T) (org.apache.jackrabbit.oak.commons.PropertiesUtil.toStringArray(configProperty, ((java.lang.String[]) (defaultValue)))));
+                                            } else
+                                                if ((clazz == java.util.Set.class) || java.util.Set.class.isAssignableFrom(clazz)) {
+                                                    if (configProperty instanceof java.util.Set) {
+                                                        return ((T) (configProperty));
+                                                    } else
+                                                        if (configProperty instanceof java.util.Collection) {
+                                                            return ((T) (com.google.common.collect.ImmutableSet.copyOf(((java.util.Collection) (configProperty)))));
+                                                        } else
+                                                            if (configProperty.getClass().isArray()) {
+                                                                return ((T) (com.google.common.collect.ImmutableSet.copyOf(((java.lang.Object[]) (configProperty)))));
+                                                            } else {
+                                                                java.lang.String[] arr = org.apache.jackrabbit.oak.commons.PropertiesUtil.toStringArray(configProperty);
+                                                                if (arr != null) {
+                                                                    return ((T) (com.google.common.collect.ImmutableSet.copyOf(arr)));
+                                                                } else {
+                                                                    org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.log.warn("Unsupported target type {} for value {}", clazz.getName(), str);
+                                                                    throw new java.lang.IllegalArgumentException((("Cannot convert config entry " + str) + " to ") + clazz.getName());
+                                                                }
+                                                            }
+
+
+                                                } else {
+                                                    org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.log.warn("Unsupported target type {} for value {}", clazz.getName(), str);
+                                                    throw new java.lang.IllegalArgumentException((("Cannot convert config entry " + str) + " to ") + clazz.getName());
+                                                }
+
+
+
+
+
+
+
+
+
+        } catch (java.lang.NumberFormatException e) {
+            org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.log.warn("Invalid value {}; cannot be parsed into {}", str, clazz.getName());
+            throw new java.lang.IllegalArgumentException((("Cannot convert config entry " + str) + " to ") + clazz.getName(), e);
+        }
+    }
+
+    @java.lang.Override
+    public int size() {
+        return options.size();
+    }
+
+    @java.lang.Override
+    public boolean isEmpty() {
+        return options.isEmpty();
+    }
+
+    @java.lang.Override
+    public boolean containsKey(java.lang.Object key) {
+        return options.containsKey(key);
+    }
+
+    @java.lang.Override
+    public boolean containsValue(java.lang.Object value) {
+        return options.containsValue(value);
+    }
+
+    @java.lang.Override
+    public java.lang.Object get(java.lang.Object key) {
+        return options.get(key);
+    }
+
+    @java.lang.Override
+    public java.lang.Object put(java.lang.String key, java.lang.Object value) {
+        return options.put(key, value);
+    }
+
+    @java.lang.Override
+    public java.lang.Object remove(java.lang.Object key) {
+        return options.remove(key);
+    }
+
+    @java.lang.Override
+    public void putAll(java.util.Map<? extends java.lang.String, ?> m) {
+        options.putAll(m);
+    }
+
+    @java.lang.Override
+    public void clear() {
+        options.clear();
+    }
+
+    @java.lang.Override
+    public java.util.Set<java.lang.String> keySet() {
+        return options.keySet();
+    }
+
+    @java.lang.Override
+    public java.util.Collection<java.lang.Object> values() {
+        return options.values();
+    }
+
+    @java.lang.Override
+    public java.util.Set<java.util.Map.Entry<java.lang.String, java.lang.Object>> entrySet() {
+        return options.entrySet();
+    }
+
+    public static final class Milliseconds {
+        private static final java.util.regex.Pattern pattern = java.util.regex.Pattern.compile("(\\d+)(\\.\\d+)?(ms|s|m|h|d)?");
+
+        public static final org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.Milliseconds NULL = new org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.Milliseconds(0);
+
+        public static final org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.Milliseconds FOREVER = new org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.Milliseconds(java.lang.Long.MAX_VALUE);
+
+        public static final org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.Milliseconds NEVER = new org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.Milliseconds(-1);
+
+        public final long value;
+
+        private Milliseconds(long value) {
+            this.value = value;
+        }
+
+        public static org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.Milliseconds of(long value) {
+            if (value == 0) {
+                return org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.Milliseconds.NULL;
+            } else
+                if (value == java.lang.Long.MAX_VALUE) {
+                    return org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.Milliseconds.FOREVER;
+                } else
+                    if (value < 0) {
+                        return org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.Milliseconds.NEVER;
+                    } else {
+                        return new org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.Milliseconds(value);
+                    }
+
+
+        }
+
+        @javax.annotation.CheckForNull
+        public static org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.Milliseconds of(@javax.annotation.Nullable
+        java.lang.String str) {
+            if (str == null) {
+                return null;
+            }
+            java.util.regex.Matcher m = org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.Milliseconds.pattern.matcher(str);
+            long current = -1;
+            while (m.find()) {
+                java.lang.String number = m.group(1);
+                java.lang.String decimal = m.group(2);
+                if (decimal != null) {
+                    number += decimal;
+                }
+                java.lang.String unit = m.group(3);
+                double value = java.lang.Double.valueOf(number);
+                if ("s".equals(unit)) {
+                    value *= 1000.0;
+                } else
+                    if ("m".equals(unit)) {
+                        value *= 60 * 1000.0;
+                    } else
+                        if ("h".equals(unit)) {
+                            value *= (60 * 60) * 1000.0;
+                        } else
+                            if ("d".equals(unit)) {
+                                value *= ((24 * 60) * 60) * 1000.0;
+                            }
+
+
+
+                current += value;
+            } 
+            return current < 0 ? null : new org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.Milliseconds(current + 1);
+        }
+
+        @java.lang.Override
+        public boolean equals(java.lang.Object o) {
+            return (this == o) || ((!((o == null) || (getClass() != o.getClass()))) && (value == ((org.apache.jackrabbit.oak.spi.security.ConfigurationParameters.Milliseconds) (o)).value));
+        }
+
+        @java.lang.Override
+        public int hashCode() {
+            return ((int) (value ^ (value >>> 32)));
+        }
+    }
+}
+11:49:06.766 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+11:49:06.767 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+11:49:06.768 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.spi.security.ConfigurationParameters:224 which is executed by 4 tests
+1345105761
+11:49:24.557 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+11:49:58.833 [pool-28-thread-1] DEBUG tests.output - Failing tests with false: 
+[testNoExistingName(org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImplTest): The number of  entries exceeds the max cache size, testInitLongOverflow2(org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImplTest): The number of  entries exceeds the max cache size, testExistingNamesAndLongOverFlow(org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImplTest): The number of  entries exceeds the max cache size]
+11:49:58.834 [pool-28-thread-1] DEBUG tests.output - Failing tests with true: 
+[testNoExistingName(org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImplTest): The number of  entries exceeds the max cache size, testInitLongOverflow2(org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImplTest): The number of  entries exceeds the max cache size, testExistingNamesAndLongOverFlow(org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImplTest): The number of  entries exceeds the max cache size]
+11:49:58.834 [pool-28-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.jackrabbit.oak.spi.security.ConfigurationParameters:224.
+11:49:58.835 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+11:49:58.836 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.spi.security.ConfigurationParameters:223 which is executed by 4 tests
+1345105761
+11:50:17.421 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+11:50:17.423 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryCache:104 which is executed by 4 tests
+-448836224
+11:50:32.984 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+11:50:32.985 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryCache:103 which is executed by 4 tests
+-448836224
+11:50:46.204 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+11:50:46.205 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryCache:102 which is executed by 4 tests
+-448836224
+11:50:59.300 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+11:50:59.301 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImpl:73 which is executed by 4 tests
+-1682925803
+11:51:20.032 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+11:52:04.859 [pool-36-thread-1] DEBUG f.i.l.c.s.ConstraintBasedSynthesis - Operators:
+11:52:04.990 [pool-36-thread-1] DEBUG f.i.l.c.s.ConstraintBasedSynthesis - Successful code synthesis: org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImpl.EAGER_CACHE_SIZE_PARAM.length()==0
+11:52:04.992 [pool-36-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Applying patch: org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImpl:73: PRECONDITION org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImpl.EAGER_CACHE_SIZE_PARAM.length()==0
+11:52:26.994 [pool-36-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Running test suite to check the patch "org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImpl.EAGER_CACHE_SIZE_PARAM.length()==0" is working
+11:52:27.213 [pool-36-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Skipped -9 patches for sake of performance
+11:52:27.214 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+11:52:27.607 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 1113
+11:52:27.609 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 8260
+11:52:27.609 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 6
+11:52:27.610 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 1
+11:52:27.611 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 3
+11:52:27.612 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 1
+11:52:27.613 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT components: [0] []
+11:52:27.613 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 21
+11:52:27.614 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 475382ms
+11:52:27.615 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+11:52:27.616 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+11:52:27.617 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImpl.EAGER_CACHE_SIZE_PARAM.length()==0
+11:52:27.619 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 4
+11:52:27.620 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImpl:73: PRECONDITION
+11:52:27.647 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - --- a/src/main/java/org/apache/jackrabbit/oak/security/authorization/permission/PermissionEntryProviderImpl.java
++++ b/src/main/java/org/apache/jackrabbit/oak/security/authorization/permission/PermissionEntryProviderImpl.java
+@@ -72,10 +72,12 @@
+         }
+-        if (cnt < maxSize) {
+-            // cache all entries of all principals
+-            pathEntryMap = new HashMap<String, Collection<PermissionEntry>>();
+-            for (String name: principalNames) {
+-                cache.load(store, pathEntryMap, name);
++        if (org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImpl.EAGER_CACHE_SIZE_PARAM.length()==0) {
++            if (cnt < maxSize) {
++                // cache all entries of all principals
++                pathEntryMap = new HashMap<String, Collection<PermissionEntry>>();
++                for (String name: principalNames) {
++                    cache.load(store, pathEntryMap, name);
++                }
++            } else {
++                pathEntryMap = null;
+             }
+-        } else {
+-            pathEntryMap = null;
+         }
+
+PATCH

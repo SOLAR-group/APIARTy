@@ -1,0 +1,22 @@
+07:48:50.491 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/ACCUMULO-1348_b/accumulo/core/src/main/java, /apiarty/data/ACCUMULO-1348_b/accumulo/core/src/test/java]
+07:48:50.495 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/ACCUMULO-1348_b/accumulo/core/target/classes/, file:/apiarty/data/ACCUMULO-1348_b/accumulo/core/target/test-classes/, file:/apiarty/data/ACCUMULO-1348_b/accumulo/lib/accumulo-examples-simple-1.6.0-SNAPSHOT.jar, file:/apiarty/data/ACCUMULO-1348_b/accumulo/lib/accumulo-core-1.6.0-SNAPSHOT.jar, file:/apiarty/data/ACCUMULO-1348_b/accumulo/lib/accumulo-fate-1.6.0-SNAPSHOT.jar, file:/apiarty/data/ACCUMULO-1348_b/accumulo/lib/accumulo-proxy-1.6.0-SNAPSHOT.jar, file:/apiarty/data/ACCUMULO-1348_b/accumulo/lib/accumulo-server-1.6.0-SNAPSHOT.jar, file:/apiarty/data/ACCUMULO-1348_b/accumulo/lib/accumulo-start-1.6.0-SNAPSHOT.jar, file:/apiarty/data/ACCUMULO-1348_b/accumulo/lib/accumulo-test-1.6.0-SNAPSHOT.jar, file:/apiarty/data/ACCUMULO-1348_b/accumulo/lib/commons-vfs2-2.0.jar, file:/apiarty/data/ACCUMULO-1348_b/accumulo/lib/gson-2.2.2.jar, file:/apiarty/data/ACCUMULO-1348_b/accumulo/lib/guava-14.0.1.jar, file:/apiarty/data/ACCUMULO-1348_b/accumulo/lib/jcommander-1.30.jar, file:/apiarty/data/ACCUMULO-1348_b/accumulo/lib/jline-1.0.jar, file:/apiarty/data/ACCUMULO-1348_b/accumulo/lib/libthrift-0.9.0.jar]
+07:48:50.496 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+07:48:50.498 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.accumulo.core.util.shell.ShellTest]
+07:48:50.502 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=DYNAMOTH, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/ACCUMULO-1348_b/accumulo/core/src/main/java, /apiarty/data/ACCUMULO-1348_b/accumulo/core/src/test/java], projectClasspath='[Ljava.net.URL;@3c5a99da', projectTests=[org.apache.accumulo.core.util.shell.ShellTest], complianceLevel=7, outputFolder=., json=false}
+07:48:50.503 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+07:48:50.510 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+07:48:50.511 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+07:48:50.512 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+07:48:50.513 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+07:48:50.516 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+07:48:50.517 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+07:50:14.234 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - OOPS, no statement at all, no test results
+07:50:14.235 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+07:50:14.634 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 571
+07:50:14.635 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 4801
+07:50:14.637 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 0
+07:50:14.638 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+07:50:14.639 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 83749ms
+07:50:14.640 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+NO_ANGELIC_VALUE
+

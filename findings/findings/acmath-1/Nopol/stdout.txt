@@ -1,0 +1,398 @@
+22:51:34.834 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/acmath-1/commons-math/src/main/java, /apiarty/data/acmath-1/commons-math/src/test/java]
+22:51:34.854 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/acmath-1/commons-math/target/classes/, file:/apiarty/data/acmath-1/commons-math/target/test-classes/, file:/root/.m2/repository/junit/junit/4.10/junit-4.10.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar]
+22:51:34.855 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+22:51:34.859 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.commons.math3.geometry.euclidean.threed.SubLineTest]
+22:51:34.865 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/acmath-1/commons-math/src/main/java, /apiarty/data/acmath-1/commons-math/src/test/java], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[org.apache.commons.math3.geometry.euclidean.threed.SubLineTest], complianceLevel=8, outputFolder=., json=false}
+22:51:34.866 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+22:51:34.888 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+22:51:34.889 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+22:51:34.890 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+22:51:34.891 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+22:51:34.894 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+22:51:34.897 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+22:53:41.884 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+22:53:41.888 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Vector3D:243 which is executed by 7 tests
+1946224405
+22:54:03.002 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+22:54:03.006 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.SubLine:116 which is executed by 7 tests
+-204121547
+22:54:21.226 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+22:54:21.230 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.SubLine:113 which is executed by 7 tests
+-204121547
+22:54:40.339 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+22:54:40.347 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Line:217 which is executed by 7 tests
+2368533
+22:55:02.613 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+22:55:02.614 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Line:216 which is executed by 7 tests
+2368533
+22:55:21.819 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+22:55:21.820 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Line:206 which is executed by 7 tests
+2368533
+22:55:43.313 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+22:55:43.314 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Line:204 which is executed by 7 tests
+2368533
+22:56:00.987 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+22:56:00.995 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Line:203 which is executed by 7 tests
+2368533
+22:56:17.557 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+22:56:17.558 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Line:202 which is executed by 7 tests
+2368533
+22:56:37.222 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+22:56:37.225 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Line:197 which is executed by 7 tests
+2368533
+22:56:55.809 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:57:14.929 [pool-2-thread-1] DEBUG tests.output - Failing tests with false: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null]
+22:57:14.930 [pool-2-thread-1] DEBUG tests.output - Failing tests with true: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null]
+22:57:14.930 [pool-2-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Line:197.
+22:57:14.931 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+22:57:36.105 [pool-6-thread-1] DEBUG tests.output - Failing tests with false: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null]
+22:57:36.106 [pool-6-thread-1] DEBUG tests.output - Failing tests with true: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null]
+22:57:36.107 [pool-6-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Line:197.
+22:57:36.108 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+22:57:36.109 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Line:196 which is executed by 7 tests
+2368533
+22:57:55.270 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+22:57:55.271 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Line:195 which is executed by 7 tests
+2368533
+22:58:22.357 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+22:58:22.365 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Line:166 which is executed by 7 tests
+2368533
+22:58:53.776 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+22:58:53.778 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Line:165 which is executed by 7 tests
+2368533
+22:59:21.324 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+22:59:21.325 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Line:164 which is executed by 7 tests
+2368533
+22:59:51.694 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+22:59:51.701 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Line:156 which is executed by 7 tests
+2368533
+23:00:10.309 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+23:00:10.311 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.SubLine:139 which is executed by 8 tests
+-204121547
+23:00:31.096 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+23:00:31.106 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.SubLine:138 which is executed by 8 tests
+-204121547
+23:00:49.209 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #19
+23:00:49.211 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.SubLine:137 which is executed by 8 tests
+-204121547
+23:01:08.132 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #20
+23:01:08.133 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Line:129 which is executed by 8 tests
+2368533
+23:01:27.737 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #21
+23:01:27.738 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Line:114 which is executed by 8 tests
+2368533
+23:01:45.700 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #22
+23:01:45.701 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.oned.IntervalsSet:120 which is executed by 9 tests
+-1404642987
+23:02:03.054 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #23
+23:02:03.056 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.oned.IntervalsSet:119 which is executed by 9 tests
+-1404642987
+23:02:22.824 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #24
+23:02:22.832 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.oned.IntervalsSet:118 which is executed by 9 tests
+-1404642987
+23:02:41.721 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #25
+23:02:41.722 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.oned.IntervalsSet:109 which is executed by 10 tests
+-1404642987
+23:02:59.749 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+23:03:23.000 [pool-10-thread-1] DEBUG tests.output - Failing tests with false: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null]
+23:03:23.001 [pool-10-thread-1] DEBUG tests.output - Failing tests with true: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null]
+23:03:23.003 [pool-10-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.math3.geometry.euclidean.oned.IntervalsSet:109.
+23:03:23.004 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+23:03:41.419 [pool-14-thread-1] DEBUG tests.output - Failing tests with false: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null]
+23:03:41.419 [pool-14-thread-1] DEBUG tests.output - Failing tests with true: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null]
+23:03:41.420 [pool-14-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.math3.geometry.euclidean.oned.IntervalsSet:109.
+23:03:41.421 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #26
+23:03:41.421 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.oned.IntervalsSet:108 which is executed by 10 tests
+-1404642987
+23:03:56.172 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #27
+23:03:56.172 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.oned.IntervalsSet:107 which is executed by 10 tests
+-1404642987
+23:04:15.394 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #28
+23:04:15.396 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.oned.OrientedPoint:74 which is executed by 11 tests
+-807992275
+23:04:33.146 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #29
+23:04:33.147 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.oned.IntervalsSet:94 which is executed by 11 tests
+-1404642987
+23:04:54.616 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+23:05:16.631 [pool-18-thread-1] DEBUG tests.output - Failing tests with false: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null]
+23:05:16.632 [pool-18-thread-1] DEBUG tests.output - Failing tests with true: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null]
+23:05:16.633 [pool-18-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.math3.geometry.euclidean.oned.IntervalsSet:94.
+23:05:16.634 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+23:05:41.436 [pool-22-thread-1] DEBUG tests.output - Failing tests with false: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null]
+23:05:41.437 [pool-22-thread-1] DEBUG tests.output - Failing tests with true: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null]
+23:05:41.438 [pool-22-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.math3.geometry.euclidean.oned.IntervalsSet:94.
+23:05:41.439 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #30
+23:05:41.440 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.oned.Vector1D:128 which is executed by 12 tests
+1946224343
+23:06:00.120 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #31
+23:06:00.120 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Vector3D:454 which is executed by 13 tests
+1946224405
+23:06:20.166 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #32
+23:06:20.167 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Vector3D:453 which is executed by 13 tests
+1946224405
+23:06:37.494 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #33
+23:06:37.495 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Vector3D:287 which is executed by 13 tests
+1946224405
+23:06:52.604 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #34
+23:06:52.606 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Vector3D:286 which is executed by 13 tests
+1946224405
+23:07:10.298 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #35
+23:07:10.299 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Vector3D:249 which is executed by 13 tests
+1946224405
+23:07:29.813 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #36
+23:07:29.815 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.FastMath:385 which is executed by 13 tests
+1033054629
+23:07:48.009 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #37
+23:07:48.010 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Line:81 which is executed by 13 tests
+2368533
+23:08:06.796 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #38
+23:08:06.800 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Line:80 which is executed by 13 tests
+2368533
+23:08:25.892 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+23:08:45.751 [pool-26-thread-1] DEBUG tests.output - Failing tests with false: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null]
+23:08:45.752 [pool-26-thread-1] DEBUG tests.output - Failing tests with true: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null]
+23:08:45.753 [pool-26-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Line:80.
+23:08:45.753 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #39
+23:08:45.755 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Line:79 which is executed by 13 tests
+2368533
+23:09:04.565 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+23:09:25.949 [pool-30-thread-1] DEBUG tests.output - Failing tests with false: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null]
+23:09:25.952 [pool-30-thread-1] DEBUG tests.output - Failing tests with true: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null]
+23:09:25.953 [pool-30-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Line:79.
+23:09:25.954 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #40
+23:09:25.955 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Line:76 which is executed by 13 tests
+2368533
+23:09:45.969 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+23:10:07.139 [pool-34-thread-1] DEBUG tests.output - Failing tests with false: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null]
+23:10:07.142 [pool-34-thread-1] DEBUG tests.output - Failing tests with true: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null]
+23:10:07.144 [pool-34-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Line:76.
+23:10:07.144 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+23:10:29.151 [pool-38-thread-1] DEBUG tests.output - Failing tests with false: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null]
+23:10:29.163 [pool-38-thread-1] DEBUG tests.output - Failing tests with true: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): zero norm]
+23:10:29.163 [pool-38-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Line:76.
+23:10:29.165 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #41
+23:10:29.166 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Line:75 which is executed by 13 tests
+2368533
+23:10:49.019 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #42
+23:10:49.021 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.geometry.euclidean.threed.Line:74 which is executed by 13 tests
+2368533
+23:11:06.636 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #43
+23:11:06.638 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:1031 which is executed by 13 tests
+-1392754045
+23:11:24.351 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #44
+23:11:24.355 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:1025 which is executed by 13 tests
+-1392754045
+23:11:44.445 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+23:12:03.874 [pool-42-thread-1] DEBUG tests.output - Failing tests with false: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null]
+23:12:03.875 [pool-42-thread-1] DEBUG tests.output - Failing tests with true: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null]
+23:12:03.876 [pool-42-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.math3.util.MathArrays:1025.
+23:12:03.877 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+23:12:26.534 [pool-46-thread-1] DEBUG tests.output - Failing tests with false: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null]
+23:12:26.536 [pool-46-thread-1] DEBUG tests.output - Failing tests with true: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null]
+23:12:26.537 [pool-46-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.math3.util.MathArrays:1025.
+23:12:26.538 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #45
+23:12:26.539 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:1023 which is executed by 13 tests
+-1392754045
+23:12:45.219 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #46
+23:12:45.220 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:1019 which is executed by 13 tests
+-1392754045
+23:13:04.182 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #47
+23:13:04.184 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:1018 which is executed by 13 tests
+-1392754045
+23:13:36.546 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #48
+23:13:36.549 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:1017 which is executed by 13 tests
+-1392754045
+23:13:58.503 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #49
+23:13:58.511 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:1014 which is executed by 13 tests
+-1392754045
+23:14:23.737 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #50
+23:14:23.739 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:1013 which is executed by 13 tests
+-1392754045
+23:14:44.801 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #51
+23:14:44.802 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:1012 which is executed by 13 tests
+-1392754045
+23:15:05.765 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #52
+23:15:05.767 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:1009 which is executed by 13 tests
+-1392754045
+23:15:26.045 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #53
+23:15:26.047 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:1008 which is executed by 13 tests
+-1392754045
+23:15:53.358 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #54
+23:15:53.359 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:1005 which is executed by 13 tests
+-1392754045
+23:16:14.386 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #55
+23:16:14.394 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:1004 which is executed by 13 tests
+-1392754045
+23:16:33.613 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #56
+23:16:33.629 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:1003 which is executed by 13 tests
+-1392754045
+23:16:52.470 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #57
+23:16:52.472 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:1002 which is executed by 13 tests
+-1392754045
+23:17:14.227 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #58
+23:17:14.228 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:1001 which is executed by 13 tests
+-1392754045
+23:17:32.673 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #59
+23:17:32.675 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:1000 which is executed by 13 tests
+-1392754045
+23:17:58.665 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #60
+23:17:58.678 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:997 which is executed by 13 tests
+-1392754045
+23:18:16.658 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #61
+23:18:16.659 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:996 which is executed by 13 tests
+-1392754045
+23:18:34.277 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #62
+23:18:34.279 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:993 which is executed by 13 tests
+-1392754045
+23:18:50.848 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #63
+23:18:50.850 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:992 which is executed by 13 tests
+-1392754045
+23:19:07.809 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #64
+23:19:07.810 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:991 which is executed by 13 tests
+-1392754045
+23:19:28.363 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #65
+23:19:28.365 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:990 which is executed by 13 tests
+-1392754045
+23:19:47.528 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #66
+23:19:47.529 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:989 which is executed by 13 tests
+-1392754045
+23:20:06.273 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #67
+23:20:06.283 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:988 which is executed by 13 tests
+-1392754045
+23:20:24.152 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #68
+23:20:24.154 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:985 which is executed by 13 tests
+-1392754045
+23:20:44.007 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #69
+23:20:44.012 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:984 which is executed by 13 tests
+-1392754045
+23:21:04.366 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #70
+23:21:04.367 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:981 which is executed by 13 tests
+-1392754045
+23:21:23.208 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #71
+23:21:23.216 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:980 which is executed by 13 tests
+-1392754045
+23:21:42.894 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #72
+23:21:42.895 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:979 which is executed by 13 tests
+-1392754045
+23:22:05.189 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #73
+23:22:05.190 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:978 which is executed by 13 tests
+-1392754045
+23:22:24.336 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #74
+23:22:24.337 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:977 which is executed by 13 tests
+-1392754045
+23:22:44.125 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #75
+23:22:44.129 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:976 which is executed by 13 tests
+-1392754045
+23:23:04.998 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #76
+23:23:05.003 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:934 which is executed by 13 tests
+-1392754045
+23:23:22.818 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #77
+23:23:22.819 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:928 which is executed by 13 tests
+-1392754045
+23:23:42.668 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+23:24:04.386 [pool-50-thread-1] DEBUG tests.output - Failing tests with false: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null]
+23:24:04.387 [pool-50-thread-1] DEBUG tests.output - Failing tests with true: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null]
+23:24:04.388 [pool-50-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.math3.util.MathArrays:928.
+23:24:04.388 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+23:24:25.766 [pool-54-thread-1] DEBUG tests.output - Failing tests with false: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null]
+23:24:25.768 [pool-54-thread-1] DEBUG tests.output - Failing tests with true: 
+[testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null]
+23:24:25.769 [pool-54-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.math3.util.MathArrays:928.
+23:24:25.769 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #78
+23:24:25.770 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:926 which is executed by 13 tests
+-1392754045
+23:24:41.604 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #79
+23:24:41.605 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:922 which is executed by 13 tests
+-1392754045
+23:24:56.769 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #80
+23:24:56.770 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:921 which is executed by 13 tests
+-1392754045
+23:25:13.156 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #81
+23:25:13.158 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:920 which is executed by 13 tests
+-1392754045
+23:25:33.204 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #82
+23:25:33.206 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:917 which is executed by 13 tests
+-1392754045
+23:25:54.546 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #83
+23:25:54.547 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:916 which is executed by 13 tests
+-1392754045
+23:26:11.787 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #84
+23:26:11.789 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:913 which is executed by 13 tests
+-1392754045
+23:26:27.162 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #85
+23:26:27.166 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:912 which is executed by 13 tests
+-1392754045
+23:26:47.145 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #86
+23:26:47.147 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:911 which is executed by 13 tests
+-1392754045
+23:27:06.670 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #87
+23:27:06.673 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:910 which is executed by 13 tests
+-1392754045
+23:27:24.509 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #88
+23:27:24.510 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:909 which is executed by 13 tests
+-1392754045
+23:27:43.578 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #89
+23:27:43.581 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:908 which is executed by 13 tests
+-1392754045
+23:28:05.202 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #90
+23:28:05.212 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:905 which is executed by 13 tests
+-1392754045
+23:28:25.503 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #91
+23:28:25.504 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:904 which is executed by 13 tests
+-1392754045
+23:28:43.151 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #92
+23:28:43.158 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:901 which is executed by 13 tests
+-1392754045
+23:29:02.940 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #93
+23:29:02.941 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:900 which is executed by 13 tests
+-1392754045
+23:29:23.235 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #94
+23:29:23.236 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:899 which is executed by 13 tests
+-1392754045
+23:29:42.602 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #95
+23:29:42.603 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:898 which is executed by 13 tests
+-1392754045
+23:29:58.094 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #96
+23:29:58.097 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:897 which is executed by 13 tests
+-1392754045
+23:30:18.487 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #97
+23:30:18.488 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.commons.math3.util.MathArrays:896 which is executed by 13 tests
+-1392754045
+23:30:35.879 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+23:30:36.782 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 1211
+23:30:36.787 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 9421
+23:30:36.788 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 14
+23:30:36.789 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+23:30:36.790 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 0
+23:30:36.799 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 0
+23:30:36.800 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 0
+23:30:36.801 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 2341058ms
+23:30:36.802 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+NO_ANGELIC_VALUE

@@ -1,0 +1,24 @@
+07:54:44.122 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java, /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/test]
+07:54:44.141 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/workspaces/APIARTy/data/Bears-188/AutomatedCar/target/classes/, file:/workspaces/APIARTy/data/Bears-188/AutomatedCar/target/test-classes/, file:/root/.m2/repository/org/projectlombok/lombok/1.16.20/lombok-1.16.20.jar, file:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.8/log4j-api-2.8.jar, file:/root/.m2/repository/org/apache/logging/log4j/log4j-core/2.8/log4j-core-2.8.jar, file:/root/.m2/repository/com/moandjiezana/toml/toml4j/0.7.2/toml4j-0.7.2.jar, file:/root/.m2/repository/com/google/code/gson/gson/2.8.1/gson-2.8.1.jar]
+07:54:44.145 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: CONDITIONAL
+07:54:44.150 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [hu.oe.nik.szfmv.visualization.DashboardTest]
+07:54:44.159 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=CONDITIONAL, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/workspaces/APIARTy/data/Bears-188/AutomatedCar/src/main/java, /workspaces/APIARTy/data/Bears-188/AutomatedCar/src/test], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[hu.oe.nik.szfmv.visualization.DashboardTest], complianceLevel=7, outputFolder=., json=false}
+07:54:44.160 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+07:54:44.188 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 28 MB
+07:54:44.193 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 443 MB
+07:54:44.194 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 31 MB
+07:54:44.197 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+07:54:44.201 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+07:54:44.202 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /root/.vscode-server/bin/c47d83b293181d9be64f27ff093689e8e7aed054/bin:/apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+07:54:49.834 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - OOPS, no statement at all, no test results
+07:54:49.836 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+07:54:49.892 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 23
+07:54:49.904 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 58
+07:54:49.908 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 0
+07:54:49.914 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+07:54:49.917 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 0
+07:54:49.925 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 0
+07:54:49.927 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 0
+07:54:49.929 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 5719ms
+07:54:49.936 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+NO_ANGELIC_VALUE

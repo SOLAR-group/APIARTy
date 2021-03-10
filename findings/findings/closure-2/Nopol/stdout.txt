@@ -1,0 +1,103 @@
+22:34:06.967 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/closure-2/closure-compiler/src, /apiarty/data/closure-2/closure-compiler/test]
+22:34:06.970 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/closure-2/closure-compiler/build/classes/, file:/apiarty/data/closure-2/closure-compiler/build/test/, file:/apiarty/data/closure-2/closure-compiler/./build/classes/, file:/apiarty/data/closure-2/closure-compiler/./lib/args4j.jar, file:/apiarty/data/closure-2/closure-compiler/./lib/guava.jar, file:/apiarty/data/closure-2/closure-compiler/./lib/jsr305.jar, file:/apiarty/data/closure-2/closure-compiler/./lib/libtrunk_rhino_parser_jarjared.jar, file:/apiarty/data/closure-2/closure-compiler/./lib/protobuf-java.jar, file:/apiarty/data/closure-2/closure-compiler/./lib/ant.jar, file:/apiarty/data/closure-2/closure-compiler/./lib/ant-launcher.jar, file:/apiarty/data/closure-2/closure-compiler/./lib/caja-r4314.jar, file:/apiarty/data/closure-2/closure-compiler/./lib/json.jar, file:/apiarty/data/closure-2/closure-compiler/./lib/junit.jar, file:/apiarty/data/closure-2/closure-compiler/./lib/nopol/nopol/target/nopol-0.2-SNAPSHOT-jar-with-dependencies.jar, file:/apiarty/data/closure-2/closure-compiler/./build/test/]
+22:34:06.971 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+22:34:06.972 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [com.google.javascript.jscomp.CommandLineRunnerTest]
+22:34:06.975 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/closure-2/closure-compiler/src, /apiarty/data/closure-2/closure-compiler/test], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[com.google.javascript.jscomp.CommandLineRunnerTest], complianceLevel=8, outputFolder=., json=false}
+22:34:06.977 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+22:34:06.984 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+22:34:06.985 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+22:34:06.986 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+22:34:06.987 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+22:34:06.989 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+22:34:06.990 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+22:35:25.223 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+22:35:25.225 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:378 which is executed by 51 tests
+22:35:25.226 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:378
+22:35:25.228 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+22:35:25.229 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:402 which is executed by 51 tests
+22:35:25.230 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:402
+22:35:25.231 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+22:35:25.232 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:400 which is executed by 51 tests
+22:35:25.233 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:400
+22:35:25.234 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+22:35:25.236 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:397 which is executed by 51 tests
+22:35:25.237 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:397
+22:35:25.238 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+22:35:25.239 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:396 which is executed by 51 tests
+22:35:25.241 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:396
+22:35:25.242 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+22:35:25.243 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:392 which is executed by 51 tests
+22:35:25.244 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:392
+22:35:25.246 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+22:35:25.247 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:388 which is executed by 51 tests
+22:35:25.253 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.kohsuke.args4j.CmdLineParser$CmdLineImpl:388
+22:35:25.254 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+22:35:25.255 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.CommandLineRunner:610 which is executed by 51 tests
+-1712894512
+22:35:55.036 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+22:35:55.037 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.CommandLineRunner:484 which is executed by 51 tests
+-1712894512
+22:36:42.033 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+22:36:42.035 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.CommandLineRunner:446 which is executed by 51 tests
+-1712894512
+22:37:23.289 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:39:11.794 [pool-2-thread-1] DEBUG tests.output - Failing tests with false: 
+[testVersionFlag2(com.google.javascript.jscomp.CommandLineRunnerTest): null]
+22:39:11.795 [pool-2-thread-1] DEBUG tests.output - Failing tests with true: 
+[testVersionFlag2(com.google.javascript.jscomp.CommandLineRunnerTest): null]
+22:39:11.796 [pool-2-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.google.javascript.jscomp.CommandLineRunner:446.
+22:39:11.797 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+22:40:36.881 [pool-6-thread-1] DEBUG tests.output - Failing tests with false: 
+[testVersionFlag2(com.google.javascript.jscomp.CommandLineRunnerTest): null]
+22:40:36.883 [pool-6-thread-1] DEBUG tests.output - Failing tests with true: 
+[testVersionFlag2(com.google.javascript.jscomp.CommandLineRunnerTest): null]
+22:40:36.884 [pool-6-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.google.javascript.jscomp.CommandLineRunner:446.
+22:40:36.885 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+22:40:36.885 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.CommandLineRunner:437 which is executed by 51 tests
+-1712894512
+22:41:03.645 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:42:41.611 [pool-10-thread-1] DEBUG tests.output - Failing tests with false: 
+[testVersionFlag2(com.google.javascript.jscomp.CommandLineRunnerTest): null]
+22:42:41.614 [pool-10-thread-1] DEBUG tests.output - Failing tests with true: 
+[testVersionFlag2(com.google.javascript.jscomp.CommandLineRunnerTest): null]
+22:42:41.615 [pool-10-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.google.javascript.jscomp.CommandLineRunner:437.
+22:42:41.616 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+22:44:03.352 [pool-14-thread-1] DEBUG tests.output - Failing tests with false: 
+[testVersionFlag2(com.google.javascript.jscomp.CommandLineRunnerTest): null]
+22:44:03.353 [pool-14-thread-1] DEBUG tests.output - Failing tests with true: 
+[testVersionFlag2(com.google.javascript.jscomp.CommandLineRunnerTest): null]
+22:44:03.354 [pool-14-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.google.javascript.jscomp.CommandLineRunner:437.
+22:44:03.355 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+22:44:03.356 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.CommandLineRunner:431 which is executed by 51 tests
+-1712894512
+22:44:43.376 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:46:05.593 [pool-18-thread-1] DEBUG tests.output - Failing tests with false: 
+[testVersionFlag2(com.google.javascript.jscomp.CommandLineRunnerTest): expected:<0> but was:<-1>]
+22:46:05.594 [pool-18-thread-1] DEBUG tests.output - Failing tests with true: 
+[testVersionFlag2(com.google.javascript.jscomp.CommandLineRunnerTest): null]
+22:46:05.595 [pool-18-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.google.javascript.jscomp.CommandLineRunner:431.
+22:46:05.595 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+22:46:05.596 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.CommandLineRunner:429 which is executed by 51 tests
+-1712894512
+22:46:45.059 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:48:35.618 [pool-22-thread-1] DEBUG tests.output - Failing tests with false: 
+[testVersionFlag2(com.google.javascript.jscomp.CommandLineRunnerTest): null]
+22:48:35.620 [pool-22-thread-1] DEBUG tests.output - Failing tests with true: 
+[testVersionFlag2(com.google.javascript.jscomp.CommandLineRunnerTest): null]
+22:48:35.621 [pool-22-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.google.javascript.jscomp.CommandLineRunner:429.
+22:48:35.622 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+22:48:35.623 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.CommandLineRunner:428 which is executed by 51 tests
+-1712894512
+22:49:24.188 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+22:49:24.189 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.CommandLineRunner:424 which is executed by 51 tests
+-1712894512
+22:49:58.939 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+22:51:26.902 [pool-26-thread-1] DEBUG tests.output - Failing tests with false: 
+[testVersionFlag2(com.google.javascript.jscomp.CommandLineRunnerTest): expected:<0> but was:<-1>]
+22:51:26.903 [pool-26-thread-1] DEBUG tests.output - Failing tests with true: 
+[testVersionFlag2(com.google.javascript.jscomp.CommandLineRunnerTest): null]
+22:51:26.904 [pool-26-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.google.javascript.jscomp.CommandLineRunner:424.
+22:51:26.905 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+22:51:26.906 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation com.google.javascript.jscomp.CommandLineRunner:413 which is executed by 51 tests
+-1712894512
+22:51:58.861 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder

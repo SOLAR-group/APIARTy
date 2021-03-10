@@ -1,0 +1,22 @@
+1 Delete /apiarty/data/ivantrendafilov-confucius-101/Confucius/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java 226
+Faulty:
+parts.add(Short.parseShort(value.trim()));
+Seed:
+NULL
+**************************************************
+2 InsertBefore /apiarty/data/ivantrendafilov-confucius-101/Confucius/src/main/java/org/trendafilov/confucius/core/Parser.java 101
+Faulty:
+while (previousSize != unresolved.size()) {
+  previousSize=unresolved.size();
+  List<String> resolved=new ArrayList<>();
+  for (  Entry<String,String> entry : unresolved.entrySet())   if (configuration.containsKey(entry.getValue()) && !unresolved.containsKey(entry.getValue())) {
+    resolved.add(entry.getKey());
+    configuration.put(entry.getKey(),configuration.get(entry.getValue()));
+  }
+  for (  String item : resolved)   unresolved.remove(item);
+}
+Seed:
+for (Entry<String,String> entry : configuration.entrySet()) if (isSubstitution(entry.getValue())) unresolved.put(entry.getKey(),getSubstitution(entry.getValue()));
+**************************************************
+Evaluations: 56
+EstimatedTime: 54135

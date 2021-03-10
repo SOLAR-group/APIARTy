@@ -1,0 +1,14 @@
+1 Delete /apiarty/data/ivantrendafilov-confucius-98/Confucius/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java 206
+Faulty:
+parts.add(Long.parseLong(value.trim()));
+Seed:
+NULL
+**************************************************
+2 Delete /apiarty/data/ivantrendafilov-confucius-98/Confucius/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java 65
+Faulty:
+LOG.info("Initializing configuration...");
+Seed:
+NULL
+**************************************************
+Evaluations: 539
+EstimatedTime: 420286

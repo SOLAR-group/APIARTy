@@ -1,0 +1,20 @@
+1 Delete /workspaces/APIARTy/data/Bears-104/traccar/src/org/traccar/protocol/SuntechProtocolDecoder.java 113
+Faulty:
+position.setDeviceId(deviceSession.getDeviceId());
+Seed:
+NULL
+**************************************************
+2 Delete /workspaces/APIARTy/data/Bears-104/traccar/src/org/traccar/protocol/SuntechProtocolDecoder.java 148
+Faulty:
+position.set(Position.KEY_HOURS,Integer.parseInt(values[index++]));
+Seed:
+NULL
+**************************************************
+3 Delete /workspaces/APIARTy/data/Bears-104/traccar/src/org/traccar/protocol/SuntechProtocolDecoder.java 139
+Faulty:
+position.set(Position.PREFIX_IO + 1,values[index++]);
+Seed:
+NULL
+**************************************************
+Evaluations: 1597
+EstimatedTime: 2809247

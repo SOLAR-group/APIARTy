@@ -1,0 +1,609 @@
+12:15:57.381 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/jfreechart-7a/jfreechart/source, /apiarty/data/jfreechart-7a/jfreechart/tests]
+12:15:57.400 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/jfreechart-7a/jfreechart/build/, file:/apiarty/data/jfreechart-7a/jfreechart/build-tests/, file:/apiarty/data/jfreechart-7a/jfreechart/./lib/itext-2.0.6.jar, file:/apiarty/data/jfreechart-7a/jfreechart/./lib/junit.jar, file:/apiarty/data/jfreechart-7a/jfreechart/./lib/servlet.jar]
+12:15:57.402 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+12:15:57.403 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.jfree.chart.plot.junit.CategoryPlotTests, org.jfree.chart.plot.junit.XYPlotTests]
+12:15:57.407 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=DYNAMOTH, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/jfreechart-7a/jfreechart/source, /apiarty/data/jfreechart-7a/jfreechart/tests], projectClasspath='[Ljava.net.URL;@3c5a99da', projectTests=[org.jfree.chart.plot.junit.CategoryPlotTests, org.jfree.chart.plot.junit.XYPlotTests], complianceLevel=7, outputFolder=., json=false}
+12:15:57.408 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+12:15:57.429 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+12:15:57.430 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+12:15:57.430 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+12:15:57.431 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+12:15:57.434 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+12:15:57.435 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+12:17:18.672 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+12:17:18.675 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:2293 which is executed by 1 tests
+-1690918013
+12:17:26.692 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+12:17:26.694 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:2286 which is executed by 1 tests
+-1690918013
+12:17:34.116 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:17:48.360 [pool-2-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+XYPlot.java:923: error: variable markers might not have been initialized
+        boolean removed = markers.remove(marker);
+                          ^
+Note: XYPlot.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+12:17:48.376 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+12:17:48.377 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:2285 which is executed by 1 tests
+-1690918013
+12:17:55.013 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:18:03.778 [pool-4-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+XYPlot.java:921: error: variable markers might not have been initialized
+        boolean removed = markers.remove(marker);
+                          ^
+Note: XYPlot.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+12:18:03.788 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:18:13.161 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+12:18:13.167 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:2265 which is executed by 1 tests
+-1690918013
+12:18:19.963 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+12:18:19.964 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:2248 which is executed by 1 tests
+-1690918013
+12:18:26.402 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+12:18:26.403 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:2232 which is executed by 1 tests
+-1690918013
+12:18:32.285 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+12:18:32.293 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:2529 which is executed by 1 tests
+-1690918013
+12:18:38.757 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+12:18:38.759 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:2522 which is executed by 1 tests
+-1690918013
+12:18:45.509 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:18:54.052 [pool-12-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+XYPlot.java:1038: error: variable markers might not have been initialized
+        boolean removed = markers.remove(marker);
+                          ^
+Note: XYPlot.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+12:18:54.064 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+12:18:54.068 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:2521 which is executed by 1 tests
+-1690918013
+12:19:00.626 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:19:09.765 [pool-14-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+XYPlot.java:1036: error: variable markers might not have been initialized
+        boolean removed = markers.remove(marker);
+                          ^
+Note: XYPlot.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+12:19:09.774 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:19:19.461 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+12:19:19.462 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:2517 which is executed by 1 tests
+-1690918013
+12:19:26.007 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:19:34.406 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:19:42.782 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+12:19:42.783 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:2498 which is executed by 1 tests
+-1690918013
+12:19:48.735 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+12:19:48.738 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:2481 which is executed by 1 tests
+-1690918013
+12:19:55.437 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+12:19:55.448 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:2465 which is executed by 1 tests
+-1690918013
+12:20:02.575 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+12:20:02.581 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2166 which is executed by 1 tests
+590439200
+12:20:09.634 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+12:20:09.635 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2159 which is executed by 1 tests
+590439200
+12:20:15.510 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:20:23.073 [pool-34-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+CategoryPlot.java:937: error: variable markers might not have been initialized
+        boolean removed = markers.remove(marker);
+                          ^
+Note: CategoryPlot.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+12:20:23.087 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+12:20:23.088 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2158 which is executed by 1 tests
+590439200
+12:20:28.438 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:20:35.801 [pool-36-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+CategoryPlot.java:935: error: variable markers might not have been initialized
+        boolean removed = markers.remove(marker);
+                          ^
+Note: CategoryPlot.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+12:20:35.817 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:20:44.323 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+12:20:44.324 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2139 which is executed by 1 tests
+590439200
+12:20:50.349 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+12:20:50.350 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2122 which is executed by 1 tests
+590439200
+12:20:56.193 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #19
+12:20:56.198 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2106 which is executed by 1 tests
+590439200
+12:21:01.300 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #20
+12:21:01.301 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2448 which is executed by 1 tests
+590439200
+12:21:07.123 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #21
+12:21:07.124 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2441 which is executed by 1 tests
+590439200
+12:21:12.703 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:21:21.366 [pool-44-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+CategoryPlot.java:1072: error: variable markers might not have been initialized
+        boolean removed = markers.remove(marker);
+                          ^
+Note: CategoryPlot.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+12:21:21.390 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #22
+12:21:21.390 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2440 which is executed by 1 tests
+590439200
+12:21:27.985 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:21:35.852 [pool-46-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+CategoryPlot.java:1070: error: variable markers might not have been initialized
+        boolean removed = markers.remove(marker);
+                          ^
+Note: CategoryPlot.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+12:21:35.865 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:21:45.195 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #23
+12:21:45.198 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2436 which is executed by 1 tests
+590439200
+12:21:50.782 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:21:58.986 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:22:06.329 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #24
+12:22:06.330 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2415 which is executed by 1 tests
+590439200
+12:22:12.215 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #25
+12:22:12.216 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2396 which is executed by 1 tests
+590439200
+12:22:19.410 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #26
+12:22:19.418 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2378 which is executed by 1 tests
+590439200
+12:22:25.343 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #27
+12:22:25.349 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:900 which is executed by 9 tests
+590439200
+12:22:32.101 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:22:41.218 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:22:49.608 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #28
+12:22:49.609 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:899 which is executed by 9 tests
+590439200
+12:22:54.997 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #29
+12:22:55.003 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.event.ChartChangeEvent:132 which is executed by 41 tests
+-779068883
+12:23:00.336 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #30
+12:23:00.337 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.event.ChartChangeEvent:131 which is executed by 41 tests
+-779068883
+12:23:06.477 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:23:13.684 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #31
+12:23:13.685 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.AbstractObjectList:149 which is executed by 41 tests
+-232368544
+12:23:19.031 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #32
+12:23:19.034 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.AbstractObjectList:133 which is executed by 41 tests
+-232368544
+12:23:24.225 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #33
+12:23:24.229 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.AbstractObjectList:132 which is executed by 41 tests
+-232368544
+12:23:29.500 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:23:36.839 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #34
+12:23:36.840 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.AbstractObjectList:131 which is executed by 41 tests
+-232368544
+12:23:42.094 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:23:50.286 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #35
+12:23:50.288 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.AbstractObjectList:126 which is executed by 41 tests
+-232368544
+12:23:56.503 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:24:04.500 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:24:12.338 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #36
+12:24:12.339 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.AbstractObjectList:123 which is executed by 41 tests
+-232368544
+12:24:17.904 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:24:27.379 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:24:36.834 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #37
+12:24:36.834 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.AbstractObjectList:113 which is executed by 41 tests
+-232368544
+12:24:43.053 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #38
+12:24:43.054 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.AbstractObjectList:111 which is executed by 41 tests
+-232368544
+12:24:48.681 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:24:56.577 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #39
+12:24:56.578 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.AbstractObjectList:110 which is executed by 41 tests
+-232368544
+12:25:01.686 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:25:09.952 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:25:16.975 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #40
+12:25:16.976 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.AbstractObjectList:109 which is executed by 41 tests
+-232368544
+12:25:22.237 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #41
+12:25:22.238 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.Plot:894 which is executed by 41 tests
+2490626
+12:25:27.661 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #42
+12:25:27.667 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.Plot:889 which is executed by 41 tests
+2490626
+12:25:32.869 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:25:45.539 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #43
+12:25:45.541 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.Plot:888 which is executed by 41 tests
+2490626
+12:25:53.954 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #44
+12:25:53.961 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.Plot:433 which is executed by 41 tests
+2490626
+12:26:02.031 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #45
+12:26:02.038 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ObjectList:96 which is executed by 41 tests
+-1234899810
+12:26:09.308 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #46
+12:26:09.309 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ObjectList:95 which is executed by 41 tests
+-1234899810
+12:26:16.139 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:26:25.184 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #47
+12:26:25.185 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ObjectList:85 which is executed by 41 tests
+-1234899810
+12:26:31.389 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #48
+12:26:31.389 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.Marker:566 which is executed by 4 tests
+-1997438885
+12:26:36.850 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #49
+12:26:36.851 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.Marker:560 which is executed by 4 tests
+-1997438885
+12:26:43.321 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:26:50.347 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #50
+12:26:50.349 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.Marker:559 which is executed by 4 tests
+-1997438885
+12:26:56.063 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #51
+12:26:56.064 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.Marker:495 which is executed by 4 tests
+-1997438885
+12:27:01.514 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #52
+12:27:01.518 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.Marker:494 which is executed by 4 tests
+-1997438885
+12:27:07.384 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:27:15.169 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #53
+12:27:15.169 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.Marker:493 which is executed by 4 tests
+-1997438885
+12:27:20.884 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:27:28.650 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #54
+12:27:28.651 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.Marker:490 which is executed by 4 tests
+-1997438885
+12:27:34.197 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:27:41.467 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:27:49.531 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #55
+12:27:49.532 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2261 which is executed by 18 tests
+590439200
+12:27:56.548 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #56
+12:27:56.549 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2259 which is executed by 18 tests
+590439200
+12:28:03.736 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:28:13.253 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #57
+12:28:13.254 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2258 which is executed by 18 tests
+590439200
+12:28:20.971 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:28:30.058 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:28:38.667 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #58
+12:28:38.669 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2257 which is executed by 18 tests
+590439200
+12:28:45.329 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:28:53.802 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #59
+12:28:53.804 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2255 which is executed by 18 tests
+590439200
+12:29:00.141 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:29:08.968 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #60
+12:29:08.970 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2253 which is executed by 18 tests
+590439200
+12:29:15.342 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:29:23.951 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #61
+12:29:23.953 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2252 which is executed by 18 tests
+590439200
+12:29:30.968 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:29:39.873 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #62
+12:29:39.874 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2251 which is executed by 18 tests
+590439200
+12:29:47.321 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:29:56.988 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:30:07.427 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #63
+12:30:07.430 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2249 which is executed by 18 tests
+590439200
+12:30:14.246 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:30:21.686 [pool-282-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+CategoryPlot.java:968: error: variable markers might not have been initialized
+                if (markers == null) {
+                    ^
+Note: CategoryPlot.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+12:30:21.704 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #64
+12:30:21.705 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2248 which is executed by 18 tests
+590439200
+12:30:28.903 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:30:41.247 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:30:53.071 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #65
+12:30:53.075 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2239 which is executed by 18 tests
+590439200
+12:31:03.060 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:31:15.082 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:31:26.866 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #66
+12:31:26.868 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2218 which is executed by 18 tests
+590439200
+12:31:36.372 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #67
+12:31:36.373 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2217 which is executed by 18 tests
+590439200
+12:31:42.553 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:31:50.385 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #68
+12:31:50.388 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2201 which is executed by 18 tests
+590439200
+12:31:59.317 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #69
+12:31:59.318 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:2200 which is executed by 18 tests
+590439200
+12:32:06.711 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:32:20.066 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #70
+12:32:20.068 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1871 which is executed by 18 tests
+590439200
+12:32:29.186 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #71
+12:32:29.187 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1868 which is executed by 18 tests
+590439200
+12:32:34.169 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:32:44.307 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #72
+12:32:44.309 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1867 which is executed by 18 tests
+590439200
+12:32:50.494 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:32:58.588 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #73
+12:32:58.590 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1866 which is executed by 18 tests
+590439200
+12:33:06.873 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #74
+12:33:06.874 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1862 which is executed by 18 tests
+590439200
+12:33:14.916 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:33:22.502 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:33:31.363 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #75
+12:33:31.365 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1858 which is executed by 18 tests
+590439200
+12:33:39.803 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:33:51.139 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:34:00.807 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #76
+12:34:00.815 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1857 which is executed by 18 tests
+590439200
+12:34:06.307 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #77
+12:34:06.308 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1856 which is executed by 18 tests
+590439200
+12:34:11.793 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:34:22.982 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #78
+12:34:22.983 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1855 which is executed by 18 tests
+590439200
+12:34:28.969 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #79
+12:34:28.970 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1277 which is executed by 18 tests
+590439200
+12:34:34.162 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #80
+12:34:34.164 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1276 which is executed by 18 tests
+590439200
+12:34:44.639 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:34:53.109 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #81
+12:34:53.112 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1274 which is executed by 18 tests
+590439200
+12:34:59.313 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:35:10.258 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #82
+12:35:10.259 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1244 which is executed by 18 tests
+590439200
+12:35:18.192 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #83
+12:35:18.194 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1243 which is executed by 18 tests
+590439200
+12:35:26.890 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:35:37.729 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #84
+12:35:37.730 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1241 which is executed by 18 tests
+590439200
+12:35:43.836 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:35:50.874 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #85
+12:35:50.876 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1178 which is executed by 18 tests
+590439200
+12:35:59.581 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #86
+12:35:59.584 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1176 which is executed by 18 tests
+590439200
+12:36:10.583 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:36:18.964 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #87
+12:36:18.965 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1175 which is executed by 18 tests
+590439200
+12:36:26.850 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:36:34.585 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:36:45.732 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #88
+12:36:45.735 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1174 which is executed by 18 tests
+590439200
+12:36:51.270 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #89
+12:36:51.272 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1151 which is executed by 18 tests
+590439200
+12:36:58.556 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #90
+12:36:58.558 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1147 which is executed by 18 tests
+590439200
+12:37:03.834 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:37:16.558 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:37:26.955 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #91
+12:37:26.956 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1146 which is executed by 18 tests
+590439200
+12:37:38.140 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #92
+12:37:38.141 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1145 which is executed by 18 tests
+590439200
+12:37:49.517 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:38:00.026 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #93
+12:38:00.027 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1089 which is executed by 18 tests
+590439200
+12:38:07.328 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #94
+12:38:07.329 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1086 which is executed by 18 tests
+590439200
+12:38:15.748 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:38:26.859 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:38:35.564 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #95
+12:38:35.565 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1085 which is executed by 18 tests
+590439200
+12:38:41.873 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:38:52.691 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #96
+12:38:52.695 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1081 which is executed by 18 tests
+590439200
+12:39:03.555 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:39:12.363 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:39:22.478 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #97
+12:39:22.478 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1052 which is executed by 18 tests
+590439200
+12:39:30.203 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #98
+12:39:30.204 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:1051 which is executed by 18 tests
+590439200
+12:39:37.935 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:39:46.490 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #99
+12:39:46.491 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:905 which is executed by 18 tests
+590439200
+12:39:54.319 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #100
+12:39:54.321 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:898 which is executed by 18 tests
+590439200
+12:40:05.041 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:40:15.016 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:40:25.382 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #101
+12:40:25.385 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:896 which is executed by 18 tests
+590439200
+12:40:33.517 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:40:43.008 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #102
+12:40:43.011 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:895 which is executed by 18 tests
+590439200
+12:40:50.424 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:41:03.663 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:41:14.201 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #103
+12:41:14.202 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:894 which is executed by 18 tests
+590439200
+12:41:20.412 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #104
+12:41:20.413 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:873 which is executed by 18 tests
+590439200
+12:41:30.667 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #105
+12:41:30.669 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:869 which is executed by 18 tests
+590439200
+12:41:38.163 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:41:47.393 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:41:57.048 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #106
+12:41:57.048 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:868 which is executed by 18 tests
+590439200
+12:42:03.128 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #107
+12:42:03.129 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:867 which is executed by 18 tests
+590439200
+12:42:08.316 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:42:18.283 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #108
+12:42:18.284 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:808 which is executed by 18 tests
+590439200
+12:42:29.940 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #109
+12:42:29.941 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:805 which is executed by 18 tests
+590439200
+12:42:36.129 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:42:44.796 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:42:51.795 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #110
+12:42:51.797 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:804 which is executed by 18 tests
+590439200
+12:42:58.636 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:43:11.044 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #111
+12:43:11.044 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:800 which is executed by 18 tests
+590439200
+12:43:23.276 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:43:31.687 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:43:42.209 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #112
+12:43:42.210 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:768 which is executed by 18 tests
+590439200
+12:43:48.461 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #113
+12:43:48.463 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.CategoryPlot:767 which is executed by 18 tests
+590439200
+12:43:53.660 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:44:03.314 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #114
+12:44:03.315 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.Marker:535 which is executed by 22 tests
+-1997438885
+12:44:11.200 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #115
+12:44:11.204 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.Marker:534 which is executed by 23 tests
+-1997438885
+12:44:21.575 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:44:28.454 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #116
+12:44:28.455 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:4043 which is executed by 23 tests
+-1690918013
+12:44:33.894 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #117
+12:44:33.898 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:4041 which is executed by 23 tests
+-1690918013
+12:44:40.695 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:44:52.549 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #118
+12:44:52.550 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:4040 which is executed by 23 tests
+-1690918013
+12:45:01.503 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:45:09.911 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #119
+12:45:09.914 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:4039 which is executed by 23 tests
+-1690918013
+12:45:19.214 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #120
+12:45:19.216 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:4035 which is executed by 23 tests
+-1690918013
+12:45:25.223 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:45:36.058 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:45:45.087 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #121
+12:45:45.089 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:4034 which is executed by 23 tests
+-1690918013
+12:45:51.252 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:46:01.892 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #122
+12:46:01.893 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:4033 which is executed by 23 tests
+-1690918013
+12:46:07.367 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:46:17.788 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #123
+12:46:17.790 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:1374 which is executed by 23 tests
+-1690918013
+12:46:24.723 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #124
+12:46:24.725 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:1373 which is executed by 23 tests
+-1690918013
+12:46:34.875 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:46:45.723 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #125
+12:46:45.723 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:1370 which is executed by 23 tests
+-1690918013
+12:46:51.293 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:47:01.289 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #126
+12:47:01.291 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:1358 which is executed by 23 tests
+-1690918013
+12:47:06.950 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #127
+12:47:06.952 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:1357 which is executed by 23 tests
+-1690918013
+12:47:13.711 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:47:22.284 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #128
+12:47:22.287 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:1354 which is executed by 23 tests
+-1690918013
+12:47:30.387 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:47:40.308 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #129
+12:47:40.310 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:1277 which is executed by 23 tests
+-1690918013
+12:47:47.929 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #130
+12:47:47.930 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:1275 which is executed by 23 tests
+-1690918013
+12:47:55.768 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:48:07.623 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #131
+12:48:07.626 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:1274 which is executed by 23 tests
+-1690918013
+12:48:12.185 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:48:25.811 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:48:38.800 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #132
+12:48:38.804 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:1273 which is executed by 23 tests
+-1690918013
+12:48:46.558 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #133
+12:48:46.559 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:1166 which is executed by 23 tests
+-1690918013
+12:48:54.562 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #134
+12:48:54.564 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:1162 which is executed by 23 tests
+-1690918013
+12:49:00.488 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:49:09.823 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:49:17.147 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #135
+12:49:17.148 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:1161 which is executed by 23 tests
+-1690918013
+12:49:27.152 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #136
+12:49:27.153 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:1160 which is executed by 23 tests
+-1690918013
+12:49:34.959 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:49:43.590 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #137
+12:49:43.591 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:866 which is executed by 23 tests
+-1690918013
+12:49:51.774 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #138
+12:49:51.775 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:862 which is executed by 23 tests
+-1690918013
+12:49:56.537 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:50:04.801 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+12:50:12.594 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #139
+12:50:12.595 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:861 which is executed by 23 tests
+-1690918013
+12:50:17.342 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #140
+12:50:17.343 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.XYPlot:860 which is executed by 23 tests
+-1690918013
+12:50:26.325 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:50:35.772 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #141
+12:50:35.773 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.Plot:903 which is executed by 35 tests
+2490626
+12:50:44.476 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #142
+12:50:44.477 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.plot.Plot:902 which is executed by 35 tests
+2490626
+12:50:51.618 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+12:50:59.505 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+12:50:59.870 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 933
+12:50:59.871 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 8586
+12:50:59.872 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 109
+12:50:59.875 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+12:50:59.876 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 2102129ms
+12:50:59.877 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+NO_ANGELIC_VALUE

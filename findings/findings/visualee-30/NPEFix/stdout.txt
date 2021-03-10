@@ -1,0 +1,67 @@
+TernarySplitter  in 24ms
+assert descriptionPart != null : "Unknown DependencyType"
+CheckNotNull  in 355ms
+ForceNullInit in 35ms
+AddImplicitCastChecker --> 1 in 139ms
+BeforeDeref --> 357 (failed:0) in 858ms
+target--> 449 (failed:0) in 1376ms
+TryRegister # Try: 10 in 68ms
+Assign --> 132 (failed: 0) in 280ms
+VarInit --> 88 in 304ms
+MethodEncapsulation # Method: 165 in 1014ms
+ConstructorEncapsulation # Constructor: 16 in 469ms
+VariableFor in 92ms
+RMI Selector (Host: 127.0.0.1, Port: 10000): KO
+de.strullerbaumann.visualee.examiner.ExaminerTest#testJumpOverTokenInsufficientTokens
+<No Strat> Status: Ko
+de.strullerbaumann.visualee.examiner.ExaminerTest#testIsRelevantType
+<No Strat> Status: Ok
+de.strullerbaumann.visualee.examiner.ExaminerTest#testGetSourceCodeScanner
+<No Strat> Status: Ok
+de.strullerbaumann.visualee.examiner.ExaminerTest#testisAJavaToken
+<No Strat> Status: Ok
+de.strullerbaumann.visualee.examiner.ExaminerTest#testCleanPrimitives
+<No Strat> Status: Ok
+de.strullerbaumann.visualee.examiner.ExaminerTest#testisAValdiClassName
+<No Strat> Status: Ok
+de.strullerbaumann.visualee.examiner.ExaminerTest#testGetClassBody
+<No Strat> Status: Ko
+de.strullerbaumann.visualee.examiner.ExaminerTest#testCountChar
+<No Strat> Status: Ok
+de.strullerbaumann.visualee.examiner.ExaminerTest#testScanAfterQuote
+<No Strat> Status: Ok
+de.strullerbaumann.visualee.examiner.ExaminerTest#testScanAfterClosedParenthesis
+<No Strat> Status: Ok
+de.strullerbaumann.visualee.examiner.ExaminerTest#testJumpOverJavaToken
+<No Strat> Status: Ok
+de.strullerbaumann.visualee.examiner.ExaminerTest#testCleanupGeneric
+<No Strat> Status: Ok
+de.strullerbaumann.visualee.examiner.ExaminerTest#testExtractClassInstanceOrEvent
+<No Strat> Status: Ok
+de.strullerbaumann.visualee.examiner.ExaminerTest#testFindAndSetPackage
+<No Strat> Status: Ok
+Multirun 14/100 14%
+de.strullerbaumann.visualee.examiner.ExaminerTest#testJumpOverTokenInsufficientTokens
+<No Strat> Status: Ko
+de.strullerbaumann.visualee.examiner.ExaminerTest#testGetClassBody
+<No Strat> Status: Ko
+de.strullerbaumann.visualee.examiner.ExaminerTest#testJumpOverTokenInsufficientTokens
+<No Strat> Status: Ko
+de.strullerbaumann.visualee.examiner.ExaminerTest#testGetClassBody
+<No Strat> Status: Ko
+de.strullerbaumann.visualee.examiner.ExaminerTest#testJumpOverTokenInsufficientTokens
+<No Strat> Status: Ko
+de.strullerbaumann.visualee.examiner.ExaminerTest#testGetClassBody
+<No Strat> Status: Ko
+de.strullerbaumann.visualee.examiner.ExaminerTest#testJumpOverTokenInsufficientTokens
+<No Strat> Status: Ko
+de.strullerbaumann.visualee.examiner.ExaminerTest#testGetClassBody
+<No Strat> Status: Ko
+de.strullerbaumann.visualee.examiner.ExaminerTest#testJumpOverTokenInsufficientTokens
+<No Strat> Status: Ko
+de.strullerbaumann.visualee.examiner.ExaminerTest#testGetClassBody
+<No Strat> Status: Ko
+de.strullerbaumann.visualee.examiner.ExaminerTest#testJumpOverTokenInsufficientTokens
+<No Strat> Status: Ko
+de.strullerbaumann.visualee.examiner.ExaminerTest#testGetClassBody
+<No Strat> Status: Ko

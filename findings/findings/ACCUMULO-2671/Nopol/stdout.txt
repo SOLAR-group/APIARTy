@@ -1,0 +1,146 @@
+15:32:29.858 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/ACCUMULO-2671/accumulo/core/src/main/java, /apiarty/data/ACCUMULO-2671/accumulo/core/src/test/java]
+15:32:29.861 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/ACCUMULO-2671/accumulo/core/target/classes/, file:/apiarty/data/ACCUMULO-2671/accumulo/core/target/test-classes/, file:/root/.m2/repository/com/beust/jcommander/1.32/jcommander-1.32.jar, file:/root/.m2/repository/com/google/guava/guava/15.0/guava-15.0.jar, file:/root/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar, file:/root/.m2/repository/commons-codec/commons-codec/1.7/commons-codec-1.7.jar, file:/root/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar, file:/root/.m2/repository/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar, file:/root/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar, file:/root/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar, file:/root/.m2/repository/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar, file:/root/.m2/repository/commons-io/commons-io/2.1/commons-io-2.1.jar, file:/root/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar, file:/root/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar, file:/root/.m2/repository/jline/jline/2.11/jline-2.11.jar, file:/root/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar, file:/root/.m2/repository/org/apache/accumulo/accumulo-fate/1.6.0-SNAPSHOT/accumulo-fate-1.6.0-SNAPSHOT.jar, file:/root/.m2/repository/org/apache/accumulo/accumulo-start/1.6.0-SNAPSHOT/accumulo-start-1.6.0-SNAPSHOT.jar, file:/root/.m2/repository/org/apache/accumulo/accumulo-trace/1.6.0-SNAPSHOT/accumulo-trace-1.6.0-SNAPSHOT.jar, file:/root/.m2/repository/org/apache/commons/commons-math/2.1/commons-math-2.1.jar, file:/root/.m2/repository/org/apache/commons/commons-vfs2/2.0/commons-vfs2-2.0.jar, file:/root/.m2/repository/org/apache/maven/scm/maven-scm-api/1.4/maven-scm-api-1.4.jar, file:/root/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.jar, file:/root/.m2/repository/org/apache/maven/scm/maven-scm-provider-svnexe/1.4/maven-scm-provider-svnexe-1.4.jar, file:/root/.m2/repository/org/apache/maven/scm/maven-scm-provider-svn-commons/1.4/maven-scm-provider-svn-commons-1.4.jar, file:/root/.m2/repository/regexp/regexp/1.3/regexp-1.3.jar, file:/root/.m2/repository/org/apache/hadoop/hadoop-client/2.2.0/hadoop-client-2.2.0.jar, file:/root/.m2/repository/org/apache/hadoop/hadoop-common/2.2.0/hadoop-common-2.2.0.jar, file:/root/.m2/repository/xmlenc/xmlenc/0.52/xmlenc-0.52.jar, file:/root/.m2/repository/commons-net/commons-net/3.1/commons-net-3.1.jar, file:/root/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.8.8/jackson-core-asl-1.8.8.jar, file:/root/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.8.8/jackson-mapper-asl-1.8.8.jar, file:/root/.m2/repository/org/apache/avro/avro/1.7.4/avro-1.7.4.jar, file:/root/.m2/repository/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.jar, file:/root/.m2/repository/org/xerial/snappy/snappy-java/1.0.4.1/snappy-java-1.0.4.1.jar, file:/root/.m2/repository/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar, file:/root/.m2/repository/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.jar, file:/root/.m2/repository/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar, file:/root/.m2/repository/org/tukaani/xz/1.0/xz-1.0.jar, file:/root/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.2.0/hadoop-hdfs-2.2.0.jar, file:/root/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar, file:/root/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.jar, file:/root/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.jar, file:/root/.m2/repository/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.jar, file:/root/.m2/repository/com/google/inject/guice/3.0/guice-3.0.jar, file:/root/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar, file:/root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar, file:/root/.m2/repository/com/sun/jersey/jersey-test-framework/jersey-test-framework-grizzly2/1.9/jersey-test-framework-grizzly2-1.9.jar, file:/root/.m2/repository/com/sun/jersey/jersey-test-framework/jersey-test-framework-core/1.9/jersey-test-framework-core-1.9.jar, file:/root/.m2/repository/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar, file:/root/.m2/repository/com/sun/jersey/jersey-client/1.9/jersey-client-1.9.jar, file:/root/.m2/repository/com/sun/jersey/jersey-grizzly2/1.9/jersey-grizzly2-1.9.jar, file:/root/.m2/repository/org/glassfish/grizzly/grizzly-http/2.1.2/grizzly-http-2.1.2.jar, file:/root/.m2/repository/org/glassfish/grizzly/grizzly-framework/2.1.2/grizzly-framework-2.1.2.jar, file:/root/.m2/repository/org/glassfish/gmbal/gmbal-api-only/3.0.0-b023/gmbal-api-only-3.0.0-b023.jar, file:/root/.m2/repository/org/glassfish/external/management-api/3.0.0-b012/management-api-3.0.0-b012.jar, file:/root/.m2/repository/org/glassfish/grizzly/grizzly-http-server/2.1.2/grizzly-http-server-2.1.2.jar, file:/root/.m2/repository/org/glassfish/grizzly/grizzly-rcm/2.1.2/grizzly-rcm-2.1.2.jar, file:/root/.m2/repository/org/glassfish/grizzly/grizzly-http-servlet/2.1.2/grizzly-http-servlet-2.1.2.jar, file:/root/.m2/repository/org/glassfish/javax.servlet/3.1/javax.servlet-3.1.jar, file:/root/.m2/repository/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.jar, file:/root/.m2/repository/asm/asm/3.1/asm-3.1.jar, file:/root/.m2/repository/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar, file:/root/.m2/repository/com/sun/jersey/jersey-json/1.9/jersey-json-1.9.jar, file:/root/.m2/repository/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar, file:/root/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar, file:/root/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1.jar, file:/root/.m2/repository/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.jar, file:/root/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar, file:/root/.m2/repository/org/codehaus/jackson/jackson-jaxrs/1.8.3/jackson-jaxrs-1.8.3.jar, file:/root/.m2/repository/org/codehaus/jackson/jackson-xc/1.8.3/jackson-xc-1.8.3.jar, file:/root/.m2/repository/com/sun/jersey/contribs/jersey-guice/1.9/jersey-guice-1.9.jar, file:/root/.m2/repository/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.jar, file:/root/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.jar, file:/root/.m2/repository/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.jar, file:/root/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.jar, file:/root/.m2/repository/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.jar, file:/root/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.jar, file:/root/.m2/repository/org/apache/hadoop/hadoop-annotations/2.2.0/hadoop-annotations-2.2.0.jar, file:/root/.m2/repository/org/apache/thrift/libthrift/0.9.0/libthrift-0.9.0.jar, file:/root/.m2/repository/org/apache/httpcomponents/httpclient/4.3.1/httpclient-4.3.1.jar, file:/root/.m2/repository/org/apache/httpcomponents/httpcore/4.1.3/httpcore-4.1.3.jar, file:/root/.m2/repository/org/apache/zookeeper/zookeeper/3.3.6/zookeeper-3.3.6.jar, file:/root/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar, file:/root/.m2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar, file:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/root/.m2/repository/org/easymock/easymock/3.1/easymock-3.1.jar, file:/root/.m2/repository/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar, file:/root/.m2/repository/org/objenesis/objenesis/1.2/objenesis-1.2.jar, file:/root/.m2/repository/org/powermock/powermock-api-easymock/1.5/powermock-api-easymock-1.5.jar, file:/root/.m2/repository/org/powermock/powermock-api-support/1.5/powermock-api-support-1.5.jar, file:/root/.m2/repository/org/powermock/powermock-core/1.5/powermock-core-1.5.jar, file:/root/.m2/repository/org/powermock/powermock-reflect/1.5/powermock-reflect-1.5.jar, file:/root/.m2/repository/org/javassist/javassist/3.17.1-GA/javassist-3.17.1-GA.jar, file:/root/.m2/repository/org/powermock/powermock-module-junit4/1.5/powermock-module-junit4-1.5.jar, file:/root/.m2/repository/org/powermock/powermock-module-junit4-common/1.5/powermock-module-junit4-common-1.5.jar, file:/root/.m2/repository/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar]
+15:32:29.862 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+15:32:29.863 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.accumulo.core.security.crypto.BlockedIOStreamTest]
+15:32:29.866 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/ACCUMULO-2671/accumulo/core/src/main/java, /apiarty/data/ACCUMULO-2671/accumulo/core/src/test/java], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[org.apache.accumulo.core.security.crypto.BlockedIOStreamTest], complianceLevel=8, outputFolder=., json=false}
+15:32:29.867 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+15:32:29.871 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 49 MB
+15:32:29.872 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+15:32:29.873 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+15:32:29.874 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+15:32:29.875 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+15:32:29.876 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+15:33:47.218 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+15:33:47.222 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.crypto.BlockedOutputStream:82 which is executed by 3 tests
+15944654
+15:34:11.423 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+15:35:01.850 [pool-2-thread-1] DEBUG tests.output - Failing tests with false: 
+[testGiantWrite(org.apache.accumulo.core.security.crypto.BlockedIOStreamTest): expected:<178956976> but was:<16>]
+15:35:01.853 [pool-2-thread-1] DEBUG tests.output - Failing tests with true: 
+[testGiantWrite(org.apache.accumulo.core.security.crypto.BlockedIOStreamTest): null]
+15:35:01.854 [pool-2-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.accumulo.core.security.crypto.BlockedOutputStream:82.
+15:35:01.855 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+15:35:01.857 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.crypto.BlockedOutputStream:81 which is executed by 3 tests
+15944654
+15:35:26.492 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+15:39:38.299 [pool-6-thread-1] DEBUG xxl.java.junit.TestSuiteExecution - Timeout after 200 seconds. Infinite loop?
+15:39:38.302 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.util.concurrent.TimeoutException
+15:39:38.303 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+15:39:38.304 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.crypto.BlockedOutputStream:80 which is executed by 3 tests
+15944654
+15:39:52.831 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+15:39:52.833 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.crypto.BlockedOutputStream:78 which is executed by 3 tests
+15944654
+15:40:07.309 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+15:44:01.782 [pool-10-thread-1] DEBUG xxl.java.junit.TestSuiteExecution - Timeout after 200 seconds. Infinite loop?
+15:44:01.785 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.util.concurrent.TimeoutException
+15:44:01.788 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+15:44:01.789 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.crypto.BlockedOutputStream:88 which is executed by 4 tests
+15944654
+15:44:17.197 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+15:45:01.489 [pool-14-thread-1] DEBUG tests.output - Failing tests with false: 
+[testGiantWrite(org.apache.accumulo.core.security.crypto.BlockedIOStreamTest): expected:<178956976> but was:<0>]
+15:45:01.492 [pool-14-thread-1] DEBUG tests.output - Failing tests with true: 
+[testGiantWrite(org.apache.accumulo.core.security.crypto.BlockedIOStreamTest): null]
+15:45:01.497 [pool-14-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.accumulo.core.security.crypto.BlockedOutputStream:88.
+15:45:01.513 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+15:45:01.517 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.crypto.BlockedOutputStream:84 which is executed by 4 tests
+15944654
+15:45:19.503 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+15:45:19.504 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.crypto.BlockedOutputStream:77 which is executed by 4 tests
+15944654
+15:45:39.329 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+15:49:42.106 [pool-18-thread-1] DEBUG xxl.java.junit.TestSuiteExecution - Timeout after 200 seconds. Infinite loop?
+15:49:42.108 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.util.concurrent.TimeoutException
+15:49:42.109 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+15:50:28.434 [pool-22-thread-1] DEBUG tests.output - Failing tests with false: 
+[testGiantWrite(org.apache.accumulo.core.security.crypto.BlockedIOStreamTest): null]
+15:50:28.439 [pool-22-thread-1] DEBUG tests.output - Failing tests with true: 
+[testGiantWrite(org.apache.accumulo.core.security.crypto.BlockedIOStreamTest): null]
+15:50:28.441 [pool-22-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.accumulo.core.security.crypto.BlockedOutputStream:77.
+15:50:28.441 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+15:50:28.448 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.crypto.BlockedOutputStream:76 which is executed by 4 tests
+15944654
+15:50:48.669 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+15:54:47.764 [pool-26-thread-1] DEBUG xxl.java.junit.TestSuiteExecution - Timeout after 200 seconds. Infinite loop?
+15:54:47.768 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.util.concurrent.TimeoutException
+15:54:47.778 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+15:54:47.780 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.crypto.BlockedOutputStream:75 which is executed by 4 tests
+15944654
+15:55:08.812 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+15:55:53.047 [pool-30-thread-1] DEBUG tests.output - Failing tests with false: 
+[testGiantWrite(org.apache.accumulo.core.security.crypto.BlockedIOStreamTest): expected:<178956976> but was:<0>]
+15:55:53.048 [pool-30-thread-1] DEBUG tests.output - Failing tests with true: 
+[testGiantWrite(org.apache.accumulo.core.security.crypto.BlockedIOStreamTest): null]
+15:55:53.049 [pool-30-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.accumulo.core.security.crypto.BlockedOutputStream:75.
+15:55:53.049 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+15:59:57.377 [pool-34-thread-1] DEBUG xxl.java.junit.TestSuiteExecution - Timeout after 200 seconds. Infinite loop?
+15:59:57.381 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.util.concurrent.TimeoutException
+15:59:57.398 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+15:59:57.399 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.crypto.BlockedOutputStream:63 which is executed by 4 tests
+15944654
+16:00:15.844 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+16:00:15.845 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.crypto.BlockedOutputStream:62 which is executed by 4 tests
+15944654
+16:00:35.433 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:04:16.679 [pool-38-thread-1] DEBUG xxl.java.junit.TestSuiteExecution - Timeout after 200 seconds. Infinite loop?
+16:04:16.686 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.util.concurrent.TimeoutException
+16:04:16.687 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+16:04:16.687 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.crypto.BlockedOutputStream:61 which is executed by 4 tests
+15944654
+16:04:35.517 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:08:18.122 [pool-42-thread-1] DEBUG xxl.java.junit.TestSuiteExecution - Timeout after 200 seconds. Infinite loop?
+16:08:18.123 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.util.concurrent.TimeoutException
+16:08:18.143 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+16:08:18.144 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.crypto.BlockedOutputStream:59 which is executed by 4 tests
+15944654
+16:08:37.924 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:12:21.106 [pool-46-thread-1] DEBUG xxl.java.junit.TestSuiteExecution - Timeout after 200 seconds. Infinite loop?
+16:12:21.108 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.util.concurrent.TimeoutException
+16:12:21.113 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+16:12:21.114 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.crypto.BlockedOutputStream:58 which is executed by 4 tests
+15944654
+16:12:38.111 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:16:20.010 [pool-50-thread-1] DEBUG xxl.java.junit.TestSuiteExecution - Timeout after 200 seconds. Infinite loop?
+16:16:20.011 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.util.concurrent.TimeoutException
+16:16:20.039 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+16:16:20.039 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.crypto.BlockedOutputStream:54 which is executed by 4 tests
+15944654
+16:16:35.319 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:20:16.145 [pool-54-thread-1] DEBUG xxl.java.junit.TestSuiteExecution - Timeout after 200 seconds. Infinite loop?
+16:20:16.146 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.util.concurrent.TimeoutException
+16:20:16.181 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+16:23:59.835 [pool-58-thread-1] DEBUG xxl.java.junit.TestSuiteExecution - Timeout after 200 seconds. Infinite loop?
+16:23:59.836 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.util.concurrent.TimeoutException
+16:23:59.866 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+16:23:59.867 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.crypto.BlockedOutputStream:53 which is executed by 4 tests
+15944654
+16:24:15.763 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+16:24:15.770 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.crypto.BlockedOutputStream:51 which is executed by 4 tests
+15944654
+16:24:31.241 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:28:16.961 [pool-62-thread-1] DEBUG xxl.java.junit.TestSuiteExecution - Timeout after 200 seconds. Infinite loop?
+16:28:16.963 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.util.concurrent.TimeoutException
+16:28:17.000 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+16:28:17.001 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.crypto.BlockedOutputStream:49 which is executed by 4 tests
+15944654
+16:28:39.905 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+16:32:27.638 [pool-66-thread-1] DEBUG xxl.java.junit.TestSuiteExecution - Timeout after 200 seconds. Infinite loop?
+16:32:27.640 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.util.concurrent.TimeoutException
+16:32:27.694 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+16:36:11.519 [pool-70-thread-1] DEBUG xxl.java.junit.TestSuiteExecution - Timeout after 200 seconds. Infinite loop?
+16:36:11.519 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.util.concurrent.TimeoutException
+16:36:11.565 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #19
+16:36:11.566 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.accumulo.core.security.crypto.BlockedOutputStream:48 which is executed by 4 tests
+15944654
+16:36:27.022 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+16:36:30.407 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 712
+16:36:30.410 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 5754
+16:36:30.410 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 18
+16:36:30.411 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+16:36:30.411 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 0
+16:36:30.433 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 0
+16:36:30.434 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 0
+16:36:30.435 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 3837166ms
+16:36:30.436 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+NO_ANGELIC_VALUE

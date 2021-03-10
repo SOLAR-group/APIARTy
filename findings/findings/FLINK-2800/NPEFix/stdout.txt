@@ -1,0 +1,30 @@
+TernarySplitter  in 403ms
+return super.isCombinable() || (originalFunction.getUserCodeAnnotation(ReduceOperator.Combinable.class) != null)
+super(input != null ? input.getDataSet() : null, resultType)
+return ((TypeInformation<OUT>) (new MissingTypeInfo(functionName != null ? functionName : function.toString(), e)))
+return ((TypeInformation<OUT>) (new MissingTypeInfo(functionName != null ? functionName : function.toString(), e)))
+super(input != null ? input.getDataSet() : null, resultType)
+return current != null
+return ((("DataSink '" + (this.name == null ? "<unnamed>" : this.name)) + "' (") + this.format.toString()) + ")"
+Preconditions.checkArgument(order != null, "Order can not be null")
+Preconditions.checkArgument((pKeys != null) || (pMethod == PartitionOperatorBase.PartitionMethod.REBALANCE), "Partitioning requires keys")
+Preconditions.checkArgument((pMethod != PartitionOperatorBase.PartitionMethod.CUSTOM) || (customPartitioner != null), "Custom partioning requires a partitioner.")
+return ExecutionEnvironment.contextEnvironmentFactory == null
+throw new CodeErrorException("Function code contains obvious errors. " + (("If you think the code analysis is wrong at this point you can " + "disable the entire code analyzer in ExecutionConfig or add") + " @SkipCodeAnalysis to your function to disable the analysis."), cause != null ? cause : e)
+boolean isPojo = pojoGenericMatcher.group(2) != null
+return (value != null) && (value instanceof TaggedValue)
+CheckNotNull  in 1723ms
+ForceNullInit in 205ms
+return this.filePath
+return this.filePath
+AddImplicitCastChecker --> 32 in 1035ms
+BeforeDeref --> 4902 (failed:2) in 1075ms
+target--> 5679 (failed:0) in 7779ms
+TryRegister # Try: 146 in 229ms
+Assign --> 3867 (failed: 0) in 3121ms
+VarInit --> 1026 in 1038ms
+MethodEncapsulation # Method: 2145 in 11317ms
+ConstructorEncapsulation # Constructor: 406 in 1969ms
+null
+null
+VariableFor in 454ms

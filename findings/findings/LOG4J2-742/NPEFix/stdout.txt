@@ -1,0 +1,39 @@
+TernarySplitter  in 215ms
+super((options != null) && (options.length > 0) ? ("MDC{" + options[0]) + '}' : "MDC", "mdc")
+return parent == null
+return (url != null) && (url.getProtocol().equals(FileUtils.PROTOCOL_FILE) || url.getProtocol().equals(FileUtils.JBOSS_FILE))
+final String zone = ("._log4j._" + (protocol != null ? protocol : "tcp")) + ".local."
+this.defaultLookup = new MapLookup(properties == null ? new HashMap<String, String>() : properties)
+final boolean hideAnsi = noConsoleNoAnsi && (System.console() == null)
+final boolean useTlsMessageFormat = (sslConfig != null) || (protocol == Protocol.SSL)
+return filter != null
+return (filter != null) && (filter.filter(event) == Filter.Result.DENY)
+return (this.packages != null) && (!this.packages.isEmpty())
+final boolean isAnd = (oper == null) || (!oper.equalsIgnoreCase("or"))
+final boolean top = priorVariables == null
+this.formatters = parser.parse(pattern == null ? PatternLayout.DEFAULT_CONVERSION_PATTERN : pattern, this.alwaysWriteExceptions, this.noConsoleNoAnsi)
+return str.getBytes(charset != null ? charset : Charset.defaultCharset())
+p = (node.getParent().getName() == null) ? "root" : node.getParent().getName()
+final Protocol protocol = EnglishEnums.valueOf(Protocol.class, protocolStr != null ? protocolStr : Protocol.TCP.name())
+final boolean isAnd = (oper == null) || (!oper.equalsIgnoreCase("or"))
+final boolean isClassLoaderScheme = (scheme != null) && scheme.equals(ConfigurationFactory.CLASS_LOADER_SCHEME)
+final boolean isClassPathScheme = ((scheme != null) && (!isClassLoaderScheme)) && scheme.equals(ConfigurationFactory.CLASS_PATH_SCHEME)
+final boolean named = (name != null) && (name.length() > 0)
+substitute = (config != null) && literal.contains("${")
+return Throwables.GET_SUPPRESSED != null
+super((options != null) && (options.length > 0) ? ("MAP{" + options[0]) + '}' : "MAP", "map")
+return parent != null
+return loader1 != null
+return clazz != null
+final boolean isAnd = (oper == null) || (!oper.equalsIgnoreCase("or"))
+CheckNotNull  in 1253ms
+ForceNullInit in 203ms
+AddImplicitCastChecker --> 2 in 615ms
+BeforeDeref --> 4054 (failed:1) in 816ms
+target--> 5413 (failed:0) in 2995ms
+TryRegister # Try: 304 in 166ms
+Assign --> 1696 (failed: 0) in 1154ms
+VarInit --> 1457 in 1467ms
+MethodEncapsulation # Method: 1960 in 3560ms
+ConstructorEncapsulation # Constructor: 364 in 872ms
+VariableFor in 271ms

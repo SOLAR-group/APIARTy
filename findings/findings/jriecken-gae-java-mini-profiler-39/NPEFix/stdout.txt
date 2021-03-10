@@ -1,0 +1,29 @@
+TernarySplitter  in 188ms
+requestData.put("requestURL", req.getRequestURI() + (req.getQueryString() != null ? "?" + req.getQueryString() : ""))
+return (str == null) || (str.trim().length() == 0)
+location = String.format("%s%s%s=%s", location, location.indexOf("?") >= 0 ? "&" : "?", MiniProfilerFilter.REQUEST_ID_PARAM_REDIRECT, MiniProfilerFilter.urlEncode(redirectRequestIds != null ? (redirectRequestIds + ",") + requestId : requestId))
+return (str == null) || (str.trim().length() == 0)
+CheckNotNull  in 1118ms
+ForceNullInit in 7ms
+AddImplicitCastChecker --> 0 in 135ms
+BeforeDeref --> 172 (failed:0) in 382ms
+target--> 185 (failed:0) in 1787ms
+TryRegister # Try: 4 in 38ms
+Assign --> 73 (failed: 0) in 561ms
+VarInit --> 28 in 161ms
+MethodEncapsulation # Method: 39 in 1257ms
+ConstructorEncapsulation # Constructor: 4 in 220ms
+VariableFor in 52ms
+RMI Selector (Host: 127.0.0.1, Port: 10000): KO
+com.google.appengine.tools.appstats.MiniProfilerAppstatsTest#testGetAppstatsDataForInvalidId
+<No Strat> Status: Ko
+com.google.appengine.tools.appstats.MiniProfilerAppstatsTest#testGetAppstatsDataForInvalidId
+<No Strat> Status: Ko
+com.google.appengine.tools.appstats.MiniProfilerAppstatsTest#testGetAppstatsDataForInvalidId
+<No Strat> Status: Ko
+com.google.appengine.tools.appstats.MiniProfilerAppstatsTest#testGetAppstatsDataForInvalidId
+<No Strat> Status: Ko
+com.google.appengine.tools.appstats.MiniProfilerAppstatsTest#testGetAppstatsDataForInvalidId
+<No Strat> Status: Ko
+com.google.appengine.tools.appstats.MiniProfilerAppstatsTest#testGetAppstatsDataForInvalidId
+<No Strat> Status: Ko

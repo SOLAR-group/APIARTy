@@ -1,0 +1,36 @@
+1 Delete /apiarty/data/ivantrendafilov-confucius-95/Confucius/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java 105
+Faulty:
+for (String value : getKey(key).split(separator)) parts.add(Byte.parseByte(value.trim()));
+Seed:
+NULL
+**************************************************
+2 InsertBefore /apiarty/data/ivantrendafilov-confucius-95/Confucius/src/main/java/org/trendafilov/confucius/core/Parser.java 101
+Faulty:
+while (previousSize != unresolved.size()) {
+  previousSize=unresolved.size();
+  List<String> resolved=new ArrayList<>();
+  for (  Entry<String,String> entry : unresolved.entrySet())   if (configuration.containsKey(entry.getValue()) && !unresolved.containsKey(entry.getValue())) {
+    resolved.add(entry.getKey());
+    configuration.put(entry.getKey(),configuration.get(entry.getValue()));
+  }
+  for (  String item : resolved)   unresolved.remove(item);
+}
+Seed:
+while (previousSize != unresolved.size()) {
+  previousSize=unresolved.size();
+  List<String> resolved=new ArrayList<>();
+  for (  Entry<String,String> entry : unresolved.entrySet())   if (configuration.containsKey(entry.getValue()) && !unresolved.containsKey(entry.getValue())) {
+    resolved.add(entry.getKey());
+    configuration.put(entry.getKey(),configuration.get(entry.getValue()));
+  }
+  for (  String item : resolved)   unresolved.remove(item);
+}
+**************************************************
+3 Replace /apiarty/data/ivantrendafilov-confucius-95/Confucius/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java 299
+Faulty:
+return value;
+Seed:
+return value.substring(2,value.length() - 1);
+**************************************************
+Evaluations: 1599
+EstimatedTime: 1611878

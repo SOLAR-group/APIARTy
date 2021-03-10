@@ -1,0 +1,187 @@
+18:08:56.336 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/OAK-3028/jackrabbit-oak/oak-core/src/main/java, /apiarty/data/OAK-3028/jackrabbit-oak/oak-core/src/test/java]
+18:08:56.340 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/OAK-3028/jackrabbit-oak/oak-core/target/classes/, file:/apiarty/data/OAK-3028/jackrabbit-oak/oak-core/target/test-classes/, file:/root/.m2/repository/org/osgi/org.osgi.core/4.2.0/org.osgi.core-4.2.0.jar, file:/root/.m2/repository/org/osgi/org.osgi.compendium/4.2.0/org.osgi.compendium-4.2.0.jar, file:/root/.m2/repository/biz/aQute/bnd/bndlib/2.2.0/bndlib-2.2.0.jar, file:/root/.m2/repository/org/apache/felix/org.apache.felix.scr.annotations/1.9.6/org.apache.felix.scr.annotations-1.9.6.jar, file:/root/.m2/repository/org/apache/jackrabbit/oak-commons/1.4-SNAPSHOT/oak-commons-1.4-SNAPSHOT.jar, file:/root/.m2/repository/org/apache/jackrabbit/oak-commons/1.4-SNAPSHOT/oak-commons-1.4-SNAPSHOT-tests.jar, file:/root/.m2/repository/org/apache/jackrabbit/oak-blob/1.4-SNAPSHOT/oak-blob-1.4-SNAPSHOT.jar, file:/root/.m2/repository/org/apache/jackrabbit/oak-blob-cloud/1.4-SNAPSHOT/oak-blob-cloud-1.4-SNAPSHOT.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk/1.9.11/aws-java-sdk-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-support/1.9.11/aws-java-sdk-support-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-simpledb/1.9.11/aws-java-sdk-simpledb-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-simpleworkflow/1.9.11/aws-java-sdk-simpleworkflow-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-storagegateway/1.9.11/aws-java-sdk-storagegateway-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-route53/1.9.11/aws-java-sdk-route53-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-importexport/1.9.11/aws-java-sdk-importexport-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-sts/1.9.11/aws-java-sdk-sts-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-sqs/1.9.11/aws-java-sdk-sqs-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-rds/1.9.11/aws-java-sdk-rds-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-redshift/1.9.11/aws-java-sdk-redshift-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-elasticbeanstalk/1.9.11/aws-java-sdk-elasticbeanstalk-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-glacier/1.9.11/aws-java-sdk-glacier-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-iam/1.9.11/aws-java-sdk-iam-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-datapipeline/1.9.11/aws-java-sdk-datapipeline-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-elasticloadbalancing/1.9.11/aws-java-sdk-elasticloadbalancing-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-emr/1.9.11/aws-java-sdk-emr-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-elasticache/1.9.11/aws-java-sdk-elasticache-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-elastictranscoder/1.9.11/aws-java-sdk-elastictranscoder-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-ec2/1.9.11/aws-java-sdk-ec2-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-dynamodb/1.9.11/aws-java-sdk-dynamodb-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-sns/1.9.11/aws-java-sdk-sns-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-cloudtrail/1.9.11/aws-java-sdk-cloudtrail-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-cloudwatch/1.9.11/aws-java-sdk-cloudwatch-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-logs/1.9.11/aws-java-sdk-logs-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-cognitoidentity/1.9.11/aws-java-sdk-cognitoidentity-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-cognitosync/1.9.11/aws-java-sdk-cognitosync-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-directconnect/1.9.11/aws-java-sdk-directconnect-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-cloudformation/1.9.11/aws-java-sdk-cloudformation-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-cloudfront/1.9.11/aws-java-sdk-cloudfront-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-kinesis/1.9.11/aws-java-sdk-kinesis-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-opsworks/1.9.11/aws-java-sdk-opsworks-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-ses/1.9.11/aws-java-sdk-ses-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-autoscaling/1.9.11/aws-java-sdk-autoscaling-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-cloudsearch/1.9.11/aws-java-sdk-cloudsearch-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-cloudwatchmetrics/1.9.11/aws-java-sdk-cloudwatchmetrics-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-swf-libraries/1.9.11/aws-java-sdk-swf-libraries-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-codedeploy/1.9.11/aws-java-sdk-codedeploy-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.9.11/aws-java-sdk-kms-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-config/1.9.11/aws-java-sdk-config-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-lambda/1.9.11/aws-java-sdk-lambda-1.9.11.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-core/1.9.11/aws-java-sdk-core-1.9.11.jar, file:/root/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar, file:/root/.m2/repository/org/apache/httpcomponents/httpclient/4.3.4/httpclient-4.3.4.jar, file:/root/.m2/repository/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.3.2/jackson-databind-2.3.2.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.3.0/jackson-annotations-2.3.0.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.3.2/jackson-core-2.3.2.jar, file:/root/.m2/repository/com/google/guava/guava/15.0/guava-15.0.jar, file:/root/.m2/repository/commons-codec/commons-codec/1.5/commons-codec-1.5.jar, file:/root/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar, file:/root/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar, file:/root/.m2/repository/org/apache/jackrabbit/jackrabbit-aws-ext/2.10.1/jackrabbit-aws-ext-2.10.1.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.9.22/aws-java-sdk-s3-1.9.22.jar, file:/root/.m2/repository/org/apache/jackrabbit/jackrabbit-data/2.10.1/jackrabbit-data-2.10.1-tests.jar, file:/root/.m2/repository/org/mongodb/mongo-java-driver/2.13.0/mongo-java-driver-2.13.0.jar, file:/root/.m2/repository/org/apache/jclouds/provider/aws-s3/1.7.0/aws-s3-1.7.0.jar, file:/root/.m2/repository/org/apache/jclouds/api/s3/1.7.0/s3-1.7.0.jar, file:/root/.m2/repository/com/jamesmurty/utils/java-xmlbuilder/0.4/java-xmlbuilder-0.4.jar, file:/root/.m2/repository/org/apache/jclouds/api/sts/1.7.0/sts-1.7.0.jar, file:/root/.m2/repository/org/apache/jclouds/jclouds-core/1.7.0/jclouds-core-1.7.0.jar, file:/root/.m2/repository/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar, file:/root/.m2/repository/com/google/inject/extensions/guice-assistedinject/3.0/guice-assistedinject-3.0.jar, file:/root/.m2/repository/com/google/inject/guice/3.0/guice-3.0.jar, file:/root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar, file:/root/.m2/repository/org/99soft/guice/rocoto/6.2/rocoto-6.2.jar, file:/root/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar, file:/root/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar, file:/root/.m2/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar, file:/root/.m2/repository/org/apache/jclouds/jclouds-blobstore/1.7.0/jclouds-blobstore-1.7.0.jar, file:/root/.m2/repository/com/esotericsoftware/kryo/kryo/2.22/kryo-2.22.jar, file:/root/.m2/repository/org/apache/directmemory/directmemory-cache/0.2/directmemory-cache-0.2.jar, file:/root/.m2/repository/com/h2database/h2/1.4.185/h2-1.4.185.jar, file:/root/.m2/repository/javax/jcr/jcr/2.0/jcr-2.0.jar, file:/root/.m2/repository/org/apache/jackrabbit/jackrabbit-api/2.10.1/jackrabbit-api-2.10.1.jar, file:/root/.m2/repository/org/apache/jackrabbit/jackrabbit-jcr-commons/2.10.1/jackrabbit-jcr-commons-2.10.1.jar, file:/root/.m2/repository/org/apache/jackrabbit/jackrabbit-data/2.10.1/jackrabbit-data-2.10.1.jar, file:/root/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.6/jcl-over-slf4j-1.7.6.jar, file:/root/.m2/repository/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar, file:/root/.m2/repository/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar, file:/root/.m2/repository/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6.jar, file:/root/.m2/repository/com/google/code/findbugs/jsr305/2.0.0/jsr305-2.0.0.jar, file:/root/.m2/repository/junit/junit/4.10/junit-4.10.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar, file:/root/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar, file:/root/.m2/repository/org/objenesis/objenesis/1.0/objenesis-1.0.jar, file:/root/.m2/repository/org/easymock/easymock/3.1/easymock-3.1.jar, file:/root/.m2/repository/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar, file:/root/.m2/repository/org/slf4j/jul-to-slf4j/1.7.6/jul-to-slf4j-1.7.6.jar, file:/root/.m2/repository/ch/qos/logback/logback-classic/1.1.0/logback-classic-1.1.0.jar, file:/root/.m2/repository/ch/qos/logback/logback-core/1.1.0/logback-core-1.1.0.jar, file:/root/.m2/repository/org/apache/jackrabbit/oak-blob/1.4-SNAPSHOT/oak-blob-1.4-SNAPSHOT-tests.jar, file:/root/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar, file:/root/.m2/repository/org/apache/sling/org.apache.sling.testing.osgi-mock/1.3.0/org.apache.sling.testing.osgi-mock-1.3.0.jar, file:/root/.m2/repository/org/apache/sling/org.apache.sling.commons.osgi/2.2.0/org.apache.sling.commons.osgi-2.2.0.jar, file:/root/.m2/repository/org/apache/commons/commons-lang3/3.0.1/commons-lang3-3.0.1.jar, file:/root/.m2/repository/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar]
+18:08:56.341 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+18:08:56.342 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.jackrabbit.oak.plugins.document.UpdateOpTest]
+18:08:56.345 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=DYNAMOTH, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/OAK-3028/jackrabbit-oak/oak-core/src/main/java, /apiarty/data/OAK-3028/jackrabbit-oak/oak-core/src/test/java], projectClasspath='[Ljava.net.URL;@3c5a99da', projectTests=[org.apache.jackrabbit.oak.plugins.document.UpdateOpTest], complianceLevel=7, outputFolder=., json=false}
+18:08:56.346 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+18:08:56.355 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 49 MB
+18:08:56.356 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+18:08:56.357 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+18:08:56.358 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+18:08:56.359 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+18:08:56.360 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+18:10:51.321 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+18:10:51.325 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:119 which is executed by 3 tests
+1387239595
+18:11:14.100 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:11:34.911 [pool-2-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+UpdateOp.java:78: error: missing return statement
+    }
+    ^
+18:11:34.924 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+18:11:34.924 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:169 which is executed by 4 tests
+1387239595
+18:11:59.739 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+18:11:59.740 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:168 which is executed by 4 tests
+1387239595
+18:12:22.404 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:12:38.956 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+18:12:38.957 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:167 which is executed by 4 tests
+1387239595
+18:13:09.837 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+18:13:09.839 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:132 which is executed by 4 tests
+1387239595
+18:13:48.186 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+18:13:48.187 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:114 which is executed by 4 tests
+1387239595
+18:14:26.022 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+18:14:26.023 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:213 which is executed by 4 tests
+1387239595
+18:14:47.442 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+18:14:47.444 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:212 which is executed by 4 tests
+1387239595
+18:15:11.823 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:15:55.326 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+18:15:55.328 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:211 which is executed by 4 tests
+1387239595
+18:16:20.535 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+18:16:20.536 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:208 which is executed by 4 tests
+1387239595
+18:16:35.767 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:16:59.340 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+18:17:32.272 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+18:17:32.273 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:354 which is executed by 5 tests
+-196142084
+18:17:56.500 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+18:17:56.501 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:264 which is executed by 5 tests
+1387239595
+18:18:17.757 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+18:18:17.759 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:262 which is executed by 5 tests
+1387239595
+18:18:37.188 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:18:55.252 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+18:18:55.255 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:261 which is executed by 5 tests
+1387239595
+18:19:20.166 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:19:46.595 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+18:20:07.941 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+18:20:07.942 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:118 which is executed by 5 tests
+1387239595
+18:20:28.435 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+18:20:52.654 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+18:20:52.656 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp$Key:450 which is executed by 5 tests
+1387239595
+18:21:11.442 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:21:36.336 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+18:21:36.337 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:214 which is executed by 6 tests
+-196142084
+18:21:55.552 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+18:21:55.554 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:211 which is executed by 6 tests
+-196142084
+18:22:20.878 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:22:39.666 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+18:22:58.554 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #19
+18:22:58.555 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:207 which is executed by 6 tests
+-196142084
+18:23:20.148 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:23:44.620 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+18:24:09.773 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #20
+18:24:09.774 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:204 which is executed by 6 tests
+-196142084
+18:24:32.675 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:24:59.859 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+18:25:27.384 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #21
+18:25:27.385 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:203 which is executed by 6 tests
+-196142084
+18:25:42.444 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #22
+18:25:42.445 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:192 which is executed by 6 tests
+-196142084
+18:25:58.056 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #23
+18:25:58.057 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:191 which is executed by 6 tests
+-196142084
+18:26:15.491 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #24
+18:26:15.492 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:185 which is executed by 6 tests
+-196142084
+18:26:31.094 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:26:47.544 [pool-124-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+Revision.java:97: error: variable c might not have been initialized
+        return new org.apache.jackrabbit.oak.plugins.document.Revision(timestamp, c, clusterId);
+                                                                                  ^
+18:26:47.554 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+18:27:15.298 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #25
+18:27:15.301 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:182 which is executed by 6 tests
+-196142084
+18:27:29.987 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:27:48.008 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+18:28:00.564 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #26
+18:28:00.565 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:178 which is executed by 6 tests
+-196142084
+18:28:22.781 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #27
+18:28:22.783 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:176 which is executed by 6 tests
+-196142084
+18:28:44.289 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #28
+18:28:44.290 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp$Key:452 which is executed by 6 tests
+1387239595
+18:29:13.340 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #29
+18:29:13.341 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp$Key:449 which is executed by 6 tests
+1387239595
+18:29:35.741 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:29:56.832 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+18:30:44.926 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #30
+18:30:44.929 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp$Key:448 which is executed by 6 tests
+1387239595
+18:31:04.033 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #31
+18:31:04.036 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:69 which is executed by 1 tests
+1387239595
+18:31:24.089 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #32
+18:31:24.090 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:68 which is executed by 1 tests
+1387239595
+18:31:50.889 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #33
+18:31:50.890 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:67 which is executed by 1 tests
+1387239595
+18:32:11.616 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:32:31.908 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #34
+18:32:31.910 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:66 which is executed by 1 tests
+1387239595
+18:32:55.465 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:33:14.776 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #35
+18:33:14.780 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:65 which is executed by 1 tests
+1387239595
+18:33:36.646 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #36
+18:33:36.647 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:79 which is executed by 1 tests
+1387239595
+18:33:56.871 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #37
+18:33:56.872 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.UpdateOp:89 which is executed by 1 tests
+1387239595
+18:34:22.949 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #38
+18:34:22.950 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:212 which is executed by 5 tests
+-196142084
+18:34:51.306 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:35:11.586 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #39
+18:35:11.587 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:189 which is executed by 5 tests
+-196142084
+18:35:33.684 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:35:53.170 [pool-190-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+Revision.java:99: error: variable c might not have been initialized
+        return new org.apache.jackrabbit.oak.plugins.document.Revision(timestamp, c, clusterId);
+                                                                                  ^
+18:35:53.183 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #40
+18:35:53.184 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:188 which is executed by 5 tests
+-196142084
+18:36:14.933 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:36:41.358 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #41
+18:36:41.359 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.plugins.document.Revision:186 which is executed by 2 tests
+-196142084
+18:36:59.335 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+18:37:15.191 [pool-200-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+Revision.java:99: error: variable c might not have been initialized
+        return new org.apache.jackrabbit.oak.plugins.document.Revision(timestamp, c, clusterId);
+                                                                                  ^
+18:37:15.205 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+18:37:15.620 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 1210
+18:37:15.621 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 9408
+18:37:15.622 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 28
+18:37:15.623 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+18:37:15.624 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 1698872ms
+18:37:15.625 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+NO_ANGELIC_VALUE

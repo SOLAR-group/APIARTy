@@ -1,0 +1,8 @@
+1 Delete /apiarty/data/ivantrendafilov-confucius-101/Confucius/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java 226
+Faulty:
+parts.add(Short.parseShort(value.trim()));
+Seed:
+NULL
+**************************************************
+Evaluations: 1143
+EstimatedTime: 1024095

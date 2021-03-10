@@ -1,0 +1,28 @@
+RMI Selector (Host: 127.0.0.1, Port: 10000): KO
+org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexSuggestionTest#suggestNodeName
+<No Strat> Status: Ko
+org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexSuggestionTest#testSuggestQuery
+<No Strat> Status: Ko
+org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexSuggestionTest#testSuggestQueryWithUserAccess
+<No Strat> Status: Ko
+org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexSuggestionTest#testSuggestQueryFromMoreGeneralNodeType
+<No Strat> Status: Ko
+org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexSuggestionTest#testSuggestQueryOnNonNtBase
+<No Strat> Status: Ko
+org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexSuggestionTest#testMultipleSuggestions
+<No Strat> Status: Ko
+org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexSuggestionTest#testSuggestQueryAnalyzed
+<No Strat> Status: Ko
+org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexSuggestionTest#testSuggestQueryInfix
+<No Strat> Status: Ko
+org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndexTest#createTestIndexNode
+<No Strat> Status: Ok
+org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndexTest#fulltextSearchWithCustomAnalyzer
+<No Strat> Status: Ok
+org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndexTest#indexSelection
+<No Strat> Status: Ok
+org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndexTest#indexSelectionVsNodeType
+<No Strat> Status: Ok
+[nt:file] as [a] /* nodeType Filter(query=explain select [jcr:path], [jcr:score], * from [nt:file] as a where isdescendantnode(a, '/') /* xpath: /jcr:root//element(*, nt:file) */, path=//*) where isdescendantnode([a], [/]) */
+org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndexTest#indexSelectionFulltextVsNodeType
+<No Strat> Status: Ok

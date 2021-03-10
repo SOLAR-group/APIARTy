@@ -1,0 +1,176 @@
+02:16:57.165 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/jfreechart-1/jfreechart/source, /apiarty/data/jfreechart-1/jfreechart/tests]
+02:16:57.174 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/jfreechart-1/jfreechart/build/, file:/apiarty/data/jfreechart-1/jfreechart/build-tests/, file:/apiarty/data/jfreechart-1/jfreechart/./lib/itext-2.0.6.jar, file:/apiarty/data/jfreechart-1/jfreechart/./lib/junit.jar, file:/apiarty/data/jfreechart-1/jfreechart/./lib/servlet.jar]
+02:16:57.174 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+02:16:57.175 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.jfree.chart.util.junit.ShapeUtilitiesTests]
+02:16:57.178 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/jfreechart-1/jfreechart/source, /apiarty/data/jfreechart-1/jfreechart/tests], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[org.jfree.chart.util.junit.ShapeUtilitiesTests], complianceLevel=8, outputFolder=., json=false}
+02:16:57.180 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+02:16:57.193 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+02:16:57.194 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+02:16:57.195 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+02:16:57.195 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+02:16:57.198 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+02:16:57.199 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+02:17:57.495 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+02:17:57.497 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:295 which is executed by 2 tests
+1291016330
+02:18:03.252 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+02:18:03.254 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:294 which is executed by 2 tests
+1291016330
+02:18:08.578 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+02:18:08.582 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:293 which is executed by 2 tests
+1291016330
+02:18:13.564 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+02:18:26.183 [pool-2-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): 40]
+02:18:26.184 [pool-2-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:18:26.192 [pool-2-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.jfree.chart.util.ShapeUtilities:293.
+02:18:26.193 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+02:18:26.194 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:292 which is executed by 2 tests
+1291016330
+02:18:31.809 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+02:18:39.365 [pool-6-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:18:39.366 [pool-6-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:18:39.367 [pool-6-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.jfree.chart.util.ShapeUtilities:292.
+02:18:39.368 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+02:18:39.369 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:291 which is executed by 2 tests
+1291016330
+02:18:44.902 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+02:18:51.029 [pool-10-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:18:51.030 [pool-10-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:18:51.031 [pool-10-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.jfree.chart.util.ShapeUtilities:291.
+02:18:51.031 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+02:18:51.032 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:288 which is executed by 2 tests
+1291016330
+02:18:59.791 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+02:19:07.658 [pool-14-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:19:07.659 [pool-14-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:19:07.659 [pool-14-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.jfree.chart.util.ShapeUtilities:288.
+02:19:07.660 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+02:19:17.457 [pool-18-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:19:17.458 [pool-18-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:19:17.460 [pool-18-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.jfree.chart.util.ShapeUtilities:288.
+02:19:17.461 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+02:19:17.461 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:285 which is executed by 2 tests
+1291016330
+02:19:22.383 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+02:19:28.282 [pool-22-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:19:28.283 [pool-22-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:19:28.284 [pool-22-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.jfree.chart.util.ShapeUtilities:285.
+02:19:28.288 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+02:19:34.499 [pool-26-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:19:34.502 [pool-26-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:19:34.503 [pool-26-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.jfree.chart.util.ShapeUtilities:285.
+02:19:34.504 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+02:19:34.504 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:284 which is executed by 2 tests
+1291016330
+02:19:43.370 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+02:19:43.371 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:283 which is executed by 2 tests
+1291016330
+02:19:49.611 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+02:19:49.612 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:280 which is executed by 2 tests
+1291016330
+02:19:59.119 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+02:20:09.876 [pool-30-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:20:09.878 [pool-30-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:20:09.878 [pool-30-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.jfree.chart.util.ShapeUtilities:280.
+02:20:09.879 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+02:20:20.146 [pool-34-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:20:20.147 [pool-34-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:20:20.147 [pool-34-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.jfree.chart.util.ShapeUtilities:280.
+02:20:20.148 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+02:20:20.149 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:279 which is executed by 2 tests
+1291016330
+02:20:27.357 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+02:20:34.695 [pool-38-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:20:34.698 [pool-38-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:20:34.699 [pool-38-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.jfree.chart.util.ShapeUtilities:279.
+02:20:34.701 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #12
+02:20:34.702 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:278 which is executed by 2 tests
+1291016330
+02:20:42.314 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #13
+02:20:42.315 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:277 which is executed by 2 tests
+1291016330
+02:20:47.351 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #14
+02:20:47.353 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:276 which is executed by 2 tests
+1291016330
+02:20:55.085 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #15
+02:20:55.086 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:275 which is executed by 2 tests
+1291016330
+02:21:01.231 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #16
+02:21:01.232 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:274 which is executed by 2 tests
+1291016330
+02:21:06.037 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #17
+02:21:06.039 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:271 which is executed by 2 tests
+1291016330
+02:21:13.357 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+02:21:23.201 [pool-42-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:21:23.202 [pool-42-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:21:23.203 [pool-42-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.jfree.chart.util.ShapeUtilities:271.
+02:21:23.204 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+02:21:34.081 [pool-46-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:21:34.083 [pool-46-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:21:34.084 [pool-46-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.jfree.chart.util.ShapeUtilities:271.
+02:21:34.085 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #18
+02:21:34.087 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:268 which is executed by 2 tests
+1291016330
+02:21:42.227 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+02:21:49.915 [pool-50-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:21:49.916 [pool-50-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:21:49.917 [pool-50-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.jfree.chart.util.ShapeUtilities:268.
+02:21:49.918 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+02:21:57.595 [pool-54-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:21:57.596 [pool-54-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:21:57.596 [pool-54-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.jfree.chart.util.ShapeUtilities:268.
+02:21:57.597 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #19
+02:21:57.598 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.chart.util.ShapeUtilities:265 which is executed by 2 tests
+1291016330
+02:22:04.653 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+02:22:09.555 [pool-58-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:22:09.556 [pool-58-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:22:09.556 [pool-58-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.jfree.chart.util.ShapeUtilities:265.
+02:22:09.557 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+02:22:14.444 [pool-62-thread-1] DEBUG tests.output - Failing tests with false: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:22:14.445 [pool-62-thread-1] DEBUG tests.output - Failing tests with true: 
+[testEqualGeneralPaths(org.jfree.chart.util.junit.ShapeUtilitiesTests): null]
+02:22:14.446 [pool-62-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.jfree.chart.util.ShapeUtilities:265.
+02:22:14.447 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+02:22:15.144 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 936
+02:22:15.145 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 8620
+02:22:15.146 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 16
+02:22:15.147 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+02:22:15.148 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 0
+02:22:15.152 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 0
+02:22:15.153 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 0
+02:22:15.155 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 317287ms
+02:22:15.156 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+NO_ANGELIC_VALUE

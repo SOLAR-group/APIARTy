@@ -1,0 +1,12 @@
+TernarySplitter  in 27ms
+CheckNotNull  in 93ms
+ForceNullInit in 15ms
+AddImplicitCastChecker --> 0 in 35ms
+BeforeDeref --> 98 (failed:0) in 69ms
+target--> 123 (failed:0) in 360ms
+TryRegister # Try: 2 in 10ms
+Assign --> 16 (failed: 0) in 68ms
+VarInit --> 16 in 31ms
+MethodEncapsulation # Method: 100 in 200ms
+ConstructorEncapsulation # Constructor: 7 in 28ms
+VariableFor in 16ms

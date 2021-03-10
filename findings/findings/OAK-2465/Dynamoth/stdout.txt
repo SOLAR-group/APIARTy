@@ -1,0 +1,92 @@
+17:33:16.528 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/OAK-2465/jackrabbit-oak/oak-core/src/main/java, /apiarty/data/OAK-2465/jackrabbit-oak/oak-core/src/test/java]
+17:33:16.532 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/OAK-2465/jackrabbit-oak/oak-core/target/classes/, file:/apiarty/data/OAK-2465/jackrabbit-oak/oak-core/target/test-classes/, file:/root/.m2/repository/org/osgi/org.osgi.core/4.2.0/org.osgi.core-4.2.0.jar, file:/root/.m2/repository/org/osgi/org.osgi.compendium/4.2.0/org.osgi.compendium-4.2.0.jar, file:/root/.m2/repository/biz/aQute/bnd/bndlib/2.2.0/bndlib-2.2.0.jar, file:/root/.m2/repository/org/apache/felix/org.apache.felix.scr.annotations/1.9.6/org.apache.felix.scr.annotations-1.9.6.jar, file:/root/.m2/repository/org/apache/jackrabbit/oak-mk-api/1.1-SNAPSHOT/oak-mk-api-1.1-SNAPSHOT.jar, file:/root/.m2/repository/org/apache/jackrabbit/oak-commons/1.1-SNAPSHOT/oak-commons-1.1-SNAPSHOT.jar, file:/root/.m2/repository/org/apache/jackrabbit/oak-commons/1.1-SNAPSHOT/oak-commons-1.1-SNAPSHOT-tests.jar, file:/root/.m2/repository/org/apache/jackrabbit/oak-blob/1.1-SNAPSHOT/oak-blob-1.1-SNAPSHOT.jar, file:/root/.m2/repository/com/google/guava/guava/15.0/guava-15.0.jar, file:/root/.m2/repository/commons-codec/commons-codec/1.5/commons-codec-1.5.jar, file:/root/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar, file:/root/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar, file:/root/.m2/repository/org/apache/jackrabbit/jackrabbit-aws-ext/2.9.0/jackrabbit-aws-ext-2.9.0.jar, file:/root/.m2/repository/com/amazonaws/aws-java-sdk/1.7.3/aws-java-sdk-1.7.3.jar, file:/root/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar, file:/root/.m2/repository/org/apache/httpcomponents/httpclient/4.2/httpclient-4.2.jar, file:/root/.m2/repository/org/apache/httpcomponents/httpcore/4.2/httpcore-4.2.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.1.1/jackson-core-2.1.1.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.1.1/jackson-databind-2.1.1.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.1.1/jackson-annotations-2.1.1.jar, file:/root/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar, file:/root/.m2/repository/org/apache/jackrabbit/jackrabbit-data/2.9.0/jackrabbit-data-2.9.0-tests.jar, file:/root/.m2/repository/org/mongodb/mongo-java-driver/2.12.2/mongo-java-driver-2.12.2.jar, file:/root/.m2/repository/org/apache/jclouds/provider/aws-s3/1.7.0/aws-s3-1.7.0.jar, file:/root/.m2/repository/org/apache/jclouds/api/s3/1.7.0/s3-1.7.0.jar, file:/root/.m2/repository/com/jamesmurty/utils/java-xmlbuilder/0.4/java-xmlbuilder-0.4.jar, file:/root/.m2/repository/org/apache/jclouds/api/sts/1.7.0/sts-1.7.0.jar, file:/root/.m2/repository/org/apache/jclouds/jclouds-core/1.7.0/jclouds-core-1.7.0.jar, file:/root/.m2/repository/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar, file:/root/.m2/repository/com/google/inject/extensions/guice-assistedinject/3.0/guice-assistedinject-3.0.jar, file:/root/.m2/repository/com/google/inject/guice/3.0/guice-3.0.jar, file:/root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar, file:/root/.m2/repository/org/99soft/guice/rocoto/6.2/rocoto-6.2.jar, file:/root/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar, file:/root/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar, file:/root/.m2/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar, file:/root/.m2/repository/org/apache/jclouds/jclouds-blobstore/1.7.0/jclouds-blobstore-1.7.0.jar, file:/root/.m2/repository/com/esotericsoftware/kryo/kryo/2.22/kryo-2.22.jar, file:/root/.m2/repository/org/apache/directmemory/directmemory-cache/0.2/directmemory-cache-0.2.jar, file:/root/.m2/repository/com/h2database/h2/1.4.182/h2-1.4.182.jar, file:/root/.m2/repository/javax/jcr/jcr/2.0/jcr-2.0.jar, file:/root/.m2/repository/org/apache/jackrabbit/jackrabbit-api/2.9.0/jackrabbit-api-2.9.0.jar, file:/root/.m2/repository/org/apache/jackrabbit/jackrabbit-jcr-commons/2.9.0/jackrabbit-jcr-commons-2.9.0.jar, file:/root/.m2/repository/org/apache/jackrabbit/jackrabbit-data/2.9.0/jackrabbit-data-2.9.0.jar, file:/root/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.6/jcl-over-slf4j-1.7.6.jar, file:/root/.m2/repository/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar, file:/root/.m2/repository/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar, file:/root/.m2/repository/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6.jar, file:/root/.m2/repository/com/google/code/findbugs/jsr305/2.0.0/jsr305-2.0.0.jar, file:/root/.m2/repository/junit/junit/4.10/junit-4.10.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar, file:/root/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar, file:/root/.m2/repository/org/objenesis/objenesis/1.0/objenesis-1.0.jar, file:/root/.m2/repository/org/easymock/easymock/3.1/easymock-3.1.jar, file:/root/.m2/repository/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar, file:/root/.m2/repository/org/slf4j/jul-to-slf4j/1.7.6/jul-to-slf4j-1.7.6.jar, file:/root/.m2/repository/ch/qos/logback/logback-classic/1.1.0/logback-classic-1.1.0.jar, file:/root/.m2/repository/ch/qos/logback/logback-core/1.1.0/logback-core-1.1.0.jar, file:/root/.m2/repository/org/apache/jackrabbit/oak-blob/1.1-SNAPSHOT/oak-blob-1.1-SNAPSHOT-tests.jar]
+17:33:16.533 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+17:33:16.534 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImplTest]
+17:33:16.537 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=DYNAMOTH, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/OAK-2465/jackrabbit-oak/oak-core/src/main/java, /apiarty/data/OAK-2465/jackrabbit-oak/oak-core/src/test/java], projectClasspath='[Ljava.net.URL;@3c5a99da', projectTests=[org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImplTest], complianceLevel=7, outputFolder=., json=false}
+17:33:16.538 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+17:33:16.544 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+17:33:16.545 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+17:33:16.546 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+17:33:16.547 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_232
+17:33:16.548 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+17:33:16.549 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+17:35:12.379 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+17:35:12.381 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImpl:77 which is executed by 3 tests
+-1682925803
+17:35:29.117 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+17:36:07.624 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+17:36:07.626 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImpl:76 which is executed by 3 tests
+-1682925803
+17:36:38.318 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+17:36:59.691 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+17:36:59.692 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImpl:75 which is executed by 3 tests
+-1682925803
+17:37:13.850 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+17:37:32.715 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+17:37:32.717 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.spi.security.ConfigurationParameters:225 which is executed by 4 tests
+1345105761
+17:37:57.246 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+17:38:16.771 [pool-26-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+ConfigurationParameters.java:114: error: missing return statement
+    }
+    ^
+17:38:16.783 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+17:38:16.784 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.spi.security.ConfigurationParameters:224 which is executed by 4 tests
+1345105761
+17:38:37.036 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+17:38:55.778 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+17:38:55.779 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.spi.security.ConfigurationParameters:223 which is executed by 4 tests
+1345105761
+17:39:19.360 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+17:39:19.361 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryCache:104 which is executed by 4 tests
+-448836224
+17:39:31.009 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+17:39:31.009 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryCache:103 which is executed by 4 tests
+-448836224
+17:39:44.477 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+17:39:44.478 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryCache:102 which is executed by 4 tests
+-448836224
+17:40:03.024 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+17:40:03.025 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImpl:73 which is executed by 4 tests
+-1682925803
+17:40:14.830 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+17:40:39.056 [pool-36-thread-1] DEBUG f.i.l.r.n.s.d.DynamothSynthesizer - Ignore the test org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImplTest#testInitLongOverflow
+17:40:39.082 [pool-36-thread-1] DEBUG f.i.l.r.n.s.d.DynamothSynthesizer - Collected 0 potential patches
+17:40:39.084 [pool-36-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Applying patch: org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImpl:73: PRECONDITION false
+17:41:03.403 [pool-36-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Running test suite to check the patch "false" is working
+17:41:03.667 [pool-36-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Skipped -9 patches for sake of performance
+17:41:03.668 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+17:41:04.198 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 1113
+17:41:04.199 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 8260
+17:41:04.200 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 6
+17:41:04.201 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 1
+17:41:04.201 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 467143ms
+17:41:04.202 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+17:41:04.203 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+17:41:04.203 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - false
+17:41:04.206 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 4
+17:41:04.207 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImpl:73: PRECONDITION
+17:41:04.233 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - --- a/src/main/java/org/apache/jackrabbit/oak/security/authorization/permission/PermissionEntryProviderImpl.java
++++ b/src/main/java/org/apache/jackrabbit/oak/security/authorization/permission/PermissionEntryProviderImpl.java
+@@ -72,10 +72,12 @@
+         }
+-        if (cnt < maxSize) {
+-            // cache all entries of all principals
+-            pathEntryMap = new HashMap<String, Collection<PermissionEntry>>();
+-            for (String name: principalNames) {
+-                cache.load(store, pathEntryMap, name);
++        if (false) {
++            if (cnt < maxSize) {
++                // cache all entries of all principals
++                pathEntryMap = new HashMap<String, Collection<PermissionEntry>>();
++                for (String name: principalNames) {
++                    cache.load(store, pathEntryMap, name);
++                }
++            } else {
++                pathEntryMap = null;
+             }
+-        } else {
+-            pathEntryMap = null;
+         }
+
+PATCH

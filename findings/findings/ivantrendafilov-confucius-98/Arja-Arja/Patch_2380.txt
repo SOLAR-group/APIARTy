@@ -1,0 +1,24 @@
+1 Delete /apiarty/data/ivantrendafilov-confucius-98/Confucius/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java 205
+Faulty:
+for (String value : getKey(key).split(separator)) parts.add(Long.parseLong(value.trim()));
+Seed:
+NULL
+**************************************************
+2 Delete /apiarty/data/ivantrendafilov-confucius-98/Confucius/src/main/java/org/trendafilov/confucius/core/AbstractConfiguration.java 206
+Faulty:
+parts.add(Long.parseLong(value.trim()));
+Seed:
+NULL
+**************************************************
+3 InsertBefore /apiarty/data/ivantrendafilov-confucius-98/Confucius/src/main/java/org/trendafilov/confucius/core/Utils.java 40
+Faulty:
+return properties;
+Seed:
+for (Object e : props.keySet()) {
+  String key=(String)e;
+  String value=props.getProperty(key);
+  properties.put(key,value);
+}
+**************************************************
+Evaluations: 1567
+EstimatedTime: 1209038
