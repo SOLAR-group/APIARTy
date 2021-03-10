@@ -1,0 +1,13 @@
+RMI Selector (Host: 127.0.0.1, Port: 10000): KO
+org.apache.camel.builder.NotifyBuilderFromRouteTest#testDoneFromRoute
+<No Strat> Status: Ko
+org.apache.camel.builder.NotifyBuilderFromRouteTest#testDoneFromRoute
+<No Strat> Status: Ko
+org.apache.camel.builder.NotifyBuilderFromRouteTest#testDoneFromRoute
+<No Strat> Status: Ko
+org.apache.camel.builder.NotifyBuilderFromRouteTest#testDoneFromRoute
+<No Strat> Status: Ko
+org.apache.camel.builder.NotifyBuilderFromRouteTest#testDoneFromRoute
+<No Strat> Status: Ko
+org.apache.camel.builder.NotifyBuilderFromRouteTest#testDoneFromRoute
+<No Strat> Status: Ko

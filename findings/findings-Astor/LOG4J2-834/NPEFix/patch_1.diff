@@ -1,0 +1,64 @@
+--- a/src/main/java/org/apache/logging/log4j/core/impl/ThrowableProxy.java
++++ b/src/main/java/org/apache/logging/log4j/core/impl/ThrowableProxy.java
+@@ -542,33 +542,35 @@
+         ClassLoader lastLoader = null;
+-        for (int i = stackLength - 1; i >= 0; --i) {
+-            final StackTraceElement stackTraceElement = stackTrace[i];
+-            final String className = stackTraceElement.getClassName();
+-            // The stack returned from getCurrentStack may be missing entries for java.lang.reflect.Method.invoke()
+-            // and its implementation. The Throwable might also contain stack entries that are no longer
+-            // present as those methods have returned.
+-            ExtendedClassInfo extClassInfo;
+-            if (clazz != null && className.equals(clazz.getName())) {
+-                final CacheEntry entry = this.toCacheEntry(stackTraceElement, clazz, true);
+-                extClassInfo = entry.element;
+-                lastLoader = entry.loader;
+-                stack.pop();
+-                clazz = stack.isEmpty() ? null : stack.peek();
+-            } else {
+-                if (map.containsKey(className)) {
+-                    final CacheEntry entry = map.get(className);
++        if (false) {
++            for (int i = stackLength - 1; i >= 0; --i) {
++                final StackTraceElement stackTraceElement = stackTrace[i];
++                final String className = stackTraceElement.getClassName();
++                // The stack returned from getCurrentStack may be missing entries for java.lang.reflect.Method.invoke()
++                // and its implementation. The Throwable might also contain stack entries that are no longer
++                // present as those methods have returned.
++                ExtendedClassInfo extClassInfo;
++                if (clazz != null && className.equals(clazz.getName())) {
++                    final CacheEntry entry = this.toCacheEntry(stackTraceElement, clazz, true);
+                     extClassInfo = entry.element;
+-                    if (entry.loader != null) {
+-                        lastLoader = entry.loader;
+-                    }
++                    lastLoader = entry.loader;
++                    stack.pop();
++                    clazz = stack.isEmpty() ? null : stack.peek();
+                 } else {
+-                    final CacheEntry entry = this.toCacheEntry(stackTraceElement,
+-                            this.loadClass(lastLoader, className), false);
+-                    extClassInfo = entry.element;
+-                    map.put(stackTraceElement.toString(), entry);
+-                    if (entry.loader != null) {
+-                        lastLoader = entry.loader;
++                    if (map.containsKey(className)) {
++                        final CacheEntry entry = map.get(className);
++                        extClassInfo = entry.element;
++                        if (entry.loader != null) {
++                            lastLoader = entry.loader;
++                        }
++                    } else {
++                        final CacheEntry entry = this.toCacheEntry(stackTraceElement,
++                        this.loadClass(lastLoader, className), false);
++                        extClassInfo = entry.element;
++                        map.put(stackTraceElement.toString(), entry);
++                        if (entry.loader != null) {
++                            lastLoader = entry.loader;
++                        }
+                     }
+                 }
++                extStackTrace[i] = new ExtendedStackTraceElement(stackTraceElement, extClassInfo);
+             }
+-            extStackTrace[i] = new ExtendedStackTraceElement(stackTraceElement, extClassInfo);
+         }

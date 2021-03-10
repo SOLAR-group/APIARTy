@@ -1,0 +1,357 @@
+2020-04-24 16:54:43,540 INFO fr.inria.astor.core.setup.ProjectConfiguration - Version of the JVM used: 1.8.0_242
+2020-04-24 16:54:43,543 INFO main - Java version of the JDK used to run tests: 1.8.0_242
+2020-04-24 16:54:43,544 INFO main - The compliance of the JVM is:  8
+2020-04-24 16:54:43,547 INFO main - command line arguments: [-mode  Cardumen  -location  /apiarty/data/Bears-188/AutomatedCar/  -jvm4testexecution  /usr/lib/jvm/java-8-openjdk-amd64/bin/  -failing  hu.oe.nik.szfmv.visualization.DashboardTest  -srcjavafolder  /src/main/java/  -srctestfolder  /src/test/  -binjavafolder  /target/classes  -bintestfolder  /target/test-classes  -maxtime  120  -stopfirst  true  -maxgen  1000000  -seed  0  -scope  local  -population  1  -dependencies  /root/.m2/repository/org/projectlombok/lombok/1.16.20/lombok-1.16.20.jar:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.8/log4j-api-2.8.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-core/2.8/log4j-core-2.8.jar:/root/.m2/repository/com/moandjiezana/toml/toml4j/0.7.2/toml4j-0.7.2.jar:/root/.m2/repository/com/google/code/gson/gson/2.8.1/gson-2.8.1.jar:/astor/lib/gzoltar/com.gzoltar-0.0.3.jar:/root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.1.1.jar:/root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.0.1.pom]
+2020-04-24 16:54:43,554 INFO fr.inria.main.evolution.AstorMain - Running Astor on a JDK at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[INFO ] fr.inria.main.AbstractMain.determineSourceFolders(AbstractMain.java:982) - Source folders: [/apiarty/data/Bears-188/AutomatedCar/src/main/java]
+[INFO ] fr.inria.main.AbstractMain.determineSourceFolders(AbstractMain.java:1001) - Source Test folders: [/apiarty/data/Bears-188/AutomatedCar/src/test]
+[INFO ] fr.inria.astor.core.solutionsearch.AstorCoreEngine.calculateSuspicious(AstorCoreEngine.java:901) - Test retrieved from classes: 4
+[INFO ] fr.inria.astor.core.faultlocalization.gzoltar.GZoltarFaultLocalization.calculateSuspicious(GZoltarFaultLocalization.java:68) - -Executing Gzoltar classpath: /astor/./output_astor/AstorMain-AutomatedCar//bin//default from 4 classes with test cases
+[INFO ] fr.inria.astor.core.faultlocalization.gzoltar.GZoltarFaultLocalization.searchSuspicious(GZoltarFaultLocalization.java:148) - Gzoltar fault localization: min susp value parameter: 0.1
+[INFO ] fr.inria.astor.core.faultlocalization.gzoltar.GZoltarFaultLocalization.searchSuspicious(GZoltarFaultLocalization.java:168) - -gz-Adding classpath: [/astor/./output_astor/AstorMain-AutomatedCar//bin//default, /root/.m2/repository/org/projectlombok/lombok/1.16.20/lombok-1.16.20.jar, /root/.m2/repository/junit/junit/4.11/junit-4.11.jar, /root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, /root/.m2/repository/org/apache/logging/log4j/log4j-api/2.8/log4j-api-2.8.jar, /root/.m2/repository/org/apache/logging/log4j/log4j-core/2.8/log4j-core-2.8.jar, /root/.m2/repository/com/moandjiezana/toml/toml4j/0.7.2/toml4j-0.7.2.jar, /root/.m2/repository/com/google/code/gson/gson/2.8.1/gson-2.8.1.jar, /astor/lib/gzoltar/com.gzoltar-0.0.3.jar, /root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.1.1.jar]
+[INFO ] fr.inria.astor.core.faultlocalization.gzoltar.GZoltarFaultLocalization.searchSuspicious(GZoltarFaultLocalization.java:208) - Test failt: hu.oe.nik.szfmv.visualization.DashboardTest#allRequiredValuesReceivedOnUpdate
+[INFO ] fr.inria.astor.core.faultlocalization.gzoltar.GZoltarFaultLocalization.searchSuspicious(GZoltarFaultLocalization.java:220) - Gzoltar Test Result Total:7, fails: 1, GZoltar suspicious 295, with positive susp 35
+[INFO ] fr.inria.astor.core.faultlocalization.gzoltar.GZoltarFaultLocalization.searchSuspicious(GZoltarFaultLocalization.java:228) - nr test results 7
+[INFO ] fr.inria.astor.core.faultlocalization.gzoltar.GZoltarFaultLocalization.searchSuspicious(GZoltarFaultLocalization.java:283) - Gzoltar found: 35 with susp > 0.1, we consider: 35
+[INFO ] fr.inria.astor.core.solutionsearch.AstorCoreEngine.calculateSuspicious(AstorCoreEngine.java:915) - Setting up the max to 55330 milliseconds (55 sec)
+[INFO ] fr.inria.astor.core.solutionsearch.AstorCoreEngine.initPopulation(AstorCoreEngine.java:710) - 
+---- Creating spoon model
+[INFO ] fr.inria.astor.core.manipulation.MutationSupporter.buildSpoonModel(MutationSupporter.java:236) - Creating model,  Code location from working folder: /apiarty/data/Bears-188/AutomatedCar/src/main/java
+[INFO ] fr.inria.astor.core.manipulation.MutationSupporter.buildModel(MutationSupporter.java:67) - building model: /apiarty/data/Bears-188/AutomatedCar/src/main/java, compliance level: 8
+[INFO ] fr.inria.astor.core.manipulation.MutationSupporter.buildModel(MutationSupporter.java:81) - Classpath (Dependencies) for building SpoonModel: [/root/.m2/repository/org/projectlombok/lombok/1.16.20/lombok-1.16.20.jar, /root/.m2/repository/junit/junit/4.11/junit-4.11.jar, /root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, /root/.m2/repository/org/apache/logging/log4j/log4j-api/2.8/log4j-api-2.8.jar, /root/.m2/repository/org/apache/logging/log4j/log4j-core/2.8/log4j-core-2.8.jar, /root/.m2/repository/com/moandjiezana/toml/toml4j/0.7.2/toml4j-0.7.2.jar, /root/.m2/repository/com/google/code/gson/gson/2.8.1/gson-2.8.1.jar, /astor/lib/gzoltar/com.gzoltar-0.0.3.jar, /root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.1.1.jar]
+[INFO ] fr.inria.astor.core.solutionsearch.AstorCoreEngine.initModel(AstorCoreEngine.java:780) - Number of CtTypes created: 19
+[INFO ] fr.inria.astor.core.solutionsearch.AstorCoreEngine.initPopulation(AstorCoreEngine.java:714) - 
+---- Initial suspicious size: 35
+[INFO ] fr.inria.astor.core.solutionsearch.population.ProgramVariantFactory.createProgramInstance(ProgramVariantFactory.java:134) - Total suspicious from FL: 35,  41
+[INFO ] fr.inria.astor.core.solutionsearch.population.ProgramVariantFactory.createProgramInstance(ProgramVariantFactory.java:143) - Total ModPoint created: 41
+[INFO ] fr.inria.astor.core.solutionsearch.population.ProgramVariantFactory.createInitialPopulation(ProgramVariantFactory.java:82) - Creating program variant #1, [Variant id: 1, #gens: 41, #ops: 0, parent:-]
+[INFO ] fr.inria.astor.core.solutionsearch.AstorCoreEngine.setFitnessOfPopulation(AstorCoreEngine.java:755) - The original fitness is : 1.0
+[INFO ] fr.inria.astor.core.solutionsearch.spaces.ingredients.scopes.ExpressionTypeIngredientSpace.defineSpace(ExpressionTypeIngredientSpace.java:121) - Ingredient search space info : number keys 9 , number values 38 
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:66) - ----------------------------
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:67) - ---Configuration properties:---Execution values
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:lastJUnitVersion= ./examples/libs/junit-4.11.jar
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:alternativecompliancelevel= 8
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:ignoredTestCases= 
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:workingDirectory= /astor/./output_astor
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:manipulatesuper= false
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:validation= process
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:jvm4testexecution= /usr/lib/jvm/java-8-openjdk-amd64/bin/
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:operatorspace= r-expression
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:disablelog= false
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:binjavafolder= /target/classes
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:synthesis_depth= 3
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:gzoltartestpackagetoexclude= junit.framework
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:skipfitnessinitialpopulation= false
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:evosuiteresultfolder= evosuite
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:flthreshold= 0.1
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:regressionforfaultlocalization= true
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:collectonlyusedmethod= false
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:preservelinenumbers= true
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:tmax2= 55330
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:ingredienttransformstrategy= name-probability-based
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:tmax1= 10000
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:probagenmutation= false
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:nomodificationconvergence= 100
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:diff_type= relative
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:targetelementprocessor= expression
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:srctestfolder= /src/test/
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:forceExecuteRegression= false
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:clusteringfilename= clustering.csv
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:failing= hu.oe.nik.szfmv.visualization.DashboardTest
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:logtestexecution= false
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:evo_buggy_class= true
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:numberExecutions= 1
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:maxnumbersolutions= 1000000
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:evo_affected_by_op= true
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:population= 1
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:considerzerovaluesusp= false
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:maxCombinationVariableLimit= false
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:loglevel= INFO
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:savesolution= true
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:javacompliancelevel= 8
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:uniqueoptogen= false
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:gzoltarpackagetonotinstrument= junit.framework
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:projectIdentifier= 
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:modificationpointnavigation= weight
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:stopfirst= true
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:multipointmodification= false
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:elementsToMutate= 10
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:jsonoutputname= astor_output
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:evoDSE= false
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:bintestfolder= /target/test-classes
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:testbystep= false
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:version-location= ./math-version/
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:reintroduce= PARENTS:ORIGINAL
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:executorjar= ./lib/jtestex7.jar
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:maxGeneration= 1000000
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:max_synthesis_step= 10000
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:projectinfocommand= com.github.tdurieux:project-config-maven-plugin:info
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:maxVarCombination= 1000
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:maxtime= 120
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:evosuitejar= ./lib/evosuite-master-1.0.4-SNAPSHOT.jar
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:jvmversion= 1.8.0_242
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:commandTrunk= 50000
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:faultlocalization= gzoltar
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:resetmodel= true
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:maxsuspcandidates= 1000
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:mode= Cardumen
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:learningdir= 
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:jvm4evosuitetestexecution= /usr/lib/jvm/java-8-openjdk-amd64/bin/
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:filterfaultlocalization= true
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:mutationrate= 1 
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:pathToMVNRepository= 
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:resourcesfolder= /src/main/resources:/src/test/resources:
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:timezone= America/Los_Angeles
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:runjava7code= false
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:evoRunOnBuggyClass= true
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:compiler= fr.inria.astor.core.manipulation.bytecode.compiler.SpoonClassCompiler
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:limitbysuspicious= true
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:logsattemps= true
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:dependenciespath= /root/.m2/repository/org/projectlombok/lombok/1.16.20/lombok-1.16.20.jar:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.8/log4j-api-2.8.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-core/2.8/log4j-core-2.8.jar:/root/.m2/repository/com/moandjiezana/toml/toml4j/0.7.2/toml4j-0.7.2.jar:/root/.m2/repository/com/google/code/gson/gson/2.8.1/gson-2.8.1.jar:/astor/lib/gzoltar/com.gzoltar-0.0.3.jar:/root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.1.1.jar:/root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.0.1.pom
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:logpatternlayout= [%-5p] %l - %m%n
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:packageToInstrument= 
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:skipfaultlocalization= false
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:scope= local
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:transformingredient= false
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:fitnessfunction= fr.inria.astor.core.solutionsearch.population.TestCaseFitnessFunction
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:maxnumvariablesperingredient= 10
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:parsesourcefromoriginal= true
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:pvariantfoldername= variant-
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:savespoonmodelondisk= false
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:srcjavafolder= /src/main/java/
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:populationcontroller= fr.inria.astor.core.solutionsearch.population.TestCaseBasedFitnessPopulationController
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:ignoreflakyinfl= false
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:cleantemplates= true
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:applyCrossover= false
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:maxmodificationpoints= 1000
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:duplicateingredientsinspace= false
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:metid= 0
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:continuewhenmodelfail= true
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:saveall= false
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:seed= 0
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:savecompletepatched= true
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:resetoperations= false
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:processoutputinfile= false
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:location= /apiarty/data/Bears-188/AutomatedCar/
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:probabilistictransformation= true
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:overridemaxtime= true
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:ingredientstrategy= name-probability-based
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:outputjsonresult= false
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:allpoints= false
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:bugId= 280
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:evosuitetimeout= 120
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:maxtimefactor= 10
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:nrPlaceholders= 1
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:69) - p:forcesubprocesskilling= false
+[INFO ] fr.inria.astor.core.setup.ConfigurationProperties.print(ConfigurationProperties.java:71) - ----------------------------
+[INFO ] fr.inria.astor.core.solutionsearch.EvolutionarySearchEngine.startEvolution(EvolutionarySearchEngine.java:40) - 
+----Starting Solution Search
+[INFO ] fr.inria.astor.core.solutionsearch.AstorCoreEngine.processCreatedVariant(AstorCoreEngine.java:450) - -Found Solution, child variant #30
+[ERROR] fr.inria.astor.core.solutionsearch.AstorCoreEngine.validateReversedOriginalVariant(AstorCoreEngine.java:360) - Error variant :30 the model was not the same from the original after this generation (see Diff in debug level)
+[INFO ] fr.inria.astor.core.solutionsearch.AstorCoreEngine.atEnd(AstorCoreEngine.java:171) - Time Repair Loop (s): 54.862
+[INFO ] fr.inria.astor.core.solutionsearch.AstorCoreEngine.atEnd(AstorCoreEngine.java:173) - generationsexecuted: 15
+[INFO ] fr.inria.astor.core.solutionsearch.AstorCoreEngine.printFinalStatus(AstorCoreEngine.java:248) - 
+----SUMMARY_EXECUTION---
+[INFO ] fr.inria.astor.core.solutionsearch.AstorCoreEngine.printFinalStatus(AstorCoreEngine.java:250) - End Repair Search: Found solution
+[INFO ] fr.inria.astor.core.solutionsearch.AstorCoreEngine.printFinalStatus(AstorCoreEngine.java:251) - Solution stored at: /astor/./output_astor/AstorMain-AutomatedCar//src/
+[INFO ] fr.inria.astor.core.ingredientbased.IngredientBasedEvolutionaryRepairApproachImpl.printFinalStatus(IngredientBasedEvolutionaryRepairApproachImpl.java:123) - Total mod points: 41
+[INFO ] fr.inria.astor.core.solutionsearch.spaces.ingredients.scopes.ExpressionTypeIngredientSpace.toJSON(ExpressionTypeIngredientSpace.java:233) - Storing ing JSON at /astor/./output_astor/AstorMain-AutomatedCar//src/ingredients.json
+[INFO ] fr.inria.astor.core.stats.IngredientStats.toJSON(IngredientStats.java:253) - Storing ing JSON at /astor/./output_astor/AstorMain-AutomatedCar//ingredientSpaceSize.json
+[INFO ] fr.inria.astor.core.stats.IngredientStats.toJSON(IngredientStats.java:254) - ingredientSpaceSize:{"allAttempts":16,"space":[{"a":17,"v":1},{"a":2,"v":1},{"a":1,"v":1},{"a":18,"v":7},{"a":3,"v":2},{"a":10,"v":4}]}
+[INFO ] fr.inria.astor.core.stats.IngredientStats.toJSON(IngredientStats.java:253) - Storing ing JSON at /astor/./output_astor/AstorMain-AutomatedCar//combinationsTemplatesingredientSpaceSize.json
+[INFO ] fr.inria.astor.core.stats.IngredientStats.toJSON(IngredientStats.java:254) - combinationsTemplatesingredientSpaceSize:{"allAttempts":62,"space":[{"a":17,"v":6},{"a":2,"v":14},{"a":400,"v":2},{"a":1,"v":24},{"a":1000,"v":4},{"a":0,"v":12}]}
+[INFO ] fr.inria.astor.core.solutionsearch.AstorCoreEngine.atEnd(AstorCoreEngine.java:190) - 
+ --SOLUTIONS DESCRIPTION--
+
+ ----
+ProgramVariant 30
+ 
+time(sec)= 54
+operation: ExpressionReplaceOperator
+location= hu.oe.nik.szfmv.visualization.Dashboard
+line= 59
+lineSuspiciousness= 1
+lineSuspiciousness= 7
+original statement= paintComponent(getGraphics())
+buggy kind= CtInvocationImpl|CtBlockImpl
+fixed statement= gasLabel.setText("break pedal")
+Patch kind= CtInvocationImpl|CtBlockImpl
+generation= 15
+ingredientScope= -
+ingredientParent= _JLabel_0.setText("break pedal")
+validation=|true|0|7|[]|
+diffpatch=--- src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java
++++ src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java
+@@ -55,7 +55,7 @@
+ 		breakProgressBar.setValue(inputPacket.getBreakPedalPosition());
+ 		speedAngle = calculateSpeedometer(0);
+ 		rpmAngle = calculateTachometer(0);
+-		paintComponent(getGraphics());
++		gasLabel.setText("break pedal");
+ 	}
+ 
+ 	private void initializeDashboard() {
+
+
+diffpatchoriginal=--- src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java
++++ src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java
+@@ -56,34 +56,34 @@
+ 		breakProgressBar.setValue(inputPacket.getBreakPedalPosition());
+ 		speedAngle = calculateSpeedometer(0);
+ 		rpmAngle = calculateTachometer(0);
+-		paintComponent(getGraphics());
+-	}
+ 
+ 
+ 
+ 
+-	private void initializeDashboard() {
+ 
+-		setLayout(null);
+-		setBackground(new java.awt.Color(backgroundColor));
+-		setBounds(dashboardBoundsX, dashboardBoundsY, width, height);
+ 
+-		initializeProgressBars();
+-	}
+ 
+ 
+ 
+ 
+-	private void initializeProgressBars() {
+-		progressBarsPanel.setBackground(new java.awt.Color(backgroundColor));
+-		progressBarsPanel.setBounds(
+-		progressBarsPanelX, 
+-		progressBarsPanelY, 
+-		progressBarsPanelWidth, 
+-		progressBarsPanelHeight);
+ 
+-		gasLabel.setText("gas pedal");
+-		breakLabel.setText("break pedal");
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++		gasLabel.setText("break pedal");} 	private void initializeDashboard() { 		setLayout(null); 		setBackground(new java.awt.Color(backgroundColor)); 		setBounds(dashboardBoundsX, dashboardBoundsY, width, height); 		initializeProgressBars();} 	private void initializeProgressBars() { 		progressBarsPanel.setBackground(new java.awt.Color(backgroundColor)); 		progressBarsPanel.setBounds(progressBarsPanelX, progressBarsPanelY, progressBarsPanelWidth, progressBarsPanelHeight); 		gasLabel.setText("gas pedal"); 		breakLabel.setText("break pedal");
+ 		gasProgressBar.setStringPainted(true);
+ 		breakProgressBar.setStringPainted(true);
+ 
+
+
+
+Astor Output:
+
+General stats:
+EXECUTION_IDENTIFIER=
+TOTAL_TIME=54.862
+NR_GENERATIONS=15
+NR_RIGHT_COMPILATIONS=15
+NR_FAILLING_COMPILATIONS=null
+NR_ERRONEOUS_VARIANCES=null
+NR_FAILING_VALIDATION_PROCESS=null
+OUTPUT_STATUS=STOP_BY_PATCH_FOUND
+
+Patch stats:
+
+Patch 1
+VARIANT_ID=30
+TIME=54
+VALIDATION=|true|0|7|[]|
+GENERATION=15
+FOLDER_SOLUTION_CODE=/astor/./output_astor/AstorMain-AutomatedCar//src//variant-30
+--Patch Hunk #1
+OPERATOR=ExpressionReplaceOperator
+
+LOCATION=hu.oe.nik.szfmv.visualization.Dashboard
+
+PATH=/apiarty/data/Bears-188/AutomatedCar/src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java
+
+MODIFIED_FILE_PATH=/astor/./output_astor/AstorMain-AutomatedCar//src//variant-30/hu/oe/nik/szfmv/visualization/Dashboard.java
+
+LINE=59
+
+SUSPICIOUNESS=1
+
+MP_RANKING=7
+
+ORIGINAL_CODE=paintComponent(getGraphics())
+
+BUGGY_CODE_TYPE=CtInvocationImpl|CtBlockImpl
+
+PATCH_HUNK_CODE=gasLabel.setText("break pedal")
+
+PATCH_HUNK_TYPE=CtInvocationImpl|CtBlockImpl
+
+INGREDIENT_SCOPE=-
+
+INGREDIENT_PARENT=_JLabel_0.setText("break pedal")
+
+PATCH_DIFF_ORIG=--- src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java
++++ src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java
+@@ -56,34 +56,34 @@
+ 		breakProgressBar.setValue(inputPacket.getBreakPedalPosition());
+ 		speedAngle = calculateSpeedometer(0);
+ 		rpmAngle = calculateTachometer(0);
+-		paintComponent(getGraphics());
+-	}
+ 
+ 
+ 
+ 
+-	private void initializeDashboard() {
+ 
+-		setLayout(null);
+-		setBackground(new java.awt.Color(backgroundColor));
+-		setBounds(dashboardBoundsX, dashboardBoundsY, width, height);
+ 
+-		initializeProgressBars();
+-	}
+ 
+ 
+ 
+ 
+-	private void initializeProgressBars() {
+-		progressBarsPanel.setBackground(new java.awt.Color(backgroundColor));
+-		progressBarsPanel.setBounds(
+-		progressBarsPanelX, 
+-		progressBarsPanelY, 
+-		progressBarsPanelWidth, 
+-		progressBarsPanelHeight);
+ 
+-		gasLabel.setText("gas pedal");
+-		breakLabel.setText("break pedal");
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++		gasLabel.setText("break pedal");} 	private void initializeDashboard() { 		setLayout(null); 		setBackground(new java.awt.Color(backgroundColor)); 		setBounds(dashboardBoundsX, dashboardBoundsY, width, height); 		initializeProgressBars();} 	private void initializeProgressBars() { 		progressBarsPanel.setBackground(new java.awt.Color(backgroundColor)); 		progressBarsPanel.setBounds(progressBarsPanelX, progressBarsPanelY, progressBarsPanelWidth, progressBarsPanelHeight); 		gasLabel.setText("gas pedal"); 		breakLabel.setText("break pedal");
+ 		gasProgressBar.setStringPainted(true);
+ 		breakProgressBar.setStringPainted(true);
+ 
+
+
+
+[INFO ] fr.inria.main.evolution.AstorMain.run(AstorMain.java:190) - Time Total(s): 67.248

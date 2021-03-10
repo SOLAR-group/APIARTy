@@ -1,0 +1,38 @@
+RMI Selector (Host: 127.0.0.1, Port: 10000): KO
+org.apache.logging.log4j.core.impl.ThrowableProxyTest#testLogStackTraceWithClassThatCannotInitialize
+<No Strat> Status: Ko
+org.apache.logging.log4j.core.impl.ThrowableProxyTest#testJsonIoContainer
+<No Strat> Status: Ok
+org.apache.logging.log4j.core.impl.ThrowableProxyTest#testSerialization
+<No Strat> Status: Ok
+org.apache.logging.log4j.core.impl.ThrowableProxyTest#testSerializationWithUnknownThrowable
+<No Strat> Status: Ok
+org.apache.logging.log4j.core.impl.ThrowableProxyTest#testStack
+<No Strat> Status: Ok
+org.apache.logging.log4j.core.impl.ThrowableProxyTest#testStackWithUnloadableClass
+<No Strat> Status: Ko
+Multirun 6/100 6%
+org.apache.logging.log4j.core.impl.ThrowableProxyTest#testLogStackTraceWithClassThatCannotInitialize
+<No Strat> Status: Ko
+org.apache.logging.log4j.core.impl.ThrowableProxyTest#testStackWithUnloadableClass
+<No Strat> Status: Ko
+org.apache.logging.log4j.core.impl.ThrowableProxyTest#testLogStackTraceWithClassThatCannotInitialize
+<No Strat> Status: Ko
+org.apache.logging.log4j.core.impl.ThrowableProxyTest#testStackWithUnloadableClass
+<No Strat> Status: Ko
+org.apache.logging.log4j.core.impl.ThrowableProxyTest#testLogStackTraceWithClassThatCannotInitialize
+<No Strat> Status: Ko
+org.apache.logging.log4j.core.impl.ThrowableProxyTest#testStackWithUnloadableClass
+<No Strat> Status: Ko
+org.apache.logging.log4j.core.impl.ThrowableProxyTest#testLogStackTraceWithClassThatCannotInitialize
+<No Strat> Status: Ko
+org.apache.logging.log4j.core.impl.ThrowableProxyTest#testStackWithUnloadableClass
+<No Strat> Status: Ko
+org.apache.logging.log4j.core.impl.ThrowableProxyTest#testLogStackTraceWithClassThatCannotInitialize
+<No Strat> Status: Ko
+org.apache.logging.log4j.core.impl.ThrowableProxyTest#testStackWithUnloadableClass
+<No Strat> Status: Ko
+org.apache.logging.log4j.core.impl.ThrowableProxyTest#testLogStackTraceWithClassThatCannotInitialize
+<No Strat> Status: Ko
+org.apache.logging.log4j.core.impl.ThrowableProxyTest#testStackWithUnloadableClass
+<No Strat> Status: Ko

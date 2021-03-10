@@ -1,0 +1,38 @@
+2020-05-04 15:26:02,408 INFO fr.inria.astor.core.setup.ProjectConfiguration - Version of the JVM used: 1.8.0_242
+2020-05-04 15:26:02,418 INFO main - Java version of the JDK used to run tests: 1.8.0_242
+2020-05-04 15:26:02,419 INFO main - The compliance of the JVM is:  8
+2020-05-04 15:26:02,434 INFO main - command line arguments: [-mode  Cardumen  -location  /apiarty/data/jfreechart-7a/jfreechart/  -jvm4testexecution  /usr/lib/jvm/java-8-openjdk-amd64/bin/  -failing  org.jfree.chart.plot.junit.CategoryPlotTests:org.jfree.chart.plot.junit.XYPlotTests  -srcjavafolder  /source/  -srctestfolder  /tests/  -binjavafolder  /build  -bintestfolder  /build-tests  -maxtime  120  -stopfirst  true  -maxgen  1000000  -seed  0  -scope  local  -population  1  -dependencies  ./lib/itext-2.0.6.jar:./lib/junit.jar:./lib/servlet.jar:/astor/lib/gzoltar/com.gzoltar-0.0.3.jar:/root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.1.1.jar:/root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.0.1.pom]
+2020-05-04 15:26:02,437 INFO fr.inria.main.evolution.AstorMain - Running Astor on a JDK at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[INFO ] fr.inria.main.AbstractMain.determineSourceFolders(AbstractMain.java:982) - Source folders: [/apiarty/data/jfreechart-7a/jfreechart/source]
+[INFO ] fr.inria.main.AbstractMain.determineSourceFolders(AbstractMain.java:1001) - Source Test folders: [/apiarty/data/jfreechart-7a/jfreechart/tests]
+[INFO ] fr.inria.astor.core.solutionsearch.AstorCoreEngine.calculateSuspicious(AstorCoreEngine.java:901) - Test retrieved from classes: 348
+[INFO ] fr.inria.astor.core.faultlocalization.gzoltar.GZoltarFaultLocalization.calculateSuspicious(GZoltarFaultLocalization.java:68) - -Executing Gzoltar classpath: /astor/./output_astor/AstorMain-jfreechart//bin//default from 348 classes with test cases
+[INFO ] fr.inria.astor.core.faultlocalization.gzoltar.GZoltarFaultLocalization.searchSuspicious(GZoltarFaultLocalization.java:148) - Gzoltar fault localization: min susp value parameter: 0.1
+[INFO ] fr.inria.astor.core.faultlocalization.gzoltar.GZoltarFaultLocalization.searchSuspicious(GZoltarFaultLocalization.java:168) - -gz-Adding classpath: [/astor/./output_astor/AstorMain-jfreechart//bin//default, /astor/lib/gzoltar/com.gzoltar-0.0.3.jar, /root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.1.1.jar]
+[INFO ] fr.inria.astor.core.faultlocalization.gzoltar.GZoltarFaultLocalization.searchSuspicious(GZoltarFaultLocalization.java:208) - Test failt: org.jfree.chart.plot.junit.XYPlotTests#testRemoveRangeMarker
+[INFO ] fr.inria.astor.core.faultlocalization.gzoltar.GZoltarFaultLocalization.searchSuspicious(GZoltarFaultLocalization.java:208) - Test failt: org.jfree.chart.plot.junit.XYPlotTests#testRemoveDomainMarker
+[INFO ] fr.inria.astor.core.faultlocalization.gzoltar.GZoltarFaultLocalization.searchSuspicious(GZoltarFaultLocalization.java:208) - Test failt: org.jfree.chart.plot.junit.CategoryPlotTests#testRemoveRangeMarker
+[INFO ] fr.inria.astor.core.faultlocalization.gzoltar.GZoltarFaultLocalization.searchSuspicious(GZoltarFaultLocalization.java:208) - Test failt: org.jfree.chart.plot.junit.CategoryPlotTests#testRemoveDomainMarker
+[INFO ] fr.inria.astor.core.faultlocalization.gzoltar.GZoltarFaultLocalization.searchSuspicious(GZoltarFaultLocalization.java:208) - Test failt: org.jfree.chart.plot.junit.CategoryPlotTests#testRemoveRangeMarker
+[INFO ] fr.inria.astor.core.faultlocalization.gzoltar.GZoltarFaultLocalization.searchSuspicious(GZoltarFaultLocalization.java:208) - Test failt: org.jfree.chart.plot.junit.CategoryPlotTests#testRemoveDomainMarker
+[INFO ] fr.inria.astor.core.faultlocalization.gzoltar.GZoltarFaultLocalization.searchSuspicious(GZoltarFaultLocalization.java:208) - Test failt: org.jfree.chart.plot.junit.XYPlotTests#testRemoveRangeMarker
+[INFO ] fr.inria.astor.core.faultlocalization.gzoltar.GZoltarFaultLocalization.searchSuspicious(GZoltarFaultLocalization.java:208) - Test failt: org.jfree.chart.plot.junit.XYPlotTests#testRemoveDomainMarker
+[INFO ] fr.inria.astor.core.faultlocalization.gzoltar.GZoltarFaultLocalization.searchSuspicious(GZoltarFaultLocalization.java:220) - Gzoltar Test Result Total:3589, fails: 8, GZoltar suspicious 21942, with positive susp 142
+[INFO ] fr.inria.astor.core.faultlocalization.gzoltar.GZoltarFaultLocalization.searchSuspicious(GZoltarFaultLocalization.java:228) - nr test results 3589
+[INFO ] fr.inria.astor.core.faultlocalization.gzoltar.GZoltarFaultLocalization.searchSuspicious(GZoltarFaultLocalization.java:283) - Gzoltar found: 75 with susp > 0.1, we consider: 75
+[INFO ] fr.inria.astor.core.solutionsearch.AstorCoreEngine.calculateSuspicious(AstorCoreEngine.java:915) - Setting up the max to 324310 milliseconds (324 sec)
+[INFO ] fr.inria.astor.core.solutionsearch.AstorCoreEngine.initPopulation(AstorCoreEngine.java:710) - 
+---- Creating spoon model
+[INFO ] fr.inria.astor.core.manipulation.MutationSupporter.buildSpoonModel(MutationSupporter.java:236) - Creating model,  Code location from working folder: /apiarty/data/jfreechart-7a/jfreechart/source
+[INFO ] fr.inria.astor.core.manipulation.MutationSupporter.buildModel(MutationSupporter.java:67) - building model: /apiarty/data/jfreechart-7a/jfreechart/source, compliance level: 8
+[INFO ] fr.inria.astor.core.manipulation.MutationSupporter.buildModel(MutationSupporter.java:81) - Classpath (Dependencies) for building SpoonModel: [/astor/lib/gzoltar/com.gzoltar-0.0.3.jar, /root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.1.1.jar]
+[ERROR] fr.inria.astor.core.manipulation.MutationSupporter.buildSpoonModel(MutationSupporter.java:243) - Problem compiling the model with compliance level 8
+[ERROR] fr.inria.astor.core.manipulation.MutationSupporter.buildSpoonModel(MutationSupporter.java:245) - HttpSessionBindingListener cannot be resolved to a type at /apiarty/data/jfreechart-7a/jfreechart/source/org/jfree/chart/servlet/ChartDeleter.java:57
+[INFO ] fr.inria.astor.core.manipulation.MutationSupporter.buildSpoonModel(MutationSupporter.java:249) - Recompiling with compliance level 8
+[INFO ] fr.inria.astor.core.manipulation.MutationSupporter.buildModel(MutationSupporter.java:67) - building model: /apiarty/data/jfreechart-7a/jfreechart/source, compliance level: 8
+[INFO ] fr.inria.astor.core.manipulation.MutationSupporter.buildModel(MutationSupporter.java:81) - Classpath (Dependencies) for building SpoonModel: [/astor/lib/gzoltar/com.gzoltar-0.0.3.jar, /root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.1.1.jar]
+[ERROR] fr.inria.astor.core.manipulation.MutationSupporter.buildSpoonModel(MutationSupporter.java:257) - Error compiling: HttpSessionBindingListener cannot be resolved to a type at /apiarty/data/jfreechart-7a/jfreechart/source/org/jfree/chart/servlet/ChartDeleter.java:57
+[ERROR] fr.inria.astor.core.manipulation.MutationSupporter.buildSpoonModel(MutationSupporter.java:263) - Astor continues when model build fails. Classes created: 580
+[INFO ] fr.inria.astor.core.solutionsearch.AstorCoreEngine.initModel(AstorCoreEngine.java:780) - Number of CtTypes created: 580
+[INFO ] fr.inria.astor.core.solutionsearch.AstorCoreEngine.initPopulation(AstorCoreEngine.java:714) - 
+---- Initial suspicious size: 75

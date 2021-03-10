@@ -1,0 +1,565 @@
+RMI Selector (Host: 127.0.0.1, Port: 10000): KO
+org.apache.camel.converter.jaxp.XmlConverterTest#testToBytesSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStringFromSourceNoSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStringWithBytesSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSourceUsingTypeConverter
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToByteArrayWithExchange
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToByteArrayWithNoExchange
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceByByteArray
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceBySaxSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceByStAXSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceByCustomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceByInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStAXSourceByInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStAXSourceFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceBySaxSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceByCustomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByStreamSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceBySaxSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByStAXSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByCustomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByReader
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByByteArray
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByByteBuffer
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToReaderFromSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceFromInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomElement
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomElementFromDocumentNode
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomElementFromElementNode
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDocumentFromBytes
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDocumentFromInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputStreamFromDocument
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputStreamNonAsciiFromDocument
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDocumentFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputStreamByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputStreamNonAsciiByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputSourceFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testOutOptionsFromCamelContext
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testNodeListToNode
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToResultNoSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToBytesSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStringFromSourceNoSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStringWithBytesSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSourceUsingTypeConverter
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToByteArrayWithExchange
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToByteArrayWithNoExchange
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceByByteArray
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceBySaxSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceByStAXSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceByCustomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceByInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStAXSourceByInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStAXSourceFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceBySaxSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceByCustomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByStreamSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceBySaxSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByStAXSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByCustomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByReader
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByByteArray
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByByteBuffer
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToReaderFromSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceFromInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomElement
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomElementFromDocumentNode
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomElementFromElementNode
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDocumentFromBytes
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDocumentFromInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputStreamFromDocument
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputStreamNonAsciiFromDocument
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDocumentFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputStreamByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputStreamNonAsciiByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputSourceFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testOutOptionsFromCamelContext
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testNodeListToNode
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToResultNoSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToBytesSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStringFromSourceNoSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStringWithBytesSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSourceUsingTypeConverter
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToByteArrayWithExchange
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToByteArrayWithNoExchange
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceByByteArray
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceBySaxSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceByStAXSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceByCustomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceByInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStAXSourceByInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStAXSourceFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceBySaxSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceByCustomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByStreamSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceBySaxSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByStAXSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByCustomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByReader
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByByteArray
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByByteBuffer
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToReaderFromSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceFromInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomElement
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomElementFromDocumentNode
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomElementFromElementNode
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDocumentFromBytes
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDocumentFromInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputStreamFromDocument
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputStreamNonAsciiFromDocument
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDocumentFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputStreamByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputStreamNonAsciiByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputSourceFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testOutOptionsFromCamelContext
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testNodeListToNode
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToResultNoSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToBytesSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStringFromSourceNoSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStringWithBytesSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSourceUsingTypeConverter
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToByteArrayWithExchange
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToByteArrayWithNoExchange
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceByByteArray
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceBySaxSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceByStAXSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceByCustomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceByInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStAXSourceByInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStAXSourceFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceBySaxSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceByCustomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByStreamSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceBySaxSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByStAXSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByCustomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByReader
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByByteArray
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByByteBuffer
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToReaderFromSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceFromInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomElement
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomElementFromDocumentNode
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomElementFromElementNode
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDocumentFromBytes
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDocumentFromInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputStreamFromDocument
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputStreamNonAsciiFromDocument
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDocumentFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputStreamByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputStreamNonAsciiByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputSourceFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testOutOptionsFromCamelContext
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testNodeListToNode
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToResultNoSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToBytesSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStringFromSourceNoSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStringWithBytesSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSourceUsingTypeConverter
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToByteArrayWithExchange
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToByteArrayWithNoExchange
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceByByteArray
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceBySaxSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceByStAXSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceByCustomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceByInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStAXSourceByInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStAXSourceFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceBySaxSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceByCustomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByStreamSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceBySaxSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByStAXSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByCustomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByReader
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByByteArray
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByByteBuffer
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToReaderFromSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceFromInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomElement
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomElementFromDocumentNode
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomElementFromElementNode
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDocumentFromBytes
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDocumentFromInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputStreamFromDocument
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputStreamNonAsciiFromDocument
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDocumentFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputStreamByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputStreamNonAsciiByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputSourceFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testOutOptionsFromCamelContext
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testNodeListToNode
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToResultNoSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToBytesSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStringFromSourceNoSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStringWithBytesSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSourceUsingTypeConverter
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToByteArrayWithExchange
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToByteArrayWithNoExchange
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceByByteArray
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceBySaxSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceByStAXSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceByCustomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceByInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStAXSourceByInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStAXSourceFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceBySaxSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSaxSourceByCustomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByStreamSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceBySaxSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByStAXSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByCustomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByReader
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByByteArray
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToStreamSourceByByteBuffer
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToReaderFromSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceFromInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomSourceFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomElement
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomElementFromDocumentNode
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDomElementFromElementNode
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDocumentFromBytes
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDocumentFromInputStream
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputStreamFromDocument
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputStreamNonAsciiFromDocument
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToDocumentFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputStreamByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputStreamNonAsciiByDomSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToInputSourceFromFile
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testOutOptionsFromCamelContext
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testNodeListToNode
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToResultNoSource
+<No Strat> Status: Ko
+org.apache.camel.converter.jaxp.XmlConverterTest#testToSource
+<No Strat> Status: Ko

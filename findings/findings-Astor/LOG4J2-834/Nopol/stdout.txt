@@ -1,0 +1,1841 @@
+11:07:51.772 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/apiarty/data/LOG4J2-834/logging-log4j2/log4j-core/src/main/java, /apiarty/data/LOG4J2-834/logging-log4j2/log4j-core/src/test/java]
+11:07:51.802 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/apiarty/data/LOG4J2-834/logging-log4j2/log4j-core/target/classes/, file:/apiarty/data/LOG4J2-834/logging-log4j2/log4j-core/target/test-classes/, file:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.2-SNAPSHOT/log4j-api-2.2-SNAPSHOT.jar, file:/root/.m2/repository/org/osgi/org.osgi.core/4.3.1/org.osgi.core-4.3.1.jar, file:/root/.m2/repository/com/lmax/disruptor/3.3.0/disruptor-3.3.0.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.4.3/jackson-core-2.4.3.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.4.3/jackson-databind-2.4.3.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.4.0/jackson-annotations-2.4.0.jar, file:/root/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.4.3/jackson-dataformat-yaml-2.4.3.jar, file:/root/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.4.3/jackson-dataformat-xml-2.4.3.jar, file:/root/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.4.3/jackson-module-jaxb-annotations-2.4.3.jar, file:/root/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar, file:/root/.m2/repository/org/codehaus/woodstox/woodstox-core-asl/4.3.0/woodstox-core-asl-4.3.0.jar, file:/root/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar, file:/root/.m2/repository/org/fusesource/jansi/jansi/1.11/jansi-1.11.jar, file:/root/.m2/repository/com/sun/mail/javax.mail/1.5.2/javax.mail-1.5.2.jar, file:/root/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar, file:/root/.m2/repository/org/eclipse/persistence/javax.persistence/2.1.0/javax.persistence-2.1.0.jar, file:/root/.m2/repository/org/jboss/spec/javax/jms/jboss-jms-api_1.1_spec/1.0.1.Final/jboss-jms-api_1.1_spec-1.0.1.Final.jar, file:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.2-SNAPSHOT/log4j-api-2.2-SNAPSHOT-tests.jar, file:/root/.m2/repository/javax/jmdns/jmdns/3.4.1/jmdns-3.4.1.jar, file:/root/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar, file:/root/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar, file:/root/.m2/repository/org/slf4j/slf4j-ext/1.7.7/slf4j-ext-1.7.7.jar, file:/root/.m2/repository/ch/qos/cal10n/cal10n-api/0.8.1/cal10n-api-0.8.1.jar, file:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar, file:/root/.m2/repository/org/easymock/easymock/3.2/easymock-3.2.jar, file:/root/.m2/repository/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar, file:/root/.m2/repository/org/objenesis/objenesis/1.3/objenesis-1.3.jar, file:/root/.m2/repository/org/hsqldb/hsqldb/2.3.2/hsqldb-2.3.2.jar, file:/root/.m2/repository/com/h2database/h2/1.3.175/h2-1.3.175.jar, file:/root/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa/2.5.2/org.eclipse.persistence.jpa-2.5.2.jar, file:/root/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.asm/2.5.2/org.eclipse.persistence.asm-2.5.2.jar, file:/root/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.antlr/2.5.2/org.eclipse.persistence.antlr-2.5.2.jar, file:/root/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa.jpql/2.5.2/org.eclipse.persistence.jpa.jpql-2.5.2.jar, file:/root/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.core/2.5.2/org.eclipse.persistence.core-2.5.2.jar, file:/root/.m2/repository/org/mockejb/mockejb/0.6-beta2/mockejb-0.6-beta2.jar, file:/root/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar, file:/root/.m2/repository/cglib/cglib-full/2.0.2/cglib-full-2.0.2.jar, file:/root/.m2/repository/org/apache/activemq/activemq-broker/5.10.0/activemq-broker-5.10.0.jar, file:/root/.m2/repository/org/apache/activemq/activemq-client/5.10.0/activemq-client-5.10.0.jar, file:/root/.m2/repository/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar, file:/root/.m2/repository/org/fusesource/hawtbuf/hawtbuf/1.10/hawtbuf-1.10.jar, file:/root/.m2/repository/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1.jar, file:/root/.m2/repository/org/apache/activemq/activemq-openwire-legacy/5.10.0/activemq-openwire-legacy-5.10.0.jar, file:/root/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar, file:/root/.m2/repository/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.jar, file:/root/.m2/repository/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar, file:/root/.m2/repository/org/eclipse/osgi/org.eclipse.osgi/3.7.1/org.eclipse.osgi-3.7.1.jar, file:/root/.m2/repository/org/apache/felix/org.apache.felix.framework/4.4.1/org.apache.felix.framework-4.4.1.jar, file:/root/.m2/repository/net/javacrumbs/json-unit/json-unit/1.1.6/json-unit-1.1.6.jar, file:/root/.m2/repository/net/javacrumbs/json-unit/json-unit-core/1.1.6/json-unit-core-1.1.6.jar, file:/root/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar, file:/root/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar, file:/root/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar]
+11:07:51.804 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+11:07:51.807 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.apache.logging.log4j.core.impl.ThrowableProxyTest]
+11:07:51.825 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/LOG4J2-834/logging-log4j2/log4j-core/src/main/java, /apiarty/data/LOG4J2-834/logging-log4j2/log4j-core/src/test/java], projectClasspath='[Ljava.net.URL;@4ec6a292', projectTests=[org.apache.logging.log4j.core.impl.ThrowableProxyTest], complianceLevel=8, outputFolder=., json=false}
+11:07:51.828 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 2
+11:07:51.874 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 50 MB
+11:07:51.876 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+11:07:51.878 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 59 MB
+11:07:51.879 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_242
+11:07:51.891 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+11:07:51.892 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+11:09:03.041 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #1
+11:09:03.043 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.LoaderUtil:117 which is executed by 2 tests
+11:09:03.044 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.LoaderUtil:117
+11:09:03.046 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #2
+11:09:03.047 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.util.LoaderUtil:116 which is executed by 2 tests
+11:09:03.048 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - cannot spoon SourceLocation org.apache.logging.log4j.util.LoaderUtil:116
+11:09:03.048 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #3
+11:09:03.049 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.ThrowableProxy:452 which is executed by 3 tests
+-2136861393
+11:09:13.639 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+07:09:15.362 [pool-3-thread-1] ERROR org.apache.logging.log4j.core.impl.ThrowableProxyTest - I always throw an Error when initialized
+java.lang.Error: I always throw an Error when initialized
+	at org.apache.logging.log4j.core.impl.ThrowableProxyTest$AlwaysThrowsError.<clinit>(ThrowableProxyTest.java:51) ~[test-classes/:?]
+	at org.apache.logging.log4j.core.impl.ThrowableProxyTest.testLogStackTraceWithClassThatCannotInitialize(ThrowableProxyTest.java:96) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_242]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_242]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_242]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_242]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.Suite.runChild(Suite.java:127) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.Suite.runChild(Suite.java:26) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at xxl.java.junit.JUnitRunner.call(JUnitRunner.java:31) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at xxl.java.junit.JUnitRunner.call(JUnitRunner.java:17) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+07:09:15.370 [pool-3-thread-1] ERROR org.apache.logging.log4j.core.impl.ThrowableProxyTest - java.lang.Error: I always throw an Error when initialized
+11:09:29.245 [pool-2-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+error: error reading /root/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar; error in opening zip file
+error: error reading /root/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar; error in opening zip file
+ThrowableProxy.java:336: error: variable clazz might not have been initialized
+        return clazz;
+               ^
+Note: ThrowableProxy.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+11:09:29.343 [pool-2-thread-1] ERROR f.i.l.r.n.s.ConstraintModelBuilder - Unable to compile the change: 
+public class ThrowableProxy implements java.io.Serializable {
+    static class CacheEntry {
+        private final org.apache.logging.log4j.core.impl.ExtendedClassInfo element;
+
+        private final java.lang.ClassLoader loader;
+
+        public CacheEntry(final org.apache.logging.log4j.core.impl.ExtendedClassInfo element, final java.lang.ClassLoader loader) {
+            this.element = element;
+            this.loader = loader;
+        }
+    }
+
+    private static final org.apache.logging.log4j.core.impl.ThrowableProxy[] EMPTY_THROWABLE_PROXY_ARRAY = new org.apache.logging.log4j.core.impl.ThrowableProxy[0];
+
+    private static final char EOL = '\n';
+
+    private static final long serialVersionUID = -2752771578252251910L;
+
+    private final org.apache.logging.log4j.core.impl.ThrowableProxy causeProxy;
+
+    private int commonElementCount;
+
+    private final org.apache.logging.log4j.core.impl.ExtendedStackTraceElement[] extendedStackTrace;
+
+    private final java.lang.String localizedMessage;
+
+    private final java.lang.String message;
+
+    private final java.lang.String name;
+
+    private final org.apache.logging.log4j.core.impl.ThrowableProxy[] suppressedProxies;
+
+    private final transient java.lang.Throwable throwable;
+
+    @java.lang.SuppressWarnings("unused")
+    private ThrowableProxy() {
+        this.throwable = null;
+        this.name = null;
+        this.extendedStackTrace = null;
+        this.causeProxy = null;
+        this.message = null;
+        this.localizedMessage = null;
+        this.suppressedProxies = org.apache.logging.log4j.core.impl.ThrowableProxy.EMPTY_THROWABLE_PROXY_ARRAY;
+    }
+
+    public ThrowableProxy(final java.lang.Throwable throwable) {
+        this.throwable = throwable;
+        this.name = throwable.getClass().getName();
+        this.message = throwable.getMessage();
+        this.localizedMessage = throwable.getLocalizedMessage();
+        final java.util.Map<java.lang.String, org.apache.logging.log4j.core.impl.ThrowableProxy.CacheEntry> map = new java.util.HashMap<java.lang.String, org.apache.logging.log4j.core.impl.ThrowableProxy.CacheEntry>();
+        final java.util.Stack<java.lang.Class<?>> stack = org.apache.logging.log4j.util.ReflectionUtil.getCurrentStackTrace();
+        this.extendedStackTrace = this.toExtendedStackTrace(stack, map, null, throwable.getStackTrace());
+        final java.lang.Throwable throwableCause = throwable.getCause();
+        this.causeProxy = (throwableCause == null) ? null : new org.apache.logging.log4j.core.impl.ThrowableProxy(throwable, stack, map, throwableCause);
+        this.suppressedProxies = this.toSuppressedProxies(throwable);
+    }
+
+    private ThrowableProxy(final java.lang.Throwable parent, final java.util.Stack<java.lang.Class<?>> stack, final java.util.Map<java.lang.String, org.apache.logging.log4j.core.impl.ThrowableProxy.CacheEntry> map, final java.lang.Throwable cause) {
+        this.throwable = cause;
+        this.name = cause.getClass().getName();
+        this.message = this.throwable.getMessage();
+        this.localizedMessage = this.throwable.getLocalizedMessage();
+        this.extendedStackTrace = this.toExtendedStackTrace(stack, map, parent.getStackTrace(), cause.getStackTrace());
+        this.causeProxy = (cause.getCause() == null) ? null : new org.apache.logging.log4j.core.impl.ThrowableProxy(parent, stack, map, cause.getCause());
+        this.suppressedProxies = this.toSuppressedProxies(cause);
+    }
+
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (this.getClass() != obj.getClass()) {
+            return false;
+        }
+        final org.apache.logging.log4j.core.impl.ThrowableProxy other = ((org.apache.logging.log4j.core.impl.ThrowableProxy) (obj));
+        if (this.causeProxy == null) {
+            if (other.causeProxy != null) {
+                return false;
+            }
+        } else
+            if (!this.causeProxy.equals(other.causeProxy)) {
+                return false;
+            }
+
+        if (this.commonElementCount != other.commonElementCount) {
+            return false;
+        }
+        if (this.name == null) {
+            if (other.name != null) {
+                return false;
+            }
+        } else
+            if (!this.name.equals(other.name)) {
+                return false;
+            }
+
+        if (!java.util.Arrays.equals(this.extendedStackTrace, other.extendedStackTrace)) {
+            return false;
+        }
+        if (!java.util.Arrays.equals(this.suppressedProxies, other.suppressedProxies)) {
+            return false;
+        }
+        return true;
+    }
+
+    @java.lang.SuppressWarnings("ThrowableResultOfMethodCallIgnored")
+    private void formatCause(final java.lang.StringBuilder sb, final org.apache.logging.log4j.core.impl.ThrowableProxy cause, final java.util.List<java.lang.String> ignorePackages) {
+        sb.append("Caused by: ").append(cause).append(org.apache.logging.log4j.core.impl.ThrowableProxy.EOL);
+        this.formatElements(sb, cause.commonElementCount, cause.getThrowable().getStackTrace(), cause.extendedStackTrace, ignorePackages);
+        if (cause.getCauseProxy() != null) {
+            this.formatCause(sb, cause.causeProxy, ignorePackages);
+        }
+    }
+
+    private void formatElements(final java.lang.StringBuilder sb, final int commonCount, final java.lang.StackTraceElement[] causedTrace, final org.apache.logging.log4j.core.impl.ExtendedStackTraceElement[] extStackTrace, final java.util.List<java.lang.String> ignorePackages) {
+        if ((ignorePackages == null) || ignorePackages.isEmpty()) {
+            for (final org.apache.logging.log4j.core.impl.ExtendedStackTraceElement element : extStackTrace) {
+                this.formatEntry(element, sb);
+            }
+        } else {
+            int count = 0;
+            for (int i = 0; i < extStackTrace.length; ++i) {
+                if (!this.ignoreElement(causedTrace[i], ignorePackages)) {
+                    if (count > 0) {
+                        if (count == 1) {
+                            sb.append("\t....\n");
+                        } else {
+                            sb.append("\t... suppressed ").append(count).append(" lines\n");
+                        }
+                        count = 0;
+                    }
+                    this.formatEntry(extStackTrace[i], sb);
+                } else {
+                    ++count;
+                }
+            }
+            if (count > 0) {
+                if (count == 1) {
+                    sb.append("\t...\n");
+                } else {
+                    sb.append("\t... suppressed ").append(count).append(" lines\n");
+                }
+            }
+        }
+        if (commonCount != 0) {
+            sb.append("\t... ").append(commonCount).append(" more").append('\n');
+        }
+    }
+
+    private void formatEntry(final org.apache.logging.log4j.core.impl.ExtendedStackTraceElement extStackTraceElement, final java.lang.StringBuilder sb) {
+        sb.append("\tat ");
+        sb.append(extStackTraceElement);
+        sb.append('\n');
+    }
+
+    public void formatWrapper(final java.lang.StringBuilder sb, final org.apache.logging.log4j.core.impl.ThrowableProxy cause) {
+        this.formatWrapper(sb, cause, null);
+    }
+
+    @java.lang.SuppressWarnings("ThrowableResultOfMethodCallIgnored")
+    public void formatWrapper(final java.lang.StringBuilder sb, final org.apache.logging.log4j.core.impl.ThrowableProxy cause, final java.util.List<java.lang.String> packages) {
+        final java.lang.Throwable caused = (cause.getCauseProxy() != null) ? cause.getCauseProxy().getThrowable() : null;
+        if (caused != null) {
+            this.formatWrapper(sb, cause.causeProxy);
+            sb.append("Wrapped by: ");
+        }
+        sb.append(cause).append('\n');
+        this.formatElements(sb, cause.commonElementCount, cause.getThrowable().getStackTrace(), cause.extendedStackTrace, packages);
+    }
+
+    public org.apache.logging.log4j.core.impl.ThrowableProxy getCauseProxy() {
+        return this.causeProxy;
+    }
+
+    public java.lang.String getCauseStackTraceAsString() {
+        return this.getCauseStackTraceAsString(null);
+    }
+
+    public java.lang.String getCauseStackTraceAsString(final java.util.List<java.lang.String> packages) {
+        final java.lang.StringBuilder sb = new java.lang.StringBuilder();
+        if (this.causeProxy != null) {
+            this.formatWrapper(sb, this.causeProxy);
+            sb.append("Wrapped by: ");
+        }
+        sb.append(this.toString());
+        sb.append('\n');
+        this.formatElements(sb, 0, this.throwable.getStackTrace(), this.extendedStackTrace, packages);
+        return sb.toString();
+    }
+
+    public int getCommonElementCount() {
+        return this.commonElementCount;
+    }
+
+    public org.apache.logging.log4j.core.impl.ExtendedStackTraceElement[] getExtendedStackTrace() {
+        return this.extendedStackTrace;
+    }
+
+    public java.lang.String getExtendedStackTraceAsString() {
+        return this.getExtendedStackTraceAsString(null);
+    }
+
+    public java.lang.String getExtendedStackTraceAsString(final java.util.List<java.lang.String> ignorePackages) {
+        final java.lang.StringBuilder sb = new java.lang.StringBuilder(this.name);
+        final java.lang.String msg = this.message;
+        if (msg != null) {
+            sb.append(": ").append(msg);
+        }
+        sb.append('\n');
+        this.formatElements(sb, 0, this.throwable.getStackTrace(), this.extendedStackTrace, ignorePackages);
+        if (this.causeProxy != null) {
+            this.formatCause(sb, this.causeProxy, ignorePackages);
+        }
+        return sb.toString();
+    }
+
+    public java.lang.String getLocalizedMessage() {
+        return this.localizedMessage;
+    }
+
+    public java.lang.String getMessage() {
+        return this.message;
+    }
+
+    public java.lang.String getName() {
+        return this.name;
+    }
+
+    public java.lang.StackTraceElement[] getStackTrace() {
+        return this.throwable == null ? null : this.throwable.getStackTrace();
+    }
+
+    public org.apache.logging.log4j.core.impl.ThrowableProxy[] getSuppressedProxies() {
+        return this.suppressedProxies;
+    }
+
+    public java.lang.String getSuppressedStackTrace() {
+        final org.apache.logging.log4j.core.impl.ThrowableProxy[] suppressed = this.getSuppressedProxies();
+        if ((suppressed == null) || (suppressed.length == 0)) {
+            return org.apache.logging.log4j.util.Strings.EMPTY;
+        }
+        final java.lang.StringBuilder sb = new java.lang.StringBuilder("Suppressed Stack Trace Elements:\n");
+        for (final org.apache.logging.log4j.core.impl.ThrowableProxy proxy : suppressed) {
+            sb.append(proxy.getExtendedStackTraceAsString());
+        }
+        return sb.toString();
+    }
+
+    public java.lang.Throwable getThrowable() {
+        return this.throwable;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = (prime * result) + (this.causeProxy == null ? 0 : this.causeProxy.hashCode());
+        result = (prime * result) + this.commonElementCount;
+        result = (prime * result) + (this.extendedStackTrace == null ? 0 : java.util.Arrays.hashCode(this.extendedStackTrace));
+        result = (prime * result) + (this.suppressedProxies == null ? 0 : java.util.Arrays.hashCode(this.suppressedProxies));
+        result = (prime * result) + (this.name == null ? 0 : this.name.hashCode());
+        return result;
+    }
+
+    private boolean ignoreElement(final java.lang.StackTraceElement element, final java.util.List<java.lang.String> ignorePackages) {
+        final java.lang.String className = element.getClassName();
+        for (final java.lang.String pkg : ignorePackages) {
+            if (className.startsWith(pkg)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private java.lang.Class<?> loadClass(final java.lang.ClassLoader lastLoader, final java.lang.String className) {
+        java.lang.Class<?> clazz;
+        if (lastLoader != null) {
+            try {
+                clazz = org.apache.logging.log4j.core.util.Loader.initializeClass(className, lastLoader);
+                if (clazz != null) {
+                    return clazz;
+                }
+            } catch (final java.lang.Throwable ignore) {
+            }
+        }
+        try {
+            boolean spoonDefaultValue = false;
+            try {
+                spoonDefaultValue = true;
+            } catch (java.lang.Exception __NopolProcessorException) {
+            }
+            boolean runtimeAngelicValue = fr.inria.lille.repair.nopol.synth.AngelicExecution.angelicValue(spoonDefaultValue);
+            if (fr.inria.lille.commons.trace.RuntimeValues.instance(0).isEnabled()) {
+                fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectionStarts();
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.EMPTY_THROWABLE_PROXY_ARRAY",org.apache.logging.log4j.core.impl.ThrowableProxy.EMPTY_THROWABLE_PROXY_ARRAY);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("lastLoader",lastLoader);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.name",org.apache.logging.log4j.core.impl.ThrowableProxy.this.name);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.commonElementCount",org.apache.logging.log4j.core.impl.ThrowableProxy.this.commonElementCount);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy",org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.EOL",org.apache.logging.log4j.core.impl.ThrowableProxy.EOL);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.suppressedProxies",org.apache.logging.log4j.core.impl.ThrowableProxy.this.suppressedProxies);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.extendedStackTrace",org.apache.logging.log4j.core.impl.ThrowableProxy.this.extendedStackTrace);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.localizedMessage",org.apache.logging.log4j.core.impl.ThrowableProxy.this.localizedMessage);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.throwable",org.apache.logging.log4j.core.impl.ThrowableProxy.this.throwable);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("className",className);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.message",org.apache.logging.log4j.core.impl.ThrowableProxy.this.message);} catch (Exception ex1) {ex1.printStackTrace();};
+                if (org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy!=null) {
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getSuppressedProxies()",org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getSuppressedProxies());} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getName()",org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getName());} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getLocalizedMessage()",org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getLocalizedMessage());} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getCommonElementCount()",org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getCommonElementCount());} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getMessage()",org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getMessage());} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getCauseProxy()",org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getCauseProxy());} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getThrowable()",org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getThrowable());} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getExtendedStackTrace()",org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getExtendedStackTrace());} catch (Exception ex1) {ex1.printStackTrace();};
+                }
+                fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectOutput(runtimeAngelicValue);
+                fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectionEnds();
+            }
+            if (runtimeAngelicValue)
+                clazz = org.apache.logging.log4j.core.util.Loader.loadClass(className);
+
+        } catch (final java.lang.ClassNotFoundException ignored) {
+            try {
+                clazz = org.apache.logging.log4j.core.util.Loader.initializeClass(className, this.getClass().getClassLoader());
+            } catch (final java.lang.ClassNotFoundException ignore) {
+                return null;
+            }
+        }
+        return clazz;
+    }
+
+    private org.apache.logging.log4j.core.impl.ThrowableProxy.CacheEntry toCacheEntry(final java.lang.StackTraceElement stackTraceElement, final java.lang.Class<?> callerClass, final boolean exact) {
+        java.lang.String location = "?";
+        java.lang.String version = "?";
+        java.lang.ClassLoader lastLoader = null;
+        if (callerClass != null) {
+            try {
+                final java.security.CodeSource source = callerClass.getProtectionDomain().getCodeSource();
+                if (source != null) {
+                    final java.net.URL locationURL = source.getLocation();
+                    if (locationURL != null) {
+                        final java.lang.String str = locationURL.toString().replace('\\', '/');
+                        int index = str.lastIndexOf("/");
+                        if ((index >= 0) && (index == (str.length() - 1))) {
+                            index = str.lastIndexOf("/", index - 1);
+                            location = str.substring(index + 1);
+                        } else {
+                            location = str.substring(index + 1);
+                        }
+                    }
+                }
+            } catch (final java.lang.Exception ex) {
+            }
+            final java.lang.Package pkg = callerClass.getPackage();
+            if (pkg != null) {
+                final java.lang.String ver = pkg.getImplementationVersion();
+                if (ver != null) {
+                    version = ver;
+                }
+            }
+            lastLoader = callerClass.getClassLoader();
+        }
+        return new org.apache.logging.log4j.core.impl.ThrowableProxy.CacheEntry(new org.apache.logging.log4j.core.impl.ExtendedClassInfo(exact, location, version), lastLoader);
+    }
+
+    org.apache.logging.log4j.core.impl.ExtendedStackTraceElement[] toExtendedStackTrace(final java.util.Stack<java.lang.Class<?>> stack, final java.util.Map<java.lang.String, org.apache.logging.log4j.core.impl.ThrowableProxy.CacheEntry> map, final java.lang.StackTraceElement[] rootTrace, final java.lang.StackTraceElement[] stackTrace) {
+        int stackLength;
+        if (rootTrace != null) {
+            int rootIndex = rootTrace.length - 1;
+            int stackIndex = stackTrace.length - 1;
+            while (((rootIndex >= 0) && (stackIndex >= 0)) && rootTrace[rootIndex].equals(stackTrace[stackIndex])) {
+                --rootIndex;
+                --stackIndex;
+            } 
+            this.commonElementCount = (stackTrace.length - 1) - stackIndex;
+            stackLength = stackIndex + 1;
+        } else {
+            this.commonElementCount = 0;
+            stackLength = stackTrace.length;
+        }
+        final org.apache.logging.log4j.core.impl.ExtendedStackTraceElement[] extStackTrace = new org.apache.logging.log4j.core.impl.ExtendedStackTraceElement[stackLength];
+        java.lang.Class<?> clazz = (stack.isEmpty()) ? null : stack.peek();
+        java.lang.ClassLoader lastLoader = null;
+        for (int i = stackLength - 1; i >= 0; --i) {
+            final java.lang.StackTraceElement stackTraceElement = stackTrace[i];
+            final java.lang.String className = stackTraceElement.getClassName();
+            org.apache.logging.log4j.core.impl.ExtendedClassInfo extClassInfo;
+            if ((clazz != null) && className.equals(clazz.getName())) {
+                final org.apache.logging.log4j.core.impl.ThrowableProxy.CacheEntry entry = this.toCacheEntry(stackTraceElement, clazz, true);
+                extClassInfo = entry.element;
+                lastLoader = entry.loader;
+                stack.pop();
+                clazz = (stack.isEmpty()) ? null : stack.peek();
+            } else {
+                if (map.containsKey(className)) {
+                    final org.apache.logging.log4j.core.impl.ThrowableProxy.CacheEntry entry = map.get(className);
+                    extClassInfo = entry.element;
+                    if (entry.loader != null) {
+                        lastLoader = entry.loader;
+                    }
+                } else {
+                    final org.apache.logging.log4j.core.impl.ThrowableProxy.CacheEntry entry = this.toCacheEntry(stackTraceElement, this.loadClass(lastLoader, className), false);
+                    extClassInfo = entry.element;
+                    map.put(stackTraceElement.toString(), entry);
+                    if (entry.loader != null) {
+                        lastLoader = entry.loader;
+                    }
+                }
+            }
+            extStackTrace[i] = new org.apache.logging.log4j.core.impl.ExtendedStackTraceElement(stackTraceElement, extClassInfo);
+        }
+        return extStackTrace;
+    }
+
+    @java.lang.Override
+    public java.lang.String toString() {
+        final java.lang.String msg = this.message;
+        return msg != null ? (this.name + ": ") + msg : this.name;
+    }
+
+    private org.apache.logging.log4j.core.impl.ThrowableProxy[] toSuppressedProxies(final java.lang.Throwable thrown) {
+        try {
+            final java.lang.Throwable[] suppressed = org.apache.logging.log4j.core.util.Throwables.getSuppressed(thrown);
+            if (suppressed == null) {
+                return org.apache.logging.log4j.core.impl.ThrowableProxy.EMPTY_THROWABLE_PROXY_ARRAY;
+            }
+            final org.apache.logging.log4j.core.impl.ThrowableProxy[] proxies = new org.apache.logging.log4j.core.impl.ThrowableProxy[suppressed.length];
+            for (int i = 0; i < suppressed.length; i++) {
+                proxies[i] = new org.apache.logging.log4j.core.impl.ThrowableProxy(suppressed[i]);
+            }
+            return proxies;
+        } catch (final java.lang.Exception e) {
+            org.apache.logging.log4j.status.StatusLogger.getLogger().error(e);
+        }
+        return null;
+    }
+}
+11:09:29.345 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+11:09:29.346 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #4
+11:09:29.347 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.util.Loader:238 which is executed by 3 tests
+-2013651916
+11:09:39.195 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #5
+11:09:39.197 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.ThrowableProxy:565 which is executed by 4 tests
+-2136861393
+11:09:50.429 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #6
+11:09:50.436 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.ThrowableProxy:564 which is executed by 4 tests
+-2136861393
+11:09:59.251 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #7
+11:09:59.258 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.ThrowableProxy:557 which is executed by 4 tests
+-2136861393
+11:10:08.597 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+07:10:10.539 [pool-7-thread-1] ERROR org.apache.logging.log4j.core.impl.ThrowableProxyTest - I always throw an Error when initialized
+java.lang.Error: I always throw an Error when initialized
+	at org.apache.logging.log4j.core.impl.ThrowableProxyTest$AlwaysThrowsError.<clinit>(ThrowableProxyTest.java:51) ~[test-classes/:?]
+	at org.apache.logging.log4j.core.impl.ThrowableProxyTest.testLogStackTraceWithClassThatCannotInitialize(ThrowableProxyTest.java:96) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_242]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_242]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_242]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_242]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.Suite.runChild(Suite.java:127) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.Suite.runChild(Suite.java:26) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at xxl.java.junit.JUnitRunner.call(JUnitRunner.java:31) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at xxl.java.junit.JUnitRunner.call(JUnitRunner.java:17) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+07:10:10.546 [pool-7-thread-1] ERROR org.apache.logging.log4j.core.impl.ThrowableProxyTest - java.lang.Error: I always throw an Error when initialized
+11:11:26.372 [pool-6-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+error: error reading /root/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar; error in opening zip file
+error: error reading /root/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar; error in opening zip file
+ThrowableProxy.java:422: error: variable extClassInfo might not have been initialized
+            extStackTrace[i] = new org.apache.logging.log4j.core.impl.ExtendedStackTraceElement(stackTraceElement, extClassInfo);
+                                                                                                                   ^
+Note: ThrowableProxy.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+11:11:26.468 [pool-6-thread-1] ERROR f.i.l.r.n.s.ConstraintModelBuilder - Unable to compile the change: 
+public class ThrowableProxy implements java.io.Serializable {
+    static class CacheEntry {
+        private final org.apache.logging.log4j.core.impl.ExtendedClassInfo element;
+
+        private final java.lang.ClassLoader loader;
+
+        public CacheEntry(final org.apache.logging.log4j.core.impl.ExtendedClassInfo element, final java.lang.ClassLoader loader) {
+            this.element = element;
+            this.loader = loader;
+        }
+    }
+
+    private static final org.apache.logging.log4j.core.impl.ThrowableProxy[] EMPTY_THROWABLE_PROXY_ARRAY = new org.apache.logging.log4j.core.impl.ThrowableProxy[0];
+
+    private static final char EOL = '\n';
+
+    private static final long serialVersionUID = -2752771578252251910L;
+
+    private final org.apache.logging.log4j.core.impl.ThrowableProxy causeProxy;
+
+    private int commonElementCount;
+
+    private final org.apache.logging.log4j.core.impl.ExtendedStackTraceElement[] extendedStackTrace;
+
+    private final java.lang.String localizedMessage;
+
+    private final java.lang.String message;
+
+    private final java.lang.String name;
+
+    private final org.apache.logging.log4j.core.impl.ThrowableProxy[] suppressedProxies;
+
+    private final transient java.lang.Throwable throwable;
+
+    @java.lang.SuppressWarnings("unused")
+    private ThrowableProxy() {
+        this.throwable = null;
+        this.name = null;
+        this.extendedStackTrace = null;
+        this.causeProxy = null;
+        this.message = null;
+        this.localizedMessage = null;
+        this.suppressedProxies = org.apache.logging.log4j.core.impl.ThrowableProxy.EMPTY_THROWABLE_PROXY_ARRAY;
+    }
+
+    public ThrowableProxy(final java.lang.Throwable throwable) {
+        this.throwable = throwable;
+        this.name = throwable.getClass().getName();
+        this.message = throwable.getMessage();
+        this.localizedMessage = throwable.getLocalizedMessage();
+        final java.util.Map<java.lang.String, org.apache.logging.log4j.core.impl.ThrowableProxy.CacheEntry> map = new java.util.HashMap<java.lang.String, org.apache.logging.log4j.core.impl.ThrowableProxy.CacheEntry>();
+        final java.util.Stack<java.lang.Class<?>> stack = org.apache.logging.log4j.util.ReflectionUtil.getCurrentStackTrace();
+        this.extendedStackTrace = this.toExtendedStackTrace(stack, map, null, throwable.getStackTrace());
+        final java.lang.Throwable throwableCause = throwable.getCause();
+        this.causeProxy = (throwableCause == null) ? null : new org.apache.logging.log4j.core.impl.ThrowableProxy(throwable, stack, map, throwableCause);
+        this.suppressedProxies = this.toSuppressedProxies(throwable);
+    }
+
+    private ThrowableProxy(final java.lang.Throwable parent, final java.util.Stack<java.lang.Class<?>> stack, final java.util.Map<java.lang.String, org.apache.logging.log4j.core.impl.ThrowableProxy.CacheEntry> map, final java.lang.Throwable cause) {
+        this.throwable = cause;
+        this.name = cause.getClass().getName();
+        this.message = this.throwable.getMessage();
+        this.localizedMessage = this.throwable.getLocalizedMessage();
+        this.extendedStackTrace = this.toExtendedStackTrace(stack, map, parent.getStackTrace(), cause.getStackTrace());
+        this.causeProxy = (cause.getCause() == null) ? null : new org.apache.logging.log4j.core.impl.ThrowableProxy(parent, stack, map, cause.getCause());
+        this.suppressedProxies = this.toSuppressedProxies(cause);
+    }
+
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (this.getClass() != obj.getClass()) {
+            return false;
+        }
+        final org.apache.logging.log4j.core.impl.ThrowableProxy other = ((org.apache.logging.log4j.core.impl.ThrowableProxy) (obj));
+        if (this.causeProxy == null) {
+            if (other.causeProxy != null) {
+                return false;
+            }
+        } else
+            if (!this.causeProxy.equals(other.causeProxy)) {
+                return false;
+            }
+
+        if (this.commonElementCount != other.commonElementCount) {
+            return false;
+        }
+        if (this.name == null) {
+            if (other.name != null) {
+                return false;
+            }
+        } else
+            if (!this.name.equals(other.name)) {
+                return false;
+            }
+
+        if (!java.util.Arrays.equals(this.extendedStackTrace, other.extendedStackTrace)) {
+            return false;
+        }
+        if (!java.util.Arrays.equals(this.suppressedProxies, other.suppressedProxies)) {
+            return false;
+        }
+        return true;
+    }
+
+    @java.lang.SuppressWarnings("ThrowableResultOfMethodCallIgnored")
+    private void formatCause(final java.lang.StringBuilder sb, final org.apache.logging.log4j.core.impl.ThrowableProxy cause, final java.util.List<java.lang.String> ignorePackages) {
+        sb.append("Caused by: ").append(cause).append(org.apache.logging.log4j.core.impl.ThrowableProxy.EOL);
+        this.formatElements(sb, cause.commonElementCount, cause.getThrowable().getStackTrace(), cause.extendedStackTrace, ignorePackages);
+        if (cause.getCauseProxy() != null) {
+            this.formatCause(sb, cause.causeProxy, ignorePackages);
+        }
+    }
+
+    private void formatElements(final java.lang.StringBuilder sb, final int commonCount, final java.lang.StackTraceElement[] causedTrace, final org.apache.logging.log4j.core.impl.ExtendedStackTraceElement[] extStackTrace, final java.util.List<java.lang.String> ignorePackages) {
+        if ((ignorePackages == null) || ignorePackages.isEmpty()) {
+            for (final org.apache.logging.log4j.core.impl.ExtendedStackTraceElement element : extStackTrace) {
+                this.formatEntry(element, sb);
+            }
+        } else {
+            int count = 0;
+            for (int i = 0; i < extStackTrace.length; ++i) {
+                if (!this.ignoreElement(causedTrace[i], ignorePackages)) {
+                    if (count > 0) {
+                        if (count == 1) {
+                            sb.append("\t....\n");
+                        } else {
+                            sb.append("\t... suppressed ").append(count).append(" lines\n");
+                        }
+                        count = 0;
+                    }
+                    this.formatEntry(extStackTrace[i], sb);
+                } else {
+                    ++count;
+                }
+            }
+            if (count > 0) {
+                if (count == 1) {
+                    sb.append("\t...\n");
+                } else {
+                    sb.append("\t... suppressed ").append(count).append(" lines\n");
+                }
+            }
+        }
+        if (commonCount != 0) {
+            sb.append("\t... ").append(commonCount).append(" more").append('\n');
+        }
+    }
+
+    private void formatEntry(final org.apache.logging.log4j.core.impl.ExtendedStackTraceElement extStackTraceElement, final java.lang.StringBuilder sb) {
+        sb.append("\tat ");
+        sb.append(extStackTraceElement);
+        sb.append('\n');
+    }
+
+    public void formatWrapper(final java.lang.StringBuilder sb, final org.apache.logging.log4j.core.impl.ThrowableProxy cause) {
+        this.formatWrapper(sb, cause, null);
+    }
+
+    @java.lang.SuppressWarnings("ThrowableResultOfMethodCallIgnored")
+    public void formatWrapper(final java.lang.StringBuilder sb, final org.apache.logging.log4j.core.impl.ThrowableProxy cause, final java.util.List<java.lang.String> packages) {
+        final java.lang.Throwable caused = (cause.getCauseProxy() != null) ? cause.getCauseProxy().getThrowable() : null;
+        if (caused != null) {
+            this.formatWrapper(sb, cause.causeProxy);
+            sb.append("Wrapped by: ");
+        }
+        sb.append(cause).append('\n');
+        this.formatElements(sb, cause.commonElementCount, cause.getThrowable().getStackTrace(), cause.extendedStackTrace, packages);
+    }
+
+    public org.apache.logging.log4j.core.impl.ThrowableProxy getCauseProxy() {
+        return this.causeProxy;
+    }
+
+    public java.lang.String getCauseStackTraceAsString() {
+        return this.getCauseStackTraceAsString(null);
+    }
+
+    public java.lang.String getCauseStackTraceAsString(final java.util.List<java.lang.String> packages) {
+        final java.lang.StringBuilder sb = new java.lang.StringBuilder();
+        if (this.causeProxy != null) {
+            this.formatWrapper(sb, this.causeProxy);
+            sb.append("Wrapped by: ");
+        }
+        sb.append(this.toString());
+        sb.append('\n');
+        this.formatElements(sb, 0, this.throwable.getStackTrace(), this.extendedStackTrace, packages);
+        return sb.toString();
+    }
+
+    public int getCommonElementCount() {
+        return this.commonElementCount;
+    }
+
+    public org.apache.logging.log4j.core.impl.ExtendedStackTraceElement[] getExtendedStackTrace() {
+        return this.extendedStackTrace;
+    }
+
+    public java.lang.String getExtendedStackTraceAsString() {
+        return this.getExtendedStackTraceAsString(null);
+    }
+
+    public java.lang.String getExtendedStackTraceAsString(final java.util.List<java.lang.String> ignorePackages) {
+        final java.lang.StringBuilder sb = new java.lang.StringBuilder(this.name);
+        final java.lang.String msg = this.message;
+        if (msg != null) {
+            sb.append(": ").append(msg);
+        }
+        sb.append('\n');
+        this.formatElements(sb, 0, this.throwable.getStackTrace(), this.extendedStackTrace, ignorePackages);
+        if (this.causeProxy != null) {
+            this.formatCause(sb, this.causeProxy, ignorePackages);
+        }
+        return sb.toString();
+    }
+
+    public java.lang.String getLocalizedMessage() {
+        return this.localizedMessage;
+    }
+
+    public java.lang.String getMessage() {
+        return this.message;
+    }
+
+    public java.lang.String getName() {
+        return this.name;
+    }
+
+    public java.lang.StackTraceElement[] getStackTrace() {
+        return this.throwable == null ? null : this.throwable.getStackTrace();
+    }
+
+    public org.apache.logging.log4j.core.impl.ThrowableProxy[] getSuppressedProxies() {
+        return this.suppressedProxies;
+    }
+
+    public java.lang.String getSuppressedStackTrace() {
+        final org.apache.logging.log4j.core.impl.ThrowableProxy[] suppressed = this.getSuppressedProxies();
+        if ((suppressed == null) || (suppressed.length == 0)) {
+            return org.apache.logging.log4j.util.Strings.EMPTY;
+        }
+        final java.lang.StringBuilder sb = new java.lang.StringBuilder("Suppressed Stack Trace Elements:\n");
+        for (final org.apache.logging.log4j.core.impl.ThrowableProxy proxy : suppressed) {
+            sb.append(proxy.getExtendedStackTraceAsString());
+        }
+        return sb.toString();
+    }
+
+    public java.lang.Throwable getThrowable() {
+        return this.throwable;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = (prime * result) + (this.causeProxy == null ? 0 : this.causeProxy.hashCode());
+        result = (prime * result) + this.commonElementCount;
+        result = (prime * result) + (this.extendedStackTrace == null ? 0 : java.util.Arrays.hashCode(this.extendedStackTrace));
+        result = (prime * result) + (this.suppressedProxies == null ? 0 : java.util.Arrays.hashCode(this.suppressedProxies));
+        result = (prime * result) + (this.name == null ? 0 : this.name.hashCode());
+        return result;
+    }
+
+    private boolean ignoreElement(final java.lang.StackTraceElement element, final java.util.List<java.lang.String> ignorePackages) {
+        final java.lang.String className = element.getClassName();
+        for (final java.lang.String pkg : ignorePackages) {
+            if (className.startsWith(pkg)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private java.lang.Class<?> loadClass(final java.lang.ClassLoader lastLoader, final java.lang.String className) {
+        java.lang.Class<?> clazz;
+        if (lastLoader != null) {
+            try {
+                clazz = org.apache.logging.log4j.core.util.Loader.initializeClass(className, lastLoader);
+                if (clazz != null) {
+                    return clazz;
+                }
+            } catch (final java.lang.Throwable ignore) {
+            }
+        }
+        try {
+            clazz = org.apache.logging.log4j.core.util.Loader.loadClass(className);
+        } catch (final java.lang.ClassNotFoundException ignored) {
+            try {
+                clazz = org.apache.logging.log4j.core.util.Loader.initializeClass(className, this.getClass().getClassLoader());
+            } catch (final java.lang.ClassNotFoundException ignore) {
+                return null;
+            }
+        }
+        return clazz;
+    }
+
+    private org.apache.logging.log4j.core.impl.ThrowableProxy.CacheEntry toCacheEntry(final java.lang.StackTraceElement stackTraceElement, final java.lang.Class<?> callerClass, final boolean exact) {
+        java.lang.String location = "?";
+        java.lang.String version = "?";
+        java.lang.ClassLoader lastLoader = null;
+        if (callerClass != null) {
+            try {
+                final java.security.CodeSource source = callerClass.getProtectionDomain().getCodeSource();
+                if (source != null) {
+                    final java.net.URL locationURL = source.getLocation();
+                    if (locationURL != null) {
+                        final java.lang.String str = locationURL.toString().replace('\\', '/');
+                        int index = str.lastIndexOf("/");
+                        if ((index >= 0) && (index == (str.length() - 1))) {
+                            index = str.lastIndexOf("/", index - 1);
+                            location = str.substring(index + 1);
+                        } else {
+                            location = str.substring(index + 1);
+                        }
+                    }
+                }
+            } catch (final java.lang.Exception ex) {
+            }
+            final java.lang.Package pkg = callerClass.getPackage();
+            if (pkg != null) {
+                final java.lang.String ver = pkg.getImplementationVersion();
+                if (ver != null) {
+                    version = ver;
+                }
+            }
+            lastLoader = callerClass.getClassLoader();
+        }
+        return new org.apache.logging.log4j.core.impl.ThrowableProxy.CacheEntry(new org.apache.logging.log4j.core.impl.ExtendedClassInfo(exact, location, version), lastLoader);
+    }
+
+    org.apache.logging.log4j.core.impl.ExtendedStackTraceElement[] toExtendedStackTrace(final java.util.Stack<java.lang.Class<?>> stack, final java.util.Map<java.lang.String, org.apache.logging.log4j.core.impl.ThrowableProxy.CacheEntry> map, final java.lang.StackTraceElement[] rootTrace, final java.lang.StackTraceElement[] stackTrace) {
+        int stackLength;
+        if (rootTrace != null) {
+            int rootIndex = rootTrace.length - 1;
+            int stackIndex = stackTrace.length - 1;
+            while (((rootIndex >= 0) && (stackIndex >= 0)) && rootTrace[rootIndex].equals(stackTrace[stackIndex])) {
+                --rootIndex;
+                --stackIndex;
+            } 
+            this.commonElementCount = (stackTrace.length - 1) - stackIndex;
+            stackLength = stackIndex + 1;
+        } else {
+            this.commonElementCount = 0;
+            stackLength = stackTrace.length;
+        }
+        final org.apache.logging.log4j.core.impl.ExtendedStackTraceElement[] extStackTrace = new org.apache.logging.log4j.core.impl.ExtendedStackTraceElement[stackLength];
+        java.lang.Class<?> clazz = (stack.isEmpty()) ? null : stack.peek();
+        java.lang.ClassLoader lastLoader = null;
+        for (int i = stackLength - 1; i >= 0; --i) {
+            final java.lang.StackTraceElement stackTraceElement = stackTrace[i];
+            final java.lang.String className = stackTraceElement.getClassName();
+            org.apache.logging.log4j.core.impl.ExtendedClassInfo extClassInfo;
+            if ((clazz != null) && className.equals(clazz.getName())) {
+                final org.apache.logging.log4j.core.impl.ThrowableProxy.CacheEntry entry = this.toCacheEntry(stackTraceElement, clazz, true);
+                extClassInfo = entry.element;
+                lastLoader = entry.loader;
+                stack.pop();
+                clazz = (stack.isEmpty()) ? null : stack.peek();
+            } else {
+                boolean spoonDefaultValue = false;
+                try {
+                    spoonDefaultValue = true;
+                } catch (java.lang.Exception __NopolProcessorException) {
+                }
+                boolean runtimeAngelicValue = fr.inria.lille.repair.nopol.synth.AngelicExecution.angelicValue(spoonDefaultValue);
+                if (fr.inria.lille.commons.trace.RuntimeValues.instance(1).isEnabled()) {
+                    fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectionStarts();
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("stack",stack);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.name",org.apache.logging.log4j.core.impl.ThrowableProxy.this.name);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.commonElementCount",org.apache.logging.log4j.core.impl.ThrowableProxy.this.commonElementCount);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy",org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.EOL",org.apache.logging.log4j.core.impl.ThrowableProxy.EOL);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.suppressedProxies",org.apache.logging.log4j.core.impl.ThrowableProxy.this.suppressedProxies);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.extendedStackTrace",org.apache.logging.log4j.core.impl.ThrowableProxy.this.extendedStackTrace);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.localizedMessage",org.apache.logging.log4j.core.impl.ThrowableProxy.this.localizedMessage);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.throwable",org.apache.logging.log4j.core.impl.ThrowableProxy.this.throwable);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("className",className);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("stackTraceElement",stackTraceElement);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("extStackTrace",extStackTrace);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.EMPTY_THROWABLE_PROXY_ARRAY",org.apache.logging.log4j.core.impl.ThrowableProxy.EMPTY_THROWABLE_PROXY_ARRAY);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("lastLoader",lastLoader);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("rootTrace",rootTrace);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("stackTrace",stackTrace);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.message",org.apache.logging.log4j.core.impl.ThrowableProxy.this.message);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("clazz",clazz);} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("map",map);} catch (Exception ex1) {ex1.printStackTrace();};
+                    if (org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy!=null) {
+                        try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getSuppressedProxies()",org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getSuppressedProxies());} catch (Exception ex1) {ex1.printStackTrace();};
+                        try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getName()",org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getName());} catch (Exception ex1) {ex1.printStackTrace();};
+                        try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getLocalizedMessage()",org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getLocalizedMessage());} catch (Exception ex1) {ex1.printStackTrace();};
+                        try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getCommonElementCount()",org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getCommonElementCount());} catch (Exception ex1) {ex1.printStackTrace();};
+                        try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getMessage()",org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getMessage());} catch (Exception ex1) {ex1.printStackTrace();};
+                        try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getCauseProxy()",org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getCauseProxy());} catch (Exception ex1) {ex1.printStackTrace();};
+                        try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getThrowable()",org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getThrowable());} catch (Exception ex1) {ex1.printStackTrace();};
+                        try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getExtendedStackTrace()",org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getExtendedStackTrace());} catch (Exception ex1) {ex1.printStackTrace();};
+                    }
+                    fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectOutput(runtimeAngelicValue);
+                    fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectionEnds();
+                }
+                if (runtimeAngelicValue) if (map.containsKey(className)) {
+                    final org.apache.logging.log4j.core.impl.ThrowableProxy.CacheEntry entry = map.get(className);
+                    extClassInfo = entry.element;
+                    if (entry.loader != null) {
+                        lastLoader = entry.loader;
+                    }
+                } else {
+                    final org.apache.logging.log4j.core.impl.ThrowableProxy.CacheEntry entry = this.toCacheEntry(stackTraceElement, this.loadClass(lastLoader, className), false);
+                    extClassInfo = entry.element;
+                    map.put(stackTraceElement.toString(), entry);
+                    if (entry.loader != null) {
+                        lastLoader = entry.loader;
+                    }
+                }
+            }
+            extStackTrace[i] = new org.apache.logging.log4j.core.impl.ExtendedStackTraceElement(stackTraceElement, extClassInfo);
+        }
+        return extStackTrace;
+    }
+
+    @java.lang.Override
+    public java.lang.String toString() {
+        final java.lang.String msg = this.message;
+        return msg != null ? (this.name + ": ") + msg : this.name;
+    }
+
+    private org.apache.logging.log4j.core.impl.ThrowableProxy[] toSuppressedProxies(final java.lang.Throwable thrown) {
+        try {
+            final java.lang.Throwable[] suppressed = org.apache.logging.log4j.core.util.Throwables.getSuppressed(thrown);
+            if (suppressed == null) {
+                return org.apache.logging.log4j.core.impl.ThrowableProxy.EMPTY_THROWABLE_PROXY_ARRAY;
+            }
+            final org.apache.logging.log4j.core.impl.ThrowableProxy[] proxies = new org.apache.logging.log4j.core.impl.ThrowableProxy[suppressed.length];
+            for (int i = 0; i < suppressed.length; i++) {
+                proxies[i] = new org.apache.logging.log4j.core.impl.ThrowableProxy(suppressed[i]);
+            }
+            return proxies;
+        } catch (final java.lang.Exception e) {
+            org.apache.logging.log4j.status.StatusLogger.getLogger().error(e);
+        }
+        return null;
+    }
+}
+11:11:26.470 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+11:11:26.473 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+07:11:28.076 [pool-11-thread-1] ERROR org.apache.logging.log4j.core.impl.ThrowableProxyTest - I always throw an Error when initialized
+java.lang.Error: I always throw an Error when initialized
+	at org.apache.logging.log4j.core.impl.ThrowableProxyTest$AlwaysThrowsError.<clinit>(ThrowableProxyTest.java:51) ~[test-classes/:?]
+	at org.apache.logging.log4j.core.impl.ThrowableProxyTest.testLogStackTraceWithClassThatCannotInitialize(ThrowableProxyTest.java:96) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_242]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_242]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_242]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_242]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.Suite.runChild(Suite.java:127) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.Suite.runChild(Suite.java:26) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at xxl.java.junit.JUnitRunner.call(JUnitRunner.java:31) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at xxl.java.junit.JUnitRunner.call(JUnitRunner.java:17) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+07:11:28.082 [pool-11-thread-1] ERROR org.apache.logging.log4j.core.impl.ThrowableProxyTest - java.lang.Error: I always throw an Error when initialized
+11:12:43.907 [pool-10-thread-1] DEBUG tests.output - Failing tests with false: 
+[testStackWithUnloadableClass(org.apache.logging.log4j.core.impl.ThrowableProxyTest): org/apache/logging/log4j/core/impl/InexistentInterface]
+11:12:43.908 [pool-10-thread-1] DEBUG tests.output - Failing tests with true: 
+[testStackWithUnloadableClass(org.apache.logging.log4j.core.impl.ThrowableProxyTest): null]
+11:12:43.909 [pool-10-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.logging.log4j.core.impl.ThrowableProxy:557.
+11:12:43.910 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #8
+11:12:43.911 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.ThrowableProxy:550 which is executed by 4 tests
+-2136861393
+11:12:52.410 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+07:12:53.954 [pool-17-thread-1] ERROR org.apache.logging.log4j.core.impl.ThrowableProxyTest - I always throw an Error when initialized
+java.lang.Error: I always throw an Error when initialized
+	at org.apache.logging.log4j.core.impl.ThrowableProxyTest$AlwaysThrowsError.<clinit>(ThrowableProxyTest.java:51) ~[test-classes/:?]
+	at org.apache.logging.log4j.core.impl.ThrowableProxyTest.testLogStackTraceWithClassThatCannotInitialize(ThrowableProxyTest.java:96) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_242]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_242]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_242]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_242]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.Suite.runChild(Suite.java:127) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.Suite.runChild(Suite.java:26) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at xxl.java.junit.JUnitRunner.call(JUnitRunner.java:31) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at xxl.java.junit.JUnitRunner.call(JUnitRunner.java:17) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+07:12:53.961 [pool-17-thread-1] ERROR org.apache.logging.log4j.core.impl.ThrowableProxyTest - java.lang.Error: I always throw an Error when initialized
+11:14:07.263 [pool-16-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+error: error reading /root/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar; error in opening zip file
+error: error reading /root/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar; error in opening zip file
+ThrowableProxy.java:424: error: variable extClassInfo might not have been initialized
+            extStackTrace[i] = new org.apache.logging.log4j.core.impl.ExtendedStackTraceElement(stackTraceElement, extClassInfo);
+                                                                                                                   ^
+Note: ThrowableProxy.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+11:14:07.324 [pool-16-thread-1] ERROR f.i.l.r.n.s.ConstraintModelBuilder - Unable to compile the change: 
+public class ThrowableProxy implements java.io.Serializable {
+    static class CacheEntry {
+        private final org.apache.logging.log4j.core.impl.ExtendedClassInfo element;
+
+        private final java.lang.ClassLoader loader;
+
+        public CacheEntry(final org.apache.logging.log4j.core.impl.ExtendedClassInfo element, final java.lang.ClassLoader loader) {
+            this.element = element;
+            this.loader = loader;
+        }
+    }
+
+    private static final org.apache.logging.log4j.core.impl.ThrowableProxy[] EMPTY_THROWABLE_PROXY_ARRAY = new org.apache.logging.log4j.core.impl.ThrowableProxy[0];
+
+    private static final char EOL = '\n';
+
+    private static final long serialVersionUID = -2752771578252251910L;
+
+    private final org.apache.logging.log4j.core.impl.ThrowableProxy causeProxy;
+
+    private int commonElementCount;
+
+    private final org.apache.logging.log4j.core.impl.ExtendedStackTraceElement[] extendedStackTrace;
+
+    private final java.lang.String localizedMessage;
+
+    private final java.lang.String message;
+
+    private final java.lang.String name;
+
+    private final org.apache.logging.log4j.core.impl.ThrowableProxy[] suppressedProxies;
+
+    private final transient java.lang.Throwable throwable;
+
+    @java.lang.SuppressWarnings("unused")
+    private ThrowableProxy() {
+        this.throwable = null;
+        this.name = null;
+        this.extendedStackTrace = null;
+        this.causeProxy = null;
+        this.message = null;
+        this.localizedMessage = null;
+        this.suppressedProxies = org.apache.logging.log4j.core.impl.ThrowableProxy.EMPTY_THROWABLE_PROXY_ARRAY;
+    }
+
+    public ThrowableProxy(final java.lang.Throwable throwable) {
+        this.throwable = throwable;
+        this.name = throwable.getClass().getName();
+        this.message = throwable.getMessage();
+        this.localizedMessage = throwable.getLocalizedMessage();
+        final java.util.Map<java.lang.String, org.apache.logging.log4j.core.impl.ThrowableProxy.CacheEntry> map = new java.util.HashMap<java.lang.String, org.apache.logging.log4j.core.impl.ThrowableProxy.CacheEntry>();
+        final java.util.Stack<java.lang.Class<?>> stack = org.apache.logging.log4j.util.ReflectionUtil.getCurrentStackTrace();
+        this.extendedStackTrace = this.toExtendedStackTrace(stack, map, null, throwable.getStackTrace());
+        final java.lang.Throwable throwableCause = throwable.getCause();
+        this.causeProxy = (throwableCause == null) ? null : new org.apache.logging.log4j.core.impl.ThrowableProxy(throwable, stack, map, throwableCause);
+        this.suppressedProxies = this.toSuppressedProxies(throwable);
+    }
+
+    private ThrowableProxy(final java.lang.Throwable parent, final java.util.Stack<java.lang.Class<?>> stack, final java.util.Map<java.lang.String, org.apache.logging.log4j.core.impl.ThrowableProxy.CacheEntry> map, final java.lang.Throwable cause) {
+        this.throwable = cause;
+        this.name = cause.getClass().getName();
+        this.message = this.throwable.getMessage();
+        this.localizedMessage = this.throwable.getLocalizedMessage();
+        this.extendedStackTrace = this.toExtendedStackTrace(stack, map, parent.getStackTrace(), cause.getStackTrace());
+        this.causeProxy = (cause.getCause() == null) ? null : new org.apache.logging.log4j.core.impl.ThrowableProxy(parent, stack, map, cause.getCause());
+        this.suppressedProxies = this.toSuppressedProxies(cause);
+    }
+
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (this.getClass() != obj.getClass()) {
+            return false;
+        }
+        final org.apache.logging.log4j.core.impl.ThrowableProxy other = ((org.apache.logging.log4j.core.impl.ThrowableProxy) (obj));
+        if (this.causeProxy == null) {
+            if (other.causeProxy != null) {
+                return false;
+            }
+        } else
+            if (!this.causeProxy.equals(other.causeProxy)) {
+                return false;
+            }
+
+        if (this.commonElementCount != other.commonElementCount) {
+            return false;
+        }
+        if (this.name == null) {
+            if (other.name != null) {
+                return false;
+            }
+        } else
+            if (!this.name.equals(other.name)) {
+                return false;
+            }
+
+        if (!java.util.Arrays.equals(this.extendedStackTrace, other.extendedStackTrace)) {
+            return false;
+        }
+        if (!java.util.Arrays.equals(this.suppressedProxies, other.suppressedProxies)) {
+            return false;
+        }
+        return true;
+    }
+
+    @java.lang.SuppressWarnings("ThrowableResultOfMethodCallIgnored")
+    private void formatCause(final java.lang.StringBuilder sb, final org.apache.logging.log4j.core.impl.ThrowableProxy cause, final java.util.List<java.lang.String> ignorePackages) {
+        sb.append("Caused by: ").append(cause).append(org.apache.logging.log4j.core.impl.ThrowableProxy.EOL);
+        this.formatElements(sb, cause.commonElementCount, cause.getThrowable().getStackTrace(), cause.extendedStackTrace, ignorePackages);
+        if (cause.getCauseProxy() != null) {
+            this.formatCause(sb, cause.causeProxy, ignorePackages);
+        }
+    }
+
+    private void formatElements(final java.lang.StringBuilder sb, final int commonCount, final java.lang.StackTraceElement[] causedTrace, final org.apache.logging.log4j.core.impl.ExtendedStackTraceElement[] extStackTrace, final java.util.List<java.lang.String> ignorePackages) {
+        if ((ignorePackages == null) || ignorePackages.isEmpty()) {
+            for (final org.apache.logging.log4j.core.impl.ExtendedStackTraceElement element : extStackTrace) {
+                this.formatEntry(element, sb);
+            }
+        } else {
+            int count = 0;
+            for (int i = 0; i < extStackTrace.length; ++i) {
+                if (!this.ignoreElement(causedTrace[i], ignorePackages)) {
+                    if (count > 0) {
+                        if (count == 1) {
+                            sb.append("\t....\n");
+                        } else {
+                            sb.append("\t... suppressed ").append(count).append(" lines\n");
+                        }
+                        count = 0;
+                    }
+                    this.formatEntry(extStackTrace[i], sb);
+                } else {
+                    ++count;
+                }
+            }
+            if (count > 0) {
+                if (count == 1) {
+                    sb.append("\t...\n");
+                } else {
+                    sb.append("\t... suppressed ").append(count).append(" lines\n");
+                }
+            }
+        }
+        if (commonCount != 0) {
+            sb.append("\t... ").append(commonCount).append(" more").append('\n');
+        }
+    }
+
+    private void formatEntry(final org.apache.logging.log4j.core.impl.ExtendedStackTraceElement extStackTraceElement, final java.lang.StringBuilder sb) {
+        sb.append("\tat ");
+        sb.append(extStackTraceElement);
+        sb.append('\n');
+    }
+
+    public void formatWrapper(final java.lang.StringBuilder sb, final org.apache.logging.log4j.core.impl.ThrowableProxy cause) {
+        this.formatWrapper(sb, cause, null);
+    }
+
+    @java.lang.SuppressWarnings("ThrowableResultOfMethodCallIgnored")
+    public void formatWrapper(final java.lang.StringBuilder sb, final org.apache.logging.log4j.core.impl.ThrowableProxy cause, final java.util.List<java.lang.String> packages) {
+        final java.lang.Throwable caused = (cause.getCauseProxy() != null) ? cause.getCauseProxy().getThrowable() : null;
+        if (caused != null) {
+            this.formatWrapper(sb, cause.causeProxy);
+            sb.append("Wrapped by: ");
+        }
+        sb.append(cause).append('\n');
+        this.formatElements(sb, cause.commonElementCount, cause.getThrowable().getStackTrace(), cause.extendedStackTrace, packages);
+    }
+
+    public org.apache.logging.log4j.core.impl.ThrowableProxy getCauseProxy() {
+        return this.causeProxy;
+    }
+
+    public java.lang.String getCauseStackTraceAsString() {
+        return this.getCauseStackTraceAsString(null);
+    }
+
+    public java.lang.String getCauseStackTraceAsString(final java.util.List<java.lang.String> packages) {
+        final java.lang.StringBuilder sb = new java.lang.StringBuilder();
+        if (this.causeProxy != null) {
+            this.formatWrapper(sb, this.causeProxy);
+            sb.append("Wrapped by: ");
+        }
+        sb.append(this.toString());
+        sb.append('\n');
+        this.formatElements(sb, 0, this.throwable.getStackTrace(), this.extendedStackTrace, packages);
+        return sb.toString();
+    }
+
+    public int getCommonElementCount() {
+        return this.commonElementCount;
+    }
+
+    public org.apache.logging.log4j.core.impl.ExtendedStackTraceElement[] getExtendedStackTrace() {
+        return this.extendedStackTrace;
+    }
+
+    public java.lang.String getExtendedStackTraceAsString() {
+        return this.getExtendedStackTraceAsString(null);
+    }
+
+    public java.lang.String getExtendedStackTraceAsString(final java.util.List<java.lang.String> ignorePackages) {
+        final java.lang.StringBuilder sb = new java.lang.StringBuilder(this.name);
+        final java.lang.String msg = this.message;
+        if (msg != null) {
+            sb.append(": ").append(msg);
+        }
+        sb.append('\n');
+        this.formatElements(sb, 0, this.throwable.getStackTrace(), this.extendedStackTrace, ignorePackages);
+        if (this.causeProxy != null) {
+            this.formatCause(sb, this.causeProxy, ignorePackages);
+        }
+        return sb.toString();
+    }
+
+    public java.lang.String getLocalizedMessage() {
+        return this.localizedMessage;
+    }
+
+    public java.lang.String getMessage() {
+        return this.message;
+    }
+
+    public java.lang.String getName() {
+        return this.name;
+    }
+
+    public java.lang.StackTraceElement[] getStackTrace() {
+        return this.throwable == null ? null : this.throwable.getStackTrace();
+    }
+
+    public org.apache.logging.log4j.core.impl.ThrowableProxy[] getSuppressedProxies() {
+        return this.suppressedProxies;
+    }
+
+    public java.lang.String getSuppressedStackTrace() {
+        final org.apache.logging.log4j.core.impl.ThrowableProxy[] suppressed = this.getSuppressedProxies();
+        if ((suppressed == null) || (suppressed.length == 0)) {
+            return org.apache.logging.log4j.util.Strings.EMPTY;
+        }
+        final java.lang.StringBuilder sb = new java.lang.StringBuilder("Suppressed Stack Trace Elements:\n");
+        for (final org.apache.logging.log4j.core.impl.ThrowableProxy proxy : suppressed) {
+            sb.append(proxy.getExtendedStackTraceAsString());
+        }
+        return sb.toString();
+    }
+
+    public java.lang.Throwable getThrowable() {
+        return this.throwable;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = (prime * result) + (this.causeProxy == null ? 0 : this.causeProxy.hashCode());
+        result = (prime * result) + this.commonElementCount;
+        result = (prime * result) + (this.extendedStackTrace == null ? 0 : java.util.Arrays.hashCode(this.extendedStackTrace));
+        result = (prime * result) + (this.suppressedProxies == null ? 0 : java.util.Arrays.hashCode(this.suppressedProxies));
+        result = (prime * result) + (this.name == null ? 0 : this.name.hashCode());
+        return result;
+    }
+
+    private boolean ignoreElement(final java.lang.StackTraceElement element, final java.util.List<java.lang.String> ignorePackages) {
+        final java.lang.String className = element.getClassName();
+        for (final java.lang.String pkg : ignorePackages) {
+            if (className.startsWith(pkg)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private java.lang.Class<?> loadClass(final java.lang.ClassLoader lastLoader, final java.lang.String className) {
+        java.lang.Class<?> clazz;
+        if (lastLoader != null) {
+            try {
+                clazz = org.apache.logging.log4j.core.util.Loader.initializeClass(className, lastLoader);
+                if (clazz != null) {
+                    return clazz;
+                }
+            } catch (final java.lang.Throwable ignore) {
+            }
+        }
+        try {
+            clazz = org.apache.logging.log4j.core.util.Loader.loadClass(className);
+        } catch (final java.lang.ClassNotFoundException ignored) {
+            try {
+                clazz = org.apache.logging.log4j.core.util.Loader.initializeClass(className, this.getClass().getClassLoader());
+            } catch (final java.lang.ClassNotFoundException ignore) {
+                return null;
+            }
+        }
+        return clazz;
+    }
+
+    private org.apache.logging.log4j.core.impl.ThrowableProxy.CacheEntry toCacheEntry(final java.lang.StackTraceElement stackTraceElement, final java.lang.Class<?> callerClass, final boolean exact) {
+        java.lang.String location = "?";
+        java.lang.String version = "?";
+        java.lang.ClassLoader lastLoader = null;
+        if (callerClass != null) {
+            try {
+                final java.security.CodeSource source = callerClass.getProtectionDomain().getCodeSource();
+                if (source != null) {
+                    final java.net.URL locationURL = source.getLocation();
+                    if (locationURL != null) {
+                        final java.lang.String str = locationURL.toString().replace('\\', '/');
+                        int index = str.lastIndexOf("/");
+                        if ((index >= 0) && (index == (str.length() - 1))) {
+                            index = str.lastIndexOf("/", index - 1);
+                            location = str.substring(index + 1);
+                        } else {
+                            location = str.substring(index + 1);
+                        }
+                    }
+                }
+            } catch (final java.lang.Exception ex) {
+            }
+            final java.lang.Package pkg = callerClass.getPackage();
+            if (pkg != null) {
+                final java.lang.String ver = pkg.getImplementationVersion();
+                if (ver != null) {
+                    version = ver;
+                }
+            }
+            lastLoader = callerClass.getClassLoader();
+        }
+        return new org.apache.logging.log4j.core.impl.ThrowableProxy.CacheEntry(new org.apache.logging.log4j.core.impl.ExtendedClassInfo(exact, location, version), lastLoader);
+    }
+
+    org.apache.logging.log4j.core.impl.ExtendedStackTraceElement[] toExtendedStackTrace(final java.util.Stack<java.lang.Class<?>> stack, final java.util.Map<java.lang.String, org.apache.logging.log4j.core.impl.ThrowableProxy.CacheEntry> map, final java.lang.StackTraceElement[] rootTrace, final java.lang.StackTraceElement[] stackTrace) {
+        int stackLength;
+        if (rootTrace != null) {
+            int rootIndex = rootTrace.length - 1;
+            int stackIndex = stackTrace.length - 1;
+            while (((rootIndex >= 0) && (stackIndex >= 0)) && rootTrace[rootIndex].equals(stackTrace[stackIndex])) {
+                --rootIndex;
+                --stackIndex;
+            } 
+            this.commonElementCount = (stackTrace.length - 1) - stackIndex;
+            stackLength = stackIndex + 1;
+        } else {
+            this.commonElementCount = 0;
+            stackLength = stackTrace.length;
+        }
+        final org.apache.logging.log4j.core.impl.ExtendedStackTraceElement[] extStackTrace = new org.apache.logging.log4j.core.impl.ExtendedStackTraceElement[stackLength];
+        java.lang.Class<?> clazz = (stack.isEmpty()) ? null : stack.peek();
+        java.lang.ClassLoader lastLoader = null;
+        for (int i = stackLength - 1; i >= 0; --i) {
+            final java.lang.StackTraceElement stackTraceElement = stackTrace[i];
+            final java.lang.String className = stackTraceElement.getClassName();
+            org.apache.logging.log4j.core.impl.ExtendedClassInfo extClassInfo;
+            boolean spoonDefaultValue = false;
+            try {
+                spoonDefaultValue = true;
+            } catch (java.lang.Exception __NopolProcessorException) {
+            }
+            boolean runtimeAngelicValue = fr.inria.lille.repair.nopol.synth.AngelicExecution.angelicValue(spoonDefaultValue);
+            if (fr.inria.lille.commons.trace.RuntimeValues.instance(3).isEnabled()) {
+                fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectionStarts();
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("stack",stack);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.name",org.apache.logging.log4j.core.impl.ThrowableProxy.this.name);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.commonElementCount",org.apache.logging.log4j.core.impl.ThrowableProxy.this.commonElementCount);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy",org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.EOL",org.apache.logging.log4j.core.impl.ThrowableProxy.EOL);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.suppressedProxies",org.apache.logging.log4j.core.impl.ThrowableProxy.this.suppressedProxies);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.extendedStackTrace",org.apache.logging.log4j.core.impl.ThrowableProxy.this.extendedStackTrace);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.localizedMessage",org.apache.logging.log4j.core.impl.ThrowableProxy.this.localizedMessage);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.throwable",org.apache.logging.log4j.core.impl.ThrowableProxy.this.throwable);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("className",className);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("stackTraceElement",stackTraceElement);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("extStackTrace",extStackTrace);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.EMPTY_THROWABLE_PROXY_ARRAY",org.apache.logging.log4j.core.impl.ThrowableProxy.EMPTY_THROWABLE_PROXY_ARRAY);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("lastLoader",lastLoader);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("null",null);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("rootTrace",rootTrace);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("stackTrace",stackTrace);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.message",org.apache.logging.log4j.core.impl.ThrowableProxy.this.message);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("clazz",clazz);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("map",map);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("(clazz != null)",(clazz != null));} catch (Exception ex1) {ex1.printStackTrace();};
+                if (org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy!=null) {
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getSuppressedProxies()",org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getSuppressedProxies());} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getName()",org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getName());} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getLocalizedMessage()",org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getLocalizedMessage());} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getCommonElementCount()",org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getCommonElementCount());} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getMessage()",org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getMessage());} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getCauseProxy()",org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getCauseProxy());} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getThrowable()",org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getThrowable());} catch (Exception ex1) {ex1.printStackTrace();};
+                    try{fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectInput("org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getExtendedStackTrace()",org.apache.logging.log4j.core.impl.ThrowableProxy.this.causeProxy.getExtendedStackTrace());} catch (Exception ex1) {ex1.printStackTrace();};
+                }
+                fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectOutput(runtimeAngelicValue);
+                fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectionEnds();
+            }
+            if (runtimeAngelicValue) if ((clazz != null) && className.equals(clazz.getName())) {
+                final org.apache.logging.log4j.core.impl.ThrowableProxy.CacheEntry entry = this.toCacheEntry(stackTraceElement, clazz, true);
+                extClassInfo = entry.element;
+                lastLoader = entry.loader;
+                stack.pop();
+                clazz = (stack.isEmpty()) ? null : stack.peek();
+            } else {
+                if (map.containsKey(className)) {
+                    final org.apache.logging.log4j.core.impl.ThrowableProxy.CacheEntry entry = map.get(className);
+                    extClassInfo = entry.element;
+                    if (entry.loader != null) {
+                        lastLoader = entry.loader;
+                    }
+                } else {
+                    final org.apache.logging.log4j.core.impl.ThrowableProxy.CacheEntry entry = this.toCacheEntry(stackTraceElement, this.loadClass(lastLoader, className), false);
+                    extClassInfo = entry.element;
+                    map.put(stackTraceElement.toString(), entry);
+                    if (entry.loader != null) {
+                        lastLoader = entry.loader;
+                    }
+                }
+            }
+            extStackTrace[i] = new org.apache.logging.log4j.core.impl.ExtendedStackTraceElement(stackTraceElement, extClassInfo);
+        }
+        return extStackTrace;
+    }
+
+    @java.lang.Override
+    public java.lang.String toString() {
+        final java.lang.String msg = this.message;
+        return msg != null ? (this.name + ": ") + msg : this.name;
+    }
+
+    private org.apache.logging.log4j.core.impl.ThrowableProxy[] toSuppressedProxies(final java.lang.Throwable thrown) {
+        try {
+            final java.lang.Throwable[] suppressed = org.apache.logging.log4j.core.util.Throwables.getSuppressed(thrown);
+            if (suppressed == null) {
+                return org.apache.logging.log4j.core.impl.ThrowableProxy.EMPTY_THROWABLE_PROXY_ARRAY;
+            }
+            final org.apache.logging.log4j.core.impl.ThrowableProxy[] proxies = new org.apache.logging.log4j.core.impl.ThrowableProxy[suppressed.length];
+            for (int i = 0; i < suppressed.length; i++) {
+                proxies[i] = new org.apache.logging.log4j.core.impl.ThrowableProxy(suppressed[i]);
+            }
+            return proxies;
+        } catch (final java.lang.Exception e) {
+            org.apache.logging.log4j.status.StatusLogger.getLogger().error(e);
+        }
+        return null;
+    }
+}
+11:14:07.328 [pool-1-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+11:14:07.329 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalReplacer
+07:14:09.116 [pool-21-thread-1] ERROR org.apache.logging.log4j.core.impl.ThrowableProxyTest - I always throw an Error when initialized
+java.lang.Error: I always throw an Error when initialized
+	at org.apache.logging.log4j.core.impl.ThrowableProxyTest$AlwaysThrowsError.<clinit>(ThrowableProxyTest.java:51) ~[test-classes/:?]
+	at org.apache.logging.log4j.core.impl.ThrowableProxyTest.testLogStackTraceWithClassThatCannotInitialize(ThrowableProxyTest.java:96) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_242]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_242]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_242]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_242]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.Suite.runChild(Suite.java:127) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.Suite.runChild(Suite.java:26) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at xxl.java.junit.JUnitRunner.call(JUnitRunner.java:31) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at xxl.java.junit.JUnitRunner.call(JUnitRunner.java:17) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+07:14:09.123 [pool-21-thread-1] ERROR org.apache.logging.log4j.core.impl.ThrowableProxyTest - java.lang.Error: I always throw an Error when initialized
+11:15:24.267 [pool-20-thread-1] DEBUG tests.output - Failing tests with false: 
+[testStackWithUnloadableClass(org.apache.logging.log4j.core.impl.ThrowableProxyTest): org/apache/logging/log4j/core/impl/InexistentInterface]
+11:15:24.269 [pool-20-thread-1] DEBUG tests.output - Failing tests with true: 
+[testStackWithUnloadableClass(org.apache.logging.log4j.core.impl.ThrowableProxyTest): null]
+11:15:24.270 [pool-20-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.logging.log4j.core.impl.ThrowableProxy:550.
+11:15:24.270 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #9
+11:15:24.271 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.ThrowableProxy:545 which is executed by 4 tests
+-2136861393
+11:15:33.238 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #10
+11:15:33.245 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.ThrowableProxy:544 which is executed by 4 tests
+-2136861393
+11:15:42.500 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - statement #11
+11:15:42.509 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.apache.logging.log4j.core.impl.ThrowableProxy:543 which is executed by 4 tests
+-2136861393
+11:15:50.479 [pool-1-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - looking with class fr.inria.lille.repair.nopol.spoon.smt.ConditionalAdder
+07:15:52.511 [pool-27-thread-1] ERROR org.apache.logging.log4j.core.impl.ThrowableProxyTest - I always throw an Error when initialized
+java.lang.Error: I always throw an Error when initialized
+	at org.apache.logging.log4j.core.impl.ThrowableProxyTest$AlwaysThrowsError.<clinit>(ThrowableProxyTest.java:51) ~[test-classes/:?]
+	at org.apache.logging.log4j.core.impl.ThrowableProxyTest.testLogStackTraceWithClassThatCannotInitialize(ThrowableProxyTest.java:96) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_242]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_242]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_242]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_242]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.Suite.runChild(Suite.java:127) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.Suite.runChild(Suite.java:26) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at xxl.java.junit.JUnitRunner.call(JUnitRunner.java:31) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at xxl.java.junit.JUnitRunner.call(JUnitRunner.java:17) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+07:15:52.522 [pool-27-thread-1] ERROR org.apache.logging.log4j.core.impl.ThrowableProxyTest - java.lang.Error: I always throw an Error when initialized
+07:17:09.122 [pool-34-thread-1] ERROR org.apache.logging.log4j.core.impl.ThrowableProxyTest - I always throw an Error when initialized
+java.lang.Error: I always throw an Error when initialized
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+07:17:09.129 [pool-34-thread-1] ERROR org.apache.logging.log4j.core.impl.ThrowableProxyTest - java.lang.Error: I always throw an Error when initialized
+07:17:09.176 [pool-40-thread-1] ERROR org.apache.logging.log4j.core.impl.ThrowableProxyTest - Could not initialize class org.apache.logging.log4j.core.impl.ThrowableProxyTest$AlwaysThrowsError
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.impl.ThrowableProxyTest$AlwaysThrowsError
+	at org.apache.logging.log4j.core.impl.ThrowableProxyTest.testLogStackTraceWithClassThatCannotInitialize(ThrowableProxyTest.java:96) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_242]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_242]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_242]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_242]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at xxl.java.junit.JUnitSingleTestResultRunner.call(JUnitSingleTestResultRunner.java:27) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at xxl.java.junit.JUnitSingleTestResultRunner.call(JUnitSingleTestResultRunner.java:10) [nopol-0.2-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+07:17:09.176 [pool-40-thread-1] ERROR org.apache.logging.log4j.core.impl.ThrowableProxyTest - java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.impl.ThrowableProxyTest$AlwaysThrowsError
+11:17:18.114 [pool-26-thread-1] DEBUG f.i.l.c.s.ConstraintBasedSynthesis - Operators:
+11:17:18.274 [pool-26-thread-1] DEBUG f.i.l.c.s.ConstraintBasedSynthesis - Successful code synthesis: lastLoader!=null
+11:17:18.277 [pool-26-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Applying patch: org.apache.logging.log4j.core.impl.ThrowableProxy:543: PRECONDITION lastLoader!=null
+11:17:28.754 [pool-26-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Running test suite to check the patch "lastLoader!=null" is working
+07:17:30.445 [pool-44-thread-1] ERROR org.apache.logging.log4j.core.impl.ThrowableProxyTest - I always throw an Error when initialized
+java.lang.Error: I always throw an Error when initialized
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+	at null
+07:17:30.450 [pool-44-thread-1] ERROR org.apache.logging.log4j.core.impl.ThrowableProxyTest - java.lang.Error: I always throw an Error when initialized
+11:17:30.452 [pool-26-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Skipped -9 patches for sake of performance
+11:17:30.454 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+11:17:30.733 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 654
+11:17:30.734 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 2831
+11:17:30.735 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 6
+11:17:30.736 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 1
+11:17:30.737 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 2
+11:17:30.738 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 1
+11:17:30.739 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT components: [0] []
+11:17:30.739 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 32
+11:17:30.740 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 578706ms
+11:17:30.741 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+11:17:30.741 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+11:17:30.742 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - lastLoader!=null
+11:17:30.745 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 4
+11:17:30.746 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - org.apache.logging.log4j.core.impl.ThrowableProxy:543: PRECONDITION
+11:17:30.811 [pool-1-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - --- a/src/main/java/org/apache/logging/log4j/core/impl/ThrowableProxy.java
++++ b/src/main/java/org/apache/logging/log4j/core/impl/ThrowableProxy.java
+@@ -542,33 +542,35 @@
+         ClassLoader lastLoader = null;
+-        for (int i = stackLength - 1; i >= 0; --i) {
+-            final StackTraceElement stackTraceElement = stackTrace[i];
+-            final String className = stackTraceElement.getClassName();
+-            // The stack returned from getCurrentStack may be missing entries for java.lang.reflect.Method.invoke()
+-            // and its implementation. The Throwable might also contain stack entries that are no longer
+-            // present as those methods have returned.
+-            ExtendedClassInfo extClassInfo;
+-            if (clazz != null && className.equals(clazz.getName())) {
+-                final CacheEntry entry = this.toCacheEntry(stackTraceElement, clazz, true);
+-                extClassInfo = entry.element;
+-                lastLoader = entry.loader;
+-                stack.pop();
+-                clazz = stack.isEmpty() ? null : stack.peek();
+-            } else {
+-                if (map.containsKey(className)) {
+-                    final CacheEntry entry = map.get(className);
++        if (lastLoader!=null) {
++            for (int i = stackLength - 1; i >= 0; --i) {
++                final StackTraceElement stackTraceElement = stackTrace[i];
++                final String className = stackTraceElement.getClassName();
++                // The stack returned from getCurrentStack may be missing entries for java.lang.reflect.Method.invoke()
++                // and its implementation. The Throwable might also contain stack entries that are no longer
++                // present as those methods have returned.
++                ExtendedClassInfo extClassInfo;
++                if (clazz != null && className.equals(clazz.getName())) {
++                    final CacheEntry entry = this.toCacheEntry(stackTraceElement, clazz, true);
+                     extClassInfo = entry.element;
+-                    if (entry.loader != null) {
+-                        lastLoader = entry.loader;
+-                    }
++                    lastLoader = entry.loader;
++                    stack.pop();
++                    clazz = stack.isEmpty() ? null : stack.peek();
+                 } else {
+-                    final CacheEntry entry = this.toCacheEntry(stackTraceElement,
+-                            this.loadClass(lastLoader, className), false);
+-                    extClassInfo = entry.element;
+-                    map.put(stackTraceElement.toString(), entry);
+-                    if (entry.loader != null) {
+-                        lastLoader = entry.loader;
++                    if (map.containsKey(className)) {
++                        final CacheEntry entry = map.get(className);
++                        extClassInfo = entry.element;
++                        if (entry.loader != null) {
++                            lastLoader = entry.loader;
++                        }
++                    } else {
++                        final CacheEntry entry = this.toCacheEntry(stackTraceElement,
++                        this.loadClass(lastLoader, className), false);
++                        extClassInfo = entry.element;
++                        map.put(stackTraceElement.toString(), entry);
++                        if (entry.loader != null) {
++                            lastLoader = entry.loader;
++                        }
+                     }
+                 }
++                extStackTrace[i] = new ExtendedStackTraceElement(stackTraceElement, extClassInfo);
+             }
+-            extStackTrace[i] = new ExtendedStackTraceElement(stackTraceElement, extClassInfo);
+         }
+
+PATCH
