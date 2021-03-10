@@ -1,0 +1,7 @@
+Chart_4
+2020-12-05 20:48:15.542 [main] INFO  edu.lu.uni.serval.tbar.AbstractFixer - Chart_4 Failed Tests: 22
+2020-12-05 20:48:16.363 [main] INFO  edu.lu.uni.serval.tbar.TBarFixer - =======StaticBugFixer: Start to fix suspicious code======
+
+real	689m55.103s
+user	1055m58.440s
+sys	32m56.746s

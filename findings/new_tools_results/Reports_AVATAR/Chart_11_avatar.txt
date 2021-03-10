@@ -1,0 +1,1967 @@
+Chart_11
+18:24:55.789 [main] INFO edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 Failed Tests: 1
+Cannot find the suspicious code position file.SuspiciousCodePositions/Chart_11/ochiai.txt
+Chart_11
+18:25:16.830 [main] INFO edu.lu.uni.serval.faultlocalization.GZoltarFaultLoclaization - Gzoltar Test Result Total: 3621, fails: 2, GZoltar suspicious 22075
+Ochiai
+18:25:17.778 [main] INFO edu.lu.uni.serval.faultlocalization.GZoltarFaultLoclaization - Gzoltar found: 19 with suspiciousness > 0.0, we consider top-19
+18:25:17.783 [main] INFO edu.lu.uni.serval.avatar.Avatar - =======StaticBugFixer: Start to fix suspicious code======
+18:25:17.784 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.jfree.chart.util.ShapeUtilities ===295
+18:25:19.046 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+return true;
+18:25:19.067 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:25:19.075 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:25:20.199 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:25:20.200 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:25:36.957 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:25:36.964 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:25:36.966 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:25:37.694 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:25:37.696 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:25:54.824 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:25:54.831 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:25:55.717 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:25:55.719 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:26:12.635 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:26:12.640 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:26:12.644 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:26:13.544 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:26:13.545 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:26:30.916 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:26:30.921 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.jfree.chart.util.ShapeUtilities ===294
+18:26:31.036 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+while (!done) {
+            if (iterator1.isDone() != iterator2.isDone()) {
+                return false;
+            }
+            int seg1 = iterator1.currentSegment(d1);
+            int seg2 = iterator2.currentSegment(d2);
+            if (seg1 != seg2) {
+                return false;
+            }
+            if (!Arrays.equals(d1, d2)) {
+                return false;
+            }
+            iterator1.next();
+            iterator2.next();
+            done = iterator1.isDone() && iterator2.isDone();
+        }
+18:26:31.040 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator1.isDone() != iterator2.isDone()) {
+                return false;
+            }
+            int seg1 = iterator1.currentSegment(d1);
+            int seg2 = iterator2.currentSegment(d2);
+            if (seg1 != seg2) {
+                return false;
+            }
+            if (!Arrays.equals(d1, d2)) {
+                return false;
+            }
+            iterator1.next();
+            iterator2.next();
+            done = iterator1.isDone() && iterator2.isDone();
+18:26:31.042 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+18:26:31.043 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:26:31.824 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:26:31.825 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:26:48.673 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:26:48.676 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:26:49.411 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:26:49.413 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:27:05.766 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:27:05.768 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:27:05.770 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:27:06.490 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:27:06.491 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:27:23.278 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:27:23.283 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:27:23.284 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:27:24.197 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:27:24.198 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:27:41.023 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:27:41.027 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:27:41.924 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:27:41.925 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:27:58.461 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:27:58.463 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:27:58.465 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:27:59.350 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:27:59.351 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:28:15.628 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:28:15.630 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:28:15.632 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:28:16.348 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:28:16.349 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:28:33.175 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:28:33.180 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:28:34.027 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:28:34.029 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:28:50.726 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:28:50.732 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:28:50.736 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:28:51.447 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:28:51.449 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:29:07.928 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:29:07.933 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:29:07.937 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:29:08.733 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:29:08.734 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:29:25.511 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:29:25.516 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:29:26.249 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:29:26.250 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:29:42.704 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:29:42.706 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:29:42.708 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:29:43.553 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:29:43.555 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:30:00.012 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:30:00.014 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.jfree.chart.util.ShapeUtilities ===293
+18:30:00.096 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+done = iterator1.isDone() && iterator2.isDone();
+18:30:00.099 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: done = seg2.isDone() && iterator2.isDone();
+18:30:00.100 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: done = seg1.isDone() && iterator2.isDone();
+18:30:00.100 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: done = done.isDone() && iterator2.isDone();
+18:30:00.101 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: done = d2.isDone() && iterator2.isDone();
+18:30:00.102 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: done = d1.isDone() && iterator2.isDone();
+18:30:00.103 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: done = iterator2.isDone() && iterator2.isDone();
+18:30:00.104 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: done = p1.isDone() && iterator2.isDone();
+18:30:00.105 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: done = p2.isDone() && iterator2.isDone();
+18:30:00.106 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: done = iterator1.isDone() && seg2.isDone();
+18:30:00.106 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: done = iterator1.isDone() && seg1.isDone();
+18:30:00.107 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: done = iterator1.isDone() && done.isDone();
+18:30:00.108 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: done = iterator1.isDone() && d2.isDone();
+18:30:00.108 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: done = iterator1.isDone() && d1.isDone();
+18:30:00.109 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: done = iterator1.isDone() && iterator1.isDone();
+18:30:00.110 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: done = iterator1.isDone() && p1.isDone();
+18:30:00.110 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: done = iterator1.isDone() && p2.isDone();
+18:30:00.112 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:30:00.925 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:30:00.928 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:30:01.701 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:30:01.703 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:30:02.494 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:30:02.496 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:30:03.238 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:30:03.241 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:30:04.063 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:30:04.067 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:30:04.894 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:30:04.895 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:30:21.269 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:30:21.273 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:30:21.953 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:30:21.957 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:30:22.664 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:30:22.668 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:30:23.398 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:30:23.402 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:30:24.108 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:30:24.110 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:30:24.866 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:30:24.868 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:30:25.604 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:30:25.607 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:30:26.353 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:30:26.355 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:30:27.100 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:30:27.102 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:30:43.418 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:30:43.422 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:30:44.233 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:30:44.234 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:30:44.980 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:30:44.982 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator1 != null) {
+	
+
+}
+
+18:30:44.983 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator1 == null) {
+    throw new IllegalArgumentException("Null 'iterator1' argument.");
+}
+
+18:30:44.984 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator1 == null) {
+    return false;
+}
+
+18:30:44.985 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator2 != null) {
+	
+
+}
+
+18:30:44.985 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator2 == null) {
+    throw new IllegalArgumentException("Null 'iterator2' argument.");
+}
+
+18:30:44.986 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator2 == null) {
+    return false;
+}
+
+18:30:44.987 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:30:45.795 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:30:45.796 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:31:02.054 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:31:02.059 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:31:02.807 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:31:02.808 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:31:19.305 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:31:19.309 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:31:20.038 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:31:20.039 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:31:36.003 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:31:36.005 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:31:36.765 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:31:36.766 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:31:52.433 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:31:52.435 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:31:53.205 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:31:53.208 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:32:09.378 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:32:09.381 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:32:10.084 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:32:10.085 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:32:25.927 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:32:25.930 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:32:25.932 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:32:26.734 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:32:26.735 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:32:43.375 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:32:43.378 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:32:43.380 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:32:44.073 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:32:44.075 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:33:00.235 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:33:00.237 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:33:00.948 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:33:00.949 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:33:16.757 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:33:16.759 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:33:16.760 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:33:17.492 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:33:17.494 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:33:33.335 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:33:33.339 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:33:33.342 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:33:34.185 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:33:34.186 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:33:50.163 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:33:50.165 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:33:50.856 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:33:50.857 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:34:06.733 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:34:06.735 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:34:06.737 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:34:07.384 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:34:07.385 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:34:23.325 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:34:23.328 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:34:23.329 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:34:24.070 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:34:24.072 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:34:41.127 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:34:41.129 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:34:41.959 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:34:41.960 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:34:58.948 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:34:58.951 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:34:58.954 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:34:59.742 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:34:59.743 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:35:15.606 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:35:15.609 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:35:15.611 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:35:16.345 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:35:16.346 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:35:33.483 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:35:33.486 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:35:34.361 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:35:34.362 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:35:50.732 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:35:50.736 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:35:50.737 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:35:51.592 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:35:51.593 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:36:08.623 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:36:08.627 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:36:08.629 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:36:09.520 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:36:09.522 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:36:26.376 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:36:26.380 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:36:27.204 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:36:27.205 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:36:43.546 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:36:43.548 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:36:43.551 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:36:44.349 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:36:44.350 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:37:00.653 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:37:00.656 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.jfree.chart.util.ShapeUtilities ===292
+18:37:00.753 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+iterator2.next();
+18:37:00.756 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: seg2.next();
+18:37:00.757 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: seg1.next();
+18:37:00.758 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: done.next();
+18:37:00.758 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: d2.next();
+18:37:00.759 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: d1.next();
+18:37:00.760 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: iterator1.next();
+18:37:00.761 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: p1.next();
+18:37:00.762 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: p2.next();
+18:37:00.765 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:37:01.508 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:37:01.513 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:37:02.232 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:37:02.234 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:37:02.942 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:37:02.947 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:37:03.718 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:37:03.722 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:37:04.454 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:37:04.456 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:37:05.221 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:37:05.222 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:37:21.826 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:37:21.829 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:37:22.635 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:37:22.637 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:37:23.368 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:37:23.373 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator2 != null) {
+	
+
+}
+
+18:37:23.374 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator2 == null) {
+    throw new IllegalArgumentException("Null 'iterator2' argument.");
+}
+
+18:37:23.375 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator2 == null) {
+    return false;
+}
+
+18:37:23.377 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:37:24.159 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:37:24.160 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:37:40.372 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:37:40.373 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:37:41.137 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:37:41.138 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:37:57.486 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:37:57.488 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:37:58.225 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:37:58.227 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:38:14.444 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:38:14.446 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:38:14.447 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:38:15.220 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:38:15.221 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:38:33.847 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:38:33.851 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:38:33.852 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:38:34.633 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:38:34.634 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:38:51.197 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:38:51.200 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:38:52.523 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:38:52.524 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:39:09.115 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:39:09.117 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:39:09.119 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:39:09.836 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:39:09.837 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:39:26.013 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:39:26.015 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:39:26.016 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:39:26.796 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:39:26.797 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:39:43.750 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:39:43.751 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:39:44.490 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:39:44.491 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:40:01.024 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:40:01.030 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:40:01.032 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:40:01.797 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:40:01.798 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:40:18.114 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:40:18.115 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.jfree.chart.util.ShapeUtilities ===291
+18:40:18.152 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+iterator1.next();
+18:40:18.154 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: seg2.next();
+18:40:18.154 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: seg1.next();
+18:40:18.155 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: done.next();
+18:40:18.156 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: d2.next();
+18:40:18.157 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: d1.next();
+18:40:18.157 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: iterator2.next();
+18:40:18.158 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: p1.next();
+18:40:18.159 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: p2.next();
+18:40:18.160 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:40:18.982 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:40:18.983 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:40:19.703 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:40:19.704 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:40:20.502 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:40:20.504 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:40:21.307 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:40:21.311 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:40:22.076 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:40:22.078 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:40:22.816 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:40:22.817 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:40:38.795 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:40:38.797 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:40:39.513 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:40:39.517 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:40:40.191 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:40:40.196 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator1 != null) {
+	
+
+}
+
+18:40:40.197 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator1 == null) {
+    throw new IllegalArgumentException("Null 'iterator1' argument.");
+}
+
+18:40:40.197 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator1 == null) {
+    return false;
+}
+
+18:40:40.200 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:40:40.946 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:40:40.947 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:40:56.668 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:40:56.670 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:40:57.438 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:40:57.439 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:41:12.974 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:41:12.977 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:41:13.784 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:41:13.786 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:41:29.582 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:41:29.584 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:41:29.585 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:41:30.290 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:41:30.291 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:41:46.104 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:41:46.106 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:41:46.108 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:41:46.796 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:41:46.797 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:42:02.531 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:42:02.535 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:42:03.237 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:42:03.238 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:42:19.231 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:42:19.233 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:42:19.234 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:42:19.977 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:42:19.978 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:42:35.766 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:42:35.767 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:42:35.769 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:42:36.470 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:42:36.471 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:42:52.106 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:42:52.110 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:42:52.913 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:42:52.914 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:43:09.059 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:43:09.061 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:43:09.062 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:43:09.787 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:43:09.790 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:43:25.413 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:43:25.417 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.jfree.chart.util.ShapeUtilities ===288
+18:43:25.462 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+if (!Arrays.equals(d1, d2)) {
+                return false;
+            }
+18:43:25.468 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (!seg2.equals(d1, d2)) {
+                return false;
+            }
+18:43:25.469 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (!seg1.equals(d1, d2)) {
+                return false;
+            }
+18:43:25.469 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (!done.equals(d1, d2)) {
+                return false;
+            }
+18:43:25.470 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (!d2.equals(d1, d2)) {
+                return false;
+            }
+18:43:25.471 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (!d1.equals(d1, d2)) {
+                return false;
+            }
+18:43:25.472 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (!iterator2.equals(d1, d2)) {
+                return false;
+            }
+18:43:25.472 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (!iterator1.equals(d1, d2)) {
+                return false;
+            }
+18:43:25.473 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (!p1.equals(d1, d2)) {
+                return false;
+            }
+18:43:25.473 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (!p2.equals(d1, d2)) {
+                return false;
+            }
+18:43:25.474 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (!Arrays.equals(seg2, d2)) {
+                return false;
+            }
+18:43:25.475 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (!Arrays.equals(seg1, d2)) {
+                return false;
+            }
+18:43:25.475 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (!Arrays.equals(done, d2)) {
+                return false;
+            }
+18:43:25.476 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (!Arrays.equals(d2, d2)) {
+                return false;
+            }
+18:43:25.477 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (!Arrays.equals(iterator2, d2)) {
+                return false;
+            }
+18:43:25.477 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (!Arrays.equals(iterator1, d2)) {
+                return false;
+            }
+18:43:25.478 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (!Arrays.equals(p1, d2)) {
+                return false;
+            }
+18:43:25.478 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (!Arrays.equals(p2, d2)) {
+                return false;
+            }
+18:43:25.479 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (!Arrays.equals(d1, seg2)) {
+                return false;
+            }
+18:43:25.480 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (!Arrays.equals(d1, seg1)) {
+                return false;
+            }
+18:43:25.480 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (!Arrays.equals(d1, done)) {
+                return false;
+            }
+18:43:25.481 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (!Arrays.equals(d1, d1)) {
+                return false;
+            }
+18:43:25.482 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (!Arrays.equals(d1, iterator2)) {
+                return false;
+            }
+18:43:25.482 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (!Arrays.equals(d1, iterator1)) {
+                return false;
+            }
+18:43:25.483 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (!Arrays.equals(d1, p1)) {
+                return false;
+            }
+18:43:25.484 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (!Arrays.equals(d1, p2)) {
+                return false;
+            }
+18:43:25.485 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:43:26.249 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:43:26.252 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:43:26.899 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:43:26.903 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:43:27.600 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:43:27.605 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:43:28.308 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:43:28.311 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:43:29.030 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:43:29.032 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:43:29.762 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:43:29.764 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:43:30.430 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:43:30.433 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:43:31.134 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:43:31.135 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:43:31.813 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:43:31.815 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:43:32.491 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:43:32.494 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:43:33.211 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:43:33.214 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:43:33.931 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:43:33.933 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:43:34.629 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:43:34.630 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:43:50.032 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:43:50.033 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:43:50.797 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:43:50.800 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:43:51.536 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:43:51.538 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:43:52.315 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:43:52.319 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:43:53.092 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:43:53.096 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:43:53.792 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:43:53.795 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:43:54.465 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:43:54.466 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:43:55.185 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:43:55.187 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:43:55.927 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:43:55.928 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:44:11.782 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:44:11.783 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:44:12.535 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:44:12.538 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:44:13.329 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:44:13.331 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:44:14.101 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:44:14.103 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:44:14.759 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:44:14.761 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (d1 != null) {
+	
+
+}
+
+18:44:14.763 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (d1 == null) {
+    throw new IllegalArgumentException("Null 'd1' argument.");
+}
+
+18:44:14.763 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (d1 == null) {
+    return false;
+}
+
+18:44:14.765 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (d2 != null) {
+	
+
+}
+
+18:44:14.766 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (d2 == null) {
+    throw new IllegalArgumentException("Null 'd2' argument.");
+}
+
+18:44:14.766 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (d2 == null) {
+    return false;
+}
+
+18:44:14.768 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:44:15.536 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:44:15.540 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:44:31.232 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:44:31.236 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:44:31.995 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:44:31.996 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:44:48.779 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:44:48.784 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:44:49.512 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:44:49.513 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:45:04.789 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:45:04.791 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:45:05.643 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:45:05.644 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:45:21.392 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:45:21.395 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:45:22.131 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:45:22.132 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:45:37.685 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:45:37.690 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:45:38.425 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:45:38.426 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:45:54.077 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:45:54.080 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: return false;
+18:45:54.081 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+18:45:54.082 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:45:54.761 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:45:54.764 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:45:55.498 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:45:55.499 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:46:11.005 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:46:11.009 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:46:11.011 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:46:11.732 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:46:11.732 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:46:27.697 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:46:27.699 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:46:27.701 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:46:28.418 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:46:28.419 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:46:43.958 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:46:43.960 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:46:44.674 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:46:44.675 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:47:00.579 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:47:00.580 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:47:00.582 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:47:01.311 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:47:01.312 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:47:17.720 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:47:17.723 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:47:17.725 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:47:18.458 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:47:18.459 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:47:34.366 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:47:34.369 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:47:35.102 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:47:35.103 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:47:50.938 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:47:50.940 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:47:50.941 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:47:51.637 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:47:51.638 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:48:07.509 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:48:07.515 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:48:07.518 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:48:08.211 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:48:08.212 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:48:23.987 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:48:23.990 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:48:24.692 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:48:24.692 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:48:40.632 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:48:40.634 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:48:40.636 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:48:41.380 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:48:41.381 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:48:57.045 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:48:57.049 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:48:57.050 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:48:57.820 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:48:57.821 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:49:13.936 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:49:13.938 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:49:14.652 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:49:14.653 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:49:32.251 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:49:32.253 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:49:32.255 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:49:33.287 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:49:33.288 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:49:55.224 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:49:55.227 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.jfree.chart.util.ShapeUtilities ===285
+18:49:55.283 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+if (seg1 != seg2) {
+                return false;
+            }
+18:49:55.285 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (seg1 == seg2) {
+                return false;
+            }
+18:49:55.287 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:49:56.212 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:49:56.214 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:50:13.409 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:50:13.413 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (seg2 != seg2) {
+                return false;
+            }
+18:50:13.414 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (done != seg2) {
+                return false;
+            }
+18:50:13.415 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (d2 != seg2) {
+                return false;
+            }
+18:50:13.415 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (d1 != seg2) {
+                return false;
+            }
+18:50:13.416 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator2 != seg2) {
+                return false;
+            }
+18:50:13.417 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator1 != seg2) {
+                return false;
+            }
+18:50:13.417 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (p1 != seg2) {
+                return false;
+            }
+18:50:13.418 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (p2 != seg2) {
+                return false;
+            }
+18:50:13.419 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (seg1 != seg1) {
+                return false;
+            }
+18:50:13.419 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (seg1 != done) {
+                return false;
+            }
+18:50:13.420 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (seg1 != d2) {
+                return false;
+            }
+18:50:13.421 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (seg1 != d1) {
+                return false;
+            }
+18:50:13.422 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (seg1 != iterator2) {
+                return false;
+            }
+18:50:13.422 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (seg1 != iterator1) {
+                return false;
+            }
+18:50:13.423 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (seg1 != p1) {
+                return false;
+            }
+18:50:13.423 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (seg1 != p2) {
+                return false;
+            }
+18:50:13.425 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:50:14.233 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:50:14.234 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:50:32.218 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:50:32.225 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:50:33.451 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:50:33.458 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:50:34.742 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:50:34.745 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:50:35.787 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:50:35.790 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:50:36.745 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:50:36.749 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:50:37.639 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:50:37.643 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:50:38.547 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:50:38.549 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:50:39.460 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:50:39.465 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:50:40.567 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:50:40.569 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:51:03.887 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:51:03.891 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:51:04.621 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:51:04.625 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:51:05.366 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:51:05.368 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:51:06.134 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:51:06.136 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:51:06.825 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:51:06.827 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:51:07.575 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:51:07.581 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:51:08.327 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:51:08.329 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:51:09.139 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:51:09.144 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: return false;
+18:51:09.145 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+18:51:09.151 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:51:09.951 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:51:09.953 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:51:10.761 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:51:10.762 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:51:27.179 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:51:27.180 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:51:27.182 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:51:27.976 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:51:27.977 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:51:46.083 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:51:46.086 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:51:46.087 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:51:46.981 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:51:46.982 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:52:04.520 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:52:04.523 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:52:05.509 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:52:05.510 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:52:23.770 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:52:23.774 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:52:23.777 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:52:24.622 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:52:24.623 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:52:49.080 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:52:49.083 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:52:49.085 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:52:49.997 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:52:49.998 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:53:16.339 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:53:16.351 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:53:18.025 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:53:18.027 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:53:48.205 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:53:48.212 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:53:48.213 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:53:49.001 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:53:49.002 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:54:05.898 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:54:05.904 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:54:05.907 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:54:06.759 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:54:06.760 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:54:29.844 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:54:29.849 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:54:30.840 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:54:30.841 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:54:50.125 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:54:50.128 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:54:50.131 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:54:50.854 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:54:50.855 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:55:08.772 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:55:08.774 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.jfree.chart.util.ShapeUtilities ===284
+18:55:08.810 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+int seg2 = iterator2.currentSegment(d2);
+18:55:08.813 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg2 = seg2.currentSegment(d2);
+18:55:08.813 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg2 = seg1.currentSegment(d2);
+18:55:08.814 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg2 = done.currentSegment(d2);
+18:55:08.814 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg2 = d2.currentSegment(d2);
+18:55:08.815 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg2 = d1.currentSegment(d2);
+18:55:08.816 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg2 = iterator1.currentSegment(d2);
+18:55:08.816 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg2 = p1.currentSegment(d2);
+18:55:08.817 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg2 = p2.currentSegment(d2);
+18:55:08.818 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg2 = iterator2.currentSegment(seg2);
+18:55:08.818 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg2 = iterator2.currentSegment(seg1);
+18:55:08.819 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg2 = iterator2.currentSegment(done);
+18:55:08.819 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg2 = iterator2.currentSegment(d1);
+18:55:08.820 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg2 = iterator2.currentSegment(iterator2);
+18:55:08.820 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg2 = iterator2.currentSegment(iterator1);
+18:55:08.821 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg2 = iterator2.currentSegment(p1);
+18:55:08.822 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg2 = iterator2.currentSegment(p2);
+18:55:08.823 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:55:09.669 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:55:09.671 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:55:10.409 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:55:10.410 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:55:11.182 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:55:11.186 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:55:11.865 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:55:11.866 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:55:12.608 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:55:12.610 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:55:13.433 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:55:13.434 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:55:35.108 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:55:35.113 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:55:36.004 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:55:36.008 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:55:36.957 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:55:36.962 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:55:37.961 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:55:37.963 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:55:38.866 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:55:38.870 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:55:40.177 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:55:40.188 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:55:41.335 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:55:41.338 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:56:02.066 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:56:02.089 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:56:03.100 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:56:03.107 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:56:04.031 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:56:04.036 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:56:04.917 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:56:04.923 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:56:05.749 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+18:56:05.753 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator2 != null) {
+	
+
+}
+
+18:56:05.754 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator2 == null) {
+    throw new IllegalArgumentException("Null 'iterator2' argument.");
+}
+
+18:56:05.755 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator2 == null) {
+    return false;
+}
+
+18:56:05.756 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (d2 != null) {
+	
+
+}
+
+18:56:05.757 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (d2 == null) {
+    throw new IllegalArgumentException("Null 'd2' argument.");
+}
+
+18:56:05.757 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (d2 == null) {
+    return false;
+}
+
+18:56:05.762 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:56:06.765 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:56:06.766 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:56:25.347 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:56:25.356 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:56:26.494 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:56:26.495 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:56:46.432 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:56:46.436 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:56:47.574 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:56:47.575 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:57:05.910 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:57:05.915 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:57:06.789 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:57:06.791 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:57:24.931 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:57:24.937 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:57:25.720 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:57:25.721 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:57:43.689 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:57:43.691 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:57:44.645 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:57:44.646 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:58:02.602 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:58:02.609 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:58:02.613 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:58:03.481 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:58:03.482 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:58:21.074 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:58:21.080 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: final int seg2 = iterator2.currentSegment(d2);
+18:58:21.081 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:58:21.918 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:58:21.919 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:58:38.602 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+18:58:38.609 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:58:38.610 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:58:39.519 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:58:39.520 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:58:58.211 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:58:58.215 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:58:58.216 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:58:58.976 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:58:58.977 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:59:17.269 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:59:17.276 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:59:18.098 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:59:18.099 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:59:35.390 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:59:35.392 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:59:35.394 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:59:36.109 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:59:36.111 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+18:59:52.714 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+18:59:52.715 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+18:59:52.717 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+18:59:53.617 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+18:59:53.618 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:00:10.465 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:00:10.466 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:00:11.205 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:00:11.206 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:00:28.172 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:00:28.175 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:00:28.176 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:00:28.927 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:00:28.928 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:00:46.551 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:00:46.552 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:00:46.554 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:00:47.453 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:00:47.454 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:01:04.172 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:01:04.175 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:01:04.928 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:01:04.928 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:01:21.507 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:01:21.512 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:01:21.515 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:01:22.251 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:01:22.252 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:01:39.591 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:01:39.594 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:01:39.595 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:01:40.401 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:01:40.405 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:01:58.014 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:01:58.020 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:01:59.050 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:01:59.052 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:02:19.191 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:02:19.195 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:02:19.197 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:02:19.908 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:02:19.909 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:02:37.223 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:02:37.227 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.jfree.chart.util.ShapeUtilities ===283
+19:02:37.263 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+int seg1 = iterator1.currentSegment(d1);
+19:02:37.268 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg1 = seg1.currentSegment(d1);
+19:02:37.269 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg1 = done.currentSegment(d1);
+19:02:37.273 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg1 = d2.currentSegment(d1);
+19:02:37.274 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg1 = d1.currentSegment(d1);
+19:02:37.275 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg1 = iterator2.currentSegment(d1);
+19:02:37.275 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg1 = p1.currentSegment(d1);
+19:02:37.276 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg1 = p2.currentSegment(d1);
+19:02:37.277 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg1 = iterator1.currentSegment(seg1);
+19:02:37.278 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg1 = iterator1.currentSegment(done);
+19:02:37.279 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg1 = iterator1.currentSegment(d2);
+19:02:37.280 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg1 = iterator1.currentSegment(iterator2);
+19:02:37.280 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg1 = iterator1.currentSegment(iterator1);
+19:02:37.281 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg1 = iterator1.currentSegment(p1);
+19:02:37.282 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int seg1 = iterator1.currentSegment(p2);
+19:02:37.286 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:02:38.104 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:02:38.108 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:02:39.022 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:02:39.029 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:02:39.829 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:02:39.833 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:02:40.836 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:02:40.842 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:02:41.838 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:02:41.839 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:03:02.090 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:03:02.093 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:03:02.849 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:03:02.852 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:03:03.686 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:03:03.688 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:03:04.539 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:03:04.541 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:03:05.309 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:03:05.313 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:03:06.195 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:03:06.196 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:03:23.891 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:03:23.893 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:03:24.642 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:03:24.646 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:03:25.403 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:03:25.407 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:03:26.164 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:03:26.168 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:03:27.148 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:03:27.154 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator1 != null) {
+	
+
+}
+
+19:03:27.155 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator1 == null) {
+    throw new IllegalArgumentException("Null 'iterator1' argument.");
+}
+
+19:03:27.156 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator1 == null) {
+    return false;
+}
+
+19:03:27.157 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (d1 != null) {
+	
+
+}
+
+19:03:27.157 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (d1 == null) {
+    throw new IllegalArgumentException("Null 'd1' argument.");
+}
+
+19:03:27.158 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (d1 == null) {
+    return false;
+}
+
+19:03:27.160 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:03:28.077 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:03:28.078 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:03:46.129 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:03:46.131 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:03:46.931 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:03:46.932 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:04:05.141 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:04:05.145 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:04:05.994 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:04:05.995 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:04:22.603 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:04:22.605 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:04:23.423 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:04:23.424 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:04:39.904 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:04:39.909 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:04:40.765 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:04:40.766 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:04:57.137 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:04:57.139 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:04:57.928 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:04:57.929 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:05:16.357 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:05:16.361 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:05:16.363 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:05:17.351 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:05:17.353 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:05:35.253 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:05:35.260 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: final int seg1 = iterator1.currentSegment(d1);
+19:05:35.265 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:05:36.046 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:05:36.047 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:05:52.716 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:05:52.718 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:05:52.720 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:05:53.476 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:05:53.477 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:06:09.990 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:06:09.993 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:06:09.994 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:06:10.825 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:06:10.826 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:06:27.236 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:06:27.238 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:06:28.150 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:06:28.151 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:06:44.862 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:06:44.864 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:06:44.866 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:06:45.647 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:06:45.648 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:07:02.352 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:07:02.354 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:07:02.355 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:07:03.207 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:07:03.208 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:07:19.725 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:07:19.728 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:07:20.605 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:07:20.606 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:07:37.024 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:07:37.028 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:07:37.029 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:07:37.867 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:07:37.868 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:07:54.322 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:07:54.324 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:07:54.325 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:07:55.190 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:07:55.191 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:08:11.365 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:08:11.372 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:08:12.227 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:08:12.228 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:08:28.728 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:08:28.732 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:08:28.734 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:08:29.539 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:08:29.540 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:08:45.869 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:08:45.871 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:08:45.872 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:08:46.608 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:08:46.609 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:09:03.179 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:09:03.184 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:09:03.962 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:09:03.963 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:09:20.435 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:09:20.439 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:09:20.441 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:09:21.308 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:09:21.309 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:09:37.854 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:09:37.858 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.jfree.chart.util.ShapeUtilities ===280
+19:09:37.894 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+if (iterator1.isDone() != iterator2.isDone()) {
+                return false;
+            }
+19:09:37.900 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator1.isDone() == iterator2.isDone()) {
+                return false;
+            }
+19:09:37.901 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:09:38.699 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:09:38.700 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:09:54.994 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:09:55.000 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (done.isDone() != iterator2.isDone()) {
+                return false;
+            }
+19:09:55.001 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (d2.isDone() != iterator2.isDone()) {
+                return false;
+            }
+19:09:55.001 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (d1.isDone() != iterator2.isDone()) {
+                return false;
+            }
+19:09:55.002 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator2.isDone() != iterator2.isDone()) {
+                return false;
+            }
+19:09:55.003 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (p1.isDone() != iterator2.isDone()) {
+                return false;
+            }
+19:09:55.003 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (p2.isDone() != iterator2.isDone()) {
+                return false;
+            }
+19:09:55.004 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator1.isDone() != done.isDone()) {
+                return false;
+            }
+19:09:55.004 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator1.isDone() != d2.isDone()) {
+                return false;
+            }
+19:09:55.005 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator1.isDone() != d1.isDone()) {
+                return false;
+            }
+19:09:55.006 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator1.isDone() != iterator1.isDone()) {
+                return false;
+            }
+19:09:55.006 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator1.isDone() != p1.isDone()) {
+                return false;
+            }
+19:09:55.007 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator1.isDone() != p2.isDone()) {
+                return false;
+            }
+19:09:55.008 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:09:55.728 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:09:55.732 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:09:56.464 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:09:56.468 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:09:57.215 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:09:57.218 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:09:58.033 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:09:58.035 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:10:14.398 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:10:14.402 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:10:15.128 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:10:15.130 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:10:15.864 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:10:15.865 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:10:16.654 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:10:16.657 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:10:17.339 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:10:17.341 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:10:18.071 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:10:18.073 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:10:18.900 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:10:18.901 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:10:35.743 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:10:35.747 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:10:36.580 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:10:36.582 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:10:37.284 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:10:37.286 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator1 != null) {
+	
+
+}
+
+19:10:37.286 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator1 == null) {
+    throw new IllegalArgumentException("Null 'iterator1' argument.");
+}
+
+19:10:37.287 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator1 == null) {
+    return false;
+}
+
+19:10:37.288 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator2 != null) {
+	
+
+}
+
+19:10:37.288 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator2 == null) {
+    throw new IllegalArgumentException("Null 'iterator2' argument.");
+}
+
+19:10:37.289 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator2 == null) {
+    return false;
+}
+
+19:10:37.290 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:10:38.167 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:10:38.169 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:10:54.511 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:10:54.515 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:10:55.349 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:10:55.350 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:11:11.677 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:11:11.680 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:11:12.590 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:11:12.591 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:11:29.169 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:11:29.174 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:11:29.946 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:11:29.947 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:11:46.488 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:11:46.492 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:11:47.367 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:11:47.368 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:12:03.457 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:12:03.461 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:12:04.325 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:12:04.326 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:12:20.558 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:12:20.563 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: return false;
+19:12:20.564 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+19:12:20.567 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:12:21.315 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:12:21.316 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:12:22.106 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:12:22.107 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:12:38.449 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:12:38.453 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:12:38.454 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:12:39.320 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:12:39.321 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:12:55.389 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:12:55.394 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:12:55.399 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:12:56.206 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:12:56.207 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:13:12.145 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:13:12.149 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:13:12.931 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:13:12.932 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:13:28.777 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:13:28.779 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:13:28.782 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:13:29.539 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:13:29.541 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:13:48.658 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:13:48.665 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:13:48.667 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:13:49.452 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:13:49.453 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:14:06.857 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:14:06.859 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:14:07.734 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:14:07.735 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:14:24.452 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:14:24.453 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:14:24.456 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:14:25.193 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:14:25.193 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:14:41.816 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:14:41.820 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:14:41.821 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:14:42.550 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:14:42.551 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:14:58.889 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:14:58.892 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:14:59.622 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:14:59.622 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:15:16.103 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:15:16.106 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:15:16.108 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:15:16.962 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:15:16.964 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:15:33.209 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:15:33.212 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:15:33.214 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:15:34.079 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:15:34.080 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:15:50.603 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:15:50.606 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:15:51.358 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:15:51.359 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:16:07.676 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:16:07.679 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:16:07.680 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:16:08.423 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:16:08.424 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:16:24.787 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:16:24.789 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.jfree.chart.util.ShapeUtilities ===279
+19:16:24.855 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+while (!done) {
+            if (iterator1.isDone() != iterator2.isDone()) {
+                return false;
+            }
+            int seg1 = iterator1.currentSegment(d1);
+            int seg2 = iterator2.currentSegment(d2);
+            if (seg1 != seg2) {
+                return false;
+            }
+            if (!Arrays.equals(d1, d2)) {
+                return false;
+            }
+            iterator1.next();
+            iterator2.next();
+            done = iterator1.isDone() && iterator2.isDone();
+        }
+19:16:24.860 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.jfree.chart.util.ShapeUtilities ===278
+19:16:24.914 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+boolean done = iterator1.isDone() && iterator2.isDone();
+19:16:24.918 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: boolean done = done.isDone() && iterator2.isDone();
+19:16:24.919 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: boolean done = d2.isDone() && iterator2.isDone();
+19:16:24.920 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: boolean done = d1.isDone() && iterator2.isDone();
+19:16:24.921 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: boolean done = iterator2.isDone() && iterator2.isDone();
+19:16:24.922 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: boolean done = p1.isDone() && iterator2.isDone();
+19:16:24.923 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: boolean done = p2.isDone() && iterator2.isDone();
+19:16:24.923 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: boolean done = iterator1.isDone() && done.isDone();
+19:16:24.924 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: boolean done = iterator1.isDone() && d2.isDone();
+19:16:24.925 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: boolean done = iterator1.isDone() && d1.isDone();
+19:16:24.926 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: boolean done = iterator1.isDone() && iterator1.isDone();
+19:16:24.927 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: boolean done = iterator1.isDone() && p1.isDone();
+19:16:24.928 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: boolean done = iterator1.isDone() && p2.isDone();
+19:16:24.931 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:16:25.686 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:16:25.689 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:16:26.391 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:16:26.392 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:16:27.084 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:16:27.087 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:16:27.848 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:16:27.851 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:16:44.250 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:16:44.252 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:16:45.060 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:16:45.063 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:16:45.737 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:16:45.739 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:16:46.519 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:16:46.521 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:16:47.234 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:16:47.236 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:16:48.045 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:16:48.046 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:16:48.808 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:16:48.810 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:17:05.579 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:17:05.584 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:17:06.313 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:17:06.334 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:17:07.090 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:17:07.092 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator1 != null) {
+	
+
+}
+
+19:17:07.093 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator1 == null) {
+    throw new IllegalArgumentException("Null 'iterator1' argument.");
+}
+
+19:17:07.094 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator1 == null) {
+    return false;
+}
+
+19:17:07.094 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator2 != null) {
+	
+
+}
+
+19:17:07.095 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator2 == null) {
+    throw new IllegalArgumentException("Null 'iterator2' argument.");
+}
+
+19:17:07.095 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (iterator2 == null) {
+    return false;
+}
+
+19:17:07.097 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:17:07.851 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:17:07.852 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:17:24.447 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:17:24.451 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:17:25.262 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:17:25.263 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:17:42.020 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:17:42.022 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:17:42.759 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:17:42.760 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:17:58.832 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:17:58.834 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:17:59.616 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:17:59.616 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:18:15.632 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:18:15.636 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:18:16.377 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:18:16.378 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:18:34.130 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:18:34.132 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:18:35.244 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:18:35.245 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:18:55.107 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:18:55.110 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:18:55.118 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:18:56.035 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:18:56.036 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:19:16.104 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:19:16.107 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: final boolean done = iterator1.isDone() && iterator2.isDone();
+19:19:16.110 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:19:16.946 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:19:16.948 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:19:16.950 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:19:18.027 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:19:18.028 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:19:38.621 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:19:39.306 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:19:39.307 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:19:40.289 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:19:40.290 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:20:00.593 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:20:00.596 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:20:01.494 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:20:01.495 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:20:21.340 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:20:21.342 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:20:21.346 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:20:22.368 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:20:22.369 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:20:43.617 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:20:43.620 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:20:43.621 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:20:44.555 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:20:44.556 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:21:03.436 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:21:03.439 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:21:04.354 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:21:04.355 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:21:24.002 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:21:24.005 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:21:24.006 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:21:25.065 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:21:25.066 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:21:44.706 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:21:44.708 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:21:44.710 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:21:45.745 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:21:45.746 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:22:06.278 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:22:06.281 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:22:07.149 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:22:07.150 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:22:26.986 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:22:26.992 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:22:26.995 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:22:27.913 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:22:27.914 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:22:46.388 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:22:46.391 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:22:46.392 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:22:47.160 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:22:47.161 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:23:03.588 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:23:03.591 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:23:04.358 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:23:04.359 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:23:21.201 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:23:21.209 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:23:21.211 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:23:21.933 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:23:21.934 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:23:37.629 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:23:37.630 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:23:37.632 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:23:38.310 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:23:38.310 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:23:54.185 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:23:54.187 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:23:54.868 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:23:54.869 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:24:10.891 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:24:10.895 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:24:10.898 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:24:11.747 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:24:11.748 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:24:27.795 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:24:27.797 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:24:27.798 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:24:28.509 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:24:28.510 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:24:44.593 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:24:44.597 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:24:45.363 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:24:45.364 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:25:01.295 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:25:01.296 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:25:01.298 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:25:02.145 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:25:02.146 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:25:18.132 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:25:18.135 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.jfree.chart.util.ShapeUtilities ===277
+19:25:18.162 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+double[] d2 = new double[6];
+19:25:18.166 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:25:18.168 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:25:18.878 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:25:18.880 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: final double[] d2 = new double[6];
+19:25:18.881 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:25:19.688 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:25:19.689 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:25:35.383 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:25:35.385 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:25:35.387 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:25:36.106 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:25:36.107 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:25:51.907 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:25:51.909 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:25:51.910 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:25:52.775 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:25:52.776 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:26:08.557 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:26:08.559 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:26:09.384 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:26:09.384 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:26:25.444 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:26:25.446 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:26:25.447 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:26:26.270 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:26:26.271 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:26:42.195 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:26:42.196 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:26:42.198 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:26:42.908 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:26:42.909 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:26:58.885 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:26:58.888 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:26:59.674 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:26:59.675 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:27:15.605 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:27:15.609 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:27:15.613 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:27:16.307 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:27:16.308 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:27:32.323 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:27:32.326 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:27:32.328 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:27:33.074 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:27:33.075 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:27:49.240 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:27:49.241 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:27:50.069 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:27:50.070 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:28:05.680 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:28:05.684 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:28:05.687 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:28:06.394 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:28:06.396 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:28:22.224 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:28:22.228 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:28:22.231 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:28:22.942 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:28:22.943 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:28:38.599 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:28:38.601 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:28:39.442 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:28:39.443 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:28:55.512 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:28:55.516 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:28:55.518 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:28:56.222 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:28:56.222 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:29:12.456 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:29:12.461 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:29:12.462 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:29:13.240 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:29:13.241 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:29:29.317 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:29:29.320 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:29:30.078 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:29:30.078 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:29:45.640 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:29:45.644 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:29:45.647 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:29:46.486 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:29:46.487 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:30:02.799 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:30:02.800 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:30:02.802 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:30:03.513 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:30:03.514 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:30:19.204 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:30:19.209 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:30:19.904 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:30:19.905 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:30:35.824 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:30:35.826 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:30:35.828 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:30:36.604 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:30:36.605 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:30:53.026 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:30:53.030 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.jfree.chart.util.ShapeUtilities ===276
+19:30:53.084 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+double[] d1 = new double[6];
+19:30:53.089 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:30:53.094 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:30:53.788 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:30:53.792 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: final double[] d1 = new double[6];
+19:30:53.794 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:30:54.602 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:30:54.602 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:31:10.214 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 1 Chart_11
+19:31:10.216 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:31:10.217 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:31:10.973 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:31:10.973 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:31:26.822 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:31:26.825 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:31:26.827 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:31:27.551 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:31:27.552 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:31:43.659 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:31:43.663 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:31:44.423 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:31:44.424 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:32:01.024 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:32:01.025 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:32:01.026 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:32:01.721 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:32:01.722 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:32:18.133 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:32:18.136 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:32:18.139 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:32:18.923 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:32:18.924 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:32:35.034 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:32:35.038 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:32:35.737 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:32:35.738 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:32:51.898 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:32:51.903 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:32:51.906 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:32:52.704 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:32:52.705 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:33:08.698 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:33:08.703 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:33:08.704 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:33:09.422 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:33:09.424 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:33:25.543 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:33:25.545 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:33:26.256 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:33:26.257 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:33:41.842 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:33:41.845 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:33:41.848 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:33:42.550 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:33:42.551 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:33:59.119 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:33:59.122 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:33:59.125 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:33:59.838 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:33:59.839 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:34:15.544 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:34:15.547 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:34:16.406 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:34:16.406 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:34:32.021 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:34:32.024 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:34:32.028 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:34:32.855 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:34:32.856 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:34:48.836 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:34:48.842 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:34:48.845 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:34:49.579 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:34:49.580 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:35:06.135 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:35:06.137 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:35:06.900 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:35:06.901 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:35:23.776 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:35:23.778 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:35:23.780 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:35:24.559 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:35:24.560 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:35:40.644 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:35:40.646 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:35:40.647 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:35:41.474 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:35:41.475 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:35:57.242 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:35:57.245 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:35:57.945 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:35:57.946 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:36:14.064 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:36:14.068 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:36:14.071 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:36:15.155 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:36:15.156 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:36:31.058 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 16 Chart_11
+19:36:31.061 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.jfree.chart.util.ShapeUtilities ===275
+19:36:31.090 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+PathIterator iterator2 = p1.getPathIterator(null);
+19:36:31.094 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: PathIterator iterator2 = iterator2.getPathIterator(null);
+19:36:31.095 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: PathIterator iterator2 = iterator1.getPathIterator(null);
+19:36:31.096 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: PathIterator iterator2 = p2.getPathIterator(null);
+19:36:31.097 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:36:31.870 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:36:31.871 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:36:32.588 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:36:32.590 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:36:33.294 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+19:36:33.295 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+19:36:49.153 [main] INFO edu.lu.uni.serval.avatar.AbstractFixer - Succeeded to fix the bug Chart_11====================
+19:36:49.174 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+19:36:49.176 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+19:36:49.904 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_11 ---Fixer: fix fail because of failed compiling! 
+19:36:49.906 [main] INFO edu.lu.uni.serval.avatar.Avatar - =======StaticBugFixer: Finish off fixing======
+Succeeded to fix bug Chart_11
+
+real	72m11.856s
+user	110m29.936s
+sys	8m5.030s

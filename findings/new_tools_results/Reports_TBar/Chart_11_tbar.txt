@@ -1,0 +1,25 @@
+Chart_11
+2020-12-05 11:12:02.077 [main] INFO  edu.lu.uni.serval.tbar.AbstractFixer - Chart_11 Failed Tests: 1
+2020-12-05 11:12:02.829 [main] INFO  edu.lu.uni.serval.tbar.TBarFixer - =======StaticBugFixer: Start to fix suspicious code======
+2020-12-05 12:01:31.584 [main] INFO  edu.lu.uni.serval.tbar.AbstractFixer - Succeeded to fix the bug Chart_11====================
+diff --git a/source/org/jfree/chart/util/ShapeUtilities.java b/source/org/jfree/chart/util/ShapeUtilities.java
+index 31aa6c6..f49ecb5 100644
+--- a/source/org/jfree/chart/util/ShapeUtilities.java
++++ b/source/org/jfree/chart/util/ShapeUtilities.java
+@@ -272,7 +272,7 @@ public class ShapeUtilities {
+             return false;
+         }
+         PathIterator iterator1 = p1.getPathIterator(null);
+-        PathIterator iterator2 = p1.getPathIterator(null);
++        PathIterator iterator2 = p2.getPathIterator(null);
+         double[] d1 = new double[6];
+         double[] d2 = new double[6];
+         boolean done = iterator1.isDone() && iterator2.isDone();
+2020-12-05 12:01:31.608 [main] INFO  edu.lu.uni.serval.tbar.TBarFixer - =======StaticBugFixer: Finish off fixing======
+Succeeded to fix bug Chart_11
+
+apiarty> time ./NormalFLTBarRunner.sh /TBar/D4J/projects/ Chart_11 /TBar/D4J/defects4j/ > /apiarty/data/Chart_11_tbar.txt
+
+real	49m47.193s
+user	76m30.243s
+sys	5m14.232s

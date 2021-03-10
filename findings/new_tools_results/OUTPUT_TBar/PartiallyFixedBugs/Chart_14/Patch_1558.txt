@@ -1,0 +1,20 @@
+diff --git a/source/org/jfree/chart/plot/CategoryPlot.java b/source/org/jfree/chart/plot/CategoryPlot.java
+index dc7d06b..e8c6d14 100644
+--- a/source/org/jfree/chart/plot/CategoryPlot.java
++++ b/source/org/jfree/chart/plot/CategoryPlot.java
+@@ -2437,14 +2437,8 @@ public class CategoryPlot extends Plot implements ValueAxisPlot,
+             throw new IllegalArgumentException("Null 'marker' argument.");
+         }
+         ArrayList markers;
+-        if (layer == Layer.FOREGROUND) {
+-            markers = (ArrayList) this.foregroundRangeMarkers.get(new Integer(
++        markers = (ArrayList) this.backgroundRangeMarkers.get(new Integer(
+                     index));
+-        }
+-        else {
+-            markers = (ArrayList) this.backgroundRangeMarkers.get(new Integer(
+-                    index));
+-        }
+         boolean removed = markers.remove(marker);
+         if (removed && notify) {
+             fireChangeEvent();

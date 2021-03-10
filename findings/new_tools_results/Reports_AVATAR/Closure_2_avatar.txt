@@ -1,0 +1,24 @@
+Closure_2
+18:47:52.113 [main] INFO edu.lu.uni.serval.avatar.AbstractFixer - Closure_2 Failed Tests: 1
+Cannot find the suspicious code position file.SuspiciousCodePositions/Closure_2/ochiai.txt
+Closure_2
+18:53:03.984 [main] ERROR edu.lu.uni.serval.faultlocalization.FL - Closure_2
+null
+
+java.lang.NullPointerException
+	at com.gzoltar.core.GZoltar.run(GZoltar.java:51)
+	at edu.lu.uni.serval.faultlocalization.GZoltarFaultLoclaization.localizeSuspiciousCodeWithGZoltar(GZoltarFaultLoclaization.java:100)
+	at edu.lu.uni.serval.faultlocalization.FL.locateSuspiciousCode(FL.java:74)
+	at edu.lu.uni.serval.avatar.AbstractFixer.readSuspiciousCodeFromFile(AbstractFixer.java:144)
+	at edu.lu.uni.serval.avatar.Avatar.fixProcess(Avatar.java:58)
+	at edu.lu.uni.serval.main.Main.fixBug(Main.java:54)
+	at edu.lu.uni.serval.main.Main.main(Main.java:28)
+Exception in thread "main" java.lang.NullPointerException
+	at edu.lu.uni.serval.avatar.AbstractFixer.readSuspiciousCodeFromFile(AbstractFixer.java:147)
+	at edu.lu.uni.serval.avatar.Avatar.fixProcess(Avatar.java:58)
+	at edu.lu.uni.serval.main.Main.fixBug(Main.java:54)
+	at edu.lu.uni.serval.main.Main.main(Main.java:28)
+
+real	7m30.891s
+user	13m27.219s
+sys	0m20.178s

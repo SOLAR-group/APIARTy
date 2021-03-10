@@ -1,0 +1,22 @@
+Chart_14
+2020-12-05 12:07:06.628 [main] INFO  edu.lu.uni.serval.tbar.AbstractFixer - Chart_14 Failed Tests: 4
+2020-12-05 12:07:07.445 [main] INFO  edu.lu.uni.serval.tbar.TBarFixer - =======StaticBugFixer: Start to fix suspicious code======
+2020-12-05 12:08:19.815 [main] INFO  edu.lu.uni.serval.tbar.AbstractFixer - Partially Succeeded to fix the bug Chart_14====================
+2020-12-05 12:25:19.388 [main] INFO  edu.lu.uni.serval.tbar.AbstractFixer - Partially Succeeded to fix the bug Chart_14====================
+2020-12-05 12:25:54.770 [main] INFO  edu.lu.uni.serval.tbar.AbstractFixer - Partially Succeeded to fix the bug Chart_14====================
+2020-12-05 14:08:20.890 [main] INFO  edu.lu.uni.serval.tbar.AbstractFixer - Partially Succeeded to fix the bug Chart_14====================
+2020-12-05 14:20:18.463 [main] INFO  edu.lu.uni.serval.tbar.AbstractFixer - Partially Succeeded to fix the bug Chart_14====================
+2020-12-05 14:20:57.070 [main] INFO  edu.lu.uni.serval.tbar.AbstractFixer - Partially Succeeded to fix the bug Chart_14====================
+2020-12-05 14:26:30.457 [main] INFO  edu.lu.uni.serval.tbar.AbstractFixer - Partially Succeeded to fix the bug Chart_14====================
+2020-12-05 14:39:59.228 [main] INFO  edu.lu.uni.serval.tbar.AbstractFixer - Partially Succeeded to fix the bug Chart_14====================
+2020-12-05 14:40:39.521 [main] INFO  edu.lu.uni.serval.tbar.AbstractFixer - Partially Succeeded to fix the bug Chart_14====================
+2020-12-05 14:41:52.088 [main] INFO  edu.lu.uni.serval.tbar.AbstractFixer - Partially Succeeded to fix the bug Chart_14====================
+2020-12-05 14:45:02.777 [main] INFO  edu.lu.uni.serval.tbar.AbstractFixer - Partially Succeeded to fix the bug Chart_14====================
+2020-12-05 15:40:21.037 [main] INFO  edu.lu.uni.serval.tbar.AbstractFixer - Partially Succeeded to fix the bug Chart_14====================
+2020-12-05 15:47:29.651 [main] INFO  edu.lu.uni.serval.tbar.AbstractFixer - Partially Succeeded to fix the bug Chart_14====================
+2020-12-05 16:02:17.423 [main] INFO  edu.lu.uni.serval.tbar.AbstractFixer - Partially Succeeded to fix the bug Chart_14====================
+2020-12-05 16:02:53.074 [main] INFO  edu.lu.uni.serval.tbar.AbstractFixer - Partially Succeeded to fix the bug Chart_14====================
+
+real	259m29.371s
+user	409m18.877s
+sys	26m46.695s

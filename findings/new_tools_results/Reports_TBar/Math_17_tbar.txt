@@ -1,0 +1,7 @@
+Math_17
+2020-12-06 19:56:45.712 [main] INFO  edu.lu.uni.serval.tbar.AbstractFixer - Math_17 Failed Tests: 1
+2020-12-06 19:56:46.495 [main] INFO  edu.lu.uni.serval.tbar.TBarFixer - =======StaticBugFixer: Start to fix suspicious code======
+
+real	635m4.067s
+user	994m37.398s
+sys	22m6.112s

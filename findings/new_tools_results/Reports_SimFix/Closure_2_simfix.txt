@@ -1,0 +1,28 @@
+apiarty> ./sbfl.sh Closure 2 projects/closure/closure_2_buggy/
+Picked up _JAVA_OPTIONS: -XX:MaxHeapSize=1024m -Xmx4096m
+Running ant (export.cp.test)............................................... OK
+
+There is not a /SimFix/sbfl/spectra/Closure/2/matrix file!
+Traceback (most recent call last):
+  File "/SimFix/sbfl/analysis/pipeline-scripts/crush-matrix", line 214, in <module>
+    with open(args.element_names) as name_file:
+IOError: [Errno 2] No such file or directory: '/SimFix/sbfl/spectra/Closure/2/spectra'
+
+apiarty> time ./FLFix.sh Closure_2 > /apiarty/data/Closure_2_avatar.txt
+java.lang.NullPointerException
+	at com.gzoltar.core.GZoltar.run(GZoltar.java:51)
+	at edu.lu.uni.serval.faultlocalization.GZoltarFaultLoclaization.localizeSuspiciousCodeWithGZoltar(GZoltarFaultLoclaization.java:100)
+	at edu.lu.uni.serval.faultlocalization.FL.locateSuspiciousCode(FL.java:74)
+	at edu.lu.uni.serval.avatar.AbstractFixer.readSuspiciousCodeFromFile(AbstractFixer.java:144)
+	at edu.lu.uni.serval.avatar.Avatar.fixProcess(Avatar.java:58)
+	at edu.lu.uni.serval.main.Main.fixBug(Main.java:54)
+	at edu.lu.uni.serval.main.Main.main(Main.java:28)
+Exception in thread "main" java.lang.NullPointerException
+	at edu.lu.uni.serval.avatar.AbstractFixer.readSuspiciousCodeFromFile(AbstractFixer.java:147)
+	at edu.lu.uni.serval.avatar.Avatar.fixProcess(Avatar.java:58)
+	at edu.lu.uni.serval.main.Main.fixBug(Main.java:54)
+	at edu.lu.uni.serval.main.Main.main(Main.java:28)
+
+real	7m30.891s
+user	13m27.219s
+sys	0m20.178s

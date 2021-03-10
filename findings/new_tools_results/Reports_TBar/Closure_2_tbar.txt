@@ -1,0 +1,7 @@
+Closure_2
+14:10:26.238 [main] INFO edu.lu.uni.serval.tbar.AbstractFixer - Closure_2 Failed Tests: 2147483647
+Failed to defects4j compile bug Closure_2
+
+real	9m23.500s
+user	2m41.747s
+sys	1m55.337s

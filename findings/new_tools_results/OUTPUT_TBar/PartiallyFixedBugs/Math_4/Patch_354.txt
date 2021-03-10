@@ -1,0 +1,14 @@
+diff --git a/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Line.java b/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Line.java
+index 7c9a28f..b2e4293 100644
+--- a/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Line.java
++++ b/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Line.java
+@@ -111,7 +111,8 @@ public class Line implements Embedding<Euclidean3D, Euclidean1D> {
+      * @return abscissa of the point
+      */
+     public double getAbscissa(final Vector3D point) {
+-        return point.subtract(zero).dotProduct(direction);
++        if (!(point != null && point.subtract(zero) != null && zero != null && direction != null)) return 0.0;
++return point.subtract(zero).dotProduct(direction);
+     }
+ 
+     /** Get one point from the line.

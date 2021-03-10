@@ -1,0 +1,7 @@
+Closure_83
+2020-12-06 13:27:04.159 [main] INFO  edu.lu.uni.serval.tbar.AbstractFixer - Closure_83 Failed Tests: 1
+2020-12-06 13:27:04.745 [main] INFO  edu.lu.uni.serval.tbar.TBarFixer - =======StaticBugFixer: Start to fix suspicious code======
+
+real	257m34.353s
+user	360m22.418s
+sys	29m8.938s

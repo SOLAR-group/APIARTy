@@ -1,0 +1,1580 @@
+Lang_47
+13:35:52.325 [main] INFO edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 Failed Tests: 2
+Cannot find the suspicious code position file.SuspiciousCodePositions/Lang_47/ochiai.txt
+Lang_47
+13:36:10.966 [main] INFO edu.lu.uni.serval.faultlocalization.GZoltarFaultLoclaization - Gzoltar Test Result Total: 1829, fails: 2, GZoltar suspicious 8876
+Ochiai
+13:36:11.271 [main] INFO edu.lu.uni.serval.faultlocalization.GZoltarFaultLoclaization - Gzoltar found: 11 with suspiciousness > 0.0, we consider top-11
+13:36:11.277 [main] INFO edu.lu.uni.serval.avatar.Avatar - =======StaticBugFixer: Start to fix suspicious code======
+13:36:11.278 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.apache.commons.lang.text.StrBuilder ===158
+13:36:12.601 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+return nullText;
+13:36:12.619 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: return serialVersionUID;
+13:36:12.621 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: return this.buffer;
+13:36:12.622 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: return this.size;
+13:36:12.624 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: return this.newLine;
+13:36:12.631 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:36:13.543 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:36:13.547 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:36:14.428 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:36:14.433 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:36:15.339 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:36:15.342 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:36:16.444 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:36:16.445 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:36:29.679 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 5 Lang_47
+13:36:29.687 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (nullText != null) {
+	
+
+}
+
+13:36:29.688 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (nullText == null) {
+    throw new IllegalArgumentException("Null 'nullText' argument.");
+}
+
+13:36:29.694 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (nullText == null) {
+    return null;
+}
+
+13:36:29.700 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:36:30.686 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:36:30.691 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:36:31.853 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:36:31.854 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:36:45.278 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 3 Lang_47
+13:36:45.284 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:36:46.370 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:36:46.371 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:36:59.801 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Lang_47
+13:36:59.810 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:36:59.812 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:37:00.836 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:37:00.841 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:37:00.843 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:37:01.746 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:37:01.751 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:37:02.725 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:37:02.730 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:37:02.732 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:37:03.595 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:37:03.600 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.apache.commons.lang.text.StrBuilder ===1186
+13:37:03.880 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+int strLen = str.length();
+13:37:03.883 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int strLen = strLen.length();
+13:37:03.884 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int strLen = obj.length();
+13:37:03.885 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int strLen = width.length();
+13:37:03.885 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int strLen = padChar.length();
+13:37:03.886 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int strLen = serialVersionUID.length();
+13:37:03.887 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int strLen = this.buffer.length();
+13:37:03.889 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int strLen = this.size.length();
+13:37:03.891 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int strLen = this.newLine.length();
+13:37:03.892 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int strLen = this.nullText.length();
+13:37:03.894 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:37:04.929 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:37:04.931 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:37:05.846 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:37:05.851 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:37:06.799 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:37:06.801 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:37:07.742 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:37:07.746 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:37:08.623 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:37:08.626 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:37:09.552 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:37:09.555 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:37:10.453 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:37:10.455 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:37:11.496 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:37:11.498 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:37:24.962 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 4 Lang_47
+13:37:24.969 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:37:26.077 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:37:26.078 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:37:39.347 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 4 Lang_47
+13:37:39.354 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (str != null) {
+	
+
+}
+
+13:37:39.355 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (str == null) {
+    throw new IllegalArgumentException("Null 'str' argument.");
+}
+
+13:37:39.358 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (str == null) {
+    return null;
+}
+
+13:37:39.363 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:37:40.499 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:37:40.499 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:37:53.915 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Lang_47
+13:37:53.919 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:37:54.998 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:37:54.999 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:38:08.200 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Lang_47
+13:38:08.207 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:38:09.329 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:38:09.331 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:38:22.708 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Lang_47
+13:38:22.713 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:38:22.715 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:38:23.794 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:38:23.795 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:38:37.292 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 4 Lang_47
+13:38:37.297 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: final int strLen = str.length();
+13:38:37.301 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:38:38.408 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:38:38.409 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:38:51.965 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Lang_47
+13:38:51.968 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:38:51.971 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:38:52.990 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:38:52.996 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:38:52.998 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:38:53.919 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:38:53.922 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:38:54.817 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:38:54.819 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:38:54.821 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:38:55.746 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:38:55.748 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:38:55.751 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:38:56.649 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:38:56.651 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:38:57.521 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:38:57.524 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:38:57.527 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:38:58.413 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:38:58.419 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:38:58.421 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:38:59.358 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:38:59.363 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:39:00.325 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:39:00.329 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:39:00.332 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:39:01.304 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:39:01.306 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:39:01.309 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:39:02.164 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:39:02.167 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:39:03.064 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:39:03.067 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:39:03.069 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:39:03.990 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:39:03.992 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.apache.commons.lang.text.StrBuilder ===1185
+13:39:04.207 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+String str = (obj == null ? getNullText() : obj.toString());
+13:39:04.212 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (str == null ? getNullText() : obj.toString());
+13:39:04.213 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (width == null ? getNullText() : obj.toString());
+13:39:04.216 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (padChar == null ? getNullText() : obj.toString());
+13:39:04.218 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (serialVersionUID == null ? getNullText() : obj.toString());
+13:39:04.219 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (this.buffer == null ? getNullText() : obj.toString());
+13:39:04.221 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (this.size == null ? getNullText() : obj.toString());
+13:39:04.222 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (this.newLine == null ? getNullText() : obj.toString());
+13:39:04.223 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (this.nullText == null ? getNullText() : obj.toString());
+13:39:04.224 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (obj == null ? getNullText() : str.toString());
+13:39:04.225 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (obj == null ? getNullText() : width.toString());
+13:39:04.226 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (obj == null ? getNullText() : padChar.toString());
+13:39:04.227 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (obj == null ? getNullText() : serialVersionUID.toString());
+13:39:04.228 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (obj == null ? getNullText() : this.buffer.toString());
+13:39:04.229 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (obj == null ? getNullText() : this.size.toString());
+13:39:04.231 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (obj == null ? getNullText() : this.newLine.toString());
+13:39:04.232 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (obj == null ? getNullText() : this.nullText.toString());
+13:39:04.237 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:39:05.276 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:39:05.280 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:39:06.270 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:39:06.272 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:39:07.260 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:39:07.263 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:39:08.179 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:39:08.182 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:39:09.250 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:39:09.251 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:39:22.399 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 3 Lang_47
+13:39:22.402 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:39:23.356 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:39:23.358 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:39:24.395 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:39:24.396 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:39:37.689 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 4 Lang_47
+13:39:37.693 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:39:38.793 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:39:38.794 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:39:52.096 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 4 Lang_47
+13:39:52.099 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:39:53.116 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:39:53.121 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:39:54.081 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:39:54.083 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:39:55.100 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:39:55.102 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:39:56.048 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:39:56.051 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:39:57.132 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:39:57.134 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:40:10.717 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 4 Lang_47
+13:40:10.724 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:40:11.649 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:40:11.654 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:40:12.755 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:40:12.756 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:40:26.086 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 4 Lang_47
+13:40:26.091 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:40:27.198 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:40:27.199 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:40:40.537 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 4 Lang_47
+13:40:40.545 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (obj != null ? getNullText() : obj.toString());
+13:40:40.547 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:40:41.571 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:40:41.572 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:40:54.958 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 4 Lang_47
+13:40:54.961 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (getNullText());
+13:40:54.963 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (obj.toString());
+13:40:54.965 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:40:56.001 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:40:56.005 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:41:08.919 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 4 Lang_47
+13:41:08.924 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:41:10.024 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:41:10.025 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:41:23.239 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 3 Lang_47
+13:41:23.242 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (obj != null ? getNullText() : obj.toString());
+13:41:23.245 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:41:24.310 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:41:24.311 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:41:37.589 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 4 Lang_47
+13:41:37.596 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:41:37.600 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:41:38.676 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:41:38.677 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:41:51.654 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 4 Lang_47
+13:41:51.658 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: final String str = (obj == null ? getNullText() : obj.toString());
+13:41:51.661 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:41:52.630 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:41:52.631 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:42:05.890 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Lang_47
+13:42:05.895 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:42:05.898 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:06.826 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:06.829 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:42:06.832 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:07.755 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:07.757 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:08.624 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:08.634 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:42:08.638 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:09.623 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:09.625 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:42:09.627 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:10.510 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:10.515 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:11.390 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:11.394 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:42:11.397 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:12.240 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:12.246 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:42:12.248 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:13.146 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:13.149 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:13.977 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:13.983 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:42:13.985 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:14.894 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:14.899 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:42:14.901 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:15.926 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:15.930 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:16.855 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:16.857 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:42:16.859 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:17.754 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:17.756 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:42:17.758 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:18.621 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:18.624 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:19.506 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:19.508 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:42:19.510 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:20.426 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:20.428 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:42:20.431 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:21.283 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:21.285 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:22.172 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:22.174 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:42:22.176 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:23.073 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:23.075 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:42:23.077 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:24.004 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:24.007 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:24.893 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:24.895 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:42:24.897 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:25.775 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:25.778 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:42:25.780 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:26.647 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:26.649 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:27.481 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:27.486 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:42:27.488 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:28.389 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:28.393 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:42:28.395 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:29.328 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:29.330 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:30.128 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:30.133 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:42:30.134 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:31.009 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:31.014 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.apache.commons.lang.text.StrBuilder ===1184
+13:42:31.099 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+ensureCapacity(size + width);
+13:42:31.105 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(obj + width);
+13:42:31.106 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(width + width);
+13:42:31.109 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(padChar + width);
+13:42:31.110 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(serialVersionUID + width);
+13:42:31.111 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(this.buffer + width);
+13:42:31.113 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(this.newLine + width);
+13:42:31.114 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(this.nullText + width);
+13:42:31.115 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(size + obj);
+13:42:31.116 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(size + padChar);
+13:42:31.117 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(size + serialVersionUID);
+13:42:31.118 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(size + this.buffer);
+13:42:31.119 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(size + this.size);
+13:42:31.120 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(size + this.newLine);
+13:42:31.121 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(size + this.nullText);
+13:42:31.125 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:32.194 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:42:32.195 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:33.256 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:42:33.257 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:42:46.126 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Lang_47
+13:42:46.131 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:42:47.188 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:42:47.189 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:43:00.125 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Lang_47
+13:43:00.135 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:01.155 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:43:01.160 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:02.210 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:43:02.215 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:03.176 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:43:03.181 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:04.254 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:43:04.259 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:05.215 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:43:05.217 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:06.268 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:43:06.271 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:43:20.346 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Lang_47
+13:43:20.349 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:21.260 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:43:21.264 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:22.144 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:43:22.146 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:23.118 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:43:23.119 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:43:36.382 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Lang_47
+13:43:36.388 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:37.274 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:43:37.279 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:38.139 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:43:38.144 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (size != null) {
+	
+
+}
+
+13:43:38.145 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (size == null) {
+    throw new IllegalArgumentException("Null 'size' argument.");
+}
+
+13:43:38.149 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (size == null) {
+    return null;
+}
+
+13:43:38.154 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:39.040 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:43:39.042 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:39.833 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:43:39.838 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:40.765 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:43:40.767 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:43:40.769 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:41.655 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:43:41.657 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:43:41.658 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:42.489 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:43:42.491 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:43.395 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:43:43.397 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:43:43.400 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:44.242 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:43:44.245 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:43:44.248 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:45.203 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:43:45.206 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:46.079 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:43:46.084 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:43:46.089 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:46.963 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:43:46.965 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:43:46.967 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:47.891 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:43:47.893 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:48.762 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:43:48.764 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:43:48.766 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:49.683 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:43:49.685 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:43:49.687 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:50.557 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:43:50.559 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:51.363 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:43:51.365 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:43:51.367 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:52.275 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:43:52.277 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.apache.commons.lang.text.StrBuilder ===1183
+13:43:52.390 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+if (width > 0) {
+            ensureCapacity(size + width);
+            String str = (obj == null ? getNullText() : obj.toString());
+            int strLen = str.length();
+            if (strLen >= width) {
+                str.getChars(strLen - width, strLen, buffer, size);
+            } else {
+                int padLen = width - strLen;
+                for (int i = 0; i < padLen; i++) {
+                    buffer[size + i] = padChar;
+                }
+                str.getChars(0, strLen, buffer, size + padLen);
+            }
+            size += width;
+        }
+13:43:52.393 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (width >= 0) {
+            ensureCapacity(size + width);
+            String str = (obj == null ? getNullText() : obj.toString());
+            int strLen = str.length();
+            if (strLen >= width) {
+                str.getChars(strLen - width, strLen, buffer, size);
+            } else {
+                int padLen = width - strLen;
+                for (int i = 0; i < padLen; i++) {
+                    buffer[size + i] = padChar;
+                }
+                str.getChars(0, strLen, buffer, size + padLen);
+            }
+            size += width;
+        }
+13:43:52.393 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (width <= 0) {
+            ensureCapacity(size + width);
+            String str = (obj == null ? getNullText() : obj.toString());
+            int strLen = str.length();
+            if (strLen >= width) {
+                str.getChars(strLen - width, strLen, buffer, size);
+            } else {
+                int padLen = width - strLen;
+                for (int i = 0; i < padLen; i++) {
+                    buffer[size + i] = padChar;
+                }
+                str.getChars(0, strLen, buffer, size + padLen);
+            }
+            size += width;
+        }
+13:43:52.394 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (width < 0) {
+            ensureCapacity(size + width);
+            String str = (obj == null ? getNullText() : obj.toString());
+            int strLen = str.length();
+            if (strLen >= width) {
+                str.getChars(strLen - width, strLen, buffer, size);
+            } else {
+                int padLen = width - strLen;
+                for (int i = 0; i < padLen; i++) {
+                    buffer[size + i] = padChar;
+                }
+                str.getChars(0, strLen, buffer, size + padLen);
+            }
+            size += width;
+        }
+13:43:52.396 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:43:53.458 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:43:53.459 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:44:06.544 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Lang_47
+13:44:06.549 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:44:07.612 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:44:07.613 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:44:20.548 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 4 Lang_47
+13:44:20.550 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:44:21.529 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:44:21.530 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:44:34.614 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 4 Lang_47
+13:44:34.618 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (obj > 0) {
+            ensureCapacity(size + width);
+            String str = (obj == null ? getNullText() : obj.toString());
+            int strLen = str.length();
+            if (strLen >= width) {
+                str.getChars(strLen - width, strLen, buffer, size);
+            } else {
+                int padLen = width - strLen;
+                for (int i = 0; i < padLen; i++) {
+                    buffer[size + i] = padChar;
+                }
+                str.getChars(0, strLen, buffer, size + padLen);
+            }
+            size += width;
+        }
+13:44:34.619 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (padChar > 0) {
+            ensureCapacity(size + width);
+            String str = (obj == null ? getNullText() : obj.toString());
+            int strLen = str.length();
+            if (strLen >= width) {
+                str.getChars(strLen - width, strLen, buffer, size);
+            } else {
+                int padLen = width - strLen;
+                for (int i = 0; i < padLen; i++) {
+                    buffer[size + i] = padChar;
+                }
+                str.getChars(0, strLen, buffer, size + padLen);
+            }
+            size += width;
+        }
+13:44:34.620 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (serialVersionUID > 0) {
+            ensureCapacity(size + width);
+            String str = (obj == null ? getNullText() : obj.toString());
+            int strLen = str.length();
+            if (strLen >= width) {
+                str.getChars(strLen - width, strLen, buffer, size);
+            } else {
+                int padLen = width - strLen;
+                for (int i = 0; i < padLen; i++) {
+                    buffer[size + i] = padChar;
+                }
+                str.getChars(0, strLen, buffer, size + padLen);
+            }
+            size += width;
+        }
+13:44:34.620 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (this.buffer > 0) {
+            ensureCapacity(size + width);
+            String str = (obj == null ? getNullText() : obj.toString());
+            int strLen = str.length();
+            if (strLen >= width) {
+                str.getChars(strLen - width, strLen, buffer, size);
+            } else {
+                int padLen = width - strLen;
+                for (int i = 0; i < padLen; i++) {
+                    buffer[size + i] = padChar;
+                }
+                str.getChars(0, strLen, buffer, size + padLen);
+            }
+            size += width;
+        }
+13:44:34.621 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (this.size > 0) {
+            ensureCapacity(size + width);
+            String str = (obj == null ? getNullText() : obj.toString());
+            int strLen = str.length();
+            if (strLen >= width) {
+                str.getChars(strLen - width, strLen, buffer, size);
+            } else {
+                int padLen = width - strLen;
+                for (int i = 0; i < padLen; i++) {
+                    buffer[size + i] = padChar;
+                }
+                str.getChars(0, strLen, buffer, size + padLen);
+            }
+            size += width;
+        }
+13:44:34.622 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (this.newLine > 0) {
+            ensureCapacity(size + width);
+            String str = (obj == null ? getNullText() : obj.toString());
+            int strLen = str.length();
+            if (strLen >= width) {
+                str.getChars(strLen - width, strLen, buffer, size);
+            } else {
+                int padLen = width - strLen;
+                for (int i = 0; i < padLen; i++) {
+                    buffer[size + i] = padChar;
+                }
+                str.getChars(0, strLen, buffer, size + padLen);
+            }
+            size += width;
+        }
+13:44:34.622 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (this.nullText > 0) {
+            ensureCapacity(size + width);
+            String str = (obj == null ? getNullText() : obj.toString());
+            int strLen = str.length();
+            if (strLen >= width) {
+                str.getChars(strLen - width, strLen, buffer, size);
+            } else {
+                int padLen = width - strLen;
+                for (int i = 0; i < padLen; i++) {
+                    buffer[size + i] = padChar;
+                }
+                str.getChars(0, strLen, buffer, size + padLen);
+            }
+            size += width;
+        }
+13:44:34.625 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:44:35.573 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:44:35.576 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:44:36.625 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:44:36.626 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:44:49.445 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 4 Lang_47
+13:44:49.448 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:44:50.448 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:44:50.449 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:45:03.237 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 4 Lang_47
+13:45:03.239 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:45:04.168 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:45:04.170 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:45:05.216 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:45:05.217 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:45:18.143 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 4 Lang_47
+13:45:18.145 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:45:19.114 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:45:19.119 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:45:20.018 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:45:20.021 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(size + width);
+            String str = (obj == null ? getNullText() : obj.toString());
+            int strLen = str.length();
+            if (strLen >= width) {
+                str.getChars(strLen - width, strLen, buffer, size);
+            } else {
+                int padLen = width - strLen;
+                for (int i = 0; i < padLen; i++) {
+                    buffer[size + i] = padChar;
+                }
+                str.getChars(0, strLen, buffer, size + padLen);
+            }
+            size += width;
+13:45:20.022 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+13:45:20.024 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:45:21.010 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:45:21.011 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:45:33.815 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 4 Lang_47
+13:45:33.817 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:45:34.890 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:45:34.891 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:45:48.057 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 4 Lang_47
+13:45:48.062 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:45:48.066 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:45:48.910 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:45:48.914 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:45:48.917 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:45:49.797 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:45:49.799 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:45:50.667 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:45:50.672 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:45:50.674 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:45:51.617 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:45:51.619 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:45:51.621 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:45:52.486 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:45:52.489 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:45:53.361 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:45:53.363 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:45:53.365 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:45:54.319 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:45:54.323 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:45:54.327 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:45:55.193 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:45:55.197 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:45:56.058 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:45:56.060 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:45:56.062 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:45:56.936 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:45:56.939 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:45:56.941 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:45:57.889 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:45:57.891 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:45:58.754 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:45:58.758 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:45:58.762 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:45:59.552 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:45:59.556 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.apache.commons.lang.text.StrBuilder ===1230
+13:45:59.624 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+int strLen = str.length();
+13:45:59.629 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int strLen = strLen.length();
+13:45:59.630 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int strLen = obj.length();
+13:45:59.631 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int strLen = width.length();
+13:45:59.632 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int strLen = padChar.length();
+13:45:59.633 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int strLen = serialVersionUID.length();
+13:45:59.634 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int strLen = this.buffer.length();
+13:45:59.635 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int strLen = this.size.length();
+13:45:59.636 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int strLen = this.newLine.length();
+13:45:59.636 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: int strLen = this.nullText.length();
+13:45:59.640 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:46:00.582 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:46:00.590 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:46:01.442 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:46:01.444 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:46:02.330 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:46:02.332 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:46:03.255 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:46:03.257 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:46:04.161 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:46:04.163 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:46:05.115 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:46:05.117 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:46:05.990 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:46:05.992 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:46:06.975 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:46:06.976 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:46:20.004 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 5 Lang_47
+13:46:20.006 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:46:21.118 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:46:21.119 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:46:34.651 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 5 Lang_47
+13:46:34.656 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (str != null) {
+	
+
+}
+
+13:46:34.657 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (str == null) {
+    throw new IllegalArgumentException("Null 'str' argument.");
+}
+
+13:46:34.658 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (str == null) {
+    return null;
+}
+
+13:46:34.664 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:46:35.751 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:46:35.752 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:46:48.855 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Lang_47
+13:46:48.857 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:46:49.866 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:46:49.867 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:47:02.774 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Lang_47
+13:47:02.779 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:47:03.897 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:47:03.898 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:47:17.259 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Lang_47
+13:47:17.261 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:47:17.263 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:47:18.278 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:47:18.279 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:47:31.355 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 5 Lang_47
+13:47:31.357 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: final int strLen = str.length();
+13:47:31.359 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:47:32.384 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:47:32.385 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:47:45.315 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Lang_47
+13:47:45.320 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:47:45.322 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:47:46.241 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:47:46.243 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:47:46.245 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:47:47.079 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:47:47.084 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:47:48.015 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:47:48.017 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:47:48.019 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:47:48.957 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:47:48.960 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:47:48.962 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:47:49.829 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:47:49.831 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:47:50.724 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:47:50.726 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:47:50.727 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:47:51.612 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:47:51.614 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:47:51.616 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:47:52.551 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:47:52.552 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:47:53.506 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:47:53.514 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:47:53.516 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:47:54.405 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:47:54.407 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:47:54.409 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:47:55.281 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:47:55.283 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:47:56.151 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:47:56.153 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:47:56.155 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:47:57.011 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:47:57.013 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.apache.commons.lang.text.StrBuilder ===1229
+13:47:57.114 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+String str = (obj == null ? getNullText() : obj.toString());
+13:47:57.119 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (str == null ? getNullText() : obj.toString());
+13:47:57.120 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (width == null ? getNullText() : obj.toString());
+13:47:57.121 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (padChar == null ? getNullText() : obj.toString());
+13:47:57.121 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (serialVersionUID == null ? getNullText() : obj.toString());
+13:47:57.122 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (this.buffer == null ? getNullText() : obj.toString());
+13:47:57.122 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (this.size == null ? getNullText() : obj.toString());
+13:47:57.122 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (this.newLine == null ? getNullText() : obj.toString());
+13:47:57.123 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (this.nullText == null ? getNullText() : obj.toString());
+13:47:57.124 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (obj == null ? getNullText() : str.toString());
+13:47:57.124 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (obj == null ? getNullText() : width.toString());
+13:47:57.125 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (obj == null ? getNullText() : padChar.toString());
+13:47:57.125 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (obj == null ? getNullText() : serialVersionUID.toString());
+13:47:57.126 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (obj == null ? getNullText() : this.buffer.toString());
+13:47:57.126 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (obj == null ? getNullText() : this.size.toString());
+13:47:57.127 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (obj == null ? getNullText() : this.newLine.toString());
+13:47:57.127 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (obj == null ? getNullText() : this.nullText.toString());
+13:47:57.131 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:47:58.078 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:47:58.080 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:47:58.932 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:47:58.934 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:47:59.827 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:47:59.829 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:48:00.737 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:48:00.739 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:48:01.758 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:48:01.759 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:48:14.843 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 3 Lang_47
+13:48:14.848 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:48:15.793 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:48:15.797 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:48:16.868 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:48:16.869 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:48:29.827 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 5 Lang_47
+13:48:29.834 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:48:30.861 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:48:30.862 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:48:43.842 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 5 Lang_47
+13:48:43.847 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:48:44.841 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:48:44.844 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:48:45.728 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:48:45.731 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:48:46.593 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:48:46.596 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:48:47.430 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:48:47.435 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:48:48.483 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:48:48.484 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:49:01.482 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 5 Lang_47
+13:49:01.488 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:49:02.356 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:49:02.362 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:49:03.394 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:49:03.395 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:49:16.195 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 5 Lang_47
+13:49:16.199 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:49:17.260 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:49:17.261 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:49:30.161 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 5 Lang_47
+13:49:30.167 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (obj != null ? getNullText() : obj.toString());
+13:49:30.169 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:49:31.183 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:49:31.184 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:49:44.192 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 5 Lang_47
+13:49:44.194 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (getNullText());
+13:49:44.195 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (obj.toString());
+13:49:44.198 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:49:45.284 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:49:45.285 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:49:58.085 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 5 Lang_47
+13:49:58.088 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:49:59.187 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:49:59.188 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:50:12.053 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 3 Lang_47
+13:50:12.059 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: String str = (obj != null ? getNullText() : obj.toString());
+13:50:12.061 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:50:13.107 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:50:13.108 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:50:26.481 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 5 Lang_47
+13:50:26.490 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:50:26.492 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:50:27.580 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:50:27.581 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:50:41.080 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 6 Lang_47
+13:50:41.087 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: final String str = (obj == null ? getNullText() : obj.toString());
+13:50:41.092 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:50:42.158 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:50:42.159 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:50:54.997 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Lang_47
+13:50:55.001 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:50:55.003 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:50:55.960 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:50:55.962 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:50:55.965 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:50:56.911 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:50:56.916 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:50:57.848 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:50:57.853 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:50:57.855 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:50:58.824 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:50:58.826 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:50:58.829 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:50:59.733 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:50:59.736 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:00.606 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:00.609 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:51:00.611 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:01.459 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:01.463 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:51:01.465 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:02.422 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:02.426 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:03.281 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:03.283 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:51:03.287 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:04.194 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:04.199 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:51:04.201 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:05.097 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:05.101 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:05.975 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:05.979 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:51:05.984 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:06.861 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:06.865 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:51:06.866 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:07.695 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:07.699 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:08.613 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:08.617 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:51:08.621 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:09.528 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:09.532 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:51:09.534 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:10.430 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:10.435 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:11.333 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:11.335 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:51:11.337 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:12.243 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:12.245 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:51:12.246 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:13.078 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:13.082 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:13.906 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:13.907 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:51:13.909 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:14.815 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:14.817 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:51:14.819 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:15.701 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:15.702 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:16.632 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:16.634 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:51:16.636 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:17.527 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:17.529 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:51:17.531 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:18.416 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:18.418 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:19.352 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:19.356 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:51:19.358 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:20.240 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:20.244 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.apache.commons.lang.text.StrBuilder ===1228
+13:51:20.308 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+ensureCapacity(size + width);
+13:51:20.314 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(obj + width);
+13:51:20.315 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(width + width);
+13:51:20.316 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(padChar + width);
+13:51:20.317 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(serialVersionUID + width);
+13:51:20.318 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(this.buffer + width);
+13:51:20.319 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(this.newLine + width);
+13:51:20.320 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(this.nullText + width);
+13:51:20.321 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(size + obj);
+13:51:20.322 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(size + padChar);
+13:51:20.322 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(size + serialVersionUID);
+13:51:20.323 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(size + this.buffer);
+13:51:20.324 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(size + this.size);
+13:51:20.324 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(size + this.newLine);
+13:51:20.325 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(size + this.nullText);
+13:51:20.329 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:21.187 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:21.191 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:22.220 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:51:22.221 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:51:35.168 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Lang_47
+13:51:35.170 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:36.255 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:51:36.256 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:51:49.233 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Lang_47
+13:51:49.235 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:50.180 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:50.182 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:51.069 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:51.071 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:51.905 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:51.908 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:52.715 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:52.717 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:53.595 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:51:53.597 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:51:54.576 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:51:54.577 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:52:08.081 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Lang_47
+13:52:08.085 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:52:08.986 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:52:08.990 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:52:09.817 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:52:09.819 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:52:10.798 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:52:10.799 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:52:23.719 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Lang_47
+13:52:23.724 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:52:24.603 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:52:24.607 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:52:25.464 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:52:25.469 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (size != null) {
+	
+
+}
+
+13:52:25.470 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (size == null) {
+    throw new IllegalArgumentException("Null 'size' argument.");
+}
+
+13:52:25.474 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (size == null) {
+    return null;
+}
+
+13:52:25.479 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:52:26.380 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:52:26.384 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:52:27.264 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:52:27.266 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:52:28.023 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:52:28.025 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:52:28.027 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:52:28.936 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:52:28.938 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:52:28.940 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:52:29.820 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:52:29.824 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:52:30.758 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:52:30.763 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:52:30.767 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:52:31.521 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:52:31.528 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:52:31.532 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:52:32.429 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:52:32.431 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:52:33.273 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:52:33.275 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:52:33.277 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:52:34.151 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:52:34.153 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:52:34.155 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:52:35.048 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:52:35.050 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:52:35.889 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:52:35.891 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:52:35.893 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:52:36.721 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:52:36.723 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:52:36.726 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:52:37.580 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:52:37.586 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:52:38.422 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:52:38.427 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:52:38.429 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:52:39.285 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:52:39.288 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.apache.commons.lang.text.StrBuilder ===1227
+13:52:39.368 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+if (width > 0) {
+            ensureCapacity(size + width);
+            String str = (obj == null ? getNullText() : obj.toString());
+            int strLen = str.length();
+            if (strLen >= width) {
+                str.getChars(0, width, buffer, size);
+            } else {
+                int padLen = width - strLen;
+                str.getChars(0, strLen, buffer, size);
+                for (int i = 0; i < padLen; i++) {
+                    buffer[size + strLen + i] = padChar;
+                }
+            }
+            size += width;
+        }
+13:52:39.371 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (width >= 0) {
+            ensureCapacity(size + width);
+            String str = (obj == null ? getNullText() : obj.toString());
+            int strLen = str.length();
+            if (strLen >= width) {
+                str.getChars(0, width, buffer, size);
+            } else {
+                int padLen = width - strLen;
+                str.getChars(0, strLen, buffer, size);
+                for (int i = 0; i < padLen; i++) {
+                    buffer[size + strLen + i] = padChar;
+                }
+            }
+            size += width;
+        }
+13:52:39.372 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (width <= 0) {
+            ensureCapacity(size + width);
+            String str = (obj == null ? getNullText() : obj.toString());
+            int strLen = str.length();
+            if (strLen >= width) {
+                str.getChars(0, width, buffer, size);
+            } else {
+                int padLen = width - strLen;
+                str.getChars(0, strLen, buffer, size);
+                for (int i = 0; i < padLen; i++) {
+                    buffer[size + strLen + i] = padChar;
+                }
+            }
+            size += width;
+        }
+13:52:39.372 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (width < 0) {
+            ensureCapacity(size + width);
+            String str = (obj == null ? getNullText() : obj.toString());
+            int strLen = str.length();
+            if (strLen >= width) {
+                str.getChars(0, width, buffer, size);
+            } else {
+                int padLen = width - strLen;
+                str.getChars(0, strLen, buffer, size);
+                for (int i = 0; i < padLen; i++) {
+                    buffer[size + strLen + i] = padChar;
+                }
+            }
+            size += width;
+        }
+13:52:39.375 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:52:40.512 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:52:40.512 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:52:53.236 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Lang_47
+13:52:53.239 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:52:54.338 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:52:54.339 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:53:07.242 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 5 Lang_47
+13:53:07.246 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:53:08.240 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:53:08.241 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:53:20.963 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 5 Lang_47
+13:53:20.970 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (obj > 0) {
+            ensureCapacity(size + width);
+            String str = (obj == null ? getNullText() : obj.toString());
+            int strLen = str.length();
+            if (strLen >= width) {
+                str.getChars(0, width, buffer, size);
+            } else {
+                int padLen = width - strLen;
+                str.getChars(0, strLen, buffer, size);
+                for (int i = 0; i < padLen; i++) {
+                    buffer[size + strLen + i] = padChar;
+                }
+            }
+            size += width;
+        }
+13:53:20.971 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (padChar > 0) {
+            ensureCapacity(size + width);
+            String str = (obj == null ? getNullText() : obj.toString());
+            int strLen = str.length();
+            if (strLen >= width) {
+                str.getChars(0, width, buffer, size);
+            } else {
+                int padLen = width - strLen;
+                str.getChars(0, strLen, buffer, size);
+                for (int i = 0; i < padLen; i++) {
+                    buffer[size + strLen + i] = padChar;
+                }
+            }
+            size += width;
+        }
+13:53:20.971 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (serialVersionUID > 0) {
+            ensureCapacity(size + width);
+            String str = (obj == null ? getNullText() : obj.toString());
+            int strLen = str.length();
+            if (strLen >= width) {
+                str.getChars(0, width, buffer, size);
+            } else {
+                int padLen = width - strLen;
+                str.getChars(0, strLen, buffer, size);
+                for (int i = 0; i < padLen; i++) {
+                    buffer[size + strLen + i] = padChar;
+                }
+            }
+            size += width;
+        }
+13:53:20.972 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (this.buffer > 0) {
+            ensureCapacity(size + width);
+            String str = (obj == null ? getNullText() : obj.toString());
+            int strLen = str.length();
+            if (strLen >= width) {
+                str.getChars(0, width, buffer, size);
+            } else {
+                int padLen = width - strLen;
+                str.getChars(0, strLen, buffer, size);
+                for (int i = 0; i < padLen; i++) {
+                    buffer[size + strLen + i] = padChar;
+                }
+            }
+            size += width;
+        }
+13:53:20.972 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (this.size > 0) {
+            ensureCapacity(size + width);
+            String str = (obj == null ? getNullText() : obj.toString());
+            int strLen = str.length();
+            if (strLen >= width) {
+                str.getChars(0, width, buffer, size);
+            } else {
+                int padLen = width - strLen;
+                str.getChars(0, strLen, buffer, size);
+                for (int i = 0; i < padLen; i++) {
+                    buffer[size + strLen + i] = padChar;
+                }
+            }
+            size += width;
+        }
+13:53:20.973 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (this.newLine > 0) {
+            ensureCapacity(size + width);
+            String str = (obj == null ? getNullText() : obj.toString());
+            int strLen = str.length();
+            if (strLen >= width) {
+                str.getChars(0, width, buffer, size);
+            } else {
+                int padLen = width - strLen;
+                str.getChars(0, strLen, buffer, size);
+                for (int i = 0; i < padLen; i++) {
+                    buffer[size + strLen + i] = padChar;
+                }
+            }
+            size += width;
+        }
+13:53:20.973 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (this.nullText > 0) {
+            ensureCapacity(size + width);
+            String str = (obj == null ? getNullText() : obj.toString());
+            int strLen = str.length();
+            if (strLen >= width) {
+                str.getChars(0, width, buffer, size);
+            } else {
+                int padLen = width - strLen;
+                str.getChars(0, strLen, buffer, size);
+                for (int i = 0; i < padLen; i++) {
+                    buffer[size + strLen + i] = padChar;
+                }
+            }
+            size += width;
+        }
+13:53:20.975 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:53:21.850 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:53:21.855 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:53:22.798 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:53:22.799 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:53:35.727 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 4 Lang_47
+13:53:35.734 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:53:36.755 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:53:36.757 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:53:49.804 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 4 Lang_47
+13:53:49.810 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:53:50.727 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:53:50.729 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:53:51.776 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:53:51.776 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:54:04.717 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 5 Lang_47
+13:54:04.719 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:54:05.611 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:54:05.614 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:54:06.537 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:54:06.540 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: ensureCapacity(size + width);
+            String str = (obj == null ? getNullText() : obj.toString());
+            int strLen = str.length();
+            if (strLen >= width) {
+                str.getChars(0, width, buffer, size);
+            } else {
+                int padLen = width - strLen;
+                str.getChars(0, strLen, buffer, size);
+                for (int i = 0; i < padLen; i++) {
+                    buffer[size + strLen + i] = padChar;
+                }
+            }
+            size += width;
+13:54:06.540 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+13:54:06.550 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:54:07.507 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:54:07.508 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:54:20.724 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 4 Lang_47
+13:54:20.726 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:54:21.849 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:54:21.851 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:54:34.744 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 5 Lang_47
+13:54:34.745 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:54:34.748 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:54:35.648 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:54:35.650 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:54:35.653 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:54:36.490 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:54:36.492 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:54:37.357 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:54:37.359 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:54:37.361 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:54:38.297 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:54:38.299 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:54:38.301 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:54:39.236 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:54:39.238 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:54:40.098 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:54:40.100 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:54:40.102 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:54:40.950 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:54:40.952 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:54:40.954 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:54:41.871 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:54:41.873 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:54:42.747 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:54:42.751 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:54:42.755 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:54:43.645 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:54:43.647 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:54:43.649 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:54:44.556 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:54:44.558 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:54:45.420 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:54:45.422 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:54:45.424 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:54:46.302 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:54:46.303 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.apache.commons.lang.text.StrBuilder ===233
+13:54:46.380 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+return this;
+13:54:46.388 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:54:46.390 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:54:47.361 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:54:47.363 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:54:47.364 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:54:48.320 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:54:48.322 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:54:49.231 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:54:49.233 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:54:49.234 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:54:50.108 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:54:50.109 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.apache.commons.lang.text.StrBuilder ===228
+13:54:50.176 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+if (capacity > buffer.length) {
+            char[] old = buffer;
+            buffer = new char[capacity];
+            System.arraycopy(old, 0, buffer, 0, size);
+        }
+13:54:50.178 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (capacity >= buffer.length) {
+            char[] old = buffer;
+            buffer = new char[capacity];
+            System.arraycopy(old, 0, buffer, 0, size);
+        }
+13:54:50.179 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (capacity <= buffer.length) {
+            char[] old = buffer;
+            buffer = new char[capacity];
+            System.arraycopy(old, 0, buffer, 0, size);
+        }
+13:54:50.179 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (capacity < buffer.length) {
+            char[] old = buffer;
+            buffer = new char[capacity];
+            System.arraycopy(old, 0, buffer, 0, size);
+        }
+13:54:50.182 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:54:51.205 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:54:51.206 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:55:04.179 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Lang_47
+13:55:04.181 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:55:05.233 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:55:05.234 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:55:18.338 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 112 Lang_47
+13:55:18.340 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:55:19.409 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:55:19.410 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:55:32.416 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 112 Lang_47
+13:55:32.419 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (serialVersionUID > buffer.length) {
+            char[] old = buffer;
+            buffer = new char[capacity];
+            System.arraycopy(old, 0, buffer, 0, size);
+        }
+13:55:32.419 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (this.buffer > buffer.length) {
+            char[] old = buffer;
+            buffer = new char[capacity];
+            System.arraycopy(old, 0, buffer, 0, size);
+        }
+13:55:32.420 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (this.size > buffer.length) {
+            char[] old = buffer;
+            buffer = new char[capacity];
+            System.arraycopy(old, 0, buffer, 0, size);
+        }
+13:55:32.421 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (this.newLine > buffer.length) {
+            char[] old = buffer;
+            buffer = new char[capacity];
+            System.arraycopy(old, 0, buffer, 0, size);
+        }
+13:55:32.421 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (this.nullText > buffer.length) {
+            char[] old = buffer;
+            buffer = new char[capacity];
+            System.arraycopy(old, 0, buffer, 0, size);
+        }
+13:55:32.423 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:55:33.429 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:55:33.430 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:55:46.534 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 34 Lang_47
+13:55:46.536 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:55:47.508 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:55:47.513 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:55:48.531 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:55:48.531 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:56:01.608 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 20 Lang_47
+13:56:01.610 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:56:02.555 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:56:02.556 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:56:03.449 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:56:03.452 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: char[] old = buffer;
+            buffer = new char[capacity];
+            System.arraycopy(old, 0, buffer, 0, size);
+13:56:03.452 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+13:56:03.454 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:56:04.402 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:56:04.403 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:56:17.354 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 34 Lang_47
+13:56:17.356 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:56:18.425 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+13:56:18.426 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+13:56:31.414 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 20 Lang_47
+13:56:31.418 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:56:31.420 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:56:32.328 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:56:32.334 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:56:32.336 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:56:33.253 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:56:33.257 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:56:34.154 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:56:34.158 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:56:34.160 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:56:35.114 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:56:35.119 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:56:35.123 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:56:36.146 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:56:36.150 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:56:37.007 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:56:37.011 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:56:37.016 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:56:37.984 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:56:37.986 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:56:37.988 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:56:38.961 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:56:38.962 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:56:39.783 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:56:39.785 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:56:39.787 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:56:40.609 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:56:40.613 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:56:40.615 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:56:41.502 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:56:41.504 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:56:42.425 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:56:42.427 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+13:56:42.429 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+13:56:43.323 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Lang_47 ---Fixer: fix fail because of failed compiling! 
+13:56:43.324 [main] INFO edu.lu.uni.serval.avatar.Avatar - =======StaticBugFixer: Finish off fixing======
+Failed to fix bug Lang_47
+
+real	21m4.937s
+user	22m47.025s
+sys	1m32.983s

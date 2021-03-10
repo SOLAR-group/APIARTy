@@ -1,0 +1,7 @@
+Chart_1
+2020-12-05 08:48:31.596 [main] INFO  edu.lu.uni.serval.tbar.AbstractFixer - Chart_1 Failed Tests: 1
+2020-12-05 08:48:32.665 [main] INFO  edu.lu.uni.serval.tbar.TBarFixer - =======StaticBugFixer: Start to fix suspicious code======
+
+real	139m23.662s
+user	211m20.160s
+sys	14m1.174s

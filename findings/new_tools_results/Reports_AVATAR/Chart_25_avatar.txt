@@ -1,0 +1,256 @@
+Chart_25
+14:39:48.843 [main] INFO edu.lu.uni.serval.avatar.AbstractFixer - Chart_25 Failed Tests: 4
+Cannot find the suspicious code position file.SuspiciousCodePositions/Chart_25/ochiai.txt
+14:39:49.608 [main] INFO edu.lu.uni.serval.avatar.Avatar - =======StaticBugFixer: Start to fix suspicious code======
+14:39:49.614 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.jfree.chart.renderer.category.StatisticalBarRenderer ===215
+14:39:50.727 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+/**
+     * Draws the bar with its standard deviation line range for a single 
+     * (series, category) data item.
+     *
+     * @param g2  the graphics device.
+     * @param state  the renderer state.
+     * @param dataArea  the data area.
+     * @param plot  the plot.
+     * @param domainAxis  the domain axis.
+     * @param rangeAxis  the range axis.
+     * @param data  the data.
+     * @param row  the row index (zero-based).
+     * @param column  the column index (zero-based).
+     * @param pass  the pass index.
+     */
+    public void drawItem(Graphics2D g2,
+                         CategoryItemRendererState state,
+                         Rectangle2D dataArea,
+                         CategoryPlot plot,
+                         CategoryAxis domainAxis,
+                         ValueAxis rangeAxis,
+                         CategoryDataset data,
+                         int row,
+                         int column,
+                         int pass) {
+
+        // defensive check
+        if (!(data instanceof StatisticalCategoryDataset)) {
+            throw new IllegalArgumentException(
+                "Requires StatisticalCategoryDataset.");
+        }
+        StatisticalCategoryDataset statData = (StatisticalCategoryDataset) data;
+
+        PlotOrientation orientation = plot.getOrientation();
+        if (orientation == PlotOrientation.HORIZONTAL) {
+            drawHorizontalItem(g2, state, dataArea, plot, domainAxis, 
+                    rangeAxis, statData, row, column);
+        }
+        else if (orientation == PlotOrientation.VERTICAL) {
+            drawVerticalItem(g2, state, dataArea, plot, domainAxis, rangeAxis, 
+                    statData, row, column);
+        }
+    }
+14:39:50.750 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.jfree.chart.renderer.category.StatisticalBarRenderer ===207
+14:39:50.828 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+if (orientation == PlotOrientation.HORIZONTAL) {
+            drawHorizontalItem(g2, state, dataArea, plot, domainAxis, 
+                    rangeAxis, statData, row, column);
+        }
+        else if (orientation == PlotOrientation.VERTICAL) {
+            drawVerticalItem(g2, state, dataArea, plot, domainAxis, rangeAxis, 
+                    statData, row, column);
+        }
+14:39:50.836 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (orientation != PlotOrientation.HORIZONTAL) {
+            drawHorizontalItem(g2, state, dataArea, plot, domainAxis, 
+                    rangeAxis, statData, row, column);
+        }
+        else if (orientation == PlotOrientation.VERTICAL) {
+            drawVerticalItem(g2, state, dataArea, plot, domainAxis, rangeAxis, 
+                    statData, row, column);
+        }
+14:39:50.847 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+14:39:51.832 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+14:39:51.833 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+14:40:08.374 [main] INFO edu.lu.uni.serval.avatar.AbstractFixer - Partially Succeeded to fix the bug Chart_25====================
+14:40:08.402 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (statData == PlotOrientation.HORIZONTAL) {
+            drawHorizontalItem(g2, state, dataArea, plot, domainAxis, 
+                    rangeAxis, statData, row, column);
+        }
+        else if (orientation == PlotOrientation.VERTICAL) {
+            drawVerticalItem(g2, state, dataArea, plot, domainAxis, rangeAxis, 
+                    statData, row, column);
+        }
+14:40:08.403 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (g2 == PlotOrientation.HORIZONTAL) {
+            drawHorizontalItem(g2, state, dataArea, plot, domainAxis, 
+                    rangeAxis, statData, row, column);
+        }
+        else if (orientation == PlotOrientation.VERTICAL) {
+            drawVerticalItem(g2, state, dataArea, plot, domainAxis, rangeAxis, 
+                    statData, row, column);
+        }
+14:40:08.404 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (state == PlotOrientation.HORIZONTAL) {
+            drawHorizontalItem(g2, state, dataArea, plot, domainAxis, 
+                    rangeAxis, statData, row, column);
+        }
+        else if (orientation == PlotOrientation.VERTICAL) {
+            drawVerticalItem(g2, state, dataArea, plot, domainAxis, rangeAxis, 
+                    statData, row, column);
+        }
+14:40:08.407 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (dataArea == PlotOrientation.HORIZONTAL) {
+            drawHorizontalItem(g2, state, dataArea, plot, domainAxis, 
+                    rangeAxis, statData, row, column);
+        }
+        else if (orientation == PlotOrientation.VERTICAL) {
+            drawVerticalItem(g2, state, dataArea, plot, domainAxis, rangeAxis, 
+                    statData, row, column);
+        }
+14:40:08.408 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (plot == PlotOrientation.HORIZONTAL) {
+            drawHorizontalItem(g2, state, dataArea, plot, domainAxis, 
+                    rangeAxis, statData, row, column);
+        }
+        else if (orientation == PlotOrientation.VERTICAL) {
+            drawVerticalItem(g2, state, dataArea, plot, domainAxis, rangeAxis, 
+                    statData, row, column);
+        }
+14:40:08.411 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (domainAxis == PlotOrientation.HORIZONTAL) {
+            drawHorizontalItem(g2, state, dataArea, plot, domainAxis, 
+                    rangeAxis, statData, row, column);
+        }
+        else if (orientation == PlotOrientation.VERTICAL) {
+            drawVerticalItem(g2, state, dataArea, plot, domainAxis, rangeAxis, 
+                    statData, row, column);
+        }
+14:40:08.412 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (rangeAxis == PlotOrientation.HORIZONTAL) {
+            drawHorizontalItem(g2, state, dataArea, plot, domainAxis, 
+                    rangeAxis, statData, row, column);
+        }
+        else if (orientation == PlotOrientation.VERTICAL) {
+            drawVerticalItem(g2, state, dataArea, plot, domainAxis, rangeAxis, 
+                    statData, row, column);
+        }
+14:40:08.413 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (data == PlotOrientation.HORIZONTAL) {
+            drawHorizontalItem(g2, state, dataArea, plot, domainAxis, 
+                    rangeAxis, statData, row, column);
+        }
+        else if (orientation == PlotOrientation.VERTICAL) {
+            drawVerticalItem(g2, state, dataArea, plot, domainAxis, rangeAxis, 
+                    statData, row, column);
+        }
+14:40:08.414 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (row == PlotOrientation.HORIZONTAL) {
+            drawHorizontalItem(g2, state, dataArea, plot, domainAxis, 
+                    rangeAxis, statData, row, column);
+        }
+        else if (orientation == PlotOrientation.VERTICAL) {
+            drawVerticalItem(g2, state, dataArea, plot, domainAxis, rangeAxis, 
+                    statData, row, column);
+        }
+14:40:08.417 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (column == PlotOrientation.HORIZONTAL) {
+            drawHorizontalItem(g2, state, dataArea, plot, domainAxis, 
+                    rangeAxis, statData, row, column);
+        }
+        else if (orientation == PlotOrientation.VERTICAL) {
+            drawVerticalItem(g2, state, dataArea, plot, domainAxis, rangeAxis, 
+                    statData, row, column);
+        }
+14:40:08.418 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (pass == PlotOrientation.HORIZONTAL) {
+            drawHorizontalItem(g2, state, dataArea, plot, domainAxis, 
+                    rangeAxis, statData, row, column);
+        }
+        else if (orientation == PlotOrientation.VERTICAL) {
+            drawVerticalItem(g2, state, dataArea, plot, domainAxis, rangeAxis, 
+                    statData, row, column);
+        }
+14:40:08.419 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (serialVersionUID == PlotOrientation.HORIZONTAL) {
+            drawHorizontalItem(g2, state, dataArea, plot, domainAxis, 
+                    rangeAxis, statData, row, column);
+        }
+        else if (orientation == PlotOrientation.VERTICAL) {
+            drawVerticalItem(g2, state, dataArea, plot, domainAxis, rangeAxis, 
+                    statData, row, column);
+        }
+14:40:08.420 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (this.errorIndicatorPaint == PlotOrientation.HORIZONTAL) {
+            drawHorizontalItem(g2, state, dataArea, plot, domainAxis, 
+                    rangeAxis, statData, row, column);
+        }
+        else if (orientation == PlotOrientation.VERTICAL) {
+            drawVerticalItem(g2, state, dataArea, plot, domainAxis, rangeAxis, 
+                    statData, row, column);
+        }
+14:40:08.423 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (this.errorIndicatorStroke == PlotOrientation.HORIZONTAL) {
+            drawHorizontalItem(g2, state, dataArea, plot, domainAxis, 
+                    rangeAxis, statData, row, column);
+        }
+        else if (orientation == PlotOrientation.VERTICAL) {
+            drawVerticalItem(g2, state, dataArea, plot, domainAxis, rangeAxis, 
+                    statData, row, column);
+        }
+14:40:08.429 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+14:40:09.286 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_25 ---Fixer: fix fail because of failed compiling! 
+14:40:09.292 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+14:40:10.161 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_25 ---Fixer: fix fail because of failed compiling! 
+14:40:10.165 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+14:40:11.011 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_25 ---Fixer: fix fail because of failed compiling! 
+14:40:11.014 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+14:40:11.885 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_25 ---Fixer: fix fail because of failed compiling! 
+14:40:11.892 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+14:40:12.743 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_25 ---Fixer: fix fail because of failed compiling! 
+14:40:12.747 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+14:40:13.502 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_25 ---Fixer: fix fail because of failed compiling! 
+14:40:13.507 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+14:40:14.287 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_25 ---Fixer: fix fail because of failed compiling! 
+14:40:14.289 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+14:40:15.025 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_25 ---Fixer: fix fail because of failed compiling! 
+14:40:15.028 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+14:40:15.930 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_25 ---Fixer: fix fail because of failed compiling! 
+14:40:15.935 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+14:40:16.745 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_25 ---Fixer: fix fail because of failed compiling! 
+14:40:16.750 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+14:40:17.567 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_25 ---Fixer: fix fail because of failed compiling! 
+14:40:17.570 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+14:40:18.401 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_25 ---Fixer: fix fail because of failed compiling! 
+14:40:18.406 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+14:40:19.228 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_25 ---Fixer: fix fail because of failed compiling! 
+14:40:19.231 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+14:40:20.149 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_25 ---Fixer: fix fail because of failed compiling! 
+14:40:20.152 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (orientation != null) {
+	
+
+}
+
+14:40:20.153 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (orientation == null) {
+    throw new IllegalArgumentException("Null 'orientation' argument.");
+}
+
+14:40:20.160 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (orientation == null) {
+    return;
+}
+
+14:40:20.162 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+14:40:21.068 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+14:40:21.070 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+14:40:37.340 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 4 Chart_25
+14:40:37.344 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+14:40:38.151 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+14:40:38.153 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+14:40:54.342 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 4 Chart_25
+14:40:54.347 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+14:40:55.290 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+14:40:55.292 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+14:41:11.888 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 4 Chart_25
+14:41:11.896 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: drawHorizontalItem(g2, state, dataArea, plot, domainAxis, 
+                    rangeAxis, statData, row, column);
+        }
+        else if (orientation == PlotOrientation.VERTICAL) {
+            drawVerticalItem(g2, state, dataArea, plot, domainAxis, rangeAxis, 
+                    statData, row, column);
+        }
+14:41:11.897 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+14:41:11.906 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+14:41:12.331 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Chart_25 ---Fixer: fix fail because of failed compiling! 
+14:41:12.334 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+14:41:13.246 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+14:41:13.247 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+14:41:29.135 [main] INFO edu.lu.uni.serval.avatar.AbstractFixer - Succeeded to fix the bug Chart_25====================
+14:41:29.152 [main] INFO edu.lu.uni.serval.avatar.Avatar - =======StaticBugFixer: Finish off fixing======
+Succeeded to fix bug Chart_25
+
+real	1m57.520s
+user	3m0.005s
+sys	0m12.602s

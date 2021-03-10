@@ -1,0 +1,11 @@
+Lang_47
+2020-12-06 17:47:50.424 [main] INFO  edu.lu.uni.serval.tbar.AbstractFixer - Lang_47 Failed Tests: 2
+2020-12-06 17:47:50.755 [main] INFO  edu.lu.uni.serval.tbar.TBarFixer - =======StaticBugFixer: Start to fix suspicious code======
+2020-12-06 17:55:18.699 [main] INFO  edu.lu.uni.serval.tbar.AbstractFixer - Partially Succeeded to fix the bug Lang_47====================
+2020-12-06 18:26:22.649 [main] INFO  edu.lu.uni.serval.tbar.AbstractFixer - Partially Succeeded to fix the bug Lang_47====================
+2020-12-06 19:08:17.681 [main] INFO  edu.lu.uni.serval.tbar.TBarFixer - =======StaticBugFixer: Finish off fixing======
+Partial succeeded to fix bug Lang_47
+
+real	80m41.602s
+user	82m17.295s
+sys	5m26.061s

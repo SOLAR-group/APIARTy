@@ -1,0 +1,1203 @@
+Math_4
+07:43:09.924 [main] INFO edu.lu.uni.serval.avatar.AbstractFixer - Math_4 Failed Tests: 2
+Cannot find the suspicious code position file.SuspiciousCodePositions/Math_4/ochiai.txt
+Math_4
+07:47:07.164 [main] INFO edu.lu.uni.serval.faultlocalization.GZoltarFaultLoclaization - Gzoltar Test Result Total: 5014, fails: 2, GZoltar suspicious 34876
+Ochiai
+07:47:08.495 [main] INFO edu.lu.uni.serval.faultlocalization.GZoltarFaultLoclaization - Gzoltar found: 212 with suspiciousness > 0.0, we consider top-212
+07:47:08.508 [main] INFO edu.lu.uni.serval.avatar.Avatar - =======StaticBugFixer: Start to fix suspicious code======
+07:47:08.509 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.apache.commons.math3.geometry.euclidean.twod.SubLine ===120
+07:47:09.311 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+Location loc1 = getRemainingRegion().checkPoint(line1.toSubSpace(v2D));
+07:47:09.334 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Location loc1 = getRemainingRegion().checkPoint(loc1.toSubSpace(v2D));
+07:47:09.337 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Location loc1 = getRemainingRegion().checkPoint(v2D.toSubSpace(v2D));
+07:47:09.340 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Location loc1 = getRemainingRegion().checkPoint(line2.toSubSpace(v2D));
+07:47:09.341 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Location loc1 = getRemainingRegion().checkPoint(subLine.toSubSpace(v2D));
+07:47:09.342 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Location loc1 = getRemainingRegion().checkPoint(includeEndPoints.toSubSpace(v2D));
+07:47:09.344 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Location loc1 = getRemainingRegion().checkPoint(line1.toSubSpace(loc1));
+07:47:09.345 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Location loc1 = getRemainingRegion().checkPoint(line1.toSubSpace(line2));
+07:47:09.346 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Location loc1 = getRemainingRegion().checkPoint(line1.toSubSpace(line1));
+07:47:09.347 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Location loc1 = getRemainingRegion().checkPoint(line1.toSubSpace(subLine));
+07:47:09.349 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Location loc1 = getRemainingRegion().checkPoint(line1.toSubSpace(includeEndPoints));
+07:47:09.353 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+07:47:10.018 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+07:47:10.021 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+07:47:10.708 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+07:47:10.711 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+07:47:11.353 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+07:47:11.356 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+07:48:46.360 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 3 Math_4
+07:48:46.364 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+07:48:46.998 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+07:48:47.001 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+07:48:47.756 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+07:48:47.759 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+07:48:48.478 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+07:48:48.484 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+07:48:49.167 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+07:48:49.170 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+07:48:49.888 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+07:48:49.891 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+07:48:50.585 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+07:48:50.591 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+07:48:51.262 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+07:48:51.268 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (line1 != null) {
+	
+
+}
+
+07:48:51.268 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (line1 == null) {
+    throw new IllegalArgumentException("Null 'line1' argument.");
+}
+
+07:48:51.269 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (line1 == null) {
+    return null;
+}
+
+07:48:51.270 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (v2D != null) {
+	
+
+}
+
+07:48:51.271 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (v2D == null) {
+    throw new IllegalArgumentException("Null 'v2D' argument.");
+}
+
+07:48:51.271 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (v2D == null) {
+    return null;
+}
+
+07:48:51.273 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+07:48:52.056 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+07:48:52.059 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+07:48:52.788 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+07:48:52.789 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+07:50:19.086 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+07:50:19.088 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+07:50:19.814 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+07:50:19.816 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+07:51:56.508 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+07:51:56.510 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+07:51:57.248 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+07:51:57.251 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+07:51:58.054 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+07:51:58.055 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+07:53:36.950 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+07:53:36.955 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+07:53:37.591 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+07:53:37.592 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+07:55:07.017 [main] INFO edu.lu.uni.serval.avatar.AbstractFixer - Partially Succeeded to fix the bug Math_4====================
+07:55:07.054 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+07:55:07.056 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+07:55:07.716 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+07:55:07.719 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: final Location loc1 = getRemainingRegion().checkPoint(line1.toSubSpace(v2D));
+07:55:07.721 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+07:55:08.427 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+07:55:08.429 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+07:56:45.550 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+07:56:45.554 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+07:56:45.556 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+07:56:46.362 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+07:56:46.363 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+07:58:23.315 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+07:58:23.319 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+07:58:23.321 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+07:58:24.024 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+07:58:24.025 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+07:59:53.027 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+07:59:53.031 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+07:59:53.797 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+07:59:53.798 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:01:24.398 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+08:01:24.401 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+08:01:24.403 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:01:25.114 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:01:25.115 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:02:55.045 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+08:02:55.048 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+08:02:55.050 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:02:55.753 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:02:55.755 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:04:27.318 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+08:04:27.323 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:04:28.015 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:04:28.017 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:06:06.661 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+08:06:06.664 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+08:06:06.665 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:06:07.441 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:06:07.442 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:07:43.619 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+08:07:43.626 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+08:07:43.628 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:07:44.332 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:07:44.333 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:09:34.457 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+08:09:34.462 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:09:35.249 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:09:35.253 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:11:09.285 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+08:11:09.290 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+08:11:09.292 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:11:10.040 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:11:10.041 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:12:50.785 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+08:12:50.789 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+08:12:50.790 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:12:51.588 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:12:51.590 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:14:26.675 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+08:14:26.679 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:14:27.455 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:14:27.456 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:16:06.988 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+08:16:06.991 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+08:16:06.993 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:16:07.610 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:16:07.611 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:17:54.328 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+08:17:54.654 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.apache.commons.math3.geometry.euclidean.twod.SubLine ===117
+08:17:54.765 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+Vector2D v2D = line1.intersection(line2);
+08:17:54.769 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Vector2D v2D = v2D.intersection(line2);
+08:17:54.770 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Vector2D v2D = line2.intersection(line2);
+08:17:54.772 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Vector2D v2D = subLine.intersection(line2);
+08:17:54.774 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Vector2D v2D = includeEndPoints.intersection(line2);
+08:17:54.775 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Vector2D v2D = line1.intersection(v2D);
+08:17:54.776 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Vector2D v2D = line1.intersection(line1);
+08:17:54.777 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Vector2D v2D = line1.intersection(subLine);
+08:17:54.778 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Vector2D v2D = line1.intersection(includeEndPoints);
+08:17:54.783 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:17:55.742 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+08:17:55.745 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:17:56.725 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:17:56.726 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:19:39.848 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+08:19:39.851 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:19:40.475 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+08:19:40.476 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:19:41.250 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+08:19:41.252 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:19:42.015 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+08:19:42.018 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:19:42.765 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:19:42.766 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:21:20.220 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+08:21:20.227 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:21:21.041 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+08:21:21.046 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:21:21.723 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+08:21:21.727 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (line1 != null) {
+	
+
+}
+
+08:21:21.728 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (line1 == null) {
+    throw new IllegalArgumentException("Null 'line1' argument.");
+}
+
+08:21:21.728 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (line1 == null) {
+    return null;
+}
+
+08:21:21.729 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (line2 != null) {
+	
+
+}
+
+08:21:21.729 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (line2 == null) {
+    throw new IllegalArgumentException("Null 'line2' argument.");
+}
+
+08:21:21.730 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (line2 == null) {
+    return null;
+}
+
+08:21:21.731 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:21:22.388 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+08:21:22.389 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:21:23.125 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:21:23.128 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:23:04.709 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+08:23:04.713 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:23:05.440 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:23:05.442 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:24:33.987 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+08:24:33.991 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:24:34.657 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+08:24:34.658 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:24:35.472 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:24:35.473 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:26:15.167 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+08:26:15.171 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:26:15.900 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:26:15.901 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:27:47.137 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+08:27:47.142 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+08:27:47.143 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:27:47.809 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+08:27:47.813 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: final Vector2D v2D = line1.intersection(line2);
+08:27:47.814 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:27:48.634 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:27:48.635 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:29:35.877 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+08:29:35.881 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+08:29:35.883 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:29:36.592 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:29:36.593 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:31:16.055 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+08:31:16.061 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+08:31:16.063 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:31:16.813 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:31:16.814 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:32:58.079 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+08:32:58.082 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:32:58.774 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:32:58.775 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:34:33.388 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+08:34:33.390 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+08:34:33.392 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:34:34.082 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:34:34.083 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:36:10.490 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+08:36:10.497 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+08:36:10.501 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:36:11.202 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:36:11.203 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:37:49.661 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+08:37:49.664 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:37:50.314 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:37:50.315 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:39:28.784 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+08:39:28.787 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+08:39:28.789 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:39:29.457 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:39:29.459 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:41:08.600 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+08:41:08.604 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+08:41:08.605 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:41:09.251 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:41:09.252 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:42:45.871 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+08:42:45.876 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:42:46.536 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:42:46.538 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:44:27.215 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+08:44:27.221 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+08:44:27.224 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:44:28.029 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:44:28.029 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:46:08.740 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+08:46:08.743 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+08:46:08.744 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:46:09.520 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:46:09.524 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:47:44.462 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+08:47:44.467 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:47:45.176 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:47:45.178 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:49:26.998 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+08:49:27.003 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+08:49:27.006 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:49:27.716 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:49:27.717 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:50:56.242 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+08:50:56.246 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.apache.commons.math3.geometry.euclidean.threed.SubLine ===116
+08:50:56.274 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+Location loc1 = remainingRegion.checkPoint(line.toSubSpace(v1D));
+08:50:56.276 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Location loc1 = loc1.checkPoint(line.toSubSpace(v1D));
+08:50:56.277 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Location loc1 = v1D.checkPoint(line.toSubSpace(v1D));
+08:50:56.280 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Location loc1 = subLine.checkPoint(line.toSubSpace(v1D));
+08:50:56.282 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Location loc1 = includeEndPoints.checkPoint(line.toSubSpace(v1D));
+08:50:56.283 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Location loc1 = this.line.checkPoint(line.toSubSpace(v1D));
+08:50:56.284 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Location loc1 = remainingRegion.checkPoint(loc1.toSubSpace(v1D));
+08:50:56.285 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Location loc1 = remainingRegion.checkPoint(v1D.toSubSpace(v1D));
+08:50:56.286 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Location loc1 = remainingRegion.checkPoint(subLine.toSubSpace(v1D));
+08:50:56.287 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Location loc1 = remainingRegion.checkPoint(includeEndPoints.toSubSpace(v1D));
+08:50:56.288 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Location loc1 = remainingRegion.checkPoint(this.remainingRegion.toSubSpace(v1D));
+08:50:56.289 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Location loc1 = remainingRegion.checkPoint(line.toSubSpace(loc1));
+08:50:56.290 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Location loc1 = remainingRegion.checkPoint(line.toSubSpace(subLine));
+08:50:56.290 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Location loc1 = remainingRegion.checkPoint(line.toSubSpace(includeEndPoints));
+08:50:56.291 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Location loc1 = remainingRegion.checkPoint(line.toSubSpace(this.line));
+08:50:56.292 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Location loc1 = remainingRegion.checkPoint(line.toSubSpace(this.remainingRegion));
+08:50:56.296 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:50:56.895 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+08:50:56.898 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:50:57.471 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+08:50:57.474 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:50:58.159 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+08:50:58.160 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:50:58.867 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+08:50:58.871 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:50:59.539 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+08:50:59.541 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:51:00.114 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+08:51:00.118 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:51:00.691 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+08:51:00.696 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:51:01.275 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+08:51:01.277 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:51:01.809 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+08:51:01.813 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:51:02.418 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+08:51:02.424 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:51:03.028 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+08:51:03.030 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:51:03.711 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+08:51:03.713 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:51:04.350 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+08:51:04.352 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:51:04.960 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+08:51:04.964 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:51:05.616 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+08:51:05.618 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (remainingRegion != null) {
+	
+
+}
+
+08:51:05.619 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (remainingRegion == null) {
+    throw new IllegalArgumentException("Null 'remainingRegion' argument.");
+}
+
+08:51:05.623 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (remainingRegion == null) {
+    return null;
+}
+
+08:51:05.625 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (line != null) {
+	
+
+}
+
+08:51:05.626 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (line == null) {
+    throw new IllegalArgumentException("Null 'line' argument.");
+}
+
+08:51:05.629 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (line == null) {
+    return null;
+}
+
+08:51:05.630 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (v1D != null) {
+	
+
+}
+
+08:51:05.631 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (v1D == null) {
+    throw new IllegalArgumentException("Null 'v1D' argument.");
+}
+
+08:51:05.632 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (v1D == null) {
+    return null;
+}
+
+08:51:05.636 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:51:06.300 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+08:51:06.303 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:51:06.892 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:51:06.895 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:52:37.415 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+08:52:37.417 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:52:38.103 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:52:38.104 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:54:11.422 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+08:54:11.429 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:54:12.145 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+08:54:12.147 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:54:12.752 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:54:12.753 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:55:50.610 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+08:55:50.613 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:55:51.744 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:55:51.745 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:57:27.694 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+08:57:27.698 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:57:28.317 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+08:57:28.320 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:57:28.980 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:57:28.983 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+08:59:10.225 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+08:59:10.228 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+08:59:10.891 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+08:59:10.893 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:00:55.093 [main] INFO edu.lu.uni.serval.avatar.AbstractFixer - Partially Succeeded to fix the bug Math_4====================
+09:00:55.129 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+09:00:55.131 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:00:55.759 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+09:00:55.761 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: final Location loc1 = remainingRegion.checkPoint(line.toSubSpace(v1D));
+09:00:55.762 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:00:56.443 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:00:56.444 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:02:43.063 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+09:02:43.067 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+09:02:43.068 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:02:43.702 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:02:43.705 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:04:33.423 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:04:33.427 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+09:04:33.428 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:04:34.060 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:04:34.061 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:06:06.642 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:06:06.645 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:06:07.261 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:06:07.262 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:07:36.745 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:07:36.749 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+09:07:36.750 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:07:37.352 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:07:37.353 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:08:59.457 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:08:59.460 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+09:08:59.462 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:09:00.124 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:09:00.125 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:10:28.077 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:10:28.080 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:10:28.695 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:10:28.697 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:12:10.372 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:12:10.376 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+09:12:10.377 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:12:11.037 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:12:11.039 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:13:40.573 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:13:40.578 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+09:13:40.579 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:13:41.177 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:13:41.178 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:15:16.399 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:15:16.404 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:15:17.068 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:15:17.069 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:16:59.713 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:16:59.719 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+09:16:59.722 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:17:00.347 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:17:00.348 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:18:38.650 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:18:38.655 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+09:18:38.657 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:18:39.297 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:18:39.297 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:20:04.933 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:20:04.934 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:20:05.571 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:20:05.572 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:21:39.862 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:21:39.865 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+09:21:39.866 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:21:40.490 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:21:40.491 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:23:15.701 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:23:15.704 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.apache.commons.math3.geometry.euclidean.twod.SubLine ===114
+09:23:15.750 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+Line line2 = (Line) subLine.getHyperplane();
+09:23:15.755 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Line line2 = (Line) line2.getHyperplane();
+09:23:15.755 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Line line2 = (Line) line1.getHyperplane();
+09:23:15.757 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Line line2 = (Line) includeEndPoints.getHyperplane();
+09:23:15.760 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:23:16.511 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+09:23:16.515 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:23:17.235 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+09:23:17.238 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:23:17.973 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+09:23:17.975 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (subLine != null) {
+	
+
+}
+
+09:23:17.976 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (subLine == null) {
+    throw new IllegalArgumentException("Null 'subLine' argument.");
+}
+
+09:23:17.977 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (subLine == null) {
+    return null;
+}
+
+09:23:17.980 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:23:18.669 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+09:23:18.672 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:23:19.395 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:23:19.396 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:25:08.223 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+09:25:08.226 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:25:08.863 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:25:08.864 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:26:39.253 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+09:26:39.257 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Object _tempVar = subLine.getHyperplane();
+if (_temVar instanceof Line) {
+	
+
+} else {
+	throw new IllegalArgumentException("Illegal argument: subLine.getHyperplane()");
+}
+
+09:26:39.259 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:26:39.941 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+09:26:39.943 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+09:26:39.944 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:26:40.697 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+09:26:40.698 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: final Line line2 = (Line) subLine.getHyperplane();
+09:26:40.700 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:26:41.481 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:26:41.482 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:28:20.616 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+09:28:20.621 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+09:28:20.622 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:28:21.289 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:28:21.290 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:29:57.338 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:29:57.345 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+09:29:57.347 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:29:58.075 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:29:58.076 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:31:35.838 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:31:35.842 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:31:36.618 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:31:36.619 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:33:17.363 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:33:17.369 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+09:33:17.372 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:33:18.021 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:33:18.023 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:34:58.844 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:34:58.849 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+09:34:58.851 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:34:59.610 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:34:59.611 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:36:42.151 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:36:42.158 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:36:42.899 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:36:42.901 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:38:20.790 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:38:20.793 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+09:38:20.794 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:38:21.462 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:38:21.463 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:39:58.486 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:39:58.488 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+09:39:58.490 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:39:59.154 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:39:59.156 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:41:29.559 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:41:29.561 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:41:30.348 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:41:30.349 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:43:12.548 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:43:12.554 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+09:43:12.556 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:43:13.230 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:43:13.232 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:44:50.923 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:44:50.929 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+09:44:50.932 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:44:51.627 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:44:51.627 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:46:35.453 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:46:35.458 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:46:36.140 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:46:36.141 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:48:18.353 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:48:18.356 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+09:48:18.358 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:48:19.065 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:48:19.067 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:49:47.504 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:49:47.507 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+09:49:47.511 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:49:48.307 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:49:48.309 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:51:21.537 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:51:21.540 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:51:22.241 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:51:22.242 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:53:02.855 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:53:02.858 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+09:53:02.859 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:53:03.596 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:53:03.597 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:54:48.031 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:54:48.034 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.apache.commons.math3.geometry.euclidean.twod.SubLine ===113
+09:54:48.090 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+Line line1 = (Line) getHyperplane();
+09:54:48.096 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Object _tempVar = getHyperplane();
+if (_temVar instanceof Line) {
+	
+
+} else {
+	throw new IllegalArgumentException("Illegal argument: getHyperplane()");
+}
+
+09:54:48.098 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:54:48.758 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+09:54:48.763 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+09:54:48.766 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:54:49.405 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+09:54:49.407 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: final Line line1 = (Line) getHyperplane();
+09:54:49.409 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:54:50.234 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:54:50.235 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:56:27.521 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+09:56:27.523 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+09:56:27.524 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:56:28.167 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:56:28.168 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:57:59.297 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:57:59.300 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+09:57:59.302 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:58:00.060 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:58:00.063 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+09:59:29.353 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+09:59:29.357 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+09:59:30.047 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+09:59:30.048 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:01:03.339 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:01:03.342 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+10:01:03.343 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:01:03.990 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:01:03.992 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:02:43.629 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:02:43.631 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+10:02:43.632 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:02:44.330 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:02:44.331 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:04:17.451 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:04:17.454 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:04:18.140 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:04:18.141 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:05:54.888 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:05:54.893 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+10:05:54.896 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:05:55.580 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:05:55.582 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:07:28.558 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:07:28.563 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+10:07:28.566 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:07:29.216 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:07:29.217 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:08:59.618 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:08:59.622 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:09:00.304 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:09:00.305 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:10:28.373 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:10:28.374 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+10:10:28.377 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:10:29.028 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:10:29.029 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:11:59.580 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:11:59.583 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+10:11:59.585 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:12:00.273 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:12:00.274 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:13:26.510 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:13:26.514 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:13:27.306 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:13:27.309 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:15:00.076 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:15:00.079 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+10:15:00.081 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:15:00.854 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:15:00.856 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:16:45.501 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:16:45.506 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+10:16:45.510 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:16:46.432 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:16:46.433 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:18:32.281 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:18:32.286 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:18:33.060 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:18:33.061 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:20:14.764 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+10:20:14.766 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+10:20:14.768 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:20:15.564 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:20:15.566 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:21:46.501 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:21:46.503 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.apache.commons.math3.geometry.euclidean.threed.SubLine ===113
+10:21:46.521 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+Vector3D v1D = line.intersection(subLine.line);
+10:21:46.523 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Vector3D v1D = v1D.intersection(subLine.line);
+10:21:46.524 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Vector3D v1D = subLine.intersection(subLine.line);
+10:21:46.525 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Vector3D v1D = includeEndPoints.intersection(subLine.line);
+10:21:46.525 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: Vector3D v1D = this.remainingRegion.intersection(subLine.line);
+10:21:46.527 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:21:47.172 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+10:21:47.173 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:21:47.770 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+10:21:47.772 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:21:48.416 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+10:21:48.419 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:21:49.170 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+10:21:49.174 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (line != null) {
+	
+
+}
+
+10:21:49.175 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (line == null) {
+    throw new IllegalArgumentException("Null 'line' argument.");
+}
+
+10:21:49.176 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (line == null) {
+    return null;
+}
+
+10:21:49.181 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:21:49.829 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+10:21:49.831 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:21:50.465 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:21:50.466 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:23:28.817 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+10:23:28.821 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:23:29.551 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:23:29.552 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:24:58.507 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+10:24:58.509 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+10:24:58.511 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:24:59.221 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+10:24:59.223 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: final Vector3D v1D = line.intersection(subLine.line);
+10:24:59.225 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:24:59.873 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:24:59.874 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:26:35.945 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+10:26:35.947 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+10:26:35.949 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:26:36.574 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:26:36.575 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:28:11.015 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:28:11.017 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+10:28:11.018 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:28:11.657 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:28:11.658 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:29:46.338 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:29:46.340 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:29:47.038 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:29:47.039 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:31:20.428 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:31:20.432 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+10:31:20.434 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:31:21.096 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:31:21.097 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:32:48.122 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:32:48.128 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+10:32:48.129 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:32:48.761 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:32:48.762 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:34:17.201 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:34:17.205 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:34:17.852 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:34:17.853 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:35:55.138 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:35:55.142 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+10:35:55.144 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:35:55.745 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:35:55.746 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:37:30.790 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:37:30.794 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+10:37:30.796 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:37:31.435 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:37:31.436 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:39:05.864 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:39:05.868 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:39:06.476 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:39:06.477 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:40:35.139 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:40:35.144 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+10:40:35.147 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:40:35.785 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:40:35.786 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:42:14.065 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:42:14.067 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+10:42:14.069 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:42:14.623 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:42:14.624 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:43:50.303 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:43:50.308 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:43:50.945 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:43:50.946 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:45:27.005 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:45:27.008 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+10:45:27.196 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:45:27.894 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:45:27.895 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:46:59.614 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:46:59.617 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+10:46:59.619 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:47:00.252 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:47:00.253 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:48:33.797 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:48:33.801 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:48:34.547 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:48:34.548 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:50:12.709 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:50:12.713 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+10:50:12.714 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:50:13.424 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:50:13.427 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:51:51.503 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 8 Math_4
+10:51:51.506 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.apache.commons.math3.geometry.euclidean.threed.Line ===217
+10:51:51.544 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+return line.contains(closest) ? closest : null;
+10:51:51.551 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: return closest;
+10:51:51.551 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: return null;
+10:51:51.562 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:51:52.266 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:51:52.267 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:53:31.127 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+10:53:31.131 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:53:31.770 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:53:31.771 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:55:18.370 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+10:55:18.377 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: return closest.contains(closest) ? closest : null;
+10:55:18.378 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: return this.direction.contains(closest) ? closest : null;
+10:55:18.386 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: return this.zero.contains(closest) ? closest : null;
+10:55:18.387 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: return line.contains(line) ? closest : null;
+10:55:18.388 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: return line.contains(this.direction) ? closest : null;
+10:55:18.390 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: return line.contains(this.zero) ? closest : null;
+10:55:18.390 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: return line.contains(closest) ? line : null;
+10:55:18.391 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: return line.contains(closest) ? this.direction : null;
+10:55:18.392 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: return line.contains(closest) ? this.zero : null;
+10:55:18.394 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:55:19.240 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+10:55:19.242 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:55:19.857 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+10:55:19.860 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:55:20.627 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+10:55:20.630 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:55:21.239 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+10:55:21.242 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:55:21.935 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:55:21.936 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:56:51.059 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+10:56:51.062 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:56:51.726 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:56:51.727 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:58:19.829 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+10:58:19.832 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:58:20.455 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+10:58:20.457 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:58:21.149 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:58:21.150 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+10:59:58.003 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+10:59:58.004 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+10:59:58.746 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+10:59:58.747 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:01:40.403 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 6 Math_4
+11:01:40.405 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (line != null) {
+	
+
+}
+
+11:01:40.406 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (line == null) {
+    throw new IllegalArgumentException("Null 'line' argument.");
+}
+
+11:01:40.406 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (line == null) {
+    return null;
+}
+
+11:01:40.407 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (closest != null) {
+	
+
+}
+
+11:01:40.408 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (closest == null) {
+    throw new IllegalArgumentException("Null 'closest' argument.");
+}
+
+11:01:40.409 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (closest == null) {
+    return null;
+}
+
+11:01:40.411 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:01:41.135 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+11:01:41.137 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:01:41.774 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:01:41.775 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:03:15.866 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+11:03:15.868 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:03:16.545 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:03:16.546 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:04:53.610 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+11:04:53.614 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:04:54.370 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+11:04:54.375 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:04:55.071 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:04:55.072 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:06:30.919 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+11:06:30.923 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:06:31.524 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:06:31.524 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:08:08.119 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+11:08:08.123 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+11:08:08.125 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:08:08.753 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:08:08.754 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:09:37.511 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+11:09:37.514 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+11:09:37.515 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:09:38.147 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:09:38.147 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:11:16.007 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+11:11:16.011 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:11:16.696 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:11:16.697 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:12:47.114 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+11:12:47.118 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+11:12:47.121 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:12:47.766 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:12:47.767 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:14:24.010 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+11:14:24.015 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+11:14:24.018 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:14:24.647 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:14:24.648 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:16:06.454 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+11:16:06.459 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:16:07.119 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:16:07.120 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:17:38.494 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+11:17:38.499 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+11:17:38.502 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:17:39.123 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:17:39.125 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:19:28.795 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+11:19:28.797 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+11:19:28.798 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:19:29.603 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:19:29.604 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:21:27.472 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+11:21:27.476 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:21:28.376 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:21:28.377 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:23:11.190 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+11:23:11.193 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+11:23:11.194 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:23:11.939 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:23:11.940 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:24:56.152 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+11:24:56.156 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+11:24:56.157 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:24:56.858 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:24:56.859 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:26:32.011 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+11:26:32.013 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:26:32.662 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:26:32.663 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:28:14.327 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+11:28:14.329 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+11:28:14.330 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:28:14.973 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:28:14.975 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:29:44.385 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+11:29:44.387 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.apache.commons.math3.geometry.euclidean.threed.Line ===216
+11:29:44.408 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+final Vector3D closest = closestPoint(line);
+11:29:44.410 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: final Vector3D closest = closestPoint(closest);
+11:29:44.411 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: final Vector3D closest = closestPoint(this.direction);
+11:29:44.411 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: final Vector3D closest = closestPoint(this.zero);
+11:29:44.413 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:29:45.057 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+11:29:45.058 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:29:45.663 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+11:29:45.665 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:29:46.288 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+11:29:46.290 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (line != null) {
+	
+
+}
+
+11:29:46.291 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (line == null) {
+    throw new IllegalArgumentException("Null 'line' argument.");
+}
+
+11:29:46.292 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: if (line == null) {
+    return null;
+}
+
+11:29:46.293 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:29:46.946 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+11:29:46.948 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:29:47.609 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:29:47.610 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:31:20.822 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+11:31:20.826 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:31:21.601 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:31:21.602 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:32:49.049 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 2 Math_4
+11:32:49.053 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+11:32:49.054 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:32:49.611 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Math_4 ---Fixer: fix fail because of failed compiling! 
+11:32:49.616 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+11:32:49.618 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:32:50.278 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:32:50.279 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:34:23.749 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+11:34:23.752 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+11:34:23.753 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:34:24.405 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:34:24.408 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:35:55.993 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+11:35:55.996 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:35:56.642 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:35:56.643 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:37:26.642 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+11:37:26.646 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+11:37:26.649 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:37:27.324 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:37:27.325 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:38:55.435 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+11:38:55.441 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+11:38:55.445 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:38:56.181 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:38:56.182 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:40:31.360 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+11:40:31.366 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:40:31.966 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:40:31.967 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:42:08.800 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+11:42:08.806 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+11:42:08.808 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:42:09.453 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:42:09.455 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:43:44.334 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+11:43:44.339 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+11:43:44.342 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:43:45.009 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:43:45.010 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:45:17.201 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+11:45:17.204 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:45:18.064 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:45:18.066 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:47:02.257 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+11:47:02.261 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+11:47:02.264 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:47:02.939 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:47:02.940 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:48:34.248 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+11:48:34.252 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+11:48:34.253 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:48:34.879 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:48:34.880 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:50:04.967 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+11:50:04.969 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:50:05.678 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:50:05.678 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:51:40.048 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+11:51:40.056 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+11:51:40.058 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:51:40.731 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:51:40.733 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:53:14.776 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+11:53:14.778 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+11:53:14.779 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:53:15.434 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:53:15.435 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+11:54:46.744 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Failed Tests after fixing: 9 Math_4
+11:54:46.746 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+11:54:47.449 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Finish of compiling.
+11:54:47.450 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Test previously failed test cases.
+
+apiarty> time ./FLFix.sh Closure_83 > /apiarty/data/Closure_83_avatar.txt
+^CException in thread "main" java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1081)
+	at edu.lu.uni.serval.utils.ShellUtils.shellRun(ShellUtils.java:54)
+	at edu.lu.uni.serval.avatar.AbstractFixer.testGeneratedPatches(AbstractFixer.java:243)
+	at edu.lu.uni.serval.avatar.Avatar.generatePatches(Avatar.java:190)
+	at edu.lu.uni.serval.avatar.Avatar.fixWithMatchedFixTemplates(Avatar.java:103)
+	at edu.lu.uni.serval.avatar.Avatar.fixProcess(Avatar.java:71)
+	at edu.lu.uni.serval.main.Main.fixBug(Main.java:54)
+	at edu.lu.uni.serval.main.Main.main(Main.java:28)
+
+real	746m20.292s
+user	1076m21.096s
+sys	73m17.614s
+
+real	144m4.141s
+user	0m5.225s
+sys	0m3.209s

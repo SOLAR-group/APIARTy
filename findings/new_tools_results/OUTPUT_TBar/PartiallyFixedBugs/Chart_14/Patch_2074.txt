@@ -1,0 +1,13 @@
+diff --git a/source/org/jfree/chart/plot/CategoryPlot.java b/source/org/jfree/chart/plot/CategoryPlot.java
+index dc7d06b..bdf25d4 100644
+--- a/source/org/jfree/chart/plot/CategoryPlot.java
++++ b/source/org/jfree/chart/plot/CategoryPlot.java
+@@ -2375,7 +2375,7 @@ public class CategoryPlot extends Plot implements ValueAxisPlot,
+      * @see #addRangeMarker(Marker)
+      */
+     public boolean removeRangeMarker(Marker marker) {
+-        return removeRangeMarker(marker, Layer.FOREGROUND);
++        return removeRangeMarker(marker, Layer.BACKGROUND);
+     }
+ 
+     /**
