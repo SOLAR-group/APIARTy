@@ -1,0 +1,108 @@
+-> Avatar:
+-----------
+
+1. Setup the Defects4j path:
+
+cd /avatar/AVATAR/D4J/defects4j
+
+export PATH=$PATH:/avatar/AVATAR/D4J/defects4j/framework/bin
+
+2. Copy the following files:
+
+cp ../../apiarty/guidelines/Avatar/FLFix.sh .
+cp ../../apiarty/guidelines/Avatar/AbstractFixer.java /avatar/AVATAR/src/main/java/edu/lu/uni/serval/avatar/
+cp ../../apiarty/guidelines/Avatar/Configuration.java /avatar/AVATAR/src/main/java/edu/lu/uni/serval/config/
+
+3. Run ./compile.sh inside /avatar/AVATAR/
+
+4. Run defects4j commands inside /avatar/AVATAR/D4J/Defects4JData:
+
+(See also: https://github.com/rjust/defects4j.)
+
+- mkdir BugID e.g., Math_4
+
+- cd Math_4
+
+- defects4j checkout -p Math -v 4b -w .
+
+- defects4j compile
+
+- defects4j test
+
+5. Run Avatar:
+
+cd /avatar/AVATAR/
+
+time ./FLFix.sh Math_4 > /apiarty/findings/Math_4_avatar.txt
+
+-> TBar:
+--------
+
+1. Setup the Defects4j path:
+
+cd /tbar/TBar/D4J/defects4j
+
+export PATH=$PATH:/tbar/TBar/D4J/defects4j/framework/bin
+
+2. Run defects4j commands inside /tbar/TBar/D4J/projects/:
+
+(See also: https://github.com/rjust/defects4j.)
+
+- mkdir BugID e.g., Math_4
+
+- cd Math_4
+
+- defects4j checkout -p Math -v 4b -w .
+
+- defects4j compile
+
+- defects4j test
+
+3. Run TBar
+
+(Use full paths in the following command.)
+
+time ./NormalFLTBarRunner.sh /tbar/TBar/D4J/projects/ Math_4 /tbar/TBar/D4J/defects4j/ > /apiarty/findings/Math_4_tbar.txt
+
+
+-> SimFix:
+----------
+
+1. Edit ./setup.sh (e.g., vi ./setup.sh) by commenting out the following two commands (we have already installed Defects4j.)
+
+#git clone 'https://github.com/speezepearson/defects4j.git' "$HERE/defects4j" || die 'unable to clone Defects4J'
+#(cd "$HERE/defects4j" && ./init.sh) || die 'unable to initialize Defects4J'
+
+2. Run ./setup.sh into /simfix/SimFix/sbfl to setup the environment for Defects4j.
+
+3. Run source ~/.bashrc to start a new shell session.
+
+4. Setup, checkout, and build a defects4j project e.g., Chart_1
+
+(See also: https://github.com/xgdsmileboy/SimFix "How to run".)
+
+- cd /simfix/SimFix/sbfl/projects
+
+- mkdir chart
+
+- cd chart
+
+- mkdir chart_1_buggy
+
+- cd chart_1_buggy
+
+- defects4j checkout -p Chart -v 1b -w .
+
+- defects4j compile
+
+- defects4j test
+
+5. Run the following command into the /simfix/SimFix/sbfl folder to generate the suspicious points. At the end, we should get /simfix/SimFix/sbfl/ochiai/Chart/1/stmt-susps.txt:
+
+./sbfl.sh Chart 1 projects/chart/chart_1_buggy
+
+
+6. Run SimFix, i.e., the following command into /simfix/SimFix (keep the paths as follows):
+
+time java -jar /simfix/SimFix/final/simfix.jar --proj_home=/simfix/SimFix/sbfl/projects/ --proj_name=chart --bug_id=1 > /apiarty/findings/Chart_1_simfix.txt
+

@@ -1,0 +1,618 @@
+#!/usr/bin/env python3
+
+import os
+import logging
+from enum import Enum
+from pathlib import Path
+import argparse
+import json
+import subprocess
+from subprocess import DEVNULL, check_call, run, TimeoutExpired
+import tempfile
+import shutil
+import time
+import datetime
+import re
+import csv
+
+from datetime import date
+
+
+today = date.today()
+
+
+APIARTY_ROOT = Path(os.path.dirname(os.path.realpath(__file__)))
+ARJA_ROOT = Path('/arja')
+ASTOR_ROOT = Path('/astor')
+NOPOL_ROOT = Path('/nopol')
+NPEFIX_ROOT = Path('/npefix')
+
+
+# this is needed for "camel"
+os.environ["MAVEN_OPTS"] = "-Xms2048m -Xmx3584m"
+
+logger = logging.getLogger("apiarty")
+
+timeout = None
+reload_projects = False
+apiarty_stdout = DEVNULL
+apiarty_stderr = DEVNULL
+use_all_tests = False
+build_attempts = 1
+
+
+class cd:
+	"""Context manager for changing the current working directory"""
+
+	def __init__(self, newPath):
+		self.newPath = os.path.expanduser(str(newPath))
+
+	def __enter__(self):
+		self.savedPath = os.getcwd()
+		os.chdir(self.newPath)
+
+	def __exit__(self, etype, value, traceback):
+		os.chdir(self.savedPath)
+
+
+class Project:
+	def __init__(self, id, root, vcs, revision, build_system, test_class,
+				 src_path, test_path, package_path, src_classes, test_classes, build_command):
+		self.id = id
+		self.root = root
+		self.vcs = vcs
+		self.revision = revision
+		self.build_system = build_system
+		self.test_class = test_class
+		self.src_path = src_path
+		self.test_path = test_path
+		self.package_path = package_path
+		self.src_classes = src_classes
+		self.test_classes = test_classes
+		self.build_command = build_command
+
+	def test(self):
+		project_folder = ""
+
+		if self.package_path != ".":
+			project_folder = Path(str(self.root) +
+								  "/" + str(self.package_path))
+		else:
+			project_folder = self.root
+
+		if self.root.exists() and Path(str(project_folder) + "/" + self.test_classes).exists():
+			logger.info("reusing test classes in " + str(Path(str(project_folder) + "/" + self.test_classes)))
+			return
+		self.build_system.test(self.root)
+
+	def compile(self):
+		project_folder = ""
+
+		if self.package_path != ".":
+			project_folder = Path(str(self.root) +
+								  "/" + str(self.package_path))
+		else:
+			project_folder = self.root
+
+		if self.root.exists() and Path(str(project_folder) + "/" + self.src_classes).exists():
+			logger.info("reusing src classes in " + str(Path(str(project_folder) + "/" + self.src_classes)))
+			return
+		self.build_system.compile(self.root, self.build_command)
+
+	def extract_classpath(self):
+		self.build_system.extract_classpath(self.root)
+
+	def fetch(self):
+		if self.root.exists() and reload_projects:
+			shutil.rmtree(str(self.root))
+		if self.root.exists():
+			logger.info("reusing files in " + str(self.root))
+			return
+		self.vcs.fetch_previous(self.revision, self.root)
+		with tempfile.TemporaryDirectory() as next_dir:
+			self.vcs.fetch(self.revision, next_dir)
+			shutil.rmtree(str(self.root) + "/" +
+						  self.package_path + "/" + self.test_path)
+			shutil.copytree(next_dir + "/" + self.package_path + "/" + self.test_path,
+							str(self.root) + "/" + self.package_path + "/" + self.test_path)
+
+
+class Git:
+	def __init__(self, url):
+		self.url = url
+
+	def fetch(self, revision, root):
+		p = run(['git', 'clone', self.url, str(root)],
+				stdout=apiarty_stdout, stderr=apiarty_stderr)
+		if p.returncode != 0:
+			logger.warning("git clone returned non-zero code")
+		with cd(root):
+			time.sleep(1.0)  # without this checkout sometimes fail (e.g. on MATH-891)
+			p = run(['git', 'checkout', revision],
+					stdout=apiarty_stdout, stderr=apiarty_stderr)
+			if p.returncode != 0:
+				logger.warning("git checkout returned non-zero code")
+
+	def fetch_previous(self, revision, root):
+		self.fetch(revision + '^', root)
+
+
+class Svn:
+	def __init__(self, url):
+		self.url = url
+
+	def fetch(self, revision, root):
+		raise NotImplementedError
+
+	def fetch_previous(self, revision, root):
+		raise NotImplementedError
+
+
+class BuildSystem:
+	def __init__(self, test, compile, extract):
+		self.test_command = test
+		self.compile_command = compile
+		self.extract_command = extract
+
+	def extract_classpath(self, root):
+		with cd(root):
+			p = run(self.extract_command, shell=True,
+					stdout=apiarty_stdout, stderr=apiarty_stderr)
+			if p.returncode != 0:
+				logger.warning(
+					"extraction of classpath returned non-zero code")
+
+	def compile(self, root, build_command):
+		with cd(root):
+			success = False
+			remaining_attempts = build_attempts
+			while not success and remaining_attempts > 0:
+				if remaining_attempts < build_attempts:
+					logger.info("retrying to compile")
+				p = run(self.compile_command, shell=True,
+						stdout=apiarty_stdout, stderr=apiarty_stderr)
+				if p.returncode != 0:
+					logger.warning("compilation returned non-zero code")
+				if p.returncode == 0:
+					success = True
+				remaining_attempts = remaining_attempts - 1
+
+	def test(self, root):
+		with cd(root):
+			p = run(self.test_command, shell=True,
+					stdout=apiarty_stdout, stderr=apiarty_stderr)
+			if p.returncode != 0:
+				logger.warning("testing returned non-zero code")
+
+
+class Surefire:
+	def extract_tests(self):
+		raise NotImplementedError
+
+
+class RepairStatus(Enum):
+	SUCCESS = 1  # patch has been generated
+	FAILED = 2  # patch has not been generated
+	ERROR = 3  # tool gave error message
+	UNKNOWN = 4  # unknown result; it hasn't been parsed yet
+
+
+class Arja():
+	def __init__(self, main_class, algorithm):
+		self.main_class = main_class
+		self.algorithm = algorithm
+		self.name = 'Arja-' + algorithm
+
+	def run(self, project, output_dir):
+		repair_status = RepairStatus.UNKNOWN
+		project_folder = ""
+
+		if project.package_path != ".":
+			project_folder = Path(str(project.root) +
+								  "/" + str(project.package_path))
+		else:
+			project_folder = project.root
+
+		dependencies = (Path(str(project_folder) +
+							 '/classpath.info')).read_text()
+
+		with cd(ARJA_ROOT):
+			with (output_dir / 'stdout.txt').open('w') as stdout,\
+				 (output_dir / 'stderr.txt').open('w') as stderr:
+				p = run([
+					'java', '-Xmx4048m', '-cp', 'lib/*:bin', self.main_class, self.algorithm,
+							'-DsrcJavaDir', str(project_folder /
+												project.src_path),
+							'-DbinJavaDir', str(project_folder /
+												project.src_classes),
+							'-DbinTestDir', str(project_folder /
+												project.test_classes),
+							'-Ddependences', dependencies,
+							'-DpatchOutputRoot', str(output_dir)
+				],
+					stdout=stdout,
+					stderr=stderr, timeout=7200)
+				if p.returncode != 0:
+					logger.warning("repair returned non-zero code")
+				# check for generated patches by Arja tools
+				entries = output_dir
+				for entry in entries.iterdir():
+					if re.search("^Patch.*", entry.name):
+						repair_status = RepairStatus.SUCCESS
+		return repair_status
+
+
+class Astor():
+	def __init__(self, main_class, algorithm):
+		self.main_class = main_class
+		self.algorithm = algorithm
+		self.name = 'Astor-' + algorithm
+
+	def run(self, project, output_dir):
+		ASTOR_JAR = ASTOR_ROOT / 'target' / \
+			'astor-1.0.0-SNAPSHOT-jar-with-dependencies.jar'
+		GZOLTAR = ASTOR_ROOT / 'lib' / 'gzoltar' / \
+			'com.gzoltar-0.0.3.jar'
+
+		repair_status = RepairStatus.UNKNOWN
+		project_folder = ""
+
+		if project.package_path != ".":
+			project_folder = Path(str(project.root) +
+								  "/" + str(project.package_path))
+		else:
+			project_folder = Path(str(project.root))
+
+		dependencies = (Path(str(project_folder) +
+							 '/classpath.info')).read_text()
+
+		print("Project folder: " + str(project_folder))
+
+		with cd(ASTOR_ROOT):
+			with (output_dir / 'stdout.txt').open('w') as stdout,\
+				 (output_dir / 'stderr.txt').open('w') as stderr:
+				p = run([
+					'java', '-Xmx4048m', '-cp', "/astor/lib/jtestex7.jar:/astor/target/astor-1.0.0-SNAPSHOT-jar-with-dependencies.jar", self.main_class,
+							'-mode', self.algorithm,
+							'-location', str(project_folder.resolve()) + "/",
+							'-jvm4testexecution', str(os.getenv("JAVA_HOME"))+str("/bin/"),
+							'-failing', str(project.test_class),
+							'-srcjavafolder', "/"+str(project.src_path),
+							'-srctestfolder', "/"+str(project.test_path),
+							'-binjavafolder', "/"+str(project.src_classes),
+							'-bintestfolder', "/"+str(project.test_classes),
+							'-maxtime', str(120),
+							'-stopfirst', 'true',
+							'-maxgen', str(1000000),
+							'-seed', str(0),
+							'-scope', 'local',
+							'-population', str(1),
+							'-dependencies', dependencies+":"+str(GZOLTAR.resolve())+":"+str("/root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.1.1.jar"+":"+str("/root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.0.1.pom"))
+				],
+					stdout=stdout,
+					stderr=stderr,timeout=7200)
+				if p.returncode != 0:
+					logger.warning("repair returned non-zero code")
+				# check for generated patches by Astor tools
+				entries = output_dir
+				for entry in entries.iterdir():
+					if 'PATCH_DIFF_ORIG' in entry.read_text():
+						repair_status = RepairStatus.SUCCESS
+		return repair_status
+
+
+class Nopol():
+
+	def __init__(self, algorithm):
+		self.algorithm = algorithm
+		if algorithm == 'dynamoth':
+			self.name = "Dynamoth"
+		else:
+			self.name = "Nopol"
+
+	def run(self, project, output_dir):
+		NOPOL_JAR = NOPOL_ROOT / 'nopol' / 'target' / \
+			'nopol-0.2-SNAPSHOT-jar-with-dependencies.jar'
+		SOLVER_PATH = NOPOL_ROOT / 'nopol' / 'lib' / 'z3' / 'z3_for_linux'
+
+		repair_status = RepairStatus.UNKNOWN
+		project_folder = ""
+
+		if project.package_path != ".":
+			project_folder = Path(str(project.root) +
+								  "/" + str(project.package_path))
+		else:
+			project_folder = project.root
+
+		dependencies = (Path(str(project_folder) +
+							 '/classpath.info')).read_text()
+
+		with cd(project_folder):
+			with (output_dir / 'stdout.txt').open('w') as stdout,\
+				 (output_dir / 'stderr.txt').open('w') as stderr:
+
+				args = []
+
+				if self.name == "Dynamoth":
+					args = [
+						'java', '-Xmx4048m','-cp', str(os.getenv("JAVA_HOME"))+str(
+							"/lib/tools.jar")+":"+str(NOPOL_JAR),
+						'fr.inria.lille.repair.Main',
+						'-s', str(project_folder / project.src_path) +
+						":"+str(project_folder / project.test_path),
+						'-c', str(project_folder / project.src_classes)+":" +
+						str(project_folder / project.test_classes) +
+						":"+dependencies,
+						'-t', str(project.test_class),
+						'-p', str(SOLVER_PATH),
+						'-y', 'dynamoth',
+						'--type', 'pre_then_cond',
+						'--maxTime', str(120)
+					]
+				else:
+					args = [
+						'java', '-Xmx4048m', '-jar', str(NOPOL_JAR),
+						'-s', str(project_folder / project.src_path) +
+						":"+str(project_folder / project.test_path),
+						'-c', str(project_folder / project.src_classes)+":" +
+						str(project_folder / project.test_classes) +
+						":"+dependencies,
+						'-t', str(project.test_class),
+						'-p', str(SOLVER_PATH),
+						'--maxTime', str(120),
+						'--type', 'pre_then_cond',
+						'--complianceLevel', str(8)
+					]
+				p = run(args,
+						stdout=stdout,
+						stderr=stderr,timeout=7200)
+				if p.returncode != 0:
+					logger.warning("repair returned non-zero code")
+				# check for generated patches by Nopol tools
+				entries = output_dir
+				for entry in entries.iterdir():
+					if 'PATCH FOUND' in entry.read_text():
+						repair_status = RepairStatus.SUCCESS
+		return repair_status
+
+
+class Npefix():
+
+	def __init__(self):
+		self.name = "NPEFix"
+
+	def run(self, project, output_dir):
+		NPEFIX_JAR = NPEFIX_ROOT / 'target' / \
+			'npefix-0.8-SNAPSHOT-jar-with-dependencies.jar'
+
+		project_folder = ""
+
+		if project.package_path != ".":
+			project_folder = Path(str(project.root) +
+								  "/" + str(project.package_path))
+		else:
+			project_folder = project.root
+
+		dependencies = (Path(str(project_folder) +
+							 '/classpath.info')).read_text()
+
+		with cd(project_folder):
+			with (output_dir / 'stdout.txt').open('w') as stdout,\
+				 (output_dir / 'stderr.txt').open('w') as stderr:
+				p = run([
+					'java', '-Xmx4048m', '-jar', str(NPEFIX_JAR),
+						 '--source', str(project_folder / project.src_path) +
+						 ":"+str(project_folder / project.test_path),
+						 '--classpath', str(project_folder / project.src_classes)+":" +
+						 str(project_folder / project.test_classes) +
+						 ":"+dependencies,
+						 '--test', str(project.test_class),
+						 '--workingdirectory', str(output_dir),
+				],
+				stdout=stdout,
+				stderr=stderr,timeout=7200)
+				if p.returncode != 0:
+					logger.warning("repair returned non-zero code")
+				# check for generated patches by NPEFix
+				entry = project_folder / 'debug.log'
+				if 'PATCH FOUND' in entry.read_text():
+					repair_status = RepairStatus.SUCCESS
+		return RepairStatus.UNKNOWN
+
+
+def repair(tool, project):
+	logger.info("fetching " + project.id)
+	project.fetch()
+	logger.info("compiling " + project.id)
+	project.compile()
+	logger.info("testing " + project.id)
+	project.test()
+	logger.info("computing classpath for " + project.id)
+	project.extract_classpath()
+	logger.info("running " + tool.name + " on " + project.id)
+	output_dir = APIARTY_ROOT / 'findings' / project.id / tool.name
+	if not output_dir.exists():
+		output_dir.mkdir(parents=True)
+	# textual month, day, and year	
+	exp_date = today.strftime("%B %d, %Y")
+	# starting time of subprocess
+	starting_datetime = time.time()
+	result = tool.run(project, output_dir)
+	# deltatime of subprocess
+	execution_time = datetime.timedelta(
+		seconds=int(time.time()-starting_datetime))
+	logger.info("execution time of running " + tool.name +
+				" on " + project.id + " is " + str(execution_time) + " on " + exp_date)
+	logger.info("result of running " + tool.name +
+				" on " + project.id + " is " + str(result))
+	with open(str(Path(APIARTY_ROOT / 'findings' / 'all-results.csv')), 'a+', newline='\n') as csvfile:
+		res_writer = csv.writer(csvfile, delimiter=',')
+		res_writer.writerow([project.id, tool.name, execution_time, result, exp_date])
+
+
+def make_vcs(name, url):
+	vcs_by_name = {
+		'git': Git(url),
+		'svn': Svn(url)
+	}
+	return vcs_by_name[name]
+
+
+def make_build(name, project_path):
+	test = ""
+	compile = ""
+	extract = ""
+
+	# TODO: Check whether name is a str or a dict
+	if (type(name) is dict) and ("custom" in name.keys()):
+		for k, l in enumerate(name["custom"]):
+			commands_dict = name["custom"][k]
+			commands_keys = commands_dict.keys()
+			if "test" in commands_keys:
+				test = str(commands_dict.get("test"))
+			elif "compile" in commands_keys:
+				compile = str(commands_dict.get("compile"))
+			elif "extract" in commands_keys:
+				extract = str(commands_dict.get("extract"))
+		name = 'custom'
+	build_system_by_name = {
+		'mvn': BuildSystem(
+			test="mvn test -U -V -B",
+			compile="mvn test -DskipTests -U -V -B",
+			extract="mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"),
+		# 'gradle': BuildSystem("",""),
+		'ant': BuildSystem(
+			test="ant test",
+			compile="ant compile",
+			extract=""),
+			#extract=check_call("sh build-classpath %s" % (str(project_path)), shell=True)),
+			#extract=str("./build-classpath %s" % str(project_path))),
+			#extract="find '.' -type f|grep jar$|tr '\n' ':' > classpath.info"),
+		'custom': BuildSystem(
+			test=test,
+			compile=compile,
+			extract=extract)
+	}
+	return build_system_by_name[name]
+
+
+tool_by_name = {
+    'Arja': Arja('us.msu.cse.repair.Main', 'Arja'),
+	'Arja-GenProg': Arja('us.msu.cse.repair.GenProgMain', 'GenProg'),
+    'Arja-Kali': Arja('us.msu.cse.repair.KaliMain', 'Kali'),
+	'Arja-RSRepair': Arja('us.msu.cse.repair.RSRepairMain', 'RSRepair'),
+	'Astor-jGenProg': Astor('fr.inria.main.evolution.AstorMain', 'jgenprog'),
+	'Astor-jKali': Astor('fr.inria.main.evolution.AstorMain', 'jKali'),
+	'Astor-jMutRepair': Astor('fr.inria.main.evolution.AstorMain', 'jMutRepair'),
+	'Astor-Cardumen': Astor('fr.inria.main.evolution.AstorMain', 'Cardumen'),
+    'Dynamoth': Nopol('dynamoth'),
+    'Nopol': Nopol(None),
+	'NPEFix': Npefix(),
+}
+
+
+def parse_project(id, project_root):
+	with (APIARTY_ROOT / 'data' / (id + '.json')).open() as json_file:
+		data = json.load(json_file)
+		vcs = make_vcs(data['vcs'], data['repo'])
+		build_system = make_build(data['build_system'], project_root / data['name'])
+		return Project(id=data['id'], root=(project_root / data['name']),
+					   vcs=vcs, revision=data['revision'], build_system=build_system,
+					   test_class=data['test_class'], src_path=data['src_path'], test_path=data['test_path'],
+					   package_path=data['package_path'], src_classes=data['src_classes'], test_classes=data['test_classes'], build_command=data['build_system'])
+
+# TODO: To update this method we have a similar process in all tools for all bugs
+def process_all_bugs(tool, database):
+	for file in os.listdir(str(database)):
+		if file.endswith(".json"):
+			bug_id = re.sub(".json", "", file)
+			path_to_bug_id = Path(os.path.join(str(database), bug_id))
+			logger.info("--- Tool " + str(tool.name) +
+						" runs on bug " + bug_id + " ---")
+			project = parse_project(bug_id, path_to_bug_id)
+			repair(tool, project)
+
+
+if __name__ == "__main__":
+	parser = argparse.ArgumentParser('APIARTy')
+	parser.add_argument('tool', metavar='TOOL', help='program repair tool')
+	parser.add_argument('bug', metavar='BUG', nargs='?', default=None,
+						help='bug ID (default: run on all bugs)')
+	parser.add_argument('--all-tests', action='store_true',
+						help='use all tests for repair (default: %(default)s)')
+	parser.add_argument('--verbose', action='store_true',
+						help='print compilation and testing messages (default: %(default)s)')
+	parser.add_argument('--reload', action='store_true',
+						help='remove old project files if any (default: %(default)s)')
+	parser.add_argument('--timeout', metavar='SEC', type=int, default=None,
+						help='repair tool timeout (default: %(default)s)')
+	parser.add_argument('--build-attempts', metavar='NUM', type=int, default=1,
+						help='retry build command if fails (default: %(default)s)')
+	args = parser.parse_args()
+	rootLogger = logging.getLogger()
+	rootLogger.setLevel(logging.INFO)
+	consoleHandler = logging.StreamHandler()
+	FORMAT = logging.Formatter('%(levelname)-8s %(message)s')
+	consoleHandler.setFormatter(FORMAT)
+	rootLogger.addHandler(consoleHandler)
+	if args.verbose:
+		apiarty_stdout = None
+		apiarty_stderr = None
+	use_all_tests = args.all_tests
+	reload_projects = args.reload
+	timeout = args.timeout
+	build_attempts = args.build_attempts
+
+	# run one tool on all bugs
+	if args.bug == None and args.bug != 'ALL':
+		tool = tool_by_name[args.tool]
+		# process all bugs given one tool
+		database = APIARTY_ROOT / 'data'
+		logger.info("--- Tool " + str(args.tool) + " runs on all bugs ---")
+		process_all_bugs(tool, database)
+    # run on one project one or all tools
+	elif args.bug != None and args.bug != "ALL":
+		# process one bug
+		bug_id = args.bug
+		path_to_bug_id = APIARTY_ROOT / 'data' / bug_id
+		project = parse_project(bug_id, path_to_bug_id)
+		if args.tool != 'ALL':
+			tool = tool_by_name[args.tool]
+			# run only selected tool on a project
+			logger.info("--- Tool " + str(args.tool) +
+						" runs on bug " + bug_id + " ---")
+			repair(tool, project)
+		elif args.tool == "ALL":
+			# run all tools on a project
+			all_tools = tool_by_name.keys()
+			for k in all_tools:
+				tool = tool_by_name[k]
+				logger.info("--- Tool " + str(tool.name) +
+							" runs on bug " + bug_id + " ---")
+				try:
+					repair(tool, project)
+				except subprocess.TimeoutExpired:
+					with open(str(Path(APIARTY_ROOT / 'findings' / 'timeout.csv')), 'a+', newline='\n') as csvfile:
+						res_writer = csv.writer(csvfile, delimiter=',')
+						res_writer.writerow([bug_id, tool.name, "timeout", today.strftime("%B %d, %Y")])
+						continue
+	# run all tools on all bugs
+	elif args.bug == "ALL" and args.tool == "ALL":
+		database = APIARTY_ROOT / 'data'
+		for file in os.listdir(str(database)):
+			if file.endswith(".json"):
+				bug_id = re.sub(".json", "", file)
+				path_to_bug_id = Path(os.path.join(str(database), bug_id))
+				project = parse_project(bug_id, path_to_bug_id)
+				all_tools = tool_by_name.keys()
+				for k in all_tools:
+					tool = tool_by_name[k]
+					logger.info("--- Tool " + str(tool.name) +
+								" runs on bug " + bug_id + " ---")
+					try:
+						repair(tool, project)
+					except subprocess.TimeoutExpired:
+						with open(str(Path(APIARTY_ROOT / 'findings' / 'timeout.csv')), 'a+', newline='\n') as csvfile:
+							res_writer = csv.writer(csvfile, delimiter=',')
+							res_writer.writerow([bug_id, tool.name, "timeout", today.strftime("%B %d, %Y")])
+							continue

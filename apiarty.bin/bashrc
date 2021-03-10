@@ -1,0 +1,4 @@
+printf "Welcome to APIARTy.\n\n"
+
+export PS1="apiarty> "
+export APIARTY_INTERACTIVE_SHELL=1
