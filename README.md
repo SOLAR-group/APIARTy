@@ -2,7 +2,7 @@
 
 APIARTy is an automated pipeline for evaluating and comparing automated program repair tools (repair tools) that can potentially detect and fix API misuses in Java programs. APIARTy currently includes MUBench, Bears, and Bugs.jar as bug benchmarks and state-of-the-art repair tools including Arja, Astor, Nopol, NPEFix, Avatar, TBar, and SimFix.
 
-This repository accompanies the paper Evaluating Automatic Program Repair Capabilities to Repair API Misuses.
+This repository accompanies the paper Evaluating Automatic Program Repair Capabilities to Repair API Misuses (IEEE TSE).
 
 ## Goals
 
