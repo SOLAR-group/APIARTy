@@ -1,0 +1,603 @@
+jodatime-361,Dynamoth,0:08:15,RepairStatus.UNKNOWN
+jodatime-361,Arja-RSRepair,0:18:57,RepairStatus.UNKNOWN
+jodatime-361,Arja-Arja,0:58:47,RepairStatus.UNKNOWN
+jodatime-361,Arja-GenProg,0:27:41,RepairStatus.UNKNOWN
+jodatime-361,Nopol,0:14:29,RepairStatus.UNKNOWN
+jodatime-361,Arja-Kali,0:18:12,RepairStatus.UNKNOWN
+jodatime-361,NPEFix,0:03:23,RepairStatus.UNKNOWN
+jodatime-362,Nopol,0:23:47,RepairStatus.UNKNOWN
+jodatime-362,NPEFix,0:01:34,RepairStatus.UNKNOWN
+jodatime-362,Arja-Kali,0:20:58,RepairStatus.UNKNOWN
+jodatime-362,Arja-Arja,0:30:58,RepairStatus.UNKNOWN
+jodatime-362,Arja-RSRepair,0:28:40,RepairStatus.UNKNOWN
+jodatime-362,Arja-GenProg,0:27:52,RepairStatus.UNKNOWN
+jodatime-362,Dynamoth,0:51:32,RepairStatus.UNKNOWN
+closure-1,Nopol,2:00:00,RepairStatus.UNKNOWN,"April 01, 2020"
+closure-1,NPEFix,0:00:33,RepairStatus.UNKNOWN,"April 01, 2020"
+closure-1,Arja-RSRepair,0:00:09,RepairStatus.UNKNOWN,"April 01, 2020"
+closure-1,Dynamoth,2:00:04,RepairStatus.UNKNOWN,"April 01, 2020"
+closure-1,Arja-Kali,0:00:14,RepairStatus.UNKNOWN,"April 01, 2020"
+closure-1,Arja-GenProg,0:00:11,RepairStatus.UNKNOWN,"April 01, 2020"
+closure-1,Arja-Arja,0:00:09,RepairStatus.UNKNOWN,"April 01, 2020"
+closure-3,Arja-GenProg,0:00:07,RepairStatus.UNKNOWN,"March 11, 2020"
+closure-3,Arja-Arja,0:00:05,RepairStatus.UNKNOWN,"March 11, 2020"
+closure-3,Arja-Kali,0:00:04,RepairStatus.UNKNOWN,"March 11, 2020"
+closure-3,Arja-RSRepair,0:00:06,RepairStatus.UNKNOWN,"March 11, 2020"
+closure-3,Nopol,0:02:19,RepairStatus.SUCCESS
+closure-3,Dynamoth,0:11:07,RepairStatus.SUCCESS
+closure-3,NPEFix,0:00:35,RepairStatus.UNKNOWN
+closure-2,Arja-GenProg,1:50:10,RepairStatus.UNKNOWN,"April 10, 2020"
+closure-2,Arja-Kali,0:11:50,RepairStatus.UNKNOWN,"April 10, 2020"
+closure-2,Arja-Arja,1:32:35,RepairStatus.UNKNOWN,"April 10, 2020"
+closure-2,Dynamoth,2:00:00,RepairStatus.UNKNOWN,"March 31, 2020"
+closure-2,NPEFix,0:01:01,RepairStatus.UNKNOWN,"March 31, 2020"
+acmath-2,Arja-Arja,1:59:57,RepairStatus.UNKNOWN,"March 08, 2020"
+acmath-2,NPEFix,0:09:20,RepairStatus.UNKNOWN,"March 08, 2020"
+acmath-2,Arja-RSRepair,1:59:54,RepairStatus.UNKNOWN,"March 08, 2020"
+acmath-2,Arja-Kali,0:45:26,RepairStatus.UNKNOWN,"March 08, 2020"
+acmath-2,Arja-GenProg,1:59:52,RepairStatus.UNKNOWN,"March 08, 2020"
+acmath-2,Dynamoth,0:04:19,RepairStatus.SUCCESS,"March 08, 2020"
+acmath-2,Nopol,0:05:52,RepairStatus.SUCCESS,"March 08, 2020"
+visualee-29,Arja-Arja,1:12:51,RepairStatus.UNKNOWN,"March 08, 2020"
+visualee-29,Dynamoth,0:00:45,RepairStatus.SUCCESS,"March 08, 2020"
+visualee-29,NPEFix,0:00:45,RepairStatus.UNKNOWN,"March 08, 2020"
+visualee-29,Arja-RSRepair,0:34:47,RepairStatus.UNKNOWN,"March 08, 2020"
+visualee-29,Arja-GenProg,0:51:24,RepairStatus.UNKNOWN,"March 08, 2020"
+visualee-29,Nopol,0:00:23,RepairStatus.SUCCESS,"March 08, 2020"
+visualee-29,Arja-Kali,0:01:03,RepairStatus.UNKNOWN,"March 08, 2020"
+visualee-30,Arja-RSRepair,0:58:31,RepairStatus.UNKNOWN,"March 08, 2020"
+visualee-30,Arja-GenProg,0:56:37,RepairStatus.UNKNOWN,"March 08, 2020"
+visualee-30,Nopol,0:01:09,RepairStatus.UNKNOWN,"March 08, 2020"
+visualee-30,Arja-Arja,1:04:05,RepairStatus.UNKNOWN,"March 08, 2020"
+visualee-30,NPEFix,0:00:34,RepairStatus.UNKNOWN,"March 08, 2020"
+visualee-30,Arja-Kali,0:02:10,RepairStatus.UNKNOWN,"March 08, 2020"
+visualee-30,Dynamoth,0:00:51,RepairStatus.UNKNOWN,"March 08, 2020"
+visualee-32,Arja-Arja,0:48:12,RepairStatus.UNKNOWN,"March 09, 2020"
+visualee-32,Arja-GenProg,0:43:52,RepairStatus.UNKNOWN,"March 09, 2020"
+visualee-32,NPEFix,0:00:19,RepairStatus.UNKNOWN,"March 09, 2020"
+visualee-32,Arja-RSRepair,0:31:53,RepairStatus.UNKNOWN,"March 09, 2020"
+visualee-32,Nopol,0:01:03,RepairStatus.UNKNOWN,"March 09, 2020"
+visualee-32,Dynamoth,0:00:46,RepairStatus.UNKNOWN,"March 09, 2020"
+visualee-32,Arja-Kali,0:01:31,RepairStatus.UNKNOWN,"March 09, 2020"
+hoverruan-weiboclient4j-132,Arja-Kali,0:00:58,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-132,NPEFix,0:02:32,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-132,Nopol,0:00:57,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-132,Dynamoth,0:00:52,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-132,Arja-GenProg,0:28:26,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-132,Arja-RSRepair,0:39:36,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-132,Arja-Arja,0:01:03,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-133,Arja-Kali,0:00:50,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-133,Nopol,0:00:35,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-133,Arja-GenProg,0:31:40,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-133,Arja-Arja,0:01:06,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-133,Arja-RSRepair,0:36:57,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-133,NPEFix,0:01:41,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-133,Dynamoth,0:00:41,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-134,Dynamoth,0:00:51,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-134,Nopol,0:00:50,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-134,Arja-RSRepair,0:36:59,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-134,Arja-Arja,0:01:03,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-134,NPEFix,0:02:34,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-134,Arja-Kali,0:00:56,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-134,Arja-GenProg,0:26:07,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-129,NPEFix,0:01:55,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-129,Arja-Arja,0:00:44,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-129,Dynamoth,0:00:42,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-129,Nopol,0:00:54,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-129,Arja-GenProg,0:29:17,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-129,Arja-Kali,0:00:50,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-129,Arja-RSRepair,0:24:37,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-128,Dynamoth,0:00:23,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-128,Arja-GenProg,0:15:49,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-128,Arja-Arja,0:00:29,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-128,Arja-RSRepair,0:25:10,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-128,NPEFix,0:02:43,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-128,Arja-Kali,0:00:54,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-128,Nopol,0:00:52,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-131,NPEFix,0:02:20,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-131,Nopol,0:00:51,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-131,Arja-RSRepair,0:18:43,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-131,Arja-Kali,0:00:22,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-131,Arja-GenProg,0:14:43,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-131,Arja-Arja,0:00:20,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-131,Dynamoth,0:00:24,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-130,NPEFix,0:03:06,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-130,Arja-Kali,0:00:56,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-130,Nopol,0:00:56,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-130,Arja-RSRepair,0:29:32,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-130,Dynamoth,0:00:40,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-130,Arja-Arja,0:00:40,RepairStatus.UNKNOWN,"March 16, 2020"
+hoverruan-weiboclient4j-130,Arja-GenProg,0:26:53,RepairStatus.UNKNOWN,"March 16, 2020"
+jfreechart-3a,NPEFix,1:59:56,RepairStatus.UNKNOWN,"March 10, 2020"
+jfreechart-3a,Nopol,0:02:52,RepairStatus.SUCCESS,"March 10, 2020"
+jfreechart-3a,Arja-GenProg,0:26:27,RepairStatus.UNKNOWN,"March 10, 2020"
+jfreechart-3a,Arja-RSRepair,0:24:37,RepairStatus.UNKNOWN,"March 10, 2020"
+jfreechart-3a,Arja-Kali,0:07:49,RepairStatus.UNKNOWN,"March 10, 2020"
+jfreechart-3a,Dynamoth,0:02:05,RepairStatus.SUCCESS,"March 10, 2020"
+jfreechart-3a,Arja-Arja,0:31:11,RepairStatus.UNKNOWN,"March 11, 2020"
+jfreechart-6,Arja-GenProg,0:21:19,RepairStatus.UNKNOWN,"March 12, 2020"
+jfreechart-6,Arja-RSRepair,0:49:16,RepairStatus.UNKNOWN,"March 12, 2020"
+jfreechart-6,NPEFix,0:13:27,RepairStatus.UNKNOWN,"March 12, 2020"
+jfreechart-6,Arja-Kali,0:12:23,RepairStatus.UNKNOWN,"March 12, 2020"
+jfreechart-6,Arja-Arja,0:43:25,RepairStatus.UNKNOWN,"March 12, 2020"
+jfreechart-6,Nopol,0:59:07,RepairStatus.UNKNOWN,"March 12, 2020"
+jfreechart-6,Dynamoth,0:39:55,RepairStatus.SUCCESS,"March 12, 2020"
+jfreechart-1,Arja-GenProg,0:17:00,RepairStatus.UNKNOWN,"March 11, 2020"
+jfreechart-1,Arja-Kali,0:09:10,RepairStatus.UNKNOWN,"March 11, 2020"
+jfreechart-1,NPEFix,0:08:08,RepairStatus.UNKNOWN,"March 11, 2020"
+jfreechart-1,Arja-RSRepair,0:15:05,RepairStatus.UNKNOWN,"March 11, 2020"
+jfreechart-1,Dynamoth,0:05:23,RepairStatus.UNKNOWN,"March 11, 2020"
+jfreechart-1,Nopol,0:05:19,RepairStatus.UNKNOWN,"March 11, 2020"
+jfreechart-1,Arja-Arja,0:15:25,RepairStatus.UNKNOWN,"March 11, 2020"
+jfreechart-2,Arja-Arja,0:38:31,RepairStatus.UNKNOWN,"March 09, 2020"
+jfreechart-2,Arja-RSRepair,0:34:52,RepairStatus.UNKNOWN,"March 09, 2020"
+jfreechart-2,Dynamoth,0:13:08,RepairStatus.SUCCESS,"March 09, 2020"
+jfreechart-2,Arja-GenProg,0:35:11,RepairStatus.UNKNOWN,"March 09, 2020"
+jfreechart-2,Nopol,0:15:07,RepairStatus.SUCCESS,"March 09, 2020"
+jfreechart-2,Arja-Kali,0:08:28,RepairStatus.UNKNOWN,"March 10, 2020"
+jfreechart-2,NPEFix,1:59:53,RepairStatus.UNKNOWN,"March 10, 2020"
+jfreechart-5,Nopol,1:59:54,RepairStatus.UNKNOWN,"April 10, 2020"
+jfreechart-5,Arja-GenProg,0:34:16,RepairStatus.UNKNOWN,"March 13, 2020"
+jfreechart-5,Arja-Kali,0:11:34,RepairStatus.UNKNOWN,"March 13, 2020"
+jfreechart-5,NPEFix,0:13:14,RepairStatus.UNKNOWN,"March 13, 2020"
+jfreechart-5,Arja-RSRepair,0:48:51,RepairStatus.UNKNOWN,"March 13, 2020"
+jfreechart-5,Dynamoth,2:01:11,RepairStatus.UNKNOWN,"March 13, 2020"
+jfreechart-5,Arja-Arja,0:41:44,RepairStatus.UNKNOWN,"March 13, 2020"
+jfreechart-7a,Arja-GenProg,0:38:57,RepairStatus.UNKNOWN,"March 13, 2020"
+jfreechart-7a,Nopol,0:31:54,RepairStatus.UNKNOWN,"March 13, 2020"
+jfreechart-7a,Dynamoth,0:35:05,RepairStatus.UNKNOWN,"March 13, 2020"
+jfreechart-7a,Arja-Kali,0:10:40,RepairStatus.UNKNOWN,"March 13, 2020"
+jfreechart-7a,NPEFix,0:09:03,RepairStatus.UNKNOWN,"March 13, 2020"
+jfreechart-7a,Arja-RSRepair,0:43:33,RepairStatus.UNKNOWN,"March 13, 2020"
+jfreechart-7a,Arja-Arja,1:00:17,RepairStatus.UNKNOWN,"March 13, 2020"
+asterisk-java-194,Arja-GenProg,0:27:20,RepairStatus.UNKNOWN,"March 12, 2020"
+asterisk-java-194,Arja-Arja,0:36:07,RepairStatus.UNKNOWN,"March 12, 2020"
+asterisk-java-194,Nopol,0:01:44,RepairStatus.UNKNOWN,"March 12, 2020"
+asterisk-java-194,NPEFix,0:04:45,RepairStatus.UNKNOWN,"March 12, 2020"
+asterisk-java-194,Arja-Kali,0:02:21,RepairStatus.UNKNOWN,"March 12, 2020"
+asterisk-java-194,Arja-RSRepair,0:32:04,RepairStatus.UNKNOWN,"March 12, 2020"
+asterisk-java-194,Dynamoth,0:01:28,RepairStatus.UNKNOWN,"March 12, 2020"
+ivantrendafilov-confucius-95,NPEFix,0:00:17,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-95,Arja-GenProg,0:00:17,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-95,Dynamoth,0:03:28,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-95,Nopol,0:04:11,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-95,Arja-Kali,0:00:28,RepairStatus.SUCCESS,"March 14, 2020"
+ivantrendafilov-confucius-95,Arja-Arja,0:30:46,RepairStatus.SUCCESS,"March 14, 2020"
+ivantrendafilov-confucius-95,Arja-RSRepair,0:00:27,RepairStatus.SUCCESS,"March 14, 2020"
+ivantrendafilov-confucius-93,Arja-Kali,0:02:17,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-93,Dynamoth,0:03:17,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-93,Nopol,0:03:27,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-93,Arja-RSRepair,0:00:25,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-93,NPEFix,0:00:15,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-93,Arja-Arja,0:23:20,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-93,Arja-GenProg,0:00:19,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-96,Arja-RSRepair,0:01:13,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-96,Nopol,0:02:58,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-96,NPEFix,0:00:17,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-96,Dynamoth,0:02:40,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-96,Arja-GenProg,0:00:15,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-96,Arja-Arja,0:23:10,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-96,Arja-Kali,0:01:26,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-100,NPEFix,0:00:21,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-100,Arja-GenProg,0:00:26,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-100,Dynamoth,0:03:06,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-100,Arja-Kali,0:01:28,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-100,Nopol,0:02:49,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-100,Arja-RSRepair,0:00:29,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-100,Arja-Arja,0:22:22,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-98,Arja-GenProg,0:00:42,RepairStatus.SUCCESS,"March 14, 2020"
+ivantrendafilov-confucius-98,Dynamoth,0:00:35,RepairStatus.SUCCESS,"March 14, 2020"
+ivantrendafilov-confucius-98,NPEFix,0:00:17,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-98,Nopol,0:03:41,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-98,Arja-Kali,0:00:22,RepairStatus.SUCCESS,"March 14, 2020"
+ivantrendafilov-confucius-98,Arja-Arja,0:23:38,RepairStatus.SUCCESS,"March 14, 2020"
+ivantrendafilov-confucius-98,Arja-RSRepair,0:00:16,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-99,NPEFix,0:00:21,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-99,Arja-Kali,0:01:57,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-99,Arja-GenProg,0:00:30,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-99,Nopol,0:02:52,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-99,Arja-RSRepair,0:00:32,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-99,Arja-Arja,0:25:31,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-99,Dynamoth,0:02:57,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-101,Arja-GenProg,0:00:17,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-101,Arja-Arja,0:28:44,RepairStatus.SUCCESS,"March 14, 2020"
+ivantrendafilov-confucius-101,NPEFix,0:00:16,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-101,Arja-RSRepair,0:00:26,RepairStatus.SUCCESS,"March 14, 2020"
+ivantrendafilov-confucius-101,Nopol,0:03:59,RepairStatus.UNKNOWN,"March 14, 2020"
+ivantrendafilov-confucius-101,Arja-Kali,0:00:19,RepairStatus.SUCCESS,"March 14, 2020"
+ivantrendafilov-confucius-101,Dynamoth,0:03:29,RepairStatus.UNKNOWN,"March 14, 2020"
+jriecken-gae-java-mini-profiler-39,NPEFix,0:00:38,RepairStatus.UNKNOWN,"March 12, 2020"
+jriecken-gae-java-mini-profiler-39,Nopol,0:00:26,RepairStatus.UNKNOWN,"March 12, 2020"
+jriecken-gae-java-mini-profiler-39,Arja-RSRepair,0:07:37,RepairStatus.UNKNOWN,"March 12, 2020"
+jriecken-gae-java-mini-profiler-39,Arja-GenProg,0:03:50,RepairStatus.UNKNOWN,"March 12, 2020"
+jriecken-gae-java-mini-profiler-39,Arja-Arja,0:00:25,RepairStatus.UNKNOWN,"March 12, 2020"
+jriecken-gae-java-mini-profiler-39,Arja-Kali,0:00:21,RepairStatus.UNKNOWN,"March 12, 2020"
+jriecken-gae-java-mini-profiler-39,Dynamoth,0:00:31,RepairStatus.UNKNOWN,"March 12, 2020"
+aclang-2,Dynamoth,0:01:46,RepairStatus.UNKNOWN,"March 08, 2020"
+aclang-2,Arja-Arja,0:18:16,RepairStatus.UNKNOWN,"March 08, 2020"
+aclang-2,NPEFix,0:01:44,RepairStatus.UNKNOWN,"March 08, 2020"
+aclang-2,Arja-GenProg,0:14:58,RepairStatus.UNKNOWN,"March 08, 2020"
+aclang-2,Arja-RSRepair,0:15:19,RepairStatus.UNKNOWN,"March 08, 2020"
+aclang-2,Nopol,0:01:33,RepairStatus.UNKNOWN,"March 08, 2020"
+aclang-2,Arja-Kali,0:07:25,RepairStatus.UNKNOWN,"March 08, 2020"
+Bears-5,Dynamoth,0:00:35,RepairStatus.UNKNOWN
+Bears-5,Arja-GenProg,0:02:25,RepairStatus.UNKNOWN
+Bears-5,Arja-RSRepair,0:02:34,RepairStatus.UNKNOWN
+Bears-5,Nopol,0:00:35,RepairStatus.UNKNOWN
+Bears-5,Arja-Kali,0:08:50,RepairStatus.UNKNOWN
+Bears-5,Arja-Arja,1:33:07,RepairStatus.UNKNOWN
+Bears-5,NPEFix,0:03:08,RepairStatus.UNKNOWN
+Bears-8,Arja-Kali,0:06:54,RepairStatus.UNKNOWN
+Bears-8,Arja-GenProg,0:02:06,RepairStatus.UNKNOWN
+Bears-8,Arja-Arja,1:32:08,RepairStatus.UNKNOWN
+Bears-8,Dynamoth,0:00:56,RepairStatus.UNKNOWN
+Bears-8,Nopol,0:00:45,RepairStatus.UNKNOWN
+Bears-8,NPEFix,0:03:05,RepairStatus.UNKNOWN
+Bears-8,Arja-RSRepair,0:02:20,RepairStatus.UNKNOWN
+Bears-21,Arja-GenProg,0:02:16,RepairStatus.UNKNOWN
+Bears-21,NPEFix,0:02:36,RepairStatus.UNKNOWN
+Bears-21,Arja-RSRepair,0:02:34,RepairStatus.UNKNOWN
+Bears-21,Arja-Arja,1:28:04,RepairStatus.UNKNOWN
+Bears-21,Arja-Kali,0:07:29,RepairStatus.UNKNOWN
+Bears-21,Dynamoth,0:00:36,RepairStatus.UNKNOWN
+Bears-21,Nopol,0:00:57,RepairStatus.UNKNOWN
+Bears-80,Arja-GenProg,0:00:06,RepairStatus.UNKNOWN
+Bears-80,Arja-RSRepair,0:00:05,RepairStatus.UNKNOWN
+Bears-80,NPEFix,0:06:19,RepairStatus.UNKNOWN
+Bears-80,Arja-Kali,0:00:05,RepairStatus.UNKNOWN
+Bears-80,Dynamoth,0:02:58,RepairStatus.UNKNOWN
+Bears-80,Arja-Arja,0:00:05,RepairStatus.UNKNOWN
+Bears-80,Nopol,0:02:47,RepairStatus.UNKNOWN
+Bears-84,Arja-Arja,1:03:01,RepairStatus.UNKNOWN,"March 06, 2020"
+Bears-84,Nopol,0:06:17,RepairStatus.UNKNOWN,"March 06, 2020"
+Bears-84,NPEFix,0:02:07,RepairStatus.UNKNOWN,"March 06, 2020"
+Bears-84,Arja-Kali,0:02:54,RepairStatus.SUCCESS,"March 06, 2020"
+Bears-84,Arja-RSRepair,0:02:47,RepairStatus.UNKNOWN,"March 06, 2020"
+Bears-84,Arja-GenProg,0:02:45,RepairStatus.UNKNOWN,"March 06, 2020"
+Bears-84,Dynamoth,0:06:49,RepairStatus.UNKNOWN,"March 06, 2020"
+Bears-101,Arja-Arja,1:07:39,RepairStatus.SUCCESS
+Bears-101,Arja-Kali,0:03:34,RepairStatus.SUCCESS
+Bears-101,Arja-GenProg,0:00:39,RepairStatus.UNKNOWN
+Bears-101,NPEFix,0:02:10,RepairStatus.UNKNOWN
+Bears-101,Nopol,0:00:31,RepairStatus.UNKNOWN
+Bears-101,Dynamoth,0:00:34,RepairStatus.UNKNOWN
+Bears-101,Arja-RSRepair,0:00:46,RepairStatus.UNKNOWN
+Bears-102,Nopol,0:00:32,RepairStatus.UNKNOWN
+Bears-102,Arja-RSRepair,0:00:36,RepairStatus.UNKNOWN
+Bears-102,NPEFix,0:02:13,RepairStatus.UNKNOWN
+Bears-102,Dynamoth,0:00:32,RepairStatus.UNKNOWN
+Bears-102,Arja-Kali,0:05:04,RepairStatus.UNKNOWN
+Bears-102,Arja-Arja,2:17:10,RepairStatus.UNKNOWN
+Bears-102,Arja-GenProg,0:00:39,RepairStatus.UNKNOWN
+Bears-103,Arja-Arja,2:17:38,RepairStatus.UNKNOWN
+Bears-103,Dynamoth,3:33:14,RepairStatus.UNKNOWN
+Bears-103,Nopol,2:00:00,RepairStatus.UNKNOWN
+Bears-103,Arja-RSRepair,0:00:46,RepairStatus.UNKNOWN
+Bears-103,Arja-Kali,0:04:16,RepairStatus.UNKNOWN
+Bears-103,Arja-GenProg,0:00:28,RepairStatus.UNKNOWN
+Bears-103,NPEFix,0:01:41,RepairStatus.UNKNOWN
+Bears-104,Arja-GenProg,0:00:29,RepairStatus.UNKNOWN
+Bears-104,Dynamoth,0:00:25,RepairStatus.UNKNOWN
+Bears-104,NPEFix,0:01:30,RepairStatus.UNKNOWN
+Bears-104,Arja-Kali,0:00:32,RepairStatus.SUCCESS
+Bears-104,Arja-Arja,1:14:30,RepairStatus.SUCCESS
+Bears-104,Arja-RSRepair,0:00:45,RepairStatus.UNKNOWN
+Bears-104,Nopol,0:00:41,RepairStatus.UNKNOWN
+Bears-107,Arja-Kali,0:03:26,RepairStatus.UNKNOWN
+Bears-107,Dynamoth,0:00:24,RepairStatus.UNKNOWN
+Bears-107,Arja-Arja,0:54:45,RepairStatus.UNKNOWN
+Bears-107,NPEFix,0:01:32,RepairStatus.UNKNOWN
+Bears-107,Arja-GenProg,0:00:35,RepairStatus.UNKNOWN
+Bears-107,Nopol,0:00:28,RepairStatus.UNKNOWN
+Bears-107,Arja-RSRepair,0:00:29,RepairStatus.UNKNOWN
+Bears-114,Nopol,0:00:25,RepairStatus.UNKNOWN
+Bears-114,Arja-Kali,0:03:01,RepairStatus.UNKNOWN
+Bears-114,Arja-Arja,0:47:52,RepairStatus.UNKNOWN
+Bears-114,Arja-GenProg,0:00:34,RepairStatus.UNKNOWN
+Bears-114,Dynamoth,0:00:30,RepairStatus.UNKNOWN
+Bears-114,Arja-RSRepair,0:00:32,RepairStatus.UNKNOWN
+Bears-114,NPEFix,0:01:46,RepairStatus.UNKNOWN
+Bears-119,NPEFix,0:02:17,RepairStatus.UNKNOWN
+Bears-119,Dynamoth,0:00:30,RepairStatus.UNKNOWN
+Bears-119,Nopol,0:00:30,RepairStatus.UNKNOWN
+Bears-119,Arja-Kali,0:00:47,RepairStatus.UNKNOWN
+Bears-119,Arja-GenProg,0:00:35,RepairStatus.UNKNOWN
+Bears-119,Arja-Arja,0:18:29,RepairStatus.UNKNOWN
+Bears-119,Arja-RSRepair,0:00:34,RepairStatus.UNKNOWN
+Bears-178,Arja-Arja,0:01:16,RepairStatus.UNKNOWN
+Bears-178,Arja-Kali,0:01:19,RepairStatus.UNKNOWN
+Bears-178,Arja-GenProg,0:01:19,RepairStatus.UNKNOWN
+Bears-178,Dynamoth,0:01:18,RepairStatus.SUCCESS
+Bears-178,Nopol,0:22:47,RepairStatus.SUCCESS
+Bears-178,NPEFix,0:00:34,RepairStatus.UNKNOWN
+Bears-178,Arja-RSRepair,0:02:09,RepairStatus.UNKNOWN
+Bears-180,Arja-GenProg,0:00:13,RepairStatus.UNKNOWN
+Bears-180,Arja-Kali,0:02:53,RepairStatus.UNKNOWN
+Bears-180,Arja-Arja,3:44:11,RepairStatus.UNKNOWN
+Bears-180,NPEFix,0:00:04,RepairStatus.UNKNOWN
+Bears-180,Dynamoth,0:00:34,RepairStatus.UNKNOWN
+Bears-180,Nopol,0:00:18,RepairStatus.UNKNOWN
+Bears-180,Arja-RSRepair,0:00:13,RepairStatus.UNKNOWN
+Bears-184,Nopol,0:00:30,RepairStatus.UNKNOWN
+Bears-184,Dynamoth,0:00:32,RepairStatus.UNKNOWN
+Bears-184,Arja-GenProg,0:03:52,RepairStatus.UNKNOWN
+Bears-184,Arja-RSRepair,0:03:22,RepairStatus.UNKNOWN
+Bears-184,Arja-Arja,4:18:49,RepairStatus.UNKNOWN
+Bears-184,NPEFix,0:00:11,RepairStatus.UNKNOWN
+Bears-184,Arja-Kali,0:12:12,RepairStatus.UNKNOWN
+Bears-188,Nopol,0:00:07,RepairStatus.UNKNOWN
+Bears-188,Arja-Arja,0:40:20,RepairStatus.SUCCESS
+Bears-188,Arja-Kali,0:00:14,RepairStatus.SUCCESS
+Bears-188,Arja-RSRepair,0:26:28,RepairStatus.SUCCESS
+Bears-188,Arja-GenProg,0:25:59,RepairStatus.SUCCESS
+Bears-188,Dynamoth,0:00:07,RepairStatus.UNKNOWN
+Bears-188,NPEFix,0:00:07,RepairStatus.UNKNOWN
+Bears-193,Arja-Kali,0:00:13,RepairStatus.UNKNOWN
+Bears-193,Dynamoth,0:00:19,RepairStatus.UNKNOWN
+Bears-193,NPEFix,0:00:14,RepairStatus.UNKNOWN
+Bears-193,Arja-Arja,0:00:25,RepairStatus.UNKNOWN
+Bears-193,Nopol,0:00:20,RepairStatus.UNKNOWN
+Bears-193,Arja-GenProg,1:59:56,RepairStatus.UNKNOWN,"March 20, 2020"
+Bears-193,Arja-RSRepair,1:59:55,RepairStatus.UNKNOWN,"March 20, 2020"
+WICKET-4384,Dynamoth,0:05:48,RepairStatus.UNKNOWN,"April 07, 2020"
+WICKET-4384,Arja-RSRepair,0:00:06,RepairStatus.UNKNOWN,"April 07, 2020"
+WICKET-4384,Arja-GenProg,0:00:06,RepairStatus.UNKNOWN,"April 07, 2020"
+WICKET-4384,Nopol,0:04:44,RepairStatus.UNKNOWN,"April 07, 2020"
+WICKET-4384,Arja-Kali,0:00:06,RepairStatus.UNKNOWN,"April 07, 2020"
+WICKET-4384,Arja-Arja,0:00:06,RepairStatus.UNKNOWN,"April 07, 2020"
+WICKET-4384,NPEFix,0:07:27,RepairStatus.UNKNOWN,"April 07, 2020"
+WICKET-3065,Arja-RSRepair,0:01:12,RepairStatus.UNKNOWN,"April 06, 2020"
+WICKET-3065,Arja-Arja,1:48:35,RepairStatus.UNKNOWN,"April 06, 2020"
+WICKET-3065,Nopol,0:11:35,RepairStatus.UNKNOWN,"April 06, 2020"
+WICKET-3065,Dynamoth,0:07:23,RepairStatus.UNKNOWN,"April 06, 2020"
+WICKET-3065,Arja-Kali,0:04:09,RepairStatus.UNKNOWN,"April 06, 2020"
+WICKET-3065,Arja-GenProg,0:02:14,RepairStatus.UNKNOWN,"April 06, 2020"
+WICKET-3065,NPEFix,0:06:49,RepairStatus.UNKNOWN,"April 07, 2020"
+WICKET-5204,Arja-GenProg,0:00:16,RepairStatus.UNKNOWN,"April 06, 2020"
+WICKET-5204,Arja-RSRepair,0:00:24,RepairStatus.UNKNOWN,"April 06, 2020"
+WICKET-5204,Nopol,0:00:32,RepairStatus.UNKNOWN,"April 06, 2020"
+WICKET-5204,Arja-Arja,1:21:47,RepairStatus.UNKNOWN,"April 06, 2020"
+WICKET-5204,Dynamoth,0:00:41,RepairStatus.UNKNOWN,"April 06, 2020"
+WICKET-5204,Arja-Kali,0:04:15,RepairStatus.UNKNOWN,"April 06, 2020"
+WICKET-5204,NPEFix,0:00:22,RepairStatus.UNKNOWN,"April 06, 2020"
+WICKET-3906,Arja-Kali,0:01:19,RepairStatus.UNKNOWN,"April 07, 2020"
+WICKET-3906,NPEFix,0:00:08,RepairStatus.UNKNOWN,"April 07, 2020"
+WICKET-3906,Arja-GenProg,0:00:09,RepairStatus.UNKNOWN,"April 07, 2020"
+WICKET-3906,Dynamoth,0:00:56,RepairStatus.UNKNOWN,"April 07, 2020"
+WICKET-3906,Nopol,0:01:07,RepairStatus.UNKNOWN,"April 07, 2020"
+WICKET-3906,Arja-RSRepair,0:00:18,RepairStatus.UNKNOWN,"April 07, 2020"
+WICKET-3906,Arja-Arja,0:29:59,RepairStatus.UNKNOWN,"April 06, 2020"
+WICKET-5209,Arja-Kali,0:14:35,RepairStatus.UNKNOWN,"April 07, 2020"
+WICKET-5209,Arja-RSRepair,0:02:25,RepairStatus.UNKNOWN,"April 07, 2020"
+WICKET-5209,Arja-GenProg,0:02:25,RepairStatus.UNKNOWN,"April 07, 2020"
+WICKET-5209,Dynamoth,2:00:03,RepairStatus.UNKNOWN,"April 07, 2020"
+WICKET-5209,Nopol,2:00:01,RepairStatus.UNKNOWN,"April 07, 2020"
+WICKET-5209,NPEFix,0:10:42,RepairStatus.UNKNOWN,"April 07, 2020"
+WICKET-5209,Arja-Arja,2:00:03,RepairStatus.UNKNOWN,"April 07, 2020"
+WICKET-4030,Nopol,0:25:44,RepairStatus.UNKNOWN,"April 06, 2020"
+WICKET-4030,Arja-RSRepair,0:04:39,RepairStatus.UNKNOWN,"April 06, 2020"
+WICKET-4030,Arja-Arja,2:00:00,RepairStatus.UNKNOWN,"April 06, 2020"
+WICKET-4030,NPEFix,0:10:41,RepairStatus.UNKNOWN,"April 06, 2020"
+WICKET-4030,Dynamoth,0:25:33,RepairStatus.UNKNOWN,"April 06, 2020"
+WICKET-4030,Arja-GenProg,0:04:14,RepairStatus.UNKNOWN,"April 06, 2020"
+WICKET-4030,Arja-Kali,0:10:57,RepairStatus.UNKNOWN,"April 06, 2020"
+WICKET-5359,Nopol,0:00:58,RepairStatus.SUCCESS,"April 04, 2020"
+WICKET-5359,Arja-Arja,0:48:10,RepairStatus.SUCCESS,"April 04, 2020"
+WICKET-5359,Arja-RSRepair,0:05:20,RepairStatus.SUCCESS,"April 04, 2020"
+WICKET-5359,Arja-Kali,0:02:49,RepairStatus.SUCCESS,"April 04, 2020"
+WICKET-5359,NPEFix,0:00:52,RepairStatus.UNKNOWN,"April 04, 2020"
+WICKET-5359,Arja-GenProg,0:05:04,RepairStatus.SUCCESS,"April 04, 2020"
+WICKET-5359,Dynamoth,0:00:55,RepairStatus.SUCCESS,"April 04, 2020"
+FLINK-1761,Dynamoth,0:01:07,RepairStatus.SUCCESS
+FLINK-1761,Arja-RSRepair,0:00:03,RepairStatus.UNKNOWN
+FLINK-1761,Arja-Arja,0:00:04,RepairStatus.UNKNOWN
+FLINK-1761,Arja-GenProg,0:00:03,RepairStatus.UNKNOWN
+FLINK-1761,Nopol,0:03:33,RepairStatus.UNKNOWN
+FLINK-1761,NPEFix,0:00:23,RepairStatus.UNKNOWN
+FLINK-1761,Arja-Kali,0:00:04,RepairStatus.UNKNOWN
+FLINK-3760,Arja-GenProg,0:10:41,RepairStatus.UNKNOWN
+FLINK-3760,Nopol,0:01:33,RepairStatus.UNKNOWN
+FLINK-3760,Dynamoth,0:01:35,RepairStatus.UNKNOWN
+FLINK-3760,Arja-Kali,0:03:17,RepairStatus.UNKNOWN
+FLINK-3760,Arja-Arja,0:26:59,RepairStatus.UNKNOWN
+FLINK-3760,Arja-RSRepair,0:11:33,RepairStatus.UNKNOWN
+FLINK-3760,NPEFix,0:02:46,RepairStatus.UNKNOWN
+FLINK-2800,Arja-RSRepair,0:00:42,RepairStatus.UNKNOWN
+FLINK-2800,Arja-Arja,0:32:26,RepairStatus.UNKNOWN
+FLINK-2800,Nopol,0:00:59,RepairStatus.SUCCESS
+FLINK-2800,NPEFix,0:03:59,RepairStatus.UNKNOWN
+FLINK-2800,Dynamoth,0:01:04,RepairStatus.SUCCESS
+FLINK-2800,Arja-GenProg,0:00:40,RepairStatus.UNKNOWN
+FLINK-2800,Arja-Kali,0:01:32,RepairStatus.UNKNOWN
+FLINK-1437,Arja-Kali,0:02:57,RepairStatus.UNKNOWN
+FLINK-1437,Nopol,0:00:22,RepairStatus.UNKNOWN
+FLINK-1437,Dynamoth,0:00:23,RepairStatus.UNKNOWN
+FLINK-1437,NPEFix,0:02:50,RepairStatus.UNKNOWN
+FLINK-1437,Arja-RSRepair,0:00:23,RepairStatus.UNKNOWN
+FLINK-1437,Arja-Arja,0:54:35,RepairStatus.UNKNOWN
+FLINK-1437,Arja-GenProg,0:00:21,RepairStatus.UNKNOWN
+CAMEL-7213,Arja-Arja,1:08:09,RepairStatus.UNKNOWN,"March 20, 2020"
+CAMEL-7213,Nopol,1:04:33,RepairStatus.UNKNOWN,"March 20, 2020"
+CAMEL-7213,Arja-Kali,2:01:44,RepairStatus.UNKNOWN,"March 20, 2020"
+CAMEL-7213,NPEFix,0:12:58,RepairStatus.UNKNOWN,"March 22, 2020"
+CAMEL-7213,Arja-RSRepair,2:00:00,RepairStatus.UNKNOWN,"March 22, 2020"
+CAMEL-7213,Arja-GenProg,0:41:51,RepairStatus.UNKNOWN,"March 22, 2020"
+CAMEL-7213,Dynamoth,2:02:16,RepairStatus.UNKNOWN,"March 23, 2020"
+CAMEL-7209,Arja-RSRepair,0:43:07,RepairStatus.UNKNOWN,"March 23, 2020"
+CAMEL-7209,Arja-GenProg,2:00:01,RepairStatus.UNKNOWN,"March 23, 2020"
+CAMEL-7209,Dynamoth,2:03:17,RepairStatus.UNKNOWN,"March 23, 2020"
+CAMEL-7209,NPEFix,0:12:32,RepairStatus.UNKNOWN,"March 23, 2020"
+CAMEL-7209,Arja-Kali,0:55:50,RepairStatus.UNKNOWN,"March 23, 2020"
+CAMEL-7209,Arja-Arja,2:35:34,RepairStatus.UNKNOWN,"March 23, 2020"
+CAMEL-9238,NPEFix,0:29:38,RepairStatus.UNKNOWN,"March 24, 2020"
+CAMEL-9238,Arja-Arja,1:59:52,RepairStatus.UNKNOWN,"March 24, 2020"
+CAMEL-9238,Dynamoth,1:59:54,RepairStatus.UNKNOWN,"March 24, 2020"
+CAMEL-9238,Arja-GenProg,1:59:52,RepairStatus.UNKNOWN,"March 24, 2020"
+CAMEL-9238,Arja-Kali,1:59:52,RepairStatus.UNKNOWN,"March 24, 2020"
+CAMEL-9238,Nopol,1:59:52,RepairStatus.UNKNOWN,"March 24, 2020"
+CAMEL-9238,Arja-RSRepair,1:59:52,RepairStatus.UNKNOWN,"March 24, 2020"
+CAMEL-6779,NPEFix,0:16:04,RepairStatus.UNKNOWN,"March 24, 2020"
+CAMEL-6779,Arja-Kali,0:32:29,RepairStatus.UNKNOWN,"March 24, 2020"
+CAMEL-6779,Arja-GenProg,0:32:16,RepairStatus.UNKNOWN,"March 24, 2020"
+CAMEL-6779,Dynamoth,2:02:26,RepairStatus.UNKNOWN,"March 24, 2020"
+CAMEL-6779,Arja-RSRepair,0:48:00,RepairStatus.UNKNOWN,"March 25, 2020"
+CAMEL-6779,Arja-Arja,1:59:52,RepairStatus.UNKNOWN,"March 25, 2020"
+CAMEL-6779,Nopol,1:59:52,RepairStatus.UNKNOWN,"March 25, 2020"
+CAMEL-9269,Arja-Arja,1:59:52,RepairStatus.UNKNOWN,"March 25, 2020"
+CAMEL-9269,Nopol,1:59:52,RepairStatus.UNKNOWN,"March 25, 2020"
+CAMEL-9269,Arja-RSRepair,1:59:52,RepairStatus.UNKNOWN,"March 25, 2020"
+CAMEL-9269,Arja-GenProg,1:59:56,RepairStatus.UNKNOWN,"March 26, 2020"
+CAMEL-9269,Arja-Kali,1:59:52,RepairStatus.UNKNOWN,"March 26, 2020"
+CAMEL-9269,NPEFix,0:19:43,RepairStatus.UNKNOWN,"March 26, 2020"
+CAMEL-9269,Dynamoth,1:59:54,RepairStatus.UNKNOWN,"March 26, 2020"
+MATH-1089,NPEFix,0:04:03,RepairStatus.UNKNOWN
+MATH-1089,Arja-GenProg,1:08:28,RepairStatus.UNKNOWN
+MATH-1089,Arja-Arja,1:27:08,RepairStatus.UNKNOWN
+MATH-1089,Dynamoth,0:00:50,RepairStatus.UNKNOWN
+MATH-1089,Arja-Kali,0:25:12,RepairStatus.UNKNOWN
+MATH-1089,Nopol,0:00:42,RepairStatus.UNKNOWN
+MATH-1089,Arja-RSRepair,0:49:26,RepairStatus.UNKNOWN
+MATH-1121,Arja-Kali,0:27:18,RepairStatus.UNKNOWN
+MATH-1121,Arja-RSRepair,0:53:25,RepairStatus.UNKNOWN
+MATH-1121,Arja-Arja,0:59:16,RepairStatus.UNKNOWN
+MATH-1121,NPEFix,6:37:30,RepairStatus.UNKNOWN
+MATH-1121,Nopol,0:02:11,RepairStatus.UNKNOWN
+MATH-1121,Arja-GenProg,1:04:38,RepairStatus.UNKNOWN
+MATH-1121,Dynamoth,0:06:42,RepairStatus.UNKNOWN
+MATH-778,Nopol,0:21:53,RepairStatus.UNKNOWN
+MATH-778,NPEFix,0:41:30,RepairStatus.UNKNOWN
+MATH-778,Arja-GenProg,1:58:36,RepairStatus.UNKNOWN
+MATH-778,Dynamoth,0:19:08,RepairStatus.UNKNOWN
+MATH-778,Arja-Kali,0:39:44,RepairStatus.UNKNOWN
+MATH-778,Arja-RSRepair,2:48:59,RepairStatus.UNKNOWN
+MATH-778,Arja-Arja,2:40:06,RepairStatus.UNKNOWN
+MATH-1256,Arja-Kali,0:06:09,RepairStatus.UNKNOWN
+MATH-1256,Arja-Arja,0:05:42,RepairStatus.UNKNOWN
+MATH-1256,Dynamoth,0:00:29,RepairStatus.UNKNOWN
+MATH-891,Nopol,1:13:46,RepairStatus.UNKNOWN,"April 11, 2020"
+MATH-891,Arja-Kali,1:06:47,RepairStatus.UNKNOWN,"April 11, 2020"
+MATH-891,Arja-Arja,2:00:00,RepairStatus.UNKNOWN,"April 11, 2020"
+MATH-891,NPEFix,0:05:35,RepairStatus.UNKNOWN,"April 11, 2020"
+MATH-891,Arja-GenProg,2:00:00,RepairStatus.UNKNOWN,"April 11, 2020"
+MATH-891,Arja-RSRepair,2:00:00,RepairStatus.UNKNOWN,"April 11, 2020"
+MATH-891,Dynamoth,1:14:00,RepairStatus.SUCCESS
+LOG4J2-1061,NPEFix,0:00:06,RepairStatus.UNKNOWN
+LOG4J2-1061,Arja-Kali,0:00:26,RepairStatus.UNKNOWN
+LOG4J2-1061,Dynamoth,0:00:09,RepairStatus.UNKNOWN
+LOG4J2-1061,Nopol,0:00:10,RepairStatus.UNKNOWN
+LOG4J2-1061,Arja-Arja,0:17:28,RepairStatus.UNKNOWN
+LOG4J2-1061,Arja-RSRepair,0:00:10,RepairStatus.UNKNOWN
+LOG4J2-1061,Arja-GenProg,0:00:07,RepairStatus.UNKNOWN
+LOG4J2-1058,NPEFix,0:00:06,RepairStatus.UNKNOWN
+LOG4J2-1058,Arja-GenProg,0:00:11,RepairStatus.UNKNOWN
+LOG4J2-1058,Nopol,0:00:09,RepairStatus.UNKNOWN
+LOG4J2-1058,Dynamoth,0:00:12,RepairStatus.UNKNOWN
+LOG4J2-1058,Arja-RSRepair,0:00:10,RepairStatus.UNKNOWN
+LOG4J2-1058,Arja-Kali,0:00:22,RepairStatus.UNKNOWN
+LOG4J2-1058,Arja-Arja,0:49:54,RepairStatus.UNKNOWN
+LOG4J2-1058,NPEFix,0:00:06,RepairStatus.UNKNOWN
+LOG4J2-742,NPEFix,0:01:36,RepairStatus.UNKNOWN
+LOG4J2-742,Dynamoth,0:12:14,RepairStatus.UNKNOWN
+LOG4J2-742,Arja-RSRepair,0:04:59,RepairStatus.UNKNOWN
+LOG4J2-742,Nopol,0:01:35,RepairStatus.UNKNOWN
+LOG4J2-742,Arja-Arja,2:23:36,RepairStatus.UNKNOWN
+LOG4J2-742,Arja-GenProg,0:04:41,RepairStatus.UNKNOWN
+LOG4J2-742,Arja-Kali,0:11:07,RepairStatus.UNKNOWN
+LOG4J2-834,NPEFix,0:01:44,RepairStatus.UNKNOWN
+LOG4J2-834,Arja-Kali,0:00:02,RepairStatus.UNKNOWN
+LOG4J2-834,Arja-GenProg,0:00:02,RepairStatus.UNKNOWN
+LOG4J2-834,Arja-RSRepair,0:00:01,RepairStatus.UNKNOWN
+LOG4J2-834,Arja-Arja,0:00:01,RepairStatus.UNKNOWN
+LOG4J2-834,Dynamoth,0:00:34,RepairStatus.UNKNOWN
+LOG4J2-834,Nopol,0:00:32,RepairStatus.UNKNOWN
+OAK-2363,Nopol,2:00:11,RepairStatus.UNKNOWN,"March 28, 2020"
+OAK-2363,Arja-RSRepair,0:11:43,RepairStatus.UNKNOWN,"March 28, 2020"
+OAK-2363,NPEFix,0:13:59,RepairStatus.UNKNOWN,"March 28, 2020"
+OAK-2363,Arja-GenProg,0:11:39,RepairStatus.UNKNOWN,"March 28, 2020"
+OAK-2363,Arja-Arja,1:59:52,RepairStatus.UNKNOWN,"March 28, 2020"
+OAK-2363,Arja-GenProg,0:11:39,RepairStatus.UNKNOWN,"March 28, 2020"
+OAK-2363,Dynamoth,0:01:34,RepairStatus.UNKNOWN,"March 17, 2020"
+OAK-2465,Nopol,0:07:56,RepairStatus.SUCCESS,"March 29, 2020"
+OAK-2465,Arja-Kali,0:11:36,RepairStatus.UNKNOWN,"March 29, 2020"
+OAK-2465,Arja-Arja,2:00:00,RepairStatus.UNKNOWN,"March 29, 2020"
+OAK-2465,Arja-GenProg,0:10:09,RepairStatus.UNKNOWN,"March 29, 2020"
+OAK-2465,Arja-RSRepair,0:09:40,RepairStatus.UNKNOWN,"March 29, 2020"
+OAK-2465,NPEFix,0:12:41,RepairStatus.UNKNOWN,"March 29, 2020"
+OAK-2465,Dynamoth,0:07:48,RepairStatus.SUCCESS,"March 29, 2020"
+OAK-4067,Nopol,0:00:30,RepairStatus.UNKNOWN,"March 18, 2020"
+OAK-4067,Arja-GenProg,0:02:46,RepairStatus.UNKNOWN,"March 18, 2020"
+OAK-4067,Arja-Kali,0:14:00,RepairStatus.UNKNOWN,"March 18, 2020"
+OAK-4067,Dynamoth,0:00:28,RepairStatus.UNKNOWN,"March 18, 2020"
+OAK-4067,Arja-Arja,2:00:00,RepairStatus.UNKNOWN,"March 18, 2020"
+OAK-4067,Arja-RSRepair,0:02:46,RepairStatus.UNKNOWN,"March 18, 2020"
+OAK-4067,NPEFix,2:00:01,RepairStatus.UNKNOWN,"March 18, 2020"
+OAK-2250,Nopol,0:02:21,RepairStatus.UNKNOWN,"March 27, 2020"
+OAK-2250,Arja-GenProg,0:01:15,RepairStatus.UNKNOWN,"March 27, 2020"
+OAK-2250,Arja-Arja,1:59:52,RepairStatus.UNKNOWN,"March 27, 2020"
+OAK-2250,Arja-Kali,0:12:07,RepairStatus.UNKNOWN,"March 27, 2020"
+OAK-2250,Arja-RSRepair,0:01:14,RepairStatus.UNKNOWN,"March 27, 2020"
+OAK-2250,NPEFix,0:01:20,RepairStatus.UNKNOWN,"March 27, 2020"
+OAK-2250,Dynamoth,0:02:26,RepairStatus.UNKNOWN,"March 27, 2020"
+OAK-2559,Arja-RSRepair,0:02:47,RepairStatus.UNKNOWN,"March 27, 2020"
+OAK-2559,Nopol,0:35:03,RepairStatus.UNKNOWN,"March 27, 2020"
+OAK-2559,Arja-Kali,0:12:36,RepairStatus.UNKNOWN,"March 27, 2020"
+OAK-2559,Arja-Arja,1:59:52,RepairStatus.UNKNOWN,"March 27, 2020"
+OAK-2559,Arja-GenProg,0:02:22,RepairStatus.UNKNOWN,"March 27, 2020"
+OAK-2559,Dynamoth,0:27:50,RepairStatus.UNKNOWN,"March 27, 2020"
+OAK-2559,NPEFix,0:02:15,RepairStatus.UNKNOWN,"March 27, 2020"
+OAK-766,Dynamoth,2:00:56,RepairStatus.UNKNOWN,"March 18, 2020"
+OAK-766,Arja-RSRepair,0:03:15,RepairStatus.UNKNOWN,"March 18, 2020"
+OAK-766,Nopol,1:00:31,RepairStatus.UNKNOWN,"March 18, 2020"
+OAK-766,NPEFix,0:05:17,RepairStatus.UNKNOWN,"March 18, 2020"
+OAK-766,Arja-Arja,2:00:00,RepairStatus.UNKNOWN,"March 18, 2020"
+OAK-766,Arja-Kali,0:08:14,RepairStatus.UNKNOWN,"March 18, 2020"
+OAK-766,Arja-GenProg,0:03:06,RepairStatus.UNKNOWN,"March 18, 2020"
+OAK-3028,Arja-GenProg,0:12:13,RepairStatus.UNKNOWN,"March 19, 2020"
+OAK-3028,Arja-RSRepair,2:00:00,RepairStatus.UNKNOWN,"March 19, 2020"
+OAK-3028,Dynamoth,0:28:20,RepairStatus.UNKNOWN,"March 19, 2020"
+OAK-3028,Arja-Kali,2:00:01,RepairStatus.UNKNOWN,"March 19, 2020"
+OAK-3028,NPEFix,0:01:18,RepairStatus.UNKNOWN,"March 19, 2020"
+OAK-3028,Arja-Arja,0:00:06,RepairStatus.UNKNOWN,"March 19, 2020"
+OAK-3028,Nopol,0:26:17,RepairStatus.UNKNOWN,"March 18, 2020"
+OAK-3123,Nopol,0:02:33,RepairStatus.UNKNOWN,"March 28, 2020"
+OAK-3123,Arja-Kali,0:00:03,RepairStatus.UNKNOWN,"March 29, 2020"
+OAK-3123,Arja-GenProg,0:00:04,RepairStatus.UNKNOWN,"March 29, 2020"
+OAK-3123,Arja-RSRepair,0:00:03,RepairStatus.UNKNOWN,"March 29, 2020"
+OAK-3123,Dynamoth,0:02:12,RepairStatus.UNKNOWN,"March 29, 2020"
+OAK-3123,Arja-Arja,0:00:05,RepairStatus.UNKNOWN,"March 29, 2020"
+ACCUMULO-209,Arja-Arja,0:21:30,RepairStatus.UNKNOWN
+ACCUMULO-209,Arja-Kali,0:01:37,RepairStatus.UNKNOWN
+ACCUMULO-209,Arja-GenProg,0:00:41,RepairStatus.UNKNOWN
+ACCUMULO-209,Arja-RSRepair,0:00:43,RepairStatus.UNKNOWN
+ACCUMULO-209,Dynamoth,0:03:23,RepairStatus.UNKNOWN
+ACCUMULO-209,Nopol,0:03:47,RepairStatus.UNKNOWN
+ACCUMULO-209,NPEFix,1:21:14,RepairStatus.UNKNOWN
+ACCUMULO-1348,NPEFix,1:59:52,RepairStatus.UNKNOWN,"April 10, 2020"
+ACCUMULO-1348,Arja-Arja,0:01:31,RepairStatus.UNKNOWN
+ACCUMULO-1348,Arja-Kali,0:01:08,RepairStatus.UNKNOWN
+ACCUMULO-1348,Arja-GenProg,0:01:25,RepairStatus.UNKNOWN
+ACCUMULO-776,NPEFix,0:00:30,RepairStatus.UNKNOWN,"April 08, 2020"
+ACCUMULO-776,Dynamoth,0:07:55,RepairStatus.UNKNOWN
+ACCUMULO-776,Arja-Arja,0:00:46,RepairStatus.UNKNOWN
+ACCUMULO-776,Arja-Kali,0:00:18,RepairStatus.UNKNOWN
+ACCUMULO-776,Arja-RSRepair,0:00:39,RepairStatus.UNKNOWN
+ACCUMULO-776,Nopol,0:03:54,RepairStatus.UNKNOWN
+ACCUMULO-844,NPEFix,0:00:26,RepairStatus.UNKNOWN,"April 07, 2020"
+ACCUMULO-844,Arja-Arja,0:00:16,RepairStatus.UNKNOWN
+ACCUMULO-844,Arja-Kali,0:00:15,RepairStatus.UNKNOWN
+ACCUMULO-844,Arja-GenProg,0:00:25,RepairStatus.UNKNOWN
+ACCUMULO-844,Arja-RSRepair,0:00:21,RepairStatus.UNKNOWN
+ACCUMULO-844,Dynamoth,0:01:41,RepairStatus.SUCCESS
+ACCUMULO-844,Nopol,0:04:55,RepairStatus.UNKNOWN
+ACCUMULO-1051,Arja-RSRepair,0:01:08,RepairStatus.UNKNOWN,"April 08, 2020"
+ACCUMULO-1051,NPEFix,0:21:24,RepairStatus.UNKNOWN
+ACCUMULO-1051,Dynamoth,0:00:19,RepairStatus.UNKNOWN
+ACCUMULO-1051,Nopol,0:00:18,RepairStatus.UNKNOWN
+ACCUMULO-1348_b,NPEFix,2:00:01,RepairStatus.UNKNOWN,"April 09, 2020"
+ACCUMULO-1348_b,Dynamoth,0:01:25,RepairStatus.UNKNOWN,"April 09, 2020"
+ACCUMULO-1348_b,Nopol,0:20:16,RepairStatus.UNKNOWN
+ACCUMULO-1348_b,Arja-GenProg,0:00:01,RepairStatus.UNKNOWN,"April 10, 2020"
+ACCUMULO-2671,NPEFix,0:01:12,RepairStatus.UNKNOWN,"March 30, 2020"
+ACCUMULO-2671,Dynamoth,0:16:31,RepairStatus.UNKNOWN,"March 30, 2020"
+ACCUMULO-2671,Nopol,1:04:02,RepairStatus.UNKNOWN,"March 30, 2020"
+ACCUMULO-2671,Arja-RSRepair,0:00:33,RepairStatus.UNKNOWN,"April 08, 2020"
