@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+'''
+Copyright 2021 Maria Kechagia (main developer), Sergey Mechtaev (supervisor)
+'''
+
 import os
 import logging
 from enum import Enum
