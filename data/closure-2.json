@@ -1,0 +1,14 @@
+{
+  "id": "closure-2",
+  "name": "closure-compiler",
+  "vcs": "git",
+  "repo": "https://github.com/google/closure-compiler.git",
+  "revision": "43c245f0ff8d409e81e25687e69d34666b7cf26a",
+  "build_system": "ant",
+  "test_class": "com.google.javascript.jscomp.CommandLineRunnerTest",
+  "src_path": "src/",
+  "test_path": "test/",
+  "package_path": ".",
+  "src_classes": "build/classes",
+  "test_classes": "build/test"
+}

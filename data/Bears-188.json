@@ -1,0 +1,14 @@
+{
+  "id": "Bears-188",
+  "name": "AutomatedCar",
+  "vcs": "git",
+  "repo": "https://github.com/SzFMV2018-Tavasz/AutomatedCar.git",
+  "revision": "6a656ea5686fa563e85754282f059264f3664471",
+  "build_system": "mvn",
+  "test_class": "hu.oe.nik.szfmv.visualization.DashboardTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/",
+  "package_path": ".",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

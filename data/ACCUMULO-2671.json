@@ -1,0 +1,26 @@
+{
+  "id": "ACCUMULO-2671",
+  "name": "accumulo",
+  "vcs": "git",
+  "repo": "https://github.com/apache/accumulo.git",
+  "revision": "173448903a4b3eb5e755421428e65a4a4dd67de5",
+  "build_system": {
+    "custom": [
+      {
+        "test": "mvn test -U -V -B"
+      },
+      {
+        "compile": "mvn install -DskipTests -U -V -B"
+      },
+      {
+        "extract": "mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"
+      }
+    ]
+  },
+  "test_class": "org.apache.accumulo.core.security.crypto.BlockedIOStreamTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": "core/",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

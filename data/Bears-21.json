@@ -1,0 +1,14 @@
+{
+  "id": "Bears-21",
+  "name": "jackson-databind",
+  "vcs": "git",
+  "repo": "https://github.com/FasterXML/jackson-databind.git",
+  "revision": "93f7e14d096181a251aae3355464d24bcd7677a5",
+  "build_system": "mvn",
+  "test_class": "com.fasterxml.jackson.databind.ser.DateSerializationTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": ".",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

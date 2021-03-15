@@ -1,0 +1,14 @@
+{
+  "id": "asterisk-java-194",
+  "name": "asterisk-java",
+  "vcs": "git",
+  "repo": "https://github.com/asterisk-java/asterisk-java.git",
+  "revision": "41461b41309bf9f027a46f178cb777a1a94b8c3f",
+  "build_system": "mvn",
+  "test_class": "org.asteriskjava.manager.event.RtcpReceivedEventTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": ".",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

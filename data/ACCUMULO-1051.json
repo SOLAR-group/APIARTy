@@ -1,0 +1,26 @@
+{
+  "id": "ACCUMULO-1051",
+  "name": "accumulo",
+  "vcs": "git",
+  "repo": "https://github.com/apache/accumulo.git",
+  "revision": "25cf3ccde8f1250df5bd7a848842abea6c0450a3",
+  "build_system": {
+    "custom": [
+      {
+        "test": "mvn test -U -V -B"
+      },
+      {
+        "compile": "mvn install -DskipTests -U -V -B"
+      },
+      {
+        "extract": "mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"
+      }
+    ]
+  },
+  "test_class": "org.apache.accumulo.core.security.AuthorizationsTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": "core/",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

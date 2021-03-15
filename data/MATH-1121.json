@@ -1,0 +1,14 @@
+{
+  "id": "MATH-1121",
+  "name": "commons-math",
+  "vcs": "git",
+  "repo": "https://github.com/apache/commons-math.git",
+  "revision": "5a6ccd587231ed1268dbdf142bf1f98065ad8348",
+  "build_system": "mvn",
+  "test_class": "org.apache.commons.math3.optim.univariate.BrentOptimizerTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": ".",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

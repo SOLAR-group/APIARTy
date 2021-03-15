@@ -1,0 +1,14 @@
+{
+  "id": "closure-1",
+  "name": "closure-compiler",
+  "vcs": "git",
+  "repo": "https://github.com/google/closure-compiler.git",
+  "revision": "67289ae4cbaba3ae70cd2e8fb92f3f2898039dfb",
+  "build_system": "ant",
+  "test_class": "com.google.javascript.rhino.jstype.UnionTypeTest",
+  "src_path": "src/",
+  "test_path": "test/",
+  "package_path": ".",
+  "src_classes": "build/classes",
+  "test_classes": "build/test"
+}

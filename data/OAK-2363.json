@@ -1,0 +1,26 @@
+{
+  "id": "OAK-2363",
+  "name": "jackrabbit-oak",
+  "vcs": "git",
+  "repo": "https://github.com/joansmith/jackrabbit-oak.git",
+  "revision": "90ea7aa5e23e0b72a49ec3faf380791349a213a2",
+  "build_system": {
+    "custom": [
+      {
+        "test": "mvn test -U -V -B"
+      },
+      {
+        "compile": "mvn install -DskipTests -U -V -B"
+      },
+      {
+        "extract": "mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"
+      }
+    ]
+  },
+  "test_class": "org.apache.jackrabbit.oak.kernel.CheckpointTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": "oak-core",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

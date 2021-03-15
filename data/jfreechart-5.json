@@ -1,0 +1,14 @@
+{
+  "id": "jfreechart-5",
+  "name": "jfreechart",
+  "vcs": "git",
+  "repo": "https://github.com/jfree/jfreechart.git",
+  "revision": "103",
+  "build_system": "ant",
+  "test_class": "org.jfree.chart.axis.junit.LogAxisTests:org.jfree.chart.axis.junit.NumberAxisTests:org.jfree.chart.axis.junit.ValueAxisTests:org.jfree.chart.junit.JFreeChartTests:org.jfree.chart.junit.ScatterPlotTests:org.jfree.chart.junit.TimeSeriesChartTests:org.jfree.chart.junit.XYAreaChartTests:org.jfree.chart.junit.XYStepAreaChartTests:org.jfree.chart.junit.XYStepChartTests:org.jfree.chart.plot.junit.XYPlotTests",
+  "src_path": "source/",
+  "test_path": "tests/",
+  "package_path": ".",
+  "src_classes": "build",
+  "test_classes": "build-tests"
+}

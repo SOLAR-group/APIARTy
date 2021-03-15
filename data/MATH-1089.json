@@ -1,0 +1,14 @@
+{
+  "id": "MATH-1089",
+  "name": "commons-math",
+  "vcs": "git",
+  "repo": "https://github.com/apache/commons-math.git",
+  "revision": "e91d0f0510ee8d69c76ee89b4e57341418866c6b",
+  "build_system": "mvn",
+  "test_class": "org.apache.commons.math3.util.PrecisionTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": ".",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

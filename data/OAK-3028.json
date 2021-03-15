@@ -1,0 +1,26 @@
+{
+  "id": "OAK-3028",
+  "name": "jackrabbit-oak",
+  "vcs": "git",
+  "repo": "https://github.com/joansmith/jackrabbit-oak.git",
+  "revision": "89317b2835226d773c6b23d232bbda819ee4dc93",
+  "build_system": {
+    "custom": [
+      {
+        "test": "mvn test -U -V -B"
+      },
+      {
+        "compile": "mvn install -DskipTests -U -V -B"
+      },
+      {
+        "extract": "mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"
+      }
+    ]
+  },
+  "test_class": "org.apache.jackrabbit.oak.plugins.document.UpdateOpTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": "oak-core",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

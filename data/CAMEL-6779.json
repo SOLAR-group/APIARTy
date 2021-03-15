@@ -1,0 +1,23 @@
+{
+  "id": "CAMEL-6779",
+  "name": "camel",
+  "vcs": "git",
+  "repo": "https://github.com/apache/camel.git",
+  "revision": "f412d744485116349b4e5d881fc539af576ab358",
+  "build_system": {
+    "custom": [
+      {
+        "compile": "mvn clean install -Pfastinstall -U -V -B"
+      },
+      {
+        "extract": "mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"
+      }
+    ]
+  },
+  "test_class": "org.apache.camel.converter.jaxp.StaxConverterTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": "camel-core/",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Bears-103",
+  "name": "traccar",
+  "vcs": "git",
+  "repo": "https://github.com/traccar/traccar.git",
+  "revision": "1423209d00804948110e1b70c2e41248b4945877",
+  "build_system": "mvn",
+  "test_class": "org.traccar.protocol.AquilaProtocolDecoderTest:org.traccar.protocol.MeitrackProtocolDecoderTest:org.traccar.protocol.TotemProtocolDecoderTest:org.traccar.ProtocolTest",
+  "src_path": "src/org/traccar/",
+  "test_path": "test/org/traccar/",
+  "package_path": ".",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

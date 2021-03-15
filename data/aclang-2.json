@@ -1,0 +1,14 @@
+{
+  "id": "aclang-2",
+  "name": "commons-lang",
+  "vcs": "git",
+  "repo": "https://github.com/apache/commons-lang.git",
+  "revision": "1fe5439baf32af2114958e3cfc3512bd72c84773",
+  "build_system": "mvn",
+  "test_class": "org.apache.commons.lang.text.StrBuilderTest",
+  "src_path": "src/java/",
+  "test_path": "src/test/",
+  "package_path": ".",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

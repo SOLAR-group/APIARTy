@@ -1,0 +1,14 @@
+{
+  "id": "FLINK-2800",
+  "name": "flink",
+  "vcs": "git",
+  "repo": "https://github.com/apache/flink.git",
+  "revision": "b654e989b60c6607f5f5bf757130c86bd0facd8c",
+  "build_system": "mvn",
+  "test_class": "org.apache.flink.api.java.typeutils.runtime.kryo.KryoClearedBufferTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": "flink-java/",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

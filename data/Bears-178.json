@@ -1,0 +1,26 @@
+{
+  "id": "Bears-178",
+  "name": "byte-buddy",
+  "vcs": "git",
+  "repo": "https://github.com/raphw/byte-buddy.git",
+  "revision": "f41aa877f065fbc73259c66a91163b7e6e1dd73e",
+  "build_system": {
+    "custom": [
+      {
+        "test": "mvn test -U -V -B"
+      },
+      {
+        "compile": "mvn install -DskipTests -U -V -B"
+      },
+      {
+        "extract": "mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"
+      }
+    ]
+  },
+  "test_class": "net.bytebuddy.implementation.MethodCallTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": "byte-buddy-dep",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

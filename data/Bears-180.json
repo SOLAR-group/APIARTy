@@ -1,0 +1,14 @@
+{
+  "id": "Bears-180",
+  "name": "spring-cloud-gcp",
+  "vcs": "git",
+  "repo": "https://github.com/spring-cloud/spring-cloud-gcp.git",
+  "revision": "6c5a5cede49cfa8c546dcdbeef4b34c0e4e33f95",
+  "build_system": "mvn",
+  "test_class": "org.springframework.cloud.gcp.storage.GoogleStorageTests",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": "spring-cloud-gcp-storage",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

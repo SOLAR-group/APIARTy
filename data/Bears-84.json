@@ -1,0 +1,26 @@
+{
+  "id": "Bears-84",
+  "name": "spring-data-commons",
+  "vcs": "git",
+  "repo": "https://github.com/spring-projects/spring-data-commons.git",
+  "revision": "cdbd0720836779e332384e1bcec244c3f645af65",
+  "build_system": {
+    "custom": [
+      {
+        "test": "mvn test -U -V -B"
+      },
+      {
+        "compile": "mvn install -DskipTests -U -V -B"
+      },
+      {
+        "extract": "mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"
+      }
+    ]
+  },
+  "test_class": "org.springframework.data.auditing.IsNewAwareAuditingHandlerUnitTests",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": ".",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

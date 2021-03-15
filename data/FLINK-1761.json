@@ -1,0 +1,23 @@
+{
+  "id": "FLINK-1761",
+  "name": "flink",
+  "vcs": "git",
+  "repo": "https://github.com/apache/flink.git",
+  "revision": "380ef878c850f83b5e12176e465d59c737066e20",
+  "build_system": {
+    "custom": [
+      {
+        "compile": "mvn clean package -DskipTests -U -V -B"
+      },
+      {
+        "extract": "mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"
+      }
+    ]
+  },
+  "test_class": "org.apache.flink.runtime.io.network.netty.PartitionRequestClientHandlerTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": "flink-runtime/",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

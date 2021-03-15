@@ -1,0 +1,14 @@
+{
+  "id": "Bears-193",
+  "name": "activiti-cloud-app-service",
+  "vcs": "git",
+  "repo": "https://github.com/Activiti/activiti-cloud-app-service.git",
+  "revision": "d66c4337ff021d552cec2c045ea025bb9b27f631",
+  "build_system": "mvn",
+  "test_class": "org.activiti.cloud.app.ApplicationTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/",
+  "package_path": "activiti-cloud-app-service",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

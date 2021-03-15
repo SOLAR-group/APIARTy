@@ -1,0 +1,26 @@
+{
+  "id": "LOG4J2-1061",
+  "name": "logging-log4j2",
+  "vcs": "git",
+  "repo": "https://github.com/apache/logging-log4j2.git",
+  "revision": "86d8944fa239255195bf0caed7af65b3c7e4cfaf",
+  "build_system": {
+    "custom": [
+      {
+        "test": "mvn test -U -V -B"
+      },
+      {
+        "compile": "mvn install -DskipTests -U -V -B"
+      },
+      {
+        "extract": "mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"
+      }
+    ]
+  },
+  "test_class": "org.apache.logging.slf4j.MarkerTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": "log4j-slf4j-impl",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

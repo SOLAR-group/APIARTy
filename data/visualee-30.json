@@ -1,0 +1,14 @@
+{
+  "id": "visualee-30",
+  "name": "visualee",
+  "vcs": "git",
+  "repo": "https://github.com/emopers/visualee.git",
+  "revision": "eff52eea696912fc0b106bfd5b78a0683d3dd3c0",
+  "build_system": "mvn",
+  "test_class": "de.strullerbaumann.visualee.examiner.ExaminerTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": ".",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

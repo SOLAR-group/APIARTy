@@ -1,0 +1,14 @@
+{
+  "id": "hoverruan-weiboclient4j-129",
+  "name": "hoverruan-weiboclient4j",
+  "vcs": "git",
+  "repo": "https://github.com/emopers/weiboclient4j.git",
+  "revision": "18b596ad7116f55d8c2b25e9aa4954d3b51507fb",
+  "build_system": "mvn",
+  "test_class": "weiboclient4j.params.CoreParametersTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": ".",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

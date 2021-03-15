@@ -1,0 +1,14 @@
+{
+  "id": "ivantrendafilov-confucius-101",
+  "name": "Confucius",
+  "vcs": "git",
+  "repo": "https://github.com/emopers/Confucius.git",
+  "revision": "2fefd5eb6d77ab1b83efe3bf50171aabc7128460",
+  "build_system": "mvn",
+  "test_class": "org.trendafilov.confucius.ConfigurationTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": ".",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

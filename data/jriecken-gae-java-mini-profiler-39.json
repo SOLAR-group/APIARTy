@@ -1,0 +1,14 @@
+{
+  "id": "jriecken-gae-java-mini-profiler-39",
+  "name": "gae-java-mini-profiler",
+  "vcs": "git",
+  "repo": "https://github.com/emopers/gae-java-mini-profiler.git",
+  "revision": "30be31776655f73487a59d443b30c7f7408f251b",
+  "build_system": "mvn",
+  "test_class": "com.google.appengine.tools.appstats.MiniProfilerAppstatsTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": ".",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

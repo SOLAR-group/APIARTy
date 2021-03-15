@@ -1,0 +1,14 @@
+{
+  "id": "Bears-104",
+  "name": "traccar",
+  "vcs": "git",
+  "repo": "https://github.com/traccar/traccar.git",
+  "revision": "c53feac38ec149fed84121704c620503bf1f7820",
+  "build_system": "mvn",
+  "test_class": "org.traccar.protocol.SuntechProtocolDecoderTest",
+  "src_path": "src/org/traccar/",
+  "test_path": "test/org/traccar/",
+  "package_path": ".",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "CAMEL-7213",
+  "name": "camel",
+  "vcs": "git",
+  "repo": "https://github.com/apache/camel.git",
+  "revision": "336663c940bca8d8e6326385217b8cf2ec2829de",
+  "build_system": {
+    "custom": [
+      {
+        "compile": "mvn clean install -U -V -B"
+      },
+      {
+        "extract": "mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"
+      }
+    ]
+  },
+  "test_class": "org.apache.camel.converter.NIOConverterTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": "camel-core/",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

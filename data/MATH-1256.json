@@ -1,0 +1,14 @@
+{
+  "id": "MATH-1256",
+  "name": "commons-math",
+  "vcs": "git",
+  "repo": "https://github.com/apache/commons-math.git",
+  "revision": "41f297809965523fcd021bef20b304b3584d9b4f",
+  "build_system": "mvn",
+  "test_class": "org.apache.commons.math4.geometry.euclidean.oned.IntervalTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": ".",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

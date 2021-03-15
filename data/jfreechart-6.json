@@ -1,0 +1,14 @@
+{
+  "id": "jfreechart-6",
+  "name": "jfreechart",
+  "vcs": "git",
+  "repo": "https://github.com/jfree/jfreechart.git",
+  "revision": "103",
+  "build_system": "ant",
+  "test_class": "org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests",
+  "src_path": "source/",
+  "test_path": "tests/",
+  "package_path": ".",
+  "src_classes": "build",
+  "test_classes": "build-tests"
+}

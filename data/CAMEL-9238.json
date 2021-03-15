@@ -1,0 +1,23 @@
+{
+  "id": "CAMEL-9238",
+  "name": "camel",
+  "vcs": "git",
+  "repo": "https://github.com/apache/camel.git",
+  "revision": "169b981e4552a3a38fe350a1466493e19372573a",
+  "build_system": {
+    "custom": [
+      {
+        "compile": "mvn clean install -Pfastinstall -U -V -B"
+      },
+      {
+        "extract": "mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"
+      }
+    ]
+  },
+  "test_class": "org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": "camel-core/",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "LOG4J2-742",
+  "name": "logging-log4j2",
+  "vcs": "git",
+  "repo": "https://github.com/apache/logging-log4j2.git",
+  "revision": "4b77622ba9cc113ec71514bd8658abaad0963995",
+  "build_system": {
+    "custom": [
+      {
+        "test": "mvn test -U -V -B"
+      },
+      {
+        "compile": "mvn install -DskipTests -U -V -B"
+      },
+      {
+        "extract": "mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"
+      }
+    ]
+  },
+  "test_class": "org.apache.logging.log4j.core.config.XIncludeTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": "log4j-core",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

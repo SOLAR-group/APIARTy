@@ -1,0 +1,26 @@
+{
+  "id": "OAK-2465",
+  "name": "jackrabbit-oak",
+  "vcs": "git",
+  "repo": "https://github.com/joansmith/jackrabbit-oak.git",
+  "revision": "60186813ff3e249666eb87dd6207bcfa9a328b35",
+  "build_system": {
+    "custom": [
+      {
+        "test": "mvn test -U -V -B"
+      },
+      {
+        "compile": "mvn install -DskipTests -U -V -B"
+      },
+      {
+        "extract": "mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"
+      }
+    ]
+  },
+  "test_class": "org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImplTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": "oak-core",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

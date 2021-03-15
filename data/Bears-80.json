@@ -1,0 +1,14 @@
+{
+  "id": "Bears-80",
+  "name": "spoon",
+  "vcs": "git",
+  "repo": "https://github.com/INRIA/spoon.git",
+  "revision": "0e4787187d8d6192c43144de0fc91e5047fa867b",
+  "build_system": "mvn",
+  "test_class": "spoon.test.compilation.CompilationTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": ".",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

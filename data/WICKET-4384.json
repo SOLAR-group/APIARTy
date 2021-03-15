@@ -1,0 +1,26 @@
+{
+  "id": "WICKET-4384",
+  "name": "wicket",
+  "vcs": "git",
+  "repo": "https://github.com/apache/wicket.git",
+  "revision": "614e3b508346e55d2fb89d767f4bf6bda5ee4537",
+  "build_system": {
+    "custom": [
+      {
+        "test": "mvn test -U -V -B"
+      },
+      {
+        "compile": "mvn install -DskipTests -U -V -B"
+      },
+      {
+        "extract": "mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"
+      }
+    ]
+  },
+  "test_class": "org.apache.wicket.request.mapper.UrlInfoTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": "wicket-core",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

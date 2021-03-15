@@ -1,0 +1,23 @@
+{
+  "id": "CAMEL-7209",
+  "name": "camel",
+  "vcs": "git",
+  "repo": "https://github.com/apache/camel.git",
+  "revision": "5f78c646c2b305d5373629a448efc953cd793cd9",
+  "build_system": {
+    "custom": [
+      {
+        "compile": "mvn clean install -Pfastinstall -U -V -B"
+      },
+      {
+        "extract": "mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"
+      }
+    ]
+  },
+  "test_class": "org.apache.camel.converter.jaxp.XmlConverterTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": "camel-core/",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

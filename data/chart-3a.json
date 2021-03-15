@@ -1,0 +1,14 @@
+{
+  "id": "chart-3a",
+  "name": "closure-compiler",
+  "vcs": "git",
+  "repo": "https://github.com/google/closure-compiler.git",
+  "revision": "d1cfe67977d8f3aaa85ec20c262171da394d5977",
+  "build_system": "ant",
+  "test_class": "com.google.javascript.jscomp.TypeCheckTest",
+  "src_path": "src/",
+  "test_path": "test/",
+  "package_path": ".",
+  "src_classes": "build/classes",
+  "test_classes": "build/test"
+}

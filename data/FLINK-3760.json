@@ -1,0 +1,14 @@
+{
+  "id": "FLINK-3760",
+  "name": "flink",
+  "vcs": "git",
+  "repo": "https://github.com/apache/flink.git",
+  "revision": "494212b37b64b45cd777cc09fc6d3d3d8fbf5999",
+  "build_system": "mvn",
+  "test_class": "org.apache.flink.api.common.state.ValueStateDescriptorTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": "flink-core/",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "CAMEL-9269",
+  "name": "camel",
+  "vcs": "git",
+  "repo": "https://github.com/apache/camel.git",
+  "revision": "62b2042b2fa9388aab16d5cee1385000a81a6a6b",
+  "build_system": {
+    "custom": [
+      {
+        "compile": "mvn clean install -Pfastinstall -U -V -B"
+      },
+      {
+        "extract": "mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"
+      }
+    ]
+  },
+  "test_class": "org.apache.camel.builder.NotifyBuilderFromRouteTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": "camel-core/",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

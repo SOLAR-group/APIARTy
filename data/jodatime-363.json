@@ -1,0 +1,14 @@
+{
+  "id": "jodatime-363",
+  "name": "joda",
+  "vcs": "git",
+  "repo": "https://github.com/emopers/joda-time.git",
+  "revision": "76fa43737656d859f0943f5326cf2b8565c4b032",
+  "build_system": "mvn",
+  "test_class": "org.joda.time.tz.TestCompiler",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": ".",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

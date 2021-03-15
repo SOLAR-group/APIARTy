@@ -1,0 +1,14 @@
+{
+  "id": "Bears-101",
+  "name": "traccar",
+  "vcs": "git",
+  "repo": "https://github.com/traccar/traccar.git",
+  "revision": "1909b845a8c77a2463c0ad8d4c1952b8c0852ae2",
+  "build_system": "mvn",
+  "test_class": "org.traccar.protocol.Gl200ProtocolDecoderTest",
+  "src_path": "src/org/traccar/",
+  "test_path": "test/org/traccar/",
+  "package_path": ".",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

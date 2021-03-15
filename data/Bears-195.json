@@ -1,0 +1,14 @@
+{
+  "id": "Bears-195",
+  "name": "dubbo",
+  "vcs": "git",
+  "repo": "https://github.com/apache/dubbo.git",
+  "revision": "c4dfc3acfde53e35a95279848002bb8ccfe7a2a6",
+  "build_system": "mvn",
+  "test_class": "com.alibaba.dubbo.config.AbstractInterfaceConfigTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": "dubbo-config/dubbo-config-api/",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

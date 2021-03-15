@@ -1,0 +1,14 @@
+{
+  "id": "Bears-184",
+  "name": "spring-data-jpa",
+  "vcs": "git",
+  "repo": "https://github.com/spring-projects/spring-data-jpa.git",
+  "revision": "e35a0987992cc23ba06c6ddc15ae8a01d023bc84",
+  "build_system": "mvn",
+  "test_class": "org.springframework.data.jpa.util.JpaMetamodelUnitTests",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": ".",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

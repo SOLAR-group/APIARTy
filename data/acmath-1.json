@@ -1,0 +1,14 @@
+{
+  "id": "acmath-1",
+  "name": "commons-math",
+  "vcs": "git",
+  "repo": "https://github.com/apache/commons-math.git",
+  "revision": "d270055e874148a2742604be36ab977eec030fba",
+  "build_system": "mvn",
+  "test_class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": ".",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

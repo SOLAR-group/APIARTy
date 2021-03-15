@@ -1,0 +1,14 @@
+{
+  "id": "Bears-114",
+  "name": "traccar",
+  "vcs": "git",
+  "repo": "https://github.com/traccar/traccar.git",
+  "revision": "d9c3568535f8a3ef9cedb43f7c48e839e2940d1f",
+  "build_system": "mvn",
+  "test_class": "org.traccar.protocol.StarLinkProtocolDecoderTest",
+  "src_path": "src/org/traccar/",
+  "test_path": "test/org/traccar/",
+  "package_path": ".",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

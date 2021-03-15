@@ -1,0 +1,26 @@
+{
+  "id": "OAK-2559",
+  "name": "jackrabbit-oak",
+  "vcs": "git",
+  "repo": "https://github.com/apache/jackrabbit-oak.git",
+  "revision": "5b415a94029da1b770765d23cd3bca586445a030",
+  "build_system": {
+    "custom": [
+      {
+        "test": "mvn test -U -V -B"
+      },
+      {
+        "compile": "mvn install -DskipTests -U -V -B"
+      },
+      {
+        "extract": "mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"
+      }
+    ]
+  },
+  "test_class": "org.apache.jackrabbit.oak.plugins.index.lucene.IndexDefinitionTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": "oak-lucene",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

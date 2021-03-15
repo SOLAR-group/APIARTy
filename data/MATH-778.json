@@ -1,0 +1,14 @@
+{
+  "id": "MATH-778",
+  "name": "commons-math",
+  "vcs": "git",
+  "repo": "https://github.com/apache/commons-math.git",
+  "revision": "5b9302d5be3c35f6336ebb6b7f6cbfe732761d72",
+  "build_system": "mvn",
+  "test_class": "org.apache.commons.math3.dfp.DfpTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
+  "package_path": ".",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}
