@@ -12,6 +12,8 @@ This repository accompanies the paper Evaluating Automatic Program Repair Capabi
 
 ## Selected repair tools
 
+The following table shows the automated repair tools used for comparing their capabilities on detecting and fixing API misuses.
+
 | #  | Tool             | Language | Repository                             | Checkout SHA |
 | -- | ---------------  | -------- | -------------------------------------  | ------------ |
 | 1  | Nopol            | Java     | https://github.com/SpoonLabs/nopol     | bf4a92f      |
@@ -30,6 +32,8 @@ This repository accompanies the paper Evaluating Automatic Program Repair Capabi
 | 14 | SimFix           | Java     | https://github.com/xgdsmileboy/SimFix  | c2a5319      |
 
 ## Used bug benchmarks
+
+The following table lists the bug benchmarks used for creating our benchmark of API misuses, APIRepBench (found in the data folder).
 
 | # | Benchmark      | Language | # Projects | # Bugs | # API Misuses | # Final Projects | Link                                           |
 | - | -------------- | -------- | ----------:| ------:| -------------:| ----------------:| ---------------------------------------------  |
