@@ -96,7 +96,7 @@ APIARTy
 ├── apiarty.bin
 │   ├── apiarty
 │   └── bashrc
-├── data
+├── data: Our APIRepBench benchmark of API misuses
 │   └── <bug_id>.json: standard input (with project metadata)
 ├── findings: findings for Astor, NPEFix, recent tools (Avatar, TBar, SimFix), and remaining tools (the general structure follows)
 │   ├── <bug_id>
