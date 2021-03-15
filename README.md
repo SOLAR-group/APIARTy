@@ -98,7 +98,7 @@ APIARTy
 │   └── bashrc
 ├── data
 │   └── <bug_id>.json: standard input (with project metadata)
-├── findings
+├── findings: findings for Astor, NPEFix, recent tools (Avatar, TBar, SimFix), and remaining tools (the general structure follows)
 │   ├── <bug_id>
 │   │   └── <repair tool>
 │   │       ├── stderr.txt: stderr of the execution (with repair)
