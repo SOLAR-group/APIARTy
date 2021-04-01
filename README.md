@@ -96,8 +96,10 @@ This repository is structured as follows:
 
 ```
 APIARTy
+├── APIRepBench.xlsx: bugs of APIRepBench, correctness information, execution time information
 ├── Dockerfile
 ├── README.md
+├── _config.yml
 ├── apiarty
 ├── apiarty.bin
 │   ├── apiarty
@@ -105,15 +107,16 @@ APIARTy
 ├── data: Our APIRepBench benchmark of API misuses
 │   └── <bug_id>.json: standard input (with project metadata)
 ├── findings: findings for Astor, NPEFix, recent tools (Avatar, TBar, SimFix), and remaining tools (the general structure follows)
-│   ├── <bug_id>
-│   │   └── <repair tool>
-│   │       ├── stderr.txt: stderr of the execution (with repair)
-│   │       └── stdout.txt: stdout of the execution (with repair)
-│   ├── <bug_id>_simfix.txt: repair log of SimFix
-│   ├── <bug_id>_avatar.txt: repair log of Avatar
-│   ├── <bug_id>_tbar.txt: repair log of TBar
-│   ├── all-results.csv: execution time taken by the repair attempts (without those that reach the timeout)
-│   └── timeout.csv: repair attempts that failed by timeout
+│   └── findings
+│       ├── <bug_id>
+│       │   └── <repair tool>
+│       │       ├── stderr.txt: stderr of the execution (with repair)
+│       │       └── stdout.txt: stdout of the execution (with repair)
+│       ├── <bug_id>_avatar.txt: repair log of Avatar
+│       ├── <bug_id>_tbar.txt: repair log of TBar
+│       ├── <bug_id>_simfix.txt: repair log of SimFix
+│       ├── all-results.csv: execution time taken by the repair attempts (without those that reach the timeout)
+│       └── timeout.csv: repair attempts that failed by timeout
 └── guidelines
     ├── Avatar
     │   ├── AbstractFixer.java
