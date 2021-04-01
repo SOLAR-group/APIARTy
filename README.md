@@ -1,6 +1,6 @@
 # APIARTy
 
-APIARTy is an automated pipeline for evaluating and comparing automated program repair tools (repair tools) that can potentially detect and fix API misuses in Java programs. APIARTy currently includes MUBench, Bears, and Bugs.jar as bug benchmarks and state-of-the-art repair tools including Arja, Astor, Nopol, NPEFix, Avatar, TBar, and SimFix. APIARTy is evaluated on a new benchmark of API misuses, APIRepBench (see APIARTy/data and APIRepBench.xls).
+APIARTy is an automated pipeline for evaluating and comparing automated program repair tools (repair tools) that can potentially detect and fix API misuses in Java programs. APIARTy currently includes MUBench, Bears, and Bugs.jar as bug benchmarks and state-of-the-art repair tools including Arja, Astor, Nopol, NPEFix, Avatar, TBar, and SimFix. APIARTy is evaluated on a new benchmark of API misuses, APIRepBench (see APIARTy/data and APIRepBench.xlsx).
 
 This repository accompanies the paper [Evaluating Automatic Program Repair Capabilities to Repair API Misuses](https://www.computer.org/csdl/journal/ts/5555/01/09381596/1s4l0XuiCgo). If you use APIARTy or APIRepBench, please cite our paper as follows:
 
@@ -96,7 +96,7 @@ This repository is structured as follows:
 
 ```
 APIARTy
-├── APIRepBench.xlsx: bugs of APIRepBench, correctness information, execution time information
+├── APIRepBench.xlsx: information on the bugs of APIRepBench, patch correctness, execution time of repair attempts
 ├── Dockerfile
 ├── README.md
 ├── _config.yml
