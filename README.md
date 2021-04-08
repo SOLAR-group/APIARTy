@@ -8,6 +8,8 @@ M. Kechagia, S. Mechtaev, F. Sarro and M. Harman, "Evaluating Automatic Program 
 
 See this project's webpage in CREST/SOLAR, [here](https://solar.cs.ucl.ac.uk/os/apiarty.html).
 
+For any questions on this project, please contact Maria Kechagia (m.kechagia[AT]ucl.ac.uk).
+
 ## Goals
 
 * Execution of 14 repair tools on API misuses extracted from three bug benchmarks.
